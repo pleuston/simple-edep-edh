@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Roma &amp;ndash; Roma (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD030445</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD030445</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Roma, Mus. Naz. Rom.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>(48)</height><width>(48)</width><depth>13</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">2.5-1.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma</placeName><placeName type="findspot">Ponte di Ripetta, bei</placeName><placeName type="region">Lazio</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD030445_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2010-12-29" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F010843" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/80746ee2-88ac-4c58-9e2c-34581409f347/file/id/770363/file_version/name/small"/><graphic xml:id="F030143" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/00df25bf-a081-4832-a8b2-eff34ef94f98/file/id/790900/file_version/name/small"/><graphic xml:id="F030144" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/8f50d909-3a44-483c-9b48-8e25f98772cd/file/id/790901/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">prov</supplied>incia<supplied reason="lost">e</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">lega</supplied>to Achaiae <expan><abbr>leg</abbr><ex>ato</ex></expan> <expan><abbr>Hisp</abbr><ex>aniae</ex></expan> <supplied reason="lost"><expan><abbr>ult</abbr><ex>erioris</ex></expan> Baeticae</supplied> <lb n="3"/><supplied reason="lost"><expan><abbr>pr</abbr><ex>aetori</ex></expan> <expan><abbr>tr</abbr><ex>ibuno</ex></expan> <expan><abbr>pl</abbr><ex>ebis</ex></expan> <expan><abbr>q</abbr><ex>uaestori</ex></expan></supplied> Galliae Narbonensis <expan><abbr>III</abbr><ex>viro</ex></expan> <note>sic</note> <expan><abbr>a</abbr><ex>uro</ex></expan> <expan><abbr>a</abbr><ex>rgento</ex></expan> <supplied reason="lost" cert="low">a(ere) f(lando) f(eriundo) VIvir(o) eq(uitum) Rom(anorum)</supplied> <lb n="4"/><supplied reason="lost">Se</supplied>cundani Firmo Iuli<supplied reason="lost" cert="low">o cives</supplied> <lb n="5"/><expan><abbr>Arausion</abbr><ex>enses</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 06, 41091; Foto.</bibl><bibl>CIL 06, 31801.</bibl><bibl>AE 1891, 0040.</bibl><bibl>D. Vaglieri, NSA 1890, 286. - AE 1891.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

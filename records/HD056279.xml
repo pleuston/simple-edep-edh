@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Mogontiacum &amp;ndash; Mainz (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD056279</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD056279</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109169">Mogontiacum</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1714"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2874225">Mainz</placeName><placeName type="findspot">{Bastion Albani}, Graben</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD056279_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD056279_2" sex="M"><persName><name type="nomen">Severius</name><name type="cognomen">Ursus</name></persName></person><person xml:id="HD056279_3" sex="M"><persName><name type="nomen">Severius</name><name type="cognomen">Servandus+</name></persName></person><person xml:id="HD056279_4" sex="M"><persName><name type="nomen">Severius</name><name type="cognomen">Fabricius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2018-10-24" who="Gräf">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><supplied reason="lost" cert="low">eq(uiti)? si</supplied><expan><abbr>ngul</abbr><ex cert="low">ari</ex></expan> <expan><abbr>miss</abbr><ex>o</ex></expan> <supplied reason="lost">hone</supplied>sta <lb n="2"/><supplied reason="lost">mi</supplied>ssione <expan><abbr>Severi</abbr><ex>i</ex></expan> Ursus S<supplied reason="lost">er</supplied><lb break="no" n="3"/><supplied reason="lost">v</supplied>andus Fabricius <expan><abbr>fili</abbr><ex>i</ex></expan> <lb n="4"/><supplied reason="lost">et</supplied> heredes patri pientiss<supplied reason="lost">i</supplied><lb break="no" n="5"/><supplied reason="lost" cert="low">mo f(aciendum)? c(uraverunt)</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Nur handschriftlich und in mehreren Varianten überliefert.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 07057.</bibl><bibl>CIL 03, 00238*.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Vintium &amp;ndash; Vence (Alpes Maritimae)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD066031</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD066031</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/78">urn</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Alpes Maritimae</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/167973">Vintium</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/2970148">Vence</placeName><placeName type="findspot">{Quartier S.-Donat}</placeName><placeName type="region">Provence-Alpes-Côte d’Azur</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD066031_1" sex="W"><persName><name type="nomen">Valeria</name></persName></person><person xml:id="HD066031_2" sex="W"><persName><name type="cognomen">Fuscina</name></persName></person><person xml:id="HD066031_3" sex="M"><persName><name type="nomen">Valerius+</name><name type="cognomen">Marcus</name></persName></person><person xml:id="HD066031_4" sex="M"><persName><name type="nomen">Valerius+</name><name type="cognomen">Secundus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-07-19" who="Cimarosti">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Valeriae <gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><expan><abbr>q</abbr><ex>uae</ex></expan> <expan><abbr>v</abbr><ex>ixit</ex></expan> <expan><abbr>a</abbr><ex>nnos</ex></expan> XIIII A<gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/>Fuscina mater filiae <lb n="4"/><expan><abbr>pi<supplied reason="lost">i</supplied>ss</abbr><ex>imae</ex></expan> et V<supplied reason="lost">a</supplied>l<supplied reason="lost">er</supplied>i Marcus <lb n="5"/>et Secundus sorori <lb n="6"/>merentiss<supplied reason="lost">i</supplied>mae fecerunt
+            </ab></div>
+            <div type="commentary">
+                <p>(B): CIL: Leseabweichungen. Bearbeiterin: V. Pettirossi.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 12, 00047. (B)</bibl><bibl>S. Morabito, Inscriptions latines des Alpes Maritimes (Nice - Montpellier 2010) 206, Nr. 95; Zeichnung.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

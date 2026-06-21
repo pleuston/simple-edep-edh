@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Praetorium Latobicorum &amp;ndash; Trebnje (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD049768</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD049768</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Trebnje, Dečja vas, S. Mihael, Kirche, vermauert</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(96)</height><width>(63)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197457">Praetorium Latobicorum</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1996"><placeName type="country" ref="https://www.geonames.org/3190538">Slovenia</placeName><placeName type="modern" ref="http://www.geonames.org/3202128">Trebnje</placeName><placeName type="findspot">Dečja vas, {S. Mihael, Kirche}, sekundär verwendet</placeName><placeName type="region">Jugovzhodna Slovenija statistična regija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-11-19" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F012809" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/8f0d2bfd-b9f2-44c8-82d4-12959e26d985/file/id/772334/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>n<am>n</am></abbr><ex>norum</ex></expan> XL <gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/>et Ursulo <expan><abbr>f</abbr><ex>ilio</ex></expan> a<supplied reason="lost"><expan><abbr>n</abbr><ex>norum</ex></expan></supplied><gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Oberfläche teilweise stark verrieben.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1997, 1240.</bibl><bibl>M. Lovenjak, AArchSlov 48, 1997, 72-73. 87, Nr. 8; sl. 12. - AE 1997.</bibl><bibl>ILSl 1, 092; Foto.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

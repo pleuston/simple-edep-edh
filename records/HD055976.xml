@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Identification inscription from Billingford (Britannia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD055976</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD055976</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Norwich, Castle Mus. and Art Gall.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/112">Gold</material><dimensions unit="cm"><height>3</height><width>4</width><depth>0</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Britannia</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0051" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="2003"><placeName type="country" ref="https://www.geonames.org/2635167">United Kingdom</placeName><placeName type="modern" ref="http://www.geonames.org/2655665">Billingford</placeName><placeName type="findspot"/><placeName type="region">Norfolk</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>identification inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD055976_1" sex="M"><persName><name type="praenomen">Tib.</name><name type="nomen">Claudius*</name><name type="cognomen">Similis</name></persName></person><person xml:id="HD055976_2" sex="W"><persName><name type="nomen">Herennia*</name><name type="cognomen">Marcellina</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-03-10" who="Cowey">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Ιαω <lb n="2"/>Αβρασαξ <lb n="3"/>πανεη αβλαν<lb break="no" n="4"/><surplus>ν</surplus>αθαναλβα <lb n="5"/>δαθε σαλυθεμ ετ υικτθωριαμ </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>Tib</abbr><ex>erium</ex></expan> Clau<expan><ex>diu</ex><abbr>m</abbr></expan> Similem quem pe<lb break="no" n="2"/>perit Heren<expan><ex>n</ex><abbr>ia</abbr></expan> Marcellina
+            </ab></div></div>
+            <div type="commentary">
+                <p>δαθε σαλυθεμ ετ υικτθωριαμ ist als Latein &amp;quot;&amp;quot;date salutem et victoriam&amp;quot;&amp;quot; zu lesen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2004, 0853.</bibl><bibl>R.S.O. Tomlin, ZPE 149, 2004, 259-266; Foto. - AE 2004.</bibl><bibl>R.P.J. Jackson, in: A. Gannan - L. Voden-Decker - R. Bland (Hrsg.), Treasure Annual Report 2003, 56, Nr. 67. - AE 2004.</bibl><bibl>AE 2006, 0749.</bibl><bibl>R.S.O. Tomlin - M.W.C. Hassall, Britannia 37, 2006, 481-482, Nr. 51; fig. 9a; fig. 9a (Foto) u. fig. 9b (Zeichnung). - AE 2006.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Roma &amp;ndash; Roma (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD025601</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD025601</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">10-7</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma</placeName></origPlace><origDate><origDate notBefore-custom="0098" notAfter-custom="0102" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">98 AD - 102 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma</placeName><placeName type="findspot">Piazza Cairoli</placeName><placeName type="region">Lazio</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD025601_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1425"><name type="cognomen">Nerva+ Traianus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2010-11-22" who="Feraudi">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Im<supplied reason="lost"><expan><abbr>p</abbr><ex>eratori</ex></expan> Caesari divi Nervae <expan><abbr>f</abbr><ex>ilio</ex></expan></supplied> <lb n="2"/>Ne<supplied reason="lost">rvae Traiano <expan><abbr>Aug</abbr><ex>usto</ex></expan> <expan><abbr>Ger</abbr><ex>manico</ex></expan> <expan><abbr>pont</abbr><ex>ifici</ex></expan></supplied> <lb n="3"/>m<supplied reason="lost"><expan><abbr>ax</abbr><ex>imo</ex></expan> <expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>desig</abbr><ex>nato</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan></supplied> <lb n="4"/>sc<supplied reason="lost">ribae<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <gap reason="lost" extent="unknown" unit="character"/></supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Ergänzung nach G. Alföldy.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 06, 40490.</bibl><bibl>CIL 06, 31299.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

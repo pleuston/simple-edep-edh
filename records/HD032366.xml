@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Roma &amp;ndash; Roma (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD032366</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD032366</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Roma, Ist. Epigr. (Kopie)</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>(20)</height><width>(24)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma</placeName></origPlace><origDate><origDate notBefore-custom="0171" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD - 230 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma</placeName><placeName type="findspot">coemeterium der Priscilla</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD032366_1"><persName ref="http://data.snapdrgn.net/person/6702"><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">Hippias+ Paulinus [---]nus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2008-05-29" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F040209" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/a19bde1e-0de0-4827-a125-ec274726ff19/file/id/801091/file_version/name/small"/><graphic xml:id="F010918" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/b4d5ec0a-9fa4-462a-9454-83d1957cf52d/file/id/770438/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">Hi</supplied>ppia Paulino <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>no <expan><abbr>c</abbr><ex>larissimo</ex></expan> <expan><abbr>i</abbr><ex>uveni</ex></expan> <expan><abbr>pont</abbr><ex>ifici</ex></expan> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>praef</abbr><ex>ectus</ex></expan> Aegyp<supplied reason="lost">ti</supplied> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Es sind 6 aneinanderpassende Fragmente erhalten.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 06, 41205; Foto.</bibl><bibl>PIR (2. Aufl.) N 54.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

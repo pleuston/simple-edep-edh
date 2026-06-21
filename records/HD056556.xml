@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription from Bigeste &amp;ndash; Ljubuški (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD056556</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD056556</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Ljubuški, Humac, Franziskanerkloster</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><dimensions unit="cm"><height>(41)</height><width>(36)</width><depth>20</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197167">Bigeste</placeName></origPlace><origDate><origDate notBefore-custom="0051" notAfter-custom="0170" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD - 170 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3277605">Bosnia and Herzegovina</placeName><placeName type="modern" ref="http://www.geonames.org/3288712">Ljubuški</placeName><placeName type="findspot">{Humac}</placeName><placeName type="region">Zapadnohercegovački kanton</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/143" xml:lang="en">unknown</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD056556_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2018-02-08" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>LD<gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> prae<gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>coh</abbr><ex>or-</ex></expan> I B<supplied reason="lost"><expan><abbr>elg</abbr><ex cert="low">arum</ex></expan></supplied><gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>A. Škegro, OpuscArchZagreb 21, 1997, 88, Nr. 13.</bibl><bibl>V. Atanacković-Salčić, Naše starine 14/15, 1981, 274-275, Nr. 16; sl. 16; crtež 13 (Zeichnung).</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

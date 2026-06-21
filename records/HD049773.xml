@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Metlika (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD049773</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD049773</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Metlika, Belokrajnski Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(74)</height><width>(80)</width><depth>21</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.5-6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1951"><placeName type="country" ref="https://www.geonames.org/3190538">Slovenia</placeName><placeName type="modern" ref="http://www.geonames.org/8988603">Metlika</placeName><placeName type="findspot">{Ravnace}, Na pesku</placeName><placeName type="region">Jugovzhodna Slovenija statistična regija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD049773_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]anus</name></persName></person><person xml:id="HD049773_2" sex="M"><persName><name type="cognomen">Valens</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-11-24" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F012831" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/43be0fd3-be3b-4dbf-be19-51033454f0d3/file/id/772356/file_version/name/small"/><graphic xml:id="F012832" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/212dbc64-33a3-4340-a12a-cb9f4508857e/file/id/772357/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>M<gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>ano <expan><abbr>an</abbr><ex>norum</ex></expan> <lb n="3"/><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied> <expan><abbr>mat</abbr><ex>er</ex></expan> opt<lb break="no" n="4"/>ima Valenti <lb n="5"/>an<expan><ex>n</ex><abbr>o</abbr><ex>rum</ex></expan> XXV ma<lb break="no" n="6"/><expan><abbr>t</abbr><ex>er</ex></expan> <expan><abbr>opt</abbr><ex>ima</ex></expan> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Zwei nicht aneinanderpassende Fragmente erhalten; Oberfläche teilweise stark verwittert. Oberhalb des Inschriftfeldes vier Büsten. Z. 7: noch der Rest eines nicht eindeutig identifizierbaren Buchstabens oder Zeichens erhalten.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1997, 1246.</bibl><bibl>M. Lovenjak, AArchSlov 48, 1997, 84-86. 88, Nr. 18; sl. 22. - AE 1997.</bibl><bibl>ILSl 1, 166; Fotos.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

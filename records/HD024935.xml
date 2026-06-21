@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Roma &amp;ndash; Roma (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD024935</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD024935</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Roma, Mus. Naz. Rom.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/53">base</objectType><dimensions unit="cm"><height>(50)</height><width>(36)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6-4.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma</placeName></origPlace><origDate><origDate notBefore-custom="0014" notAfter-custom="0023" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">14 AD - 23 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma</placeName><placeName type="findspot">Kapitol</placeName><placeName type="region">Lazio</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD024935_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q156778"><name type="praenomen">Drusus</name><name type="nomen">Caesar+</name></persName></person><person xml:id="HD024935_2" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1407"><name type="praenomen">Ti.</name><name type="cognomen">Augustus*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-09-01" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F010400" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/fb83f09e-cc00-4e64-b08e-cca07924f15c/file/id/769920/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Druso <supplied reason="lost">Caesari</supplied> <lb n="2"/><expan><abbr>Ti</abbr><ex>beri</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> d<supplied reason="lost">ivi <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>nep</abbr><ex>oti</ex></expan></supplied> <lb n="3"/>Divi Iul<supplied reason="lost">i <expan><abbr>pronep</abbr><ex>oti</ex></expan></supplied> <lb n="4"/>pontif<supplied reason="lost">ici auguri</supplied> <lb n="5"/><supplied reason="lost">sodali Augustali</supplied> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 06, 40353; Foto.</bibl><bibl>CIL 06, 31280.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

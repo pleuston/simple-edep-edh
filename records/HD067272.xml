@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Lauriacum, bei &amp;ndash; Aschbach-Markt (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD067272</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD067272</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material>Gesteine</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118802">Lauriacum, bei</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2782347">Aschbach-Markt</placeName><placeName type="findspot">{S. Martin, Pfarrkirche}, sekundär verwendet</placeName><placeName type="region">Niederösterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD067272_1" sex="M"><persName><name type="cognomen">Secundinus+*</name></persName></person><person xml:id="HD067272_2" sex="M"><persName><name type="cognomen">[---]vus</name></persName></person><person xml:id="HD067272_3" sex="W"><persName><name type="cognomen">Secundina+*</name></persName></person><person xml:id="HD067272_4" sex="M"><persName><name type="cognomen">[---]rus</name></persName></person><person xml:id="HD067272_5" sex="M"><persName><name type="nomen">I(---)</name><name type="cognomen">C(---)</name></persName></person><person xml:id="HD067272_6" sex="M"><persName><name type="cognomen">[---]R</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-12-21" who="Cowey">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr><supplied reason="lost">Sec</supplied>u</abbr><ex>n</ex>dinus</expan> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>vi f<expan><ex>i</ex><abbr>l</abbr><ex>ius</ex></expan> <expan><abbr>an</abbr><ex>norum</ex></expan> LX <lb n="3"/><expan><abbr><supplied reason="lost">Secu</supplied>nd</abbr><ex>i</ex>na</expan> <gap reason="lost" extent="unknown" unit="character"/>ri f<expan><ex>i</ex><abbr>l</abbr><ex>ia</ex></expan> <abbr>I</abbr> <abbr>C</abbr> <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>R <expan><abbr>f</abbr><ex>i</ex></expan><expan><abbr>l</abbr><ex cert="low">ius</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 05676.</bibl><bibl>CIL 03, 11818.</bibl><bibl>ILLPRON 0917.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

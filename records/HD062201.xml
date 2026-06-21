@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Vindonissa &amp;ndash; Windisch (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD062201</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD062201</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Brugg, Vindonissa-Mus. (Kopie)</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/177661">Vindonissa</placeName></origPlace><origDate><origDate notBefore-custom="0085" notAfter-custom="0096" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">85 AD - 96 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1894"><placeName type="country" ref="https://www.geonames.org/2658434">Switzerland</placeName><placeName type="modern" ref="http://www.geonames.org/2657976">Windisch</placeName><placeName type="findspot">{Königsfelden, Kloster, Kirche}, Sarkophag, sekundär verwendet</placeName><placeName type="region">Kanton Aargau</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD062201_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1423"><name type="cognomen">Domitianus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-08-21" who="Esch">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>eratore</ex></expan> C<supplied reason="lost">aesare divi Vespasiani</supplied> <expan><abbr>f</abbr><ex>ilio</ex></expan> Do<supplied reason="lost">mitiano <expan><abbr>Aug</abbr><ex>usto</ex></expan></supplied> <lb n="2"/>Ger<supplied reason="lost"><expan><abbr>m</abbr><ex>anico</ex></expan> <expan><abbr>pont</abbr><ex>ifice</ex></expan> <expan><abbr>max</abbr><ex>imo</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> i</supplied><expan><abbr>mp</abbr><ex>eratore</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>RTO<gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Zwei nicht aneinanderpassende Fragmente erhalten. (B): Eck: Z. 3: [---]TO; Laur-Belart: Z. 3: [---]RTC; Gessner-Siegfried: Z. 3: [---]TC.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 11517.</bibl><bibl>W. Eck, Die Statthalter der germanischen Provinzen vom 1.-3. Jahrhundert (Köln 1985) 44 Nr. 20. (B)</bibl><bibl>R. Laur-Belart, Vindonissa. Lager und Vicus (Berlin - Leipzig 1935) 7. (B)</bibl><bibl>A. Gessner-Siegfried, Katalog des Kantonalen Antiquariums in Aarau (Aarau 1912) 11-12, Nr. 896b u. 896c. (B)</bibl><bibl>A. Schneider, ASA 7, 1892-1895, 300-301; Taf. 22 (Zeichnung).</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

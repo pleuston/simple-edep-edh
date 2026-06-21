@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Ansium, bei &amp;ndash; Obrovac (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD035467</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD035467</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Obrovac, Kruševo, S. Jure, Kirche, vermauert</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">altar?</objectType><material>Gesteine</material><dimensions unit="cm"><height>84</height><width>51</width><depth>(43)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197119">Ansium, bei</placeName></origPlace><origDate><origDate notBefore-custom="0051" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3197071">Obrovac</placeName><placeName type="findspot">Kruševo, {S. Jure, alte Kirche}, sekundär verwendet</placeName><placeName type="region">Zadarska županija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD035467_1" sex="M"><persName><name type="praenomen">T.</name><name type="nomen">Caninius</name><name type="cognomen">Maximus*</name></persName></person><person xml:id="HD035467_2" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Maesius</name><name type="cognomen">Paulus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-10-21" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>T</abbr><ex>itus</ex></expan> Caninius <lb n="2"/><expan><abbr>T</abbr><ex>iti</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>Ser</abbr><ex>gia</ex></expan> <expan><abbr>Maxim</abbr><ex>us</ex></expan> <lb n="3"/><expan><abbr>vet</abbr><ex>eranus</ex></expan> <expan><abbr>coh</abbr><ex>ortis</ex></expan> VI <expan><abbr>pr</abbr><ex>aetoriae</ex></expan> <lb n="4"/>sibi <expan><abbr>t</abbr><ex>estamento</ex></expan> <expan><abbr>p</abbr><ex>oni</ex></expan> <expan><abbr>i</abbr><ex>ussit</ex></expan> <lb n="5"/><expan><abbr>M</abbr><ex>arcus</ex></expan> Maesius Pau<lb break="no" n="6"/>lus <expan><abbr>h</abbr><ex>eres</ex></expan> <expan><abbr>p</abbr><ex>onendum</ex></expan> <expan><abbr>c</abbr><ex>uravit</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Fundjahr: 2007 oder 2008 wiederentdeckt. (B): CIL III: Z. 5/6: Pau/lus vet. p. c.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILJug 2854.</bibl><bibl>CIL 03, 02884. (B)</bibl><bibl>A. Colnago - J. Keil, JŒAI (Beibl.) 8, 1905, 46, Nr. g.</bibl><bibl>J. Vučić, Diadora 24, 2010, 136, Nr. 18; pl. 9, 18.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

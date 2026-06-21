@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Vintium &amp;ndash; Vence (Alpes Maritimae)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD066034</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD066034</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Vence, S. Anne, Kapelle</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material>Gesteine unbestimmt</material><dimensions unit="cm"><height>74</height><width>62</width><depth>49</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6-5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Alpes Maritimae</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/167973">Vintium</placeName></origPlace><origDate><origDate notBefore-custom="0051" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1600"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/2970148">Vence</placeName><placeName type="findspot">{Place Georges Clemenceau}</placeName><placeName type="region">Provence-Alpes-Côte d’Azur</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD066034_1" sex="W"><persName><name type="nomen">Vibia+</name><name type="cognomen">Paterna+*</name></persName></person><person xml:id="HD066034_2" sex="M"><persName><name type="cognomen">Valens+*</name></persName></person><person xml:id="HD066034_3" sex="W"><persName><name type="nomen">Graecinia</name><name type="cognomen">Marcina+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-11-04" who="Cimarosti">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost">Vi</supplied>biae <supplied reason="lost">Va</supplied><lb break="no" n="2"/><expan><abbr><supplied reason="lost">le</supplied>nt</abbr><ex>is</ex></expan> <expan><abbr>f</abbr><ex>iliae</ex></expan> Pat<expan><ex>e</ex><abbr>r</abbr></expan><lb break="no" n="3"/><supplied reason="lost">na</supplied>e matri <lb n="4"/>p<supplied reason="lost">i</supplied>issimae <lb n="5"/>Graecinia <lb n="6"/><supplied reason="lost"><expan><abbr>C</abbr><ex>ai</ex></expan></supplied> <expan><abbr>f</abbr><ex>ilia</ex></expan> Marci<lb break="no" n="7"/><supplied reason="lost">na ex</supplied> <expan><abbr>t</abbr><ex>estamento</ex></expan> <expan><abbr>p</abbr><ex>osuit</ex></expan> <lb n="8"/><supplied reason="lost"><expan><abbr>l</abbr><ex>ocus</ex></expan> <expan><abbr>d</abbr><ex>atus</ex></expan> <expan><abbr>d</abbr><ex>ecreto</ex></expan> <expan><abbr>d</abbr><ex>ecurionum</ex></expan></supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): CIL: Leseabweichungen. Eingemeißelt. Bearbeiterin: V. Pettirossi.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 12, 00050. (B)</bibl><bibl>S. Morabito, Inscriptions latines des Alpes Maritimes (Nice - Montpellier 2010) 209-211, Nr. 99; Foto.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

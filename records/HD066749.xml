@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Sevnica (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD066749</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD066749</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Graz, Landesmus. Joanneum, Lapidarium Schloß Eggenberg</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/78">urn</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>55</height><width>83</width><depth>75</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.5-2.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3190538">Slovenia</placeName><placeName type="modern" ref="http://www.geonames.org/3192884">Sevnica</placeName><placeName type="findspot">{Podvrh}, sekundär verwendet</placeName><placeName type="region">Posavska statistična regija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD066749_1" sex="M"><persName><name type="cognomen">Valerius</name></persName></person><person xml:id="HD066749_2" sex="M"><persName><name type="cognomen">Tertullianus</name></persName></person><person xml:id="HD066749_3" sex="W"><persName><name type="cognomen">Secundina*</name></persName></person><person xml:id="HD066749_4" sex="M"><persName><name type="cognomen">Valentinus</name></persName></person><person xml:id="HD066749_5" sex="M"><persName><name type="cognomen">Valerius</name></persName></person><person xml:id="HD066749_6" sex="W"><persName><name type="cognomen">Tertulla</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-09-27" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Dibus <note>sic</note> Manibus <lb n="2"/>Valerius Tertul<surplus>i</surplus>liani vibus <note>sic</note> fe<lb break="no" n="3"/>cit co<expan><ex>n</ex><abbr>iugi</abbr></expan><surplus>i</surplus> Secundin<expan><ex>a</ex><abbr>e</abbr></expan> obit<expan><ex>a</ex><abbr>e</abbr></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> &amp;lt;an=NA&amp;gt;(norum) <lb n="2"/>XXX </ab></div><div n="3" type="textpart"><ab><lb n="1"/> Valentinus <expan><abbr>an</abbr><ex>norum</ex></expan> XXX <lb n="2"/>Valerius <expan><abbr>a</abbr><ex>nnorum</ex></expan> XL <lb n="3"/>Tertulla 
+            </ab></div></div>
+            <div type="commentary">
+                <p>Buchstabe E in Form von II; Buchstabe L kursiv. Z. 2 (Ende) u. Z. 3 (Ende): Buchstaben S FE bzw. E stehen auf dem Rahmen. Z. 4/5 offenbar nachträglich auf dem linken Rand auf Höhe der Z. 3 u. 6/7 eingefügt. (B): Weber: Z. 3: Secundin(ae); ILLPRON: Z. 4: an(norum); Weber; ILLPRON: Z. 5: XX; Z. 7: Tertul(l)ina.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 14367, 1.</bibl><bibl>E. Weber, Die römerzeitlichen Inschriften der Steiermark (Graz 1969) 405-406, Nr. 350. (B)</bibl><bibl>ILLPRON 1972. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

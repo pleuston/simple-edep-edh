@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription? from Echzell (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD076285</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD076285</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Darmstadt, Landesamt für Denkmalpflege</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(36)</height><width>(30)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118657"/></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 230 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1962"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2933772">Echzell</placeName><placeName type="findspot">{Lager, Nordtor}, bei</placeName><placeName type="region">Hessen</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription?</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-08-21" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F029399" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/48ee37db-74ad-4437-8ff9-f90e7ec83c1c/file/id/790156/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">p</supplied>otest<supplied reason="lost">ate</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr><supplied reason="lost">c</supplied>o</abbr><ex>n</ex>s</expan>(ul-<certainty match="preceding-sibling::node()" locus="value"/> III pa<supplied reason="lost">t<gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/> patriae <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">p</supplied>roc<supplied reason="lost">onsul</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>B</abbr><ex cert="low"/>I</expan><certainty match="preceding-sibling::node()" locus="value"/><gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Z. 4: nur die oberen Buchstabenenden erhalten; statt B auch P oder R möglich. Inschriftträger: ein mit der Inschrift zusammen gefundenes Fragment einer Basis ist möglicherweise zugehörig.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>U. Schillinger-Häfele, BRGK 58, 1977, 521-522, Nr. 131.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

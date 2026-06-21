@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Carnuntum &amp;ndash; Petronell-Carnuntum (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD073982</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD073982</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Hainburg/Donau, Kulturfabrik, Arch. Zentraldepot</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(114)</height><width>62</width><depth>25</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/128376">Carnuntum</placeName></origPlace><origDate><origDate notBefore-custom="0031" notAfter-custom="0070" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">31 AD - 70 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1887"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2769013">Petronell-Carnuntum</placeName><placeName type="findspot">{Gräberstraße}</placeName><placeName type="region">Niederösterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD073982_1" sex="W"><persName><name type="nomen">Vibia</name><name type="cognomen">Citheris</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-03-01" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F019087" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/c0abb226-1334-4e28-91a4-15cd3a1e72c4/file/id/779159/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Vibia <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>l</abbr><ex>iberta</ex></expan> <lb n="2"/>Citheris <lb n="3"/><expan><abbr>an</abbr><ex>norum</ex></expan> XI <expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>ita</ex></expan> <expan><abbr>e</abbr><ex>st</ex></expan> <lb n="4"/>virgo hic sepul<lb break="no" n="5"/>ta fida puella ia<lb break="no" n="6"/>cet ante quidem <lb n="7"/>tempus fata rapue<lb break="no" n="8"/>runt mala scripsi <lb n="9"/>ego per lacrimas <lb n="10"/>miserabilis mor<lb break="no" n="11"/>te puellae <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>osuit</ex></expan> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 11281.</bibl><bibl>CLE 1565.</bibl><bibl>CLEPann 005.</bibl><bibl>E. Vorbeck, Zivilinschriften aus Carnuntum (Wien 1980) 47, Nr. 186.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

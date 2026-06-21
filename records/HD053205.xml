@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Risinium, bei &amp;ndash; Kotor (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD053205</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD053205</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197471">Risinium, bei</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3194884">Montenegro</placeName><placeName type="modern" ref="http://www.geonames.org/3194069">Kotor</placeName><placeName type="findspot">{Orahovac}</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD053205_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">Statius+</name><name type="cognomen">Valens</name></persName></person><person xml:id="HD053205_2" sex="W"><persName><name type="nomen">Egnatia</name><name type="cognomen">Buccula</name></persName></person><person xml:id="HD053205_3" sex="M"><persName><name type="cognomen">Valentinus+</name></persName></person><person xml:id="HD053205_4" sex="M"><persName><name type="cognomen">Crassus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2008-12-12" who="Gräf">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied> Stat<supplied reason="lost">io <gap reason="lost" quantity="1" unit="character"/></supplied> <expan><abbr>f</abbr><ex>ilio</ex></expan> <expan><abbr>Serg</abbr><ex>ia</ex></expan> Valenti <lb n="2"/>patri <expan><abbr>n<am>n</am></abbr><ex>orum</ex></expan> LXIII <lb n="3"/><supplied reason="lost">et</supplied> Egnatiae <expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>f</abbr><ex>iliae</ex></expan> Bucculae <lb n="4"/>matri <expan><abbr>n<am>n</am></abbr><ex>orum</ex></expan> XXXXVII <lb n="5"/><supplied reason="lost">Va</supplied>lentinus et Crassus <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/> parentibus suis fecerunt
+            </ab></div>
+            <div type="commentary">
+                <p>Hederae.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 01732.</bibl><bibl>CIL 03, 01732 add. p. 1028.</bibl><bibl>CIL 03, 08393.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

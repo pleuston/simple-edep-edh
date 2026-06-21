@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Aquae (Civitas Aurelia Aquensis) &amp;ndash; Baden-Baden (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD036766</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD036766</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Karlsruhe, Bad. Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material>Gesteine</material><dimensions unit="cm"><height>(188)</height><width>62</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/108748">Aquae (Civitas Aurelia Aquensis)</placeName></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0090" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 90 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1626"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2953504">Baden-Baden</placeName><placeName type="findspot">{Hindenburgplatz}, römisches Gräberfeld</placeName><placeName type="region">Baden-Württemberg</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD036766_1" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Reburrinius</name><name type="cognomen">Candidus</name></persName></person><person xml:id="HD036766_2" sex="M"><persName><name type="nomen">Anicius</name><name type="cognomen">Victor</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-08-25" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F037964" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/14bc54be-7688-4955-bc97-de724fc3d3a5/file/id/798832/file_version/name/small"/><graphic xml:id="F037965" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/1fdb4f28-f57c-4926-a5e1-bab8025b63fb/file/id/798833/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>L</abbr><ex>ucius</ex></expan> Reburrinius <lb n="2"/><expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>Cl</abbr><ex>audia</ex></expan> Candidus <lb n="3"/>Ara <expan><abbr>mil</abbr><ex>es</ex></expan> c<expan><ex>o</ex><abbr>h</abbr><ex>ortis</ex></expan> XXVI <lb n="4"/><expan><abbr>vol</abbr><ex>untariorum</ex></expan> <expan><abbr>c</abbr><ex>ivium</ex></expan> <expan><abbr>R</abbr><ex>omanorum</ex></expan> Anici Vic<lb break="no" n="5"/>toris <expan><abbr>stip</abbr><ex>endiorum</ex></expan> XIII <lb n="6"/><expan><abbr>h</abbr><ex>eres</ex></expan> <expan><abbr>f</abbr><ex>aciendum</ex></expan> <expan><abbr>c</abbr><ex>uravit</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 06305.</bibl><bibl>ILS 2573.</bibl><bibl>E. Wagner, Fundstätten und Funde aus vorgeschichtlicher, römischer und alamannisch-fränkischer Zeit im Grossherzogtum Baden 2. Das Badische Unterland (Tübingen 1911) 30; Abb. 35.</bibl><bibl>É. Espérandieu, Recueil général des bas-reliefs, statues et bustes de la Germanie romaine (Paris - Bruxelles 1931) 296, Nr. 454; Foto.</bibl><bibl>CIL 13, 04, 06305 add. p. 92.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

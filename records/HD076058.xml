@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Colonia Claudia Augusta? Agrippinensium, bei &amp;ndash; Köln (Germania inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD076058</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD076058</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Darmstadt, Hess. Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/78">urn</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/108751">Colonia Claudia Augusta? Agrippinensium, bei</placeName></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1801"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2875695">Köln</placeName><placeName type="findspot">{Lövenich}</placeName><placeName type="region">Nordrhein-Westfalen</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD076058_1" sex="W"><persName><name type="nomen">Crescentia</name><name type="cognomen">Fortunata</name></persName></person><person xml:id="HD076058_2" sex="M"><persName><name type="nomen">Flavius*</name><name type="cognomen">Fortunatus*?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-11-13" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F030645" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/6fb94c86-ab6f-49ee-b7c8-3f90537500c4/file/id/791402/file_version/name/small"/><graphic xml:id="F030644" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/d37d7384-9b34-40ec-82f4-00129ae0ec9e/file/id/791401/file_version/name/small"/><graphic xml:id="F030646" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/e03a786a-4691-401b-a827-d6fff11cb439/file/id/791403/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Memoriae <lb n="2"/>Crescentiae <lb n="3"/>Fortunatae <lb n="4"/>sorori caris<lb break="no" n="5"/>simae <expan><abbr>Fl</abbr><ex>avius</ex></expan> <expan><abbr>Fort</abbr><ex cert="low">unatus</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 07914.</bibl><bibl>B. Galsterer - H. Galsterer, Die römischen Steininschriften aus Köln, IKöln (2.</bibl><bibl>Aufl.) (Mainz 2010) 392-393, Nr. 478; Foto.</bibl><bibl>P. Noelke, KJ 40, 2007, 167; Abb. 8.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

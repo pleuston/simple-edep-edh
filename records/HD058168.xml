@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Burnum, bei &amp;ndash; Kistanje (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD058168</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD058168</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Kistanje, Gemeindehaus</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material>Gesteine</material><dimensions unit="cm"><height>157</height><width>63</width><depth>19</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197184">Burnum, bei</placeName></origPlace><origDate><origDate notBefore-custom="0042" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">42 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3199030">Kistanje</placeName><placeName type="findspot">{Ivoševci}</placeName><placeName type="region">Šibensko-kninska županija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD058168_1" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Cupitius</name><name type="cognomen">Paulus</name></persName></person><person xml:id="HD058168_2" sex="M"><persName><name type="nomen">Cupitius</name><name type="cognomen">Pollio*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-11-04" who="Feraudi">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Sub hac in<lb break="no" n="2"/>scriptione <lb n="3"/><expan><abbr>M</abbr><ex>arcus</ex></expan> Cupitius <lb n="4"/><expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>Pol</abbr><ex>lia</ex></expan> <lb n="5"/>Paulus <lb n="6"/>Amasia <lb n="7"/>miles <expan><abbr>leg</abbr><ex>ionis</ex></expan> <lb n="8"/>XI <expan><abbr>C</abbr><ex>laudiae</ex></expan> <expan><abbr>p</abbr><ex>iae</ex></expan> <expan><abbr>f</abbr><ex>idelis</ex></expan> stip<lb break="no" n="9"/>endiorum <lb n="10"/>XVII Cupitius <lb n="11"/>Pol<expan><ex>l</ex><abbr>io</abbr></expan> frater <lb n="12"/>faciundum <lb n="13"/>curavit
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1893, 0070.</bibl><bibl>CIL 03, 13263.</bibl><bibl>CIL 03, 13263 add. p. 2328, 15.</bibl><bibl>CIL 03, 13263 add. p. 2328, 114.</bibl><bibl>C. Patsch, WMBH 5, 1897, 190-191, Nr. 25; Fig. 24 (Zeichnung).</bibl><bibl>F. Bulić, BAHD 16, 1893, 49-50; Zeichnung. - AE 1893.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

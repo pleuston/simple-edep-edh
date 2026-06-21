@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Defixio from Londinium &amp;ndash; London (Britannia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD025800</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD025800</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>London, Mus. of London</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/108">Blei</material><dimensions unit="cm"><height>7</height><width>12</width><depth>0</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Britannia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/79574">Londinium</placeName></origPlace><origDate><origDate notBefore-custom="0043" notAfter-custom="0070" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">43 AD - 70 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1928"><placeName type="country" ref="https://www.geonames.org/2635167">United Kingdom</placeName><placeName type="modern" ref="http://www.geonames.org/2643743">London</placeName><placeName type="findspot">The City, {Princes Street}</placeName><placeName type="region">London</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/76">defixio</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD025800_1" sex="M"><persName><name type="praenomen">T.</name><name type="nomen">Egnatius</name><name type="cognomen">Tyrannus*</name></persName></person><person xml:id="HD025800_2" sex="M"><persName><name type="praenomen">P.</name><name type="nomen">Cicereius</name><name type="cognomen">Felix</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-11-05" who="Cowey">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>T</abbr><ex>itus</ex></expan> Egnatius <lb n="2"/>Tyran<expan><ex>n</ex><abbr>us</abbr></expan> defic<expan><ex>t</ex><abbr>us</abbr></expan> <lb n="3"/>est et <lb n="4"/><expan><abbr>P</abbr><ex>ublius</ex></expan> Cicereius Felix <lb n="5"/>defictus e<expan><ex>s</ex><abbr>t</abbr></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>T</abbr><ex>itus</ex></expan> Egnatius <lb n="2"/>Tyran<expan><ex>n</ex><abbr>us</abbr></expan> defictus <lb n="3"/>est et <lb n="4"/><expan><abbr>P</abbr><ex>ublius</ex></expan> Cicereius Felix
+            </ab></div></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1930, 0112.</bibl><bibl>R.G. Collingwood - M.V. Taylor, JRS 18, 1928, 213-214, Nr. 6. - AE 1930.</bibl><bibl>RIB 0006; Zeichnungen.</bibl><bibl>A. Kropp, Defixiones. Ein aktuelles Corpus lateinischer Fluchtafeln (Speyer 2008) Nr. 3.14/2.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

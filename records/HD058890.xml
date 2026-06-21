@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Čitluk (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD058890</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD058890</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Sarajevo, Zem. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><dimensions unit="cm"><height>(42)</height><width>(21)</width><depth>15</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3277605">Bosnia and Herzegovina</placeName><placeName type="modern" ref="http://www.geonames.org/3213103">Čitluk</placeName><placeName type="findspot">{Krehin Gradac}</placeName><placeName type="region">Hercegovačko-neretvanski kanton</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD058890_1" sex="W"><persName><name type="nomen">0?</name><name type="cognomen">Epaphrodita+?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2010-08-23" who="Feraudi">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                ------ Epaphro]<expan><abbr>dita</abbr><ex cert="low"/></expan> <gap reason="lost" extent="unknown" unit="character"><certainty match=".." locus="name"/></gap> <lb n="2"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/>? testamento fieri</supplied> iuss<supplied reason="lost" cert="low">it ---</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Hedera. Zwei nicht aneinander passende Fragmente erhalten. Abmessungen des unteren, größeren Fragments: s.o.; Abmessungen des oberen, kleineren Fragments: 41.5 x 20.5 x 15.2.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>C. Patsch, WMBH 5, 1897, 237; Fig. 118 (Zeichnung).</bibl><bibl>CIL 03, 14226.</bibl><bibl>CIL 03, 14226 add. p. 2328, 121.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

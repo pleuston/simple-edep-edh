@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Solva, bei &amp;ndash; Esztergom (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD038311</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD038311</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Esztergom, Vármúz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>72</height><width>(77)</width><depth>34</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">14.5-6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197519">Solva, bei</placeName></origPlace><origDate><origDate notBefore-custom="0168" notAfter-custom="0169" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">168 AD - 169 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1900"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3053163">Esztergom</placeName><placeName type="findspot">{Borzhegy}, mittelalterliche Kirchenruine</placeName><placeName type="region">Komárom-Esztergom megye</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD038311_1" sex="M"><persName ref="http://data.snapdrgn.net/person/5698"><name type="praenomen">C.</name><name type="nomen">Iulius</name><name type="cognomen">Commodus+ Orfitianus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-05-18" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F012704" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/8d9fac57-21d3-4924-a09e-fb7f42fafe4f/file/id/772229/file_version/name/small"/><graphic xml:id="F001107" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/c54766cd-a154-4236-8602-a7cf9566447f/file/id/762203/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Leg</abbr><ex>io</ex></expan> I a<supplied reason="lost"><expan><abbr>di</abbr><ex>utrix</ex></expan> <expan><abbr>p</abbr><ex>ia</ex></expan> <expan><abbr>f</abbr><ex>idelis</ex></expan></supplied> <lb n="2"/>legato <supplied reason="lost" cert="low">Augusti</supplied> <lb n="3"/><expan><abbr>C</abbr><ex>aio</ex></expan> Iulio <expan><abbr>C</abbr><ex>ai</ex></expan> <supplied reason="lost"><expan><abbr>f</abbr><ex>ilio</ex></expan> Commodo</supplied> <lb n="4"/>Orfit<supplied reason="lost">iano fecit</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Aufbewahrungsort nach lupa 5977. Datierung: Falls Orfitianus in Z. 2 nicht als Statthalter, sondern als Legionslegat bezeichnet war, dann wohl Anfang der 150er Jahre (s. Fitz, Verwaltung).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1976, 0551.</bibl><bibl>RIU 0772; Abb. 772 (Foto u. Zeichnung).</bibl><bibl>J. Szilágyi, AArchHung 2, 1952, 199. - AE 1976.</bibl><bibl>J. Fitz, Die Verwaltung Pannoniens in der Römerzeit (Budapest 1993) 493-494, Nr. 291, 2.</bibl><bibl>PIR (2. Aufl.) I 271.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

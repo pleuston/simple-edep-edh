@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Roma &amp;ndash; Roma (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD027206</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD027206</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Roma, Mus. Naz. Rom.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>(19)</height><width>(27)</width><depth>10</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma</placeName></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma</placeName><placeName type="findspot"/><placeName type="region">Roma</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD027206_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-06-15" who="Feraudi">checked through autopsy</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F010586" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/58000dcf-a043-46a6-8299-ad85f0d9af2e/file/id/770106/file_version/name/small"/><graphic xml:id="F026556" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/83a089bb-f767-47e7-b1e8-e53737ea7a07/file/id/787308/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                ------<certainty match="preceding-sibling::node()" locus="value"/>] <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>R<gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">cum</supplied> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>is suis <expan><abbr>I</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/><supplied reason="lost">ex f</supplied>amilia r<gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/><supplied reason="lost">de</supplied>voti numini <supplied reason="lost">maiestatique</supplied> <lb n="6"/>eiu<supplied reason="lost">s</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Autopsie G. Alföldy.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 06, 40759; Foto.</bibl><bibl>CIL 06, 03818.</bibl><bibl>CIL 06, 31533.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

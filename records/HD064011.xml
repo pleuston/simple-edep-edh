@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Salonae, bei &amp;ndash; Solin (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD064011</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD064011</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Split, Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">architectural member?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197488">Salonae, bei</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1890"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3190359">Solin</placeName><placeName type="findspot">{Porta Andetria}, außerhalb</placeName><placeName type="region">Splitsko-dalmatinska županija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD064011_1" sex="W"><persName><name type="nomen">Tutidia</name><name type="cognomen">Agrippina+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-11-10" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F033674" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/9dd75aa5-dcfd-4041-8e2f-b8352638d50c/file/id/794481/file_version/name/small"/><graphic xml:id="F033682" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/ca84901c-061e-48de-9a0a-459f948008d4/file/id/794489/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/>et Tutidiae Agrip<supplied reason="lost">pinae</supplied> <lb n="2"/>pientissim<expan><ex>a</ex><abbr>e</abbr></expan> suae c<supplied reason="lost">oniugi</supplied> <lb n="3"/><expan><abbr>b</abbr><ex>ene</ex></expan> <expan><abbr>m</abbr><ex>erenti</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 13041; Zeichnung.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

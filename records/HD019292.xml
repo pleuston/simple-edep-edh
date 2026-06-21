@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Roma, aus &amp;ndash; Roma (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD019292</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD019292</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Roma, Mus. Naz. Rom.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>(102)</height><width>(182)</width><depth>15</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.5-7.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma, aus</placeName></origPlace><origDate><origDate notBefore-custom="0058" notAfter-custom="0060" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">58 AD - 60 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma</placeName><placeName type="findspot">Via Tiburtina, Pratolungo</placeName><placeName type="region">Lazio</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD019292_1" sex="M"><persName><name type="praenomen">Q.+</name><name type="nomen">Veranius+</name></persName></person><person xml:id="HD019292_2" sex="M"><persName><name type="praenomen">Ti.</name><name type="nomen">Claudius Caesar</name><name type="cognomen">Augustus* Germanicus+</name></persName></person><person xml:id="HD019292_3" sex="M"><persName><name type="cognomen">Nero+ Augustus+ Germanicus+</name></persName></person><person xml:id="HD019292_4" sex="W"><persName><name type="nomen">Verania+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-11-08" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F010830" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/ab2d0533-bb2a-4c0d-a13e-c06418cd0b4c/file/id/770350/file_version/name/small"/><graphic xml:id="F030541" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/d337a6dc-9ddf-497f-86ee-947017dffd18/file/id/791298/file_version/name/small"/><graphic xml:id="F030542" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/b08edc2a-d750-4c33-9442-bc2568cf3c82/file/id/791299/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Q</abbr><ex>uintus</ex></expan> Veranius <expan><abbr>Q</abbr><ex>uinti</ex></expan> <gap reason="lost" extent="unknown" unit="character"/>? <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>Clu</abbr><ex>stumina</ex></expan></supplied> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/> <lb n="2"/><supplied reason="lost" cert="low">--- pro pr(aetore) provinciae Lyciae et Pamphyliae ---</supplied> quinq<supplied reason="lost">ue</supplied>nnio pr<supplied reason="lost">a</supplied>efui<supplied reason="lost">t</supplied> <lb n="3"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> eam in pot</supplied>es<supplied reason="lost">a</supplied>tem <expan><abbr>Ti</abbr><ex>beri</ex></expan> Claudii Caesaris <expan><abbr>Aug</abbr><ex>usti</ex></expan> <lb n="4"/><supplied reason="lost">Germanici redegit et in Cilicia castellum Tr</supplied>acheotarum expugnatum delevit <lb n="5"/><supplied reason="lost">mandatis et litteris senatus populique Romani et <expan><abbr>Ti</abbr><ex>beri</ex></expan></supplied> Claudii Caesaris Augusti Germanici <lb n="6"/><supplied reason="lost">quibus in Phrygiam quoque missus Cibyrae restit</supplied>utionem moenium remissam et interceptam <lb n="7"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> complevit et regionis oppi</supplied>d<supplied reason="lost" cert="low">a</supplied> pacavit propter quae auctore <lb n="8"/><supplied reason="lost"><expan><abbr>Ti</abbr><ex>berio</ex></expan> Claudio Caesare Augusto Germanico</supplied> consul designatus in consulatu nominatione <lb n="9"/><supplied reason="lost">eiusdem in locum <gap reason="lost" extent="unknown" unit="character"/></supplied>ni augur creatus in numerum patriciorum adlectus est <lb n="10"/><supplied reason="lost">curatori iudicio Neronis Augusti Germ</supplied>anici aedium sacrarum et operum locorumque <lb n="11"/><supplied reason="lost">publicorum statuam posuit equester</supplied> ordo et populus Romanus consentiente senatu ludis <lb n="12"/><supplied reason="lost">maximis praefectus est cum honorem non p</supplied>etierit ab Augusto principe cuius liberalitatis erat minister <lb n="13"/><supplied reason="lost">legatus Neronis Augusti German</supplied>ici provinciae Britanniae in qua decessit <lb n="14"/><supplied reason="lost">Verania filia <expan><abbr>Q</abbr><ex>uinti</ex></expan> Ve</supplied>rani vixit annis VI et mensibus X
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Gordon, AE 1953, Oliver, AE 1954: geringfügig abweichende Textwiedergabe.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1953, 0251. (B)</bibl><bibl>AE 1954, 0004. (B)</bibl><bibl>CIL 06, 41075.</bibl><bibl>A.E. Gordon, Quintus Veranius Consul A.D. 49 (Berkeley, California 1952) 231-275; pl. 7 u. 9. (B) - AE 1953.</bibl><bibl>J.H. Oliver, AJPh 75, 1954, 206-210. (B) - AE 1954.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

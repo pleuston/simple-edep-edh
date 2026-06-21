@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Bigeste, bei &amp;ndash; Ljubuški (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD056523</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD056523</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Ljubuški, Mostarska Vrata, griechisch-orthodoxer Friedhof, vermauert</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><dimensions unit="cm"><height>124</height><width>43</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3-5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197167">Bigeste, bei</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0070" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 70 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1880"><placeName type="country" ref="https://www.geonames.org/3277605">Bosnia and Herzegovina</placeName><placeName type="modern" ref="http://www.geonames.org/3199414">Ljubuški</placeName><placeName type="findspot">Hardomilje, östlich, {Trebižat, Fluss}, rechtes Ufer, Haus des Mandić, bei</placeName><placeName type="region">Zapadnohercegovački kanton</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD056523_1" sex="M"><persName><name type="cognomen">Andamionius</name></persName></person><person xml:id="HD056523_2" sex="M"><persName><name type="cognomen">Gavillius+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-10-06" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Andamionius An<lb break="no" n="2"/>dami <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>eq</abbr><ex>ues</ex></expan> <expan><abbr>coh</abbr><ex>ortis</ex></expan> I <lb n="3"/><expan><abbr>Lucens</abbr><ex>ium</ex></expan> <expan><abbr>n<am>n</am></abbr><ex>orum</ex></expan> XXXV <lb n="4"/><expan><abbr>st</abbr><ex>ipendiorum</ex></expan> XV <expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>itus</ex></expan> <expan><abbr>e</abbr><ex>st</ex></expan> <lb n="5"/>Gav<supplied reason="lost">i</supplied>llius fr<supplied reason="lost" cert="low">at</supplied>er <lb n="6"/><supplied reason="lost" cert="low">eiu</supplied>s pos<expan><ex>u</ex><abbr>it</abbr></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Oberhalb des Inschriftfeldes Reliefdarstellung eines Reiters. (B): Škegro: Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 08486.</bibl><bibl>A. Škegro, OpuscArchZagreb 21, 1997, 88, Nr. 16. (B)</bibl><bibl>I. Bojanovski, GodAkSarajevo 15, 1977, 113; sl. 3a.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

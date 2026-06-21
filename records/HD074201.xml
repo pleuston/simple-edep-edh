@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Vindobona &amp;ndash; Wien (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD074201</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD074201</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Wien, Kunsthist. Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>78</height><width>38</width><depth>24</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/128537">Vindobona</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1893"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2761369">Wien</placeName><placeName type="findspot">{Annagasse 3}</placeName><placeName type="region">Wien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD074201_1" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Minicius</name><name type="cognomen">Honoratus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-12-15" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Silvano <lb n="2"/>et Silvanis <lb n="3"/>et Quadrubi<expan><ex>i</ex><abbr>s</abbr></expan> <note>sic</note> <lb n="4"/>sacrum <lb n="5"/><expan><abbr>L</abbr><ex>ucius</ex></expan> Minicius <lb n="6"/>Honoratus <lb n="7"/><expan><abbr>sig</abbr><ex>nifer</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> X <expan><abbr>g</abbr><ex>eminae</ex></expan> <expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Oberfläche stark verwittert; Buchstaben teilweise schwer lesbar. Lesung nach Farka u. a. (B): CIL 03, 13497; ILS 3575: Lesung abweichend / unvollständig.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 13497. (B)</bibl><bibl>ILS 3575. (B)</bibl><bibl>C. Farka u. a., in: Vindobona - die Römer im Wiener Raum. 52. Sonderausstellung des Historischen Museums der Stadt Wien, Karlsplatz (Wien 1977) 187-188, Nr. S 60.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

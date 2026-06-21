@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Klinë / Klina (Moesia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD027073</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD027073</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><dimensions unit="cm"><height>(134)</height><width>73</width><depth>28</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia superior</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/831053">Kosovo</placeName><placeName type="modern" ref="http://www.geonames.org/783836">Klinë / Klina</placeName><placeName type="findspot">{Zllakuqan / Zlokućane}</placeName><placeName type="region">Pejë / Peć</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD027073_1" sex="M"><persName ref="http://romans1by1.com/rpeople/14046"><name type="nomen">Flavius*</name><name type="cognomen">Kapito</name></persName></person><person xml:id="HD027073_2" sex="W"><persName ref="http://romans1by1.com/rpeople/14047"><name type="nomen">Flavia*</name><name type="cognomen">Va[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-08-30" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/><expan><abbr>Fl</abbr><ex>avio</ex></expan> Kapitoni liber<lb break="no" n="3"/>to qui casu Vimi<lb break="no" n="4"/>nacium Dasmini a <lb n="5"/>latronibus atro<lb break="no" n="6"/><expan><abbr>cissima</abbr><ex>m</ex></expan> mortem <lb n="7"/><supplied reason="lost">per</supplied>pessus est <expan><abbr>Fl</abbr><ex>avia</ex></expan> Va<lb break="no" n="8"/><gap reason="lost" extent="unknown" unit="character"/> mater filio <lb n="9"/><gap reason="lost" extent="unknown" unit="character"/>S<gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Oberhalb des Inschriftfeldes Büste.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1934, 0209.</bibl><bibl>N. Vulić, Spomenik 77, 1934, 51-52, Nr. 47; Foto. - AE 1934.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

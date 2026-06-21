@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Lauriacum, bei &amp;ndash; Ansfelden (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD020811</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD020811</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Linz, Oberösterreich. Landesmus., Schloßmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>122</height><width>62</width><depth>59</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7.5-7</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118802">Lauriacum, bei</placeName></origPlace><origDate><origDate notBefore-custom="0031" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">31 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1932"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2782480">Ansfelden</placeName><placeName type="findspot">{Moos}, sekundär verwendet</placeName><placeName type="region">Oberösterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD020811_1" sex="M"><persName><name type="praenomen">Ti.</name><name type="nomen">Claudius</name><name type="cognomen">Provincialis</name></persName></person><person xml:id="HD020811_2" sex="M"><persName><name type="cognomen">Sonus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-04-02" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Iovi <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan> <lb n="2"/><expan><abbr>Ti</abbr><ex>berius</ex></expan> Claudius <lb n="3"/>Soni <expan><abbr>fil</abbr><ex>ius</ex></expan> <lb n="4"/>Provincialis <lb n="5"/><supplied reason="lost"><expan><abbr>v</abbr><ex>otum</ex></expan></supplied> <expan><abbr>s</abbr><ex>olvit</ex></expan> <supplied reason="lost"><expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan></supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Auf der linken Nebenseite bärtiger Mann mit Szepter in der Linken und einer Stange mit einem Rad am Ende in der Rechten; auf der rechten Nebenseite Blitzbündel. Oberfläche des Inschriftfeldes teilweise stark verrieben.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1940, 0046. (B)</bibl><bibl>E. Polaschek, BMIR 9, 1938, 116. (B) - AE 1940.</bibl><bibl>ILLPRON 0936.</bibl><bibl>L. Eckhart, Die Skulpturen des Stadtgebietes von Ovilava, CSIR Österreich 3, 3 (Wien 1981) 60-61, Nr. 79; Taf. 43, 79.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from (Civitas Auderiensium) &amp;ndash; Stockstadt/Main (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD060299</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD060299</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Aschaffenburg, Stiftsmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(59)</height><width>(65)</width><depth>10</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118976">(Civitas Auderiensium)</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1830"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2826670">Stockstadt/Main</placeName><placeName type="findspot">Lager, bei, {nördliches Gräberfeld}</placeName><placeName type="region">Bayern</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD060299_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">Diomedes+</name></persName></person><person xml:id="HD060299_2" sex="M"><persName><name type="cognomen">Fronton</name></persName></person><person xml:id="HD060299_3" sex="M"><persName><name type="cognomen">Marcus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2018-03-02" who="Osnabrügge">checked through autopsy</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F023158" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/1561ef92-be09-4dcd-af7a-7130f31faf15/file/id/783817/file_version/name/small"/><graphic xml:id="F027152" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/fe5b5a5a-ac91-42ec-8fa4-1dcceb5b1da6/file/id/787909/file_version/name/small"/><graphic xml:id="F027169" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/bced75a9-4840-487f-8398-5a9b5acfa857/file/id/787927/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/>Diomed<supplied reason="lost">es</supplied> <lb n="2"/><expan><abbr>mil</abbr><ex>es</ex></expan> <expan><abbr>coh</abbr><ex>ortis</ex></expan> II <supplied reason="lost">H</supplied><lb break="no" n="3"/><expan><abbr>isp</abbr><ex>anorum</ex></expan> natione <lb n="4"/><expan><abbr>Isaur</abbr><ex>us</ex></expan> <expan><abbr>stip</abbr><ex>endiorum</ex></expan> VI Fron<lb break="no" n="5"/>ton et Marcus vexil<expan><ex>l</ex><abbr>a</abbr><ex>rii</ex></expan> <lb n="6"/><expan><abbr>cur</abbr><ex>averunt</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Material: weißer Sandstein. Autopsie R. Wiegels.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 06656.</bibl><bibl>H. Lehner, BJ 129, 1924, 69, Nr. 11.</bibl><bibl>RSOR 050; Taf. 6, 50.</bibl><bibl>F. Drexel, in: Der obergermanisch-rätische Limes des Römerreiches B, III, 33 (Lieferung 33) (Heidelberg 1914) 59, Nr. 9; Foto.</bibl><bibl>W. Faust, Die Grabstelen des 2. und 3. Jahrhunderts im Rheingebiet (Köln 1998) 178, Nr. 280.</bibl><bibl>M. Mattern, Römische Steindenkmäler aus Hessen südlich des Mains sowie vom bayerischen Teil des Mainlimes, CSIR Deutschland 2, 13 (Mainz 2005) 46, Nr. 6; Taf. 2, 6.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

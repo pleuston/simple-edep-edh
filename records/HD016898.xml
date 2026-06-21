@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Saetabis &amp;ndash; Xàtiva (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD016898</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD016898</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Hispania citerior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/266019">Saetabis</placeName></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0130" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 130 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern" ref="http://www.geonames.org/2516345">Xàtiva</placeName><placeName type="findspot">Portal del Lledó</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD016898_1"><persName><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD016898_2" sex="M"><persName><name type="nomen">Baebius</name><name type="cognomen">Bareta</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-03-23" who="Garcia">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>an</abbr><ex>norum</ex></expan> <expan><abbr>XXX</abbr><ex cert="low"/></expan> <expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>ita</ex></expan> <expan><abbr>e</abbr><ex>st</ex></expan> <lb n="2"/>Baebius Ba<lb break="no" n="3"/>reta uxori
+            </ab></div>
+            <div type="commentary">
+                <p>Verschollen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>J. Corell, Inscripcions romanes del País Valencià 3. Saetabis i el seu territori (València 2006) 56-57, Nr. 13.</bibl><bibl>CIL 02, 03628.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

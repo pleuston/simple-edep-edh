@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Municipium Claudium Virunum, bei &amp;ndash; Seckau (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD038727</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD038727</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>zerstört</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material>Gesteine</material><dimensions unit="cm"><height>95</height><width>118</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197583">Municipium Claudium Virunum, bei</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1820"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2765335">Seckau</placeName><placeName type="findspot">{Abtei Unserer Lieben Frau}, Meierhof?</placeName><placeName type="region">Steiermark</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD038727_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Cabalionius</name></persName></person><person xml:id="HD038727_2" sex="M"><persName><name type="cognomen">Masculus</name></persName></person><person xml:id="HD038727_3" sex="W"><persName><name type="cognomen">Claudia</name></persName></person><person xml:id="HD038727_4"><persName><name type="cognomen">Tim[---]</name></persName></person><person xml:id="HD038727_5"><persName><name type="cognomen">Mas[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-05-14" who="Böhm">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>C</abbr><ex>aio</ex></expan> Cabalionio Mas<lb break="no" n="2"/>culi TIONEIN et <lb n="3"/><expan><abbr>Claudia</abbr><ex>e</ex></expan> <expan><abbr>f</abbr><ex>iliae</ex></expan> AITAVXKI <lb n="4"/>et Tim<gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/>Mas<gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Ursprünglich soll der Stein aus dem Stift Seckau stammen; er wurde später nach St. Benedikten gebracht und 1820 als Türschwelle eingemauert. Bei den Renovierungsarbeiten 1954 zerschlagen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>E. Weber, Die römerzeitlichen Inschriften der Steiermark (Graz 1969) 172, Nr. 120.</bibl><bibl>CIL 03, 05467a.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Argyruntum &amp;ndash; Starigrad (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD053589</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD053589</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Split, Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197139">Argyruntum</placeName></origPlace><origDate><origDate notBefore-custom="0014" notAfter-custom="0037" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">14 AD - 37 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1878"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3189964">Starigrad</placeName><placeName type="findspot">{S. Juraj, ehemalige Grabkapelle}, bei</placeName><placeName type="region">Zadarska županija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD053589_1" sex="W"><persName ref="https://www.wikidata.org/wiki/Q469701"><name type="nomen">Iulia</name><name type="cognomen">Augusta*</name></persName></person><person xml:id="HD053589_2" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1407"><name type="praenomen">Ti.</name><name type="nomen">Caesar</name><name type="cognomen">Augustus*</name></persName></person><person xml:id="HD053589_3" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Volusius</name><name type="cognomen">Saturninus</name></persName></person><person xml:id="HD053589_4" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Iulius</name><name type="cognomen">Sulla</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2010-02-17" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F025202" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/05c4c687-4f67-4275-8e59-8c4248cc1613/file/id/785953/file_version/name/small"/><graphic xml:id="F033752" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/7f224ed2-c40c-4665-9c88-249e30ffef06/file/id/794560/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Iuliae <expan><abbr>August</abbr><ex>ae</ex></expan> divi <lb n="2"/>Augusti matri <expan><abbr>Ti</abbr><ex>beri</ex></expan> Cae<lb break="no" n="3"/>saris <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>L</abbr><ex>ucio</ex></expan> Volusio <lb n="4"/>Saturnino <expan><abbr>leg</abbr><ex>ato</ex></expan> pro <expan><abbr>pr</abbr><ex>aetore</ex></expan> <lb n="5"/><expan><abbr>C</abbr><ex>aius</ex></expan> Iulius <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> Sulla ob <expan><abbr>dec</abbr><ex>urionatum</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Z. 5: ob dec. steht auf Rasur. (B): Dubolnić: Z. 3: überflüssige Angabe eines Zeilenfalls nach Aug(usti).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 09972.</bibl><bibl>A. Jagenteufel, Die Statthalter der römischen Provinz Dalmatia von Augustus bis Diokletian (Wien 1958) 17-18, Nr. 4, 8.</bibl><bibl>M. Dubolnić, RadAkZadar 49, 2007, 19-20; sl. 11. (B)</bibl><bibl>M. Abramić - A. Colnago, JŒAI (Beibl.) 12, 1909, 49. 51.</bibl><bibl>PIR V 661.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

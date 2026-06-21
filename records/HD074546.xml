@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Siscia &amp;ndash; Sisak (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD074546</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD074546</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Sisak, Grad. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(95)</height><width>77</width><depth>28</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">9.5-4.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197504">Siscia</placeName></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0130" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 130 AD</origDate></origDate></origin>
+                        <provenance type="found" when="2009"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3190813">Sisak</placeName><placeName type="findspot">{Quirinova ulica 7}, Garten</placeName><placeName type="region">Sisačko-moslavačka županija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD074546_1" sex="M"><persName ref="http://romans1by1.com/rpeople/18424"><name type="praenomen">C.</name><name type="nomen">Antonius</name><name type="cognomen">Sentinus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-03-05" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>C</abbr><ex>aius</ex></expan> Antonius <lb n="2"/>Sentinus <lb n="3"/><expan><abbr>vet</abbr><ex>eranus</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> XIIII <lb n="4"/><expan><abbr>g</abbr><ex>eminae</ex></expan> <expan><abbr>M</abbr><ex>artiae</ex></expan> <expan><abbr>v</abbr><ex>ictricis</ex></expan> <expan><abbr>an</abbr><ex>norum</ex></expan> L <lb n="5"/><expan><abbr>h</abbr><ex>eres</ex></expan> <expan><abbr>f</abbr><ex>aciendum</ex></expan> <expan><abbr>c</abbr><ex>uravit</ex></expan> <lb n="6"/><abbr>h</abbr> <abbr>c</abbr>
+            </ab></div>
+            <div type="commentary">
+                <p>Oberhalb des Inschriftfeldes Totenmahlszene. Das Inschriftfeld scheint nahezu vollständig erhalten zu sein. Z. 1: NI-Ligatur. Zu Beginn von Z. 6 ein dem Zeichen für das Zenturionat ähnelndes Zeichen, das an dieser Stelle wenig Sinn zu ergeben scheint, nach Škrgulja-Migotti Interpunktion. Auflösung Z. 6: h(ic) c(onditus), h(ic) c(ubat), h(eres) c(uravit), h(onoris) c(ausa)? (B): AE 2015: Z. 1: G(aius).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2015, 1091. (B)</bibl><bibl>R. Škrgulja - B. Migotti, VjesAMuzZagreb 48, 2015, 19-49; fig. 2 u. fig. 3. - AE 2015.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

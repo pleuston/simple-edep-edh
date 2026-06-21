@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Salonae &amp;ndash; Solin (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD057510</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD057510</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">stele?</objectType><dimensions unit="cm"><height>(45)</height><width>(31)</width><depth>7</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197488">Salonae</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3190359">Solin</placeName><placeName type="findspot"/><placeName type="region">Splitsko-dalmatinska županija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD057510_1" sex="M"><persName><name type="praenomen">[-]?</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD057510_2" sex="M"><persName><name type="nomen">Pontius+?</name><name type="cognomen">Viator</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-09-14" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F033742" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/af4af428-1522-48fc-adba-da691bbf637f/file/id/794550/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/><lb break="no" n="1"/><expan><abbr>ec</abbr><ex>ulatori</ex></expan> le<supplied reason="lost"><expan><abbr>g</abbr><ex>ionis</ex></expan></supplied> <lb n="2"/>XIIII Ponti<supplied reason="lost" cert="low">us</supplied> <lb n="3"/>Viator <expan><abbr>fratr</abbr><ex>i</ex></expan> <lb n="4"/><expan><abbr>b</abbr><ex>ene</ex></expan> <expan><abbr>m</abbr><ex>erenti</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Inschriftfeld und Inschrifttext senkrecht geteilt durch das Relief einer Lanzenspitze.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 09401.</bibl><bibl>M. Abramić, Starinar 1, 1922, 59-60; t. 1, 4; Zeichnung.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

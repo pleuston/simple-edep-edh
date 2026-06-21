@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Vintium &amp;ndash; Vence (Alpes Maritimae)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD055274</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD055274</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Vence, Pénitents Blancs, Kapelle</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material>Gesteine unbestimmt</material><dimensions unit="cm"><height>104</height><width>44</width><depth>36</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4-3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Alpes Maritimae</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/167973">Vintium</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1950"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/2970148">Vence</placeName><placeName type="findspot">{Place Godeau}, Stall</placeName><placeName type="region">Provence-Alpes-Côte d’Azur</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD055274_1" sex="M"><persName><name type="praenomen">T.</name><name type="nomen">Secundius</name><name type="cognomen">Avitus</name></persName></person><person xml:id="HD055274_2" sex="M"><persName><name type="praenomen">T.</name><name type="nomen">Secundius</name><name type="cognomen">Honoratus</name></persName></person><person xml:id="HD055274_3" sex="W"><persName><name type="nomen">Livia+</name><name type="cognomen">Gratilla</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-07-19" who="Cimarosti">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/><expan><abbr>T</abbr><ex>ito</ex></expan> Secundio <lb n="3"/>Avito <lb n="4"/><expan><abbr>T</abbr><ex>itus</ex></expan> Secundius <lb n="5"/>Honoratus et <lb n="6"/><supplied reason="lost">Li</supplied>via Gra<lb break="no" n="7"/>tilla filio <lb n="8"/>piissimo <lb n="9"/><expan><abbr>q</abbr><ex>ui</ex></expan> <expan><abbr>v</abbr><ex>ixit</ex></expan> <expan><abbr>a</abbr><ex>nnos</ex></expan> XXX
+            </ab></div>
+            <div type="commentary">
+                <p>(B): AE 1991; Vismara: Z. 5-6: Honoratus (et) Li/via. Puncta triangularia. Eingemeißelt. Bearbeiterin: V. Pettirossi.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1991, 1172. (B)</bibl><bibl>C. Vismara, Gallia 48, 1991, 272-273, Nr. 5; Foto. - AE 1991 (B)</bibl><bibl>S. Morabito, Inscriptions latines des Alpes Maritimes (Nice - Montpellier 2010) 203-204, Nr. 93; Foto.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

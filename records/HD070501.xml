@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Segedunum &amp;ndash; Wallsend (Britannia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD070501</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD070501</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Newcastle upon Tyne, Great North Museum, Hancock</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/260">slab</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(36)</height><width>(21)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">1.7-1.4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Britannia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/89288">Segedunum</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1894"><placeName type="country" ref="https://www.geonames.org/2635167">United Kingdom</placeName><placeName type="modern" ref="http://www.geonames.org/2634864">Wallsend</placeName><placeName type="findspot">{Lager, bei}</placeName><placeName type="region">Tyne and Wear</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-02-17" who="Cowey">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Deo <expan><abbr>M</abbr><ex>ercurio</ex></expan> s<supplied reason="lost"><expan><abbr>igil</abbr><ex cert="low">lum</ex></expan></supplied> <expan><abbr>d</abbr><ex>edicavit</ex></expan> et <expan><abbr>p</abbr><ex>osuit</ex></expan> <expan><abbr>coh</abbr><ex>ors</ex></expan> <lb n="2"/>II Ner<supplied reason="lost">vioru</supplied>m pago <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>diorum
+            </ab></div>
+            <div type="commentary">
+                <p>Die Inschrift besteht aus 2 nicht aneinanderpassenden Fragmenten. Die Maße des zweiten Fragments sind: Höhe: -22; Breite: -16.7.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>EphEp 9, p. 581 n. 1159.</bibl><bibl>RIB 1303; Zeichnung.</bibl><bibl>E.J. Phillips, Corbridge. Hadrian's Wall east of the North Tyne, CSIR Great Britain 1, 1 (Oxford 1977) 67-68, Nr. 202; Pl. 53, 202.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from (Civitas Vangionum) &amp;ndash; Altenkirchen (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD076002</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD076002</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="#">(Civitas Vangionum)</placeName></origPlace><origDate><origDate notBefore-custom="0031" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">31 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1603"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2957570">Altenkirchen</placeName><placeName type="findspot"/><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD076002_1" sex="M"><persName><name type="praenomen">Ti.+</name><name type="nomen">Candidianus</name><name type="cognomen">Tacitus</name></persName></person><person xml:id="HD076002_2" sex="M"><persName><name type="praenomen">Ti.</name><name type="nomen">Candidianius+</name><name type="cognomen">Iunianus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-02-18" who="Osnabrügge">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">f</supplied>rater et heres <lb n="2"/><expan><abbr><supplied reason="lost">T</supplied>ib</abbr><ex>erio</ex></expan> Candidianio T<lb break="no" n="3"/>acito mon&amp;lt;u=I&amp;gt;me<expan><ex>n</ex><abbr>tu</abbr></expan><lb break="no" n="4"/>m fecit <expan><abbr>Tib</abbr><ex>erius</ex></expan> Candid<lb break="no" n="5"/><supplied reason="lost">i</supplied>anius Iunianus 
+            </ab></div>
+            <div type="commentary">
+                <p>Möglicherweise wurde, wie bereits Zangemeister im CIL erwog, die letzte Zeile der Inschrift in der Abschrift fehlerhaft an erster Stelle gesetzt, so dass statt dessen: [T]ib(erio) Candidiano T/acito mon&amp;lt;u&amp;gt;me[n]tu/m fecit Tib(erius) Candid/[i]anius Iunianus / [f]rater et heres zu lesen wäre.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 06197.</bibl><bibl>F.J. Hildenbrand, Der römische Steinsaal (Lapidarium) des Historischen Museums der Pfalz zu Speyer (Speyer 1911) 67.</bibl><bibl>S. Ditsch, Dis Manibus. Die römischen Grabdenkmäler aus der Pfalz (Neustadt/Weinstraße 2011) 67, Nr. Altenkirchen 03.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Buthoe &amp;ndash; Budva (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD075068</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD075068</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Budva, Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">tabula?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(20)</height><width>(16)</width><depth>3</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/481770">Buthoe</placeName></origPlace><origDate><origDate notBefore-custom="0171" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3194884">Montenegro</placeName><placeName type="modern" ref="http://www.geonames.org/3203106">Budva</placeName><placeName type="findspot">{Hotel Avala}, bei, Nekropole</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD075068_1"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-06-30" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>I</abbr><ex cert="low"/>I</expan><certainty match="preceding-sibling::node()" locus="value"/><expan><abbr>I</abbr><ex cert="low"/>I</expan><certainty match="preceding-sibling::node()" locus="value"/> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>L</abbr><ex cert="low"/>erit</expan> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>an</abbr><ex cert="low">no---</ex></expan> <expan><abbr>L</abbr><ex cert="low"/>V</expan> EL<lb break="no" n="4"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>SI</abbr><ex cert="low"/>DEVS</expan> <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>S</abbr><ex cert="low"/>tuli</expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <gap reason="lost" extent="unknown" unit="character"/><expan><abbr>I</abbr><ex cert="low"/>T</expan>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Z. 6 befindet sich auf dem unteren Rahmen. Reste von roter Farbe in den Buchstaben. Z. 1: nur die unteren Buchstabenhälften erhalten. Z. 2 (Anfang): von L(?) nur das rechte untere Ende erhalten. Z. 3: LV-Ligatur? Z. 4: statt I auch T möglich. Z. 5 (Anfang): von S(?) nur das rechte obere Ende erhalten. (B): Martinović: Lesung abweichend / unvollständig.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>J.J. Martinović, Antički natpisi u Crnoj Gori. Corpus inscriptionum Latinarum et Graecarum Montenegri (Kotor 2011) 90-91, Nr. 73; Foto u. Zeichnung. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

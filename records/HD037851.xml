@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Carthago Nova &amp;ndash; Cartagena (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD037851</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD037851</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Cartagena, Mus. Arq. Mun.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>31</height><width>(45)</width><depth>7</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Hispania citerior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/265849">Carthago Nova</placeName></origPlace><origDate><origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar"/></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern" ref="http://www.geonames.org/2520058">Cartagena</placeName><placeName type="findspot"/><placeName type="region">Comunidad Autónoma de la Región de Murcia</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD037851_1"><persName><name type="nomen">[---]</name><name type="cognomen">Pyramis+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2006-04-11" who="Garcia">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F012577" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/ef00e3a2-d549-4ff9-b87e-17e20c53d1a4/file/id/772101/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">P</supplied>yramis <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>s fili <lb n="3"/><supplied reason="lost">hic siti</supplied> sunt <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr><supplied reason="lost">so</supplied>rorib</abbr><ex>us</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/> et filis <supplied reason="lost" cert="low">et</supplied> <expan><abbr>s</abbr><ex cert="low">ibi</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Reste schwarzer Farbe auf der ersten Zeile, vermutlich als Korrektur der ursprünglichen Buchstaben. Linke Seite der Inschrift stark verwittert. Abascal Palazón - Ramallo Asensio: Z. 5 (Ende): [d(e)] s(uo).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>J.M. Abascal Palazón - S.F. Ramallo Asensio, La ciudad de Carthago Nova: La documentación epigráfica (Murcia 1997) 430-431, Nr. 193; lám. 170.</bibl><bibl>CIL 02, 03516.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

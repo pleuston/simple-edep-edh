@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Roma &amp;ndash; Roma (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD032699</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD032699</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Roma, Lap. For.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">statue base</objectType><dimensions unit="cm"><height>(22)</height><width>(25)</width><depth>(14)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma</placeName></origPlace><origDate><origDate notBefore-custom="0331" notAfter-custom="0400" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">331 AD - 400 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma</placeName><placeName type="findspot">Forum Romanum</placeName><placeName type="region">Lazio</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD032699_1"><persName><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2007-07-19" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F011026" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/2ae6dd70-7cb6-4fe2-bf15-c0ab3754e596/file/id/770549/file_version/name/small"/><graphic xml:id="F040289" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/ca9c32d3-d653-4328-8cf2-62602171c621/file/id/801171/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>I</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">secun</supplied>do <expan><abbr>cons</abbr><ex>uli</ex></expan> <supplied reason="lost">ordinario</supplied> <lb n="3"/><supplied reason="lost">praefecto prae</supplied>torio p<supplied reason="lost">er</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/><supplied reason="lost">ob insignem<certainty locus="name" match="preceding-sibling::text()" cert="low"/> e</supplied>rga <supplied reason="lost" cert="low">se benevolentiam</supplied> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Ergänzungsvorschlag nach G. Alföldy.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 06, 41346; Foto.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

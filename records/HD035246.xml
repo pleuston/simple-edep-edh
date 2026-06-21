@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Salonae, bei &amp;ndash; Solin (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD035246</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD035246</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Split, Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/214">sarcophagus</objectType><dimensions unit="cm"><height>(11)</height><width>(24)</width><depth>10</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.5-5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197488">Salonae, bei</placeName></origPlace><origDate><origDate notBefore-custom="0501" notAfter-custom="0600" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">501 AD - 600 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1884"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3190359">Solin</placeName><placeName type="findspot">{Manastirine}</placeName><placeName type="region">Splitsko-dalmatinska županija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-11-10" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/>D qu<gap reason="lost" extent="unknown" unit="character"><certainty match=".." locus="name"/></gap><lb break="no" n="1"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>c</abbr><ex cert="low"/>olo</expan> V<gap reason="lost" extent="unknown" unit="character"><certainty match=".." locus="name"/></gap> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Fragment des rechten Akroters eines Sarkophagdeckels. Textwiedergabe nach Marin u. a.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILJug 2559.</bibl><bibl>R. Egger, Der altchristliche Friedhof Manastirine nach dem Materiale Fr.</bibl><bibl>Bulić', Forschungen in Salona 2 (Wien 1926) 107, Nr. 280; Zeichnung.</bibl><bibl>E. Marin u. a., Salona 4. Inscriptions de Salone chrétienne, IVe-VIIe siècles (Rome - Split 2010) 1103-1104, Nr. 728; Foto.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

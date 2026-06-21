@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Kobern-Gondorf (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD060955</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD060955</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bonn, Rhein. Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">tabula?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(25)</height><width>(28)</width><depth>(8)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">2.0-2.8</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/108906"/></origPlace><origDate><origDate notBefore-custom="0401" notAfter-custom="0430" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">401 AD - 430 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1885"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2919118">Kobern-Gondorf</placeName><placeName type="findspot">{Gondorf}</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD060955_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">Lepidus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-03-20" who="Gräf">checked through autopsy</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F007096" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/be44fc93-cbb3-4a1d-8ab8-fdf7ac271fe6/file/id/767508/file_version/name/small"/><graphic xml:id="F018363" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/ec49c336-fa0d-4fdb-a682-ed890499ceb7/file/id/778435/file_version/name/small"/><graphic xml:id="F020706" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/fd4d3e1e-829f-4958-a798-a432b046ed38/file/id/780780/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost">Hic quiesci</supplied>t Lepidus in pa<supplied reason="lost">ce</supplied> <lb n="2"/><supplied reason="lost">qui v</supplied>ixit <expan><abbr>an</abbr><ex>nos</ex></expan> XII m<expan><ex>en</ex><abbr>s</abbr><ex>es</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>adius et Paci<gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/><supplied reason="lost">ti</supplied>tulum posue<supplied reason="lost">runt</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Autopsie R. Wiegels. Anfang Z. 3: CIL vermutet ein &amp;quot;&amp;quot;T&amp;quot;&amp;quot; -&amp;gt; [---]tadius.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 07644.</bibl><bibl>(o. Autor), Kobern-Gondorf. Von der Vergangenheit zur Gegenwart (Kobern-Gondorf 1980) 55; Abb. 22.</bibl><bibl>K. Matijević, Römische und frühchristliche Zeugnisse im Norden Obergermaniens. Epigraphische Studien zu unterer Mosel und östlicher Eifel (Rahden (Westf.) 2010) 332-335, Nr. 84; Abb. 6; Abb. 7 (Zeichnung).</bibl><bibl>M.-P. Terrien, La christianisation de la région rhénane du IVe au milieu du VIIIe siècle. Corpus (Besançon 2007) 96.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

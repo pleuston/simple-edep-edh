@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Teurnia, bei &amp;ndash; S. Stefan/Gailtal (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD067094</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD067094</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>S. Stefan/Gailtal, Bichlhof 3, Hauskapelle, vermauert</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>57</height><width>70</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/187583">Teurnia, bei</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 230 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1895"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2766394">S. Stefan/Gailtal</placeName><placeName type="findspot">{Bichlhof 3}, bei</placeName><placeName type="region">Kärnten</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD067094_1" sex="M"><persName><name type="cognomen">Elvissius</name></persName></person><person xml:id="HD067094_2" sex="M"><persName><name type="cognomen">Bellicus</name></persName></person><person xml:id="HD067094_3" sex="W"><persName><name type="cognomen">Matiu</name></persName></person><person xml:id="HD067094_4" sex="M"><persName><name type="cognomen">Lucretus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-02-21" who="Cowey">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Elvissio Bel<lb break="no" n="2"/>lici <expan><abbr>d</abbr><ex>efuncto</ex></expan> <expan><abbr>a</abbr><ex>nnorum</ex></expan> XXX <lb n="3"/>Matiu Lucre<lb break="no" n="4"/>to <expan><abbr>f</abbr><ex>ilio</ex></expan> et <expan><abbr>con</abbr><ex>iugi</ex></expan> <lb n="5"/><expan><abbr>carissim</abbr><ex>o</ex></expan> <expan><abbr>v</abbr><ex>iva</ex></expan> <expan><abbr>f</abbr><ex>ecit</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): ILLPRON: Z. 1: (H)elvissio; Dolenz: Z. 2-5: I[--] D A XXX / MATIV LVCI F / [---]V[--]R.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>P.S. Leber, Die in Kärnten seit 1902 gefundenen römischen Steininschriften (Klagenfurt 1972) 167, Nr. 310.</bibl><bibl>ILLPRON 0037. (B)</bibl><bibl>H. Dolenz, AustrRom 14, 1964, 13-14. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

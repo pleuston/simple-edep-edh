@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Aurgi &amp;ndash; Jaén (Baetica)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD029645</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD029645</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">statue base</objectType><dimensions unit="cm"><height>(43)</height><width>(50)</width><depth>45</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4-7</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Baetica</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/265810">Aurgi</placeName></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern" ref="http://www.geonames.org/2516395">Jaén</placeName><placeName type="findspot">calle Cuatro Torres / plaza de la Constitución</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD029645_1"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="1999-07-22" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/>PACT <expan><abbr>dev</abbr><ex>ot-</ex></expan> <supplied reason="lost">numini</supplied> <lb n="2"/><expan><abbr><supplied reason="lost">mai</supplied>estatiq</abbr><ex>ue</ex></expan> e<supplied reason="lost">ius</supplied> <lb n="3"/><expan><abbr>d</abbr><ex>ecreto</ex></expan> <expan><abbr>d</abbr><ex>ecurionum</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): AE 1965: Z. 2/3: e[ius] d. d.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 02 (2. Aufl.) 05, 00028.</bibl><bibl>AE 1965, 0089. (B)</bibl><bibl>A. Cabezón, AEA 37, 1964, 130-131, Nr. 38; fig. 38. - AE 1965.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

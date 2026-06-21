@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Rigomagus &amp;ndash; Remagen (Germania inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD080160</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD080160</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bonn, Rhein. Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>69</height><width>24</width><depth>11</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109281">Rigomagus</placeName></origPlace><origDate><origDate notBefore-custom="0601" notAfter-custom="0800" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">601 AD - 800 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1857"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2848335">Remagen</placeName><placeName type="findspot">{Apollinarisberg}, Fuß</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD080160_1" sex="M"><persName><name type="cognomen">Reudolfus*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-06-24" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F020665" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/33c0f13d-2744-43e4-8d0f-61e400079d19/file/id/780738/file_version/name/small"/><graphic xml:id="F007100" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/11a249e9-cb35-4982-8d05-a4c81729f887/file/id/767512/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Hic requi<lb break="no" n="2"/>&amp;lt;e=I&amp;gt;scit pu<lb break="no" n="3"/>ello <note>sic</note> n&amp;lt;o=V&amp;gt;<lb break="no" n="4"/>m&amp;lt;i=E&amp;gt;<expan><abbr>n</abbr><ex>e</ex></expan> Reu<lb break="no" n="5"/><expan><abbr>dolfu</abbr><ex>s</ex></expan> <lb n="6"/>qui o&amp;lt;bi=IV&amp;gt;<lb break="no" n="7"/>it an<supplied reason="lost">nos de</supplied><lb break="no" n="8"/>ce<supplied reason="lost">m decess</supplied><lb break="no" n="9"/>it die M<expan><ex>a</ex><abbr>r</abbr></expan><lb break="no" n="10"/>tis q<expan><ex>u</ex><abbr>od</abbr></expan> <lb n="11"/><expan><ex>h</ex><abbr>abuit</abbr></expan> I<lb break="no" n="12"/>di<expan><ex>bu</ex><abbr>s</abbr></expan> mense <lb n="13"/>&amp;lt;I=G&amp;gt;un&amp;lt;i=N&amp;gt;o V 
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 07814; Zeichnung.</bibl><bibl>H. Lehner, Die antiken Steindenkmäler des Provinzialmuseums in Bonn (Bonn 1918) 387-388, Nr. 1005; Zeichnung.</bibl><bibl>M.-P. Terrien, La christianisation de la région rhénane du IVe au milieu du VIIIe siècle. Corpus (Besançon 2007) 167.</bibl><bibl>ILCV 4423.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

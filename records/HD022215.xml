@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Onnum &amp;ndash; Halton Chesters (Britannia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD022215</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD022215</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Newcastle upon Tyne, Great North Museum, Hancock</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/260">slab</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>91</height><width>(133)</width><depth>19</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">8.7-7.8</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Britannia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/89201">Onnum</placeName></origPlace><origDate><origDate notBefore-custom="0122" notAfter-custom="0126" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">122 AD - 126 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1936"><placeName type="country" ref="https://www.geonames.org/2635167">United Kingdom</placeName><placeName type="modern">Halton Chesters</placeName><placeName type="findspot">{Lager}</placeName><placeName type="region">Northumberland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD022215_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1427"><name type="cognomen">Traianus+* Hadrianus+</name></persName></person><person xml:id="HD022215_2" sex="M"><persName><name type="praenomen">A.</name><name type="nomen">Platorius</name><name type="cognomen">Nepos+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2018-04-20" who="Cowey">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>eratori</ex></expan> <expan><abbr>Caes</abbr><ex>ari</ex></expan> T<supplied reason="lost"><expan><abbr>ra</abbr><ex>iano</ex></expan> Hadriano</supplied> <lb n="2"/><expan><abbr>Aug</abbr><ex>usto</ex></expan> <expan><abbr>leg</abbr><ex>io</ex></expan> VI v<supplied reason="lost">ictrix <expan><abbr>p</abbr><ex>ia</ex></expan> <expan><abbr>f</abbr><ex>idelis</ex></expan></supplied> <lb n="3"/><expan><abbr>A</abbr><ex>ulo</ex></expan> Platorio N<supplied reason="lost">epote</supplied> <lb n="4"/><expan><abbr>leg</abbr><ex>ato</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>pr</abbr><ex>o</ex></expan> <supplied reason="lost"><expan><abbr>pr</abbr><ex>aetore</ex></expan></supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): In Z. 2 [victrix statt v[ictrix.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1938, 0116. (B)</bibl><bibl>R.G. Collingwood, JRS 27, 1937, 247, Nr. 6. - AE 1938. (B)</bibl><bibl>RIB 1427; Zeichnung.</bibl><bibl>PIR (2. Aufl.) P 449.</bibl><bibl>E.J. Phillips, Corbridge. Hadrian's Wall east of the North Tyne, CSIR Great Britain 1, 1 (Oxford 1977) 106, Nr. 292; Pl. 77, 292.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

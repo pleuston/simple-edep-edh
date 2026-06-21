@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Campona &amp;ndash; Budapest (Pannonia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD071827</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD071827</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Budapest, Nagytétény, Schloß, Lapidarium</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(84)</height><width>132</width><depth>19</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197187">Campona</placeName></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0130" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 130 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3047502">Budapest</placeName><placeName type="findspot">Budafok, {Nagytétény}</placeName><placeName type="region">Budapest</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD071827_1" sex="M"><persName><name type="cognomen">Terso</name></persName></person><person xml:id="HD071827_2" sex="M"><persName><name type="cognomen">Precio</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-02-01" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Terso Precio<lb break="no" n="2"/>nis <expan><abbr>f</abbr><ex>ilius</ex></expan> Scordiscus <lb n="3"/>eques alae <expan><abbr>Fron</abbr><ex>tonianae</ex></expan> <lb n="4"/><expan><abbr>tur</abbr><ex>ma</ex></expan> Lobasini a<lb break="no" n="5"/><expan><abbr>r</abbr><ex>morum</ex></expan> <expan><abbr>cus</abbr><ex>tos</ex></expan> <expan><abbr>an</abbr><ex>norum</ex></expan> XX<supplied reason="lost">X<gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/> <expan><abbr>stip</abbr><ex>endiorum</ex></expan></supplied> <lb n="6"/>XVI <expan><abbr>h</abbr><ex>ic</ex></expan> <supplied reason="lost"><expan><abbr>s</abbr><ex>itus</ex></expan> <expan><abbr>e</abbr><ex>st</ex></expan> <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 03400.</bibl><bibl>TitAq 1011; Foto.</bibl><bibl>B. Lőrincz, in: HPS 19 (Budapest - Debrecen 2011) 298, Nr. 44.</bibl><bibl>B. Lőrincz, Die römischen Hilfstruppen in Pannonien während der Prinzipatszeit 1. Die Inschriften (Wien 2001) 223, Nr. 214.</bibl><bibl>H. Ubl, Waffen und Uniform des römischen Heeres der Prinzipatsepoche nach den Grabreliefs Noricums und Pannoniens (Wien 2013) XXXIX, Nr. 62; Taf. 23, 89.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

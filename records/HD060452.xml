@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Echzell (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD060452</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD060452</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Darmstadt, Hess. Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/16">Basalt</material><dimensions unit="cm"><height>(23)</height><width>(31)</width><depth>(16)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118657"/></origPlace><origDate><origDate when-custom="0197" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">197 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1896"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2933772">Echzell</placeName><placeName type="findspot">{Biederichsgraben, bei}?</placeName><placeName type="region">Hessen</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD060452_1" sex="M"><persName><name type="cognomen">Lateranus+</name></persName></person><person xml:id="HD060452_2" sex="M"><persName><name type="cognomen">Rufinus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-10-06" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F029558" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/97a0ba0e-a711-424b-aa42-b6599952ec73/file/id/790315/file_version/name/small"/><graphic xml:id="F029559" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/ec4dda07-a4e5-48c2-a4d9-c392b2824548/file/id/790316/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> Lat<supplied reason="lost">erano</supplied> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> et Rufino c<supplied reason="lost"><expan><abbr>o</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan></supplied>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Möglicherweise Fragment vom unteren Teil eines Altars. Z. 2 befindet sich auf der crepido.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 07427a.</bibl><bibl>F. Kofler, in: Der obergermanisch-rätische Limes des Römerreiches B, II, 2, 18 (Lieferung 18) (Heidelberg 1914) 14, Nr. 4; Taf. 3, 3 (Zeichnung).</bibl><bibl>PIR (2. Aufl.) C 1638.</bibl><bibl>PIR (2. Aufl.) S 669.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

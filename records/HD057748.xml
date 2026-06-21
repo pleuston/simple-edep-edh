@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Santicum, bei &amp;ndash; Villach (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD057748</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD057748</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Villach, S. Michael, S. Michael, Kirche, vermauert</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">tabula?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>44</height><width>50</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.5-3.3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/187537">Santicum, bei</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 230 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2762372">Villach</placeName><placeName type="findspot">S. Michael, {S. Michael, Kirche}, sekundär verwendet</placeName><placeName type="region">Kärnten</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD057748_1" sex="W"><persName><name type="cognomen">Bacacu</name></persName></person><person xml:id="HD057748_2" sex="M"><persName><name type="cognomen">Atunus</name></persName></person><person xml:id="HD057748_3" sex="M"><persName><name type="cognomen">Arimanus</name></persName></person><person xml:id="HD057748_4" sex="M"><persName><name type="cognomen">Ario</name></persName></person><person xml:id="HD057748_5" sex="M"><persName><name type="cognomen">Cotunus</name></persName></person><person xml:id="HD057748_6" sex="M"><persName><name type="cognomen">Messicus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-07-15" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Bacacu Atu<lb break="no" n="2"/>ni <expan><abbr>f</abbr><ex>ilia</ex></expan> viva fecit <lb n="3"/>sibi et Arima<lb break="no" n="4"/>no filio Ari<lb break="no" n="5"/>oni <expan><abbr>f</abbr><ex>ilio</ex></expan> et Cotu<lb break="no" n="6"/>ni Messici <expan><abbr>f</abbr><ex>ilio</ex></expan> <lb n="7"/>coniugi <expan><abbr>car</abbr><ex>issimo</ex></expan> <lb n="8"/>vivo
+            </ab></div>
+            <div type="commentary">
+                <p>Materialangabe nach lupa 2187.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILLPRON 0456.</bibl><bibl>CIL 03, 11502.</bibl><bibl>P. Leber, Carinthia I 145, 1955, 195.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

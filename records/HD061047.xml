@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Carnuntum &amp;ndash; Petronell-Carnuntum (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD061047</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD061047</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Hainburg/Donau, Kulturfabrik, Arch. Zentraldepot</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(90)</height><width>(63)</width><depth>19</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">9.5-6.0</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/128376">Carnuntum</placeName></origPlace><origDate><origDate notBefore-custom="0063" notAfter-custom="0068" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">63 AD - 68 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1932"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2769013">Petronell-Carnuntum</placeName><placeName type="findspot">Gräberstraße, {Parzelle Nr. 311}</placeName><placeName type="region">Niederösterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD061047_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Blattius+</name><name type="cognomen">Secundus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-05-11" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F019453" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/163001d0-b13e-4e00-ab87-ab976c280180/file/id/779525/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>G</abbr><ex>aius</ex></expan> Blatt<supplied reason="lost">ius</supplied> <lb n="2"/><expan><abbr>G</abbr><ex>ai</ex></expan><certainty match="preceding-sibling::node()" locus="value"/> <expan><abbr>Ani</abbr><ex>ensis</ex></expan> S<supplied reason="lost">ecun</supplied><lb break="no" n="3"/>dus Fo<supplied reason="lost">ro <expan><abbr>Iul</abbr><ex>i</ex></expan></supplied> <lb n="4"/><expan><abbr>mil</abbr><ex>es</ex></expan> <expan><abbr>l</abbr><ex>egionis</ex></expan> <supplied reason="lost">X <expan><abbr>g</abbr><ex>eminae</ex></expan> <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="5"/><expan><abbr>an</abbr><ex>norum</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <lb n="6"/><expan><abbr>h</abbr><ex cert="low">ic</ex></expan> <supplied reason="lost"><expan><abbr>s</abbr><ex>itus</ex></expan>? <expan><abbr>e</abbr><ex>st</ex></expan>? <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/>
+            </ab></div>
+            <div type="commentary">
+                <p>3 aneinanderpassende Fragmente. Z. 1: G mit eingebogener Haste dargestellt; Z. 2: möglicherweise auch C(ai). Z. 4: von der Ziffer noch das linke Ende der waagrechten Hasta über der verlorenen Zahl erhalten. (B): Hild; Vorbeck; Beszedés 2004, 2014: Z. 1: C(aius). Datierung: Zeitraum der Stationierung der legio X gemina in Carnuntum.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2006, 1056.</bibl><bibl>A. Betz - H. Kenner, RLŒ 18, 1937, 38-39, Nr. 4; Zeichnung.</bibl><bibl>F. Hild, Supplementum epigraphicum zu CIL III. Das pannonische Niederösterreich, Burgenland und Wien 1902-1968 (Diss. Wien 1968) 90-91, Nr. 143. (B)</bibl><bibl>E. Vorbeck, Militärinschriften aus Carnuntum (2. Aufl. Wien 1980) 96, Nr. 261. (B)</bibl><bibl>J. Beszédes, AArchHung 55, 2004, 329, Nr. 7. (B) - AE 2006.</bibl><bibl>J. Beszédes, in: F. Humer - G. Kremer - E. Pollhammer - A. Pülz (Hrsg.), Akten der 3. Österreichischen Römersteintagung, Hainburg a. d. Donau 2014 (Wien 2014) 17, Nr. 7. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

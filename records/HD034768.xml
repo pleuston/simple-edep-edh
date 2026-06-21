@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Salonae, bei &amp;ndash; Solin (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD034768</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD034768</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Split, Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/214">sarcophagus</objectType><material>Gesteine</material><dimensions unit="cm"><height>(120)</height><width>240</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.5-3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197488">Salonae, bei</placeName></origPlace><origDate><origDate when-custom="0360" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">360 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1883"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3190359">Solin</placeName><placeName type="findspot">Manastirine, Basilika, bei, {Aedicula 10}</placeName><placeName type="region">Splitsko-dalmatinska županija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD034768_1" sex="M"><persName><name type="cognomen">Constantius</name></persName></person><person xml:id="HD034768_2" sex="M"><persName><name type="cognomen">Iulianus</name></persName></person><person xml:id="HD034768_3" sex="M"><persName><name type="nomen">0?</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-07-22" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F033265" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/6ee9aae4-0657-4add-be50-9f7617002b39/file/id/794072/file_version/name/small"/><graphic xml:id="F033266" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/ee8dccc8-dff5-4612-be83-fb3b0e294a3f/file/id/794073/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">de</supplied>cus <supplied reason="lost" cert="low">fi</supplied>d<supplied reason="lost">ei<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <gap reason="lost" extent="unknown" unit="character"/></supplied><lb break="no" n="2"/>NVS honores <expan><abbr>culpari</abbr><ex cert="low"/></expan> <lb n="3"/>nihilum dignus set <note>sic</note> dignus <lb n="4"/>amari dux idem sociusque <lb n="5"/>sui cum milite regis digna <lb n="6"/>memoratu clueat per sae<lb break="no" n="7"/>cula fama <expan><abbr>dep</abbr><ex>ositus</ex></expan> die VII Idus <expan><abbr>Aug</abbr><ex>ustas</ex></expan> <lb n="8"/>Constantio <expan><abbr>Aug</abbr><ex>usto</ex></expan> X et Iuliano <lb n="9"/><expan><abbr>Caes</abbr><ex>are</ex></expan> III <expan><abbr>cons</abbr><ex>ulibus</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Inschriftfeld in Form einer tabula ansata. Christogramm links neben der linken ansa. Bruchstück eines Sarkophagkastens. Textwiedergabe / Ergänzungen nach E. Marin u. a.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILJug 2382.</bibl><bibl>CIL 03, 09504.</bibl><bibl>ILCV 0240.</bibl><bibl>CLE 0650.</bibl><bibl>N. Cambi, BAHD 70/71, 1968/69, 105-106, Nr. 42; tab. 14, 1.</bibl><bibl>J. Dresken-Weiland, Repertorium der christlich-antiken Sarkophage 2 (Mainz 1998) 108, Nr. 301; Taf. 100, 1-3.</bibl><bibl>R. Egger, Der altchristliche Friedhof Manastirine nach dem Materiale Fr.</bibl><bibl>Bulić', Forschungen in Salona 2 (Wien 1926) 81, Nr. 104.</bibl><bibl>E. Marin u. a., Salona 4. Inscriptions de Salone chrétienne, IVe-VIIe siècles (Rome - Split 2010) 393-397, Nr. 155; Fotos.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

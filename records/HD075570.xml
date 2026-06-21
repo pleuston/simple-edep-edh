@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Mogontiacum &amp;ndash; Mainz (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD075570</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD075570</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mainz, Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>118</height><width>32</width><depth>30</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">2.5-3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109169">Mogontiacum</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 230 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1906"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2874225">Mainz</placeName><placeName type="findspot">Salvatorstraße, {Abtsgasse - Auf der Steig, zwischen}, sekundär verwendet</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD075570_1"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD075570_2" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">Zontius?</name><name type="cognomen">Zontius?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2018-01-03" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F015748" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/f25e8c9e-d174-46e1-971f-5c629c7a2774/file/id/775326/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                ------ <expan><abbr>n<am>n</am></abbr><ex>os</ex></expan>] <lb n="2"/>XXV <expan><abbr>mens</abbr><ex>es</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/>Zontius <gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/>vixit <expan><abbr>n<am>n</am></abbr><ex>os</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Das Grabdenkmal wurde spätantik für die Deckplatte einer Säule (möglicherweise von einer Balustrade) wiederverwendet; die Inschrift befindet sich auf der Vorderseite der Deckplatte. Maße beziehen sich auf das Säulenmonument. (B): Frenz; Boppert: Z. 1-3: me[ns(ibus) ---]; Boppert: Z. 2/3: Z(?)ontius / [---] / vixit an(nis) [---].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 11902.</bibl><bibl>W. Boppert, Zivile Grabsteine aus Mainz und Umgebung, CSIR Deutschland 2, 6 (Mainz 1992) 117, Nr. 85; Taf. 51, 85. (B)</bibl><bibl>H.G. Frenz, Bauplastik und Porträts aus Mainz und Umgebung, CSIR Deutschland 2, 7 (Mainz 1992) 98-99, Nr. 112; Tafel 59. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

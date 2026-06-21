@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Prevalje (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD057821</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD057821</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Slovenj Gradec, Kor. Pokr. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor, weiß</material><dimensions unit="cm"><height>82</height><width>92</width><depth>15</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">10-5.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0051" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1881"><placeName type="country" ref="https://www.geonames.org/3190538">Slovenia</placeName><placeName type="modern" ref="http://www.geonames.org/3192826">Prevalje</placeName><placeName type="findspot">{Poljana}</placeName><placeName type="region">Koroška statistična regija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD057821_1" sex="M"><persName><name type="cognomen">Quinctus</name></persName></person><person xml:id="HD057821_2" sex="M"><persName><name type="cognomen">Rudscus</name></persName></person><person xml:id="HD057821_3" sex="W"><persName><name type="cognomen">Atecina</name></persName></person><person xml:id="HD057821_4" sex="M"><persName><name type="cognomen">Sinomarus</name></persName></person><person xml:id="HD057821_5" sex="W"><persName><name type="cognomen">Viria</name></persName></person><person xml:id="HD057821_6" sex="M"><persName><name type="cognomen">Taetus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-06-16" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Quincto <lb n="2"/>Rudsci <expan><abbr>f</abbr><ex>ilio</ex></expan> et <lb n="3"/>Atecinae <lb n="4"/>Sinomari <expan><abbr>f</abbr><ex>iliae</ex></expan> <lb n="5"/>coniugi <expan><abbr>p</abbr><ex>arentes</ex></expan> et <expan><abbr>f</abbr><ex>ilii</ex></expan> <expan><abbr>f</abbr><ex>iliaeque</ex></expan> <lb n="6"/>et Viriae Taeti <expan><abbr>f</abbr><ex>iliae</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Z. 6: CIL: T[-]ati, ILLPRON: T[a]ti.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2006, 0975.</bibl><bibl>S. Djura Jelenko - J. Visočnik, AArchSlov 57, 2006, 374. 407, Nr. 11; sl. 36. - AE 2006.</bibl><bibl>CIL 03, 11650. (B)</bibl><bibl>ILLPRON 1944. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

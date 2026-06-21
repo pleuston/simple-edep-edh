@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Municipium Claudium Virunum, aus? &amp;ndash; Maria Saal (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD057173</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD057173</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Maria Saal, Maria Saal, Propstei</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material>Marmor, geädert / farbig</material><dimensions unit="cm"><height>(52)</height><width>70</width><depth>40</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197583">Municipium Claudium Virunum, aus?</placeName></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1870"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2772135">Maria Saal</placeName><placeName type="findspot">{Maria Saal}, Modestusstöckl</placeName><placeName type="region">Kärnten</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD057173_1" sex="W"><persName><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD057173_2" sex="M"><persName><name type="nomen">Mestrius+</name><name type="cognomen">Attianus</name></persName></person><person xml:id="HD057173_3" sex="M"><persName><name type="nomen">Mestrius</name><name type="cognomen">Primianus</name></persName></person><person xml:id="HD057173_4" sex="M"><persName><name type="nomen">Mestrius</name><name type="cognomen">Secundinus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-06-16" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">Mestr</supplied>io <lb n="2"/>Attiano <expan><abbr>con</abbr><ex>iugi</ex></expan> <lb n="3"/><expan><abbr>kar</abbr><ex>issimo</ex></expan> et Mestrio <lb n="4"/>Primiano et Mestrio <lb n="5"/>Secundino fili<expan><ex>i</ex><abbr>s</abbr></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Mittelteil eines Altars. Material: gelblich-weißer Marmor (Gummern?). Auf den Nebenseiten je ein Relief mit Trauergenius.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2007, 1076.</bibl><bibl>G. Piccottini, Carinthia I 197, 2007, 491-494. - AE 2007.</bibl><bibl>G. Kremer, Antike Grabbauten in Noricum (Wien 2001) 262-263, Nr. 338.</bibl><bibl>ILLPRON 0300.</bibl><bibl>CIL 03, 04943.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

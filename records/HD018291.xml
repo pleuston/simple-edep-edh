@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Aelium Cetium, bei &amp;ndash; Ruprechtshofen (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD018291</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD018291</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Ruprechtshofen, Koth 7, bei</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/210">cliff</objectType><material>Gesteine</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">9</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118629">Aelium Cetium, bei</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1947"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2766951">Ruprechtshofen</placeName><placeName type="findspot">{Koth 7}, bei</placeName><placeName type="region">Niederösterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD018291_1" sex="W"><persName><name type="cognomen">Cocina</name></persName></person><person xml:id="HD018291_2" sex="M"><persName><name type="cognomen">Aiu</name></persName></person><person xml:id="HD018291_3" sex="W"><persName><name type="cognomen">Successa</name></persName></person><person xml:id="HD018291_4"><persName><name type="cognomen">Successus/a*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-07-25" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Cocinae A<lb break="no" n="2"/>iunis <expan><abbr>lib</abbr><ex>ertae</ex></expan> <expan><abbr>an</abbr><ex>norum</ex></expan> <lb n="3"/>Successa LII <lb n="4"/><expan><abbr>Success</abbr><ex>--</ex></expan> <expan><abbr>lib</abbr><ex>erta</ex></expan> <expan><abbr>v</abbr><ex>ixit</ex></expan> <lb n="5"/><expan><abbr>an</abbr><ex>nos</ex></expan> L
+            </ab></div>
+            <div type="commentary">
+                <p>In den Fels einer Grabanlage eingetieftes, gerahmtes Inschriftfeld (Felswand A); Maße des Inschriftfeldes: 67 x 70 cm. Fundjahr: 1947/48. Zwei nacheinander eingemeißelte Inschriften; dabei Successa (Z. 3) nachträglich in die ursprüngliche Lücke vor LII eingesetzt. Z. 4: SS-Ligatur. (B): ILLPRON: Z. 4: Succes(si); AE 1989: Z. 4: l(iberta); Vetters; Stern: Z. 4/5: v. an.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1989, 0590. (B)</bibl><bibl>AE 2004, 1090.</bibl><bibl>ILLPRON 0859. (B)</bibl><bibl>H. Vetters, JŒAI (Beibl.) 38, 1950, 120-121; Abb. 43. (B) - AE 1989.</bibl><bibl>J. Stern, in: Festschrift Gerhard Winkler zum 70. Geburtstag, JbMusLinz 149 (Linz 2004) 210. (B)- AE 2004.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

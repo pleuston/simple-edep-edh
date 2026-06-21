@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Flavia Solva, bei &amp;ndash; Hartberg (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD038646</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD038646</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Hartberg, S. Martin, Pfarrkirche</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/24">relief</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor, weiß</material><dimensions unit="cm"><height>93</height><width>90</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7.0-4.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197273">Flavia Solva, bei</placeName></origPlace><origDate><origDate notBefore-custom="0051" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2776801">Hartberg</placeName><placeName type="findspot">{S. Martin, Pfarrkirche}, sekundär verwendet</placeName><placeName type="region">Steiermark</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD038646_1" sex="M"><persName><name type="praenomen">Ti.</name><name type="nomen">Iulius</name><name type="cognomen">Avitus</name></persName></person><person xml:id="HD038646_2" sex="W"><persName><name type="cognomen">Caixu</name></persName></person><person xml:id="HD038646_3" sex="M"><persName><name type="cognomen">Rantillus</name></persName></person><person xml:id="HD038646_4" sex="M"><persName><name type="praenomen">Ti.</name><name type="nomen">Iulius</name><name type="cognomen">Adnnamus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-06-22" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Ti</abbr><ex>berius</ex></expan> Iulius Avitus <lb n="2"/>et Caixu <lb n="3"/>Rantilli <expan><abbr>f</abbr><ex>ilia</ex></expan> <expan><abbr>v</abbr><ex>ivi</ex></expan> <expan><abbr>f</abbr><ex>ecerunt</ex></expan> <expan><abbr>sib</abbr><ex>i</ex></expan> <lb n="4"/><supplied reason="lost">e</supplied>t <expan><abbr>Ti</abbr><ex>berio</ex></expan> Iulio Adnnamo <lb n="5"/><expan><abbr>an</abbr><ex>norum</ex></expan> IX
+            </ab></div>
+            <div type="commentary">
+                <p>Kastengrabstein; im Relief die Büsten einer Frau mit norischer Haube, eines Mannes in der Toga und eines Knaben. Z. 4: AD-Ligatur. (B): CIL III 5513; Alföldy: Z. 3/4: sib(i) et / Ti(berio); ILLPRON: Z. 2-4: sib(i) / et / Ti(berio); CIL III 5513: Z. 5: fehlt.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2011, 0880.</bibl><bibl>CIL 03, 05513. (B)</bibl><bibl>ILLPRON 1221. (B)</bibl><bibl>E. Weber, Die römerzeitlichen Inschriften der Steiermark (Graz 1969) 137-138, Nr. 80; Foto.</bibl><bibl>G. Alföldy, in: EpStud 8 (Düsseldorf 1969) 14, Nr. 18. (B)</bibl><bibl>E. Pochmarski, Die Portraitmedaillons und Portraitnischen des Stadtgebietes von Flavia Solva, CSIR Österreich 4, 2 (Wien 2011) 59-60, Nr. 24; Taf. 15, 2. - AE 2011.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

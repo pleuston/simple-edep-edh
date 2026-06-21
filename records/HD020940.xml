@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Mogontiacum &amp;ndash; Mainz (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD020940</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD020940</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mainz, Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(84)</height><width>44</width><depth>14</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109169">Mogontiacum</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0050" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 50 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1937"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2874225">Mainz</placeName><placeName type="findspot">{Fort Stahlberg}</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD020940_1" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Sterna</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-07-04" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F017077" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/debf6d50-1a11-451f-96ff-26ad6787e1ac/file/id/776683/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>L</abbr><ex>ucius</ex></expan> Sterna <lb n="2"/><expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>Scap</abbr><ex>tia</ex></expan> <lb n="3"/><expan><abbr>Floren</abbr><ex cert="low">tia</ex></expan> <lb n="4"/><expan><abbr>n<am>n</am></abbr><ex>um</ex></expan> <lb n="5"/>XXX <expan><abbr>mil</abbr><ex>es</ex></expan> <lb n="6"/><expan><abbr>leg</abbr><ex>ionis</ex></expan> X<supplied reason="lost" cert="low">VI</supplied> <lb n="7"/>st<supplied reason="lost"><expan><abbr>ip</abbr><ex>endiorum</ex></expan></supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Z. 3: auch Floren(tianus) möglich. (B): Boppert: Z. 5: s[tip.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1940, 0112.</bibl><bibl>W. Boppert, Militärische Grabdenkmäler aus Mainz und Umgebung CSIR Deutschland 2, 5 (Mainz 1992) 201, Nr. 86; Tafel 68, 86. (B)</bibl><bibl>G. Behrens, MZ 33, 1938, 29, Nr. 1; Abb. 1 (Zeichnung). - AE 1940.</bibl><bibl>H. Nesselhauf, BRGK 27, 1937, 85, Nr. 111c.</bibl><bibl>W. Selzer, Römische Steindenkmäler. Mainz in römischer Zeit. Katalog zur Sammlung in der Steinhalle (Mainz 1988) 146, Nr. 67; Foto.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

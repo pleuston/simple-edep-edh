@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Corduba &amp;ndash; Córdoba (Baetica)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD010940</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD010940</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>50</height><width>45</width><depth>7</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4-2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Baetica</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/256128">Corduba</placeName></origPlace><origDate><origDate notBefore-custom="0596" notAfter-custom="0605" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">596 AD - 605 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern" ref="http://www.geonames.org/2519240">Córdoba</placeName><placeName type="findspot"/><placeName type="region">Córdoba</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD010940_1" sex="W"><persName><name type="cognomen">Acantia</name></persName></person><person xml:id="HD010940_2" sex="M"><persName><name type="cognomen">Calamarius</name></persName></person><person xml:id="HD010940_3" sex="W"><persName><name type="cognomen">Acantia+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2010-03-10" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F020920" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/0177ad49-db20-49a5-91dd-d3c3da96ec15/file/id/780994/file_version/name/small"/><graphic xml:id="F020924" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/ed15b7f9-7669-4ab6-af5b-43a6ae86e326/file/id/780998/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Acantia honesta <lb n="2"/>femina famula Dei <lb n="3"/>vixit annos XXIII se<lb break="no" n="4"/>mis recessit in pace <lb n="5"/>sub die X K<expan><ex>a</ex><abbr>lendas</abbr></expan> <lb n="6"/>Martias <expan><ex>a</ex><abbr>er</abbr><ex>a</ex></expan> DCXXXIIII </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Calamarius famulus Dei <lb n="2"/>vixit annos quinqua<lb break="no" n="3"/>ginta rec<supplied reason="lost">e</supplied>ssit in pace <lb n="4"/>die III <expan><abbr><supplied reason="lost">Ka</supplied>l</abbr><ex>en</ex>d</expan><supplied reason="lost">as</supplied><gap reason="lost" extent="unknown" unit="character"/>bres <expan><ex>a</ex><abbr>era</abbr></expan> DCXLIII <lb n="5"/>Ac<supplied reason="lost">antia</supplied> famula Dei <lb n="6"/>vixit an<supplied reason="lost">n</supplied>os vigenti <note>sic</note> I<supplied reason="lost">I</supplied>I et <lb n="7"/>tres semis <supplied reason="lost">recess</supplied>it in pace <lb n="8"/>die X <expan><abbr>Kal</abbr><ex>endas</ex></expan> Mar<supplied reason="lost"><expan><abbr>t</abbr><ex>ias</ex></expan>? (a)era DCXX</supplied>XIIII
+            </ab></div></div>
+            <div type="commentary">
+                <p>(B): AE 1987: abweichende Textwiedergabe.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1987, 0512. (B)</bibl><bibl>CIL 02 (2. Aufl.) 07, 00644.</bibl><bibl>A.U. Stylow, MDAI(M) 28, 1987, 66-69, Nr. 42; Taf. 8 a u. b. - AE 1987.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

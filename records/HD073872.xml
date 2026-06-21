@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Carnuntum &amp;ndash; Petronell-Carnuntum (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD073872</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD073872</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Hainburg/Donau, Kulturfabrik, Arch. Zentraldepot</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/68">Muschelkalk</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/128376">Carnuntum</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1752"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2769013">Petronell-Carnuntum</placeName><placeName type="findspot"/><placeName type="region">Niederösterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD073872_1" sex="M"><persName><name type="praenomen">P.</name><name type="nomen">Aurelius*</name><name type="cognomen">Flavianus*</name></persName></person><person xml:id="HD073872_2" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Atilius</name></persName></person><person xml:id="HD073872_3" sex="M"><persName><name type="praenomen">C.</name><name type="cognomen">Quintinus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-03-31" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/><expan><abbr>P</abbr><ex>ublius</ex></expan> <expan><abbr>Aur</abbr><ex>elius</ex></expan> <expan><abbr>Flavian</abbr><ex>us</ex></expan> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/> <lb n="3"/><expan><abbr>an</abbr><ex>norum</ex></expan> XXXXII <expan><abbr>s<supplied reason="lost">ti</supplied>p</abbr><ex>endiorum</ex></expan> XX <lb n="4"/><expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>itus</ex></expan> <expan><abbr>e</abbr><ex>st</ex></expan> <lb n="5"/><expan><abbr>arb</abbr><ex>itratu</ex></expan> <expan><abbr>M</abbr><ex>arci</ex></expan> Atili <lb n="6"/>municipis sui <lb n="7"/><expan><abbr>C</abbr><ex>aius</ex></expan> Quintinus <expan><abbr>h</abbr><ex>eres</ex></expan> <expan><abbr>p</abbr><ex>osuit</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Zwei nicht aneinanderpassende Fragmente.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 04457.</bibl><bibl>E. Vorbeck, Militärinschriften aus Carnuntum (2. Aufl. Wien 1980) 97-98, Nr. 266.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

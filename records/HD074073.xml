@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Carnuntum (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD074073</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD074073</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Hainburg/Donau, Kulturfabrik, Arch. Zentraldepot</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(70)</height><width>(47)</width><depth>(2)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/128376">Carnuntum</placeName></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1937"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern"/><placeName type="findspot"/><placeName type="region">Niederösterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD074073_1" sex="M"><persName><name type="cognomen">[---]ona[---]</name></persName></person><person xml:id="HD074073_2" sex="M"><persName><name type="cognomen">[---]a</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-06-01" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F019458" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/9c46be89-5319-4013-b3d0-d7d35b9760cc/file/id/779530/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/>ona <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>ae <expan><abbr>f</abbr><ex>ilius</ex></expan> <lb n="2"/><supplied reason="lost">opti</supplied><expan><abbr>o</abbr><ex cert="low"/></expan> <expan><abbr>coh</abbr><ex>ortis</ex></expan> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>urix <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Allseitig abgebrochenes Fragment. Z. 4 könnte entweder Teil einer Herkunftsangabe [--- domo Cat]urix (Betz, Lőrincz, Vorbeck) oder Teil des Namens des Aufstellers, etwa [Bit]urix, sein. Z. 4 ist heute nicht mehr erhalten. Nach Betz möglicherweise eine cohors I Alpinorum, wenn [domo Cat]urix zu ergänzen ist.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>A. Betz, RLŒ 18, 1937, col. 55, Nr. 16d; Zeichnung.</bibl><bibl>F. Hild, Supplementum epigraphicum zu CIL III. Das pannonische Niederösterreich, Burgenland und Wien 1902-1968 (Diss. Wien 1968) 205, Nr. 295.</bibl><bibl>E. Vorbeck, Militärinschriften aus Carnuntum (2. Aufl. Wien 1980) 104, Nr. 291.</bibl><bibl>B. Lőrincz, Die römischen Hilfstruppen in Pannonien während der Prinzipatszeit 1. Die Inschriften (Wien 2001) 299, Nr. 487.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

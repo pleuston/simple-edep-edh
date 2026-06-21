@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Vindonissa &amp;ndash; Windisch (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD061806</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD061806</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Brugg, Vindonissa-Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>79</height><width>62</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6.0-3.0</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/177661">Vindonissa</placeName></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1900"><placeName type="country" ref="https://www.geonames.org/2658434">Switzerland</placeName><placeName type="modern" ref="http://www.geonames.org/2657976">Windisch</placeName><placeName type="findspot">{Legionslager, Principia}, Fahnenheiligtum</placeName><placeName type="region">Kanton Aargau</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD061806_1" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Flavius</name><name type="cognomen">Burrus</name></persName></person><person xml:id="HD061806_2" sex="M"><persName><name type="nomen">Betuvius</name><name type="cognomen">Silo</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-06-04" who="Esch">checked through autopsy</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F028774" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/b87e0fbf-a692-4a81-91b1-5bd0374f0fc7/file/id/789531/file_version/name/small"/><graphic xml:id="F028775" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/30055108-f534-4bfb-9227-b094ed8d61c0/file/id/789532/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Silvano <lb n="2"/><expan><abbr>L</abbr><ex>ucius</ex></expan> Flavius <lb n="3"/>Burrus miles <lb n="4"/><expan><abbr>leg</abbr><ex>ionis</ex></expan> XI <expan><abbr>C</abbr><ex>laudiae</ex></expan> <expan><abbr>p</abbr><ex>iae</ex></expan> <expan><abbr>f</abbr><ex>idelis</ex></expan> <expan><abbr><am><g type="centuria"/></am></abbr><ex>centuria</ex></expan> Betuvi <lb n="5"/>Silonis <expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Z. 5: v(otum) s(olvit) l(ibens) m(erito). Autopsie R. Wiegels.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 11508.</bibl><bibl>G. Walser, Römische Inschriften in der Schweiz 2 (Bern 1980) 120-121, Nr. 168; Foto. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

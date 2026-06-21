@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Carnuntum &amp;ndash; Bad Deutsch-Altenburg (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD073979</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD073979</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Hainburg/Donau, Kulturfabrik, Arch. Zentraldepot</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(69)</height><width>(39)</width><depth>9</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/128376">Carnuntum</placeName></origPlace><origDate><origDate notBefore-custom="0231" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">231 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1883"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2782068">Bad Deutsch-Altenburg</placeName><placeName type="findspot">{Burgfeld}</placeName><placeName type="region">Niederösterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD073979_1" sex="M"><persName><name type="nomen">Priv[---]</name><name type="cognomen">Iovinus Maximianus</name></persName></person><person xml:id="HD073979_2" sex="W"><persName><name type="nomen">Aurelia*</name><name type="cognomen">Via[tori--]</name></persName></person><person xml:id="HD073979_3"><persName><name type="cognomen">Lu[---]</name></persName></person><person xml:id="HD073979_4" sex="M"><persName><name type="cognomen">[---]nilus</name></persName></person><person xml:id="HD073979_5" sex="M"><persName><name type="cognomen">Sabinus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-05-04" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F019085" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/ab08819f-563a-4659-a97b-9f7442878674/file/id/779157/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/>] <lb n="1"/>Priv<gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/>Iovinus <expan><abbr>II</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/>Maximianus <gap reason="lost" extent="unknown" unit="character"/><lb break="no" n="4"/>rum et <expan><abbr>Aur</abbr><ex>elia</ex></expan> Viat<supplied reason="lost">ori<gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied> <lb n="5"/>co<expan><ex>n</ex><abbr>iux</abbr></expan> eius et Lu<gap reason="lost" extent="unknown" unit="character"/><lb break="no" n="6"/><expan><abbr>nilus</abbr><ex cert="low"/></expan> <expan><abbr>et</abbr><ex cert="low"/></expan> Sabinus et<gap reason="lost" extent="unknown" unit="character"/> <lb n="7"/>fili eorum par<supplied reason="lost">enti</supplied><lb break="no" n="8"/>bus (me<certainty match="preceding-sibling::node()" locus="value"/>rentibus I<gap reason="lost" extent="unknown" unit="character"/> <lb n="9"/><expan><abbr>f</abbr><ex>aciendum</ex></expan> curaberunt <note>sic</note>
+            </ab></div>
+            <div type="commentary">
+                <p>Z. 4: Viat[oria, -orina, -rix]. Z. 6: Lesung am Anfang unsicher, Oberfläche beschädigt. NV-Ligatur. Buchtaben gedrängt, S klein neben V? Daneben kleine ET-Ligatur? Z. 9: am Anfang eher F als I, da E und F durchweg mit kurzen Querhasten. Z. 4-6 Erster Buchstabe z. T. auf Rahmung stehend. Reste von roter Farbe in den Buchstaben. (B): Z. 6: CIL 03, 11278: VIII[---] Sabinus; CIL 03, 11278; Vorbeck: Z. 7: parentibus{rentibus}; Z. 8/9: f[ier]/i curaberunt.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 11278. (B)</bibl><bibl>E. Vorbeck, Zivilinschriften aus Carnuntum (Wien 1980) 35, Nr. 137. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Sirmium &amp;ndash; Sremska Mitrovica (Pannonia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD014651</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD014651</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Sremska Mitrovica, Muz. Srema</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">altar?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(88)</height><width>(71)</width><depth>(24)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207447">Sirmium</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1957"><placeName type="country" ref="https://www.geonames.org/6290252">Serbia</placeName><placeName type="modern" ref="http://www.geonames.org/3190103">Sremska Mitrovica</placeName><placeName type="findspot">Zmaj Jove Jovanovića ulica</placeName><placeName type="region">Vojvodina</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD014651_1" sex="W"><persName><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD014651_2" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD014651_3" sex="M"><persName><name type="nomen">Petronius</name><name type="cognomen">Septumianus+ (= Septimianus)</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-02-21" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>IVCI<supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied> <lb n="2"/>parentes <lb n="3"/><supplied reason="lost" cert="low">e</supplied>t Petronius <lb n="4"/><supplied reason="lost">S</supplied>eptumianus <note>sic</note>
+            </ab></div>
+            <div type="commentary">
+                <p>Rundum abgehauene crepido und der untere Teil vom Mittelteil eines Altars oder einer Statuenbasis. Z. 3 (Anfang): möglicherweise auch T(itus). (B): Parović-Pešikan: Z. 4: [-] Ptumianus; AE 1968: Z. 4: [O?]ptumianus.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1968, 0440a. (B)</bibl><bibl>ILJug 0276.</bibl><bibl>M. Parović-Pešikan, Starimar 15/16, 1964/65, 41. (B) - AE 1968.</bibl><bibl>M. Mirković, in: V. Popović (Hrsg.), Archaeological investigations in Syrmian Pannonia. To the memory of Miodrag Grbić, Sirmium (Beograd 1971) 76, Nr. 54; pl. 10, 1.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

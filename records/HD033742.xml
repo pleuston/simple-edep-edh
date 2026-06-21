@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Ljubovija (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD033742</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD033742</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>160</height><width>87</width><depth>54</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/6290252">Serbia</placeName><placeName type="modern" ref="http://www.geonames.org/3196331">Ljubovija</placeName><placeName type="findspot">Gornja Bukovica, Grabovica</placeName><placeName type="region">Centralna Srbija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD033742_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Tessius+</name><name type="cognomen">Marcellinus+</name></persName></person><person xml:id="HD033742_2" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Tessius*</name><name type="cognomen">Paternus</name></persName></person><person xml:id="HD033742_3" sex="W"><persName><name type="nomen">Ulpia*</name><name type="cognomen">Bidna?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-09-27" who="Feraudi">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/><expan><abbr>C</abbr><ex>aio</ex></expan> T<supplied reason="lost">essio</supplied> Mar<lb break="no" n="3"/>cell<supplied reason="lost">i</supplied>no p<gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/><supplied reason="lost" cert="low">q(ui) vixit</supplied> <expan><abbr>an</abbr><ex>nos</ex></expan> XXII<gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/><expan><abbr>C</abbr><ex>aio</ex></expan> <expan><abbr>Tes</abbr><ex>sio</ex></expan> Paterno <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/>co<gap reason="lost" extent="unknown" unit="character"/>iov <lb n="7"/><supplied reason="lost"><expan><abbr>vix</abbr><ex>it</ex></expan></supplied> <expan><abbr>n<am>n</am></abbr><ex>os</ex></expan> VIII <lb n="8"/><expan><abbr>Ulp</abbr><ex>ia</ex></expan> Ma<supplied reason="lost" cert="low">rci f(ilia)</supplied> Bi<lb break="no" n="9"/><expan><abbr>dna</abbr><ex cert="low"/></expan> filio <gap reason="lost" extent="unknown" unit="character"/>t <lb n="10"/>marito <lb n="11"/>pientissimis
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Kojić: Z. 6: abweichende Lesung; Z. 10: merito.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILJug 1467.</bibl><bibl>N. Vulić, Spomenik 75, 1933, 50, Nr. 159.</bibl><bibl>S. Kojić, Starinar 13/14, 1963/64, 227. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

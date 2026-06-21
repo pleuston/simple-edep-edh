@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Beograd, Sopot (Moesia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD032346</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD032346</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material>Gesteine</material><dimensions unit="cm"><height>(25)</height><width>(14)</width><depth>(18)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia superior</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/6290252">Serbia</placeName><placeName type="modern" ref="http://www.geonames.org/785460">Beograd, Sopot</placeName><placeName type="findspot">{Stojnik}, Grad?</placeName><placeName type="region">Centralna Srbija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD032346_1" sex="M"><persName ref="http://romans1by1.com/rpeople/9811"><name type="praenomen">[-]</name><name type="nomen">Scribonius+</name><name type="cognomen">Faustus</name></persName></person><person xml:id="HD032346_2" sex="W"><persName ref="http://romans1by1.com/rpeople/9812"><name type="nomen">Aurelia*?</name><name type="cognomen">Pasina?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-06-23" who="Feraudi">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr><supplied reason="lost">I</supplied></abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan> <lb n="2"/><gap reason="lost" quantity="1" unit="character"/><supplied reason="lost">S</supplied>cribonius <lb n="3"/>Faustus <expan><abbr>v</abbr><ex>eteranus</ex></expan> e&amp;lt;t=I&amp;gt; Aure<expan><ex>l</ex><abbr>ia</abbr></expan><certainty match="preceding-sibling::node()" locus="value"/> <lb n="4"/><expan><abbr>Pasina</abbr><ex cert="low"/></expan> V<gap reason="lost" extent="unknown" unit="character"/>CRCX <lb n="0"/><gap reason="lost" quantity="1" unit="line"/> 
+            </ab></div>
+            <div type="commentary">
+                <p>(B): v. Premerstein - Vulić, AE 1901: abweichende Textwiedergabe und Ergänzungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1901, 0023. (B)</bibl><bibl>CIL 03, 14545.</bibl><bibl>IMS 1, 099; Zeichnung.</bibl><bibl>A. von Premerstein - N. Vulić, JŒAI (Beibl.) 3, 1900, 163-164; Zeichnung. (B) - AE 1901.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

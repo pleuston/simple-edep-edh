@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Iuvavum, bei &amp;ndash; Grabenstätt (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD042389</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD042389</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Grabenstätt, S. Johannes, Pfarrkirche, vermauert</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">tabula?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(36)</height><width>(41)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/187432">Iuvavum, bei</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1848"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2918434">Grabenstätt</placeName><placeName type="findspot">{S. Johannes, Pfarrkirche}, sekundär verwendet</placeName><placeName type="region">Bayern</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD042389_1" sex="M"><persName><name type="cognomen">Bellicus</name></persName></person><person xml:id="HD042389_2" sex="M"><persName><name type="cognomen">Secundus</name></persName></person><person xml:id="HD042389_3" sex="W"><persName><name type="cognomen">Paulina</name></persName></person><person xml:id="HD042389_4" sex="M"><persName><name type="cognomen">Secundinus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-07-28" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Bellicus Se<lb break="no" n="2"/>cundi <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>v</abbr><ex>ivus</ex></expan> <expan><abbr>f</abbr><ex>ecit</ex></expan> s<lb break="no" n="3"/>ibi et Paulinae <lb n="4"/><expan><abbr>con</abbr><ex>iugi</ex></expan> <expan><abbr>ob</abbr><ex>itae</ex></expan> <expan><abbr>an</abbr><ex>norum</ex></expan> L et <lb n="5"/>Secundino <expan><abbr>f</abbr><ex>ilio</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Materialangabe nach lupa 4494.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 05570.</bibl><bibl>IBR 010; tab. 1, 10.</bibl><bibl>ILLPRON 1519.</bibl><bibl>J. Hefner, Das römische Bayern in seinen Schrift- und Bildmalen (München 1852) 223, Nr. 273.</bibl><bibl>A. Obermayr, Römersteine zwischen Inn und Salzach (Freilassing 1974) 56-57.</bibl><bibl>W. Hameter, Die norischen Inschriften Bayerns (Diss. Wien 1992) 83-84, Nr. 58; Foto.</bibl><bibl>F. Moosleitner u. a., Auf den Spuren der Römer. Übersichtskarte (Freilassing 2002) Foto.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

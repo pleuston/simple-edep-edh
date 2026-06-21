@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Colonia Ulpia Traiana &amp;ndash; Xanten (Germania inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD075698</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD075698</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">stele?</objectType><material>Gesteine</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/108896">Colonia Ulpia Traiana</placeName></origPlace><origDate><origDate notBefore-custom="0031" notAfter-custom="0070" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">31 AD - 70 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1630"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2948243">Xanten</placeName><placeName type="findspot"/><placeName type="region">Nordrhein-Westfalen</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD075698_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Calventius</name></persName></person><person xml:id="HD075698_2" sex="M"><persName><name type="cognomen">Homullus*?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-05-05" who="Feraudi">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Have <note>sic</note> Calventi Calv<lb break="no" n="2"/>entius te resalutat <lb n="3"/><expan><abbr>C</abbr><ex>aius</ex></expan> Calventius (H<certainty match="preceding-sibling::node()" locus="value"/>omu&amp;lt;l=I&amp;gt;(l)<lb break="no" n="4"/>i <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>Ouf</abbr><ex>entina</ex></expan> <expan><abbr>Med</abbr><ex cert="low">iolano</ex></expan> hic situs <lb n="5"/>est <expan><abbr>an</abbr><ex>norum</ex></expan> XLIIX <expan><abbr>mil</abbr><ex>es</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> V <lb n="6"/><expan><abbr><supplied reason="lost">st</supplied>ip</abbr><ex>endiorum</ex></expan> XXIIX et coniugi et <lb n="7"/><supplied reason="lost">fili</supplied>o frater pro pietate <lb n="8"/><supplied reason="lost">flete</supplied> coaequales mors haec <lb n="9"/><supplied reason="lost">mea fletibu</supplied>s apta est vi<supplied reason="lost">vi</supplied>t<supplied reason="lost">e</supplied> fel<supplied reason="lost">i</supplied>ces qu<expan><ex>i</ex><abbr>b</abbr><ex>us</ex></expan><certainty match="preceding-sibling::node()" locus="value"/> <expan><abbr>e</abbr><ex>st</ex></expan><certainty match="preceding-sibling::node()" locus="value"/> <lb n="10"/><supplied reason="lost">p</supplied>ar patria dulcis <lb n="11"/><supplied reason="lost">her</supplied>es e sua <supplied reason="lost"><expan><abbr>pec</abbr><ex>unia</ex></expan> <expan><abbr>e</abbr><ex>rexit</ex></expan></supplied> 
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 08644.</bibl><bibl>A. Kakoschke, FeRA 34, 2017, 18-21, Nr. 5; Abb. 6 (Zeichnung). - AE 2017.</bibl><bibl>AE 2017, 1023.</bibl><bibl>CLE 0374.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

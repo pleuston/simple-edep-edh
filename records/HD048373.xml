@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Defixio from Marlborough Downs (Britannia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD048373</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD048373</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/108">Blei</material><dimensions unit="cm"><height>4</height><width>7</width><depth>0</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Britannia</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0301" notAfter-custom="0400" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">301 AD - 400 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1996"><placeName type="country" ref="https://www.geonames.org/2635167">United Kingdom</placeName><placeName type="modern" ref="http://www.geonames.org/2643010">Marlborough Downs</placeName><placeName type="findspot"/><placeName type="region">Wiltshire</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/76">defixio</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-04-26" who="Cowey">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Do <lb n="2"/>deo Marti A<supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied>VNISEA id <supplied reason="lost">est<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>eculium eum et secur<gap reason="lost" extent="unknown" unit="character"/><lb break="no" n="4"/>tidisse e<gap reason="lost" extent="unknown" unit="character"/> illum iume<supplied reason="lost" cert="low">ntum</supplied> <lb n="5"/>rogat genium tuum dom<supplied reason="lost">ine</supplied> <lb n="6"/>ut quampr<supplied reason="lost">imu</supplied>m res<supplied reason="lost" cert="low">ideant</supplied> <lb n="7"/>nec eant per annos novem n<supplied reason="lost">on eis</supplied> <lb n="8"/>permittas nec sedere <supplied reason="lost">nec</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="9"/><gap reason="lost" extent="unknown" unit="character"/>MIMBRIC<gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Gebet für Gerechtigkeit.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1999, 0975.</bibl><bibl>R.S.O. Tomlin - M.W.C. Hassall, Britannia 30, 1999, 378, Nr. 3; fig. 2 (Zeichnung). - AE 1999.</bibl><bibl>A. Kropp, Defixiones. Ein aktuelles Corpus lateinischer Fluchtafeln (Speyer 2008) Nr. 3.16/1.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

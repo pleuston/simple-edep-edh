@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Burgenae &amp;ndash; Stara Pazova (Pannonia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD032901</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD032901</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Zagreb, Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(55)</height><width>(40)</width><depth>(26)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.3-7.9</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207001">Burgenae</placeName></origPlace><origDate><origDate notBefore-custom="0211" notAfter-custom="0217" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">211 AD - 217 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/6290252">Serbia</placeName><placeName type="modern" ref="http://www.geonames.org/787612">Stara Pazova</placeName><placeName type="findspot">{Novi Banovci}</placeName><placeName type="region">Vojvodina</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD032901_1" sex="M"><persName><name type="praenomen">M.+</name><name type="nomen">Aurelius+</name><name type="cognomen">Antoninus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-11-04" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Imp</abbr><ex>erator</ex></expan> <expan><abbr>Caes</abbr><ex>ar</ex></expan> <expan><abbr>M</abbr><ex>arcus</ex></expan> Aur</supplied>eliu<supplied reason="lost">s An</supplied><lb break="no" n="2"/><supplied reason="lost">toninus</supplied> <expan><abbr>Aug</abbr><ex>ustus</ex></expan> Piu<supplied reason="lost">s</supplied> <lb n="3"/><supplied reason="lost">Felix <gap reason="lost" extent="unknown" unit="character"/> b</supplied>assilicam <note>sic</note> <gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">Ant</supplied>onin<supplied reason="lost">iana</supplied> <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><abbr>a</abbr> </ab></div><div n="2" type="textpart"><ab><lb n="0"/> [<gap reason="lost" quantity="1" unit="line"/>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Im unteren Teil der Tafel ältere und später eradierte Inschrift, die von der späteren Inschrift teilweise überschrieben wurde. (B): Z. 1: Brunšmid, AE 1901: Ae]liu[s; Z. 3: Brunšmid, AE 1901, Dušanic, ILJug, Kovács - Lőrincz: ba]ssilicam.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1901, 0222. (B)</bibl><bibl>AE 1968, 0432.</bibl><bibl>CIL 03, 13358.</bibl><bibl>ILJug 1052. (B)</bibl><bibl>S. Dušanic, ZAnt 17, 1967, 205-207. 215, Nr. 6. (B) - AE 1968.</bibl><bibl>J. Brunšmid, VHAD 1, 1895, 174; sl. 135. (B) - AE 1901.</bibl><bibl>P. Kovács - B. Lőrincz, in: P. Kovács (Hrsg.), Fontes Pannoniae Antiquae 4 (Budapest 2007) 88, Nr. 42.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Bedaium, bei &amp;ndash; Chiemsee (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD019403</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD019403</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>München, Arch. Staatsslg.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor, weiß</material><dimensions unit="cm"><height>(105)</height><width>(81)</width><depth>(7)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">9-</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/187309">Bedaium, bei</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1812"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2925398">Chiemsee</placeName><placeName type="findspot">Frauenchiemsee, {Klosterkirche}, sekundär verwendet</placeName><placeName type="region">Bayern</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD019403_1" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Attonius</name><name type="cognomen">Adnamatus</name></persName></person><person xml:id="HD019403_2" sex="W"><persName><name type="cognomen">Secunda</name></persName></person><person xml:id="HD019403_3" sex="M"><persName><name type="cognomen">Vogitoutus+?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-11-15" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F003371" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/1df8e0ef-813b-4eef-88a2-73b1febbf9e9/file/id/764211/file_version/name/small"/><graphic xml:id="F028230" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/e5e431e3-31e2-46b6-a211-0579c8c28471/file/id/788987/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/> <lb n="1"/><expan><abbr>L</abbr><ex>ucio</ex></expan> Attonio <lb n="2"/>Adnamato <lb n="3"/><expan><abbr>aedilic</abbr><ex>io</ex></expan> <expan><abbr>Teurn</abbr><ex>iae</ex></expan> <lb n="4"/>et Secundae <lb n="5"/><supplied reason="lost" cert="low">Vog</supplied>itouti <expan><abbr>f</abbr><ex>iliae</ex></expan> <expan><abbr>uxor</abbr><ex>i</ex></expan> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Die Stele wurde als Grabstein für eine Nonne wiederverwendet. Oberhalb des erhaltenen Textes abgearbeitete Fläche, auf der sich ein Relief bzw. weitere Teile der Inschrift befunden haben können. Am rechten Rand des abgearbeiteten Teils Inschrift aus dem Jahr 1671. Maße (außer Buchstabenhöhe) nach www.ubi-erat-lupa.org Nr. 4487. Z. 5: nach Hameter möglicherweise auch Tritouti. Z. 5 (Ende): senkrechte Ritzung, wohl eher eine Beschädigung als Rest eines I. (B): CIL III 5569; CIL III 5569 add. 1839; IBR; ILLPRON; Obermayr; Hameter: Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 05569. (B)</bibl><bibl>CIL 03, 05569 add. p. 1839. (B)</bibl><bibl>IBR 009; tab. 1, 9. (B)</bibl><bibl>ILLPRON 1516. (B)</bibl><bibl>A. Obermayr, Römersteine zwischen Inn und Salzach (Freilassing 1974) 96-98. (B)</bibl><bibl>W. Hameter, Die norischen Inschriften Bayerns (Diss. Wien 1992) 17-20, Nr. 7; Foto. (B)</bibl><bibl>R. Wedenig, Epigraphische Quellen zur städtischen Administration in Noricum (Klagenfurt 1997) 242-243, Nr. T 9; Taf. 5, T 9.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

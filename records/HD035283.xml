@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Albona, bei &amp;ndash; Raša, bei (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD035283</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD035283</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/214">sarcophagus</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(41)</height><width>(84)</width><depth>(28)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6.5-6.2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197102">Albona, bei</placeName></origPlace><origDate><origDate notBefore-custom="0301" notAfter-custom="0400" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">301 AD - 400 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1905"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3191963">Raša, bei</placeName><placeName type="findspot">"Gorica"</placeName><placeName type="region">Istarska županija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD035283_1" sex="W"><persName><name type="cognomen">Iulia*</name></persName></person><person xml:id="HD035283_2" sex="M"><persName><name type="cognomen">Tertullinus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-04-17" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F014474" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/c8fe8771-44cf-4e45-b52c-4db18ea73679/file/id/774008/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/>sorori pi<expan><ex>a</ex><abbr>e</abbr></expan> Iuli<expan><ex>a</ex><abbr>e</abbr></expan> <lb n="2"/>Tertullinus <expan><abbr>fra</abbr><ex>ter</ex></expan> <lb n="3"/>fecit qu<expan><ex>a</ex><abbr>e</abbr></expan> <expan><abbr>vix</abbr><ex>it</ex></expan> <expan><abbr>an</abbr><ex>nos</ex></expan> XXII
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Šašel - Marušić, AE 1985: Z. 2: Iulius.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILJug 2923.</bibl><bibl>AE 1985, 0442. (B)</bibl><bibl>J. Šašel - B. Marušić, AArchSlov 35, 1984, 308, Nr. 23; Foto 21. (B) - AE 1985.</bibl><bibl>A. Degrassi, AMSI 42, 1930, 450.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Celeia &amp;ndash; Celje (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD018306</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD018306</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Celje, Pokrajinski Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">altar?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor, weiß</material><dimensions unit="cm"><height>120</height><width>(77)</width><depth>(69)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">9-6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197206">Celeia</placeName></origPlace><origDate><origDate notBefore-custom="0051" notAfter-custom="0130" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD - 130 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1945"><placeName type="country" ref="https://www.geonames.org/3190538">Slovenia</placeName><placeName type="modern" ref="http://www.geonames.org/3202781">Celje</placeName><placeName type="findspot">{Trg Celjskih knezov}, ehemalige Burgkaserne</placeName><placeName type="region">Savinjska statistična regija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD018306_1" sex="M"><persName><name type="praenomen">Ti.</name><name type="nomen">Iulius+</name><name type="cognomen">Peculiaris+</name></persName></person><person xml:id="HD018306_2" sex="W"><persName><name type="nomen">Iulia+*</name><name type="cognomen">Primitiva+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2012-10-16" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F003989" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/f808a51f-aab2-4ca1-8522-53df67543929/file/id/764746/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Ti</abbr><ex>berius</ex></expan> Iuli<supplied reason="lost">us</supplied> <lb n="2"/>Peculia<supplied reason="lost">ris</supplied> <lb n="3"/><expan><abbr>v</abbr><ex>ivus</ex></expan> <expan><abbr>f</abbr><ex>ecit</ex></expan> sib<supplied reason="lost">i et</supplied> <lb n="4"/><expan><abbr><supplied reason="lost">I</supplied>ul</abbr><ex>iae</ex></expan> Prim<supplied reason="lost">itivae</supplied> <lb n="5"/><expan><abbr><supplied reason="lost">c</supplied>on</abbr><ex>iugi</ex></expan> pi<supplied reason="lost">issimae</supplied> <lb n="6"/><expan><abbr>an</abbr><ex>norum</ex></expan> X<gap reason="lost" extent="unknown" unit="character"/> <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>P</abbr><ex cert="low"/>O</expan><certainty match="preceding-sibling::node()" locus="value"/>V<gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Möglicherweise in sekundärer Verwendung in der antiken Stadtmauer gefunden. Nach Kremer wohl Schaftblock eines altar- oder pfeilerförmigen Grabbaus. Z. 7: statt P auch B oder R, statt O auch Q möglich. Die Ergänzungen folgen einer ausgewogenen Zeilenordination Saria; AE 1989; ILJug; ILLPRON; Kremer: Z. 1: Ti. Iuli[us Ti. l.?]; Z. 5: pi[entissimae].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1989, 0595.</bibl><bibl>ILJug 0391.</bibl><bibl>ILLPRON 1602.</bibl><bibl>G. Kremer, Antike Grabbauten in Noricum (Wien 2001) 261, Nr. II 329.</bibl><bibl>G. Saria, JŒAI (Beibl.) 39, 1951, 77-84; Abb. 23. - AE 1989.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

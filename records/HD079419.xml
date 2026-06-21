@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Defixio from Brean Down (Britannia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD079419</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD079419</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/108">Blei</material><dimensions unit="cm"><height>5</height><width>8</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Britannia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/79351"/></origPlace><origDate><origDate notBefore-custom="0351" notAfter-custom="0400" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">351 AD - 400 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1980"><placeName type="country" ref="https://www.geonames.org/2635167">United Kingdom</placeName><placeName type="modern" ref="http://www.geonames.org/2654828">Brean Down</placeName><placeName type="findspot"/><placeName type="region">Somerset</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/76">defixio</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-04-16" who="Cowey">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                ------ <expan><abbr>dono</abbr><ex cert="low"/></expan> ti]b<supplied reason="lost"><expan><abbr>i</abbr><ex cert="low"/></expan></supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/>caricula quae <supplied reason="lost"><expan><abbr>amisi</abbr><ex cert="low"/></expan> si s</supplied>er<lb break="no" n="3"/><expan><ex>v</ex><abbr>u</abbr></expan><supplied reason="lost">s si</supplied> liber si ba<supplied reason="lost">ro</supplied> s<supplied reason="lost">i muli</supplied>er <lb n="4"/>qui <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">d</supplied>omin<lb break="no" n="5"/>a <gap reason="lost" extent="unknown" unit="character"/> facias <lb n="6"/>sic <supplied reason="lost">i</supplied>lla <expan><ex>re</ex><abbr>dim</abbr></expan><supplied reason="lost">a</supplied>t sa<expan><ex>n</ex><abbr>guin</abbr></expan><supplied reason="lost">e s</supplied>uo <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/> si bar<supplied reason="lost">o</supplied> si mu<lb n="0"/>lier <gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Gebet für Gerechtigkeit.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>M.W.C. Hassall - R.S.O. Tomlin, Britannia 17, 1986, 433-435, Nr. 6; fig. 4 (Zeichnung).</bibl><bibl>A. Kropp, Defixiones. Ein aktuelles Corpus lateinischer Fluchtafeln (Speyer 2008) Nr. 3.4/1.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

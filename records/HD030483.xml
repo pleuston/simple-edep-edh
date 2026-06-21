@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Viminacium, bei &amp;ndash; Kostolac, bei (Moesia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD030483</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD030483</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">sarcophagus?</objectType><dimensions unit="cm"><height>58</height><width>(110)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207549">Viminacium, bei</placeName></origPlace><origDate><origDate notBefore-custom="0222" notAfter-custom="0235" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">222 AD - 235 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/6290252">Serbia</placeName><placeName type="modern" ref="http://www.geonames.org/789210">Kostolac, bei</placeName><placeName type="findspot">{Mlava}, Flußufer, römische Brücke, bei</placeName><placeName type="region">Centralna Srbija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD030483_1"><persName ref="http://romans1by1.com/rpeople/12049"><name type="nomen">Valeria</name><name type="cognomen">Hilara</name></persName></person><person xml:id="HD030483_2" sex="M"><persName ref="http://romans1by1.com/rpeople/12050"><name type="praenomen">M.</name><name type="nomen">Aurelius*</name><name type="cognomen">Timon</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2010-04-26" who="Gräf">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Valeriae Hilarae <lb n="2"/><expan><abbr>M</abbr><ex>arcus</ex></expan> <expan><abbr>Aurel</abbr><ex>ius</ex></expan> Timon |(centurio) <lb n="3"/><expan><abbr>leg</abbr><ex>ionis</ex></expan> III <expan><abbr>Gall</abbr><ex>icae</ex></expan> <expan><abbr>S</abbr><ex>everianae</ex></expan> <expan><abbr>A</abbr><ex>lexandrianae</ex></expan> con<lb break="no" n="4"/>iugi piissim<expan><ex>a</ex><abbr>e</abbr></expan> <expan><abbr>pos</abbr><ex>uit</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Verschollen. Fundstelle: nahe der Römerbrücke.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1905, 0157.</bibl><bibl>IMS 2, 085; Zeichnung.</bibl><bibl>N. Vulić, JŒAI (Beibl.) 8, 1905, 6, Nr. 14; Zeichnung. - AE 1905.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

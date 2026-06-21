@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Axima (Forum Claudii Ceutronum) &amp;ndash; Aime en Tarentaise (Alpes Graiae)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD065605</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD065605</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Aime en Tarentaise, Mus. S. Martin</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor, weiß</material><dimensions unit="cm"><height>120</height><width>61</width><depth>15</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.5-4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Alpes Graiae</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/167663">Axima (Forum Claudii Ceutronum)</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1660"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/3038426">Aime en Tarentaise</placeName><placeName type="findspot">{S. Martin, Basilika}</placeName><placeName type="region">Auvergne-Rhône-Alpes</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD065605_1" sex="M"><persName><name type="cognomen">Iucundus</name></persName></person><person xml:id="HD065605_2" sex="M"><persName><name type="cognomen">Chryseros Faustianus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-09-22" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Iucundo <lb n="2"/>Chryserotis <lb n="3"/>Caesaris <expan><abbr>ser</abbr><ex>vi</ex></expan> <lb n="4"/>Faustiani <lb n="5"/><expan><abbr>disp</abbr><ex>ensatoris</ex></expan> <expan><abbr>vicar</abbr><ex>io</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>This inscription could be interpreted in different ways as shown by Rémy: Iucundus, Chryseros and Faustianus could be considered three different persons or, maybe better, just two. Dekor: Rosette.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>B. Rémy, Inscriptions latines des Alpes (I.L.Alpes) 1. Alpes Graies (Chambéry - Grenoble 1998) 83-84, Nr. 33; Foto.</bibl><bibl>CIL 12, 00117.</bibl><bibl>CIL 12, 00117 add. p. 805.</bibl><bibl>(o. Autor), in: B. Rémy u. a., La Savoie, Carte archéologique de la Gaule 73 (Paris 1996) 92; Foto.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

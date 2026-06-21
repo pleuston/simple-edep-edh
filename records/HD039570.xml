@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Brigetio &amp;ndash; Komárom (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD039570</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD039570</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Komárom, Igmándi Eröd, Lap. Brigetionense</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(130)</height><width>72</width><depth>17</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6.6-5.2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197180">Brigetio</placeName></origPlace><origDate><origDate notBefore-custom="0131" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">131 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1932"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3044294">Komárom</placeName><placeName type="findspot">{Szőny}</placeName><placeName type="region">Komárom-Esztergom megye</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD039570_1" sex="W"><persName ref="http://romans1by1.com/rpeople/18216"><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD039570_2" sex="M"><persName ref="http://romans1by1.com/rpeople/18217"><name type="nomen">Titius*?</name><name type="cognomen">Quintus</name></persName></person><person xml:id="HD039570_3" sex="W"><persName ref="http://romans1by1.com/rpeople/18218"><name type="nomen">Valeria</name><name type="cognomen">Servata</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-05-04" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>e <lb n="2"/><expan><abbr>Tit</abbr><ex>ius</ex></expan><certainty match="preceding-sibling::node()" locus="value"/> Quintus <lb n="3"/>et Valeria <lb n="4"/>Servata <lb n="5"/>parentes <lb n="6"/>filia<supplied reason="lost">e</supplied> <expan><abbr>f</abbr><ex>aciendum</ex></expan> <expan><abbr>c</abbr><ex>uraverunt</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Gefunden im Bereich der Canabae. Unterhalb des Inschriftfeldes zwei Vögel.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>RIU 0597; Abb. 597 (Foto u. Zeichnung).</bibl><bibl>L. Borhy, Vezető Komárom város római kori kőemlékeihez (Komárom 2006) 69-70, Nr. 39; Fotos. (X)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

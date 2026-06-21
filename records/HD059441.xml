@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Lepcis Magna &amp;ndash; Al Khums (Africa Proconsularis)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD059441</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD059441</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Al Khums, Lepcis Magna Museum (Depot)</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>58</height><width>(48)</width><depth>4</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Africa Proconsularis</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/344448">Lepcis Magna</placeName></origPlace><origDate><origDate notBefore-custom="0301" notAfter-custom="0400" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">301 AD - 400 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1927"><placeName type="country" ref="https://www.geonames.org/2215636">Libya</placeName><placeName type="modern" ref="http://www.geonames.org/2219905">Al Khums</placeName><placeName type="findspot">{Hadriansthermen}</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD059441_1" sex="M"><persName><name type="nomen">Flavius+*</name><name type="cognomen">Ar[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-04-25" who="Bigi">checked through autopsy</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F033126" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/9f7c7a66-0c5c-4e43-9990-800521011d23/file/id/793933/file_version/name/small"/><graphic xml:id="F033127" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/420c0ae7-9d4b-4e02-8c69-82ef23078aa6/file/id/793934/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost" cert="low"> therm</supplied>as sa<gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">inc</supplied>uria ad squa<lb break="no" n="2"/><supplied reason="lost">lorem</supplied><gap reason="lost" extent="unknown" unit="character"/>ria<gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">i</supplied>n splendorem <lb n="3"/><supplied reason="lost">pristinum<certainty locus="name" match="preceding-sibling::text()" cert="low"/> F</supplied><expan><abbr>l</abbr><ex>avius</ex></expan> Ar<supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>v</abbr><ex>ir</ex></expan> <expan><abbr>p</abbr><ex>erfectissimus</ex></expan></supplied> praeses provi<lb break="no" n="4"/><supplied reason="lost">nciae Trip</supplied>olita<supplied reason="lost">nae <gap reason="lost" extent="unknown" unit="character"/> restituit<certainty locus="name" match="preceding-sibling::text()" cert="low"/> ex</supplied>coluit dedicavit <lb n="5"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> et populi red</supplied>didit voluptati <lb n="0"/><gap reason="lost" quantity="1" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/>]
+            </ab></div>
+            <div type="commentary">
+                <p>Fundstelle: IRT 580: s.o.; IRT 653: Theater. Datierung: vielleicht 355-361. Interpunktion: Palmette.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IRT 580.</bibl><bibl>IRT 653.</bibl><bibl>I. Tantillo - F. Bigi (Hrsg.), Leptis Magna. Una città e le sue iscrizioni in epoca tardoromana (Cassino 2010) 465-467, Nr. 75; fig. 10.88; fig. 10.89 (Zeichnung). - AE 2010.</bibl><bibl>AE 2010, 1783.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mile-/leaguestone from Crexa, bei &amp;ndash; Cres (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD065345</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD065345</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Osor, Raum im Bischofssitz</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">mile-/leaguestone</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>77</height><width>30</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7-8</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197229">Crexa, bei</placeName></origPlace><origDate><origDate when-custom="0239" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">239 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1755"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3204328">Cres</placeName><placeName type="findspot">Beli, {Prikazanja Gospodinova (Svjećnica), Kirche}, sekundär verwendet</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>mile-/leaguestone</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD065345_1" sex="M"><persName><name type="praenomen">M.++</name><name type="nomen">Antonius++*</name><name type="cognomen">Gordianus+++</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-11-20" who="Gräf">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>eratori</ex></expan> Caesari <lb n="2"/><del rend="erasure"><expan><abbr>M</abbr><ex>arco</ex></expan> Anto<supplied reason="lost"><expan><abbr>n</abbr><ex>io</ex></expan> Go</supplied>r<supplied reason="lost">dia</supplied>no</del> <lb n="3"/><del rend="erasure"><supplied reason="lost">Pio Fel</supplied><expan><abbr>ic</abbr><ex>i</ex></expan> <supplied reason="lost">Au</supplied><expan><abbr>g</abbr><ex>usto</ex></expan> <expan><abbr>p</abbr><ex>ontifici</ex></expan> <expan><abbr>m</abbr><ex>aximo</ex></expan></del> <lb n="4"/><expan><abbr>tribuni</abbr><ex>cia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> II <expan><abbr>con</abbr><ex>suli</ex></expan> <lb n="5"/><expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> res <expan><abbr>public</abbr><ex>a</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>d</abbr><ex>ecreto</ex></expan> <expan><abbr>d</abbr><ex>ecurionum</ex></expan><certainty match="preceding-sibling::node()" locus="value"/> <lb n="6"/>XXIII
+            </ab></div>
+            <div type="commentary">
+                <p>Wiederverwendet für ein Weihwassergefäß.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 03210.</bibl><bibl>CIL 03, 10162.</bibl><bibl>CIL 17, 04, 00234; Zeichnung.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

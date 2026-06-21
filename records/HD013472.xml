@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Iuvavum, bei &amp;ndash; Taxenbach (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD013472</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD013472</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Salzburg, Salzburg Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>45</height><width>60</width><depth>5</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/187432">Iuvavum, bei</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2763837">Taxenbach</placeName><placeName type="findspot">{Hasenbach}</placeName><placeName type="region">Salzburg</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD013472_1" sex="M"><persName><name type="cognomen">Attito</name></persName></person><person xml:id="HD013472_2" sex="M"><persName><name type="cognomen">Atevalus</name></persName></person><person xml:id="HD013472_3" sex="W"><persName><name type="cognomen">Uttu</name></persName></person><person xml:id="HD013472_4" sex="M"><persName><name type="cognomen">Helvisso*</name></persName></person><person xml:id="HD013472_5" sex="M"><persName><name type="cognomen">Mommus</name></persName></person><person xml:id="HD013472_6" sex="W"><persName><name type="cognomen">Conginna</name></persName></person><person xml:id="HD013472_7" sex="M"><persName><name type="cognomen">Quordaio</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-07-29" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F004593" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/aabf3bd2-77e9-4378-9fb5-576a10ece5c9/file/id/765352/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Atitto Atevali <lb n="2"/><expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>n<am>n</am></abbr><ex>orum</ex></expan> LXXV hic <expan><abbr>s</abbr><ex>itus</ex></expan> <expan><abbr>e</abbr><ex>st</ex></expan> <lb n="3"/>Uttu <expan><ex>H</ex><abbr>elvissonis</abbr></expan> <expan><abbr>f</abbr><ex>ilia</ex></expan> ux<lb break="no" n="4"/>or Mommus Atitto<lb break="no" n="5"/>nis <expan><abbr>f</abbr><ex>ilius</ex></expan> Conginna Quord<lb break="no" n="6"/>aionis <expan><abbr>f</abbr><ex>ilia</ex></expan> <expan><abbr>fil</abbr><ex>ius</ex></expan> <expan><abbr>nu</abbr><ex>rus</ex></expan> <expan><abbr>par</abbr><ex>entibus</ex></expan> <expan><abbr>fec</abbr><ex>erunt</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): ILLPRON: Z. 4/5: At{t}ito/nis.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 05523.</bibl><bibl>ILLPRON 1060. (B)</bibl><bibl>G. Kremer, Antike Grabbauten in Noricum (Wien 2001) 159, Nr. I 174.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Aquae &amp;ndash; Negotin (Moesia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD015248</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD015248</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(110)</height><width>(95)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207365">Aquae</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/6290252">Serbia</placeName><placeName type="modern" ref="http://www.geonames.org/786819">Negotin</placeName><placeName type="findspot">{Prahovo}</placeName><placeName type="region">Centralna Srbija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD015248_1" sex="M"><persName ref="http://romans1by1.com/rpeople/14515"><name type="praenomen">P.?</name><name type="nomen">Prusius*</name><name type="cognomen">Maximus+</name></persName></person><person xml:id="HD015248_2" sex="M"><persName ref="http://romans1by1.com/rpeople/14516"><name type="praenomen">[-]</name><name type="nomen">Iulius+*?</name><name type="cognomen">Hieronimus</name></persName></person><person xml:id="HD015248_3" sex="M"><persName ref="http://romans1by1.com/rpeople/14517"><name type="nomen">Ulpius*</name><name type="cognomen">Maxumus+ (= Maximus)</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-11-16" who="Feraudi">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <supplied reason="lost"><expan><abbr>M</abbr><ex>anibus</ex></expan></supplied> <lb n="2"/><supplied reason="lost" cert="low">P(ublius)</supplied> <expan><abbr>Prus</abbr><ex>ius</ex></expan> Ma<lb break="no" n="3"/>ximu<supplied reason="lost">s <expan><abbr>vix</abbr><ex>it</ex></expan> a</supplied><expan><abbr>n</abbr><ex>nos</ex></expan> <lb n="4"/>XLV <supplied reason="lost" cert="low">Iul(ius)</supplied> Hiero<lb break="no" n="5"/>nimus <expan><abbr>s</abbr><ex>ecundus</ex></expan> <expan><abbr>her</abbr><ex>es</ex></expan> <lb n="6"/><supplied reason="lost">et</supplied> <expan><abbr>Ulp</abbr><ex>ius</ex></expan> Ma<supplied reason="lost">x</supplied>u<lb break="no" n="7"/>mus <note>sic</note> iuxta <lb n="8"/><expan><abbr>voluntate</abbr><ex>m</ex></expan> <lb n="9"/>testamenti <lb n="10"/><expan><abbr>p</abbr><ex>ecunia</ex></expan> <expan><abbr>s</abbr><ex>ua</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Textwiedergabe nach Vulić.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILJug 1365.</bibl><bibl>N. Vulić, JŒAI (Beibl.) 13, 1910, 197-198, Nr. 1; Zeichnung.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

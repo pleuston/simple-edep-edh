@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Municipium Claudium Virunum, bei &amp;ndash; Bad S. Leonhard/Lavanttal (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD058045</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD058045</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bad S. Leonhard/Lavanttal, Wiesenau, Schloss Wiesenau?</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">tabula?</objectType><material>Gesteine</material><dimensions unit="cm"><height>(26)</height><width>(60)</width><depth>7</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197583">Municipium Claudium Virunum, bei</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2761303">Bad S. Leonhard/Lavanttal</placeName><placeName type="findspot">Wiesenau, {Galgenbichl}</placeName><placeName type="region">Kärnten</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD058045_1" sex="W"><persName><name type="cognomen">Spectata+</name></persName></person><person xml:id="HD058045_2" sex="W"><persName><name type="cognomen">Tertullina+</name></persName></person><person xml:id="HD058045_3" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD058045_4" sex="M"><persName><name type="cognomen">Macer+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-08-19" who="Krenn">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><supplied reason="lost">Sp</supplied>ectat<supplied reason="lost">ae</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><supplied reason="lost">Ter</supplied>tullina matr<supplied reason="lost">i<certainty locus="name" match="preceding-sibling::text()" cert="low"/> et <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="3"/><supplied reason="lost">Ma</supplied>cri <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>mil</abbr><ex>es</ex></expan> c<expan><ex>o</ex><abbr>h</abbr><ex>ortis</ex></expan> II <expan><abbr>Bat</abbr><ex>avorum</ex></expan> <gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Inschrift nach www.ubi-erat-lupa.org Nr. 1977 im Jahre 2002 nicht auffindbar. ILLPRON: [Ma]cri f(ilio) mil(iti).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILLPRON 0714.</bibl><bibl>R. Egger, Carinthia I 149, 1959, 464, Nr. B 9; Taf. 2, 5.</bibl><bibl>A. Gerstl, Supplementum epigraphicum zu CIL III für Kärnten und Osttirol 1902-1961 (Diss. Wien 1961) 66-67, Nr. 149.</bibl><bibl>P.S. Leber, Die in Kärnten seit 1902 gefundenen römischen Steininschriften (Klagenfurt 1972) 149, Nr. 281.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

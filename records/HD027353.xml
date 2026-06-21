@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription from Roma? &amp;ndash; Roma? (Roma?)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD027353</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD027353</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Roma, Mus. Naz. Rom.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>(13)</height><width>(17)</width><depth>2</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">2.7-2.6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma?</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma?</placeName></origPlace><origDate><origDate when-custom="0137" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">137 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma?</placeName><placeName type="findspot"/><placeName type="region">Lazio?</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/143" xml:lang="en">unknown</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD027353_1" sex="M"><persName><name type="praenomen">L.+</name><name type="nomen">Aelius+</name></persName></person><person xml:id="HD027353_2" sex="M"><persName><name type="praenomen">P.+</name><name type="nomen">Coelius+</name><name type="cognomen">Balbinus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2010-12-07" who="Feraudi">checked through autopsy</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F010677" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/06e1e95b-3e0d-4908-90fb-7298aec807a6/file/id/770197/file_version/name/small"/><graphic xml:id="F026651" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/d4ad7ff9-cb28-43d3-a61e-40f074b56628/file/id/787403/file_version/name/small"/><graphic xml:id="F032864" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/71249c63-98af-41a7-8ca0-0b0dec002f5c/file/id/793666/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                ------<certainty match="preceding-sibling::node()" locus="value"/>] <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>M <gap reason="lost" extent="unknown" unit="character"><certainty match=".." locus="name"/></gap> <lb n="3"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/>? <expan><abbr>L</abbr><ex>ucio</ex></expan> Ae</supplied>lio Caesa<supplied reason="lost">re II <expan><abbr>P</abbr><ex>ublio</ex></expan> Coelio Balbino <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan></supplied> <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>o Cor<gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Autopsie und Ergänzungen G. Alföldy.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 06, 40839; Foto.</bibl><bibl>CIL 06, 31441.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

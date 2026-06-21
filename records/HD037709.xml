@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Szákszend (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD037709</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD037709</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Komárno, Festung, Bastion 6, Lapidarium</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>95</height><width>43</width><depth>24</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-4.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0171" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3044968">Szákszend</placeName><placeName type="findspot">{Szák}</placeName><placeName type="region">Komárom-Esztergom megye</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD037709_1" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Mac(---)?</name><name type="cognomen">Celer</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-12-01" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F005824" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/5487a908-1d22-4dc8-9c6f-db17f8390182/file/id/766599/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan> <lb n="2"/>Iunoni <lb n="3"/>Minerv<expan><ex>a</ex><abbr>e</abbr></expan> <lb n="4"/><expan><abbr>L</abbr><ex>ucius</ex></expan> <expan><abbr>MaC</abbr><ex cert="low"/></expan><abbr/> Celer <lb n="5"/><expan><abbr>vet</abbr><ex>eranus</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> I ex b<expan><ex>ene</ex><abbr>f</abbr><ex>iciario</ex></expan> <expan><abbr>tr</abbr><ex>ibuni</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Z. 4: statt C(?) auch G möglich. (B): RIU 0656; Harl - Lőrincz: Z. 5: b(eneficiario).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>RIU 0656; Abb. 656 (Foto u. Zeichnung). (B)</bibl><bibl>E. Schallmayer - K. Eibl - J. Ott - G. Preuß - E. Wittkopf, Der römische Weihebezirk von Osterburken 1 (Stuttgart 1990) 262-263, Nr. 317; Foto.</bibl><bibl>F. Harl - B. Lőrincz, Führer zum römischen Lapidarium in Bastion VI der Festung Komárno (Komárno – Wien 2002) 19, Nr. 13; Foto. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

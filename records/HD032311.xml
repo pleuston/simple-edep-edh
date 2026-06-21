@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription from Rusellae, bei &amp;ndash; Roselle (Etruria (Regio VII))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD032311</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD032311</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Grosseto, Mus. Arch.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(29)</height><width>(34)</width><depth>7</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6.5-4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Etruria (Regio VII)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/413288">Rusellae, bei</placeName></origPlace><origDate><origDate notBefore-custom="0014" notAfter-custom="0050" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">14 AD - 50 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1875"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roselle</placeName><placeName type="findspot"/><placeName type="region">Toscana</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/143" xml:lang="en">unknown</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD032311_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD032311_2" sex="M"><persName><name type="praenomen">Germanicus+</name><name type="cognomen">Caesar+</name></persName></person><person xml:id="HD032311_3" sex="M"><persName><name type="praenomen">Drusus+</name><name type="cognomen">Caesar+</name></persName></person><person xml:id="HD032311_4" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]cius</name><name type="cognomen">Celer+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2010-04-08" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F016004" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/b35b8513-8f66-4eaa-a8a7-9967fa20823e/file/id/775583/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">II</supplied>vir q<supplied reason="lost"><expan><abbr>uinq</abbr><ex>uennalis</ex></expan> bis <expan><abbr>praef</abbr><ex>ectus</ex></expan> Germanici</supplied> <lb n="2"/><supplied reason="lost">et Drusi C</supplied>aesarum <supplied reason="lost"><expan><abbr>quinq</abbr><ex>uennalis</ex></expan></supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">patron</supplied>us ex equi<supplied reason="lost">te Romano <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>cius Ce<supplied reason="lost">ler <expan><abbr>f</abbr><ex>ilius</ex></expan> <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Reste roter Bemalung. Z. 5: Rest eines nicht mehr identifizierbaren Buchstabens vorhanden. Zur Ergänzung und Datierung vgl. AE 1980, 465 (= Conti 136-137, Nr. 45).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1998, 0463.</bibl><bibl>CIL 11, 02617.</bibl><bibl>S. Conti, SupplIt 16 (Roma 1998) 138, Nr. 46; Foto. - AE 1998.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

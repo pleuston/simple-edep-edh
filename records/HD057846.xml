@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Celeia &amp;ndash; Celje (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD057846</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD057846</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197206">Celeia</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3190538">Slovenia</placeName><placeName type="modern" ref="http://www.geonames.org/3202781">Celje</placeName><placeName type="findspot"/><placeName type="region">Savinjska statistična regija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD057846_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">Ennius</name><name type="cognomen">Secundianus</name></persName></person><person xml:id="HD057846_2" sex="M"><persName><name type="praenomen">Q.</name><name type="nomen">Ennius+</name><name type="cognomen">Apollonius</name></persName></person><person xml:id="HD057846_3" sex="W"><persName><name type="nomen">Valeria*</name><name type="cognomen">Maximilla+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2012-01-18" who="Feraudi">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <gap reason="lost" extent="unknown" unit="character"/> Ennio Secundiano <lb n="2"/>equiti c<expan><ex>o</ex><abbr>hor</abbr><ex>tis</ex></expan> VII <expan><abbr>pr</abbr><ex>aetoriae</ex></expan> <expan><abbr>an</abbr><ex>norum</ex></expan> XXV <lb n="3"/>et <expan><abbr>Q</abbr><ex>uinto</ex></expan> Enni<supplied reason="lost">o</supplied> Apollonio <expan><abbr>an</abbr><ex>norum</ex></expan> LX <lb n="4"/>et <expan><abbr>Val</abbr><ex>eriae</ex></expan> Maximil<supplied reason="lost">lae</supplied> <expan><abbr>an</abbr><ex>norum</ex></expan> L
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 05222.</bibl><bibl>CIL 03, 05222 add. p. 1830.</bibl><bibl>ILLPRON 1682.</bibl><bibl>J. Visočnik, AArchSlov 59, 2008, 327-328. 348, Nr. 7. - AE 2008.</bibl><bibl>AE 2008, 0991.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

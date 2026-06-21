@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Aternum &amp;ndash; Pescara (Samnium (Regio IV))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD032727</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD032727</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Samnium (Regio IV)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/413039">Aternum</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Pescara</placeName><placeName type="findspot">S. Comizio, Kirche, sekundär verwendet</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD032727_1" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Cassius</name><name type="cognomen">Hermodorus</name></persName></person><person xml:id="HD032727_2" sex="W"><persName><name type="nomen">Ulpia</name><name type="cognomen">Candida</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-05-26" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>L</abbr><ex>ucio</ex></expan> Cassio Hermo<lb break="no" n="2"/>doro nauclero <lb n="3"/>qui erat in <expan><abbr>colleg</abbr><ex>io</ex></expan> <lb n="4"/>Serapis <expan><abbr>Salon</abbr><ex>itano</ex></expan> per <lb n="5"/>freta per maria tra<lb break="no" n="6"/>iectus saepe per <expan><abbr>und</abbr><ex>as</ex></expan> <lb n="7"/>qui non debuerat <lb n="8"/>obitus remanere <lb n="9"/>in Aterno set <note>sic</note> mecum <lb n="10"/>coniunx si vivere <lb n="11"/>nolueras at <note>sic</note> Styga <lb n="12"/>perpetua vel rate <lb n="13"/>funerea utinam <lb n="14"/>tecum comitata <lb n="15"/><expan><abbr>fuisse</abbr><ex>m</ex></expan> Ulpia Candi<lb break="no" n="16"/>da domu <expan><abbr>Salon</abbr><ex>itana</ex></expan> <expan><abbr>con</abbr><ex>iugi</ex></expan> <lb n="17"/><expan><abbr>b</abbr><ex>ene</ex></expan> <expan><abbr>m</abbr><ex>erenti</ex></expan> <expan><abbr>p</abbr><ex>osuit</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Bricault; Selem; CIL; CLE; SIRIS: Z. 14: tecu(m); Bricault: Z. 16: fuissem; CLE: Z. 16: co(n)i(ugi).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>L. Bricault, Recueil des inscriptions concernant les cultes Isiaques (RICIS) (Paris 2005) 722, Nr. 615/0401. (B)</bibl><bibl>P. Selem, Izidin trag. Egipatski kultni spomenici u rimskom Iliriku (Split 1997) 62-64, Nr. 2.2. (B)</bibl><bibl>CIL 09, 03337. (B)</bibl><bibl>CLE 1265. (B)</bibl><bibl>SIRIS 475.</bibl><bibl>SIRIS 677. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Borbetomagus, bei (Civitas Vangionum) &amp;ndash; Worms (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD078418</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD078418</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>zerstört</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/214">sarcophagus</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/108820">Borbetomagus, bei (Civitas Vangionum)</placeName></origPlace><origDate><origDate when-custom="0440" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">440 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1818"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2806142">Worms</placeName><placeName type="findspot">{Neuhausen}, ehemaliges Cyriakusstift</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD078418_1" sex="W"><persName><name type="nomen">Martia</name><name type="cognomen">Marcellina</name></persName></person><person xml:id="HD078418_2" sex="M"><persName><name type="nomen">Placidius+</name><name type="cognomen">Valentianus+*</name></persName></person><person xml:id="HD078418_3" sex="M"><persName><name type="cognomen">Anatolius+*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-01-10" who="Osnabrügge">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/>corpus <lb n="3"/>Martiae Marcellinae matris <lb n="4"/>post annos exactos vitae <lb n="5"/>eius LXX<gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">P</supplied>lacidio <supplied reason="lost">Va</supplied><lb break="no" n="6"/><expan><abbr><supplied reason="lost">lent</supplied>ian</abbr><ex>o</ex></expan> <supplied reason="lost">et Ana</supplied><expan><abbr>tol</abbr><ex>io</ex></expan> <expan><abbr><supplied reason="lost">c</supplied>o</abbr><ex>n</ex>ss</expan>(ulibus)
+            </ab></div>
+            <div type="commentary">
+                <p>Sarkopag, kurz nach der Auffindung zerschlagen. Mommsen äußerte starke Zweifel an der Überlieferung: &amp;quot;&amp;quot;totus titulus interpolatus est et ex bona parte ni fallor ficticius&amp;quot;&amp;quot; (CIL 13, 2, p. 192).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 06248.</bibl><bibl>PLRE Fl. Anatolius 10.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

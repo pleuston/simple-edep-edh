@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Aeso &amp;ndash; Isona (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD056439</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD056439</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">statue base?</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Hispania citerior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/246147">Aeso</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0130" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 130 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern" ref="http://www.geonames.org/3120270">Isona</placeName><placeName type="findspot"/><placeName type="region">Cataluña</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD056439_1" sex="M"><persName><name type="praenomen">C.+</name><name type="nomen">Aemilius+</name><name type="cognomen">[---]us</name></persName></person><person xml:id="HD056439_2" sex="W"><persName><name type="nomen">Fabia</name><name type="cognomen">Celera+?</name></persName></person><person xml:id="HD056439_3" sex="W"><persName><name type="nomen">Aemilia</name><name type="cognomen">Pressa+</name></persName></person><person xml:id="HD056439_4" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Aemilius</name><name type="cognomen">Crescentinus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-10-12" who="Platz">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>C</abbr><ex>aio</ex></expan> Aemilio <expan><abbr>C</abbr><ex>ai</ex></expan>? <expan><abbr>f</abbr><ex>ilio</ex></expan></supplied> <lb n="2"/>Q<supplied reason="lost"><expan><abbr>uir</abbr><ex>ina</ex></expan> <gap reason="lost" extent="unknown" unit="character"/>o</supplied> <lb n="3"/>Fabia C<supplied reason="lost" cert="low">elera</supplied> <lb n="4"/>mater <lb n="5"/>Aemilia Press<supplied reason="lost">a</supplied> <lb n="6"/>soror <lb n="7"/><expan><abbr>L</abbr><ex>ucius</ex></expan> Aemilius <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <lb n="8"/>Crescentinus <lb n="9"/>patruus <lb n="10"/><expan><abbr>her</abbr><ex>edes</ex></expan> ex <expan><abbr>test</abbr><ex>amento</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): CIL II 4469: Z. 5: Pres[sa]; Z. 10: te[st(amento)].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IRC 2, 039; pl. 23, 39 (Zeichnungen).</bibl><bibl>IRC 5, p. 66.</bibl><bibl>CIL 02, 04469. (B)</bibl><bibl>HEp 01, 1989, 0439.</bibl><bibl>ILER 4787.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

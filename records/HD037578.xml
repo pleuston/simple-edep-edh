@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Carthago Nova &amp;ndash; Cartagena (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD037578</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD037578</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Cartagena, Mus. Arq. Mun.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">statue base</objectType><dimensions unit="cm"><height>136</height><width>(60)</width><depth>(45)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">8-4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Hispania citerior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/265849">Carthago Nova</placeName></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern" ref="http://www.geonames.org/2520058">Cartagena</placeName><placeName type="findspot">plaza de Santa Catalina</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD037578_1"><persName><name type="nomen">Octavia+</name><name type="cognomen">Lucana+</name></persName></person><person xml:id="HD037578_2"><persName><name type="praenomen">M.</name><name type="nomen">Fulvius Scribonius</name><name type="cognomen">Gillo+ Fidus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2005-07-28" who="Garcia">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost">O</supplied>ctaviae <lb n="2"/><supplied reason="lost"><expan><abbr>M</abbr><ex>arci</ex></expan></supplied> <expan><abbr>f</abbr><ex>iliae</ex></expan> Luca<lb break="no" n="3"/><supplied reason="lost">n</supplied>ae domi<lb break="no" n="4"/><supplied reason="lost">n</supplied>ae optimae <lb n="5"/><supplied reason="lost"><expan><abbr>M</abbr><ex>arcus</ex></expan></supplied> Fulvius Gil<lb break="no" n="6"/><supplied reason="lost">l</supplied>o Scribonius <lb n="7"/><supplied reason="lost">Fi</supplied>dus <expan><abbr>proc</abbr><ex>urator</ex></expan> eius <lb n="8"/><expan><abbr>l</abbr><ex>oco</ex></expan> <expan><abbr>d</abbr><ex>ato</ex></expan> ex <expan><abbr>d</abbr><ex>ecreto</ex></expan> <expan><abbr>d</abbr><ex>ecurionum</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Corona nicht erhalten. Z. 1, 2, 3, 6, 7: Zeilenanfang war früher noch lesbar. (B): Abascal Palazón - Ramallo Asensio: Z. 3/4: domi/nae; Z. 5: M(arcus).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>J.M. Abascal Palazón - S.F. Ramallo Asensio, La ciudad de Carthago Nova: La documentación epigráfica (Murcia 1997) 193-196, Nr. 50, lám. 56. (B)</bibl><bibl>CIL 02, 03437.</bibl><bibl>CIL 02, 03437 add. p. XLVI.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

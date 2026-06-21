@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Mogontiacum &amp;ndash; Mainz (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD029643</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD029643</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mainz, Landesmus., Depot (oberes Fragment); Mainz, Landesmus., Depot Bretzenheim (untere Fragmente)</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(58)</height><width>(73)</width><depth>(13)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109169">Mogontiacum</placeName></origPlace><origDate><origDate notBefore-custom="0162" notAfter-custom="0165" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">162 AD - 165 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1909"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2874225">Mainz</placeName><placeName type="findspot">{Am Frankenhag 5}</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD029643_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Aufidius</name><name type="cognomen">Victorinus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-08-25" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F015482" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/32e0d3ad-5c9f-4dbf-aa66-b52e571f517c/file/id/775059/file_version/name/small"/><graphic xml:id="F015483" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/38434ec6-5476-4e19-ae39-97d2b4606f70/file/id/775060/file_version/name/small"/><graphic xml:id="F015484" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/377acbd4-cd40-4389-8b82-88e90c5c5e13/file/id/775061/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan> <lb n="2"/><expan><abbr>C</abbr><ex>aius</ex></expan> Aufidius <lb n="3"/>Victor<supplied reason="lost">inus</supplied> <lb n="4"/>legat<supplied reason="lost">us</supplied> <lb n="5"/>Augusto<supplied reason="lost">rum</supplied> <lb n="6"/><expan><abbr>pr</abbr><ex>o</ex></expan> p<supplied reason="lost"><expan><abbr>r</abbr><ex>aetore</ex></expan></supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Drei Fragmente erhalten, davon die zwei unteren aneinanderpassend. Maße beziehen sich auf den oberen Teil; Maße des unteren Teils: (73) x (40) x (13) cm. Aufbewahrungsort nach lupa 27076.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1910, 0064.</bibl><bibl>K. Körber, RGKB 2, 1909, 68, Nr. 7. - AE 1910.</bibl><bibl>CIL 13, 11808.</bibl><bibl>PIR (2. Aufl.) A 1393.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

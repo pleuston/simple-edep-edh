@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Vindonissa, bei &amp;ndash; Gebenstorf (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD080431</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD080431</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Brugg, Vindonissa-Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>73</height><width>50</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/177661">Vindonissa, bei</placeName></origPlace><origDate><origDate notBefore-custom="0070" notAfter-custom="0101" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">70 AD - 101 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1853"><placeName type="country" ref="https://www.geonames.org/2658434">Switzerland</placeName><placeName type="modern" ref="http://www.geonames.org/2660659">Gebenstorf</placeName><placeName type="findspot">{Friedhof}</placeName><placeName type="region">Kanton Aargau</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD080431_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Vegelo</name><name type="cognomen">Rufus</name></persName></person><person xml:id="HD080431_2" sex="M"><persName><name type="nomen">Mettius</name><name type="cognomen">Firmus</name></persName></person><person xml:id="HD080431_3" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Graccius</name><name type="cognomen">Saturninus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-08-25" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F028800" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/996bb949-298d-42f4-b049-add39517bc97/file/id/789557/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>C</abbr><ex>aius</ex></expan> Vegelo <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>Ani</abbr><ex>ensi</ex></expan> <lb n="2"/>Rufus Cremona <lb n="3"/>miles <expan><abbr>leg</abbr><ex>ionis</ex></expan> XI <expan><abbr>C</abbr><ex>laudiae</ex></expan> <expan><abbr>p</abbr><ex>iae</ex></expan> <expan><abbr>f</abbr><ex>idelis</ex></expan> <lb n="4"/><expan><abbr><am><g type="centuria"/></am></abbr><ex>centuria</ex></expan> Metti Firmi <expan><abbr>n<am>n</am></abbr><ex>orum</ex></expan> XL <lb n="5"/><expan><abbr>stip</abbr><ex>endiorum</ex></expan> XXI hic situs est sit t<supplied reason="lost">ib</supplied>i terra <lb n="6"/>levis <expan><abbr>C</abbr><ex>aius</ex></expan> Graccius Saturninus <lb n="7"/><expan><abbr>h</abbr><ex>eres</ex></expan> <expan><abbr>f</abbr><ex>aciendum</ex></expan> <expan><abbr>c</abbr><ex>uravit</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Nach der Auffindung anscheinend zerbrochen, im CIL Wiedergabe der damals noch lesbare, heute verlorenen Teile. (B): Walser: kleinere Abweichungen in Lesung/Ergänzung.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 05216.</bibl><bibl>G. Walser, Römische Inschriften in der Schweiz 2 (Bern 1980) 108-109, Nr. 162; Foto. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

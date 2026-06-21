@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Carnuntum, bei &amp;ndash; Neusiedl/See (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD074604</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD074604</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/128376">Carnuntum, bei</placeName></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2770684">Neusiedl/See</placeName><placeName type="findspot"/><placeName type="region">Burgenland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD074604_1" sex="M"><persName><name type="cognomen">Ariomanus+</name></persName></person><person xml:id="HD074604_2" sex="M"><persName><name type="praenomen">T.</name><name type="nomen">Flavius*</name><name type="cognomen">Samio</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-02-09" who="Osnabrügge">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                A<supplied reason="lost">ri</supplied>om<lb break="no" n="2"/>anus <expan><abbr>T</abbr><ex cert="low">iti</ex></expan> <expan><abbr>F</abbr><ex cert="low">lavi</ex></expan> <lb n="3"/>Samionis <lb n="4"/>serv<expan><ex>u</ex><abbr>s</abbr></expan> <expan><ex>a</ex><abbr>n</abbr><ex>norum</ex></expan> III <lb n="5"/>HOPTE <lb n="6"/>Samio <expan><abbr>p</abbr><ex>osuit</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Z. 4: AN-Ligatur? (B): CIL 03, 14355: Z. 1: AN OM.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 14355, 17. (B)</bibl><bibl>M.E. Raybould - P. Sims-Williams, A corpus of Latin inscriptions of the Roman Empire containing Celtic personal names (Aberystwyth 2007) 231, Nr. PAN 041.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

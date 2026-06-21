@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Segusio &amp;ndash; Susa (Alpes Cottiae)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD047614</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD047614</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Susa, Seminario</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(77)</height><width>(46)</width><depth>4</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.5-4.8</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Alpes Cottiae</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/912936">Segusio</placeName></origPlace><origDate><origDate notBefore-custom="0275" notAfter-custom="0276" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">275 AD - 276 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1978"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern" ref="http://www.geonames.org/3166018">Susa</placeName><placeName type="findspot"/><placeName type="region">Piemonte</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD047614_1" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Claudius+</name><name type="cognomen">Tacitus+</name></persName></person><person xml:id="HD047614_2" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">A[---]?</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-08-23" who="Cimarosti">checked through autopsy</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F027323" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/150f5b18-7020-4c17-b6d2-6943783a4ab9/file/id/788080/file_version/name/small"/><graphic xml:id="F027324" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/c5d6e253-0e56-4738-baf2-6656d9e1eb44/file/id/788081/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Imperat<supplied reason="lost">ori <expan><abbr>Caes</abbr><ex>ari</ex></expan></supplied> <lb n="2"/><expan><abbr>M</abbr><ex>arco</ex></expan> Claudi<supplied reason="lost">o Tacito</supplied> <lb n="3"/>Pio Felici <supplied reason="lost">Invicto</supplied> <lb n="4"/>August<supplied reason="lost">o <expan><abbr>p</abbr><ex>ontifici</ex></expan> <expan><abbr>m</abbr><ex>aximo</ex></expan></supplied> <lb n="5"/><expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> <supplied reason="lost">II <expan><abbr>cons</abbr><ex>uli</ex></expan> <expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan></supplied> <lb n="6"/>proc<supplied reason="lost"><expan><abbr>ons</abbr><ex>uli</ex></expan></supplied> <lb n="7"/>ordo sp<supplied reason="lost">lendidis</supplied><lb break="no" n="8"/>simus ci<supplied reason="lost"><expan><abbr>vit</abbr><ex>atis</ex></expan> <expan><abbr>Segus</abbr><ex>inorum</ex></expan></supplied> <lb n="9"/>curante A<gap reason="lost" extent="unknown" unit="character"/> <lb n="10"/><expan><abbr>v</abbr><ex>iro</ex></expan> <expan><abbr>e</abbr><ex>gregio</ex></expan> <expan><abbr>praes</abbr><ex>ide</ex></expan> <supplied reason="lost"><expan><abbr>d</abbr><ex>evotus</ex></expan> <expan><abbr>n</abbr><ex>umini</ex></expan> <expan><abbr>m</abbr><ex>aiestati</ex><abbr>q</abbr><ex>ue</ex></expan> <expan><abbr>e</abbr><ex>ius</ex></expan></supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Z. 2.: PIR (2. Aufl.) C 1036; PLRE I, 873, Nr. 3.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2000, 0852.</bibl><bibl>CIL 05, 07252.</bibl><bibl>G. Mennella, in: G. Paci (Hrsg.), Έπιγραφαί. Miscellanea epigrafica in onore di Lidio Gasperini (Roma 2000) 631-639, Foto u. Faksimile.</bibl><bibl>E. Cimarosti, Le iscrizioni di età romana sul versante italiano delle Alpes Cottiae (Barcelona 2012) 183, Nr. 40; Foto Nr. 36 (Foto u. Faksimile).</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

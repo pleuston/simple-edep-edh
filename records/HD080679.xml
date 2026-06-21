@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Epamanduodurum &amp;ndash; Mandeure (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD080679</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD080679</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Besançon, Mus. des Beaux Arts et d'Arch.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/140">instrumentum domesticum</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/177516">Epamanduodurum</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1882"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/2996251">Mandeure</placeName><placeName type="findspot">{Cloux-du-Château}</placeName><placeName type="region">Bourgogne-Franche-Comté</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD080679_1" sex="W"><persName><name type="cognomen">Decantilla</name></persName></person><person xml:id="HD080679_2" sex="M"><persName><name type="cognomen">Cobnertus*?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-10-17" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F028268" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/84085af3-b582-4fba-8bef-55e3020c0b32/file/id/789025/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Decantilla </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>Cob</abbr><ex cert="low">nerti</ex></expan> <expan><abbr>fil</abbr><ex>ia</ex></expan><certainty match="preceding-sibling::node()" locus="value"/> <lb n="2"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Griff einer Kasserolle. Text 1 befindet sich auf dem Stiel, Text 2 um 90° zu Text 1 gedreht auf dem Griffansatz. Schreibtechnik: gepunzt. (B): CAG: Text 2: et Cobei(a)e</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 05412.</bibl><bibl>CIL 13, 04, 05412 add. p. 71.</bibl><bibl>L. Joan, Le Doubs et le territoire de Belfort, Carte archéologique de la Gaule 25 et 90 (Paris 2003) 331. (B)</bibl><bibl>M. Gschaid, JRGZ 41, 1994, 360-362, Nr. 17.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

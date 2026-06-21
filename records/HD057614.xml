@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Municipium Claudium Virunum? &amp;ndash; Maria Saal? (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD057614</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD057614</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Klagenfurt/Wörthersee, Landesmus. Kärnten</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>43</height><width>56</width><depth>11</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.8-2.7</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197583">Municipium Claudium Virunum?</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2763547">Maria Saal?</placeName><placeName type="findspot">{Töltschach}?</placeName><placeName type="region">Kärnten</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD057614_1" sex="M"><persName><name type="cognomen">Optatus</name></persName></person><person xml:id="HD057614_2" sex="M"><persName><name type="cognomen">Nammo</name></persName></person><person xml:id="HD057614_3" sex="M"><persName><name type="cognomen">Moderatus</name></persName></person><person xml:id="HD057614_4" sex="W"><persName><name type="cognomen">Aveta+</name></persName></person><person xml:id="HD057614_5" sex="W"><persName><name type="cognomen">Maiusa+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-11-22" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Optatus <lb n="2"/>Nammoni Moderati <lb n="3"/><expan><abbr>v</abbr><ex>ivus</ex></expan> <expan><abbr>f</abbr><ex>ecit</ex></expan> sibi <lb n="4"/>et <supplied reason="lost">A</supplied>vetae uxori <lb n="5"/>et Maiusa<supplied reason="lost">e</supplied> <expan><abbr>fil</abbr><ex>iae</ex></expan> <lb n="6"/>annorum XX
+            </ab></div>
+            <div type="commentary">
+                <p>(B): CIL, ILLPRON: geringfügig abweichende Textwiedergaben.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILLPRON 0841. (B)</bibl><bibl>CIL 03, 11584. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

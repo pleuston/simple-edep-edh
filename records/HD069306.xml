@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Aquae Iasae &amp;ndash; Varaždinske Toplice (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD069306</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD069306</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Zagreb, Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(67)</height><width>(47)</width><depth>(26)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197127">Aquae Iasae</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1876"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3188380">Varaždinske Toplice</placeName><placeName type="findspot">Haus Nr. 45</placeName><placeName type="region">Varaždinska županija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD069306_1" sex="M"><persName><name type="nomen">Iulius*</name><name type="cognomen">Maximus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-02-02" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Nymphis <lb n="2"/><expan><abbr>salutarib</abbr><ex>us</ex></expan> <lb n="3"/><expan><abbr>Aug</abbr><ex>ustis</ex></expan> <expan><abbr>sac</abbr><ex>rum</ex></expan> <lb n="4"/><expan><abbr>Iul</abbr><ex>ius</ex></expan> Maximu<supplied reason="lost">s</supplied> <lb n="5"/><expan><abbr>dec</abbr><ex>urio</ex></expan> muni<supplied reason="lost"><expan><abbr>c</abbr><ex>ipii</ex></expan></supplied> <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>P</abbr><ex cert="low"/>F</expan><certainty match="preceding-sibling::node()" locus="value"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Reste von roter Farbe in den Buchstaben. Z. 6: noch Reste vom oberen Ende einiger Buchstaben erkennbar; statt P auch B oder R, statt F auch E oder T möglich. (B): AIJ 464: Z. 3: sa[c(rum)]; CIL 03, 10891: Z. 4: Maxim.; Z. 5: mun.; CIL 03, 10891; Lučić: Z. 6 nicht wiedergegeben.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 10891.</bibl><bibl>AIJ 464; Foto. (B)</bibl><bibl>AIJ 464 add. p. 5*.</bibl><bibl>J. Brunšmid, VHAD 9, 1906/07, 119-120, Nr. 243; Foto.</bibl><bibl>L. Lučić, VjesAMuzZagreb 46, 2013, 217-218, Nr. 8. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

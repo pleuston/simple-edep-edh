@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Udbina (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD061275</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD061275</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/78">urn</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3190145">Udbina</placeName><placeName type="findspot">{Srednja Gora}, Kirche, sekundär verwendet</placeName><placeName type="region">Ličko-senjska županija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD061275_1" sex="W"><persName><name type="cognomen">Cata?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2010-07-21" who="Gräf">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost" cert="low">D(is)</supplied> <expan><abbr>M</abbr><ex cert="low">anibus</ex></expan> <lb n="2"/><expan><abbr>I</abbr><ex cert="low"/>I</expan><certainty match="preceding-sibling::node()" locus="value"/><expan><abbr>VISE</abbr><ex cert="low"/>I</expan> s<supplied reason="lost">i</supplied>bi <lb n="3"/>et <expan><abbr>Catae</abbr><ex cert="low"/></expan> <expan><abbr>co</abbr><ex>n</ex></expan><lb break="no" n="4"/>iugi MAEVI <lb n="5"/>posuerunt <lb n="6"/><expan><abbr>n<am>n</am></abbr><ex>rum</ex></expan> LXXVIII
+            </ab></div>
+            <div type="commentary">
+                <p>Lesung unsicher. Buchstabe E in Form von II geschrieben. (B): CIL III 2996: Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 02996. (B)</bibl><bibl>CIL 03, 02996 add. p. 2328, 170.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

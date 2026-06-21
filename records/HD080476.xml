@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Bonna &amp;ndash; Bonn (Germania inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD080476</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD080476</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Köln, Röm.-Germ. Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">altar?</objectType><material>Gesteine</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/108818">Bonna</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2930394">Bonn</placeName><placeName type="findspot">{Endenich}</placeName><placeName type="region">Nordrhein-Westfalen</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD080476_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Av[---]</name><name type="cognomen">V[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-08-13" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F004137" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/48546878-8056-411c-9268-eed1dc3ab393/file/id/764899/file_version/name/small"/><graphic xml:id="F017553" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/4f229acc-fa64-40e6-ac5c-a5cf3285603f/file/id/777162/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Her<supplied reason="lost">culi</supplied> <lb n="2"/><expan><abbr>C</abbr><ex>aius</ex></expan> AV<gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/><expan><abbr>Cl</abbr><ex>audia</ex></expan> V<gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/><expan><abbr>c</abbr><ex cert="low">ivis</ex></expan> <expan><abbr>c</abbr><ex cert="low">ivitatis</ex></expan> T<gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/><expan><abbr>d</abbr><ex>ono</ex></expan> <expan><abbr>d</abbr><ex>edit</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/>]
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 08003; Zeichnung.</bibl><bibl>A. Kakoschke, Ortsfremde in den römischen Provinzen Germania inferior und Germania superior (Möhnesee 2002), Nr. 1.49.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

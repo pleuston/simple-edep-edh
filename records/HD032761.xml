@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Viminacium, bei &amp;ndash; Kostolac, bei (Moesia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD032761</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD032761</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Beograd, Kalemegdan</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(155)</height><width>99</width><depth>18</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.5-5.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207549">Viminacium, bei</placeName></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1850"><placeName type="country" ref="https://www.geonames.org/6290252">Serbia</placeName><placeName type="modern" ref="http://www.geonames.org/789210">Kostolac, bei</placeName><placeName type="findspot">Nekropole</placeName><placeName type="region">Centralna Srbija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD032761_1" sex="M"><persName ref="http://romans1by1.com/rpeople/12060"><name type="nomen">Aelius*</name><name type="cognomen">Victorinus</name></persName></person><person xml:id="HD032761_2" sex="M"><persName ref="http://romans1by1.com/rpeople/12061"><name type="nomen">Aelius*</name><name type="cognomen">Proculinus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-10-20" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <expan><abbr>Ael</abbr><ex>io</ex></expan> Victorino <lb n="2"/><expan><abbr>v</abbr><ex cert="low">iro</ex></expan> &amp;lt;e=F&amp;gt;(gregio)<certainty match="preceding-sibling::node()" locus="value"/> infelicissimo iu<expan><ex>v</ex><abbr>eni</abbr></expan> <lb n="3"/>qui vixit annos XXV <expan><abbr>m</abbr><ex>enses</ex></expan> <lb n="4"/>VIIII dies VII <expan><abbr>Ael</abbr><ex>ius</ex></expan> Procu<lb break="no" n="5"/>linus <expan><abbr>signif</abbr><ex>er</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> IIII <expan><abbr>Fl</abbr><ex>aviae</ex></expan> <lb n="6"/>fratri piissimo <lb n="7"/><expan><abbr>b</abbr><ex>ene</ex></expan> <expan><abbr>m</abbr><ex>erenti</ex></expan> 
+            </ab></div>
+            <div type="commentary">
+                <p>Reliefdarstellungen: oberhalb des Inschriftfeldes männliche Büste, unterhalb Jagdszene. (B): IMS; Pilipović: Z. 4: Aelius.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2011, 1106.</bibl><bibl>CIL 03, 01649.</bibl><bibl>CIL 03, 01649 add. p. 1021.</bibl><bibl>ILJug 0013.</bibl><bibl>IMS 2, 092; Foto. (B)</bibl><bibl>S. Pilipović, C&amp;C 6, 2011, 597-598, Nr. 5; Foto 5. (B) - AE 2011.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

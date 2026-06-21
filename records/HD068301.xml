@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Aquincum &amp;ndash; Budapest (Pannonia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD068301</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD068301</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Budapest, Aquincumi Múz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/102">honorific/grave/votive column</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>65</height><width>24</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6-4.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197130">Aquincum</placeName></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1936"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/7284842">Budapest</placeName><placeName type="findspot">Óbuda, {Lajos utca 170}</placeName><placeName type="region">Budapest</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD068301_1" sex="M"><persName><name type="nomen">Aurelius*</name><name type="cognomen">Aelianus*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-04-20" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F003136" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/c207b4cb-e0a8-4d03-90e5-b585c0b9a7e4/file/id/764025/file_version/name/small"/><graphic xml:id="F013598" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/bd2f9c11-2fb4-44ae-9f70-ee4a1edf0b54/file/id/773126/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/>] </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Pro <expan><abbr>sal</abbr><ex>ute</ex></expan> <lb n="2"/>domini <lb n="3"/>nostri <lb n="4"/><expan><abbr>Aur</abbr><ex>elius</ex></expan> <expan><ex>A</ex><abbr>eli</abbr></expan><lb break="no" n="5"/>anus <lb n="6"/><expan><abbr>dupl</abbr><ex>arius</ex></expan>
+            </ab></div></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>TitAq 0402; Foto.</bibl><bibl>J. Szilágyi, BR 13, 1943, 343; 9. kép.</bibl></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

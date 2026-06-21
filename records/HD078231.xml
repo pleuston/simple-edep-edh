@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Bonna &amp;ndash; Bonn (Germania inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD078231</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD078231</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bonn, Rhein. Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(103)</height><width>93</width><depth>19</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">8.5-5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/108818">Bonna</placeName></origPlace><origDate><origDate notBefore-custom="0031" notAfter-custom="0070" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">31 AD - 70 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1866"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2946447">Bonn</placeName><placeName type="findspot">{Adenauerallee}</placeName><placeName type="region">Nordrhein-Westfalen</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD078231_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Cornelius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2018-12-04" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F018453" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/e8069ae0-3dc6-498a-8c68-2450c1922012/file/id/778525/file_version/name/small"/><graphic xml:id="F018454" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/0fb60a7c-e20a-46fc-9915-44ee92c925f4/file/id/778526/file_version/name/small"/><graphic xml:id="F004123" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/8a2ce33a-200d-45eb-8c73-3dd079674984/file/id/764885/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>C</abbr><ex>aius</ex></expan> Cornelius <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>Pap</abbr><ex>iria</ex></expan> <expan><abbr>Tic</abbr><ex>ino</ex></expan> <lb n="2"/><expan><abbr>veter</abbr><ex>anus</ex></expan> <expan><abbr>miss</abbr><ex>us</ex></expan> ex<surplus>s</surplus> <expan><abbr>leg</abbr><ex>ione</ex></expan> I <lb n="3"/><expan><abbr>her</abbr><ex>edes</ex></expan> ex<surplus>s</surplus> <expan><abbr>testa</abbr><ex>mento</ex></expan> <expan><abbr>fece</abbr><ex>runt</ex></expan> pie <lb n="4"/><expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>itus</ex></expan> <expan><abbr>e</abbr><ex>st</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 08058; Zeichnung.</bibl><bibl>H. Lehner, Die antiken Steindenkmäler des Provinzialmuseums in Bonn (Bonn 1918) 223-224, Nr. 600; Zeichnung.</bibl><bibl>G. Bauchhenß, Germania inferior. Bonn und Umgebung. Militärische Grabdenkmäler, CSIR Deutschland 3, 1 (Bonn 1978) 58-59, Nr. 46; Taf. 44, 46.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

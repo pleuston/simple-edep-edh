@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Slovenska Bistrica (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD018303</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD018303</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Slovenska Bistrica, Šmartno na Pohorju, S. Martin, Pfarrkirche, vermauert</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/24">relief</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(73)</height><width>60</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3190538">Slovenia</placeName><placeName type="modern" ref="http://www.geonames.org/3190500">Slovenska Bistrica</placeName><placeName type="findspot">Šmartno na Pohorju, {S. Martin, Pfarrkirche}, sekundär verwendet</placeName><placeName type="region">Podravska statistična regija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD018303_1" sex="M"><persName><name type="cognomen">Viator*?</name></persName></person><person xml:id="HD018303_2" sex="W"><persName><name type="nomen">Flavia*</name><name type="cognomen">Arca</name></persName></person><person xml:id="HD018303_3"><persName><name type="cognomen">Ursa[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-09-02" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> isti sunt <expan><abbr>V</abbr><ex cert="low">i</ex>at</expan><lb break="no" n="2"/>or et <expan><abbr>Fl</abbr><ex>avia</ex></expan> Arca <expan><abbr>so</abbr><ex cert="low">ror</ex></expan> <lb n="3"/>et IBIM Ursa<gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Porträtmedaillon mit den Büsten zweier Männer; die Inschrift befindet sich auf dem angearbeiteten Sockel darunter. Oberfläche des Inschriftfeldes teilweise stark verwittert und Lesung unsicher. Maße nach lupa 4680. Einzelmaße nach CIL 03-neu (in Vorbereitung; Bearbeiterin: J. Visočnik): Medaillon: 59 x 42 cm; Sockel: 11 x 25 cm; Buchstabenhöhe nach CIL 03-neu.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1989, 0594.</bibl><bibl>S. Pahić, VarSpom 26, 1984, 257-259; Abb. 63. - AE 1989.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Palasë (Epirus)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD064668</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD064668</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>in situ</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/210">cliff</objectType><material>Gesteine unbestimmt</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Epirus</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/783754">Albania</placeName><placeName type="modern">Palasë</placeName><placeName type="findspot">auf den {Klippen der Bucht von Grammata}</placeName><placeName type="region">Qarku i Vlorës</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD064668_1" sex="M"><persName><name type="praenomen">Q.</name><name type="nomen">Valerius+*</name><name type="cognomen">Clementinus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-02-09" who="Ehmig">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F024767" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/c46f83c6-6263-49b6-bab6-d24c9295daa0/file/id/785434/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Q</abbr><ex>uintus</ex></expan> Va<supplied reason="lost"><expan><abbr>l</abbr><ex>erius</ex></expan> Clem</supplied>entinus<certainty match="preceding-sibling::node()" locus="value"/> <gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>de restitutor<gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>C. Patsch, Das Sandschak Berat in Albanien (Wien 1904) 94, Nr. 14 (Zeichnung).</bibl><bibl>P.C. Sestieri, Studime e Tekste 2, 1, 1943, 97, Nr. 79.</bibl><bibl>M. Zeqo, Monumentet 34, 2, 1987, 161; Fig. 20.</bibl><bibl>S. Anamali - H. Ceka - É. Deniaux, Corpus des inscriptions latines d’Albanie (Rome 2009) 169-170, Nr. 226.</bibl><bibl>U. Ehmig - R. Haensch, Die lateinischen Inschriften aus Albanien (LIA) (Bonn 2012) 568-569, Nr. 239; Foto u. Zeichnung.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

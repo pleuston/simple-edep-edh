@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Intercisa &amp;ndash; Dunaújváros (Pannonia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD011590</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD011590</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Dunaújváros, Intercisa Múz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material>Gesteine</material><dimensions unit="cm"><height>(202)</height><width>(76)</width><depth>18</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197323">Intercisa</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3053438">Dunaújváros</placeName><placeName type="findspot">Tisza utca, sekundär verwendet</placeName><placeName type="region">Fejér megye</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD011590_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Manilius+</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD011590_2" sex="W"><persName><name type="nomen">Manilia</name><name type="cognomen">Crescentia+?</name></persName></person><person xml:id="HD011590_3" sex="W"><persName><name type="nomen">Manilia</name><name type="cognomen">Nicia</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-10-20" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F004447" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/c44edc92-9183-4d8c-8af8-26642dec14bb/file/id/765209/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <supplied reason="lost"><expan><abbr>M</abbr><ex>anibus</ex></expan></supplied> <lb n="2"/><expan><abbr>G</abbr><ex>aio</ex></expan> Manil<supplied reason="lost">io</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/><expan><abbr>leg</abbr><ex>ionis</ex></expan> II <expan><abbr>ad</abbr><ex>iutricis</ex></expan> na<supplied reason="lost"><expan><abbr>t</abbr><ex>ione</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> domo</supplied> <lb n="4"/>Galatia Anc<supplied reason="lost">yra</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/>Manilia Cres<supplied reason="lost">centia<certainty locus="name" match="preceding-sibling::text()" cert="low"/> filia</supplied> <lb n="6"/>naturalis her<supplied reason="lost">es prima et</supplied> <lb n="7"/>Manilia Nicia <gap reason="lost" extent="unknown" unit="character"/> <lb n="8"/><supplied reason="lost">co</supplied>niux sec<supplied reason="lost">unda heres</supplied> <lb n="9"/><supplied reason="lost">b</supplied>ene m<supplied reason="lost" cert="low">erenti f(aciendum)? c(uraverunt)</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Oberhalb des Inschriftfeldes geringe Reste eines figürlichen Frieses und einer männlichen Büste darüber. (B): Vágó, AE 1971: Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1971, 0347. (B)</bibl><bibl>E.B. Vágó, Alba Regia 11, 1970, 123, Nr. 448; Taf. 55, 3; Abb. 3 (Zeichnung). (B) - AE 1971.</bibl><bibl>RIU 1242; Abb. 1242 (Foto u. Zeichnung).</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

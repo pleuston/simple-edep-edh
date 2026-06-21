@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Cirpi &amp;ndash; Dunabogdány (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD038421</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD038421</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Budapest, Magyar Nemzeti Múz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(85)</height><width>55</width><depth>18</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.8-3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197208">Cirpi</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3053495">Dunabogdány</placeName><placeName type="findspot"/><placeName type="region">Pest megye</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD038421_1" sex="M"><persName><name type="praenomen">P.</name><name type="nomen">Petronius*</name><name type="cognomen">Ursus</name></persName></person><person xml:id="HD038421_2" sex="M"><persName><name type="nomen">Iulius*</name><name type="cognomen">Posimarus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-03-16" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>P</abbr><ex>ublio</ex></expan> <expan><abbr>Petron</abbr><ex>io</ex></expan> Urso <expan><abbr>eq</abbr><ex>uiti</ex></expan> <lb n="2"/><expan><abbr>tub</abbr><ex>icini</ex></expan> <expan><abbr>coh</abbr><ex>ortis</ex></expan> II <expan><abbr>Alp</abbr><ex>inorum</ex></expan> vivi <note>sic</note> <lb n="3"/><expan><abbr>Iul</abbr><ex>ius</ex></expan> Posimarus nepo<lb break="no" n="4"/>ti eius pientis<supplied reason="lost">s</supplied>imo
+            </ab></div></div>
+            <div type="commentary">
+                <p>Oberhalb des Inschriftfeldes Soldat, der ein Pferd am Zaum führt. Inschriftfeld in Form einer tabula ansata. Z. 1 befindet sich auf dem Rahmen. Z. 3: COH-, ALP-Ligatur; Z. 3: VL-, MA-Ligatur. (B): CIL 03, 10589: Abweichungen in Lesung/Ergänzung.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 10589. (B)</bibl><bibl>RIU 0837; Abb. 837 (Foto u. Zeichnung).</bibl><bibl>B. Lőrincz, Die römischen Hilfstruppen in Pannonien während der Prinzipatszeit 1. Die Inschriften (Wien 2001) 230, Nr. 239.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

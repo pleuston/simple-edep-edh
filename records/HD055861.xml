@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Mogontiacum, bei &amp;ndash; Mainz, bei (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD055861</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD055861</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mainz, Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material>Gesteine</material><dimensions unit="cm"><height>57</height><width>60</width><depth>17</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109169">Mogontiacum, bei</placeName></origPlace><origDate><origDate notBefore-custom="0031" notAfter-custom="0070" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">31 AD - 70 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1865"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2874225">Mainz, bei</placeName><placeName type="findspot"/><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD055861_1" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Cattonius</name><name type="cognomen">Secundus</name></persName></person><person xml:id="HD055861_2" sex="M"><persName><name type="nomen">Cottius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2018-01-04" who="Esch">checked through autopsy</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F012803" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/d8586d04-b9c7-4efc-bfb3-2d8fc5f20ee9/file/id/772328/file_version/name/small"/><graphic xml:id="F015151" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/c1051270-f556-45b5-8265-610953f2ef9e/file/id/774728/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>L</abbr><ex>ucius</ex></expan> Cattoniu<lb break="no" n="2"/>s <expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> Secund<lb break="no" n="3"/>us <expan><abbr>Claud</abbr><ex>ia</ex></expan> <expan><abbr>Viru</abbr><ex>no</ex></expan> <lb n="4"/><expan><abbr>m</abbr><ex>iles</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> IIII <expan><abbr>an</abbr><ex>norum</ex></expan> XXIV <lb n="5"/><expan><abbr>sti</abbr><ex>pendiorum</ex></expan> IIII <expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>itus</ex></expan> <expan><abbr>e</abbr><ex>st</ex></expan> here<lb break="no" n="6"/>des <expan><abbr>Cotti</abbr><ex>i</ex></expan> <expan><abbr>f</abbr><ex>aciendum</ex></expan> <expan><abbr>c</abbr><ex>uraverunt</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Autopsie R. Wiegels. Z. 6: CIL 13, 06860: COTTI möglicherweise &amp;quot;&amp;quot;conti(rones)&amp;quot;&amp;quot; oder &amp;quot;&amp;quot;conti(roni)&amp;quot;&amp;quot;.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 06860.</bibl><bibl>ILS 2248.</bibl><bibl>W. Selzer, Römische Steindenkmäler. Mainz in römischer Zeit. Katalog zur Sammlung in der Steinhalle (Mainz 1988) 119, Nr. 12; Foto.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

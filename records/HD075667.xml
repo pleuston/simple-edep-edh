@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph? from (Civitas Vangionum) &amp;ndash; Oberstaufenbach (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD075667</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD075667</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Speyer, Hist. Mus. Pfalz, Depot</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(32)</height><width>(54)</width><depth>(58)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="#">(Civitas Vangionum)</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1886"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2858965">Oberstaufenbach</placeName><placeName type="findspot">Burgruine {Heidenburg}, sekundär verwendet</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph?</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-02-18" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F039564" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/f9fb6138-5f26-40ec-b241-b1b5980c0a52/file/id/800443/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">coni</supplied>ugi IAS <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>RTISSI</abbr><ex cert="low"/></expan> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Fragment eines nicht näher identifizierbaren Monuments, hinten, unten und links abgebrochen, oben abgearbeitet. Auf der rechten Nebenseite Peltenschilde mit Akanthusornamenten. Am Ende von Z. 3 noch eine senkrechte Haste zu erkennen, wegen des verfügbaren Platzes kommt eigentlich nur I infrage. (B): Ditsch: Z. 3: ---]RTI S(ui et) S(ibi) [F(ecit)].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 06186.</bibl><bibl>F.J. Hildenbrand, Der römische Steinsaal (Lapidarium) des Historischen Museums der Pfalz zu Speyer (Speyer 1911) 35, Nr. 82.</bibl><bibl>S. Ditsch, Dis Manibus. Die römischen Grabdenkmäler aus der Pfalz (Neustadt/Weinstraße 2011) 154-155, Nr. Oberstaufenbach 15; Taf. 43, 5-7 (Fotos u. Zeichnung). (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

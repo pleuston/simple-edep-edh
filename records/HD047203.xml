@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription from Barcino &amp;ndash; Barcelona (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD047203</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD047203</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Barcelona, Mus. Arq. Catalunya</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">block</objectType><dimensions unit="cm"><height>51</height><width>141</width><depth>40</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">8.5-8.1</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Hispania citerior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/246343">Barcino</placeName></origPlace><origDate><origDate notBefore-custom="-0030" notAfter-custom="-0001" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">30 BC - 1 BC</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern" ref="http://www.geonames.org/3128760">Barcelona</placeName><placeName type="findspot"/><placeName type="region">Cataluña</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/143" xml:lang="en">unknown</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD047203_1"><persName><name type="praenomen">L.</name><name type="nomen">Licinius</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD047203_2"><persName><name type="praenomen">C.</name><name type="nomen">Iulius</name><name type="cognomen">A[---]</name></persName></person><person xml:id="HD047203_3"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">Assedillus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-11-28" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>L</abbr><ex>ucius</ex></expan> Licinius <gap reason="lost" extent="unknown" unit="character"/> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> A<gap reason="lost" extent="unknown" unit="character"/> </ab></div><div n="3" type="textpart"><ab><lb n="1"/> <expan><abbr>C</abbr><ex>aius</ex></expan> Iulius A<gap reason="lost" extent="unknown" unit="character"/> </ab></div><div n="4" type="textpart"><ab><lb n="1"/> <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">A</supplied>ssedillus
+            </ab></div></div>
+            <div type="commentary">
+                <p>4 gebogene Blöcke einer halbkreisförmigen Exedra; Maße beziehen sich auf Block a; Block b: 51 x 118 x 49,5 cm; Block c: 48 x 78 x 40 cm; Block d: 48 x 102,5 x 40 cm. (B): AE 1959: abweichende Lesung.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1959, 0113. (B)</bibl><bibl>IRC 4, 062; pl. 36, 62 u. 37, 62a-d.</bibl><bibl>S. Mariner Bigorra, Inscripciones romanas de Barcelona (Barcelona 1973) 80-81, Nr. 71.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

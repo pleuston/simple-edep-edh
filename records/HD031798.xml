@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Vicus Teutonis? &amp;ndash; Budaörs (Pannonia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD031798</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD031798</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Budapest, Magyar Nemzeti Múz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(42)</height><width>(31)</width><depth>18</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.7-4.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197130">Vicus Teutonis?</placeName></origPlace><origDate><origDate notBefore-custom="0194" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">194 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1905"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3054646">Budaörs</placeName><placeName type="findspot">{Budaörsi Kamaraerdő}, Weinberg</placeName><placeName type="region">Pest megye</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD031798_1" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Antonius+</name><name type="cognomen">Victorinus+</name></persName></person><person xml:id="HD031798_2" sex="W"><persName><name type="nomen">Ulpia+</name><name type="cognomen">Spectata+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-02-02" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                ------<certainty match="preceding-sibling::node()" locus="value"/>] <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>M</abbr><ex>arcus</ex></expan> A<supplied reason="lost">ntoni</supplied><lb break="no" n="3"/><supplied reason="lost">us Victorinu</supplied>s <expan><abbr>dec</abbr><ex>urio</ex></expan> c<supplied reason="lost"><expan><abbr>ol</abbr><ex>oniae</ex></expan> <expan><abbr>Aq</abbr><ex>uincensium</ex></expan></supplied> <lb n="4"/><supplied reason="lost">aedilis IIvir po</supplied>ntifex c<supplied reason="lost">um Ul</supplied><lb break="no" n="5"/><supplied reason="lost">pia Spectata</supplied> uxore p<supplied reason="lost">osuit</supplied> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/>]
+            </ab></div>
+            <div type="commentary">
+                <p>Lesung / Ergänzungen nach Mráv - Szabó. (B): RIU, Alföldy: abweichende Textwiedergaben.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>RIU 1336; Abb. 1336 (Zeichnung). (B)</bibl><bibl>G. Alföldy, ZPE 140, 2002, 272-273, Nr. 16. (B) - AE 2002.</bibl><bibl>AE 2002, 1202.</bibl><bibl>AE 2012, 1184.</bibl><bibl>Z. Mráv - Á. Szabó, in: P. Kovács - B. Fehér (Hrsg.), In memoriam Barnabás Lőrincz, Studia Epigraphica Pannonica (SEP) 4 (Budapest 2012) 127-130; 9,1. kép; 9,2. u. 9,3. kép. (Zeichnungen). - AE 2012.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

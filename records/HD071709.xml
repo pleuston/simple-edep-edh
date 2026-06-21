@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Campona, aus? &amp;ndash; Budapest (Pannonia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD071709</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD071709</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Budapest, Magyar Nemzeti Múz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(146)</height><width>60</width><depth>24</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.5-8</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197187">Campona, aus?</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1816"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3054269">Budapest</placeName><placeName type="findspot">{Csepel, Insel}</placeName><placeName type="region">Budapest</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD071709_1" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Ulpius</name><name type="cognomen">Sabinus</name></persName></person><person xml:id="HD071709_2" sex="W"><persName><name type="nomen">Claudia*</name><name type="cognomen">Pusinna</name></persName></person><person xml:id="HD071709_3" sex="W"><persName><name type="cognomen">Sabina</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-02-27" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>M</abbr><ex>arcus</ex></expan> Ulpius <lb n="2"/>Sabinus <expan><abbr>v</abbr><ex>ilicus</ex></expan> <expan><abbr>st</abbr><ex>ationis</ex></expan> <lb n="3"/>et <expan><abbr>Cl</abbr><ex>audia</ex></expan> Pusinna <lb n="4"/>parentes <expan><abbr>fil</abbr><ex>iae</ex></expan> <lb n="5"/>Sabinae <expan><abbr>n<am>n</am></abbr><ex>orum</ex></expan> <lb n="6"/>XIIII <expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>ita</ex></expan> <expan><abbr>e</abbr><ex>st</ex></expan> <lb n="7"/><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 03407.</bibl><bibl>TitAq 0996; Fotos.</bibl><bibl>A. Schober, Die römischen Grabsteine von Noricum und Pannonien (Wien 1923) 99, Nr. 214.</bibl><bibl>J. Mander, Portraits of children on Roman funerary monuments (Cambridge 2013) 304, Nr. 690.</bibl><bibl>M. Nagy, Guide to the archaeological exhibitions in the Hungarian National Museum. Roman stones. Lapidarium (Budapest 2012) 41-42, Nr. 29.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

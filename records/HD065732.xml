@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Gerulata &amp;ndash; Bratislava (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD065732</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD065732</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bratislava, Múz. Mesta Bratislavy, Anticka Gerulata Rusovce</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(62)</height><width>95</width><depth>21</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6.5-3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/128399">Gerulata</placeName></origPlace><origDate><origDate notBefore-custom="0176" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">176 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1986"><placeName type="country" ref="https://www.geonames.org/3057568">Slovakia</placeName><placeName type="modern" ref="http://www.geonames.org/3057792">Bratislava</placeName><placeName type="findspot">{Rusovce}, spätantike Mauer, sekundär verwendet</placeName><placeName type="region">Bratislavský kraj</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD065732_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]us</name><name type="cognomen">Pastor</name></persName></person><person xml:id="HD065732_2" sex="W"><persName><name type="nomen">Papia*</name><name type="cognomen">Helpis*</name></persName></person><person xml:id="HD065732_3" sex="W"><persName><name type="nomen">Urvinia*</name><name type="cognomen">Mussa*</name></persName></person><person xml:id="HD065732_4" sex="M"><persName><name type="praenomen">P.</name><name type="nomen">Urvinius</name><name type="cognomen">Marcellinus</name></persName></person><person xml:id="HD065732_5" sex="W"><persName><name type="nomen">Papia</name><name type="cognomen">Matercia</name></persName></person><person xml:id="HD065732_6" sex="M"><persName><name type="praenomen">P.</name><name type="nomen">Urvinius*</name><name type="cognomen">Messius</name></persName></person><person xml:id="HD065732_7" sex="M"><persName><name type="nomen">Iulius*</name><name type="cognomen">Maior</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-07-19" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>o <lb n="2"/>Pastori militi <lb n="3"/>co<expan><ex>ho</ex><abbr>r</abbr><ex>tis</ex></expan> XVIII <expan><abbr>vol</abbr><ex>untariorum</ex></expan> <lb n="4"/><expan><abbr>stip</abbr><ex>endiorum</ex></expan> XII <expan><abbr>an</abbr><ex>norum</ex></expan> XXXV et <expan><abbr>P</abbr><ex>apiae</ex></expan> <lb n="5"/><expan><ex>H</ex><abbr>elpidi</abbr></expan> <expan><abbr>an</abbr><ex>norum</ex></expan> XXXX et <expan><abbr>Urv</abbr><ex>iniae</ex></expan> <lb n="6"/>Muss<expan><ex>a</ex><abbr>e</abbr></expan> <expan><abbr>an</abbr><ex>norum</ex></expan> XXVIII et <expan><abbr>P</abbr><ex>ublio</ex></expan> <lb n="7"/>Urvinio <surplus>et P(ublio)</surplus> Marcellino <lb n="8"/><expan><abbr>an</abbr><ex>norum</ex></expan> XXII Papia Matercia <expan><abbr>mat</abbr><ex>er</ex></expan> et <expan><abbr>P</abbr><ex>ublius</ex></expan> <lb n="9"/><expan><abbr>Urvi</abbr><ex>nius</ex></expan> Messius et <expan><abbr>Iul</abbr><ex>ius</ex></expan> Maior <expan><abbr>frat</abbr><ex>res</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Zahlreiche Ligaturen. Datierung: nicht vor 176 n. Chr., als die coh. XVIII vol. c. R. in Carnuntum stationiert wurde.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2006, 1053.</bibl><bibl>R. Hošek, in: K. Kusmová - J. Rajtár (Hrsg.), Gerulata 1 (Nitra 1996) 245-249; Abb. 1 u. 2. (B) - AE 2006.</bibl><bibl>B. Lőrincz, Arrabona 44, 1, 2006, 271-276; ábra 1 (Zeichnung). - AE 2006.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

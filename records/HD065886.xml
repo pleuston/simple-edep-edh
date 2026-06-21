@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Segusio &amp;ndash; Susa (Alpes Cottiae)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD065886</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD065886</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Alpes Cottiae</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/912936">Segusio</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern" ref="http://www.geonames.org/3166018">Susa</placeName><placeName type="findspot"/><placeName type="region">Piemonte</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD065886_1" sex="M"><persName><name type="cognomen">Neritus</name></persName></person><person xml:id="HD065886_2" sex="M"><persName><name type="cognomen">Satrius</name></persName></person><person xml:id="HD065886_3" sex="M"><persName><name type="cognomen">Masculus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-07-18" who="Cimarosti">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Nerito <lb n="2"/>Satri <expan><abbr>st</abbr><ex cert="low">ationariorum</ex></expan> <expan><abbr>l</abbr><ex>iberti</ex></expan> <lb n="3"/><supplied reason="lost">v</supplied>ilico <expan><abbr>summ</abbr><ex>arum</ex></expan> <lb n="4"/>Segusione <lb n="5"/><supplied reason="lost">M</supplied>asculus <expan><abbr>soc</abbr><ex>iorum</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Z.2: Lettura alternativa: Satri st(ationariorum) l(iberto); France: Satri st(ationis) l(iberto); CIL 05, 07264: Satri st(ationis) l(iberti); Rémy: (servo) Satri(i) st(ationis) l(iberti); Betori-Mennella: Satri st(ationis) l(iberti) (servo); France 2010: Satri (servo) sp(urii) l(iberti).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 05, 07264. (B)</bibl><bibl>B. Rémy, Segusium 31, 1994, 91, VI. (B)</bibl><bibl>J. France, Quadragesima Galliarum. L’organisation douanière des provinces alpestres, gauloises et germaniques de l’Empire romain (Roma 2001), 81, VII. (B)</bibl><bibl>A. Betori - G. Mennella, Quaderni della Soprintendenza Archeologica del Piemonte 19, 2002, 22, Nr. 5. (B)</bibl><bibl>J. France, Bulletin d'Études Prehistoriques et Archéologiques Alpines 11, 2010, 297. (B)</bibl><bibl>E. Cimarosti, Le iscrizioni di età romana sul versante italiano delle Alpes Cottiae (Barcelona 2012) 216, Nr. 55.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

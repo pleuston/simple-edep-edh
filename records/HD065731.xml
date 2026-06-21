@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Brigetio &amp;ndash; Komárom (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD065731</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD065731</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Komárom, Klapka György Múz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">statue base</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>150</height><width>80</width><depth>(22)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197180">Brigetio</placeName></origPlace><origDate><origDate notBefore-custom="0222" notAfter-custom="0235" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">222 AD - 235 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3044294">Komárom</placeName><placeName type="findspot">Szőny, {Kossuth Lajos utca 106}, sekundär verwendet</placeName><placeName type="region">Komárom-Esztergom megye</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD065731_1" sex="W"><persName><name type="nomen">Iulia++</name><name type="cognomen">Mamaea+++</name></persName></person><person xml:id="HD065731_2" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1769"><name type="cognomen">Severus+++ Alexander+++</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-11-10" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <del rend="erasure">Iuliae Ma[mae</del>]<lb break="no" n="2"/><del rend="erasure">ae sancti<supplied reason="lost">ss</supplied>i</del><lb break="no" n="3"/><del rend="erasure"><supplied reason="lost">m</supplied>ae <expan><abbr>Aug</abbr><ex>ustae</ex></expan> [matri</del>] <lb n="4"/><del rend="erasure">[<expan><abbr>d</abbr><ex>omini</ex></expan>? <expan><abbr>n</abbr><ex>ostri</ex></expan>? invicti<certainty locus="name" match="preceding-sibling::text()" cert="low"/></del>] <lb n="5"/><del rend="erasure"><expan><abbr>Imp</abbr><ex>eratoris</ex></expan> [Severi</del>] <lb n="6"/><del rend="erasure">[Alexandri</del>] <lb n="7"/>Pii <expan><abbr>Fel</abbr><ex>icis</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> et <lb n="8"/><expan><abbr>castror</abbr><ex>um</ex></expan> <lb n="9"/><expan><abbr>leg</abbr><ex>io</ex></expan> I <del rend="erasure"><expan><abbr>adi</abbr><ex>utrix</ex></expan> [<expan><abbr>p</abbr><ex>ia</ex></expan> <expan><abbr>f</abbr><ex>idelis</ex></expan></del>] <lb n="10"/><del rend="erasure">[Severiana</del>] devota <lb n="11"/>numini maies<lb break="no" n="12"/><expan><abbr>tatiqu</abbr><ex>e</ex></expan> eorum
+            </ab></div>
+            <div type="commentary">
+                <p>Mittelteil einer Statuenbasis. (B): Borhy; AE 2006: Z. 11/12: maies/tatique.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2006, 1048. (B)</bibl><bibl>L. Borhy, Vezető Komárom város római kori kőemlékeihez (Komárom 2006) 120, Nr. 112; Fotos. (B) - AE 2006.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

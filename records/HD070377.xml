@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Corstopitum &amp;ndash; Corbridge (Britannia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD070377</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD070377</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Hexham Abbey</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>264</height><width>95</width><depth>26</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4-5.4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Britannia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/89152">Corstopitum</placeName></origPlace><origDate><origDate notBefore-custom="0080" notAfter-custom="0098" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">80 AD - 98 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1881"><placeName type="country" ref="https://www.geonames.org/2635167">United Kingdom</placeName><placeName type="modern" ref="http://www.geonames.org/2652382">Corbridge</placeName><placeName type="findspot">{Hexham Abbey}</placeName><placeName type="region">Northumberland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD070377_1" sex="M"><persName><name type="cognomen">Flavinus</name></persName></person><person xml:id="HD070377_2" sex="M"><persName><name type="cognomen">Candidus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-08-15" who="Cowey">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F018614" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/ce6dbe7e-1e01-4102-bdcd-ea86a43aa2f0/file/id/778687/file_version/name/small"/><graphic xml:id="F018615" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/ca9ae7fc-eb94-47e2-b194-7295e9e7d719/file/id/778686/file_version/name/small"/><graphic xml:id="F037161" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/bb0b9c57-c59f-46d8-9bc9-5a06d3233e98/file/id/798026/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Dis Manibus <lb n="2"/>Flavinus <lb n="3"/><expan><abbr>eq</abbr><ex>ues</ex></expan> alae <expan><abbr>Petr</abbr><ex>ianae</ex></expan> signifer <lb n="4"/><expan><abbr>tur</abbr><ex>ma</ex></expan> Candidi <expan><abbr>an</abbr><ex>norum</ex></expan> XXV <lb n="5"/><expan><abbr>stip</abbr><ex>endiorum</ex></expan> VII <expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>itus</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>EphEp 7, p. 315 n. 995.</bibl><bibl>ILS 2520.</bibl><bibl>RIB 1172; Foto u. Zeichnung.</bibl><bibl>E.J. Phillips, Corbridge. Hadrian's Wall east of the North Tyne, CSIR Great Britain 1, 1 (Oxford 1977) 26-27, Nr. 68; Pl. 20, 68.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

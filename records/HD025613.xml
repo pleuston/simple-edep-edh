@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Roma &amp;ndash; Roma (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD025613</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD025613</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Roma, Cav. di Rodi</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>(61)</height><width>(67)</width><depth>16</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">12-9.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0102" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 102 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma</placeName><placeName type="findspot">Forum Augusti?</placeName><placeName type="region">Lazio</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD025613_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1425"><name type="cognomen">Nerva+ Traianus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-01-17" who="Feraudi">checked through autopsy</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F010454" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/a32a1e13-5ff9-46e1-a095-5a36cf009fff/file/id/769974/file_version/name/small"/><graphic xml:id="F026246" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/9996888a-ce53-4c37-9f95-a37b6878d5a6/file/id/786998/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>S</abbr><ex>enatus</ex></expan> <expan><abbr>p</abbr><ex>opulus</ex><abbr>q</abbr><ex>ue</ex></expan> <expan><abbr>R</abbr><ex>omanus</ex></expan></supplied> <lb n="2"/><supplied reason="lost"><expan><abbr>Imp</abbr><ex>eratori</ex></expan> Caesari divi Ne</supplied>rvae <expan><abbr>f</abbr><ex>ilio</ex></expan> <lb n="3"/><supplied reason="lost">Nervae Traiano <expan><abbr>Aug</abbr><ex>usto</ex></expan> Ger</supplied>manico <lb n="4"/><supplied reason="lost"><expan><abbr>pontif</abbr><ex>ici</ex></expan> <expan><abbr>max</abbr><ex>imo</ex></expan> <expan><abbr>tribunic</abbr><ex>ia</ex></expan> <expan><abbr>potest</abbr><ex>ate</ex></expan> V <expan><abbr>co</abbr><ex>n</ex></expan></supplied><expan><abbr>s</abbr><ex>uli</ex></expan> IIII <expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Autopsie und Ergänzungen G. Alföldy. trib. pot.: V oder VI.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 06, 40496; Foto.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

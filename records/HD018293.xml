@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Aquincum, bei &amp;ndash; Pilisszántó (Pannonia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD018293</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD018293</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Szentendre, Ferenczy Múz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(128)</height><width>(112)</width><depth>30</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.4-5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197130">Aquincum, bei</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3046345">Pilisszántó</placeName><placeName type="findspot">ehemaliges Haus der Familie Jurkovich, sekundär verwendet</placeName><placeName type="region">Pest megye</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD018293_1" sex="M"><persName><name type="nomen">Canius+</name><name type="cognomen">Otiorix</name></persName></person><person xml:id="HD018293_2" sex="M"><persName><name type="nomen">Canius</name><name type="cognomen">Speratus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-03-24" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> C<supplied reason="lost">an</supplied>ius Otiorix <lb n="2"/>m&amp;lt;i=E&amp;gt;<expan><abbr>l</abbr><ex>es</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> II a<supplied reason="lost"><expan><abbr>d</abbr><ex>iutricis</ex></expan> qu</supplied>i defunctus <lb n="3"/>est in Par<supplied reason="lost"><expan><abbr>t</abbr><ex>h</ex>ia</expan> <expan><abbr>t</abbr><ex>itulum</ex></expan> <expan><abbr>f</abbr><ex>ecit</ex></expan></supplied> Canius Spe<lb break="no" n="4"/>ratus <expan><abbr>f</abbr><ex>ilius</ex></expan> s<supplied reason="lost">uus</supplied> sibi vivo et <expan><abbr>co</abbr><ex>n</ex></expan><lb break="no" n="5"/>iugi viv<supplied reason="lost">ae</supplied> 
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Z. 1/2: CIL, AE 1953: abweichende Textwiedergaben.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1953, 0005. (B)</bibl><bibl>RIU 0944; Abb. 944 (Foto u. Zeichnung).</bibl><bibl>N. Lajos, AErt 7-9, 1946-48, 199-201, Nr. 3; Taf. 37, 1 u. 2. - AE 1953.</bibl><bibl>CIL 03, 03628.</bibl><bibl>CIL 03, 03630.</bibl><bibl>CIL 03, 10572.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

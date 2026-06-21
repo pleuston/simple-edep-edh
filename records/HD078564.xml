@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Owner/artist inscription from Mogontiacum &amp;ndash; Mainz (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD078564</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD078564</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mainz, Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/140">instrumentum domesticum</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/41">Steatit</material><dimensions unit="cm"><height>1</height><width>5</width><depth>3</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109169">Mogontiacum</placeName></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2874225">Mainz</placeName><placeName type="findspot"/><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>owner/artist inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD078564_1" sex="M"><persName><name type="praenomen">Q.</name><name type="nomen">Carminius</name><name type="cognomen">Quintilianus*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-06-19" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F038428" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/dd85de51-174c-483f-ac63-00d25549c589/file/id/799300/file_version/name/small"/><graphic xml:id="F038430" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/abf8cc6e-4256-4508-83d3-fbf8df91b5f6/file/id/799302/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>Q</abbr><ex>uinti</ex></expan> Carmini <expan><abbr>Quintilian</abbr><ex>i</ex></expan> <lb n="2"/><expan><abbr>dialep</abbr><ex>idos</ex></expan> crocodes ad <expan><abbr>asprit</abbr><ex>udinem</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>Q</abbr><ex>uinti</ex></expan> Carmini <expan><abbr>Quintilian</abbr><ex>i</ex></expan> <lb n="2"/><expan><abbr>penicil</abbr><ex>lum</ex></expan> <expan><abbr>le</abbr><ex>ne</ex></expan> ad <expan><abbr>omne</abbr><ex>m</ex></expan> <expan><abbr>lipp</abbr><ex>itudinem</ex></expan> ex <expan><abbr>ov</abbr><ex>o</ex></expan> </ab></div><div n="3" type="textpart"><ab><lb n="1"/> P </ab></div><div n="4" type="textpart"><ab><lb n="1"/> Q
+            </ab></div></div>
+            <div type="commentary">
+                <p>Augenarztstempel. (B): CIL 13, 10021, 32: Z. 3: Carmin(i).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 10021, 32. (B)</bibl><bibl>É. Espérandieu, Signacula medicorum oculariorum (Parisiis 1905) 28, Nr. 32; tab. 10, 23 (Zeichnungen).</bibl><bibl>K. Körber, ZRheinGeschMainz 4, 1893-1905, 433-434, Nr. 89; Zeichnungen.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

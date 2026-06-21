@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Mogontiacum &amp;ndash; Mainz (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD020949</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD020949</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mainz, Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(162)</height><width>65</width><depth>33</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.5-6.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109169">Mogontiacum</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0050" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 50 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1929"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2874225">Mainz</placeName><placeName type="findspot">{Fort Stahlberg}, bei</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD020949_1" sex="M"><persName><name type="cognomen">Sterio</name></persName></person><person xml:id="HD020949_2" sex="M"><persName><name type="cognomen">Eximnius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-02-07" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F012756" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/f4353b33-7dee-46f8-9b07-62b1ff1ea645/file/id/772281/file_version/name/small"/><graphic xml:id="F017080" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/53422803-9bfa-4163-a010-434f30c143ef/file/id/776686/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Sterio Exi<lb break="no" n="2"/>mni <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>F</abbr><ex cert="low">ocunas</ex></expan> miles <lb n="3"/><expan><abbr>n<am>n</am></abbr><ex>orum</ex></expan> XL <expan><abbr>stip</abbr><ex>endiorum</ex></expan> <lb n="4"/>XVI ex c<expan><ex>o</ex><abbr>hor</abbr><ex>te</ex></expan> <lb n="5"/><expan><abbr>Raet</abbr><ex>orum</ex></expan> et <expan><abbr>Vendel</abbr><ex>icorum</ex></expan> <note>sic</note> <lb n="6"/><expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>itus</ex></expan> <expan><abbr>e</abbr><ex>st</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Behrens; AE 1940; Selzer: Z. 1/2: Exi/mni(a)e f.; Nesselhauf: Z. 1/2: Exi/mni {f.} f.; Boppert: Z. 1/2: Exi/mnii f. Lesung des Patronymikons (Z. 1/2) umstritten. Textwiedergabe nach Dietz.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1940, 0115. (B)</bibl><bibl>W. Boppert, Militärische Grabdenkmäler aus Mainz und Umgebung, CSIR Deutschland 2, 5 (Mainz 1992) 191, Nr. 76; Tafel 63, 76. (B)</bibl><bibl>G. Behrens, MZ 33, 1938, 31-32, Nr. 4; Abb. 4 (Zeichnung). (B) - AE 1940.</bibl><bibl>H. Nesselhauf, BRGK 27, 1937, 86, Nr. 114. (B)</bibl><bibl>W. Selzer, Römische Steindenkmäler. Mainz in römischer Zeit. Katalog zur Sammlung in der Steinhalle (Mainz 1988) 149, Nr. 73; Foto. (B)</bibl><bibl>AE 2004, 1013.</bibl><bibl>K. Dietz, in: H. Heftner - K. Tomaschitz (Hrsg.), Ad fontes! Festschrift für Gerhard Dobesch zum 65. Geburtstag am 15. September 2004 (Wien 2004) 591, Nr. 3; Zeichnung. - AE 2004.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

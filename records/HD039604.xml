@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription from Brigetio &amp;ndash; Komárom (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD039604</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD039604</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197180">Brigetio</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1877"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3044294">Komárom</placeName><placeName type="findspot">{Szőny}, sekundär verwendet</placeName><placeName type="region">Komárom-Esztergom megye</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/143" xml:lang="en">unknown</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD039604_1" sex="M"><persName ref="http://romans1by1.com/rpeople/18238"><name type="praenomen">[-]</name><name type="nomen">[---]vius</name><name type="cognomen">[---]anus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-03-24" who="Osnabrügge">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>vio <gap reason="lost" extent="unknown" unit="character"/><lb break="no" n="2"/>ano <expan><abbr>trib</abbr><ex>uno</ex></expan> <expan><abbr>mil</abbr><ex>itum</ex></expan> <lb n="3"/><expan><abbr>leg</abbr><ex>ionis</ex></expan> I <expan><abbr>adi</abbr><ex>utricis</ex></expan> V<gap reason="lost" extent="unknown" unit="character"/>A <lb n="4"/><supplied reason="lost" cert="low">-</supplied>CARTACONAM <lb n="5"/>et <supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied>RPS<supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied>L<supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied>S <lb n="6"/>VAPRINIC<gap reason="lost" extent="unknown" unit="character"/>A <lb n="7"/>ILI fec<gap reason="lost" extent="unknown" unit="character"/>IS <lb n="0"/><gap reason="lost" quantity="1" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Gefunden in Sekundärverwendung als Pflasterung im Hausflur des Markus Milch (Alt-Szöny, Waagdonauzeile Nr. 1136 nach Majonica - Schneider), durch die Sekundärverwendung stark abgerieben. Verschollen und in zwei voneinander abweichenden Versionen (Rómer und Majonica) überliefert. Rómer (nach CIL): [-----] / ANOTRI(B) [---]IL / LEGADLIV[---]A / CARTACONAM / ET [---]RPS[---]L[---]S / VAPRIINC[--]A / ILIFEC[---]IS?; Majonica: VIO / [---]ANO TRI(b) MIL / [---]LEGIADI[---]A[---] / [--]CA[---]TAGO[---] / [---]E[---]S / [---] inc[ompara]/[b]ili FEC[---]S. Die Ergänzung Majonicas in Z. 6/7 zu inc[ompara]/[b]ili fec(it?) scheint plausibel.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>RIU 0612.</bibl><bibl>CIL 03, 11038.</bibl><bibl>E. Majonica - R. Schneider, AEM 1, 1877, 159.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

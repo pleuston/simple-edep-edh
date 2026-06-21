@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Rosbach/Höhe (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD080671</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD080671</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bad Homburg/Höhe, Römerkastell Saalburg</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(52)</height><depth>(13)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109074"/></origPlace><origDate><origDate notBefore-custom="0222" notAfter-custom="0235" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">222 AD - 235 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/8468761">Rosbach/Höhe</placeName><placeName type="findspot">Ober-Rosbach, {Kapersburg, Lager, Osttor}, bei, Graben</placeName><placeName type="region">Hessen</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD080671_1" sex="M"><persName><name type="praenomen">M.+</name><name type="nomen">Aurelius+*</name><name type="cognomen">Severus+ Alexander+*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-09-27" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F021330" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/019b857f-da37-4723-af70-c2eda27242fe/file/id/781406/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Imp</abbr><ex>eratori</ex></expan> Ca</supplied><expan><abbr>es</abbr><ex>ari</ex></expan> <lb n="2"/><supplied reason="lost"><expan><abbr>M</abbr><ex>arco</ex></expan> Aur</supplied><expan><abbr>eli</abbr><ex>o</ex></expan> <lb n="3"/><supplied reason="lost">Se</supplied>ve<supplied reason="lost">r</supplied>o Al<expan><ex>e</ex><abbr>x</abbr></expan><lb break="no" n="4"/><supplied reason="lost">an</supplied>dr<supplied reason="lost">o <expan><abbr>P</abbr><ex>io</ex></expan></supplied> <expan><abbr>F</abbr><ex>elici</ex></expan> <lb n="5"/><supplied reason="lost"><expan><abbr>Aug</abbr><ex>usto</ex></expan></supplied> <expan><abbr>po<supplied reason="lost">n</supplied>tif</abbr><ex>ici</ex></expan> <lb n="6"/><expan><abbr><supplied reason="lost">ma</supplied>x</abbr><ex>imo</ex></expan> <expan><abbr>trib</abbr><ex>unicia</ex></expan> <lb n="7"/><supplied reason="lost"><expan><abbr>pot</abbr><ex>estate</ex></expan></supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Zwei aneinanderpassende Fragmente erhalten. (B): Jacobi: Z. 2/3: Zeilenfall nicht angegeben.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 07441a.</bibl><bibl>L. Jacobi, in: Der obergermanisch-rätische Limes des Römerreiches B, II, 2, 12 (Lieferung 27) (Heidelberg 1914) 33, Nr. 5; Taf. 8, 6. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

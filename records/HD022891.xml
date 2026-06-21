@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Noviodunum &amp;ndash; Nyon (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD022891</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD022891</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Nyon, Mus. Rom.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(24)</height><width>36</width><depth>30</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109216">Noviodunum</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1944"><placeName type="country" ref="https://www.geonames.org/2658434">Switzerland</placeName><placeName type="modern" ref="http://www.geonames.org/2659422">Nyon</placeName><placeName type="findspot">Forum, {Tempelbezirk}</placeName><placeName type="region">Canton de Vaud</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD022891_1" sex="M"><persName><name type="cognomen">Atius?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-05-06" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost">Deo So</supplied><lb break="no" n="2"/><supplied reason="lost">li</supplied> <expan><abbr>Inv</abbr><ex>icto</ex></expan> <expan><abbr>AtI</abbr><ex cert="low"/></expan><lb break="no" n="3"/>us ex <lb n="4"/>voto
+            </ab></div>
+            <div type="commentary">
+                <p>Materialangabe nach Nesselhauf - Lieb; Laur-Belart; CIMRM: Kalkstein. Zwei nicht aneinanderpassende Fragmente; Höhe bezieht sich auf das obere Fragment; Höhe des unteren Fragments: (50).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1946, 0236. (B)</bibl><bibl>CIMRM 1393.</bibl><bibl>R. Laur-Belart, JSGU 34, 1943, 66, Nr. h. (B) - AE 1946.</bibl><bibl>H. Nesselhauf - H. Lieb, BRGK 40, 1959, 129-130, Nr. 18.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

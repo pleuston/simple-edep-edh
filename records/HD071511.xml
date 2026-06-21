@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Carnuntum, bei &amp;ndash; Leithaprodersdorf (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD071511</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD071511</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Leithaprodersdorf, Gschlößl</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>314</height><width>95</width><depth>21</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">8-6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/128376">Carnuntum, bei</placeName></origPlace><origDate><origDate notBefore-custom="0131" notAfter-custom="0170" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">131 AD - 170 AD</origDate></origDate></origin>
+                        <provenance type="found" when="2007"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2772709">Leithaprodersdorf</placeName><placeName type="findspot">Parzelle Nr. 6368, Grab Nr. 32</placeName><placeName type="region">Burgenland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD071511_1" sex="M"><persName><name type="cognomen">Super</name></persName></person><person xml:id="HD071511_2" sex="W"><persName><name type="cognomen">Exsuperata*</name></persName></person><person xml:id="HD071511_3" sex="M"><persName><name type="nomen">Aelius*</name><name type="cognomen">Vitalis</name></persName></person><person xml:id="HD071511_4" sex="W"><persName><name type="nomen">Ulpia*</name><name type="cognomen">Cavva</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-03-24" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Supero <expan><abbr>an</abbr><ex>norum</ex></expan> XXII Exsupe<lb break="no" n="2"/>rat<expan><ex>a</ex><abbr>e</abbr></expan> <expan><abbr>an</abbr><ex>norum</ex></expan> XVIII <expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>iti</ex></expan> <expan><abbr>e</abbr><ex>st</ex></expan> <note>sic</note> <lb n="3"/><expan><abbr>Ael</abbr><ex>ius</ex></expan> Vitalis et <expan><abbr>Ulp</abbr><ex>ia</ex></expan> <lb n="4"/>Cavva genero et <lb n="5"/>filiae <expan><abbr>p</abbr><ex>arentes</ex></expan> <expan><abbr>p</abbr><ex>osuerunt</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Aus mehreren Fragmenten zusammengesetzt. Oberhalb des Inschriftfeldes Relief mit frontal gezeigten Sitzfiguren einer Frau und eines Mannes; im Relief teilweise Farbreste erhalten.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2011, 1009.</bibl><bibl>AE 2009, 1073.</bibl><bibl>M. Holzner, in: F. Sauer - N. Hofer - M. Holzner - L. Cecil - T. Radatz, Leithaprodersdorf. Von der Frühbronzezeit zum Mittelalter (Wien 2011) 38-42; Fotos. - AE 2011.</bibl><bibl>N. Hofer, FuBerÖ 48, 2009, 12; Abb. 5. - AE 2009.</bibl><bibl>E. Weber - I. Weber-Hiden, Tyche 26, 2011, 275, Nr. 48. - AE 2011.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

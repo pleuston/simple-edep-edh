@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Argentorate (Civitas Tribocorum) &amp;ndash; Strasbourg (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD078995</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD078995</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Strasbourg, Mus. Arch.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">stele?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(41)</height><width>(46)</width><depth>12</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/108754">Argentorate (Civitas Tribocorum)</placeName></origPlace><origDate><origDate notBefore-custom="0051" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1905"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/2973783">Strasbourg</placeName><placeName type="findspot">{Rue Brûlee/Brandgasse 4}</placeName><placeName type="region">Grand Est</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD078995_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">C[---]</name></persName></person><person xml:id="HD078995_2" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">Severus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-02-17" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F038988" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/8abcfd0c-d06f-4a3f-a662-4e7c664a832c/file/id/799861/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">Po</supplied>m<supplied reason="lost">pt</supplied>ina C<gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">S</supplied>everus |(centurio) <supplied reason="lost"><expan><abbr>leg</abbr><ex>ionis</ex></expan> VIII <expan><abbr>Aug</abbr><ex>ustae</ex></expan> <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>IV<gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Allseitig abgebrochenes Fragment. (B): Cubaynes: Z. 3 nicht gelesen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 11627.</bibl><bibl>A. von Domaszewski, BMHA 21, 1906, 365, Nr. 11; Foto.</bibl><bibl>(o. Autor), in: J. Baudoux u. a., Strasbourg, Carte archéologique de la Gaule 67, 2 (Paris 2002) 298.</bibl><bibl>R. Olivier, Centuriones ad Rhenum. Les centurions legionnaires des armées romaines du Rhin (Paris 2004) 214, Nr. 104.</bibl><bibl>R. Cubaynes, Les hommes de la VIIIe légion Auguste (Autun 2018) 620, Nr. 201; Foto. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

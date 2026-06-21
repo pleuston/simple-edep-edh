@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Beograd, Sopot (Moesia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD035570</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD035570</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><dimensions unit="cm"><height>(159)</height><width>(46)</width><depth>36</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-4.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia superior</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/6290252">Serbia</placeName><placeName type="modern" ref="http://www.geonames.org/787702">Beograd, Sopot</placeName><placeName type="findspot">Nemenikuće, {Friedhof}, ehemalige Kirche, sekundär verwendet</placeName><placeName type="region">Centralna Srbija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD035570_1" sex="M"><persName ref="http://romans1by1.com/rpeople/10421"><name type="cognomen">Demosthenes+*</name></persName></person><person xml:id="HD035570_2" sex="M"><persName><name type="cognomen">Filippus+</name></persName></person><person xml:id="HD035570_3" sex="W"><persName ref="http://romans1by1.com/rpeople/10422"><name type="cognomen">Ge[---]a</name></persName></person><person xml:id="HD035570_4" sex="M"><persName><name type="cognomen">Quartus</name></persName></person><person xml:id="HD035570_5" sex="M"><persName ref="http://romans1by1.com/rpeople/10423"><name type="cognomen">Marcellus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2010-02-17" who="Feraudi">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Demoste<supplied reason="lost">nes</supplied> <note>sic</note> <lb n="2"/><supplied reason="lost">F</supplied>ilippu <note>sic</note> vi<supplied reason="lost"><expan><abbr>x</abbr><ex>it</ex></expan> <expan><abbr>an</abbr><ex>nos</ex></expan></supplied> <lb n="3"/>LXXXV Ge<gap reason="lost" extent="unknown" unit="character"/><lb break="no" n="4"/>a Quarti c<supplied reason="lost">oni</supplied><lb break="no" n="5"/>ugi pientis<supplied reason="lost">simo</supplied> <lb n="6"/><supplied reason="lost">e</supplied>t Marcel<supplied reason="lost">lus fi</supplied><lb break="no" n="7"/><supplied reason="lost">l</supplied>ius patri <lb n="8"/><supplied reason="lost">p</supplied>osuer<supplied reason="lost">unt</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IMS 1, 127; Zeichnung.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

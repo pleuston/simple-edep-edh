@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Vindonissa, aus &amp;ndash; Brugg (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD079286</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD079286</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Brugg, Vindonissa-Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">altar?</objectType><material>Gesteine</material><dimensions unit="cm"><height>(40)</height><width>(24)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/177661">Vindonissa, aus</placeName></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1920"><placeName type="country" ref="https://www.geonames.org/2658434">Switzerland</placeName><placeName type="modern" ref="http://www.geonames.org/6697287">Brugg</placeName><placeName type="findspot">Altenburg, {Lager}, Westmauer, sekundär verwendet</placeName><placeName type="region">Kanton Aargau</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD079286_1" sex="M"><persName><name type="praenomen">Sex.+</name><name type="nomen">S[---]</name><name type="cognomen">Verecundus+</name></persName></person><person xml:id="HD079286_2" sex="M"><persName><name type="nomen">Satrienius</name><name type="cognomen">Iuvenalis+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-08-25" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F028963" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/7c4c9544-3609-4bbe-a5ab-921602621979/file/id/789720/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><expan><abbr><supplied reason="lost">S</supplied>ex</abbr><ex>tus</ex></expan> S<gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><supplied reason="lost">Ve</supplied>recundu<lb break="no" n="3"/><supplied reason="lost">s co</supplied>rnuc<expan><ex>u</ex><abbr>la</abbr></expan><lb break="no" n="4"/><supplied reason="lost">ri</supplied>us <note>sic</note> Satrieni <lb n="5"/><supplied reason="lost">Iu</supplied>venalis tr<supplied reason="lost">i</supplied><lb break="no" n="6"/><supplied reason="lost">b</supplied>uni militu<lb break="no" n="7"/>m <expan><abbr>leg</abbr><ex>ionis</ex></expan> XI <expan><abbr>C</abbr><ex>laudiae</ex></expan> <expan><abbr>p</abbr><ex>iae</ex></expan> <expan><abbr>f</abbr><ex>idelis</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Inschriftträger: Altar oder Basis / Statuenbasis. (B): Walser: Z. 1: [---]las; Finke: Z. 1: [---]A[---]; Z. 3: [c]ornucla/[ri]us.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>H. Finke, BRGK 17, 1927, 36, Nr. 106. (B)</bibl><bibl>G. Walser, Römische Inschriften in der Schweiz 2 (Bern 1980) 144-145, Nr. 180; Foto. (B)</bibl><bibl>O. Schultheß, BRGK 15, 1923/24, 23. 39.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

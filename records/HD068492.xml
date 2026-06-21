@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Aquincum &amp;ndash; Budapest (Pannonia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD068492</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD068492</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Budapest, Aquincumi Múz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/214">sarcophagus</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>72</height><width>135</width><depth>69</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3-3.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197130">Aquincum</placeName></origPlace><origDate><origDate notBefore-custom="0251" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">251 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1899"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/7284842">Budapest</placeName><placeName type="findspot">Óbuda, {Bécsi út 102}</placeName><placeName type="region">Budapest</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD068492_1" sex="M"><persName><name type="nomen">Aurelius*</name><name type="cognomen">Bitus</name></persName></person><person xml:id="HD068492_2" sex="M"><persName><name type="nomen">Aurelius*</name><name type="cognomen">Vitalinus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-01-26" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>Aur</abbr><ex>elius</ex></expan> Bitus cornis <note>sic</note> <expan><abbr>leg</abbr><ex>ionis</ex></expan> II <expan><abbr>ad</abbr><ex>iutricis</ex></expan> <lb n="2"/>filio carissimo <expan><abbr>Aur</abbr><ex>elio</ex></expan> Vitalini <note>sic</note> <lb n="3"/>qui vixsit <note>sic</note> annos IIII <lb n="4"/>mens<surplus>s</surplus>es XI dies XVIII <lb n="5"/>pietatem filio suo <lb n="6"/>fecit
+            </ab></div></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 15160.</bibl><bibl>TitAq 0546; Foto.</bibl><bibl>H. Ubl, Waffen und Uniform des römischen Heeres der Prinzipatsepoche nach den Grabreliefs Noricums und Pannoniens (Wien 2013) XXIX, Nr. 26; Taf. 10, 39.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

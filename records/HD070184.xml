@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Luguvalium &amp;ndash; Carlisle (Britannia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD070184</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD070184</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Carlisle, Tullie House Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/224">sculpture</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>32</height><width>20</width><depth>8</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Britannia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/89234">Luguvalium</placeName></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1878"><placeName type="country" ref="https://www.geonames.org/2635167">United Kingdom</placeName><placeName type="modern" ref="http://www.geonames.org/2653775">Carlisle</placeName><placeName type="findspot">{Annetwell Street}</placeName><placeName type="region">Cumbria</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD070184_1" sex="M"><persName><name type="nomen">Bassilius+</name><name type="cognomen">Crescens+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2018-04-16" who="Cowey">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Geni<supplied reason="lost">o cent</supplied>uria<supplied reason="lost">e</supplied> <lb n="2"/><supplied reason="lost"><expan><abbr><am><g type="centuria"/></am></abbr><ex>centuria</ex></expan></supplied> Bassi<supplied reason="lost">li</supplied> Cresce<supplied reason="lost">ntis</supplied> <lb n="3"/>don<supplied reason="lost">o d</supplied>onavit
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Abweichende Textgestaltung.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>EphEp 7, p. 331 n. 1082. (B)</bibl><bibl>RIB 0944; Foto.</bibl><bibl>J.C. Coulston - E.J. Phillips, Hadrian's Wall west of the North Tyne, and Carlisle, CSIR Great Britain 1, 6 (Oxford 1988) 155-156, Nr. 469; Pl. 107, 469.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

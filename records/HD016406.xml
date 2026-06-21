@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Lopodunum (Civitas Ulpia Sueborum Nicrensium) &amp;ndash; Ladenburg (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD016406</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD016406</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Ladenburg, Lobdengau-Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(51)</height><width>(58)</width><depth>(23)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6.2-7</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118813">Lopodunum (Civitas Ulpia Sueborum Nicrensium)</placeName></origPlace><origDate><origDate notBefore-custom="0131" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">131 AD - 230 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1978"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2881980">Ladenburg</placeName><placeName type="findspot">{Heidelberger Straße}, Gewann Kirchfeld</placeName><placeName type="region">Baden-Württemberg</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD016406_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">Orbius+?</name><name type="cognomen">[---]s</name></persName></person><person xml:id="HD016406_2" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Orbius</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-09-08" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F037815" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/76de707d-bfb9-440d-b073-ceeb24df138d/file/id/798683/file_version/name/small"/><graphic xml:id="F037816" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/c5d894d5-5caf-4e96-9b64-64ccc696a497/file/id/798684/file_version/name/small"/><graphic xml:id="F037817" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/44d5e894-9ee7-43a0-aa47-aec05ecbdbb4/file/id/798685/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">sa</supplied>crum <lb n="2"/><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/> Orbius<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <gap reason="lost" extent="unknown" unit="character"/></supplied>s <expan><abbr>C</abbr><ex>ai</ex></expan> Orbi <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost"><expan><abbr>v</abbr><ex>otum</ex></expan></supplied> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Tabula ansata.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2000, 1088.</bibl><bibl>R. Wiegels, Lopodunum II. Inschriften und Kulturdenkmäler aus dem römischen Ladenburg am Neckar (Stuttgart 2000) 57-58, Nr. 14; Abb. 16. - AE 2000.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

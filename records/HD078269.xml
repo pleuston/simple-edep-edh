@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Kleve (Germania inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD078269</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD078269</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bonn, Rhein. Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(50)</height><width>(24)</width><depth>9</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-4.9</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania inferior</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2887835">Kleve</placeName><placeName type="findspot">Bergendal, Grabstätte des Fürsten Johann Moritz, vermauert</placeName><placeName type="region">Nordrhein-Westfalen</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD078269_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">Vitalinius+?</name><name type="cognomen">Speratus+?</name></persName></person><person xml:id="HD078269_2" sex="M"><persName><name type="nomen">Iulius+*</name><name type="cognomen">Verecundus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-01-12" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F017613" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/86c84356-ebe7-4ce7-976d-18042507cddf/file/id/777225/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <supplied reason="lost"><expan><abbr>M</abbr><ex>anibus</ex></expan></supplied> <lb n="2"/><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied> Vital<supplied reason="lost" cert="low">inio</supplied> <lb n="3"/><supplied reason="lost">S</supplied>per<supplied reason="lost">ato</supplied> <lb n="4"/><expan><abbr><supplied reason="lost">m</supplied>il</abbr><ex>iti</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> <supplied reason="lost" cert="low">XXX U(lpiae) v(ictricis)</supplied> <lb n="5"/><expan><abbr><supplied reason="lost">I</supplied>ul</abbr><ex>ius</ex></expan> Verec<supplied reason="lost">undus</supplied> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 08698; Zeichnung.</bibl><bibl>H. Lehner, Die antiken Steindenkmäler des Provinzialmuseums in Bonn (Bonn 1918) 255, Nr. 646; Zeichnung.</bibl><bibl>G. Bauchhenß, Germania inferior. Bonn und Umgebung. Militärische Grabdenkmäler, CSIR Deutschland 3, 1 (Bonn 1978) 62, Nr. 54; Taf. 47, 54.</bibl><bibl>A. Kakoschke, GFA 18, 2015, 186-188, Nr. 5; Abb. 6; Abb. 7 (Zeichnung).</bibl><bibl>W. Faust, Die Grabstelen des 2. und 3. Jahrhunderts im Rheingebiet (Köln 1998) 118, Nr. 80.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

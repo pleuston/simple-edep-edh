@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Vintium, bei &amp;ndash; Carros (Alpes Maritimae)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD066054</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD066054</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Carros, Musée du Haut-de-Cagnes</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/78">urn</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>64</height><width>97</width><depth>52</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4-5.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Alpes Maritimae</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/167973">Vintium, bei</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 230 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/3028513">Carros</placeName><placeName type="findspot"/><placeName type="region">Provence-Alpes-Côte d’Azur</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD066054_1" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Velocius</name><name type="cognomen">Cupitus</name></persName></person><person xml:id="HD066054_2" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Velocius</name><name type="cognomen">Cupitus</name></persName></person><person xml:id="HD066054_3" sex="W"><persName><name type="nomen">Domitia</name><name type="cognomen">Gratilla</name></persName></person><person xml:id="HD066054_4" sex="W"><persName><name type="nomen">Velocia</name><name type="cognomen">Severina</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-08-19" who="Cimarosti">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>M</abbr><ex>arco</ex></expan> Velocio Cu<lb break="no" n="2"/>pito <expan><abbr>M</abbr><ex>arcus</ex></expan> Velo<lb break="no" n="3"/>cius Cupitu<lb break="no" n="4"/>s <expan><abbr>fil</abbr><ex>ius</ex></expan> patri a <lb n="5"/>se bene me<lb break="no" n="6"/><supplied reason="lost">r</supplied>enti fecit </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Domitiae Gr<lb break="no" n="2"/>atillae Vel<lb break="no" n="3"/>ocia Severi<lb break="no" n="4"/>na matri m<lb break="no" n="5"/>erentissima<lb break="no" n="6"/>e memoriam <lb n="7"/>fecit
+            </ab></div></div>
+            <div type="commentary">
+                <p>(B): CIL: Leseabweichungen. Eingemeißelt (capitalis rustica). Bearbeiterin: V. Pettirossi.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 12, 00049. (B)</bibl><bibl>S. Morabito, Inscriptions latines des Alpes Maritimes (Nice - Montpellier 2010) 228-230, Nr. 121; Foto.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

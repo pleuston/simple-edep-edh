@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from (Civitas Lingonum) &amp;ndash; Bourbonne-les-Bains (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD076283</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD076283</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/276">tessera</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">1.3-0.9</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/177476">(Civitas Lingonum)</placeName></origPlace><origDate><origDate when-custom="0237" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">237 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1888"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/3031086">Bourbonne-les-Bains</placeName><placeName type="findspot"/><placeName type="region">Grand Est</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD076283_1" sex="M"><persName><name type="nomen">Severinius*</name><name type="cognomen">Marinus+</name></persName></person><person xml:id="HD076283_2" sex="M"><persName><name type="cognomen">Perpetuus*</name></persName></person><person xml:id="HD076283_3" sex="M"><persName><name type="cognomen">Cornelianus+*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-02-17" who="Gräf">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Mancipibus s<gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><expan><abbr>Ludnomag</abbr><ex>enses</ex></expan> <expan><abbr>FO</abbr><ex cert="low"/></expan><supplied reason="lost" cert="low">rtunae</supplied> <lb n="3"/>urnam cum sui<supplied reason="lost">s sortibus</supplied> <lb n="4"/><expan><abbr>Severin</abbr><ex>ius</ex></expan> Mari<supplied reason="lost">nus</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/>Decembris <note>sic</note> lib<supplied reason="lost">ens laetus</supplied> <lb n="6"/>merito <expan><abbr>d</abbr><ex>onum</ex></expan> <expan><abbr>d</abbr><ex>edit</ex></expan> <expan><abbr>Perpet</abbr><ex>uo</ex></expan> et <supplied reason="lost"><expan><abbr>Cornel</abbr><ex>iano</ex></expan> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan></supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Tabula ansata. Ergänzungsvorschlag nach Raepset-Charlier. (B): AE 2014: Z. 2: F(ortunae?]; Thévenard; Le Bohec: Abweichungen in Lesung und Ergänzung. Aufbewahrung: unbekannt.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2014, 0939. (B)</bibl><bibl>CIL 13, 05923.</bibl><bibl>CIL 13, 04, 05923 add. p. 77.</bibl><bibl>M.-T. Raepset-Charlier, BullEcAntNimes 31, 2014, 101-107; Zeichnung. - AE 2014.</bibl><bibl>J.-J. Thévenard, in: J.-J. Thévenard - A. Villes - R. Neiss, La Haute-Marne, Carte archéologique de la Gaule 52, 1 (Paris 1996) 137. (B)</bibl><bibl>Y. Le Bohec, Inscriptions de la cité des Lingons. Inscriptions sur pierre (Paris 2003) 346-347, Nr. M 6. (B)</bibl><bibl>PIR (2. Aufl.) M 312.</bibl><bibl>PIR (2. Aufl.) M 703.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

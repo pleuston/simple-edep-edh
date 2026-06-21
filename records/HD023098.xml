@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Ueß (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD023098</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD023098</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bonn, Rhein. Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(42)</height><width>81</width><depth>12</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.5-2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0171" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD - 230 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2820444">Ueß</placeName><placeName type="findspot">{S. Luzia, Kirche}, sekundär verwendet</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD023098_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Saturninius+</name><name type="cognomen">Viriaucus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-02-13" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F018876" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/1c9bef0d-8790-48fa-9f60-a939ded09452/file/id/778948/file_version/name/small"/><graphic xml:id="F039741" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/79efbba5-2788-4cc9-a054-1803a0b82edf/file/id/800620/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                In <expan><abbr>h</abbr><ex>onorem</ex></expan> <expan><abbr>d</abbr><ex>omus</ex></expan> <expan><abbr>d</abbr><ex>ivinae</ex></expan> deo Mercu<lb break="no" n="2"/>rio Excingiorigiati <lb n="3"/>et <expan><abbr>Ro<supplied reason="lost">s</supplied>mert</abbr><ex>a</ex>e</expan> <lb n="4"/><expan><abbr>C</abbr><ex>aius</ex></expan> Satu<supplied reason="lost">r</supplied>ninius <lb n="5"/>Viriaucus <expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan> <lb n="6"/>aedem <expan><abbr>d</abbr><ex>onum</ex></expan> <expan><abbr>d</abbr><ex>edit</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Das Erhaltene ist in zwei Tele gebrochen Z. 6 offenbar nachträglich mit kleineren Buchstaben eingefügt.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1935, 0029.</bibl><bibl>H. Nesselhauf, BRGK 27, 1937, 92, Nr. 137.</bibl><bibl>W. Binsfeld - K. Goethert-Polaschek - L. Schwinden, Katalog der römischen Trier. Steindenkmäler des Rheinischen Landesmuseums 1. Götter- und Weihedenkmäler, CSIR Deutschland 4, 3 (Mainz 1988) 115, Nr. 235; Taf. 56, 235.</bibl><bibl>J. Hagen, BJ 139, 1934, 224-225; Taf. 17, 3. - AE 1935</bibl></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Municipium Dardanorum &amp;ndash; Leposaviq / Leposavić (Moesia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD043136</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD043136</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><dimensions unit="cm"><height>(80)</height><width>53</width><depth>26</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.5-5.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207069">Municipium Dardanorum</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/831053">Kosovo</placeName><placeName type="modern" ref="http://www.geonames.org/785714">Leposaviq / Leposavić</placeName><placeName type="findspot">{Soçanicë / Sočanica}, Forum, Säulengang, sekundär verwendet</placeName><placeName type="region">Mitrovicë / Kosovska Mitrovica</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD043136_1"><persName ref="http://romans1by1.com/rpeople/14120"><name type="cognomen">Eutychus</name></persName></person><person xml:id="HD043136_2"><persName ref="http://romans1by1.com/rpeople/14121"><name type="nomen">Atilius</name><name type="cognomen">Theofas* (= Theophas*)</name></persName></person><person xml:id="HD043136_3"><persName ref="http://romans1by1.com/rpeople/14122"><name type="cognomen">Quarta*?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2006-12-07" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/>Eutychus <lb n="3"/>Atili T<expan><ex>h</ex><abbr>eo</abbr></expan><lb break="no" n="4"/>fae <note>sic</note> servus <lb n="5"/>&amp;lt;Q=A<certainty match="preceding-sibling::node()" locus="value"/>&amp;gt;<expan><abbr>uart</abbr><ex cert="low">a</ex>e</expan> <expan><abbr>fec</abbr><ex>it</ex></expan> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/> 
+            </ab></div>
+            <div type="commentary">
+                <p>Sekundär verwendet als Säulenbasis.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2002, 1232.</bibl><bibl>M. Milin, Starinar 52, 2002, 167-168, Nr. 7; t. 2, 1; Zeichnung. - AE 2002.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Argentorate, bei (Civitas Tribocorum) &amp;ndash; Strasbourg (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD079034</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD079034</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Strasbourg, Mus. Arch.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(208)</height><width>70</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">10-5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/108754">Argentorate, bei (Civitas Tribocorum)</placeName></origPlace><origDate><origDate notBefore-custom="0016" notAfter-custom="0043" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">16 AD - 43 AD</origDate></origDate></origin>
+                        <provenance type="found" when="2014"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/3011438">Strasbourg</placeName><placeName type="findspot">Koenigshoffen, {route des Romains 8-20}, römisches Gräberfeld</placeName><placeName type="region">Grand Est</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD079034_1" sex="M"><persName><name type="praenomen">P.</name><name type="nomen">Rufrenus</name><name type="cognomen">Modestus</name></persName></person><person xml:id="HD079034_2" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Latinaeus</name><name type="cognomen">Praesens</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-02-12" who="Osnabrügge">checked through autopsy</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>P</abbr><ex>ublius</ex></expan> Rufrenus <lb n="2"/><expan><abbr>P</abbr><ex>ublii</ex></expan> <expan><abbr>l</abbr><ex>ibertus</ex></expan> Modestus <lb n="3"/>anularius <expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>itus</ex></expan> <expan><abbr>e</abbr><ex>st</ex></expan> <lb n="4"/><expan><abbr>L</abbr><ex>ucius</ex></expan> Latinaeus Praese<lb break="no" n="5"/>ns eques <expan><abbr>leg</abbr><ex>ionis</ex></expan> II <lb n="6"/>ob pietatem
+            </ab></div>
+            <div type="commentary">
+                <p>Stele mit dreieckigem Giebel. Akroter oben abgebrochen. Im Giebelfeld Rosette.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>S. Dardaine, in: B. Schnitzler - P. Flotté (Hrsg.), Vivre à Koenigshoffen à l'époque romaine. Un quartier civil de Strasbourg-Argentorate du Ier - IVe siècle après J.-C. (Strasbourg 2017) 180.</bibl><bibl>S. Blin, in: B. Schnitzler - P. Flotté (Hrsg.), Vivre à Koenigshoffen à l'époque romaine. Un quartier civil de Strasbourg-Argentorate du Ier - IVe siècle après J.-C. (Strasbourg 2017) 184-187; Abb. 1; Abb. 3 (Zeichnung).</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

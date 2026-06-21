@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Virunum?, bei &amp;ndash; Magdalensberg (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD024732</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD024732</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Magdalensberg, Latschach, Privatbesitz</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">grave monument?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor, weiß</material><dimensions unit="cm"><height>100</height><width>70</width><depth>41</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">8-5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197365">Virunum?, bei</placeName></origPlace><origDate><origDate notBefore-custom="0081" notAfter-custom="0117" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">81 AD - 117 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1980"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2772869">Magdalensberg</placeName><placeName type="findspot">Latschach, {Parzelle Nr. 864}</placeName><placeName type="region">Kärnten</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD024732_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">Sentius</name><name type="cognomen">Niger</name></persName></person><person xml:id="HD024732_2" sex="W"><persName><name type="nomen">Sentia</name><name type="cognomen">Nigrina</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-05-16" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied> Sentio <lb n="2"/>Nigro <lb n="3"/><expan><abbr>dec</abbr><ex>urioni</ex></expan> alae <lb n="4"/>Petrianae <expan><abbr>c</abbr><ex>ivium</ex></expan> <expan><abbr>R</abbr><ex>omanorum</ex></expan> to<supplied reason="lost"><expan><abbr>r</abbr><ex>quatae</ex></expan></supplied> <lb n="5"/><expan><abbr>dec</abbr><ex>urioni</ex></expan> <expan><abbr>Virun</abbr><ex>ensium</ex></expan> Sentia <lb n="6"/>Nigrina <expan><abbr>f</abbr><ex>ilia</ex></expan> <expan><abbr>f</abbr><ex>ecit</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Zwei aneinanderpassende Fragmente erhalten;. Nach Kremer wohl Schaftblock eines altar- oder pfeilerförmigen Grabbaus. Auf den beiden Nebenseiten je ein Volutenkrater, aus dem eine Weinranke wächst; auf der Oberseite ein Dübelloch. Z. 1 (Ende): nach der Zeichnung bei Piccottini noch ein Rest vom unteren Teil des O erhalten; auf den Fotos nicht zu erkennen. Datierung: nachdem die ala Petriana die Auszeichnung c. R. erhalten hatte (unter Domitian oder 98 n. Chr.) und bevor ihr in spättrajanischer Zeit(?) der zweite Torques verliehen wurde.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1990, 0775.</bibl><bibl>G. Kremer, Antike Grabbauten in Noricum (Wien 2001) 264-265, Nr. II 348.</bibl><bibl>R. Wedenig, Epigraphische Quellen zur städtischen Administration in Noricum (Klagenfurt 1997) 292, Nr. V 44.</bibl><bibl>G. Piccottini, RŒ 15/16, 1987/88, 185-190; Taf. 6 (Fotos u. Zeichnungen). - AE 1990.</bibl><bibl>G. Piccottini, AustrRom 35, 1985, 13.</bibl><bibl>E. Weber - R. Selinger, RŒ 19/20, 1991/92, 234, Nr. 342.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

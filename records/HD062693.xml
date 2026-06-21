@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from (Civitas Lingonum) &amp;ndash; Essey (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD062693</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD062693</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Dijon, Mus. Arch.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">altar?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(24)</height><width>(12)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.0-2.0</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="#">(Civitas Lingonum)</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1895"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/3019611">Essey</placeName><placeName type="findspot">Armançon, {Quelle}</placeName><placeName type="region">Bourgogne-Franche-Comté</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD062693_1" sex="M"><persName><name type="cognomen">Agisillus</name></persName></person><person xml:id="HD062693_2" sex="M"><persName><name type="nomen">Marsius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-01-25" who="Osnabrügge">checked through autopsy</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F031714" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/096ea6a6-d7a5-4f27-bd1b-0f40333932df/file/id/792477/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/>Noniso <lb n="2"/>Agisillus <lb n="3"/><expan><abbr>Sul</abbr><ex cert="low">la</ex></expan> Mar<lb break="no" n="4"/>sii f<supplied reason="lost">ili</supplied>us <lb n="5"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Zwei Fragmente einer Inschrift. Autopsie R. Wiegels.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 11579.</bibl><bibl>CIL 13, 02834.</bibl><bibl>M. Provost, in: M. Provost u. a. (Hrsg.), La Côte-d'Or d'Allerey à Normier, Carte archéologique de la Gaule 21, 2 (Paris 2009) 319.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

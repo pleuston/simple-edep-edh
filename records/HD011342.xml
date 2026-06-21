@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Carnuntum &amp;ndash; Petronell-Carnuntum (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD011342</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD011342</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Hainburg/Donau, Kulturfabrik, Arch. Zentraldepot</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><dimensions unit="cm"><height>215</height><width>76</width><depth>22</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3-6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/128376">Carnuntum</placeName></origPlace><origDate><origDate notBefore-custom="0031" notAfter-custom="0070" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">31 AD - 70 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2769013">Petronell-Carnuntum</placeName><placeName type="findspot"/><placeName type="region">Niederösterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD011342_1" sex="M"><persName><name type="cognomen">Florus / Φλῶρος+</name></persName></person><person xml:id="HD011342_2" sex="M"><persName><name type="praenomen">P.</name><name type="nomen">Vedius*</name><name type="cognomen">Germanus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-06-01" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F019263" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/bf1d0bb5-bb8e-44fc-ace5-452e84dfec80/file/id/779335/file_version/name/small"/><graphic xml:id="F025620" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/b2aef338-990a-4338-bd14-0da28e309f8b/file/id/786372/file_version/name/small"/><graphic xml:id="F025621" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/de853f27-483b-43d0-97e6-87e33d72470b/file/id/786373/file_version/name/small"/><graphic xml:id="F025622" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/6af8bf46-1c2b-4ed4-bc08-abb93dfd4d6b/file/id/786374/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Florus <expan><abbr>P</abbr><ex>ubli</ex></expan> Vedi <lb n="2"/><expan><abbr>P</abbr><ex>ubli</ex></expan> <expan><abbr>f</abbr><ex>ilii</ex></expan> <expan><abbr>Fab</abbr><ex>ia tribu</ex></expan> Germa<lb break="no" n="3"/>ni <expan><abbr>ser</abbr><ex>vus</ex></expan> <expan><abbr>an</abbr><ex>norum</ex></expan> XXVI <lb n="4"/><expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>itus</ex></expan> <expan><abbr>e</abbr><ex>st</ex></expan> <lb n="5"/><supplied reason="lost">domi</supplied>nus ob meritis <lb n="6"/><supplied reason="lost">eius</supplied> fecit <supplied reason="lost">οὐ γάμον οὐχ</supplied> ὑμέναιον ἰδ<lb break="no" n="7"/><supplied reason="lost">ὼν οὐ νύνφι</supplied>α λέκτρα <lb n="8"/><supplied reason="lost">κεῖμαι</supplied> π(ρ)ὸς στήλῃ κεκλι<lb break="no" n="9"/><supplied reason="lost">μέν</supplied>ος παρ' ὁδῷ χαῖρε <lb n="10"/><supplied reason="lost">Φλ</supplied>ῶρε χαῖρε καὶ σύ <lb n="11"/>τίς ποτ' εἶ ξένε
+            </ab></div>
+            <div type="commentary">
+                <p>(B): AE 1973, 0421: Höhe: 275; Tiefe: 20. Oberhalb des Inschriftfeldes in Rundbogennische männliche Büste. Im Inschriftfeld unterhalb des Textes zwei Stiefel. (B): Hild; Vorbeck: Z. 7: νύ]νφια λέκτρα.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1973, 0421. (B)</bibl><bibl>GVI 1853.</bibl><bibl>CIGPannon 010.</bibl><bibl>CIGPannon (2. Aufl.) 008; Zeichnung.</bibl><bibl>CIGPannon (3. Aufl.) 008; Zeichnung.</bibl><bibl>F. Hild, Supplementum epigraphicum zu CIL III. Das pannonische Niederösterreich, Burgenland und Wien 1902-1968 (Diss. Wien 1968) 120-121, Nr. 179. (B)</bibl><bibl>M.-L. Krüger, Die Reliefs des Stadtgebietes von Carnuntum 1. Die figürlichen Reliefs, CSIR Österreich 1, 3 (Wien 1970) 61, Nr. 341; Taf. 71, 341.Reliefs, CSI E. Vorbeck, Zivilinschriften aus Carnuntum (Wien 1980) 46, Nr. 181. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

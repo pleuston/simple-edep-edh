@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Iuvavum, bei &amp;ndash; Amerang (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD013938</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD013938</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Wasserburg/Inn, Heimatmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material>Gesteine</material><dimensions unit="cm"><height>(32)</height><width>(36)</width><depth>6</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/187432">Iuvavum, bei</placeName></origPlace><origDate><origDate notBefore-custom="0171" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD - 230 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1962"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2956570">Amerang</placeName><placeName type="findspot">{Wald}, bei</placeName><placeName type="region">Bayern</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD013938_1"><persName><name type="praenomen">[-]?</name><name type="nomen">Magaius/a+?</name><name type="cognomen">Magaius/a+?</name></persName></person><person xml:id="HD013938_2"><persName><name type="cognomen">Romanus/a+?</name></persName></person><person xml:id="HD013938_3" sex="M"><persName><name type="cognomen">[---]mus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-04-08" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><expan><abbr>Magai</abbr><ex cert="low"/></expan> <gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><expan><abbr>ob</abbr><ex>it-</ex></expan> <expan><abbr>an</abbr><ex>norum</ex></expan> <expan><abbr>I</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/>Roma<supplied reason="lost">n<gap reason="lost" quantity="1" unit="character"/>? <gap reason="lost" extent="unknown" unit="character"/></supplied><lb break="no" n="4"/>mi <expan><abbr>f</abbr><ex>ili-</ex></expan> ex t<supplied reason="lost">estamento</supplied> <lb n="5"/>fratris p<supplied reason="lost" cert="low">osuit</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Z. 1: hinter G möglicherweise eine Interpunktion. Z. 2 (Ende): statt I auch L möglich; Buchstabe A ohne Querhaste. Z. 5: möglicherweise auch f[ac(iendum) cur(avit)]. (B): Steffan; Schillinger-Häfele; AE 1973; AE 1978; ILLPRON: Abweichungen in Lesung / Ergänzung.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1973, 0382. (B)</bibl><bibl>AE 1978, 0594. (B)</bibl><bibl>ILLPRON 1558. (B)</bibl><bibl>F. Steffan, BVBl 38, 1973, 122-123, Nr. 2; Taf. 15. (B) - AE 1973; AE 1978.</bibl><bibl>U. Schillinger-Häfele, BRGK 58, 1977, 563, Nr. 221. (B) - AE 1978.</bibl><bibl>W. Hameter, Die norischen Inschriften Bayerns (Diss. Wien 1992) 59-61, Nr. 41; Foto.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

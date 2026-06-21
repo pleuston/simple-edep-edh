@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Baudobriga &amp;ndash; Boppard (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD078704</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD078704</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Boppard, S. Severus, Kirche</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">slab?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>56</height><width>45</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="#">Baudobriga</placeName></origPlace><origDate><origDate notBefore-custom="0401" notAfter-custom="0550" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">401 AD - 550 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1896"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2946366">Boppard</placeName><placeName type="findspot">Alter Friedhof, bei</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD078704_1" sex="W"><persName><name type="cognomen">Nomidia</name></persName></person><person xml:id="HD078704_2" sex="W"><persName><name type="cognomen">Agrippina*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-08-25" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F028582" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/13eafb68-476c-4519-95c5-5a6ba250bdb3/file/id/789339/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Cum provitate <note>sic</note> pod<expan><ex>o</ex><abbr>r</abbr></expan> <note>sic</note> ca<lb break="no" n="2"/>st<expan><ex>it</ex><abbr>as</abbr></expan> q<expan><ex>ua</ex><abbr>e</abbr></expan> feminas ornat <lb n="3"/>hic te pr<expan><ex>a</ex><abbr>ece</abbr></expan><supplied reason="lost">ls</supplied>i deco<lb break="no" n="4"/>ra<supplied reason="lost">t</supplied> Nomidia l<supplied reason="lost">a</supplied>urus <lb n="5"/>post obitum meritis <lb n="6"/>non mori<supplied reason="lost">e</supplied>re tuis <lb n="7"/>Agrip<expan><ex>p</ex><abbr>ina</abbr></expan> soror teto<lb break="no" n="8"/>lo <note>sic</note> solacia signat
+            </ab></div>
+            <div type="commentary">
+                <p>Unterhalb der Inschrift lateinisches Kreuz. Z. 3: AV-Diktatur. Inschriftfeld stark bestoßen und verrieben. (B): Nikitsch; Terrien: Abweichungen in Lesung/Ergänzung.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>R. Egger, BJ 154, 1954, 155-156, Nr. 21; Abb. 8 (Zeichnung).</bibl><bibl>E.J. Nikitsch, Die Inschriften des Rhein-Hunsrück-Kreises 1 (Boppard, Oberwesel, St. Goar). Die Deutschen Inschriften 60 (Wiesbaden 2004) 6-8, Nr. 4; Abb. 3. (B)</bibl><bibl>M.-P. Terrien, La christianisation de la région rhénane du IVe au milieu du VIIIe siècle. Corpus (Besançon 2007) 62. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

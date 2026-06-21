@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Admont (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD038760</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD038760</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">tabula?</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1606"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2782979">Admont</placeName><placeName type="findspot">{Stift Admont}, Friedhof</placeName><placeName type="region">Steiermark</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD038760_1" sex="M"><persName><name type="cognomen">Secundus</name></persName></person><person xml:id="HD038760_2" sex="M"><persName><name type="cognomen">Vercaius</name></persName></person><person xml:id="HD038760_3" sex="W"><persName><name type="cognomen">Secunda</name></persName></person><person xml:id="HD038760_4" sex="M"><persName><name type="cognomen">Calventius</name></persName></person><person xml:id="HD038760_5" sex="M"><persName><name type="cognomen">Firmus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-07-02" who="Böhm">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Secundus <lb n="2"/>Vercai f<expan><ex>i</ex><abbr>l</abbr><ex>ius</ex></expan> et <lb n="3"/>Secunda Cal<lb break="no" n="4"/>venti <expan><abbr>fil</abbr><ex>ia</ex></expan> <expan><abbr>v</abbr><ex>ivi</ex></expan> <expan><abbr>f</abbr><ex>ecerunt</ex></expan> sibi <lb n="5"/>et Firmo <expan><abbr>fil</abbr><ex>io</ex></expan> @(obito) <expan><abbr>an</abbr><ex>norum</ex></expan> XX
+            </ab></div>
+            <div type="commentary">
+                <p>Ligatur ET in Z. 2 und 5. Z. 5 Ligatur AN und das Zahlzeichen XX. Z. 4 Ende eine hedera als Interpunktion.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>E. Weber, Die römerzeitlichen Inschriften der Steiermark (Graz 1969) 297, Nr. 243.</bibl><bibl>CIL 03, 05641.</bibl><bibl>ILLPRON 1154.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

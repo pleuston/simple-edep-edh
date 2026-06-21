@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Aventicum, bei (Civitas Helvetiorum) &amp;ndash; Münchenwiler (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD053568</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD053568</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Avenches, Château de Münchenwiler</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(29)</height><width>(45)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.5-6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/177495">Aventicum, bei (Civitas Helvetiorum)</placeName></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1955"><placeName type="country" ref="https://www.geonames.org/2658434">Switzerland</placeName><placeName type="modern" ref="http://www.geonames.org/2659529">Münchenwiler</placeName><placeName type="findspot">{Schloss}, sekundär verwendet</placeName><placeName type="region">Kanton Bern</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-08-15" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F016929" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/a5f9c1bc-e0f2-4a1c-b28e-2dabfdef50ba/file/id/776515/file_version/name/small"/><graphic xml:id="F039739" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/af8b63b7-1e13-4765-b5de-d6de29b7173a/file/id/800618/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><supplied reason="lost">p</supplied>ontif<supplied reason="lost">ici</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><expan><abbr>col</abbr><ex>onia</ex></expan> Pia <supplied reason="lost">Flavia Constans Emerita Helvetiorum foederata</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Oben, rechts und unten abgebrochens Bruchstück aus fünf aneinanderpassenden Fragmenten, linker Rand des Inschriftfeldes erhalten. (B): AE 1992; Walser: Z. 1: [po]ntif[ici.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1992, 1269. (B)</bibl><bibl>G. Walser, Römische Inschriften in der Schweiz 1 (Bern 1979) 234-235, Nr. 112; Foto. (B) - AE 1992.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

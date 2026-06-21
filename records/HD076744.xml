@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Owner/artist inscription from (Civitas Aurelia Aquensis)? &amp;ndash; Eggenstein-Leopoldshafen (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD076744</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD076744</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Karlsruhe, Bad. Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/140">instrumentum domesticum</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material><dimensions unit="cm"><height>10</height><width>15</width><depth>31</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="#">(Civitas Aurelia Aquensis)?</placeName></origPlace><origDate><origDate notBefore-custom="0015" notAfter-custom="0040" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">15 AD - 40 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1988"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2878676">Eggenstein-Leopoldshafen</placeName><placeName type="findspot">Leopoldshafen, bei, {Rhein}</placeName><placeName type="region">Baden-Württemberg</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>owner/artist inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD076744_1" sex="M"><persName><name type="praenomen">Sex.</name><name type="nomen">Antonius*</name><name type="cognomen">Sil(---)</name></persName></person><person xml:id="HD076744_2" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]ellius*?</name><name type="cognomen">Crescens*?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-10-18" who="Osnabrügge">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>N</abbr><ex cert="low"/></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>Sex</abbr><ex>ti</ex></expan> <expan><abbr>Ant</abbr><ex>oni</ex></expan> <abbr>Sil</abbr> </ab></div><div n="3" type="textpart"><ab><lb n="1"/> <gap reason="lost" extent="unknown" unit="character"/><expan><abbr>ell</abbr><ex cert="low">ius</ex></expan> <expan><abbr>Cresc</abbr><ex cert="low">ens</ex></expan>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Kasserolle. Text 1 und 2 befinden sich auf der Unterseite des Griffs; Text 3 befindet sich auf der Oberseite des Griffs. Entlang der Oberseite ehemals niellierter Thyrsosstab. Text 1: Schreibtechnik: graviert? Text 2: Schreibtechnik: gepunzt. Text 3: Schreibtechnik: gestempelt.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>S.F. Pfahl, Instrumenta Latina et Graeca inscripta des Limesgebietes von 200 v. Chr. bis 600 n. Chr. (Weinstadt 2012) 168, Nr. 222; Taf. 31, 222 (Zeichnungen).</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

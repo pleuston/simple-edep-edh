@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Carnuntum (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD074263</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD074263</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Hainburg/Donau, Kulturfabrik, Arch. Zentraldepot</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/128376">Carnuntum</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern"/><placeName type="findspot"/><placeName type="region">Niederösterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD074263_1" sex="W"><persName><name type="nomen">Martia+</name><name type="cognomen">[---]is</name></persName></person><person xml:id="HD074263_2" sex="M"><persName><name type="praenomen">Q.</name><name type="nomen">Martius+</name></persName></person><person xml:id="HD074263_3" sex="M"><persName><name type="praenomen">P.</name><name type="nomen">[---]</name><name type="cognomen">Seius+</name></persName></person><person xml:id="HD074263_4" sex="M"><persName><name type="praenomen">Q.</name><name type="nomen">Martius+</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-05-11" who="Osnabrügge">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost">Mart</supplied>ia <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>is <expan><abbr>Q</abbr><ex>uinti</ex></expan> <lb n="3"/><supplied reason="lost">Mart</supplied>ii <expan><abbr>lib</abbr><ex>erta</ex></expan> <lb n="4"/><expan><abbr>an</abbr><ex cert="low">norum</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/>et <expan><abbr>P</abbr><ex>ublius</ex></expan> <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">S</supplied><lb break="no" n="6"/>eius a<supplied reason="lost"><expan><abbr>n</abbr><ex>norum</ex></expan></supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="7"/><expan><abbr>Q</abbr><ex>uintus</ex></expan> Mart<supplied reason="lost">ius</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="8"/>matri s<supplied reason="lost">ua</supplied><gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Zwei Fragmente einer Grabstele. Das Gentiliz des P(ublius) [--- S]eius ist möglicherweise auch zu Martius zu ergänzen, so in AE 2013; Weber-Hiden 2013. Die Ergänzung der Gentilizien ist hier allgemein unsicher. (B): AE 2013; Weber-Hiden: Kleinere Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2013, 1245. (B)</bibl><bibl>I. Weber-Hiden, in: R. Breitwieser - M. Frass - G. Nightingale (Hrsg.), Calamus.</bibl><bibl>Festschrift für Herbert Graßl zum 65. Geburtstag (Wiesbaden 2013) 608, Nr. 17. (B) - AE 2013.</bibl><bibl>I. Weber-Hiden, RŒ 36, 2013, 373, Nr. 83. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

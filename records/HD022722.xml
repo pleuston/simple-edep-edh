@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Beisān (Iudaea)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD022722</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD022722</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><dimensions unit="cm"><height>39</height><width>37</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.5-3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Iudaea</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0132" notAfter-custom="0135" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">132 AD - 135 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/294640">Isreal</placeName><placeName type="modern">Beisān</placeName><placeName type="findspot"/></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD022722_1" sex="M"><persName><name type="praenomen">P.</name><name type="nomen">Aelius</name><name type="cognomen">Capito</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-07-07" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Dis <expan><abbr>Manib</abbr><ex>us</ex></expan> <lb n="2"/><expan><abbr>P</abbr><ex>ublius</ex></expan> Aelius Capi<lb break="no" n="3"/>to <expan><abbr>natio</abbr><ex>ne</ex></expan> Mace<lb break="no" n="4"/>do <expan><abbr>mil</abbr><ex>es</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> XI <lb n="5"/><expan><abbr>Cl</abbr><ex>audiae</ex></expan> vixit annis <lb n="6"/>XXXV mil<expan><ex>i</ex><abbr>tav</abbr></expan><supplied reason="lost">it</supplied> <lb n="7"/>annis X <expan><abbr>dol</abbr><ex>enter</ex></expan> m<supplied reason="lost"><expan><abbr>er</abbr><ex>ito</ex></expan></supplied> <lb n="8"/>fecit heres benef<supplied reason="lost" cert="low">i(ciatus)</supplied> <lb n="9"/><expan><abbr>v</abbr><ex>elut</ex></expan><certainty match="preceding-sibling::node()" locus="value"/> <expan><abbr>t</abbr><ex>estamento</ex></expan><certainty match="preceding-sibling::node()" locus="value"/> <expan><abbr>i</abbr><ex>ussus</ex></expan><certainty match="preceding-sibling::node()" locus="value"/>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): AE 1939: Z. 6: militav[it]. Datierung: Der Soldat fiel wohl während des Bar-Kochba-Aufstandes.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1939, 0158. (B)</bibl><bibl>M. Avi-Yonah, QAP 8, 1939, 57-59, Nr. 2; pl. 36, 2. - AE 1939.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

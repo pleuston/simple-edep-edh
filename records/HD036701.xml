@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Owner/artist inscription from Arae Flaviae &amp;ndash; Rottweil (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD036701</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD036701</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Stuttgart, Württ. Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/140">instrumentum domesticum</objectType><material>Gesteine</material><dimensions unit="cm"><height>0</height><width>4</width><depth>4</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">0.2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118572">Arae Flaviae</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1895"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2843636">Rottweil</placeName><placeName type="findspot">Nikolausfeld, {Lager II (sogenanntes großes Lager)}</placeName><placeName type="region">Baden-Württemberg</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>owner/artist inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD036701_1" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Ulpius</name><name type="cognomen">Theodorus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-01-30" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F024403" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/fc75acb8-ad92-421b-a472-6baaf32182b0/file/id/785068/file_version/name/small"/><graphic xml:id="F037326" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/43dabe97-e0e8-40c6-afbb-9d3c3bd5ec2f/file/id/798192/file_version/name/small"/><graphic xml:id="F037327" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/669f7a68-b3cc-46d6-9f2e-c9c23050a63f/file/id/798193/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>M</abbr><ex>arci</ex></expan> Ulpi Theodori <lb n="2"/>crocodes
+            </ab></div>
+            <div type="commentary">
+                <p>Augenarztstempel. Z. 2 (Ende): Buchstabe S auf dem Foto nicht erkennbar.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>F. Haug - G. Sixt, Die römischen Inschriften und Bildwerke Württembergs (2. Aufl. Stuttgart 1914) 163-164, Nr. 88; Foto.</bibl><bibl>É. Espérandieu, Signacula medicorum oculariorum (Parisiis 1905) 124, Nr. 201; tab. 64, 201 (Zeichnung).</bibl><bibl>CIL 13, 10021, 201.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

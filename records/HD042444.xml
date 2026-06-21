@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Iuvavum, bei &amp;ndash; Freilassing (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD042444</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD042444</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Freilassing, Salzburghofen, Mariä Himmelfahrt, Pfarrkirche</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/78">urn</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor, weiß</material><dimensions unit="cm"><height>(50)</height><width>105</width><depth>66</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.0</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/187432">Iuvavum, bei</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 230 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1910"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2842164">Freilassing</placeName><placeName type="findspot">Salzburghofen, {Mariä Himmelfahrt, Pfarrkirche, Westmauer}, sekundär verwendet</placeName><placeName type="region">Bayern</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD042444_1" sex="W"><persName><name type="cognomen">[---]</name></persName></person><person xml:id="HD042444_2" sex="M"><persName><name type="cognomen">Maurus</name></persName></person><person xml:id="HD042444_3" sex="M"><persName><name type="nomen">Matulius</name><name type="cognomen">Iuvenis</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-07-28" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/>XXXVI Maurus ser<lb break="no" n="2"/>vus Matuli Iuvenis <lb n="3"/>coniugi karissim<expan><ex>a</ex><abbr>e</abbr></expan> <lb n="4"/>vi<expan><ex>v</ex><abbr>us</abbr></expan> fecit
+            </ab></div>
+            <div type="commentary">
+                <p>Aschenkiste. Material und Maße nach lupa 4478. (B): IBR; Hameter: kleinere Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IBR 050A; tab. 9, 50a. (B)</bibl><bibl>ILLPRON 1541.</bibl><bibl>A. Obermayr, Römersteine zwischen Inn und Salzach (Freilassing 1974) 83-86.</bibl><bibl>W. Hameter, Die norischen Inschriften Bayerns (Diss. Wien 1992) 122-123, Nr. 90; Foto. (B)</bibl><bibl>F. Moosleitner u. a., Auf den Spuren der Römer. Übersichtskarte (Freilassing 2002) Foto.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

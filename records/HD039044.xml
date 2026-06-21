@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Csopak (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD039044</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD039044</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Nemesvámos, Baláca, Römerzeitlicher Gutshof</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(72)</height><width>(75)</width><depth>25</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">9</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0130" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 130 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3053938">Csopak</placeName><placeName type="findspot">{Flur Kőkoporsódülő}, sekundär verwendet</placeName><placeName type="region">Veszprém megye</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD039044_1" sex="W"><persName><name type="nomen">Flavia+*</name><name type="cognomen">Flora</name></persName></person><person xml:id="HD039044_2" sex="M"><persName><name type="praenomen">T.+</name><name type="nomen">Flavius+*</name><name type="cognomen">Maximus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-12-01" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr><supplied reason="lost">F</supplied>l</abbr><ex>avia</ex></expan> Titi <expan><abbr>fil</abbr><ex>ia</ex></expan> <lb n="2"/>Flora <lb n="3"/><supplied reason="lost">a</supplied>nnorum <lb n="4"/><supplied reason="lost">X</supplied>XVI <expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>ita</ex></expan> <expan><abbr>e</abbr><ex>st</ex></expan> <lb n="5"/><supplied reason="lost"><expan><abbr>Tit</abbr><ex>us</ex></expan> <expan><abbr>Fl</abbr><ex>avius</ex></expan></supplied> <lb n="6"/><supplied reason="lost">Maximus</supplied> <lb n="7"/><supplied reason="lost">sorori <expan><abbr>optim</abbr><ex>a</ex>e</expan></supplied> <lb n="8"/><supplied reason="lost"><expan><abbr>s</abbr><ex>uae</ex></expan> <expan><abbr>f</abbr><ex>aciendum</ex></expan> <expan><abbr>c</abbr><ex>uravit</ex></expan></supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Gefunden in Wiederverwendung als Deckel eines Sarkophags. Bei der Auffindung waren vier Fragmente erhalten (davon je zwei aneinanderpassend), von denen inzwischen drei verloren sind; Maße beziehen sich auf das erhaltene Fragment (rechts oben). Ursprüngliche Maße: circa 150 x 121 x 25 cm. Hederae in Z. 4 und ehemals in Z. 5. (B): Palágyi: Z. 1: Fl(avia); RIU 0351; Palágyi: Z. 4: XXV.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>RIU 0351; Abb. 351 (Zeichnung). (B)</bibl><bibl>S.K. Palágyi, Veszprém megye római kori kőfaragványainak gyűjteménye. Baláca, Római kori villagazdaság. Katalógus. Sammlung der römerzeitlichen Steindenkmäler im Komitat Veszprém. Baláca, Römerzeitlicher Gutshof. Katalog (Veszprém 2004) 35, Nr. 13; Foto. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

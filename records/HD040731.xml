@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Military diploma from Flémalle (Belgica)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD040731</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD040731</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Liège, Mus. Curtius</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material><dimensions unit="cm"><height>(8)</height><width>(7)</width><depth>0</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">0.4-0.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Belgica</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate when-custom="0098" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">98 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2802361">Belgium</placeName><placeName type="modern" ref="http://www.geonames.org/7729847">Flémalle</placeName><placeName type="findspot">Meuse</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/91">military diploma</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD040731_1"><persName><name type="nomen">Nerva+</name></persName></person><person xml:id="HD040731_2"><persName ref="https://www.wikidata.org/wiki/Q1425"><name type="nomen">Nerva</name><name type="cognomen">Traianus</name></persName></person><person xml:id="HD040731_3"><persName><name type="praenomen">T.</name><name type="nomen">Avidius</name><name type="cognomen">Quietus+</name></persName></person><person xml:id="HD040731_4"><persName><name type="praenomen">P.+</name><name type="nomen">Metilius+</name><name type="cognomen">Nepos</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2006-01-17" who="Garcia">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Imp</abbr><ex>erator</ex></expan> Caesar divi Ne</supplied>rvae <expan><abbr>f</abbr><ex>ilius</ex></expan> Nerva Traianus <lb n="2"/><supplied reason="lost">Augustus German</supplied>icus pontifex maximus <lb n="3"/><supplied reason="lost"><expan><abbr>tribunic</abbr><ex>ia</ex></expan></supplied> <expan><abbr>potestat</abbr><ex>e</ex></expan> co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> II <lb n="4"/><supplied reason="lost">equitibus et peditib</supplied>us qui militant in alis <lb n="5"/><supplied reason="lost">tribus et cohortib</supplied>us sex quae appellantur <lb n="6"/><supplied reason="lost">Gallorum Petria</supplied>na <expan><abbr>c</abbr><ex>ivium</ex></expan> <expan><abbr>R</abbr><ex>omanorum</ex></expan> et I Tungrorum <lb n="7"/><supplied reason="lost">et I Hispanorum Ast</supplied>urum et I Hispanorum <lb n="8"/><supplied reason="lost">et I Celtiberorum<certainty locus="name" match="preceding-sibling::text()" cert="low"/> et I</supplied> fida Vardullorum <expan><abbr>c</abbr><ex>ivium</ex></expan> <expan><abbr>R</abbr><ex>omanorum</ex></expan> <lb n="9"/><supplied reason="lost">et I Lingonum<certainty locus="name" match="preceding-sibling::text()" cert="low"/> et</supplied> II Lingonum et II Nervio<lb break="no" n="10"/><supplied reason="lost">rum et sunt</supplied> in Britannia sub <expan><abbr>T</abbr><ex>ito</ex></expan> Avidio <lb n="11"/><supplied reason="lost">Quieto item</supplied> dimissis honesta missione a <lb n="12"/><supplied reason="lost"><expan><abbr>P</abbr><ex>ublio</ex></expan> Metilio</supplied> Nepote qui quina et vicena plura<lb break="no" n="13"/><supplied reason="lost">ve sti</supplied>pendia meruerunt quorum nomi<lb break="no" n="14"/><supplied reason="lost">na</supplied> subscripta sunt ipsis liberis posteris<lb break="no" n="15"/>que eorum c<supplied reason="lost">ivitate</supplied>m dedit et conubium <lb n="16"/>cum ux<supplied reason="lost">oribus qua</supplied>s tunc habuissent cum <lb n="17"/><supplied reason="lost">est civitas iis data</supplied> aut ai qui <lb n="18"/><supplied reason="lost">caelibes e</supplied>ssent cum iis quas postea duxissent dumtaxat sin<lb n="0"/>guli singulas <gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILB (2. Aufl.) 137; Foto.</bibl><bibl>CIL 13, 1, 2, 03606.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

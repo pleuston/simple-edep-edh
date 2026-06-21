@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Rigomagus &amp;ndash; Remagen (Germania inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD030207</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD030207</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bonn, Rhein. Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/83">Trachyt</material><dimensions unit="cm"><height>(53)</height><width>(40)</width><depth>(20)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109281">Rigomagus</placeName></origPlace><origDate><origDate when-custom="0205" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">205 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1904"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2848335">Remagen</placeName><placeName type="findspot">{S. Peter und Paul, Kirche}</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD030207_1" sex="M"><persName><name type="nomen">Claudius+</name><name type="cognomen">Prosper</name></persName></person><person xml:id="HD030207_2" sex="M"><persName><name type="nomen">I[---]lius+</name><name type="cognomen">Firmus</name></persName></person><person xml:id="HD030207_3" sex="M"><persName><name type="cognomen">Antoninus</name></persName></person><person xml:id="HD030207_4" sex="M"><persName><name type="cognomen">Geta++</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-01-24" who="Feraudi">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/>Clau<supplied reason="lost">dio</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/>Prospere <gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/>curante <expan><abbr>I</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/>lio <lb n="5"/>Firmo <expan><abbr>praef</abbr><ex>ecto</ex></expan> <expan><abbr>coh</abbr><ex>ortis</ex></expan> <lb n="6"/>I <expan><abbr>Fl</abbr><ex>aviae</ex></expan> marito suo <lb n="7"/>dicavit <lb n="8"/>Dominis <del rend="erasure">N</del><expan><abbr>n</abbr><ex>ostris</ex></expan> <expan><abbr>Imp</abbr><ex>eratore</ex></expan> Antonino <lb n="9"/><expan><abbr>Aug</abbr><ex>usto</ex></expan> II <del rend="erasure">et Geta <expan><abbr>Caes</abbr><ex>are</ex></expan></del> co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1905, 0062.</bibl><bibl>CIL 13, 07797; Zeichnung.</bibl><bibl>G. Alföldy, Die Hilfstruppen der römischen Provinz Germania Inferior, EpStud 6 (Düsseldorf 1968) 203-204, Nr. 124.</bibl><bibl>H. Lehner, KWDZ 23, 1904, 212; Zeichnung. - AE 1905.</bibl><bibl>H. Lehner, Die antiken Steindenkmäler des Provinzialmuseums in Bonn (Bonn 1918) 211, Nr. 557; Zeichnung.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

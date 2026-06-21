@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Çerkes Aynali (Bithynia et Pontus)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD020986</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD020986</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/260">slab</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>65</height><width>119</width><depth>21</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Bithynia et Pontus</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/298795">Turkey</placeName><placeName type="modern">Çerkes Aynali</placeName><placeName type="findspot"/></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD020986_1" sex="M"><persName><name type="nomen">Valerius*</name><name type="cognomen">Titianus</name></persName></person><person xml:id="HD020986_2"><persName><name type="cognomen">Ursus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-06-02" who="Cowey">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> adgredere viator Φ <lb n="2"/>obiter sta<expan><ex>n</ex><abbr>s</abbr></expan> et repausa<expan><ex>n</ex><abbr>s</abbr></expan> perlege titu&amp;lt;l=E&amp;gt;um Φ <lb n="3"/>cuius fata et Manes vitam peregerunt in Φ <lb n="4"/>civitatem <note>sic</note> Prusiada <note>sic</note> <expan><abbr>Val</abbr><ex>erius</ex></expan> Titianus <expan><abbr>b</abbr><ex>onis</ex></expan> <expan><abbr>b</abbr><ex>ene</ex></expan> decanus <lb n="5"/><expan><abbr>num</abbr><ex>eri</ex></expan> <expan><abbr>scut</abbr><ex>ariorum</ex></expan> natione Dalmata <note>sic</note> vixit annos XXXXV <lb n="6"/>militavit annos XXII fecit <expan><abbr>memoria</abbr><ex>m</ex></expan> Ursus δδ <lb n="7"/>ex numero ipso pro fraternitate Φ 
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Am Ende der Zeilen 2, 3 und 7 finden sich eingemeißelte Formen, die wie der Buchstabe φ aussehen. Sie sind als eine Art Verzierung zu verstehen, sowie die Hederae in Z. 1 und die SS am Ende der Z. 6.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1951, 0030.</bibl><bibl>AE 1954, 0231.</bibl><bibl>K. Mras, AAWW 86, 1949, 231-232; Abb. 6. - AE 1951.</bibl><bibl>F.K. Dörner, Bericht über eine Reise in Bithynien (Wien 1952) 21-22; Tafel 7. (B) - AE 1954.</bibl><bibl>IK 27, 101.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

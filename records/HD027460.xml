@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Carnuntum, bei &amp;ndash; Au/Leithaberge (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD027460</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD027460</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Wien, Kunsthist. Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">tabula?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>60</height><width>80</width><depth>10</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/128376">Carnuntum, bei</placeName></origPlace><origDate><origDate notBefore-custom="0031" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">31 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1912"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2782242">Au/Leithaberge</placeName><placeName type="findspot">{römisches Gräberfeld an der Straße nach Hof}, sekundär verwendet</placeName><placeName type="region">Niederösterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD027460_1" sex="W"><persName><name type="praenomen">T.</name><name type="nomen">Flavia</name><name type="cognomen">Prima+</name></persName></person><person xml:id="HD027460_2" sex="M"><persName><name type="praenomen">T.</name><name type="nomen">Flavius*</name><name type="cognomen">Vegetus*</name></persName></person><person xml:id="HD027460_3" sex="M"><persName><name type="cognomen">Sasulus</name></persName></person><person xml:id="HD027460_4" sex="M"><persName><name type="praenomen">T.</name><name type="nomen">Flavius*</name><name type="cognomen">Renatus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-11-23" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>T</abbr><ex>ita</ex></expan><certainty match="preceding-sibling::node()" locus="value"/> <expan><abbr>Flavia</abbr><ex cert="low"/></expan> <expan><abbr>T</abbr><ex>iti</ex></expan> <expan><abbr>F</abbr><ex>lavi</ex></expan> <expan><abbr>V</abbr><ex>e</ex></expan><lb break="no" n="2"/>geti <expan><abbr>l</abbr><ex>iberta</ex></expan> Pri<supplied reason="lost">m</supplied>a <lb n="3"/><expan><abbr>an</abbr><ex>norum</ex></expan> LV <expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>ita</ex></expan> <expan><abbr>e</abbr><ex>st</ex></expan> <lb n="4"/>Sasulus <expan><abbr>T</abbr><ex>iti</ex></expan> <expan><abbr>F</abbr><ex>lavi</ex></expan> <lb n="5"/><supplied reason="lost">R</supplied>enati <expan><abbr>s</abbr><ex>ervus</ex></expan> <expan><abbr>v</abbr><ex>ivus</ex></expan> <expan><abbr>s</abbr><ex>ibi</ex></expan> <expan><abbr>e</abbr><ex>t</ex></expan> <expan><abbr>s</abbr><ex>uis</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Drei Fragmente einer Inschrifttafel. Blattförmige Hederae als Worttrenner in Zeile 2 u. 4. Frauen mit tria nomina sind aus dem benachbarten östlichen Noricum bekannt. (B): AE 1920; Schober; Hild: Z. 1-2: T[e]lavia Teve/geti l(iberta); Z. 5-6: AE 1920; Schober: Sasulus T(iti) filius [R]enatus v(ivus) f(ecit) s(ibi) et s(uis); Hild: T(iti) f(ilius) / [R]enatus v(ivus) f(ecit) [s(ibi) et s(uis)].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1920, 0068. (B)</bibl><bibl>AE 1966, 0289.</bibl><bibl>G. Alföldy, LF 88, 1965, 269-270, Nr. 7; Zeichnung. - AE 1966.</bibl><bibl>A. Schober, JŒAI 17, 1914, Beiheft, 240-2411; Abb. 201. (B) - AE 1920.</bibl><bibl>F. Hild, Supplementum epigraphicum zu CIL III. Das pannonische Niederösterreich, Burgenland und Wien 1902-1968 (Diss. Wien 1968) 174-175, Nr. 251.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Nescania, aus &amp;ndash; Antequera (Baetica)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD030671</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD030671</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Antequera, Mus. Mun.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">block</objectType><dimensions unit="cm"><height>45</height><width>(48)</width><depth>(26)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.5-5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Baetica</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/265798">Nescania, aus</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0050" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 50 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern" ref="http://www.geonames.org/2521710">Antequera</placeName><placeName type="findspot"/></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD030671_1"><persName><name type="praenomen">M.</name><name type="nomen">Sempronius</name><name type="cognomen">Cant(---)</name></persName></person><person xml:id="HD030671_2"><persName><name type="nomen">Cornelia</name></persName></person><person xml:id="HD030671_3"><persName><name type="nomen">Aemilia</name></persName></person><person xml:id="HD030671_4"><persName><name type="praenomen">M.</name><name type="nomen">Sempronius</name><name type="cognomen">Sisanna</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2007-08-02" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F008920" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/ad8fdfc0-8b2b-4c43-8f6f-94070913768c/file/id/768686/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>M</abbr><ex>arcus</ex></expan> Sempronius <abbr>Cant</abbr> Ne&amp;lt;s&amp;gt;<expan><abbr>c</abbr><ex>aniensis</ex></expan> <lb n="2"/>Cornelia <expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>f</abbr><ex>ilia</ex></expan> Aemilia <expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>f</abbr><ex>ilia</ex></expan> <lb n="3"/><expan><abbr>M</abbr><ex>arcus</ex></expan> Sempronius Sisanna monumentum <lb n="4"/>sibi uxsori <note>sic</note> patri matri vivos <lb n="5"/>aedificandum curavit
+            </ab></div>
+            <div type="commentary">
+                <p>Der linke Teil ist verschollen, jedoch aus älteren Handschriften bekannt. Z. 1: Nach Vorschlag von António Faria ist Cantnec als cognomen zu verstehen (vgl. den Magistratsnamen Cantnip auf Münzen von Alcácer do Sal).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 02 (2. Aufl.) 05, 00851.</bibl><bibl>CIL 02 (2. Aufl.) 05, 00852; Foto.</bibl><bibl>CIL 02, 02051.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Arba &amp;ndash; Rab (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD057993</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD057993</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">statue base</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>94</height><width>58</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197134">Arba</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3192178">Rab</placeName><placeName type="findspot">Ehemaliger torre di S. Stefano, sekundär verwendet</placeName><placeName type="region">Primorsko-goranska županija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD057993_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD057993_2" sex="W"><persName><name type="nomen">Baebia+*</name><name type="cognomen">Callida+</name></persName></person><person xml:id="HD057993_3" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">Quintius</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-10-28" who="Gräf">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <gap reason="lost" extent="unknown" unit="character"/><expan><abbr>I</abbr><ex cert="low"/>I</expan><certainty match="preceding-sibling::node()" locus="value"/><expan><abbr>I</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><expan><abbr>dec</abbr><ex>urioni</ex></expan> <expan><abbr>IIvir</abbr><ex>o</ex></expan> <expan><abbr><supplied reason="lost">ae</supplied>d</abbr><ex>ilicia</ex></expan> <supplied reason="lost">po</supplied><lb break="no" n="3"/><expan><abbr><supplied reason="lost">t</supplied>est</abbr><ex>ate</ex></expan> B<supplied reason="lost">(a)e</supplied>biae <expan><abbr>T</abbr><ex>iti</ex></expan> <supplied reason="lost"><expan><abbr>f</abbr><ex>iliae</ex></expan></supplied> <lb n="4"/><supplied reason="lost">Ca</supplied>llidae <expan><abbr>f</abbr><ex>iliae</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied> Quintius <gap reason="lost" extent="unknown" unit="character"/> <lb n="6"/>heres <expan><abbr>po<supplied reason="lost">s</supplied></abbr><ex>u</ex>it</expan> <lb n="7"/><expan><abbr>l</abbr><ex>ocus</ex></expan> <expan><abbr>d</abbr><ex>atus</ex></expan> <expan><abbr>d</abbr><ex>ecreto</ex></expan> <expan><abbr>d</abbr><ex>ecurionum</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 13293.</bibl><bibl>P. Sticotti, AEM 16, 1893, 43-44, Nr. 3.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

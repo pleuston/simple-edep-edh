@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Castra Regina &amp;ndash; Regensburg (Raetia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD018665</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD018665</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Regensburg, Hist. Mus., Depot</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(88)</height><width>(86)</width><depth>24</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Raetia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118929">Castra Regina</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1812"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2849483">Regensburg</placeName><placeName type="findspot">{ehemaliges Klarissenkloster}, bei, Turm, sekundär verwendet</placeName><placeName type="region">Bayern</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD018665_1" sex="M"><persName><name type="cognomen">Silvinus*</name></persName></person><person xml:id="HD018665_2" sex="M"><persName><name type="cognomen">Stai(---)?</name></persName></person><person xml:id="HD018665_3" sex="W"><persName><name type="nomen">Flavia*</name><name type="cognomen">Lepidina*</name></persName></person><person xml:id="HD018665_4" sex="W"><persName><name type="cognomen">Silvina*</name></persName></person><person xml:id="HD018665_5" sex="W"><persName><name type="nomen">Sulpicia*</name><name type="cognomen">Secundina*</name></persName></person><person xml:id="HD018665_6"><persName><name type="nomen">Aelius+?/Aelia+?</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-10-12" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/><expan><abbr>Silvinu</abbr><ex cert="low">s</ex></expan> <abbr>Stai</abbr><certainty match="preceding-sibling::node()" locus="value"/> <lb n="3"/>Flavi<expan><ex>a</ex><abbr>e</abbr></expan> Lepid<lb break="no" n="4"/>in<expan><ex>a</ex><abbr>e</abbr></expan> et Silvin<expan><ex>a</ex><abbr>e</abbr></expan> <lb n="5"/><expan><abbr>file</abbr><ex>is</ex></expan> <note>sic</note> et Sulpici<expan><ex>a</ex><abbr>e</abbr></expan> <lb n="6"/>Secundin<expan><ex>a</ex><abbr>e</abbr></expan> <lb n="7"/><expan><abbr><supplied reason="lost">c</supplied>o</abbr><ex>n</ex>iugi</expan> et Ae<lb break="no" n="8"/>[li--- ------
+            </ab></div>
+            <div type="commentary">
+                <p>Fundstelle: Ort der spätrömischen porta principalis dextra. Dekor: oberen Abschluß des Inschriftenfelds bilden drei Bögen. Z. 2: Worttrenner zwischen Silvinu und Stai; vielleicht auch Silvinus Tai(---?) zu lesen. Die F in Z. 3 und 5 sind K-förmig, mit schräggestellten, im oberen Fünftel der Vertikalhaste gemeinsam ansetzenden Hasten wiedergegeben, die obere Haste ist dabei weit über die Zeilenhöhe ausgezogen. N in Z. 6 spiegelverkehrt. (B): CIL 03, 05967: Z. 4: &amp;apos;(quae) et Silvina&amp;apos;, in der Transkription Silvine.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IBR 411; tab. 57, 411.</bibl><bibl>CIL 03, 05967. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Salonae, bei &amp;ndash; Solin (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD054213</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD054213</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Split, Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/214">sarcophagus</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>60</height><width>147</width><depth>11</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.5-5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197488">Salonae, bei</placeName></origPlace><origDate><origDate notBefore-custom="0431" notAfter-custom="0432" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">431 AD - 432 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1889"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3186233">Solin</placeName><placeName type="findspot">Vranjic, bei, Čućine kuće, bei, {Crikvine, Nekropole}</placeName><placeName type="region">Splitsko-dalmatinska županija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD054213_1" sex="M"><persName><name type="nomen">Flavius+*</name><name type="cognomen">[---]erus</name></persName></person><person xml:id="HD054213_2" sex="M"><persName><name type="cognomen">Bassus+</name></persName></person><person xml:id="HD054213_3" sex="M"><persName><name type="cognomen">Antiochus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-05-13" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Hic requiesci&amp;lt;t i&amp;gt;n pace <supplied reason="lost"><expan><abbr>Fl</abbr><ex>avius</ex></expan></supplied><gap reason="lost" extent="unknown" unit="character"/>erus <lb n="2"/><expan><abbr>v</abbr><ex>ir</ex></expan> <expan><abbr>c</abbr><ex>larissimus</ex></expan> <expan><abbr>prim</abbr><ex>icerus</ex></expan> <expan><abbr>scrin</abbr><ex>ii</ex></expan> tabulari<supplied reason="lost" cert="low">or(um) Me</supplied><expan><abbr>diol</abbr><ex cert="low">ani</ex></expan> <lb n="3"/>vixi<supplied reason="lost">t plu</supplied>s <expan><abbr>m</abbr><ex>inus</ex></expan> <supplied reason="lost"><expan><abbr>a</abbr><ex>nnos</ex></expan></supplied> XLV <expan><abbr>depos</abbr><ex>itus</ex></expan> <supplied reason="lost">su</supplied>b <expan><abbr>d</abbr><ex>ie</ex></expan> VII <lb n="4"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>p</abbr><ex>ost</ex></expan>? <expan><abbr>c</abbr><ex>onsulatum</ex></expan>? B</supplied>assi et An<supplied reason="lost">ti</supplied>ochi
+            </ab></div>
+            <div type="commentary">
+                <p>Fünf Fragmente von der Vorderseite eines Sarkophagkastens, davon vier aneinanderpassend. Z. 1: spatium nach REQVIES; Buchstabe E in PACE war bei der Auffindung offenbar noch vorhanden. Z. 4: möglicherweise auch [--- cons(ulatu) B]assi zu ergänzen. (B): Bulić; AE 1890; CIL III 9517; ILCV: Abweichungen in Lesung / Ergänzung.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1890, 0020. (B)</bibl><bibl>CIL 03, 09517. (B)</bibl><bibl>CIL 03, 12858.</bibl><bibl>ILCV 0122. (B)</bibl><bibl>ILS 9044.</bibl><bibl>F. Bulić, BAHD 12, 1889, 161-162. (B) - AE 1890.</bibl><bibl>E. Marin u. a., Salona 4. Inscriptions de Salone chrétienne, IVe-VIIe siècles (Rome - Split 2010) 456-458, Nr. 196; Foto.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

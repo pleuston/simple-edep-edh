@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Public legal inscription from Lauriacum &amp;ndash; Enns (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD045052</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD045052</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Linz, Oberösterreich. Landesmus., Schloßmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material><dimensions unit="cm"><depth>0</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">1</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118802">Lauriacum</placeName></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0130" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 130 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1953"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2780048">Enns</placeName><placeName type="findspot">Zivilstadt, {sogenanntes Forum venale}, südlich</placeName><placeName type="region">Oberösterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/5">public legal inscription</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-06-06" who="Feraudi">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                ------ item m]ult<supplied reason="lost">am dicendi damnum dandi eiusdem dumtaxat in homines diesque singulos HS V nummos ius potestatemqu</supplied><expan><abbr>e</abbr><ex cert="low"/></expan> ha[bento ------
+            </ab></div>
+            <div type="commentary">
+                <p>Mögliche Zugehörigkeit zur Lex Lauriacensis kontrovers diskutiert: Graßl dafür; Wedenig reserviert. (B): Z. 2: Graßl (unter Berufung auf Weber): [---]e ha[---]; Wedenig: [---]t(?) h(?)a[---]. Rekonstruktionsvorschlag in Anlehnung an die Lex Irnitana.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2003, 1322.</bibl><bibl>R. Wedenig, Epigraphische Quellen zur städtischen Administration in Noricum (Klagenfurt 1997) 185, Nr. L 2 (Frg. V). - AE 2003.</bibl><bibl>H. Graßl, RŒ 26, 2003, 8-9; Abb. 1 (Zeichnung). - AE 2003.</bibl><bibl>H. Graßl, Tyche 18, 2003, 2-3; Zeichnung. - AE 2003.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Mogontiacum &amp;ndash; Mainz (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD056246</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD056246</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mainz, Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(128)</height><width>75</width><depth>13</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">8-4.1</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109169">Mogontiacum</placeName></origPlace><origDate><origDate notBefore-custom="0070" notAfter-custom="0089" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">70 AD - 89 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2874225">Mainz</placeName><placeName type="findspot">{Kaiserstraße 39}?</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD056246_1" sex="M"><persName><name type="cognomen">Annauso</name></persName></person><person xml:id="HD056246_2" sex="M"><persName><name type="cognomen">Sedavo</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-11-03" who="Esch">checked through autopsy</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F014644" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/d3713abe-671e-40be-93c7-e578becf7a0d/file/id/774178/file_version/name/small"/><graphic xml:id="F014645" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/3deccda8-1fe0-4205-a474-d85675136235/file/id/774179/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Annauso Seda<lb break="no" n="2"/>vonis <expan><abbr>f</abbr><ex>ilius</ex></expan> cives <note>sic</note> <lb n="3"/>Betasiu<supplied reason="lost">s <expan><abbr>eq</abbr><ex>ues</ex></expan> <expan><abbr>al</abbr><ex>ae</ex></expan></supplied> <lb n="4"/>II Flavia<supplied reason="lost">e</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Autopsie R. Wiegels. (B): Selzer: Z. 3/4: Betasius eq(ues) al(ae) / II Flaviae (geminae) h(ic) s(itus) e(st).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 07025.</bibl><bibl>É. Espérandieu, Recueil général des bas-reliefs, statues et bustes de la Gaule romaine 7 (Paris 1918) 307-309, Nr. 5785; Foto.</bibl><bibl>K. Körber, MZ 11, 1916, 76-77, Nr. 25.</bibl><bibl>W. Boppert, Militärische Grabdenkmäler aus Mainz und Umgebung, CSIR Deutschland 2, 5 (Mainz 1992) 139-141, Nr. 34; Tafel 32.</bibl><bibl>W. Selzer, Römische Steindenkmäler. Mainz in römischer Zeit. Katalog zur Sammlung in der Steinhalle (Mainz 1988) 156, Nr. 86; Foto. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

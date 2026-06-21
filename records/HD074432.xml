@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Poetovio &amp;ndash; Ptuj (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD074432</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD074432</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Ptuj, Stadtturm, vermauert</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">altar?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(128)</height><width>(108)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197446">Poetovio</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3190538">Slovenia</placeName><placeName type="modern" ref="http://www.geonames.org/3192241">Ptuj</placeName><placeName type="findspot">{S. Jurija, Pfarrkirche}, Friedhof</placeName><placeName type="region">Podravska statistična regija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD074432_1" sex="M"><persName><name type="praenomen">C.+</name><name type="nomen">Caesius</name><name type="cognomen">Ingenuus</name></persName></person><person xml:id="HD074432_2" sex="W"><persName><name type="nomen">Ulpia</name><name type="cognomen">Adiuta</name></persName></person><person xml:id="HD074432_3" sex="W"><persName><name type="nomen">Caesia</name><name type="cognomen">Ingenua+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-01-25" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F009058" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/e81c390b-9a68-4ff8-9b68-611b7ca3a135/file/id/768824/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>C</abbr><ex>aius</ex></expan></supplied> Caesius <lb n="2"/><expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> Papiria <lb n="3"/>Ingenuus <lb n="4"/>Poetovione <lb n="5"/><expan><abbr>v</abbr><ex>ivus</ex></expan> <expan><abbr>f</abbr><ex>ecit</ex></expan> sibi et <lb n="6"/>Ulpiae Adiutae <lb n="7"/>coniugi et <lb n="8"/>Caesiae <lb n="9"/>In<supplied reason="lost">genuae <expan><abbr>f</abbr><ex>iliae</ex></expan></supplied> <lb n="10"/><supplied reason="lost">et <expan><abbr>lib</abbr><ex>ertis</ex></expan></supplied> <expan><abbr>lib</abbr><ex>ertabusque</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Inschriftträger: wohl fragmentarisch erhaltener Mittelteil eines Altars. Aufbewahrung, Material und Maße nach lupa 4258. Oberfläche des Inschriftfeldes teilweise stark beschädigt. Z. 1 (Anfang): C zur Zeit der Edition des CIL noch lesbar. Z. 9: INGENVAE zur Zeit der Edition des CIL noch vollständig lesbar.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 04071.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

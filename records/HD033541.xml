@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Cirta &amp;ndash; Constantine (Numidia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD033541</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD033541</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Numidia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/682538">Cirta</placeName></origPlace><origDate><origDate notBefore-custom="0247" notAfter-custom="0248" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">247 AD - 248 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2589581">Algeria</placeName><placeName type="modern" ref="http://www.geonames.org/2501152">Constantine</placeName><placeName type="findspot"/></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD033541_1"><persName><name type="praenomen">M.</name><name type="nomen">Aurelius+</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD033541_2"><persName><name type="nomen">Volumnia</name><name type="cognomen">Modestina+</name></persName></person><person xml:id="HD033541_3"><persName><name type="praenomen">P.</name><name type="nomen">Porcius</name><name type="cognomen">Rufus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2001-11-07" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Totius <supplied reason="lost">bonitatis<certainty locus="name" match="preceding-sibling::text()" cert="low"/> viro<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="2"/><expan><abbr>M</abbr><ex>arco</ex></expan> Aureli<supplied reason="lost">o <gap reason="lost" extent="unknown" unit="character"/> tri</supplied><lb break="no" n="3"/>buno la<supplied reason="lost"><expan><abbr>t</abbr><ex>iclavio</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> sevir</supplied>o <supplied reason="lost"><expan><abbr>turmar</abbr><ex>um</ex></expan></supplied> <lb n="4"/>equitum <supplied reason="lost">Romanorum aug</supplied>u<supplied reason="lost">r</supplied>i <supplied reason="lost"><expan><abbr>quaest</abbr><ex>ori</ex></expan></supplied> <lb n="5"/><expan><abbr>provinc</abbr><ex>iae</ex></expan> <supplied reason="lost"><expan><abbr>Hisp</abbr><ex>aniae</ex></expan></supplied> ul<supplied reason="lost"><expan><abbr>t</abbr><ex>erioris</ex></expan> Ba</supplied>e<supplied reason="lost"><expan><abbr>t</abbr><ex>icae</ex></expan> pr</supplied><expan><abbr>a<supplied reason="lost">e</supplied>f</abbr><ex>ecto</ex></expan> <supplied reason="lost">feria</supplied><lb break="no" n="6"/>rum in s<supplied reason="lost">acra</supplied> urb<supplied reason="lost">e</supplied> I<gap reason="lost" extent="unknown" unit="character"/> <lb n="7"/>legato provinciae <supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> curatori via</supplied><lb break="no" n="8"/>rum Salariae <supplied reason="lost" cert="low">P</supplied>o<supplied reason="lost" cert="low">rtuensis</supplied><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">iuridico per</supplied> <lb n="9"/>Liguriam legato leg<supplied reason="lost">i</supplied>o<supplied reason="lost">nis <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="10"/>Volumniae Modes<supplied reason="lost">tinae <expan><abbr>c</abbr><ex>larissimae</ex></expan> <expan><abbr>f</abbr><ex>eminae</ex></expan> coniugi eius et</supplied> <lb n="11"/><expan><abbr>cc</abbr><ex>larissimis</ex></expan> <expan><abbr>pp</abbr><ex>ueris</ex></expan> filiis eorum <gap reason="lost" extent="unknown" unit="character"/> <lb n="12"/><expan><abbr>P</abbr><ex>ublius</ex></expan> Porcius Rufus <expan><abbr>eq</abbr><ex>uo</ex></expan> <supplied reason="lost"><expan><abbr>p</abbr><ex>ublico</ex></expan> ornatus</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Datierung: nicht vor 247/248 n. Chr., als M. Aurelius Cominius Cassianus, der hier geehrt worden sein muß (vgl. AE 1917/18, 75), Statthalter von Numidien war.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>B.E. Thomasson, Fasti Africani. Senatorische und ritterliche Amtsträger in den römischen Provinzen Nordafrikas von Augustus bis Diokletian (Stockholm 1996) 186, Nr. 66c.</bibl><bibl>CIL 08, 07033.</bibl><bibl>PIR (2. Aufl.) C 1265.</bibl><bibl>ILAlg 2, 0617.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

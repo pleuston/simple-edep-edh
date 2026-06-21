@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Municipium Claudium Virunum, bei &amp;ndash; Frojach-Katsch (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD039109</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD039109</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Graz, Landesmus. Joanneum, Lapidarium Schloß Eggenberg</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(39)</height><width>(50)</width><depth>7</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.0-3.2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197583">Municipium Claudium Virunum, bei</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1926"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2774628">Frojach-Katsch</placeName><placeName type="findspot">Katsch, {Nekropole}, Grab VII</placeName><placeName type="region">Steiermark</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD039109_1" sex="M"><persName><name type="cognomen">Vitalis</name></persName></person><person xml:id="HD039109_2" sex="M"><persName><name type="cognomen">Ursinus</name></persName></person><person xml:id="HD039109_3" sex="W"><persName><name type="cognomen">Pinitu</name></persName></person><person xml:id="HD039109_4" sex="W"><persName><name type="cognomen">Satulla</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-01-29" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Vi&amp;lt;t=I&amp;gt;ali Ur<lb break="no" n="2"/>sini Pinitu <lb n="3"/>Satullaes <note>sic</note> <expan><abbr>l</abbr><ex>iberta</ex></expan> <lb n="4"/><expan><abbr>mar</abbr><ex>ito</ex></expan> <expan><abbr>opt</abbr><ex>imo</ex></expan> et sibi <expan><abbr>f</abbr><ex>ecit</ex></expan> 
+            </ab></div>
+            <div type="commentary">
+                <p>Fundjahr: 1926/27. Gefunden vor der Südseite des Grabbaus VII. Z. 1: II- statt IT-Ligatur. Z. 4: Buchstabe A ohne Querhaste. (B): Schmid, ILLPRON, Weber, Modrijan - Weber, Kremer: Z. 1: Vitali.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1930, p. 25 s. n. 81.</bibl><bibl>W. Schmid, JŒAI (Beibl.) 25, 1929, 122; Abb. 61. (B) - AE 1930.</bibl><bibl>ILLPRON 1247. (B)</bibl><bibl>E. Weber, Die römerzeitlichen Inschriften der Steiermark (Graz 1969) 308-309, Nr. 251; Foto. (B)</bibl><bibl>W. Modrijan - E. Weber, SchildStei 14, 1979-1981, 16-17, Nr. 248; Foto. (B)</bibl><bibl>G. Kremer, Antike Grabbauten in Noricum (Wien 2001) 296. 299, Nr. III 16a; Taf. 30, III 16a. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

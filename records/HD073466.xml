@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Carnuntum &amp;ndash; Bad Deutsch-Altenburg (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD073466</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD073466</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Hainburg/Donau, Kulturfabrik, Arch. Zentraldepot</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(178)</height><width>76</width><depth>22</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">9.5-8.0</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/128376">Carnuntum</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0050" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 50 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1909"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2782068">Bad Deutsch-Altenburg</placeName><placeName type="findspot">{Legionslager}, sekundär verwendet</placeName><placeName type="region">Niederösterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD073466_1" sex="M"><persName><name type="nomen">F(---)</name><name type="cognomen">Iuventius*</name></persName></person><person xml:id="HD073466_2"><persName><name type="cognomen">Iuma</name></persName></person><person xml:id="HD073466_3" sex="M"><persName><name type="nomen">F(---)</name><name type="cognomen">Cosius</name></persName></person><person xml:id="HD073466_4" sex="M"><persName><name type="nomen">F(---)</name><name type="cognomen">Vitalis</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-11-18" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F019468" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/e7b45459-a23f-4c63-b917-0dd684ea42de/file/id/779540/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <abbr>F</abbr> Iu<expan><ex>v</ex><abbr>entius</abbr></expan> <lb n="2"/><expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>an</abbr><ex>norum</ex></expan> XXXX <lb n="3"/><expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>itus</ex></expan> <expan><abbr>e</abbr><ex>st</ex></expan> <lb n="4"/>Iuma <expan><abbr>l</abbr><ex>ibert--</ex></expan> et <lb n="5"/><abbr>F</abbr> Cosius <lb n="6"/><abbr>F</abbr> Vitalis <lb n="7"/>hered<expan><ex>e</ex><abbr>s</abbr></expan> <lb n="8"/><expan><abbr>pos</abbr><ex>uerunt</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Die Stele wurde sekundär für den Kanalbau im Lager verwendet und daher unterhalb des Inschriftfeldes abgesägt. Durch die stilistisch bedingte frühe Datierung der Grabstele ist eine Auflösung der mit F abgekürzten Gentilizien, was seit dem 3. Jahrhundert verbreitet für F(lavius) steht, nicht eindeutig.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>F. Hild, Supplementum epigraphicum zu CIL III. Das pannonische Niederösterreich, Burgenland und Wien 1902-1968 (Diss. Wien 1968) 125-126, Nr. 185.</bibl><bibl>M.-L. Krüger, Die Reliefs des Stadtgebietes von Carnuntum 2. Die dekorativen Reliefs, CSIR Österreich 1, 4 (Wien 1972) 48-49, Nr. 546; Taf. 48, 546.</bibl><bibl>E. Vorbeck, Militärinschriften aus Carnuntum (2. Aufl. Wien 1980) 29, Nr. 110.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

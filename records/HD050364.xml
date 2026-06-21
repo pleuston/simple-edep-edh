@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Narona &amp;ndash; Metković (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD050364</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD050364</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Metković, Vid, Erešova kula, Turm, Annex</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material>Gesteine</material><dimensions unit="cm"><height>(69)</height><width>39</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.2-1.7</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197400">Narona</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0050" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 50 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3187815">Metković</placeName><placeName type="findspot">Vid, {Erešova kula}, mittlerer Annexbau, sekundär verwendet</placeName><placeName type="region">Dubrovačko-neretvanska županija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD050364_1" sex="W"><persName><name type="nomen">[---]</name><name type="cognomen">Fortunata+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-03-16" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="0"/>
+                [<gap reason="lost" quantity="1" unit="line"/>] <lb n="1"/><expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>l</abbr><ex>iberta</ex></expan> Fortu<supplied reason="lost">nata</supplied> <lb n="2"/><expan><abbr>an</abbr><ex>norum</ex></expan> <expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>ita</ex></expan> <expan><abbr>e</abbr><ex>st</ex></expan> XIIX <lb n="3"/>si pietas prodest <lb n="4"/>&amp;lt;c=Q&amp;gt;uiquam vixisse <lb n="5"/>modeste vos precor <lb n="6"/>o Mane<supplied reason="lost">s sit</supplied> mihi <lb n="7"/>terra lev<supplied reason="lost">i</supplied>s <lb n="8"/>libertas <supplied reason="lost">cui</supplied> olim fuerat <lb n="9"/>promissa e<supplied reason="lost">s</supplied>t ante ditis sub <lb n="10"/>fatum venit <supplied reason="lost">i</supplied>n arbitrium <lb n="11"/>vivite felices quibu<supplied reason="lost">s</supplied> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> est Fortuna superste<supplied reason="lost">s</supplied> <lb n="2"/>spenque <note>sic</note> meam oppress<supplied reason="lost">i</supplied>t <lb n="3"/>fatus in Hiluricum <note>sic</note> 
+            </ab></div></div>
+            <div type="commentary">
+                <p>Buchstaben sekundär, teilweise (bes. Z. 6) fehlerhaft, nachgemeißelt. Textwiedergabe nach E. Marin u.a. und ohne die nachträglichen Fehler. (B): CIL, CLE: abweichende Lesungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1999, 1221.</bibl><bibl>E. Marin - M. Mayer - G. Paci - I. Rodà, Corpus Inscriptionum Naronitanarum 1 (Tivoli 1999) 188-191, Nr. 27; fig. 27. - AE 1999.</bibl><bibl>CIL 03, 01854. (B)</bibl><bibl>CLE 1117. (B)</bibl><bibl>CIL 03, 01854 add. p. 1494.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription? from Aventicum (Civitas Helvetiorum) &amp;ndash; Avenches (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD079512</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD079512</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Avenches</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">instrumentum sacrum?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/131">Ton</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/177495">Aventicum (Civitas Helvetiorum)</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-2016"><placeName type="country" ref="https://www.geonames.org/2658434">Switzerland</placeName><placeName type="modern" ref="http://www.geonames.org/2661661">Avenches</placeName><placeName type="findspot"/><placeName type="region">Canton de Vaud</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription?</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD079512_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">Tigumnius?</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD079512_2" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">Solinus+?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-03-22" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <abbr>Tesser</abbr><certainty match="preceding-sibling::node()" locus="value"/> <lb n="2"/>F <lb n="3"/>Marti </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <gap reason="lost" extent="unknown" unit="character"/>M <expan><abbr>Tigumnius</abbr><ex cert="low"/></expan> </ab></div><div n="3" type="textpart"><ab><lb n="1"/> <gap reason="lost" extent="unknown" unit="character"/> Solinu<supplied reason="lost">s<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <gap reason="lost" extent="unknown" unit="character"/></supplied> </ab></div><div n="4" type="textpart"><ab><lb n="1"/> <gap reason="lost" extent="unknown" unit="character"/>ERI AL<gap reason="lost" extent="unknown" unit="character"/> </ab></div><div n="5" type="textpart"><ab><lb n="1"/> <gap reason="lost" extent="unknown" unit="character"/> Marti <gap reason="lost" extent="unknown" unit="character"/><certainty match="preceding-sibling::node()" locus="value"/>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Mehrere, nicht aneinanderpassende Scherben einer Schüssel (Typ Drack 21); Terra-Sigillata-Imitat. Auf den Scherben a-b noch nicht mehr lesbare Buchstabenreste. Schreibtechnik: geritzt. Text 1: auch TESSIR möglich. E mit zwei senkrechten Hasten wiedergegeben. Text 2: auch AR TILVMNIVS; ARTI GVMNIVS vel LVMNIVS oder TIGVRNIVS möglich. Text 3: auch Soliniu[s] möglich. Links neben dem S noch Reste eines nicht näher identifizierbaren Buchstaben.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>J. Bartels - N. Hächler - M. Aberson - R. Frei-Stolba - A. Kolb, MH 74, 2017, 92-93, Nr. 11-16.</bibl><bibl>R. Sylvestre - R. Marquis - I. Montani - E. Sapin, in: M. Scholz - M. Horster (Hrsg.), Lesen und Schreiben in den römischen Provinzen. Schriftliche Kommunikation im Alltagsleben (Mainz 2015) 189-191.194-199; fig. 4. 5. 7. 10. 13. 16-18 (Fotos u. Zeichnungen).</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

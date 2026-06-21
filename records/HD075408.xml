@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Mogontiacum &amp;ndash; Mainz (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD075408</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD075408</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mannheim, Reiss-Engelhorn-Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>172</height><width>61</width><depth>22</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6.0-4.4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109169">Mogontiacum</placeName></origPlace><origDate><origDate notBefore-custom="0013" notAfter-custom="0043" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">13 AD - 43 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1731"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2874225">Mainz</placeName><placeName type="findspot">{ehemaliges Kloster Dalheim, nordöstlich}, Nekropole</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD075408_1" sex="M"><persName><name type="praenomen">Sex.</name><name type="nomen">Naevius</name></persName></person><person xml:id="HD075408_2" sex="M"><persName><name type="praenomen">T.</name><name type="nomen">Licinius*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-02-24" who="Osnabrügge">checked through autopsy</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F004717" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/493620fd-e5f1-44bc-aede-f2c6e6aa6484/file/id/765472/file_version/name/small"/><graphic xml:id="F026002" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/32b906b5-11be-47c0-91ee-64a297053124/file/id/786754/file_version/name/small"/><graphic xml:id="F022975" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/9c8de333-6dee-4428-891e-b01dfa4d970a/file/id/783141/file_version/name/small"/><graphic xml:id="F038513" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/88b2d7c2-0522-4b56-a55d-b84037f3a8de/file/id/799385/file_version/name/small"/><graphic xml:id="F038514" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/522aa6a0-bbc1-4d43-a714-5192389b1c1b/file/id/799386/file_version/name/small"/><graphic xml:id="F038515" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/f2e88497-ae79-4af3-84f5-479d7f1a7e4a/file/id/799387/file_version/name/small"/><graphic xml:id="F023927" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/26652767-0cbb-473b-b488-f2ceec1da698/file/id/784587/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Sex</abbr><ex>tus</ex></expan> Naevius <lb n="2"/><expan><abbr>Sex</abbr><ex>ti</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>Trom</abbr><ex>entina</ex></expan> <lb n="3"/>Aquis miles <lb n="4"/><expan><abbr>leg</abbr><ex>ionis</ex></expan> XIIII <expan><abbr>gem</abbr><ex>i</ex></expan><lb break="no" n="5"/>nae <expan><abbr>n<am>n</am></abbr><ex>orum</ex></expan> XXXV <lb n="6"/>stip<expan><ex>e</ex><abbr>ndia</abbr></expan> XI <lb n="7"/><expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>itus</ex></expan> <expan><abbr>e</abbr><ex>st</ex></expan> <lb n="8"/><expan><abbr>T</abbr><ex>itus</ex></expan> Lic<expan><ex>i</ex><abbr>nius</abbr></expan> exs <note>sic</note> <lb n="9"/>testam<expan><ex>e</ex><abbr>nti</abbr></expan> fo<lb break="no" n="10"/>rmula pos<expan><ex>u</ex><abbr>it</abbr></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Aediculastele mit Giebelabschluss. (B): CIL 13, 06903: Z. 8: Licinius.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 06903. (B)</bibl><bibl>W. Brambach, Corpus inscriptionum Rhenanarum (Elberfeld 1867) 223, Nr. 1185.</bibl><bibl>F. Haug, Die römischen Denksteine des Grossherzoglichen Antiquariums in Mannheim (Konstanz 1877) 38-39, Nr. 46.</bibl><bibl>W. Boppert, Militärische Grabdenkmäler aus Mainz und Umgebung, CSIR Deutschland 2, 5 (Mainz 1992) 175-176, Nr. 60; Tafel 56, 60.</bibl><bibl>K. Matijević, MZ 106/107, 2011/12, 330; Abb. 2 (Zeichnung).</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

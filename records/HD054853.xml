@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Mogontiacum &amp;ndash; Mainz (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD054853</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD054853</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mainz, Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>75</height><width>39</width><depth>26</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.0</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109169">Mogontiacum</placeName></origPlace><origDate><origDate notBefore-custom="0193" notAfter-custom="0235" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">193 AD - 235 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1858"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2874225">Mainz</placeName><placeName type="findspot">Kästrich, {Bastion Martin 4/6}, römische Stadtmauer, sekundär verwendet?</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2018-01-04" who="Esch">checked through autopsy</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F014870" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/3e484cd5-6b10-4327-8de1-c506e863d50c/file/id/774405/file_version/name/small"/><graphic xml:id="F014872" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/7e9a1e84-60b9-4b0a-87cd-62cf1c47abfd/file/id/774407/file_version/name/small"/><graphic xml:id="F014871" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/d3bc999e-418e-4c13-af9c-29323452ad60/file/id/774406/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Genio sanc<lb break="no" n="2"/><supplied reason="lost">t</supplied>o |(centuriae) <gap reason="lost" extent="unknown" unit="character"/>I<supplied reason="lost" cert="low">-</supplied> <lb n="3"/>NI <expan><abbr>DI</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/>M <lb n="4"/><expan><abbr>I</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/>CI<gap reason="lost" extent="unknown" unit="character"/> <lb n="6"/>TIV<gap reason="lost" extent="unknown" unit="character"/><expan><abbr>O</abbr><ex cert="low"/></expan> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Autopsie R. Wiegels. Oberfläche des Inschriftfeldes stark verwittert; Inschrift schwer lesbar. Z. 7-9: möglicherweise noch Reste von nicht mehr eindeutig identifizierbaren Buchstaben vorhanden.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 06692.</bibl><bibl>É. Espérandieu, Recueil général des bas-reliefs, statues et bustes de la Gaule romaine 7 (Paris 1918) 298, Nr. 5767; Zeichnung.</bibl><bibl>H.G. Frenz, Denkmäler römischen Götterkultes aus Mainz und Umgebung, CSIR Deutschland 2, 4 (Mainz 1992) 80-81, Nr. 37; Tafel 34.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

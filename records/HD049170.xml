@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription? from Philomelion, bei &amp;ndash; Sarayköy (Asia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD049170</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD049170</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Asia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/609501">Philomelion, bei</placeName></origPlace><origDate><origDate when-custom="0209" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">209 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/298795">Turkey</placeName><placeName type="modern">Sarayköy</placeName><placeName type="findspot"/></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription?</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2010-03-05" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                In <expan><abbr>h</abbr><ex>onorem</ex></expan> <expan><abbr>d<am>d</am></abbr><ex>ominorum</ex></expan> <expan><abbr>Impp</abbr><ex>eratorum</ex></expan><certainty match="preceding-sibling::node()" locus="value"/> Severi et Anton[ini et <del rend="erasure">Ge</del>]<lb break="no" n="2"/><del rend="erasure">[tae</del>] Caesaris <expan><abbr>Aug<am>g</am></abbr><ex>ustorum</ex></expan> <expan><abbr>n<am>nn</am></abbr><ex>ostrorum</ex></expan> Maxi<supplied reason="lost">mius Atti</supplied><lb break="no" n="3"/>anus <expan><abbr>q</abbr><ex>uaestor</ex></expan> <expan><abbr>pr</abbr><ex>o</ex></expan> <expan><abbr>pr</abbr><ex>aetore</ex></expan> missus <supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> a Sem</supplied><lb break="no" n="4"/>pronio Senecione <supplied reason="lost">proconsule</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/>determin<gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1997, 1448.</bibl><bibl>AE 1998, 1361.</bibl><bibl>AE 1998, 1362.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Carnuntum &amp;ndash; Bad Deutsch-Altenburg (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD073966</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD073966</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Hainburg/Donau, Kulturfabrik, Arch. Zentraldepot</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(42)</height><width>(33)</width><depth>11</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/128376">Carnuntum</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0170" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 170 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1850"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2782068">Bad Deutsch-Altenburg</placeName><placeName type="findspot"/><placeName type="region">Niederösterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD073966_1"><persName><name type="praenomen">[-]?</name><name type="nomen">Quin[---]?</name><name type="cognomen">Quin[---]?</name></persName></person><person xml:id="HD073966_2" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]nus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-05-11" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F019072" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/b9cb1f64-3994-4cc1-bd23-097498f05262/file/id/779144/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> Quin<lb break="no" n="2"/><gap reason="lost" extent="unknown" unit="character"/>III <expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>iti</ex></expan> <expan><abbr>s</abbr><ex>unt</ex></expan> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>ni <expan><abbr>f</abbr><ex>ili</ex></expan> eius
+            </ab></div>
+            <div type="commentary">
+                <p>Z. 3: NI-Ligatur. (B): Z. 1: Vorbeck; CIL 03, 11262: &amp;apos;Aquin&amp;apos;.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 11262. (B)</bibl><bibl>J.W. Kubitschek, AEM 15, 1892, 203, Nr. 4; Zeichnung.</bibl><bibl>E. Vorbeck, Zivilinschriften aus Carnuntum (Wien 1980) 49, Nr. 195. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

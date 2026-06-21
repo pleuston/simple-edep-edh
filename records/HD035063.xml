@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Salonae, bei &amp;ndash; Solin (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD035063</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD035063</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Split, Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>51</height><width>31</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197488">Salonae, bei</placeName></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3190359">Solin</placeName><placeName type="findspot">{Kapljuč}</placeName><placeName type="region">Splitsko-dalmatinska županija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD035063_1" sex="W"><persName><name type="nomen">Titia</name><name type="cognomen">Moschis</name></persName></person><person xml:id="HD035063_2" sex="M"><persName><name type="praenomen">T.?</name><name type="nomen">Horesius?</name><name type="cognomen">Saturninus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-03-19" who="Gräf">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/>Titiae Moschi <lb n="3"/><expan><abbr>carissi</abbr><ex>mae</ex></expan> femin<expan><ex>a</ex><abbr>e</abbr></expan> <lb n="4"/>qui <note>sic</note> vixit <expan><abbr>an</abbr><ex>nos</ex></expan> XXX<lb break="no" n="5"/><expan><abbr>VIII</abbr><ex cert="low"/></expan> <expan><abbr>T</abbr><ex>itus</ex></expan><certainty match="preceding-sibling::node()" locus="value"/> <expan><abbr>Horesius</abbr><ex cert="low"/></expan> <lb n="6"/>Saturninus <lb n="7"/>coniugi incon<lb break="no" n="8"/>parabili <note>sic</note> <expan><abbr>b</abbr><ex>ene</ex></expan> <expan><abbr>m</abbr><ex>erenti</ex></expan> <lb n="9"/><expan><abbr>p</abbr><ex>osuit</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Z. 2 (Ende): Buchstabe I auf dem Rahmen des Inschriftfeldes. (B): Brøndsted: Z. 1: Mosc(h)i; Egger: Z. 1: Mosci[d]i; Brøndsted: Z. 5: VIII I. Hor(t)e(n)sius; Egger: Z. 5: VIII Thoresius; ILJug: Z. 5: VIII T. Horesius (im Kommentar: VIIII).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILJug 2629.</bibl><bibl>J. Brøndsted, in: Recherches à Salone 1 (Copenhague 1928) 166, Nr. 33; fig. 130. (B)</bibl><bibl>R. Egger, BAHD 50, 1928/29, 17-18, Nr. 33. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

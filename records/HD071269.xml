@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription? from Cramond (Britannia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD071269</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD071269</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">altar?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>91</height><width>45</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Britannia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/89153"/></origPlace><origDate><origDate notBefore-custom="0142" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">142 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1786"><placeName type="country" ref="https://www.geonames.org/2635167">United Kingdom</placeName><placeName type="modern" ref="http://www.geonames.org/2652094">Cramond</placeName><placeName type="findspot"/><placeName type="region">Edinburgh</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription?</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD071269_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Publius</name><name type="cognomen">Cr[---]</name></persName></person><person xml:id="HD071269_2"><persName><name type="cognomen">Pomponian[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-12-01" who="Cowey">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>G</abbr><ex>aius</ex></expan> Publius Cr<gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <abbr>in</abbr> Pomponian<gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> p<supplied reason="lost">r</supplied><expan><abbr>a<supplied reason="lost">e</supplied>f</abbr><ex>ectus</ex></expan> <expan><abbr>p</abbr><ex>osuit</ex></expan> <expan><abbr>d</abbr><ex>edit</ex></expan> <expan><abbr>d</abbr><ex>edicavit</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>RIB gibt die Maße umgekehrt an.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 07, 01087.</bibl><bibl>RIB 2136.</bibl><bibl>L.J.F. Keppie - B.J. Arnold, Scotland, CSIR Great Britain 1, 4 (Oxford 1984) 23, Nr. 63.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

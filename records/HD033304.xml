@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Sitifis &amp;ndash; Sétif (Mauretania Caesariensis)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD033304</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD033304</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><dimensions unit="cm"><height>(60)</height><width>34</width><depth>34</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.5-2.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Mauretania Caesariensis</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/305153">Sitifis</placeName></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0204" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 204 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2589581">Algeria</placeName><placeName type="modern" ref="http://www.geonames.org/2481700">Sétif</placeName><placeName type="findspot"/><placeName type="region">Sétif</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD033304_1"><persName ref="https://www.wikidata.org/wiki/Q1442"><name type="cognomen">Severus</name></persName></person><person xml:id="HD033304_2"><persName ref="https://www.wikidata.org/wiki/Q1446"><name type="cognomen">Antoninus</name></persName></person><person xml:id="HD033304_3"><persName ref="https://www.wikidata.org/wiki/Q183089"><name type="cognomen">Geta</name></persName></person><person xml:id="HD033304_4"><persName><name type="praenomen">P.</name><name type="nomen">Aelius</name><name type="cognomen">Peregrinus</name></persName></person><person xml:id="HD033304_5" sex="M"><persName><name type="nomen">Messius</name><name type="cognomen">Priscus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2010-10-14" who="Platz">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                ------<certainty match="preceding-sibling::node()" locus="value"/>] <lb n="2"/>pro salute <lb n="3"/>Auggg<del rend="erasure"><expan><abbr>g</abbr><ex>ustorum</ex></expan></del> do<lb break="no" n="4"/><expan><abbr>minor</abbr><ex>um</ex></expan> nn<del rend="erasure"><expan><abbr>n</abbr><ex>ostrorum</ex></expan></del> <lb n="5"/><expan><abbr>Impp</abbr><ex>eratorum</ex></expan> Severi <lb n="6"/>et Antoni<lb break="no" n="7"/>ni et <del rend="erasure">Getae</del> <lb n="8"/><del rend="erasure">nobilissi</del><lb break="no" n="9"/><del rend="erasure">mi Caesaris</del> <lb n="10"/>et <expan><abbr>P</abbr><ex>ubli</ex></expan> Aeli Peregrini<surplus>ni</surplus> prae<lb break="no" n="11"/>sidis <expan><abbr>n</abbr><ex>ostri</ex></expan> Messius Priscus <lb n="12"/>be<expan><ex>ne</ex><abbr>f</abbr><ex>iciarius</ex></expan> ex voto aram <lb n="13"/>restituit
+            </ab></div>
+            <div type="commentary">
+                <p>Datierung: um 201-203/204 n. Chr., als P. Aelius Peregrinus Prokurator der Mauretania Caesariensis war.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>B.E. Thomasson, Fasti Africani. Senatorische und ritterliche Amtsträger in den römischen Provinzen Nordafrikas von Augustus bis Diokletian (Stockholm 1996) 208, Nr. 24n.</bibl><bibl>PIR (2. Aufl.) A 231.</bibl><bibl>H.-G. Pflaum, Les carrières procuratoriennes équestres sous le Haut-Empire romain (Paris 1960/61) 621-625, Nr. 233.</bibl><bibl>AE 1993, 1777.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

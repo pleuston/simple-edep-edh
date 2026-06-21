@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Salonae &amp;ndash; Solin (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD063353</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD063353</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Split, Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">slab?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(27)</height><width>(25)</width><depth>7</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197488">Salonae</placeName></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0400" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 400 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1906"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3190359">Solin</placeName><placeName type="findspot">Porta Caesarea, östlich, {Parzelle Nr. 3761 (alter Katasterplan)}</placeName><placeName type="region">Splitsko-dalmatinska županija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD063353_1" sex="W"><persName><name type="nomen">[---]a</name><name type="cognomen">Publicia</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-02-24" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F033863" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/baf1f743-b8f2-47f8-8201-390a73300d82/file/id/794672/file_version/name/small"/><graphic xml:id="F033864" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/4f591d85-6147-46c1-b765-aa280917d45e/file/id/794673/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>a Publici<supplied reason="lost">a</supplied> <lb n="2"/> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">v</supplied>irginia <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> vixit annos <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">po</supplied>suit
+            </ab></div>
+            <div type="commentary">
+                <p>Inschriftträger: nach Marin u. a. möglicherweise auch eine Stele. Z. 1: nur die untere Hälfte der Buchstaben erhalten; Buchstabe A am Zeilenende war bei der Auffindung noch erhalten.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>E. Marin u. a., Salona 4. Inscriptions de Salone chrétienne, IVe-VIIe siècles (Rome - Split 2010) 315-316, Nr. 99; Foto.</bibl><bibl>ILJug 2568.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

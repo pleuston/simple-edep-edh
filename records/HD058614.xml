@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Salonae, bei &amp;ndash; Kaštela (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD058614</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD058614</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Split, Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material>Gesteine</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197488">Salonae, bei</placeName></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0270" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 270 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1884"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3198216">Kaštela</placeName><placeName type="findspot">{Kaštel Kambelovac}, Haus des A. Tadin, sekundär verwendet</placeName><placeName type="region">Splitsko-dalmatinska županija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD058614_1" sex="M"><persName><name type="praenomen">Q.</name><name type="nomen">Agrius</name><name type="cognomen">Eutychides</name></persName></person><person xml:id="HD058614_2" sex="M"><persName><name type="nomen">Agrius</name><name type="cognomen">Barbarus</name></persName></person><person xml:id="HD058614_3" sex="M"><persName><name type="nomen">Agrius</name><name type="cognomen">Eutychus</name></persName></person><person xml:id="HD058614_4" sex="W"><persName><name type="nomen">Flavia*</name><name type="cognomen">Maxima</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2018-02-15" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F025199" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/34d53164-565a-4269-9827-b1e089f9b081/file/id/785950/file_version/name/small"/><graphic xml:id="F033557" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/5802b338-ab7c-4fe9-a71c-a4e315bee6f5/file/id/794364/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/><expan><abbr>v</abbr><ex>ivus</ex></expan> <expan><abbr>f</abbr><ex>ecit</ex></expan> <lb n="3"/><expan><abbr>Q</abbr><ex>uintus</ex></expan> Agrius <lb n="4"/>Eutychi<lb break="no" n="5"/>des Agrio <lb n="6"/>Barbaro &amp;lt;f=E&amp;gt;<expan><abbr>il</abbr><ex>io</ex></expan> <lb n="7"/>et Agrio Euty<lb break="no" n="8"/>cho patri et <expan><abbr>Fl</abbr><ex>aviae</ex></expan> <lb n="9"/>Maximae <expan><abbr>co</abbr><ex>n</ex></expan><lb break="no" n="10"/>iugi <expan><abbr>b</abbr><ex>ene</ex></expan> <expan><abbr>m</abbr><ex>erentibus</ex></expan> 
+            </ab></div>
+            <div type="commentary">
+                <p>In zwei Teile gebrochen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 09714.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

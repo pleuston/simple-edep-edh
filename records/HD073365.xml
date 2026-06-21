@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Carnuntum (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD073365</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD073365</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Petronell-Carnuntum, Schüttkasten, vermauert</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(86)</height><width>(30)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6.0</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/128376">Carnuntum</placeName></origPlace><origDate><origDate notBefore-custom="0039" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">39 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1750"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern"/><placeName type="findspot"/><placeName type="region">Niederösterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD073365_1" sex="M"><persName><name type="praenomen">T.</name><name type="nomen">Se[---]nius</name><name type="cognomen">[---]cus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-06-29" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>T</abbr><ex>itus</ex></expan> Se<gap reason="lost" extent="unknown" unit="character"/><lb break="no" n="2"/>niu<supplied reason="lost">s</supplied><gap reason="lost" extent="unknown" unit="character"/><lb break="no" n="3"/>cus <supplied reason="lost"><expan><abbr>vet</abbr><ex>eranus</ex></expan>? <expan><abbr>leg</abbr><ex>ionis</ex></expan></supplied> XV A<supplied reason="lost"><expan><abbr>pol</abbr><ex>linaris</ex></expan> <expan><abbr>an</abbr><ex>norum</ex></expan></supplied> <lb n="4"/>LXX<gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/>CVI<gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Linkes, oberes Fragment mit Rest des Giebels, senkrecht durch das Inschriftfeld und unten gebrochen. Inschriftfeld von Efeuranken gerahmt. (B): Z. 1: Krüger; Vorbeck: Si[ci]; Mosser: Si[---]; Z. 6: CIL 03, 04481: CVL.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 04481.</bibl><bibl>M.-L. Krüger, Die Reliefs des Stadtgebietes von Carnuntum 2. Die dekorativen Reliefs, CSIR Österreich 1, 4 (Wien 1972) 40, Nr. 510; Taf. 38, 510. (B)</bibl><bibl>E. Vorbeck, Militärinschriften aus Carnuntum (2. Aufl., Wien 1980) 89, Nr. 234. (B)</bibl><bibl>M. Mosser, Die Steindenkmäler der legio XV Apollinaris (Wien 2003) 194, Nr. 62; Taf. 11, 62. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

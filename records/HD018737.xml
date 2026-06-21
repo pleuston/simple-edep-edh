@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Vindonissa &amp;ndash; Windisch (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD018737</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD018737</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Brugg, Vindonissa-Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/123">Holz</material><dimensions unit="cm"><height>(9)</height><width>13</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/177661">Vindonissa</placeName></origPlace><origDate><origDate notBefore-custom="0046" notAfter-custom="0070" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">46 AD - 70 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1950"><placeName type="country" ref="https://www.geonames.org/2658434">Switzerland</placeName><placeName type="modern" ref="http://www.geonames.org/2657976">Windisch</placeName><placeName type="findspot">Legionslager, bei, {Schutthügel}</placeName><placeName type="region">Kanton Aargau</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/402">letter</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD018737_1" sex="M"><persName><name type="nomen">Aninius</name><name type="cognomen">Moderatus</name></persName></person><person xml:id="HD018737_2" sex="M"><persName><name type="cognomen">Vindex</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-02-28" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Dabis Aninio Moderato <lb n="2"/>militi <expan><abbr>leg</abbr><ex>ionis</ex></expan> XXI rapacis <lb n="3"/><expan><abbr><am><g type="centuria"/></am></abbr><ex>centuria</ex></expan> Vindicis
+            </ab></div>
+            <div type="commentary">
+                <p>Aussentafel eines Briefes, unterer Rand abgebrochen. Die Inschrift befindet sich auf der Aussenseite. Schreibtechnik: geritzt. Darunter noch zwei nicht mehr sicher lesbare Zeilen (CEL 030): dabe(?) / SO[---]IO(?).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1953, 0249.</bibl><bibl>CEL 030.</bibl><bibl>CEL 030bis.</bibl><bibl>CEL 030 u. 030bis add. p. 64.</bibl><bibl>V. von Gonzenbach, Pro Vindonissa 1950/51, 43; Abb. 22 (Zeichnung). - AE 1953.</bibl><bibl>M.A. Speidel, Die römischen Schreibtafeln von Vindonissa (Brugg 1996) 112-113, Nr. 8; Foto u. Zeichnung.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

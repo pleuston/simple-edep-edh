@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Roma &amp;ndash; Roma (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD032567</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD032567</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma</placeName></origPlace><origDate><origDate notBefore-custom="0216" notAfter-custom="0217" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">216 AD - 217 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma</placeName><placeName type="findspot">S. Maria della Luce, Kirche</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD032567_1"><persName ref="http://data.snapdrgn.net/person/5323"><name type="praenomen">C.+?</name><name type="nomen">Iulius+?</name><name type="cognomen">Pacatianus+?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2008-06-25" who="Gräf">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F011259" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/827dfc91-ae6f-46e3-b095-c8a0ebefc681/file/id/770782/file_version/name/small"/><graphic xml:id="F011152" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/e319fd78-6a2b-452f-8f9f-81faad96559d/file/id/770675/file_version/name/small"/><graphic xml:id="F040261" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/2346c375-1a40-499f-80e7-3fa072fad77d/file/id/801143/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost" cert="low">C(aio) Iulio Pacatiano v(iro) p(erfectissimo)</supplied> <lb n="2"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> procuratori provinciae Osrhoenes praefecto</supplied> <lb n="3"/><supplied reason="lost">legionis I<certainty locus="name" match="preceding-sibling::text()" cert="low"/> Parthicae procur</supplied>atori et praesidi Alpium Cotti<supplied reason="lost">arum adlecto inter comites <expan><abbr>Auggg</abbr><ex>ustorum</ex></expan> <expan><abbr>nnn</abbr><ex>ostrorum</ex></expan></supplied> <lb n="4"/><supplied reason="lost">procuratori pro legato pro</supplied>vinciae Mauritaniae <note>sic</note> Tingitanae <gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> procuratori ludi mag</supplied>ni procuratori et praesidi provin<supplied reason="lost">ciae Mauretaniae Caesariensis</supplied> <lb n="6"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> per O</supplied>rientem praefecto Mesopotamia<supplied reason="lost">e</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Das Stück ist heute verschollen. Ergänzungsvorschlag nach G. Alföldy.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 06, 41287; fig. α u. β (Zeichnungen).</bibl><bibl>CIL 06, 01642.</bibl><bibl>CIL 06, 01642 add. p. 3163.</bibl><bibl>CIL 06, 01642 add. p. 3811.</bibl><bibl>PIR (2. Aufl.) I 444.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

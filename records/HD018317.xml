@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Aquincum &amp;ndash; Budapest (Pannonia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD018317</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD018317</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Budapest, Aquincumi Múz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>75</height><width>(116)</width><depth>25</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">8.4-5.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197130">Aquincum</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1932"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/7284842">Budapest</placeName><placeName type="findspot">Óbuda, {Bécsi út 170}-172</placeName><placeName type="region">Budapest</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD018317_1" sex="M"><persName><name type="nomen">Aelius* Licinius</name><name type="cognomen">Iu[---]</name></persName></person><person xml:id="HD018317_2" sex="W"><persName><name type="nomen">Aelia+</name><name type="cognomen">Iulia</name></persName></person><person xml:id="HD018317_3" sex="M"><persName><name type="nomen">Aelius</name><name type="cognomen">Lupus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-10-24" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Ael</abbr><ex>io</ex></expan> Licinio Iu<gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><expan><abbr><supplied reason="lost">Si</supplied>ng</abbr><ex>iduno</ex></expan> <expan><abbr>dec</abbr><ex>urioni</ex></expan> <expan><abbr>canab</abbr><ex>arum</ex></expan> <supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> qui vixit</supplied> <lb n="3"/><supplied reason="lost">a</supplied>nnis LXX sibi et A<supplied reason="lost">eliae</supplied> <lb n="4"/>Iuliae filiae et Aelio <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">fi</supplied><lb break="no" n="5"/>lio Lupo qui vixit an<supplied reason="lost">nis</supplied><gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Tafel zu einem Grabbau gehörig. (B): Alföldi, AE 1944, Colin, AE 1955: abweichende Lesungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1953, 0009.</bibl><bibl>AE 1955, 0009. (B)</bibl><bibl>AE 1944, 0093. (B)</bibl><bibl>TitAq 0514; Foto.</bibl><bibl>A. Alföldi, AErt 1, 1940, 209. 229-230, Nr. 10. (B) - AE 1944.</bibl><bibl>A. Mócsy, AErt 77, 1950, 118-119; pl. 37, 1. - AE 1953.</bibl><bibl>J. Colin, AC 23, 1954, 150, Anm. 3. (B) - AE 1955.</bibl><bibl>C. Ertel - M. Németh, Bestandteile von römischen Grabbauten aus Aquincum und dem Limesabschnitt im Stadtgebiet von Budapest, CSIR Ungarn 9 (Budapest 2010) 59, Nr. 30; Taf. 8, 3.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

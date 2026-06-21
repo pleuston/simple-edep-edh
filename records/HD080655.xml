@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Epamanduodurum &amp;ndash; Mandeure (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD080655</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD080655</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mandeure, Mus. Montbéliard</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor, weiß</material><dimensions unit="cm"><height>(18)</height><width>(47)</width><depth>12</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/177516">Epamanduodurum</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0130" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 130 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1881"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/2996251">Mandeure</placeName><placeName type="findspot">{spätantikes Lager}, sekundär verwendet</placeName><placeName type="region">Bourgogne-Franche-Comté</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD080655_1" sex="M"><persName><name type="praenomen">L.?</name><name type="nomen">Vireius</name><name type="cognomen">Camulatus+</name></persName></person><person xml:id="HD080655_2" sex="M"><persName><name type="praenomen">T.</name><name type="nomen">Vireius</name><name type="cognomen">Iucundus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-10-09" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Iovi Optimo <supplied reason="lost" cert="low">Maximo</supplied> <lb n="2"/><expan><abbr>L</abbr><ex>ucius</ex></expan><certainty match="preceding-sibling::node()" locus="value"/> Vireius Camulat<supplied reason="lost" cert="low">us et</supplied> <lb n="3"/><expan><abbr>T</abbr><ex>itus</ex></expan> Vireius Iucundu<supplied reason="lost">s <gap reason="lost" extent="unknown" unit="character"/></supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Ergänzunh von Z. 1 unsicher, ein voll ausgeschriebenes Maximo ergibt ein unausgewogenes Schriftbild. Fundortangabe nach Kakoschke, nach Joan unbekannt. (B): Kakoschke: Z. 2: I(ulius) Vireius Camulat[us et?] / T(itus) V(ireius) Iucundu[s v(otum) s(olverunt) l(ibentes) m(erito)?]; Joan: Z. 2: Vireius Camu[l]at[us]; Gschaid: Z. 2: I(ulius).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 05411.</bibl><bibl>A. Kakoschke, Ortsfremde in den römischen Provinzen Germania inferior und Germania superior. Eine Untersuchung zur Mobilität in den germanischen Provinzen anhand der Inschriften des 1. bis 3. Jahrhunderts n. Chr. (Möhnesee 2003) 310-312, Nr. 2.90. (B)</bibl><bibl>L. Joan, Le Doubs et le territoire de Belfort, Carte archéologique de la Gaule 25 et 90 (Paris 2003) 352. (B)</bibl><bibl>M. Gschaid, JRGZ 41, 1994, 420-421, Nr. 110. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

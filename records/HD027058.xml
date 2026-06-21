@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Bosansko Grahovo (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD027058</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD027058</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>77</height><width>93</width><depth>18</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0400" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 400 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1930"><placeName type="country" ref="https://www.geonames.org/3277605">Bosnia and Herzegovina</placeName><placeName type="modern" ref="http://www.geonames.org/3203644">Bosansko Grahovo</placeName><placeName type="findspot">{Gradina, Hügel}</placeName><placeName type="region">Hercegbosanska županija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD027058_1" sex="M"><persName><name type="cognomen">Valent[---]+</name></persName></person><person xml:id="HD027058_2" sex="W"><persName><name type="cognomen">Tata</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-10-10" who="Feraudi">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Valen<supplied reason="lost">t</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/>militi legion<supplied reason="lost">is II</supplied> <lb n="3"/>a<expan><ex>d</ex><abbr>iutricis</abbr></expan> defun<supplied reason="lost">c</supplied><lb break="no" n="4"/>to <expan><abbr>an</abbr><ex>norum</ex></expan> XXX memori<lb break="no" n="5"/>am posuit <lb n="6"/>Tata pi<lb break="no" n="7"/>entissima co<expan><ex>n</ex><abbr>iux</abbr></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Sergejevski, AE 1934, ILJug: Z. 3: defu[nc].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1934, 0203. (B)</bibl><bibl>ILJug 1809. (B)</bibl><bibl>D. Sergejevski, Spomenik 77, 1934, 19-20, Nr. 26; Br. 26. (B) - AE 1934.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

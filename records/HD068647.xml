@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Aquincum &amp;ndash; Budapest (Pannonia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD068647</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD068647</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Budapest, Magyar Nemzeti Múz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(72)</height><width>187</width><depth>19</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.8-5.3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197130">Aquincum</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1868"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/7284842">Budapest</placeName><placeName type="findspot">Óbuda, {Kiscell}, ehem. Ziegelei Holczpach, Ofen Nr. 1</placeName><placeName type="region">Budapest</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD068647_1" sex="W"><persName><name type="nomen">Octavia</name><name type="cognomen">Revocca</name></persName></person><person xml:id="HD068647_2" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Ulpius*</name><name type="cognomen">Natalis</name></persName></person><person xml:id="HD068647_3" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Ulpius</name><name type="cognomen">Octavianus</name></persName></person><person xml:id="HD068647_4" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Ulpius</name><name type="cognomen">Sabinianus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-09-07" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Octaviae Revoccae coniugi <lb n="2"/>sanctissimae <expan><abbr>q</abbr><ex>uae</ex></expan> vixit <expan><abbr>n<am>n</am></abbr><ex>os</ex></expan> XXV <lb n="3"/><expan><abbr>M</abbr><ex>arcus</ex></expan> <expan><abbr>Ulp</abbr><ex>ius</ex></expan> Natalis <expan><abbr>vet</abbr><ex>eranus</ex></expan> ex b<expan><ex>ene</ex><abbr>f</abbr><ex>iciario</ex></expan> co<expan><ex>n</ex><abbr>s</abbr><ex>ularis</ex></expan> et <lb n="4"/>Marci Ulpi Octavianus et <lb n="5"/>Sabinianus <expan><abbr>fili</abbr><ex>i</ex></expan> piissimi
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 10522.</bibl><bibl>TitAq 0677, 1; Foto.</bibl><bibl>E. Schallmayer - K. Eibl - J. Ott - G. Preuß - E. Wittkopf, Der römische Weihebezirk von Osterburken 1 (Stuttgart 1990) 311-312, Nr. 385; Abb. 385.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

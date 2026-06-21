@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription from Epamanduodurum &amp;ndash; Mandeure (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD080707</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD080707</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Besançon, Mus. des Beaux Arts et d'Arch.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/177516">Epamanduodurum</placeName></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1881"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/2996251">Mandeure</placeName><placeName type="findspot">{Cloux-du-Château}</placeName><placeName type="region">Bourgogne-Franche-Comté</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/143" xml:lang="en">unknown</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD080707_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-10-16" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F028261" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/af8f9e96-e8d4-4bbb-a689-f51c7fbeb41c/file/id/789018/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                ------ <expan><abbr>praef</abbr><ex>ecto</ex></expan><certainty match="preceding-sibling::node()" locus="value"/> fab<certainty match="preceding-sibling::node()" locus="value"/>]rum <supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost" cert="low"> praefe</supplied>cto strat<supplied reason="lost">o</supplied><lb break="no" n="3"/><supplied reason="lost" cert="low">rum</supplied><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">publ</supplied>icorum <lb n="4"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>trib</abbr><ex>uno</ex></expan> mili</supplied>tum <expan><abbr>leg</abbr><ex>ionis</ex></expan> VI <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/>CVR <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Zwei aneinanderpassende Fragmente mit dem rechten Rand der Inschrift. (B): Z. 3/4: Morant u. a.; Joan: [III viro locor(um) publ]icorum / [persequend(orum?).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 05414.</bibl><bibl>L. Joan, Le Doubs et le territoire de Belfort, Carte archéologique de la Gaule 25 et 90 (Paris 2003) 331. (B)</bibl><bibl>M.-J. Morant - B. Sauget - E. Frézouls, in: E. Frézouls (Hrsg.), Les villes antiques de la France. Germanie Supérieure 1. Besançon - Dijon - Langres - Mandeure (Strasbourg 1988) 431. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

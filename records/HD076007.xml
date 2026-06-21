@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Augusta Rauricorum &amp;ndash; Augst (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD076007</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD076007</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Augst, Mus. Augusta Raurica</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/142">instrumentum sacrum</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze, Eisen</material><dimensions unit="cm"><width>8</width><depth>2</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/177494">Augusta Rauricorum</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1937"><placeName type="country" ref="https://www.geonames.org/2658434">Switzerland</placeName><placeName type="modern" ref="http://www.geonames.org/2661681">Augst</placeName><placeName type="findspot">{Insula 17, Thermen}</placeName><placeName type="region">Kanton Basel-Landschaft</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD076007_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]sper?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2018-03-14" who="Gräf">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <gap reason="lost" extent="unknown" unit="character"/><expan><abbr>I</abbr><ex cert="low"/>RMA</expan><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>S</abbr><ex cert="low"/>per</expan> beneficiarius <expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <supplied reason="lost"><expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan></supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Zwei nicht aneinanderpassende Fragmente eines bronzenen Miniaturrades wohl von einem Kultwagen; in der Nabe ein eiserner Achsendorn. Die Inschrift befindet sich auf der Felge. Schreibtechnik: gepunzt. Angabe der Breite bezieht sich auf den rekonstruierbaren Durchmesser. (B): Schallmayer - Eibl - Ott - Preuß - Wittkopf: [---]RMA; l(ibens) [m(erito)] Nesselhauf - Lieb; Schallmayer - Eibl - Ott - Preuß - Wittkopf: [---]per.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>E. Schallmayer - K. Eibl - J. Ott - G. Preuß - E. Wittkopf, Der römische Weihebezirk von Osterburken 1 (Stuttgart 1990) 91, Nr. 99; Zeichnung. (B)</bibl><bibl>H. Nesselhauf - H. Lieb, BRGK 40, 1959, 159, Nr. 99. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

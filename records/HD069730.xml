@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Deva &amp;ndash; Chester (Britannia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD069730</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD069730</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Oxford, Ashmolean Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>96</height><width>45</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Britannia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/79420">Deva</placeName></origPlace><origDate><origDate when-custom="0154" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">154 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1653"><placeName type="country" ref="https://www.geonames.org/2635167">United Kingdom</placeName><placeName type="modern" ref="http://www.geonames.org/2653228">Chester</placeName><placeName type="findspot">{Foregate Street}</placeName><placeName type="region">Cheshire</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD069730_1" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Elufrius+</name><name type="cognomen">Praesens</name></persName></person><person xml:id="HD069730_2" sex="M"><persName><name type="cognomen">Commodus</name></persName></person><person xml:id="HD069730_3" sex="M"><persName><name type="cognomen">Lateranus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-05-20" who="Cowey">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan> Tanaro <lb n="2"/><expan><abbr>L</abbr><ex>ucius</ex></expan> <supplied reason="lost">Elufrius</supplied> <expan><abbr>Galer</abbr><ex>ia</ex></expan> <lb n="3"/>Praesens <supplied reason="lost">Cl</supplied>unia <lb n="4"/><expan><abbr>pri</abbr><ex>nceps</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> XX <expan><abbr>V</abbr><ex>aleriae</ex></expan> <expan><abbr>v</abbr><ex>ictricis</ex></expan> <lb n="5"/>Commodo et <lb n="6"/>Laterano co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> <lb n="7"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Zu den leichten Leseabweichungen s. RIB 0452.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 07, 00168. (B)</bibl><bibl>ILS 4622. (B)</bibl><bibl>RIB 0452; Zeichnung.</bibl><bibl>PIR (2. Aufl.) C 606.</bibl><bibl>PIR (2. Aufl.) S 666.</bibl><bibl>M. Henig, Roman sculpture from the North West Midlands CSIR Great Britain 1, 9 (Oxford 2004) 8-9, Nr. 20; Pl. 10.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

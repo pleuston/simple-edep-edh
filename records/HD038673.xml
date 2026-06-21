@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from (Civitas Ulpia Sueborum Nicrensium) &amp;ndash; Heidelberg (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD038673</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD038673</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Heidelberg, Kurpfälz. Mus. (Depot)</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(34)</height><width>(15)</width><depth>(16)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3-4.2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118731">(Civitas Ulpia Sueborum Nicrensium)</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1978"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2907639">Heidelberg</placeName><placeName type="findspot">Handschuhsheim, Heiligenberg, {S. Michael, Kloster, Südturm}, sekundär verwendet</placeName><placeName type="region">Baden-Württemberg</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-01-04" who="Feraudi">checked through autopsy</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F012434" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/5931641e-503b-43d1-b86d-0b8632b8eaaa/file/id/771957/file_version/name/small"/><graphic xml:id="F039070" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/cb2df6a6-09e5-48b2-91f7-ced631e1d2ed/file/id/799946/file_version/name/small"/><graphic xml:id="F039071" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/3a9a5110-d5f9-47b0-b266-1667c5ba7fac/file/id/799947/file_version/name/small"/><graphic xml:id="F039072" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/1769f83e-1451-4664-a68b-df8f93a18084/file/id/799948/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>V</abbr><ex cert="low"/>MI</expan> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> RES<lb break="no" n="3"/><gap reason="lost" extent="unknown" unit="character"/>us <lb n="4"/><supplied reason="lost"><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex cert="low">olv---</ex></expan> <expan><abbr>l</abbr><ex cert="low">iben---</ex></expan> <expan><abbr>l</abbr><ex cert="low">aet--</ex></expan></supplied> <expan><abbr>m</abbr><ex>erito</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>F. Feraudi-Gruénais, FeRA 42, 2020, 3-5, Nr. 2; Abb. 2 a u. b.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

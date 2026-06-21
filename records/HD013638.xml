@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from S.-Léonard, bei (Alpes Poeninae)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD013638</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD013638</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material ref="http://www.eagle-network.eu/voc/material/lod/51">Quarzit</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6.5-5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Alpes Poeninae</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0253" notAfter-custom="0260" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">253 AD - 260 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1961"><placeName type="country" ref="https://www.geonames.org/2658434">Switzerland</placeName><placeName type="modern" ref="http://www.geonames.org/2658868">S.-Léonard, bei</placeName><placeName type="findspot"/><placeName type="region">État du Valais</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD013638_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q104475"><name type="cognomen">Gallienus++</name></persName></person><person xml:id="HD013638_2" sex="M"><persName ref="https://www.wikidata.org/wiki/Q297494"><name type="praenomen">P.+</name><name type="nomen">Licinius Cornelius+</name><name type="cognomen">Saloninus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-07-22" who="Masci">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Victoriae <supplied reason="lost"><expan><abbr>d</abbr><ex>omini</ex></expan> <expan><abbr>n</abbr><ex>ostri</ex></expan></supplied> <lb n="2"/><del rend="erasure">[Gallieni Pii Felicis</del>] <lb n="3"/><supplied reason="lost"><expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>Germ</abbr><ex>anici</ex></expan> <expan><abbr>max</abbr><ex>imi</ex></expan> <expan><abbr>pont</abbr><ex>ificis</ex></expan> <expan><abbr>max</abbr><ex>imi</ex></expan></supplied> <lb n="4"/><supplied reason="lost">et <expan><abbr>P</abbr><ex>ubli</ex></expan> Licini Corneli</supplied> <lb n="5"/><supplied reason="lost">Salonini <expan><abbr>nob</abbr><ex>ilissimi</ex></expan> <expan><abbr>Caes</abbr><ex>aris</ex></expan></supplied> <lb n="6"/><supplied reason="lost"><expan><abbr>ceterisq</abbr><ex>ue</ex></expan> dis <expan><abbr>deabusq</abbr><ex>ue</ex></expan></supplied> <lb n="7"/>sacrum
+            </ab></div>
+            <div type="commentary">
+                <p>7 fragments, 5 of them are matching. Maybe the name was erased in 268-269, when Postumus was ruling this area. Van Berchem thinks that maybe one of the 2 not matching fragments could belong to another inscription, because of the different orientation of the stone veins. The only thing that can be read is part of a X and then a second line is erased.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1978, 0457.</bibl><bibl>D. Van Berchem, Mélanges d'histoire ancienne et d'archéologie offerts à Paul Collart (Lausanne 1976) 75-81; Foto. - AE 1978.</bibl><bibl>W. Drack - R. Fellmann, Die Römer in der Schweiz (Stuttgart 1988) 80-81; Zeichnung.</bibl><bibl>F. Wiblé, Vallesia 33, 1978, 34, Nr. 38.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

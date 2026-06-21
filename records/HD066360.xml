@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Cemenelum &amp;ndash; Nice (Alpes Maritimae)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD066360</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD066360</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>S. Barthélemy, Kloster</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/78">urn</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>43</height><width>92</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.7-4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Alpes Maritimae</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/157834">Cemenelum</placeName></origPlace><origDate><origDate notBefore-custom="0051" notAfter-custom="0116" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD - 116 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/2990440">Nice</placeName><placeName type="findspot">{S.-Barthélemy, Kloster}, bei</placeName><placeName type="region">Provence-Alpes-Côte d’Azur</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD066360_1" sex="M"><persName><name type="praenomen">Sex.</name><name type="nomen">Sulpicius</name><name type="cognomen">Sabinus</name></persName></person><person xml:id="HD066360_2" sex="M"><persName><name type="cognomen">Gratinus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-07-19" who="Cimarosti">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Sex</abbr><ex>to</ex></expan> Sulpicio <expan><abbr>Q</abbr><ex>uinti</ex></expan> <del rend="erasure"><expan><abbr>f</abbr><ex>ilio</ex></expan></del> <lb n="2"/>Sabino vexilla<del rend="erasure">r</del>(io) <lb n="3"/>c<expan><ex>o</ex><abbr>ho</abbr><ex>rtis</ex></expan> I <expan><abbr>Lig</abbr><ex>urum</ex></expan> et <expan><abbr>His</abbr><ex>panorum</ex></expan> <expan><abbr>c</abbr><ex>ivium</ex></expan> <expan><abbr>R</abbr><ex>omanorum</ex></expan> <expan><abbr><am><g type="centuria"/></am></abbr><ex>centuria</ex></expan> <lb n="4"/>Gratini <expan><abbr>h</abbr><ex>eres</ex></expan> <expan><abbr>e</abbr><ex>x</ex></expan> <expan><abbr>t</abbr><ex>estamento</ex></expan> <expan><abbr>h</abbr><ex>oc</ex></expan> <expan><abbr>m</abbr><ex>onumentum</ex></expan> <expan><abbr>h</abbr><ex>eredem</ex></expan> <expan><abbr>s</abbr><ex>equetur</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): CIL; Laguerre: Z. 1: C(ai) f(ilio); Z. 2: vexillar(io). Puncta triangularia. Eingemeißelt. Bearbeiterin: V. Pettirossi.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 05, 07896. (B)</bibl><bibl>G. Laguerre, Inscriptions antiques de Nice-Cimiez (Cemenelum, ager Cemenelensis) (Paris 1975) 89-90. (B)</bibl><bibl>S. Morabito, Inscriptions latines des Alpes Maritimes (Nice - Montpellier 2010) 314-315, Nr. 205; Foto.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

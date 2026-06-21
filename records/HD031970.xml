@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Astigi &amp;ndash; Écija (Baetica)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD031970</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD031970</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Baetica</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/255996">Astigi</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0130" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 130 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern" ref="http://www.geonames.org/2518770">Écija</placeName><placeName type="findspot">calle de la Paloma</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD031970_1" sex="W"><persName><name type="nomen">Cornelia*</name><name type="cognomen">Philotima+</name></persName></person><person xml:id="HD031970_2" sex="W"><persName><name type="nomen">Cornelia*</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-01-28" who="Gräf">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Cor</abbr><ex>nelia</ex></expan> <expan><abbr>P</abbr><ex>ubli</ex></expan> li<supplied reason="lost"><expan><abbr>b</abbr><ex>erta</ex></expan></supplied> <lb n="2"/>Philotim<supplied reason="lost">a <expan><abbr>an</abbr><ex>norum</ex></expan> <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="3"/>hic sita e<supplied reason="lost">st</supplied> <lb n="4"/><expan><abbr>Cor</abbr><ex>nelia</ex></expan> <expan><abbr>P</abbr><ex>ubli</ex></expan> <expan><abbr>lib</abbr><ex>erta</ex></expan> <supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> in <expan><abbr>f</abbr><ex>ronte</ex></expan> <expan><abbr>p</abbr><ex>edes</ex></expan> <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="5"/>in <expan><abbr>a</abbr><ex>gro</ex></expan> <expan><abbr>p</abbr><ex>edes</ex></expan> XIII <expan><abbr>E</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Lesungs- und Ergänzungsvorschlag nach CIL II (2. Aufl.) 5, 1201. Handschriftliche Überlieferung: CORPII / FHILOIIM / HIC SITA E(?) / CORPHII / IN A P XIII E. (B): Ordóñez Agulla; HEp 5: Z. 1: Corneli[a]; Z. 2: Philotima; Ordóñez Agulla: Z. 5: agro.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2000, 0733.</bibl><bibl>T. López, Diccionario geográfico de Andalucía: Sevilla (Sevilla 1989) 80. - AE 2000.</bibl><bibl>S. Ordóñez Agulla, Habis 24, 1993, 311-315. (B) - AE 2000.</bibl><bibl>HEp 05, 1995, 0701. (B)</bibl><bibl>CIL 02 (2. Aufl.) 05, 01201.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

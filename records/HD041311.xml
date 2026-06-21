@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from S. Esteve de Castellet (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD041311</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD041311</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Vilafranca del Penedès, Museo; Barcelona, Mus. Dioc.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>25</height><width>(26)</width><depth>6</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">2-3.2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Hispania citerior</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0251" notAfter-custom="0400" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">251 AD - 400 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern">S. Esteve de Castellet</placeName><placeName type="findspot"/><placeName type="region">Cataluña</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD041311_1" sex="M"><persName><name type="cognomen">Iulianus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-10-22" who="Platz">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Hic <expan><abbr>pos</abbr><ex>itus</ex></expan> est in pace <lb n="2"/>Iulianus <expan><abbr>ser</abbr><ex>vus</ex></expan> C<expan><ex>h</ex><abbr>risti</abbr></expan> <lb n="3"/>qui <expan><abbr>vix</abbr><ex>it</ex></expan> <expan><abbr>an</abbr><ex>nos</ex></expan> tres <expan><abbr>me</abbr><ex>nses</ex></expan> <expan><abbr>du</abbr><ex>os</ex></expan> <lb n="4"/>dies XVII
+            </ab></div>
+            <div type="commentary">
+                <p>Non si conoscono le misure del frammento di destra. Zwei aneinanderpassende Fragmente. Dekor: rechts und links der ersten Zeile jeweils ein Staurogramm mit Alpha und Omega; unter der Inschrift drei Kreuze, davon das mittlere mit Alpha und Omega.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IRC 1, 006; pl. 3, 6.</bibl><bibl>IRC 5, p. 15-16.</bibl><bibl>HEp 01, 1989, 0134.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

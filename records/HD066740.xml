@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mile-/leaguestone from Vintium &amp;ndash; Vence (Alpes Maritimae)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD066740</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD066740</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Vence, S. Anne, Kapelle</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">mile-/leaguestone</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>83</height><width>45</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">2.5-4.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Alpes Maritimae</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/167973">Vintium</placeName></origPlace><origDate><origDate notBefore-custom="0235" notAfter-custom="0236" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">235 AD - 236 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/2970148">Vence</placeName><placeName type="findspot"/><placeName type="region">Provence-Alpes-Côte d’Azur</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>mile-/leaguestone</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD066740_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1777"><name type="praenomen">C.</name><name type="nomen">Iulius</name><name type="cognomen">Verus Maximinus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-02-24" who="Cimarosti">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F020353" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/4934f9b5-d1ca-4b4c-a8a8-ae27eb7f2536/file/id/780426/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>erator</ex></expan> <expan><abbr>Caes</abbr><ex>ar</ex></expan> <lb n="2"/><expan><abbr>C</abbr><ex>aius</ex></expan> Iulius Verus <lb n="3"/>Maximinus <lb n="4"/>Pius Felix Inv<supplied reason="lost">i</supplied><lb break="no" n="5"/>ctus <expan><abbr>Aug</abbr><ex>ustus</ex></expan> <expan><abbr>pon<supplied reason="lost">t</supplied></abbr><ex>ifex</ex></expan> <lb n="6"/><expan><abbr>max</abbr><ex>imus</ex></expan> <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>po</abbr><ex>estate</ex></expan> <supplied reason="lost">II</supplied> <lb n="7"/><expan><abbr>proc</abbr><ex>onsul</ex></expan> co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> desig<lb break="no" n="8"/>natus resti<supplied reason="lost">tu</supplied><lb break="no" n="9"/><supplied reason="lost">it</supplied> <gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): CIL 12, 05428: Leseabweichungen. Eingemeißelt. Bearbeiterin: V. Pettirossi.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 12, 05428. (B)</bibl><bibl>CIL 12, 05428 add. p. 857.</bibl><bibl>CIL 17, 02 ,00004.</bibl><bibl>S. Morabito, Inscriptions latines des Alpes Maritimes (Nice - Montpellier 2010) 475, Nr. 404; Foto.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

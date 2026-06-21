@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph? from Alta Ripa (Civitas Nemetum) &amp;ndash; Altrip (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD076039</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD076039</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/108735">Alta Ripa (Civitas Nemetum)</placeName></origPlace><origDate><origDate notBefore-custom="0185" notAfter-custom="0279" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">185 AD - 279 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1837"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2956891">Altrip</placeName><placeName type="findspot"/><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph?</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD076039_1" sex="M"><persName><name type="nomen">[---]raius?</name><name type="cognomen">[---]raius?</name></persName></person><person xml:id="HD076039_2" sex="M"><persName><name type="cognomen">[---]ternus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-02-17" who="Gräf">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>raio <expan><abbr><supplied reason="lost">b</supplied></abbr><ex>ene</ex>f</expan>(iciario)<certainty match="preceding-sibling::node()" locus="value"/> co<expan><ex>n</ex><abbr>s</abbr><ex>ularis</ex></expan><certainty match="preceding-sibling::node()" locus="value"/> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>terne co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Im CIL in Z. 1 hinter spiegelverkehrt auf dem Kopf stehendes F, vielleicht b(ene)f(iciarius) co(n)s(ularis)? Z. 2: vielleicht eher [--- et Ma-/Pa]terno co(n)s(ulibus) zu lesen, Datierung zwischen 185 (Materno et Bradua) und 279 (Probo III et Paterno II), auch 233 (Maximo et Paterno), 267 (Paterno et Arcesilao), 268 (Paterno II et Mariniano), 269 (Claudio et Paterno).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 06137a.</bibl><bibl>CIL 13, 04, 06137a add. p. 88.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

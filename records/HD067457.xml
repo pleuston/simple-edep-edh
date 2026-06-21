@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Wallsee-Sindelburg (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD067457</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD067457</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Wallsee-Sindelburg, Sindelburg, S. Johannes der Täufer, Kirche, vermauert</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(40)</height><width>(60)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6.5-5.6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="2002"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2765015">Wallsee-Sindelburg</placeName><placeName type="findspot">Sindelburg, {S. Johannes der Täufer, Kirche}, sekundär verwendet</placeName><placeName type="region">Niederösterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD067457_1" sex="M"><persName><name type="nomen">Flavius*</name><name type="cognomen">Firmanus</name></persName></person><person xml:id="HD067457_2" sex="W"><persName><name type="praenomen">L.</name><name type="nomen">Septimia+*</name><name type="cognomen">Onerata</name></persName></person><person xml:id="HD067457_3" sex="M"><persName><name type="nomen">Flavius*</name><name type="cognomen">Nativus+</name></persName></person><person xml:id="HD067457_4" sex="M"><persName><name type="nomen">Flavius*</name><name type="cognomen">Maturus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-03-19" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Fl</abbr><ex>avio</ex></expan> Firmano <supplied reason="lost" cert="low">d(e)c(urioni)</supplied> <lb n="2"/><expan><abbr>Ovilavi</abbr><ex>s</ex></expan> <expan><abbr>L</abbr><ex>ucia</ex></expan> Sept<supplied reason="lost"><expan><abbr>im</abbr><ex>ia</ex></expan></supplied> <lb n="3"/>Onerata <expan><abbr>vi</abbr><ex>va</ex></expan> f<supplied reason="lost"><expan><abbr>ec</abbr><ex>it</ex></expan></supplied> <lb n="4"/><expan><abbr>co</abbr><ex>niugi</ex></expan> <expan><abbr>pi</abbr><ex>entissimo</ex></expan> et <expan><abbr>F</abbr><ex>lavio</ex></expan> Nati<supplied reason="lost">vo</supplied> <lb n="5"/>et <expan><abbr>F</abbr><ex>lavio</ex></expan> Maturo <supplied reason="lost"><expan><abbr>fil</abbr><ex>iis</ex></expan></supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Z. 5 heute durch das moderne Bodenpflaster verdeckt.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2006, 0997.</bibl><bibl>E.M. Ruprechtsberger, CarnuntumJb 2006, 19; Abb. 5; Abb. 4 (Zeichnung). - AE 2006.</bibl><bibl>N. Heger, CarnuntumJb 2006, 21-22; Abb. 1. - AE 2006.</bibl><bibl>M. Holzner - E. Weber, Tyche 23, 2008, 209, Nr. 179. - AE 2006.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

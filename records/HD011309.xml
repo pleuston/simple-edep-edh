@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Prijedor (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD011309</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD011309</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Prijedor, Ljubija</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><dimensions unit="cm"><height>(98)</height><width>41</width><depth>16</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0211" notAfter-custom="0217" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">211 AD - 217 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1954"><placeName type="country" ref="https://www.geonames.org/3277605">Bosnia and Herzegovina</placeName><placeName type="modern" ref="http://www.geonames.org/3196373">Prijedor</placeName><placeName type="findspot">{Ljubija}, Bergwerk, "Brdo"</placeName><placeName type="region">Republika Srpska</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD011309_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1446"><name type="praenomen">M.</name><name type="nomen">Aurelius*</name><name type="cognomen">Antoninus++</name></persName></person><person xml:id="HD011309_2" sex="M"><persName><name type="nomen">Iulius*</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-10-19" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Terrae Ma<supplied reason="lost"><expan><abbr>t</abbr><ex>ri</ex></expan></supplied> <lb n="2"/>sacrum <lb n="3"/>pro salute <lb n="4"/><expan><abbr>Imp</abbr><ex>eratoris</ex></expan> <expan><abbr>Caes</abbr><ex>aris</ex></expan> <expan><abbr>Ma</abbr><ex>rci</ex></expan> <lb n="5"/><expan><abbr>Aur</abbr><ex>eli</ex></expan> <del rend="erasure">Antoni</del><lb break="no" n="6"/><del rend="erasure">ni</del> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>Iul</abbr><ex>ius</ex></expan> <supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied> <lb n="7"/><expan><abbr>proc</abbr><ex>urator</ex></expan> per Ianu<lb break="no" n="8"/><supplied reason="lost">ari</supplied>um et Bas<supplied reason="lost" cert="low">sum</supplied> <lb n="9"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>V</abbr><ex cert="low"/>I</expan><certainty match="preceding-sibling::node()" locus="value"/><expan><abbr>L</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Z. 6: hinter Iul(ius) Reste zweier senkrechter Hasten erkennbar. (B): Sergejevski, AE 1973; Imamović: Abweichungen in Lesung / Ergänzung.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1973, 0412. (B)</bibl><bibl>ILJug 0778.</bibl><bibl>D. Sergejevski, GlasSarajevo 18, 1963, 89-90, Nr. 3; sl. 2. (B) - AE 1973.</bibl><bibl>E. Imamović, Antički kultni i votivni spomenici na području Bosne i Hercegovine (Sarajevo 1977) 422, Nr. 190; Foto. (B)</bibl><bibl>I. Bojanovski, ARadRaspr 8/9, 1982, 111; t. 5.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

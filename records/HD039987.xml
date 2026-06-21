@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Gacko (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD039987</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD039987</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Gacko, Muzej</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><dimensions unit="cm"><height>(64)</height><width>55</width><depth>17</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">10-4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1984"><placeName type="country" ref="https://www.geonames.org/3277605">Bosnia and Herzegovina</placeName><placeName type="modern" ref="http://www.geonames.org/3297497">Gacko</placeName><placeName type="findspot">{Kazanci}</placeName><placeName type="region">Republika Srpska</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD039987_1" sex="M"><persName><name type="cognomen">Tattaris</name></persName></person><person xml:id="HD039987_2" sex="M"><persName><name type="cognomen">Venetus+</name></persName></person><person xml:id="HD039987_3" sex="W"><persName><name type="cognomen">Temus</name></persName></person><person xml:id="HD039987_4" sex="M"><persName><name type="cognomen">Bato+</name></persName></person><person xml:id="HD039987_5" sex="W"><persName><name type="cognomen">Narensa</name></persName></person><person xml:id="HD039987_6" sex="M"><persName><name type="cognomen">Annaeus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2012-08-23" who="Gräf">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost">Tattaris</supplied> <lb n="2"/><supplied reason="lost">Veneti <expan><abbr>fil</abbr><ex>ius</ex></expan>? et</supplied> <lb n="3"/>Temus B<supplied reason="lost">a</supplied><lb break="no" n="4"/>tonis <expan><abbr>fil</abbr><ex>ia</ex></expan> <lb n="5"/>Narensai <note>sic</note> <lb n="6"/>Annaei <expan><abbr>n<am>n</am></abbr><ex>orum</ex></expan> <lb n="7"/>XXV hic sita <lb n="8"/>est
+            </ab></div>
+            <div type="commentary">
+                <p>Ergänzungsvorschlag nach Škegro, VjesAMuzZagreb. (B): AE 1994: Z. 3/4: B(a)/tonis.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1994, 1342. (B)</bibl><bibl>AE 2003, 1327.</bibl><bibl>A. Škegro, VjesAMuzZagreb 36, 2003, 154-157. 164, Nr. 18; sl. 20 (Zeichnung). - AE 2003.</bibl><bibl>A. Škegro, OpuscArchZagreb 21, 1997, 91-92, Nr. 40.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

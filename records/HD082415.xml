@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Antunnacum &amp;ndash; Andernach (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD082415</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD082415</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bonn, Rhein. Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/260">slab</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>32</height><width>10</width><depth>3</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/108746">Antunnacum</placeName></origPlace><origDate><origDate notBefore-custom="0501" notAfter-custom="0600" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">501 AD - 600 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2956206">Andernach</placeName><placeName type="findspot">{S. Peter, spätantike Nekropole}</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD082415_1" sex="W"><persName><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-10-20" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F027197" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/453daf63-bacd-482c-91a3-29cd11a92f9a/file/id/787954/file_version/name/small"/><graphic xml:id="F020719" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/fabb9b4c-dc95-469d-afdf-6b2162157417/file/id/780793/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Con<supplied reason="lost">dita in hunc tumu</supplied><lb break="no" n="2"/>lum C<gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">quiescit</supplied> <lb n="3"/>graci<supplied reason="lost">a! plena <gap reason="lost" extent="unknown" unit="character"/> co</supplied><lb break="no" n="4"/>nces<supplied reason="lost">sit domino mem</supplied><lb break="no" n="5"/>bra cu<supplied reason="lost">m spiritu <gap reason="lost" extent="unknown" unit="character"/> inno</supplied><lb break="no" n="6"/>centis<supplied reason="lost">sima kara p</supplied><lb break="no" n="7"/>arenti<supplied reason="lost"><expan><abbr>b</abbr><ex>us</ex></expan> meruit habe</supplied><lb break="no" n="8"/>re pausa<supplied reason="lost">tionem suam</supplied> <lb n="9"/>post di<supplied reason="lost">sseptum m</supplied><lb break="no" n="10"/><expan><abbr><supplied reason="lost">a</supplied>trona<supplied reason="lost">r</supplied></abbr><supplied reason="lost"><ex>um</ex></supplied></expan> <supplied reason="lost"/><gap reason="lost" extent="unknown" unit="character"/> <lb n="11"/><gap reason="lost" extent="unknown" unit="character"/> obi<expan><ex>i</ex><abbr>t</abbr></expan> <gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Ergänzungsvorschlag nach Egger. Z. 1 (Anfang): wahrscheinlich ein Kreuzzeichen zu ergänzen. (B): Egger: Z. 9/10: m]/atronar(um).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>R. Egger, BJ 154, 1954, 150-151, Nr. 12; Taf. 8, 2. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

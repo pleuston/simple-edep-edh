@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Municipium Claudium Virunum, bei &amp;ndash; Völkermarkt (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD056947</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD056947</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Klagenfurt/Wörthersee, Landesmus. Kärnten</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>26</height><width>29</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4-2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197583">Municipium Claudium Virunum, bei</placeName></origPlace><origDate><origDate notBefore-custom="0051" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1933"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2777087">Völkermarkt</placeName><placeName type="findspot">{Hafendorf}, bei</placeName><placeName type="region">Kärnten</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD056947_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Valentinius+</name><name type="cognomen">Crispus+</name></persName></person><person xml:id="HD056947_2" sex="W"><persName><name type="cognomen">[-]ritiu</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-05-12" who="Krenn">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>C</abbr><ex>aius</ex></expan> Valen<supplied reason="lost">ti</supplied>nius <lb n="2"/>Crisp<supplied reason="lost">us</supplied> <expan><abbr>v</abbr><ex>ivus</ex></expan> <expan><abbr>f</abbr><ex>ecit</ex></expan> <lb n="3"/>sibi et <supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied>ritiuni <lb n="4"/>coni<supplied reason="lost">ugi o</supplied>ptim<expan><ex>a</ex><abbr>e</abbr></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): ILLPRON, Gerstl: Z. 3: [---]ritiuni.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILLPRON 0130. (B)</bibl><bibl>A. Gerstl, Supplementum epigraphicum zu CIL III für Kärnten und Osttirol 1902-1961 (Diss. Wien 1961) 49, Nr. 111. (B)</bibl><bibl>P.S. Leber, Die in Kärnten seit 1902 gefundenen römischen Steininschriften (Klagenfurt 1972) 112, Nr. 209.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

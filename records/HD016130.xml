@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Őcsény (Pannonia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD016130</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD016130</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Szekszárd, Wosinsky Mór Megyei Múz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>224</height><width>58</width><depth>26</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia inferior</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0131" notAfter-custom="0170" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">131 AD - 170 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1828"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3047201">Őcsény</placeName><placeName type="findspot">Gemeindewald, bei</placeName><placeName type="region">Tolna megye</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD016130_1" sex="W"><persName><name type="praenomen">C.</name><name type="nomen">Valeria*</name><name type="cognomen">Alpina*</name></persName></person><person xml:id="HD016130_2" sex="M"><persName><name type="nomen">Aelius*</name><name type="cognomen">Ressatus</name></persName></person><person xml:id="HD016130_3" sex="W"><persName><name type="nomen">Valeria*</name><name type="cognomen">Aelias</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-10-24" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>C</abbr><ex>aiae</ex></expan> <expan><abbr>Val</abbr><ex>eriae</ex></expan> Alpin<expan><ex>a</ex><abbr>e</abbr></expan> <lb n="2"/>an<expan><ex>n</ex><abbr>orum</abbr></expan> <lb n="3"/>VIII hic sit<lb break="no" n="4"/>a est pat<expan><ex>e</ex><abbr>r</abbr></expan> et <lb n="5"/>mater fili<expan><ex>a</ex><abbr>e</abbr></expan> <lb n="6"/><expan><abbr>ben</abbr><ex>e</ex></expan> mer<expan><ex>e</ex><abbr>nti</abbr></expan> <lb n="7"/>posuerunt <lb n="8"/>et sibi vivis <lb n="9"/><expan><abbr>Ael</abbr><ex>ius</ex></expan> Ressatus <lb n="10"/><expan><abbr>explorat</abbr><ex>or</ex></expan> et <lb n="11"/><expan><abbr>Val</abbr><ex>eria</ex></expan> Aelias <lb n="12"/>mater
+            </ab></div></div>
+            <div type="commentary">
+                <p>(B): Z. 3/4 u.Z. 11/12: keine Angaben des Zeilenfalls.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1966, 0303. (B)</bibl><bibl>CIL 03, 03299.</bibl><bibl>RIU 1030.</bibl><bibl>A.S. Burger, FolA 17, 1965, 103-109; Abb. 34; Abb. 35 (Zeichnung). - AE 1966.</bibl><bibl>A.S. Burger, Die Skulpturen des Stadtgebietes von Sopianae und des Gebietes zwischen der Drau und der Limesstrecke Lussonium - Altinum, CSIR Ungarn 7 (Budapest 1991) 43, Nr. 43; Taf. 16, 2.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

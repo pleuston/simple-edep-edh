@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Municipium Claudium Virunum, bei &amp;ndash; S. Marein/Neumarkt (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD038853</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD038853</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>S. Marein/Neumarkt, S. Georgen/Neumarkt 27 (ehemaliges Schulhaus), vermauert</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">altar?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor, weiß</material><dimensions unit="cm"><height>(98)</height><width>(47)</width><depth>(30)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6.0-4.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197583">Municipium Claudium Virunum, bei</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2766696">S. Marein/Neumarkt</placeName><placeName type="findspot">{S. Georgen/Neumarkt 27} (ehemaliges Schulhaus), sekundär verwendet</placeName><placeName type="region">Steiermark</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD038853_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]unitianus+</name></persName></person><person xml:id="HD038853_2" sex="M"><persName><name type="cognomen">Classicianus+</name></persName></person><person xml:id="HD038853_3" sex="W"><persName><name type="nomen">[---]ulonia</name><name type="cognomen">Secundina+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-05-15" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/>R<gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="2"/><supplied reason="lost">Clas</supplied>siciani <lb n="3"/><supplied reason="lost">f</supplied>ilio <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">u</supplied>nitiano <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/>ulonia <lb n="6"/><supplied reason="lost">Sec</supplied>undina <lb n="7"/><supplied reason="lost"><expan><abbr>con</abbr><ex>iugi</ex></expan></supplied> <expan><abbr>p</abbr><ex>ientissimo</ex></expan> @(obito) <lb n="8"/><supplied reason="lost"><expan><abbr>ann</abbr><ex>norum</ex></expan> <gap reason="lost" quantity="1" unit="character"/></supplied>XIII
+            </ab></div>
+            <div type="commentary">
+                <p>Auf der rechten Nebenseite Darstellung eines Dieners mit geöffneter Buchrolle. Maßangaben beziehen sich auf den bei der heutigen Aufbewahrung sichtbaren Teil. Nach Kremer wohl Schaftblock eines altar- oder pfeilerförmigen Grabbaus. Die Buchstaben R in Z. 1 und V in Z. 4 waren zur Zeit des CIL noch erkennbar.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>E. Weber, Die römerzeitlichen Inschriften der Steiermark (Graz 1969) 336-337, Nr. 281.</bibl><bibl>CIL 03, 05058.</bibl><bibl>ILLPRON 1215.</bibl><bibl>G. Kremer, Antike Grabbauten in Noricum (Wien 2001) 259, Nr. II 322.</bibl><bibl>G. Piccottini, Die Dienerinnen- und Dienerreliefs des Stadtgebietes von Virunum, CSIR Österreich 2, 3 (Wien 1977) 45, Nr. 238; Taf. 18, 238.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

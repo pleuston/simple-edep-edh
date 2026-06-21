@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Salonae, bei &amp;ndash; Solin (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD036449</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD036449</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Split, Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/214">sarcophagus</objectType><dimensions unit="cm"><height>70</height><width>185</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197488">Salonae, bei</placeName></origPlace><origDate><origDate when-custom="0372" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">372 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3190359">Solin</placeName><placeName type="findspot">Manastirine, {Basilika, nördlich}</placeName><placeName type="region">Splitsko-dalmatinska županija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD036449_1" sex="W"><persName><name type="nomen">Αὐρηλία</name><name type="cognomen">Μαθαζιζ</name></persName></person><person xml:id="HD036449_2" sex="M"><persName><name type="cognomen">Μόδεστος+</name></persName></person><person xml:id="HD036449_3" sex="M"><persName><name type="cognomen">Ἀρίνθεος+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-12-07" who="Cowey">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                ὑπατ&amp;lt;εί=Ι&amp;gt;ᾳ Μοδ<supplied reason="lost">έ</supplied>σ<supplied reason="lost">τ</supplied>ο<supplied reason="lost">υ καὶ Ἀρι</supplied>νθέου λαμπ<supplied reason="lost">ρ</supplied>ο<lb break="no" n="2"/>τάτων π<supplied reason="lost">ρ</supplied>ὸ δέ<supplied reason="lost">κα κ</supplied>αλ<supplied reason="lost">αν</supplied>δῶν Ὀκτο<supplied reason="lost">βρ</supplied>ίων Αὐρηλία Μαθαζιζ κώμης Μαγ<supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied>χ<gap reason="lost" extent="unknown" unit="character"/>πιάτων ὅρων Ἀπα<lb break="no" n="3"/>μέων κοίλης Συρί<supplied reason="lost">α</supplied>ς ἐνταῦθα κ&amp;lt;εῖ=Ι&amp;gt;τ&amp;lt;αι=Ε&amp;gt; 
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Der Name Μαθαζιζ wird als vollständig erhaltener Name angegeben nach R. Egger.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILJug 2385. (B)</bibl><bibl>CIL 03, 09505 add. p. 2139.</bibl><bibl>R. Egger, Der altchristliche Friedhof Manastirine nach dem Materiale Fr.</bibl><bibl>Bulić', Forschungen in Salona 2 (Wien 1926) 82, Nr.107. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

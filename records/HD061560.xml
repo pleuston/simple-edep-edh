@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Salonae &amp;ndash; Solin (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD061560</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD061560</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Split, Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material>Gesteine</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197488">Salonae</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3190359">Solin</placeName><placeName type="findspot">Thermen, bei, {Parzelle Nr. 3849 (alter Katasterplan)} - {Parzelle Nr. 3877 (alter Katasterplan)}, zwischen</placeName><placeName type="region">Splitsko-dalmatinska županija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD061560_1" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Accius</name><name type="cognomen">Zosimus+</name></persName></person><person xml:id="HD061560_2" sex="M"><persName><name type="nomen">Aelius</name><name type="cognomen">Hermaiscus*</name></persName></person><person xml:id="HD061560_3" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">Aelius</name><name type="cognomen">I[---]</name></persName></person><person xml:id="HD061560_4" sex="M"><persName><name type="nomen">Accia+</name><name type="cognomen">Amabilis</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-11-08" who="Feraudi">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/><expan><abbr>L</abbr><ex>uci</ex></expan> Acci Zosim<supplied reason="lost">i</supplied> <lb n="3"/><expan><abbr>n<am>n</am></abbr><ex>orum</ex></expan> XIII <expan><abbr>mens</abbr><ex>ium</ex></expan> <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">et</supplied> <lb n="4"/>Aeli <expan><abbr>Hermaisc</abbr><ex>i</ex></expan> <supplied reason="lost"><expan><abbr>ann</abbr><ex>orum</ex></expan></supplied> <lb n="5"/>XXXV <expan><abbr>mens</abbr><ex>ium</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <lb n="6"/>Aelius <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>lib</abbr><ex>ertus</ex></expan> I<gap reason="lost" extent="unknown" unit="character"/> <lb n="7"/><expan><abbr>provinc</abbr><ex>ia</ex></expan> D<supplied reason="lost"><expan><abbr>alm</abbr><ex>atia</ex></expan></supplied> <lb n="8"/><supplied reason="lost">A</supplied>ccia Amabilis <gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/>si<gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Z. 1: Hedera.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 14689; Zeichnung.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

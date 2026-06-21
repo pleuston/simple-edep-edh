@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Ovilava &amp;ndash; Wels (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD035582</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD035582</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Wels, Stadtmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">grave monument?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/74">Konglomerat</material><dimensions unit="cm"><height>112</height><width>87</width><depth>50</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6.7-3.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118901">Ovilava</placeName></origPlace><origDate><origDate notBefore-custom="0131" notAfter-custom="0171" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">131 AD - 171 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1903"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2761524">Wels</placeName><placeName type="findspot">{Minoritenplatz 12}, sekundär verwendet</placeName><placeName type="region">Oberösterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD035582_1" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Sacconius</name><name type="cognomen">Paratus</name></persName></person><person xml:id="HD035582_2" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Antonius</name><name type="cognomen">Clemens</name></persName></person><person xml:id="HD035582_3" sex="M"><persName><name type="cognomen">Rucco*</name></persName></person><person xml:id="HD035582_4" sex="W"><persName><name type="nomen">Sacconia</name><name type="cognomen">Docilis</name></persName></person><person xml:id="HD035582_5" sex="M"><persName><name type="cognomen">Vitalis</name></persName></person><person xml:id="HD035582_6" sex="M"><persName><name type="cognomen">Festus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-06-14" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>M</abbr><ex>arco</ex></expan> Sacconio <lb n="2"/>Parato <lb n="3"/><expan><abbr>an</abbr><ex>norum</ex></expan> LX <lb n="4"/><expan><abbr>patron</abbr><ex>o</ex></expan> optimo <lb n="5"/>et <expan><abbr>M</abbr><ex>arco</ex></expan> Antonio <lb n="6"/>Clementi <expan><abbr>an</abbr><ex>norum</ex></expan> LV <lb n="7"/><expan><abbr>coniug</abbr><ex>i</ex></expan> <expan><abbr>karissim</abbr><ex>o</ex></expan> <lb n="8"/><supplied reason="lost">e</supplied>t Ruc<expan><ex>c</ex><abbr>oni</abbr></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> <expan><abbr>an</abbr><ex>norum</ex></expan> III <lb n="9"/>Sacconia Docilis <lb n="10"/><expan><abbr>fec</abbr><ex>it</ex></expan> sibi <expan><abbr>viv</abbr><ex>ae</ex></expan> et <lb n="11"/>Vitali et Festo <lb n="12"/><expan><abbr>fil</abbr><ex>iis</ex></expan> vivi<supplied reason="lost">s</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Auf der linken Nebenseite ein Diener, auf der rechten eine Dienerin. Nach Kremer wohl Schaftblock eines altar- oder pfeilerförmigen Grabbaus. (B): Schober; Eckhart: Lesung abweichend / unvollständig.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2012, 1078.</bibl><bibl>G. Kremer, Antike Grabbauten in Noricum (Wien 2001) 256-257, Nr. II 309.</bibl><bibl>A. Schober, Die römischen Grabsteine von Noricum und Pannonien (Wien 1923) 140, Nr. 317. (B)</bibl><bibl>L. Eckhart, Die Skulpturen des Stadtgebietes von Ovilava, CSIR Österreich 3, 3 (Wien 1981) 30-31, Nr. 21; Taf. 17, 21. (B)</bibl><bibl>C. Hemmers - S. Traxler, in: Festschrift für Walter Aspernig zum 70. Geburtstag, JbWels 36 (Linz 2012) 42. - AE 2012.</bibl><bibl>I. Weber-Hiden, RŒ 36, 2013, 354, Nr. 14. - AE 2012.</bibl><bibl>ILLPRON 1014.</bibl><bibl>C. Hemmers - S. Traxler, in: Festschrift für Walter Aspernig zum 70. Geburtstag, Jb Wels 36 (Linz 2012) 41-42, Nr. WELS G03. - AE 2012.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

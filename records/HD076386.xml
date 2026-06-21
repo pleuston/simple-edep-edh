@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Andernach (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD076386</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD076386</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bonn, Rhein. Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/30">Tuff</material><dimensions unit="cm"><height>41</height><width>22</width><depth>23</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0171" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1886"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2891830">Andernach</placeName><placeName type="findspot">Kell, Bad Tönisstein, {Mineralbrunnen}, bei</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD076386_1" sex="M"><persName><name type="nomen">Cassius</name><name type="cognomen">Gracilis*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-05-29" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F017500" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/09ca76d8-04bf-4d84-a110-0a43db9fa898/file/id/777109/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <supplied reason="lost" cert="low">I(ovi)</supplied> <expan><abbr>O</abbr><ex>ptimo</ex></expan><certainty match="preceding-sibling::node()" locus="value"/> <supplied reason="lost" cert="low">M(aximo)</supplied> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Apollini et <lb n="2"/>Nimp<expan><ex>h</ex><abbr>is</abbr></expan> <note>sic</note> <lb n="3"/>Volpinis <lb n="4"/>Cassius <lb n="5"/>Gracil<expan><ex>i</ex><abbr>s</abbr></expan> <lb n="6"/><expan><abbr>veteranu</abbr><ex>s</ex></expan> <lb n="7"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Die Oberfläche des Inschriftfeldes ist teilweise stark verwittert. Z. 1 befindet sich auf der corona; möglicherweise jedoch keine Inschriftzeile mit erhaltenem O, sondern Teil eines Dekors. (B): von Grienberger: Z. 4: möglicherweise auch Volpin. oder Volpin[i]s (mit NI-Ligatur); AE 1893: Z. 4: Volpin(i)s; von Grienberger; AE 1893; Lehner: Z. 6: Gracilis; AE 1888: Z. 8: [v.].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1888, 0075. (B)</bibl><bibl>AE 1893, 0113. (B)</bibl><bibl>CIL 13, 07691.</bibl><bibl>K. Matijević, Römische und frühchristliche Zeugnisse im Norden Obergermaniens. Epigraphische Studien zu unterer Mosel und östlicher Eifel (Rahden (Westf.) 2010) 23-26, Nr. 1; Abb. 3.</bibl><bibl>J. Klein, BJ 84, 1887, 63-66. - AE 1888.</bibl><bibl>T. von Grienberger, KWDZ 12, 1893, 107-109, Nr. 52. - AE 1893.</bibl><bibl>H. Lehner, Die antiken Steindenkmäler des Provinzialmuseums in Bonn (Bonn 1918) 84-85, Nr. 168. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

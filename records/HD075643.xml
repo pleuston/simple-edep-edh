@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from (Civitas Vangionum) &amp;ndash; Wolfstein (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD075643</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD075643</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Speyer, Hist. Mus. Pfalz</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">grave monument?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>53</height><width>(62)</width><depth>27</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="#">(Civitas Vangionum)</placeName></origPlace><origDate><origDate notBefore-custom="0051" notAfter-custom="0170" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD - 170 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1855"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/6557921">Wolfstein</placeName><placeName type="findspot">{Reckweilerhof}, Felsenwald</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD075643_1" sex="W"><persName><name type="nomen">[---]</name><name type="cognomen">[---]a?</name></persName></person><person xml:id="HD075643_2"><persName><name type="nomen">Caran[---]?</name><name type="cognomen">Caran[---]?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-02-18" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F039558" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/a1318a61-1095-49de-ad68-9dbb074783af/file/id/800437/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <gap reason="lost" extent="unknown" unit="character"/>IAINONIS <gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>a et Caran<gap reason="lost" extent="unknown" unit="character"/><lb break="no" n="3"/><gap reason="lost" extent="unknown" unit="character"/>OM E T I V S<gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> s</supplied>ibi <surplus>I</surplus> viv<expan><ex>u</ex><abbr>s</abbr></expan> et c<supplied reason="lost">oniugi<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="5"/><supplied reason="lost" cert="low">--- h(eres)</supplied> <expan><abbr>f</abbr><ex>aciendum</ex></expan> <expan><abbr>c</abbr><ex>uravit</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Links und rechts abgebrochener Block, wegen der Breite wohl Teil eines monumentalen Grabbaus. Zu Beginn von Z. 1 noch senkrechte Haste erkennbar. Z. 1 vielleicht [---]ainonis [f(ilius). In Z. 3 großer Buchstabenabstand, [C]ometius, [D]ometius vel sim.? (B): CIL; Hildenbrand; Ditsch: kleinere Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 06176 a. (B)</bibl><bibl>F.J. Hildenbrand, Der römische Steinsaal (Lapidarium) des Historischen Museums der Pfalz zu Speyer (Speyer 1911) 23-24, Nr. 12. (B)</bibl><bibl>S. Ditsch, Dis Manibus. Die römischen Grabdenkmäler aus der Pfalz (Neustadt/Weinstraße 2011) 238, Nr. Wolfstein 05; Taf. 92, 3 u. 4 (Foto u. Zeichnung).</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

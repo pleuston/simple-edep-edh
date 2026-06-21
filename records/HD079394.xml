@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription? from Vindonissa &amp;ndash; Windisch (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD079394</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD079394</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Brugg, Vindonissa-Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">block</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>75</height><width>70</width><depth>35</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">16-14</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/177661">Vindonissa</placeName></origPlace><origDate><origDate notBefore-custom="0041" notAfter-custom="0068" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">41 AD - 68 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2658434">Switzerland</placeName><placeName type="modern" ref="http://www.geonames.org/2657976">Windisch</placeName><placeName type="findspot"/><placeName type="region">Kanton Aargau</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription?</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD079394_1" sex="M"><persName><name type="praenomen">Ti.+?</name><name type="nomen">Claudius+</name><name type="cognomen">Caesar+ Augustus+* Germanicus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-02-17" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F028923" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/f04bb814-5f25-4aec-9eb8-08ffd6058965/file/id/789680/file_version/name/small"/><graphic xml:id="F028924" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/3fde1410-5d92-4d19-93bb-f5a54f4ea713/file/id/789681/file_version/name/small"/><graphic xml:id="F028925" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/8f73a467-0ab4-49e7-a1bb-a864bd927ff6/file/id/789682/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Ti</abbr><ex>berio</ex></expan>? C</supplied>laud<supplied reason="lost">io Ca</supplied>esa<supplied reason="lost">re <expan><abbr>Aug</abbr><ex>usto</ex></expan> Germanico <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">i</supplied>mpe<supplied reason="lost">rat</supplied>ore <gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"><certainty match=".." locus="name"/></gap>
+            </ab></div>
+            <div type="commentary">
+                <p>Die Inschrift lief ursprünglich wohl über mehrere Blöcke hinweg. Zwei nicht aneinanderpassende Fragmente; nach Nesselhauf - Lieb wohl zusammengehörig. Ergänzungsvorschlag nach Nesselhauf - Lieb; möglicherweise auch [Nerone C]laudio.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>H. Nesselhauf - H. Lieb, BRGK 40, 1959, 145-146, Nr. 63.</bibl><bibl>CIL 13, 05224.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

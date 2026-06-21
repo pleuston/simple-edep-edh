@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Alcudia (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD041940</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD041940</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Palma, Mus. del Castillo de Bellver</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>34</height><width>38</width><depth>2</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">0.9-2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Hispania citerior</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1933"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern">Alcudia</placeName><placeName type="findspot">Ca'n Tous</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD041940_1"><persName><name type="nomen">Cornelius*</name><name type="cognomen">Atticus</name><name type="supernomen">signo Pancrati</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2008-06-05" who="Garcia">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <expan><abbr>Cor</abbr><ex>neli</ex></expan> Attici e firmo signo <lb n="2"/>Pancrati hic iacet infelix fato <lb n="3"/>deceptus iniquo solitus <lb n="4"/>assiduis durare membra <lb n="5"/>palaestris arte quoque si<lb break="no" n="6"/>gni sui populo placuitque <lb n="7"/>frequenter qui terra fru<lb break="no" n="8"/>ge creatus et igne ac fumo <lb n="9"/>crematus iam nihil existis <lb n="10"/>nisi quod superfuit igni <lb n="11"/>ossa atque cinis <lb n="12"/>iacent sub te<lb break="no" n="13"/>gmine saxi
+            </ab></div>
+            <div type="commentary">
+                <p>Unter dem Text: hederae und palma.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>C. Veny, Corpus de las inscripciones baleáricas hasta la dominación árabe (Madrid 1965) 52-55, Nr. 30; lám. 12, 23.</bibl><bibl>R. Zucca, Insulae Baliares. Le isole Baleari sotto il dominio romano (Roma 1998) 237-238, Nr. 19; Foto.</bibl><bibl>G. Alföldy, BJ 168, 1968, 550.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

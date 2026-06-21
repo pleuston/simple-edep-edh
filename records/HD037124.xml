@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from (Civitas Alisinensium) &amp;ndash; Billigheim (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD037124</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD037124</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Osterburken, Römermus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">block?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(47)</height><width>88</width><depth>38</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="#">(Civitas Alisinensium)</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1883"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2814849">Billigheim</placeName><placeName type="findspot">{Waldmühlbach}, ehemalige evangelische Kirche, sekundär verwendet</placeName><placeName type="region">Baden-Württemberg</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD037124_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD037124_2"><persName><name type="nomen">Nerto[---]?</name><name type="cognomen">Nerto[---]?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-08-16" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/> <lb n="1"/><expan><abbr>AI</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>I</abbr><ex cert="low"/>R</expan><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied><expan><abbr>I</abbr><ex cert="low"/>I</expan><certainty match="preceding-sibling::node()" locus="value"/><expan><abbr>ORI</abbr><ex cert="low"/>I</expan><certainty match="preceding-sibling::node()" locus="value"/> <expan><abbr>SE</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/><lb break="no" n="2"/><expan><abbr>oL</abbr><ex cert="low"/>ensis</expan> obi<expan><ex>i</ex><abbr>t</abbr></expan> morte <supplied reason="lost" cert="low">procul? a? patria</supplied> <lb n="3"/>sua Cappadocia N<gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">an</supplied><lb break="no" n="4"/>norum XXXV et Nerto<gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Rechts schloss sich wohl noch ein weiterer Stein an, auf dem sich die Inschrift fortsetzte. Z. 5: Nertonius/a, Nertomarius/a oder Nertomarus/a möglich. (B): RSO; Wagner: kleinere Abweichungen in Lesung / Ergänzung.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2010, 1079.</bibl><bibl>CIL 13, 06496.</bibl><bibl>RSO 209. (B)</bibl><bibl>A. Gaubatz-Sattler, FBW 31, 2010, 578. 596, Nr. 9. - AE 2010.</bibl><bibl>E. Wagner, Fundstätten und Funde aus vorgeschichtlicher, römischer und alamannisch-fränkischer Zeit im Grossherzogtum Baden 2. Das Badische Unterland (Tübingen 1911) 401-402; Fig. 316. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

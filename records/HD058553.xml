@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Augusta Vindelicorum &amp;ndash; Augsburg (Raetia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD058553</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD058553</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Augsburg, Röm. Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(72)</height><width>(85)</width><depth>(58)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Raetia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118580">Augusta Vindelicorum</placeName></origPlace><origDate><origDate notBefore-custom="0171" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1506"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2954172">Augsburg</placeName><placeName type="findspot">{Römisches Museum, ehemaliges Dominkanerkloster}</placeName><placeName type="region">Bayern</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD058553_1" sex="M"><persName><name type="nomen">Iulius*</name><name type="cognomen">Amandus</name></persName></person><person xml:id="HD058553_2" sex="W"><persName><name type="nomen">Iulia</name><name type="cognomen">Paterna</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-09-28" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F035502" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/17868e86-3afb-4ca4-8c4f-2da86c92cb17/file/id/796351/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/><expan><abbr>Iul</abbr><ex>io</ex></expan> Amando <expan><abbr>mil</abbr><ex>iti</ex></expan> <lb n="3"/><expan><abbr>leg</abbr><ex>ionis</ex></expan> III <expan><abbr>Ital</abbr><ex>icae</ex></expan> librario co<expan><ex>n</ex><abbr>s</abbr><ex>ularis</ex></expan> <lb n="4"/>vixit annis XXX <lb n="5"/>Iulia Paterna mater <lb n="6"/>fecit sibi et filio <lb n="7"/>pientissimo viva ex <lb n="8"/>pecunia sua fecit
+            </ab></div>
+            <div type="commentary">
+                <p>Mittelteil eines Grabaltars. Auf der linken Nebenseite Ascia. Hedera in Z. 1 und Z. 5. (B): CIL 03, 05814: Z. 3: librari[o].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IBR 125; tab. 17, 125.</bibl><bibl>CIL 03, 05814. (B)</bibl><bibl>G. Gamer - A. Rüsch, Raetia (Bayern südlich des Limes) und Noricum (Chiemseegebiet), CSIR Deutschland 1, 1 (Bonn 1973) 25, Nr. 24; Taf. 9, 24.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

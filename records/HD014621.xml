@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Mogetiana, bei &amp;ndash; Tüskevár (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD014621</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD014621</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Tüskevár, Helytörténeti Múz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(46)</height><width>(58)</width><depth>(32)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7.5-6.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197381">Mogetiana, bei</placeName></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0130" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 130 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3043652">Tüskevár</placeName><placeName type="findspot">{Flur Tüskevár-Kőhányási}, Jagdhaus, sekundär verwendet</placeName><placeName type="region">Veszprém megye</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD014621_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">Flavius*</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-07-06" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan> <expan><abbr>sac</abbr><ex>rum</ex></expan> <lb n="2"/><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied> <expan><abbr>Fl</abbr><ex>avius</ex></expan> Titi <expan><abbr>fil</abbr><ex>ius</ex></expan> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>P</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Aufbewahrungsort nach lupa 7023. Auf der linken Nebenseite eine Victoria, auf der rechten möglicherweise ein Kranz. Z. 3: von P(?) nur die linke obere Ecke erhalten. (B): Kiss; AE 1968: Z. 2: Tit(i); Ertel - Palágyi - Redő: Z. 3: nicht gelesen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1968, 0427. (B)</bibl><bibl>RIU 0360; Abb. 360 (Foto u. Zeichnung).</bibl><bibl>A. Kiss, VeszprémKözl 6, 1967, 47. 52, Nr. 3. (B) - AE 1968.</bibl><bibl>C. Ertel - S. Palágyi - F. Redő, Die Skulpturen des Stadtgebietes von Salla und Mogetiana sowie des Balaton-(Plattensee-)Oberlandes in den Komitaten Zala und Veszprém, CSIR Ungarn 8 (Budapest 1999) 66-67, Nr. 66; Taf. 5, 2, 1 u. 5, 2, 2. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

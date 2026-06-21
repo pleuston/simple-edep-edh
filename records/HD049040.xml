@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from S.-Priest (Lugdunensis)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD049040</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD049040</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>S.-Priest</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><dimensions unit="cm"><height>188</height><width>75</width><depth>67</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">8-3.2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Lugdunensis</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0171" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD - 230 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern">S.-Priest</placeName><placeName type="findspot">mittelalterliche Kirche, sekundär verwendet</placeName><placeName type="region">Auvergne-Rhône-Alpes</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2008-05-19" who="Platz">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/>et memoriae aeter<lb break="no" n="3"/>nae <lb n="4"/>Iuli Victoris pueri <lb n="5"/>qui <note>sic</note> vita ablata est <lb n="6"/>qui vixit an<expan><ex>n</ex><abbr>is</abbr></expan> X <expan><abbr>m</abbr><ex>ensibus</ex></expan> VIII <lb n="7"/><expan><abbr>d</abbr><ex>iebus</ex></expan> XXVIII qui studi<expan><ex>i</ex><abbr>s</abbr></expan> e<lb break="no" n="8"/>docatus est Iulia Sa<lb break="no" n="9"/>turnina et Virellius Matutinus signo Lu<lb break="no" n="10"/>cernio parentes in<lb break="no" n="11"/>felicissimi filio de<lb break="no" n="12"/>siderantissimo fe<lb break="no" n="13"/>cerunt et sibi vivi <lb n="14"/>posuerunt et sub <expan><abbr>asci</abbr><ex>a</ex></expan> <lb n="15"/><expan><abbr>dedicaver</abbr><ex>unt</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1998, 0946.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

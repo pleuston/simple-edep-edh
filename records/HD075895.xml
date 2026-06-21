@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Bonna &amp;ndash; Bonn (Germania inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD075895</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD075895</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Köln, Röm.-Germ. Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(81)</height><width>64</width><depth>19</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/108818">Bonna</placeName></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1892"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2946447">Bonn</placeName><placeName type="findspot">{Münster}, unter</placeName><placeName type="region">Nordrhein-Westfalen</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD075895_1" sex="M"><persName><name type="praenomen">T.</name><name type="nomen">Manilius</name><name type="cognomen">Genialis</name></persName></person><person xml:id="HD075895_2" sex="M"><persName><name type="praenomen">T.</name><name type="nomen">Manilius*</name><name type="cognomen">Iucundus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-02-05" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/><expan><abbr>T</abbr><ex>ito</ex></expan> Manilio Geniali <lb n="3"/><expan><abbr>Agrippin</abbr><ex>ensi</ex></expan> <expan><abbr>stip</abbr><ex>endiorum</ex></expan> XII <lb n="4"/><expan><abbr>T</abbr><ex>itus</ex></expan> M<expan><ex>a</ex><abbr>nilius</abbr></expan> Iucundus <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/>tto <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 08091; Zeichnung.</bibl><bibl>B. Galsterer - H. Galsterer, Die römischen Steininschriften aus Köln, IKöln (2.</bibl><bibl>Aufl.) (Mainz 2010) 341, Nr. 409; Foto.</bibl><bibl>G. Bauchhenß, Germania inferior. Bonn und Umgebung. Militärische Grabdenkmäler, CSIR Deutschland 3, 1 (Bonn 1978) 49, Nr. 34; Taf. 34, 34.</bibl><bibl>G. Bauchhenß, in: M. van Rey, Geschichte der Stadt Bonn 1. Bonn von der Vorgeschichte bis zum Ende der Römerzeit (Bonn 2001) 315; Foto.</bibl><bibl>W. Faust, Die Grabstelen des 2. und 3. Jahrhunderts im Rheingebiet (Köln 1998) 101-102, Nr. 32; Taf. 2, 1.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

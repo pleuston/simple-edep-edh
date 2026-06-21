@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Lopodunum (Civitas Ulpia Sueborum Nicrensium) &amp;ndash; Ladenburg (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD023910</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD023910</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Heidelberg, Kurpfälz. Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/102">honorific/grave/votive column</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>93</height><width>51</width><depth>47</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">2.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118813">Lopodunum (Civitas Ulpia Sueborum Nicrensium)</placeName></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0260" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 260 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1830"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2881980">Ladenburg</placeName><placeName type="findspot">{Mühlgasse 21}</placeName><placeName type="region">Baden-Württemberg</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD023910_1" sex="M"><persName><name type="cognomen">Ursus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-11-22" who="Feraudi">checked through autopsy</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F012369" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/b1f22c2e-a3c9-457d-ae24-e97e54d1d558/file/id/771892/file_version/name/small"/><graphic xml:id="F012370" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/ff7114e2-6ee0-42c8-b19c-9b89b0cba263/file/id/771893/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <supplied reason="lost" cert="low">I(ovi) O(ptimo) M(aximo)</supplied> Ursus </ab></div><div n="2" type="textpart"><ab><lb n="0"/> <gap reason="lost" quantity="1" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Viergötterstein einer Jupitergigantensäule. Die Inschrift befindet sich auf dem Gesims der Vorderseite über der Darstellung der Juno. Die angegebenen Abmessungen beziehen sich auf den Viergötterstein</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2000, 1080.</bibl><bibl>R. Wiegels, Lopodunum II. Inchriften und Kulturdenkmäler aus dem römischen Ladenburg am Neckar (Stuttgart 2000) 37-39, Nr. 5a; Abb. 7a-e. - AE 2000.</bibl><bibl>F. Feraudi-Gruénais - R. Ludwig, Die Heidelberger Römersteine. Bildwerke, Architekturteile und Inschriften im Kurpfälzischen Museum Heidelberg (Heidelberg 2017) 40-41, Nr. 15; Fotos.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

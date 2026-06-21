@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Municipium Claudium Virunum, bei &amp;ndash; Frojach-Katsch (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD039110</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD039110</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Graz, Landesmus. Joanneum, Lapidarium Schloß Eggenberg</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>45</height><width>78</width><depth>6</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.0-4.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197583">Municipium Claudium Virunum, bei</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 230 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1926"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2774628">Frojach-Katsch</placeName><placeName type="findspot">Katsch, {Nekropole}, Grab XVI</placeName><placeName type="region">Steiermark</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD039110_1" sex="W"><persName><name type="nomen">Aelia*</name><name type="cognomen">Vera</name></persName></person><person xml:id="HD039110_2" sex="M"><persName><name type="nomen">S(---)</name><name type="cognomen">Secundinus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-01-29" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <expan><ex>A</ex><abbr>elia</abbr></expan> Vera <lb n="2"/>viva fecit sibi <lb n="3"/>et <abbr>S</abbr> Secundino <lb n="4"/>coniu&amp;lt;g=C&amp;gt;i <expan><abbr>car</abbr><ex>issimo</ex></expan> @(obito) <expan><abbr>an</abbr><ex>norum</ex></expan> L 
+            </ab></div>
+            <div type="commentary">
+                <p>Fundjahr: 1926/27. Nach Kremer Teil eines gemauerten Grabhäuschens. Z. 1: hederae hinter D und M. (B): Schmid; Modrijan - Weber; Kremer: Z. 4: coniugi.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILLPRON 1248.</bibl><bibl>W. Schmid, JŒAI (Beibl.) 25, 1929, 131; Abb. 65. (B)</bibl><bibl>E. Weber, Die römerzeitlichen Inschriften der Steiermark (Graz 1969) 309-310, Nr. 252; Foto.</bibl><bibl>W. Modrijan - E. Weber, SchildStei 14, 1979-1981, 21-22, Nr. 247; Foto. (B)</bibl><bibl>G. Kremer, Antike Grabbauten in Noricum (Wien 2001) 300, Nr. III 21a. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

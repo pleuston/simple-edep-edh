@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Scarbantia, bei &amp;ndash; Sopronkőhida (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD017020</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD017020</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Sopron, Soproni Múz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>74</height><width>33</width><depth>26</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197501">Scarbantia, bei</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1952"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3049576">Sopronkőhida</placeName><placeName type="findspot">{Kecskehegy}, bei</placeName><placeName type="region">Győr-Moson-Sopron megye</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD017020_1" sex="M"><persName ref="http://romans1by1.com/rpeople/18442"><name type="nomen">Li[---]?</name><name type="cognomen">Macer?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-04-07" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Silvano <lb n="2"/><expan><abbr>sa</abbr><ex>crum</ex></expan> <expan><abbr>LI</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/><expan><abbr>MaceR</abbr><ex cert="low"/></expan> <supplied reason="lost" cert="low">--</supplied> <lb n="4"/><expan><abbr>SECI</abbr><ex cert="low"/>M</expan><certainty match="preceding-sibling::node()" locus="value"/><expan><abbr>V</abbr><ex cert="low"/>S</expan><certainty match="preceding-sibling::node()" locus="value"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Oberflache des Inschriftfeldes stark verwittert.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1962, 0382.</bibl><bibl>RIU 0227; Abb. 227 (Foto u. Zeichnung).</bibl><bibl>A. Mócsy, SopSze 10, 1956, 344-346; Zeichnung. - AE 1962.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

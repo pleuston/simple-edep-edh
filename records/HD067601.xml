@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Vindonissa &amp;ndash; Windisch (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD067601</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD067601</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Brugg, Kantonsarchäologie Aargau</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(36)</height><width>(44)</width><depth>5</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4-4.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/177661">Vindonissa</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="2007"><placeName type="country" ref="https://www.geonames.org/2658434">Switzerland</placeName><placeName type="modern" ref="http://www.geonames.org/2657976">Windisch</placeName><placeName type="findspot">{Merkurtempel}, bei</placeName><placeName type="region">Kanton Aargau</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD067601_1" sex="M"><persName><name type="nomen">[---]I[---]</name><name type="cognomen">Iuvenis</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-07-17" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr><supplied reason="lost">Me</supplied>rcur</abbr><ex>io</ex></expan> <lb n="2"/><supplied reason="lost">ex</supplied> voto <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>I<gap reason="lost" extent="unknown" unit="character"/> Iuvenis <lb n="4"/><supplied reason="lost">t</supplied>emplum <expan><abbr>d</abbr><ex>e</ex></expan> <expan><abbr>s</abbr><ex>uo</ex></expan> <lb n="5"/><supplied reason="lost">fa</supplied>ciendum <lb n="6"/><supplied reason="lost"><expan><abbr>c</abbr><ex>uravit</ex></expan></supplied> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>9 aneinanderpassende Fragmente erhalten. Fundjahre: 2007 und 2008. (B): Frei-Stolba; AE 2009: Z. 1: [Deo Me]rcuri[o]; Z. 5: [ad] facie(m) novam; Z. 6: [f(aciendum)] c(uravit).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2009, 0947. (B)</bibl><bibl>AE 2012, 0999.</bibl><bibl>R. Frei-Stolba, Pro Vindonissa 2009, 35-37; Abb. 1. (B) - AE 2009.</bibl><bibl>A. Kolb, AAS 95, 2012, 150; Abb. 7. - AE 2012.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

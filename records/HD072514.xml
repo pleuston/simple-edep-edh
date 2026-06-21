@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Risinium &amp;ndash; Kotor (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD072514</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD072514</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Kotor, Pomorski Muz. Crne Gore</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material>Gesteine</material><dimensions unit="cm"><height>(70)</height><width>30</width><depth>30</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197471">Risinium</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-2000"><placeName type="country" ref="https://www.geonames.org/3194884">Montenegro</placeName><placeName type="modern" ref="http://www.geonames.org/3191631">Kotor</placeName><placeName type="findspot">Risan, {Carine}, nördlich Villa Favorita</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD072514_1" sex="M"><persName><name type="praenomen">Sex.</name><name type="nomen">Caesonius</name><name type="cognomen">Pulcher</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-12-10" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <expan><abbr>s</abbr><ex>acrum</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>S</abbr><ex>exto</ex></expan> Caeso<lb break="no" n="2"/>nio Pulch&amp;lt;r&amp;gt;<lb break="no" n="3"/>o &amp;lt;an=NA&amp;gt;<expan><abbr>n</abbr><ex>orum</ex></expan> XXXVII 
+            </ab></div></div>
+            <div type="commentary">
+                <p>Fundjahr: in den 1990er Jahren. Die Inschrift befindet sich auf der Vorderseite eines Würfels mit kegelförmigem Aufsatz. Z. 1 befindet sich auf dem oberen Rahmen des Inschriftfeldes. Z. 4: N und nachfolgende NA-Ligatur statt AN-Ligatur und nachfolgendes N. (B): Simeunović: Z. 3/4: P(a)ul(inae) CH / on n XXXIIII; Simeunović: Z. 3/4: Pulch[r]/oni [a]n(norum); AE 2011: Z. 4: ann(orum).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2011, 0912. (B)</bibl><bibl>J.J. Martinović, Antički natpisi u Crnoj Gori. Corpus inscriptionum Latinarum et Graecarum Montenegri (Kotor 2011) 70-71, Nr. 40; Foto u. Zeichnung. (B) - AE 2011.</bibl><bibl>A. Simeunović, GodPomMuzKotor 46-49, 1999-2001, 256; sl. 2. (B) - AE 2011.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

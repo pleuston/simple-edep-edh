@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Nedinum, bei &amp;ndash; Škabrnja (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD014585</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD014585</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><dimensions unit="cm"><height>(130)</height><width>(36)</width><depth>17</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197404">Nedinum, bei</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3190764">Škabrnja</placeName><placeName type="findspot">{S. Luke, Kirche}, sekundär verwendet</placeName><placeName type="region">Zadarska županija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD014585_1" sex="W"><persName><name type="nomen">Tresina</name><name type="cognomen">Voltisa</name></persName></person><person xml:id="HD014585_2" sex="W"><persName><name type="nomen">Camunia</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD014585_3" sex="W"><persName><name type="nomen">Titamoca+</name><name type="cognomen">Voltisa+</name></persName></person><person xml:id="HD014585_4" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Titius</name><name type="cognomen">Volses</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-11-05" who="Gräf">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Voltisa Tresina <gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/>Camuniae <expan><abbr>f</abbr><ex>iliae</ex></expan> sua<supplied reason="lost">e et sibi fecit</supplied> <lb n="3"/>Titamoc<supplied reason="lost">a</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/>Volt<supplied reason="lost">isa et</supplied> <lb n="5"/><expan><abbr>C</abbr><ex>aius</ex></expan> Titius <expan><abbr>C</abbr><ex>ai</ex></expan> <supplied reason="lost"><expan><abbr>f</abbr><ex>ilius</ex></expan></supplied> <lb n="6"/>Volses <supplied reason="lost">sibi et</supplied> <lb n="7"/>suis fe<supplied reason="lost">cerunt</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>M. Šegvić, OpuscArchZagreb 20, 1996, 134, Nr. 17.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Ljubuški (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD034253</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD034253</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Sarajevo, Zem. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(45)</height><width>(24)</width><depth>17</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3277605">Bosnia and Herzegovina</placeName><placeName type="modern" ref="http://www.geonames.org/3187888">Ljubuški</placeName><placeName type="findspot">Veljaci, bei, Mlade-Brücke, bei, ehemaliger Friedhof, {S. Elia, Kapelle}, sekundär verwendet</placeName><placeName type="region">Zapadnohercegovački kanton</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD034253_1" sex="M"><persName><name type="cognomen">Hermadion+?</name></persName></person><person xml:id="HD034253_2" sex="W"><persName><name type="cognomen">Heutichiana (= Eutichiana)</name></persName></person><person xml:id="HD034253_3" sex="W"><persName><name type="cognomen">Postuma+?</name></persName></person><person xml:id="HD034253_4" sex="W"><persName><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-10-18" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                ------<certainty match="preceding-sibling::node()" locus="value"/>] <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">pi</supplied><lb break="no" n="3"/><expan><abbr><supplied reason="lost">entis</supplied>sim</abbr><ex>a</ex>e</expan> <expan><abbr>an</abbr><ex>norum</ex></expan> <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">e</supplied>t patri <lb n="5"/><supplied reason="lost" cert="low">Herma</supplied>dioni <lb n="6"/><supplied reason="lost"><expan><abbr>b</abbr><ex>ene</ex></expan> <expan><abbr>m</abbr><ex>erenti</ex></expan> <expan><abbr>ann</abbr><ex>orum</ex></expan></supplied> L Heuti<lb break="no" n="7"/><supplied reason="lost">chian</supplied>a <note>sic</note> et Pos<lb break="no" n="8"/><supplied reason="lost" cert="low">tuma</supplied> <supplied reason="lost">si</supplied>bi et su<lb break="no" n="9"/>[is ------
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILJug 1936.</bibl><bibl>C. Patsch, Zur Geschichte und Topographie von Narona (Wien 1907) 79-80, Nr. 12; Fig 41.</bibl><bibl>CIL 03, 08496.</bibl><bibl>CIL 03, 08504.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

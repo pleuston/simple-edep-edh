@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Roma &amp;ndash; Roma (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD018449</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD018449</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Roma, For. Rom.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/35">architectural member</objectType><dimensions unit="cm"><height>58</height><width>(138)</width><depth>81</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7.5-5.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma</placeName></origPlace><origDate><origDate notBefore-custom="0410" notAfter-custom="0420" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">410 AD - 420 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma</placeName><placeName type="findspot">Curia, hinter</placeName><placeName type="region">Lazio</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD018449_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q159798"><name type="cognomen">Honorius+</name></persName></person><person xml:id="HD018449_2" sex="M"><persName><name type="cognomen">Theodosius+</name></persName></person><person xml:id="HD018449_3" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-11-08" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F011059" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/d398272c-db15-465f-b69b-db4ac40f5723/file/id/770582/file_version/name/small"/><graphic xml:id="F014298" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/37681d4a-c77b-4d84-aa5e-0cc003bd06ad/file/id/773831/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost">Imperantibus <expan><abbr>dd</abbr><ex>ominis</ex></expan> <expan><abbr>nn</abbr><ex>ostris</ex></expan> Honorio et Theodo</supplied>sio <expan><abbr>Aug<am>g</am></abbr><ex>ustis</ex></expan> <lb n="2"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>praef</abbr><ex>ectus</ex></expan> urbi vice</supplied> sacra iudicans repar<supplied reason="lost">avit</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Bartoli, AE 1953: geringfügig abweichende Textwiedergabe und Ergänzungen. Epistyl.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1953, 0068c. (B)</bibl><bibl>CIL 06, 41387; Foto.</bibl><bibl>A. Bartoli, BCAR 73, 1949/50, 81; fig. 3. (B) - AE 1953.</bibl><bibl>A. Bartoli, Curia senatus. Lo scavo e il restauro (Roma 1963) 42; tav. 36,2.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

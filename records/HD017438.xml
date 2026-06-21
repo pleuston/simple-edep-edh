@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Lepcis Magna &amp;ndash; Al Khums (Africa Proconsularis)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD017438</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD017438</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/53">base</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(43)</height><width>(24)</width><depth>(13)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-5.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Africa Proconsularis</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/344448">Lepcis Magna</placeName></origPlace><origDate><origDate notBefore-custom="0301" notAfter-custom="0330" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">301 AD - 330 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2215636">Libya</placeName><placeName type="modern" ref="http://www.geonames.org/2219905">Al Khums</placeName><placeName type="findspot">{Forum Severianum}</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD017438_1" sex="M"><persName><name type="praenomen">-</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-05-24" who="Bigi">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/>V<gap reason="lost" extent="unknown" unit="character"/> <lb n="1"/><expan><abbr>v</abbr><ex>iro</ex></expan> <expan><abbr>p</abbr><ex>erfectissimo</ex></expan> age<supplied reason="lost">nti vices</supplied> <lb n="2"/><expan><abbr>praeff</abbr><ex>ectorum</ex></expan> <supplied reason="lost">praetorio</supplied> <lb n="3"/>ob in<gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied>PA<gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>The inscription is carved over an erased earlier text. Datierung: probably before 318.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1957, 0233.</bibl><bibl>I. Tantillo - F. Bigi (Hrsg.), Leptis Magna. Una città e le sue iscrizioni in epoca tardoromana (Cassino 2010) 355 u. 356, Nr. 25.</bibl><bibl>J. Reynolds, PBSR 23, 1955, 127, Nr. 6. - AE 1957.</bibl><bibl>IRT 978.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

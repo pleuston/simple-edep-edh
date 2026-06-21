@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Antunnacum &amp;ndash; Andernach (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD079483</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD079483</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Andernach, Stadtmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/260">slab</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>80</height><width>24</width><depth>12</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3-4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/108746">Antunnacum</placeName></origPlace><origDate><origDate notBefore-custom="0401" notAfter-custom="0600" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">401 AD - 600 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1900"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2956206">Andernach</placeName><placeName type="findspot"/><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD079483_1" sex="M"><persName><name type="cognomen">Daniulfus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-08-19" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Hic requies<lb break="no" n="2"/>cit in pace <lb n="3"/>Daniulfus <lb n="4"/>karus paren<lb break="no" n="5"/>tebus <note>sic</note> qui vi<lb break="no" n="6"/>xit in secolo <note>sic</note> <lb n="7"/>annus <note>sic</note> LX&amp;lt;I=L&amp;gt;V <lb n="8"/>o&amp;lt;b=D&amp;gt;iet <note>sic</note> in pace <lb n="9"/>meruit ha<lb break="no" n="10"/>bire <note>sic</note> tumolo <note>sic</note> <lb n="11"/>in adries <note>sic</note> s<expan><ex>an</ex><abbr>c</abbr><ex>t</ex><abbr>i</abbr></expan> <lb n="12"/>Petri depo<lb break="no" n="13"/>si&amp;lt;t=C&amp;gt;io eius 
+            </ab></div>
+            <div type="commentary">
+                <p>Oben bestoßen. (B): Abweichungen in Lesung/Ergänzung.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILCV 2175. (B)</bibl><bibl>H. Lehner, BJ 105, 1900, 129, Nr. 1; Taf. 15, 1.</bibl><bibl>M.-P. Terrien, La christianisation de la région rhénane du IVe au milieu du VIIIe siècle. Corpus (Besançon 2007) 23. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

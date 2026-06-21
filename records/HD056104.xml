@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Military diploma from Quintana &amp;ndash; Künzing (Raetia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD056104</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD056104</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>(9)</height><width>(5)</width><depth>0</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Raetia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118919">Quintana</placeName></origPlace><origDate><origDate when-custom="0160" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">160 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1996"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2882431">Künzing</placeName><placeName type="findspot">{Käserfeld}</placeName><placeName type="region">Bayern</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/91">military diploma</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2010-04-15" who="Platz">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><supplied reason="lost">XXV stipen</supplied>di<expan><ex>i</ex><abbr>s</abbr></expan> e<supplied reason="lost">merit</supplied>is dimis<lb break="no" n="2"/><supplied reason="lost">sis honest</supplied>a missione quorum no<lb break="no" n="3"/><supplied reason="lost">mina subsc</supplied>ripta sunt civitatem <lb n="4"/><supplied reason="lost">Romanam</supplied> qui eorum non haberent <lb n="5"/><supplied reason="lost">dedit et co</supplied>nubium cum uxoribus quas <lb n="6"/><supplied reason="lost">tunc habuis</supplied>sent cum est civitas i<expan><ex>i</ex><abbr>s</abbr></expan> da<lb break="no" n="7"/><supplied reason="lost">ta aut cum <expan><abbr>i</abbr><ex>i</ex>s</expan></supplied> quas postea duxissent <lb n="8"/><supplied reason="lost">dumtaxat si</supplied>ngulis <expan><abbr>a</abbr><ex>nte</ex></expan> <expan><abbr>d</abbr><ex>iem</ex></expan> XV <expan><abbr>K</abbr><ex>alendas</ex></expan> <expan><abbr>Ian</abbr><ex>uarias</ex></expan> <lb n="9"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> Ninnio<certainty locus="name" match="preceding-sibling::text()" cert="low"/> Hasti</supplied>ano <expan><abbr>Ti</abbr><ex>berio</ex></expan> Oclatio Severo co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> <lb n="10"/><supplied reason="lost"><expan><abbr>coh</abbr><ex>ortis</ex></expan> V Br</supplied><expan><abbr>acaraug</abbr><ex>ustanorum</ex></expan> cui prae<expan><ex>e</ex><abbr>st</abbr></expan> <lb n="11"/><supplied reason="lost">Iuliu</supplied>s Celerinus <lb n="12"/>ex pedite <lb n="13"/><supplied reason="lost">Victori</supplied> Sendusis <expan><abbr>f</abbr><ex>ilio</ex></expan> <expan><abbr>Runic</abbr><ex>ati</ex></expan> <lb n="14"/><supplied reason="lost">et Prima</supplied>e Masi <expan><abbr>fil</abbr><ex>iae</ex></expan> <expan><abbr>ux</abbr><ex>ori</ex></expan> eius <expan><abbr>Caten</abbr><ex>ati</ex></expan> <lb n="15"/><supplied reason="lost"><expan><abbr>descript</abbr><ex>um</ex></expan></supplied> et <expan><abbr>recognit</abbr><ex>um</ex></expan> ex <expan><abbr>tabul</abbr><ex>a</ex></expan> <expan><abbr>aer</abbr><ex>ea</ex></expan> <lb n="16"/><supplied reason="lost">quae fixa e</supplied>st <expan><abbr>Rom</abbr><ex>ae</ex></expan> in <expan><abbr>mur</abbr><ex>o</ex></expan> post <expan><abbr>templ</abbr><ex>um</ex></expan> <lb n="17"/><supplied reason="lost">divi Au</supplied><expan><abbr>g</abbr><ex>usti</ex></expan> ad M<supplied reason="lost">inervam</supplied> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> ------ I] <lb n="2"/><supplied reason="lost"><expan><abbr>Flav</abbr><ex>ia</ex></expan> <expan><abbr>Canathenor</abbr><ex>um</ex></expan> |(milliaria) sa</supplied><expan><abbr>g</abbr><ex>ittaria</ex></expan> et I <expan><abbr>Breucor</abbr><ex>um</ex></expan> et I <lb n="3"/><supplied reason="lost">et II <expan><abbr>Raetor</abbr><ex>um</ex></expan> et II A</supplied><expan><abbr>quitanor</abbr><ex>um</ex></expan> et <expan><abbr>II</abbr><ex>I</ex></expan> Bracar<lb break="no" n="4"/><supplied reason="lost"><expan><abbr>aug</abbr><ex>ustanorum</ex></expan> et III <expan><abbr>Thrac</abbr><ex>um</ex></expan> ve</supplied><expan><abbr>t</abbr><ex>erana</ex></expan> et III <expan><abbr>Thrac</abbr><ex>um</ex></expan> <expan><abbr>c</abbr><ex>ivium</ex></expan> <expan><abbr>R</abbr><ex>omanorum</ex></expan> et III Bri<lb break="no" n="5"/><supplied reason="lost"><expan><abbr>tann</abbr><ex>orum</ex></expan> et IIII <expan><abbr>Gallor</abbr><ex>um</ex></expan></supplied> et V <expan><abbr>Bracaraug</abbr><ex>ustanorum</ex></expan> et IX <lb n="6"/><supplied reason="lost"><expan><abbr>Batavor</abbr><ex>um</ex></expan> |(milliaria) et VI Lusi</supplied><expan><abbr>tanor</abbr><ex>um</ex></expan> et sunt in Raetia <lb n="7"/><supplied reason="lost">sub</supplied><gap reason="lost" extent="unknown" unit="character"/>o <expan><abbr>proc</abbr><ex>uratore</ex></expan> XXV <expan><abbr>stipend</abbr><ex>iis</ex></expan> <lb n="8"/><supplied reason="lost">emeritis dimissis</supplied> honesta missione quo<lb break="no" n="9"/><supplied reason="lost">rum nomina subs</supplied>cripta sunt <expan><abbr>civitat</abbr><ex>em</ex></expan> <lb n="10"/><supplied reason="lost">Romanam qui eorum</supplied> non haberent dedit et <lb n="11"/><supplied reason="lost">conubium cum uxori</supplied>bus quas tunc <expan><abbr>habuiss</abbr><ex>ent</ex></expan> <lb n="12"/><supplied reason="lost">cum est civitas <expan><abbr>i</abbr><ex>i</ex>s</expan> da</supplied>ta aut cum i<expan><ex>i</ex><abbr>s</abbr></expan> quas postea <lb n="13"/><supplied reason="lost">duxissent dum</supplied>taxat singulis </ab></div><div n="3" type="textpart"><ab><lb n="1"/> <expan><abbr>A</abbr><ex>nte</ex></expan> <expan><abbr>d</abbr><ex>iem</ex></expan> XV <expan><abbr>K</abbr><ex>alendas</ex></expan> I<supplied reason="lost"><expan><abbr>an</abbr><ex>uarias</ex></expan></supplied> <lb n="2"/><expan><ex>H</ex><abbr>astiano</abbr></expan> Sev<supplied reason="lost">ero <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan></supplied> <lb n="3"/><expan><abbr>coh</abbr><ex>ortis</ex></expan> V B<supplied reason="lost">r</supplied>acarau<supplied reason="lost"><expan><abbr>g</abbr><ex>ustanorum</ex></expan> cui <expan><abbr>prae</abbr><ex>e</ex>st</expan></supplied> <lb n="4"/>Iulius Celerinus <lb n="5"/><supplied reason="lost">e</supplied>x pedit<supplied reason="lost">e</supplied> <lb n="6"/>Victori Se<supplied reason="lost">n</supplied>dusis <expan><abbr>f</abbr><ex>ilio</ex></expan> <supplied reason="lost"><expan><abbr>Runic</abbr><ex>ati</ex></expan></supplied> <lb n="7"/>et Prima<supplied reason="lost">e</supplied> Masi <expan><abbr>fil</abbr><ex>iae</ex></expan> <expan><abbr>ux</abbr><ex>ori</ex></expan> <supplied reason="lost">eius <expan><abbr>Caten</abbr><ex>ati</ex></expan></supplied> <lb n="8"/><expan><abbr>descript</abbr><ex>um</ex></expan> e<supplied reason="lost">t r</supplied><expan><abbr>ecognit</abbr><ex>um</ex></expan> ex <supplied reason="lost"><expan><abbr>tabul</abbr><ex>a</ex></expan> <expan><abbr>aer</abbr><ex>ea</ex></expan></supplied> <lb n="9"/>quae <expan><abbr>fix</abbr><ex>a</ex></expan> est <supplied reason="lost">R</supplied>omae in mu<supplied reason="lost">ro post <expan><abbr>templ</abbr><ex>um</ex></expan></supplied> <lb n="10"/><supplied reason="lost">div</supplied>i Au<supplied reason="lost"><expan><abbr>g</abbr><ex>usti</ex></expan></supplied> ad M<supplied reason="lost">inervam</supplied> </ab></div><div n="4" type="textpart"><ab><lb n="1"/> <supplied reason="lost"><expan><abbr>M</abbr><ex>arci</ex></expan> S</supplied>ervili <supplied reason="lost">Getae</supplied> <lb n="2"/><expan><abbr>L</abbr><ex>uci</ex></expan> Pulli <supplied reason="lost">Chresimi</supplied> <lb n="3"/><expan><abbr>M</abbr><ex>arci</ex></expan> Sentili <supplied reason="lost">Iasi</supplied> <lb n="4"/><expan><abbr>Ti</abbr><ex>beri</ex></expan> Iuli <supplied reason="lost">Felicis</supplied> <lb n="5"/><expan><abbr>C</abbr><ex>ai</ex></expan> Belli <supplied reason="lost">Urbani</supplied> <lb n="6"/><expan><abbr>P</abbr><ex>ubli</ex></expan> Graecin<supplied reason="lost">i Crescentis</supplied> <lb n="7"/><expan><abbr>P</abbr><ex>ubli</ex></expan> Ocili <supplied reason="lost">Prisci</supplied>
+            </ab></div></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1999, 1190.</bibl><bibl>AE 1999, 1191.</bibl><bibl>AE 2000, 1139.</bibl><bibl>AE 2002, 1084.</bibl><bibl>AE 2004, 1064.</bibl><bibl>RMD 278.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

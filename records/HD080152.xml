@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Lousonna &amp;ndash; Lausanne (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD080152</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD080152</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Lausanne, Musée</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/177565">Lousonna</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1856"><placeName type="country" ref="https://www.geonames.org/2658434">Switzerland</placeName><placeName type="modern" ref="http://www.geonames.org/2659994">Lausanne</placeName><placeName type="findspot"/><placeName type="region">Canton de Vaud</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD080152_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Iulius*</name><name type="cognomen">Lucanus</name></persName></person><person xml:id="HD080152_2" sex="W"><persName><name type="nomen">Iulia*</name><name type="cognomen">Censorina</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-08-24" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F040492" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/beaa5ddf-b20b-4bdb-b65d-598ac78293ce/file/id/801374/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>C</abbr><ex>aius</ex></expan> <expan><abbr>Iul</abbr><ex>ius</ex></expan> Lucanus <lb n="2"/>emeritus <lb n="3"/><expan><abbr>t</abbr><ex>estamento</ex></expan> <expan><abbr>p</abbr><ex>oni</ex></expan> <expan><abbr>i</abbr><ex>ussit</ex></expan> <lb n="4"/><expan><abbr>Iul</abbr><ex>ia</ex></expan> Censorina <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>f</abbr><ex>aciendum</ex></expan> <expan><abbr>cur</abbr><ex>avit</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Oberer Teil einer Stele mit verziertem Giebel und Akroteren. Z. LL-Ligatur; A in C eingeschrieben; Z. 2: TP-Ligatur; Z. 3: E in C eingeschrieben, O und S verschränkt; IN-Ligatur; Z. 4: VR-Ligatur klein in C eingeschrieben.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 05029.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from (Civitas Ulpia Sueborum Nicrensium) &amp;ndash; Heidelberg (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD036467</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD036467</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Heidelberg, Kurpfälz. Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(206)</height><width>86</width><depth>25</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6-3.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118731">(Civitas Ulpia Sueborum Nicrensium)</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1901"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/8505030">Heidelberg</placeName><placeName type="findspot">Bergheim, {Vangerowstraße / Kirchstraße, Ecke}, merowingerzeitliches Plattengrab, sekundär verwendet</placeName><placeName type="region">Baden-Württemberg</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD036467_1" sex="M"><persName><name type="cognomen">Vigellius</name></persName></person><person xml:id="HD036467_2" sex="M"><persName><name type="cognomen">Nonnus</name></persName></person><person xml:id="HD036467_3" sex="M"><persName><name type="nomen">Iulius</name><name type="cognomen">Tertius</name></persName></person><person xml:id="HD036467_4" sex="W"><persName><name type="cognomen">Callia*?</name></persName></person><person xml:id="HD036467_5" sex="M"><persName><name type="cognomen">Blandus*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-06-22" who="Feraudi">checked through autopsy</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F012424" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/cfbcfa4a-6939-4888-a0be-c82db723a3eb/file/id/771947/file_version/name/small"/><graphic xml:id="F030445" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/85adaa6c-c295-4299-b541-396624863a85/file/id/791202/file_version/name/small"/><graphic xml:id="F030446" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/052f88a6-dac8-4a02-b8fb-ff31f1b2cc9a/file/id/791203/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/>Vigellius Nonni <expan><abbr>an</abbr><ex>norum</ex></expan> <lb n="3"/>XVII Iulio Tertio et Cal<expan><ex>l</ex><abbr>i</abbr><ex>a</ex><abbr>e</abbr></expan><certainty match="preceding-sibling::node()" locus="value"/> <lb n="4"/>coniugi su<expan><ex>a</ex><abbr>e</abbr></expan> Nonnus <expan><abbr>Bland</abbr><ex>i</ex></expan> <lb n="5"/><expan><abbr>faciend</abbr><ex>um</ex></expan> <expan><abbr>c</abbr><ex>uravit</ex></expan> filio et su<expan><ex>a</ex><abbr>e</abbr></expan> <expan><abbr>c</abbr><ex>oniugi</ex></expan> pi<expan><ex>i</ex><abbr>ss</abbr><ex>imae</ex></expan> <lb n="6"/><expan><abbr>d</abbr><ex>e</ex></expan> <expan><abbr>s</abbr><ex>ua</ex></expan> <expan><abbr>p</abbr><ex>ecunia</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Material: roter Bundsandstein.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 11738.</bibl><bibl>RSO 206.</bibl><bibl>E. Wagner, Fundstätten und Funde aus vorgeschichtlicher, römischer und alamannisch-fränkischer Zeit im Grossherzogtum Baden 2. Das Badische Unterland (Tübingen 1911) 296-297, Nr. 1; Abb. 247.</bibl><bibl>É. Espérandieu, Recueil général des bas-reliefs, statues et bustes de la Germanie romaine (Paris - Bruxelles 1931) 272-273, Nr. 419; Foto.</bibl><bibl>F. Feraudi-Gruénais - R. Ludwig, Die Heidelberger Römersteine. Bildwerke, Architekturteile und Inschriften im Kurpfälzischen Museum Heidelberg (Heidelberg 2017) 84-85, Nr. 47; Foto.</bibl><bibl>W. Faust, Die Grabstelen des 2. und 3. Jahrhunderts im Rheingebiet (Köln 1998) 111, Nr. 59.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

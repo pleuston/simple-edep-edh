@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Carnuntum, bei &amp;ndash; Donnerskirchen (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD046281</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD046281</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Eisenstadt, Landesmus. Burgenland</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">stele?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(93)</height><width>(45)</width><depth>13</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6.5-4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/128376">Carnuntum, bei</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1960"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2780842">Donnerskirchen</placeName><placeName type="findspot">römische Villa, {Parzelle Nr. 925 oder 926}</placeName><placeName type="region">Burgenland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD046281_1" sex="W"><persName><name type="cognomen">Dagela</name></persName></person><person xml:id="HD046281_2" sex="M"><persName><name type="cognomen">Crinitus</name></persName></person><person xml:id="HD046281_3" sex="M"><persName><name type="cognomen">Antelus Primus</name></persName></person><person xml:id="HD046281_4" sex="W"><persName><name type="cognomen">Calia*</name></persName></person><person xml:id="HD046281_5" sex="M"><persName><name type="cognomen">Primigenius</name></persName></person><person xml:id="HD046281_6" sex="M"><persName><name type="cognomen">Lupus</name></persName></person><person xml:id="HD046281_7" sex="M"><persName><name type="cognomen">Ingenuus</name></persName></person><person xml:id="HD046281_8" sex="M"><persName><name type="cognomen">Valens</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-04-19" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F025731" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/d5639b91-1e71-40c5-b38d-3d070c5b12d3/file/id/786483/file_version/name/small"/><graphic xml:id="F025732" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/bf4a3cd6-d421-4a89-96e7-38729c7d099c/file/id/786484/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Dagela <lb n="2"/>Criniti <supplied reason="lost">f</supplied><lb break="no" n="3"/>ilia posui<supplied reason="lost" cert="low">t</supplied> <lb n="4"/>Antelo Prim<lb break="no" n="5"/>o liberto <expan><abbr>an</abbr><ex cert="low">norum</ex></expan> <supplied reason="lost" cert="low">-</supplied> <lb n="6"/>I et Cali<expan><ex>a</ex><abbr>e</abbr></expan> co<lb break="no" n="7"/><expan><abbr>i</abbr><ex cert="low">ugi</ex></expan> et Primige<lb break="no" n="8"/>nio et Lupo <expan><abbr>II</abbr><ex cert="low"/></expan> <lb n="9"/>et Ingenuo <expan><abbr>f</abbr><ex>ili--</ex></expan> <lb n="10"/>et Valenti <lb n="11"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>I</abbr><ex cert="low"/>P</expan><certainty match="preceding-sibling::node()" locus="value"/><expan><abbr>I</abbr><ex cert="low"/>I</expan><certainty match="preceding-sibling::node()" locus="value"/><expan><abbr>I</abbr><ex cert="low"/>I</expan><certainty match="preceding-sibling::node()" locus="value"/><expan><abbr>I</abbr><ex cert="low"/>I</expan><certainty match="preceding-sibling::node()" locus="value"/><expan><abbr>I</abbr><ex cert="low"/></expan> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Fundjahr: in den 1950er Jahren. Oberfläche teilweise stark verrieben. Reste von roter Farbe in den Buchstaben. Buchstabe E in Form von II geschrieben. Teilweise wurden Quer- oder Schräghasten weggelassen. (B): Diebold; Weber - Beutler-Kränzl - Selinger - Pesditschek; AE 2002: Lesung abweichend / unvollständig.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2002, 1137.</bibl><bibl>E. Weber - F. Beutler-Kränzl - R. Selinger - M. Pesditschek, in: H. Taeuber (Hrsg.), Akten des 7. Österreichischen Althistorikertages. Mit einem Anhang: Annona epigraphica Austriaca 1993-1998 (Wien 2001) 73, Nr. 251. - AE 2002.</bibl><bibl>A. Diebold, Die römerzeitlichen Steindenkmäler des Eisenstädter Landesmuseums und ihre Bedeutung für den nordwestpannonischen Raum 1. Katalog (Diss. Wien 1993) 23-24; Taf. 7.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

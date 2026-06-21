@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Acruvium &amp;ndash; Kotor (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD072517</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD072517</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Kotor, Pomorski Muz. Crne Gore</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">altar?</objectType><material>Gesteine</material><dimensions unit="cm"><height>95</height><width>63</width><depth>58</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7-4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197097">Acruvium</placeName></origPlace><origDate><origDate notBefore-custom="0131" notAfter-custom="0170" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">131 AD - 170 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1987"><placeName type="country" ref="https://www.geonames.org/3194884">Montenegro</placeName><placeName type="modern" ref="http://www.geonames.org/3197538">Kotor</placeName><placeName type="findspot">{S. Tripun, Kathedrale}, bei, Ursprungskirche, sekundär verwendet</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD072517_1" sex="W"><persName><name type="nomen">Iulia</name><name type="cognomen">Crispina</name></persName></person><person xml:id="HD072517_2" sex="M"><persName><name type="nomen">Statius</name><name type="cognomen">Cilo</name></persName></person><person xml:id="HD072517_3" sex="M"><persName><name type="nomen">Egnatius</name><name type="cognomen">Kapito</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-12-11" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F036649" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/595a1e21-e2c9-41a1-8bbe-50cdfc8eac15/file/id/797509/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Iuliae <lb n="2"/>Crispinae <lb n="3"/>ex testamento <lb n="4"/>Stati Cilonis <lb n="5"/>Egnatius <lb n="6"/>Kapito &amp;lt;g=C&amp;gt;ener <lb n="7"/>posuit 
+            </ab></div>
+            <div type="commentary">
+                <p>Mittelteil eines Altars oder einer Statuenbasis. Z. 2 (Ende): Buchstabe E auf dem Foto bei Martinović nicht sicher zu erkennen. Z. 3 (Ende): Buchstabe O auf dem Foto bei Martinović nicht sicher zu erkennen. (B): Martinović: Z. 1: Iulia; Z. 2: Crispina; Z. 3: test(amento); Z. 6: Rapito gener; AE 2011: Z. 6: gener.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2011, 0905. (B)</bibl><bibl>J.J. Martinović, Antički natpisi u Crnoj Gori. Corpus inscriptionum Latinarum et Graecarum Montenegri (Kotor 2011) 49-50, Nr. 13; Foto u. Zeichnung. (B) - AE 2011.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

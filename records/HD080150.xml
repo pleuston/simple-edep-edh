@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Noviodunum &amp;ndash; Nyon (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD080150</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD080150</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Nyon, Mus. Rom.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">block?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(79)</height><width>(91)</width><depth>42</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3-8</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109216">Noviodunum</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1650"><placeName type="country" ref="https://www.geonames.org/2658434">Switzerland</placeName><placeName type="modern" ref="http://www.geonames.org/2659422">Nyon</placeName><placeName type="findspot">{Notre Dame, Kirche}, Friedhof, sekundär verwendet</placeName><placeName type="region">Canton de Vaud</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD080150_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Lucconius</name><name type="cognomen">Tetricus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-02-17" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>C</abbr><ex>ai</ex></expan> Lucconi Co<supplied reason="lost"><expan><abbr>rn</abbr><ex>elia</ex></expan></supplied> <lb n="2"/>Tetrici praefec<supplied reason="lost">ti</supplied> <lb n="3"/><expan><abbr>arcend</abbr><ex>orum</ex></expan> latroc<supplied reason="lost"><expan><abbr>in</abbr><ex>iorum</ex></expan></supplied> <lb n="4"/><expan><abbr>praefect</abbr><ex>i</ex></expan> pro IIvir<supplied reason="lost">o</supplied> <lb n="5"/><expan><abbr>IIvir</abbr><ex>i</ex></expan> bis flaminis <lb n="6"/><expan><abbr>August</abbr><ex>i</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Oben und rechts abgebrochener Block, wohl von einem größeren Grabmonument, in der Oberseite Dübellöcher.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 05010.</bibl><bibl>AE 1994, 1288.</bibl><bibl>AE 2002, 1052.</bibl><bibl>J.-L. Veuthey, EL 1994, 2, 69-82; Photo 1. - AE 1994.</bibl><bibl>E. Grzybek, Genava 50, 2002, 309-316; Fotos. - AE 2002.</bibl><bibl>G. Walser, Römische Inschriften in der Schweiz 1 (Bern 1979) 102-103, Nr. 47; Foto.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

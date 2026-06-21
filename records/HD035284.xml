@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Iuvavum, bei &amp;ndash; Mondsee (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD035284</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD035284</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mondsee, S. Michael, Klosterkirche, Vorhalle, vermauert</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>76</height><width>70</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.5-2.7</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/187432">Iuvavum, bei</placeName></origPlace><origDate><origDate notBefore-custom="0131" notAfter-custom="0170" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">131 AD - 170 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2771277">Mondsee</placeName><placeName type="findspot">{S. Michael, Klosterkirche}, Turm, sekundär verwendet</placeName><placeName type="region">Oberösterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD035284_1" sex="M"><persName><name type="cognomen">Serenus</name></persName></person><person xml:id="HD035284_2" sex="M"><persName><name type="nomen">Claudius*</name><name type="cognomen">Ario</name></persName></person><person xml:id="HD035284_3" sex="W"><persName><name type="cognomen">Praesentina</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-06-11" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Serenus <expan><abbr>Cl</abbr><ex>audi</ex></expan> Arionis <expan><abbr>f</abbr><ex>ilius</ex></expan> <lb n="2"/>Praesentinae <expan><abbr>con</abbr><ex>iugi</ex></expan> <lb n="3"/>optimae <expan><abbr>ob</abbr><ex>itae</ex></expan> <expan><abbr>an</abbr><ex>norum</ex></expan> LIII et <lb n="4"/>patri <expan><abbr>ob</abbr><ex>ito</ex></expan> <expan><abbr>an</abbr><ex>norum</ex></expan> <expan><abbr>C</abbr><ex cert="low"/>II</expan> et sibi <lb n="5"/><expan><abbr>v</abbr><ex>ivus</ex></expan> <expan><abbr>f</abbr><ex>ecit</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Material: sogenannter Untersberger Marmor. Oberhalb des Inschriftfeldes die Büsten einer Frau mit sogenannter norischer Haube und eines Mannes. (B): CIL III; ILLPRON; Heger: Z. 1/2: Arionis / Praesentinae; Z. 4: LXII.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 05627. (B)</bibl><bibl>ILLPRON 0994. (B)</bibl><bibl>N. Heger, Die Skulpturen des Stadtgebietes von Iuvavum, CSIR Österreich 3, 1 (Wien 1975) 37, Nr. 63; Taf. 28, 63. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

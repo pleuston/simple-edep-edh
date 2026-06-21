@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription from Bán (Pannonia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD074780</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD074780</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material>Gesteine</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia inferior</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3055399">Bán</placeName><placeName type="findspot"/><placeName type="region">Baranya megye</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/143" xml:lang="en">unknown</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD074780_1" sex="M"><persName><name type="nomen">Aurelius*</name><name type="cognomen">Cons[---]erus?</name></persName></person><person xml:id="HD074780_2" sex="M"><persName><name type="cognomen">Venantius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-02-27" who="Feraudi">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Deo <expan><abbr>Lib</abbr><ex>ero</ex></expan> Patri <lb n="2"/><expan><abbr>Aur</abbr><ex>elius</ex></expan> <expan><abbr>Cons</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/>erus <lb n="3"/>ex <expan><abbr>pro<supplied reason="lost">c</supplied>ura</abbr><ex>tore</ex></expan> <expan><abbr>arm</abbr><ex>amentarii</ex></expan> <lb n="4"/>inst<expan><ex>rumentorum</ex><abbr>qcui</abbr></expan> viribus <lb n="5"/>suis inseruit <lb n="6"/>per <expan><abbr>instant</abbr><ex>ia</ex></expan> Ve<lb break="no" n="7"/>nanti <expan><abbr>fili</abbr><ex>i</ex></expan> sui <lb n="8"/>vineae <expan><abbr>arp</abbr><ex>ennes</ex></expan> CCCC <lb n="9"/>ex his V CVPEN<supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied>S <lb n="10"/>V TERMINI<gap reason="lost" extent="unknown" unit="character"/><expan><abbr>ID</abbr><ex cert="low"/></expan> <lb n="11"/>V VALLESIBUS <lb n="12"/>V caballi RI<gap reason="lost" extent="unknown" unit="character"><certainty match=".." locus="name"/></gap>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 03294; Zeichnung.</bibl><bibl>CIL 03, 10275; Zeichnung.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Colonia Claudia Augusta? Agrippinensium &amp;ndash; Köln (Germania inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD075886</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD075886</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Köln, Röm.-Germ. Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">stele?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(26)</height><width>(18)</width><depth>10</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/108751">Colonia Claudia Augusta? Agrippinensium</placeName></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1856"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2886242">Köln</placeName><placeName type="findspot">{S. Kunibert, Kirche}, bei?</placeName><placeName type="region">Nordrhein-Westfalen</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD075886_1" sex="M"><persName><name type="nomen">[---]sulius</name><name type="cognomen">N[---]</name></persName></person><person xml:id="HD075886_2" sex="W"><persName><name type="nomen">Secundinia+</name><name type="cognomen">Fruenda+?</name></persName></person><person xml:id="HD075886_3" sex="W"><persName><name type="cognomen">Audacta</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-01-17" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/><lb break="no" n="1"/>sulius N<gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><expan><abbr>m</abbr><ex>iles</ex></expan> <expan><abbr>n</abbr><ex>umeri</ex></expan> Ger<supplied reason="lost"><expan><abbr>m</abbr><ex>anicianorum</ex></expan> Secu</supplied><lb break="no" n="3"/>ndinia Fru<supplied reason="lost">enda<certainty locus="name" match="preceding-sibling::text()" cert="low"/> et</supplied> <lb n="4"/>Audacta <supplied reason="lost">heredes</supplied> <lb n="5"/><expan><abbr>aeor</abbr><ex>um</ex></expan> <note>sic</note> pro <supplied reason="lost">pietate</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Zwei aneinander passende Fragmente erhalten.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 08329.</bibl><bibl>B. Galsterer - H. Galsterer, Die römischen Steininschriften aus Köln, IKöln (2.</bibl><bibl>Aufl.) (Mainz 2010) 333-334, Nr. 400; Foto.</bibl><bibl>G. Alföldy, Die Hilfstruppen der römischen Provinz Germania Inferior, EpStud 6 (Düsseldorf 1968) 223-224, Nr. 189.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph (Noricum?)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD066975</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD066975</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Graz, Landesmus. Joanneum, Lapidarium Schloß Eggenberg</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material>Gesteine</material><dimensions unit="cm"><height>60</height><width>79</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6.7</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum?</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0051" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2782113">Austria?</placeName><placeName type="modern"/><placeName type="findspot"/><placeName type="region">Steiermark?</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD066975_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Tullius</name><name type="cognomen">Ittio</name></persName></person><person xml:id="HD066975_2" sex="W"><persName><name type="cognomen">Quinta</name></persName></person><person xml:id="HD066975_3" sex="W"><persName><name type="cognomen">Tertullina+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-06-17" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>C</abbr><ex>aio</ex></expan> Tullio Itti<lb break="no" n="2"/>oni et Quint<lb break="no" n="3"/>ae <expan><abbr>ux</abbr><ex>ori</ex></expan> et fili<expan><ex>i</ex><abbr>s</abbr></expan> <lb n="4"/>tribus Te<supplied reason="lost">r</supplied><lb break="no" n="5"/>tullina <supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>In drei Teile gebrochen. (B): Weber: Z. 1/2: Itt[i]/oni.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>E. Weber, Die römerzeitlichen Inschriften der Steiermark (Graz 1969) 441, Nr. 426; Foto. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

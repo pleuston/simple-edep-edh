@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Bonna, bei &amp;ndash; Bonn (Germania inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD082025</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD082025</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bonn, Rhein. Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">statue base?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/83">Trachyt</material><dimensions unit="cm"><height>(92)</height><width>(80)</width><depth>(28)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/108818">Bonna, bei</placeName></origPlace><origDate><origDate notBefore-custom="0241" notAfter-custom="0244" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">241 AD - 244 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1828"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2953455">Bonn</placeName><placeName type="findspot">Bad Godesberg, {Friesdorf}</placeName><placeName type="region">Nordrhein-Westfalen</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD082025_1" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Antonius</name><name type="cognomen">Gordianus+</name></persName></person><person xml:id="HD082025_2" sex="W"><persName><name type="nomen">Sabinia</name><name type="cognomen">Tranquillina+</name></persName></person><person xml:id="HD082025_3" sex="M"><persName><name type="praenomen">[-]?</name><name type="nomen">Oclatius+</name><name type="cognomen">Sacerdos+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-04-22" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F019262" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/9a419119-0e86-4090-a182-fd96f281aafd/file/id/779334/file_version/name/small"/><graphic xml:id="F019264" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/7aa1cff3-7476-4026-bcfd-957c8485090a/file/id/779336/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost" cert="low">I(ovi)? O(ptimo)</supplied> <expan><abbr>M</abbr><ex cert="low"/></expan>(aximo<certainty match="preceding-sibling::node()" locus="value"/> <expan><abbr>M</abbr><ex cert="low"/>in</expan><supplied reason="lost">ervae<certainty locus="name" match="preceding-sibling::text()" cert="low"/> For</supplied><lb break="no" n="2"/><supplied reason="lost">tu</supplied>nae <expan><abbr>leg</abbr><ex>ionis</ex></expan> <supplied reason="lost">I <expan><abbr>M</abbr><ex>inerviae</ex></expan></supplied> <expan><abbr>Go<supplied reason="lost">r</supplied>di</abbr><ex>a</ex>n</expan><supplied reason="lost">ae</supplied> <lb n="3"/><supplied reason="lost">p</supplied>ro salute et incolumita<supplied reason="lost">te</supplied> <lb n="4"/><expan><abbr><supplied reason="lost">I</supplied>mp</abbr><ex>eratoris</ex></expan> <expan><abbr>Caes</abbr><ex>aris</ex></expan> <expan><abbr>M</abbr><ex>arci</ex></expan> Antoni G<supplied reason="lost">or</supplied>dian<supplied reason="lost">i</supplied> <lb n="5"/><supplied reason="lost">P</supplied>ii Felicis <expan><abbr>Aug</abbr><ex>usti</ex></expan> et Sabiniae <lb n="6"/><supplied reason="lost">Tr</supplied>anquillinae <expan><abbr>Aug</abbr><ex>ustae</ex></expan> <lb n="7"/><supplied reason="lost">se</supplied>natus ac R<supplied reason="lost">o</supplied>mae totiu<supplied reason="lost">s</supplied><lb break="no" n="8"/><supplied reason="lost">q</supplied>ue domus divinae eorum <lb n="9"/><gap reason="lost" extent="unknown" unit="character"/> Ocla<supplied reason="lost">t</supplied>iu<supplied reason="lost">s <gap reason="lost" extent="unknown" unit="character"/> Sace</supplied>rdos <lb n="10"/>O<gap reason="lost" extent="unknown" unit="character"/>C <expan><abbr>p</abbr><ex>rimus</ex></expan> <expan><abbr>p</abbr><ex>ilus</ex></expan> le<supplied reason="lost"><expan><abbr>g</abbr><ex>ionis</ex></expan></supplied> <lb n="11"/><supplied reason="lost">e</supplied>iu<supplied reason="lost">sdem cum mil</supplied>itibus<certainty match="preceding-sibling::node()" locus="value"/> <lb n="12"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>F</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 07996; Zeichnung.</bibl><bibl>H. Lehner, Die antiken Steindenkmäler des Provinzialmuseums in Bonn (Bonn 1918) 80-81; Zeichnung.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

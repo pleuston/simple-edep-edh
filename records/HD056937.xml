@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Barcino &amp;ndash; Barcelona (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD056937</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD056937</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Hispania citerior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/246343">Barcino</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1768"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern" ref="http://www.geonames.org/3128760">Barcelona</placeName><placeName type="findspot">S. Felip Neri, Kloster</placeName><placeName type="region">Cataluña</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD056937_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Aemilius+</name><name type="cognomen">Niger+?</name></persName></person><person xml:id="HD056937_2" sex="W"><persName><name type="cognomen">Trophime+?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-12-01" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/><expan><abbr>G</abbr><ex>aio</ex></expan> <supplied reason="lost">A</supplied>emil<supplied reason="lost">i</supplied>o <lb n="3"/><expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> Ni<supplied reason="lost" cert="low">gro</supplied> Tro<lb break="no" n="4"/>phim<supplied reason="lost" cert="low">e</supplied> con<lb break="no" n="5"/>iugi o<supplied reason="lost">ptimo</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Z. 3-4: statt Tro/phim[e](?) auch Tro[c(ina)?] / Phial[e](?) denkbar.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IRC 4, 143; pl. 69, 143.</bibl><bibl>CIL 02, 04571.</bibl><bibl>ILER 4636.</bibl><bibl>S. Mariner Bigorra, Inscripciones romanas de Barcelona (Barcelona 1973) 152, Nr. 164.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

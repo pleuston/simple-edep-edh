@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Public legal inscription from Apollonia &amp;ndash; Medet (Asia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD051477</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD051477</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><dimensions unit="cm"><height>150</height></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Asia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/897714">Apollonia</placeName></origPlace><origDate><origDate notBefore-custom="0110" notAfter-custom="0111" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">110 AD - 111 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/298795">Turkey</placeName><placeName type="modern" ref="http://www.geonames.org/304703">Medet</placeName><placeName type="findspot"/></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/5">public legal inscription</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-11-10" who="Cowey">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <supplied reason="lost">Iussu<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <expan><abbr>Imper</abbr><ex>atoris</ex></expan> Ca</supplied>esaris Nerva<supplied reason="lost">e Traiani</supplied> <lb n="2"/><supplied reason="lost"><expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>Germ</abbr><ex>anici</ex></expan> Dac</supplied>ici vici Cosa et Anticosa <lb n="3"/><supplied reason="lost">dedicati<certainty locus="name" match="preceding-sibling::text()" cert="low"/> Di</supplied>anae Sbruallidi et<certainty match="preceding-sibling::node()" locus="value"/> ad<supplied reason="lost">iu</supplied><lb break="no" n="4"/><supplied reason="lost">dic</supplied>ati Heracl<supplied reason="lost">eo</supplied>tis a <supplied reason="lost">P</supplied>omponio <supplied reason="lost">B</supplied>a<supplied reason="lost">sso</supplied> <lb n="5"/><supplied reason="lost">te</supplied>rm<supplied reason="lost">i</supplied><expan><abbr>nati</abbr><ex cert="low"/></expan> s<supplied reason="lost">u</supplied>nt a B<supplied reason="lost">aebi</supplied>o Tullo proco<expan><ex>n</ex><abbr>s</abbr><ex>ule</ex></expan> <lb n="6"/>Asiae per <expan><abbr>C</abbr><ex>aium</ex></expan> Valerium Victorem <lb n="7"/><supplied reason="lost">p</supplied>raetorem designatum legatum <lb n="8"/><supplied reason="lost">pr</supplied>o praetore </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Ἐξ ἐπιταγῆς Αὐτο<lb break="no" n="2"/>κράτορος Νέρβα Τρα<lb break="no" n="3"/>ιανοῦ Καίσαρ<supplied reason="lost">ο</supplied>ς Σε<supplied reason="lost">β</supplied><lb break="no" n="4"/>αστοῦ Γερμανικο<supplied reason="lost">ῦ</supplied> <lb n="5"/>Δακικοῦ κωμῶν Κο<lb break="no" n="6"/>σων Ἀντικοσω<supplied reason="lost">ν</supplied> <lb n="7"/>καθιερωμένων Ἀρτέμιδι Σβρυαλλιδι <lb n="8"/>προσκριθεισων Ἡρα<lb break="no" n="9"/>κλεώταις ὑπὸ Πομπω<lb break="no" n="10"/>νίου Βάσσου ὅροι ἐτέ<lb break="no" n="11"/>θησαν ὑπὸ Βαιβίου Τούλ<lb break="no" n="12"/>λου ἀνθυπάτου Ἀσίας <lb n="13"/>διὰ Γαίου Βαλερίου Βίκτ<lb break="no" n="14"/>ρο<supplied reason="lost">ς στ</supplied>ρατηγοῦ ἀποδε<lb break="no" n="15"/>δε<supplied reason="lost">ι</supplied>γμένου πρεσβευτοῦ καὶ <lb n="16"/>ἀντισ<supplied reason="lost">τ</supplied><lb break="no" n="17"/>ρα<supplied reason="lost">τ</supplied>ήγου
+            </ab></div></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1999, 1592.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

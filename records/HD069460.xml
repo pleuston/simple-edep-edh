@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Aquae Sulis &amp;ndash; Bath (Britannia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD069460</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD069460</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bath, Roman Baths Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/35">architectural member</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/70">Oolith</material><dimensions unit="cm"><height>(31)</height><width>(150)</width><depth>30</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Britannia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/79299">Aquae Sulis</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1895"><placeName type="country" ref="https://www.geonames.org/2635167">United Kingdom</placeName><placeName type="modern" ref="http://www.geonames.org/2656173">Bath</placeName><placeName type="findspot">{sog. Pump Room}</placeName><placeName type="region">Somerset</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD069460_1" sex="M"><persName><name type="nomen">Claudius+</name><name type="cognomen">Ligur</name></persName></person><person xml:id="HD069460_2" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Protacius+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-12-18" who="Cowey">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">C</supplied>laud<supplied reason="lost">i</supplied>us Ligur <gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>ae nimia vetust<supplied reason="lost">ate</supplied><gap reason="lost" extent="unknown" unit="character"/> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">c</supplied>olegio longa seria <supplied reason="lost">annorum</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> sua pec</supplied>unia refici et repingi cur<supplied reason="lost">avit</supplied><gap reason="lost" extent="unknown" unit="character"/> </ab></div><div n="3" type="textpart"><ab><lb n="1"/> <expan><abbr>G</abbr><ex>aius</ex></expan> Protaciu<supplied reason="lost">s</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/>deae Sulis M<supplied reason="lost">inervae</supplied> </ab></div><div n="4" type="textpart"><ab><lb n="1"/> EPEPAM
+            </ab></div></div>
+            <div type="commentary">
+                <p>Die Inschrift besteht aus 5 Fragmente, wovon 2 aneinanderpassen. Die Masse von Fr. a) sind: Höhe: -31.8; Breite: -91.4; Die Masse von Fr. d) sind: Höhe: -22.9; Breite: -58.4; Die Masse von Fr. e) sind: Höhe: -25.4; Breite: -117.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 07, 00039c.</bibl><bibl>CIL 07, 00039c, add. p. 306.</bibl><bibl>CIL 07, 00039d.</bibl><bibl>CIL 07, 00039e.</bibl><bibl>RIB 0141; Zeichnungen.</bibl><bibl>B.W. Cunliffe - M.G. Fulford, Bath and the rest of Wessex, CSIR Great Britain 1, 2 (Oxford 1982) 6-8, Nr. 4-19; Fig. 1 u. Pl. 3-5, 4-19.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

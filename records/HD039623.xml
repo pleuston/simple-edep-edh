@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Celamantia (= Kelamantia) &amp;ndash; Iža (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD039623</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD039623</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Komárno, Festung, Bastion 6, Lapidarium</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(55)</height><width>62</width><depth>12</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197337">Celamantia (= Kelamantia)</placeName></origPlace><origDate><origDate notBefore-custom="0301" notAfter-custom="0400" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">301 AD - 400 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1907"><placeName type="country" ref="https://www.geonames.org/3057568">Slovakia</placeName><placeName type="modern" ref="http://www.geonames.org/3059760">Iža</placeName><placeName type="findspot">Lager, {Südwestturm}, bei, sekundär verwendet</placeName><placeName type="region">Nitriansky kraj</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD039623_1" sex="M"><persName><name type="cognomen">Iustianus</name></persName></person><person xml:id="HD039623_2" sex="W"><persName><name type="cognomen">Nunna</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-12-07" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Tu qui <expan><ex>h</ex><abbr>ic</abbr></expan> oras <lb n="2"/>Iustiane <lb n="3"/>in mente <expan><ex>h</ex><abbr>abe</abbr></expan> <lb n="4"/><expan><abbr>n<am>n</am></abbr><ex>m</ex></expan> ma<lb break="no" n="5"/><expan><abbr>tre</abbr><ex>m</ex></expan> tua<supplied reason="lost">m</supplied> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Wahrscheinlich für den Bau des Lagers von Celamantia(?) (Leányvár) aus Brigetio verschleppt. Z. 5: nur die oberen Buchstabenenden erhalten. (B): RIU 0633: Z. 4: [trem tuam], nach der Zeichnung: TRE T[-]A[---]; Harl - Lőrincz: Z. 4: tu[am].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>RIU 0633; Abb. 633 (Foto u. Zeichnung). (B)</bibl><bibl>F. Harl - B. Lőrincz, Führer zum römischen Lapidarium in Bastion VI der Festung Komárno (Komárno – Wien 2002) 42, Nr. 47; Foto. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

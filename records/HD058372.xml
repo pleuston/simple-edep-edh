@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Curia &amp;ndash; Chur (Raetia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD058372</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD058372</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Raetia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/187357">Curia</placeName></origPlace><origDate><origDate notBefore-custom="0701" notAfter-custom="0750" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">701 AD - 750 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2658434">Switzerland</placeName><placeName type="modern" ref="http://www.geonames.org/2661169">Chur</placeName><placeName type="findspot">{S. Luzi, Kirche}, Krypta</placeName><placeName type="region">Kanton Graubünden</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD058372_1" sex="M"><persName><name type="cognomen">Vector (= Victor)</name></persName></person><person xml:id="HD058372_2"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD058372_3" sex="M"><persName><name type="cognomen">Iactadus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-10-12" who="Osnabrügge">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Hic sub ista labi<lb break="no" n="2"/>dem <note>sic</note> <expan><abbr>marmorea</abbr><ex>m</ex></expan> <lb n="3"/>quem Vector <note>sic</note> <lb n="4"/>ver <note>sic</note> inluster pr<expan><ex>a</ex><abbr>eses</abbr></expan> <lb n="5"/>ordinabit <note>sic</note> venire <lb n="6"/>de Triento <lb n="7"/>hic requiescit <gap reason="lost" extent="unknown" unit="character"/> <lb n="8"/>clares<expan><ex>s</ex><abbr>imus</abbr></expan> <note>sic</note> <gap reason="lost" extent="unknown" unit="character"/> <lb n="9"/>proavus <lb n="10"/>dom<expan><ex>i</ex><abbr>ni</abbr></expan> Vectoris <note>sic</note> <lb n="11"/>ep<expan><ex>iscop</ex><abbr>i</abbr></expan> <lb n="12"/>et dom<expan><ex>i</ex><abbr>ni</abbr></expan> Iac<supplied reason="lost">ta</supplied>di
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IBR 071.</bibl><bibl>CIL 13, 05252.</bibl><bibl>ILCV 0202.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Savaria, bei &amp;ndash; Friedberg (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD066981</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD066981</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Friedberg, S. Jakobus d. Ä., Pfarrkirche, vermauert</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(154)</height><width>100</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">8.3-4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197498">Savaria, bei</placeName></origPlace><origDate><origDate notBefore-custom="0131" notAfter-custom="0170" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">131 AD - 170 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1866"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2779243">Friedberg</placeName><placeName type="findspot">{Oberwaldbauern}, römischer Grabhügel</placeName><placeName type="region">Steiermark</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD066981_1" sex="M"><persName ref="http://romans1by1.com/rpeople/17566"><name type="praenomen">M.</name><name type="nomen">Attius</name><name type="cognomen">C[---]+</name></persName></person><person xml:id="HD066981_2" sex="W"><persName ref="http://romans1by1.com/rpeople/17567"><name type="nomen">Iulia</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD066981_3" sex="M"><persName ref="http://romans1by1.com/rpeople/17568"><name type="praenomen">M.</name><name type="nomen">Iulius+</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-03-30" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>M</abbr><ex>arcus</ex></expan> Attius <supplied reason="lost">C</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><expan><abbr>vet</abbr><ex>eranus</ex></expan> le<supplied reason="lost"><expan><abbr>g</abbr><ex>ionis</ex></expan></supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/><expan><abbr>an</abbr><ex>norum</ex></expan> LX<gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/>Iulia <gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/>S<gap reason="lost" extent="unknown" unit="character"/> <lb n="6"/><expan><abbr>M</abbr><ex>arcus</ex></expan> I<supplied reason="lost">ulius</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Links des Inschriftfeldes noch eine Halbsäule; oberhalb des Inschriftfeldes Fries mit Hasenjagd; darüber Bildfeld mit einem Jäger zu Pferd. Materialangabe nach lupa 1456; Krüger: Sandstein. Zur Zeit der Auffindung waren folgende Buchstaben noch ganz erhalten: Z. 1: C; Z. 2: G; Z. 7: VL. (B): Tóth: Z. 3: ann.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 05520.</bibl><bibl>E. Weber, Die römerzeitlichen Inschriften der Steiermark (Graz 1969) 131-133, Nr. 74; Foto.</bibl><bibl>M.-L. Krüger, Die Reliefs der Stadtgebiete von Scarbantia und Savaria, CSIR Österreich 1, 5 (Wien 1974) 34-35, Nr. 5; Taf. 3, 5.</bibl><bibl>E. Tóth, Lapidarium Savariense. Savaria római feliratos kőemlékei (Szombathely 2011) 259-260, Nr. 233. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from (Civitas Ulpia Sueborum Nicrensium) &amp;ndash; Heidelberg (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD036495</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD036495</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Heidelberg, Kurpfälz. Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">altar?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(41)</height><width>(41)</width><depth>22</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">8-4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118731">(Civitas Ulpia Sueborum Nicrensium)</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1886"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2907639">Heidelberg</placeName><placeName type="findspot">Handschuhsheim, Heiligenberg, {S. Michael, Kloster}</placeName><placeName type="region">Baden-Württemberg</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD036495_1" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Marius</name><name type="cognomen">Apollinaris</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-04-09" who="Feraudi">checked through autopsy</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F012361" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/115140d3-fe44-4a03-ae22-4660c1211590/file/id/771884/file_version/name/small"/><graphic xml:id="F030425" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/de8b90d8-59f8-43a9-9615-319ac9ca95a8/file/id/791182/file_version/name/small"/><graphic xml:id="F030426" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/05a365c1-87b6-4e74-b8e0-85923e66e688/file/id/791183/file_version/name/small"/><graphic xml:id="F030427" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/2fe68d06-cd46-4161-b8d7-25e789570013/file/id/791184/file_version/name/small"/><graphic xml:id="F030428" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/e9317241-6411-418b-a9e5-9c5a2f3f97a6/file/id/791185/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                ------<certainty match="preceding-sibling::node()" locus="value"/>] <lb n="2"/><expan><abbr>M</abbr><ex>arco</ex></expan> Mario <lb n="3"/>Apollinar<supplied reason="lost">i</supplied> <lb n="4"/>domo <lb n="5"/><expan><abbr>Hascal</abbr><ex>one</ex></expan> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Material: gelber Keupersandstein.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 06409.</bibl><bibl>RSO 107.</bibl><bibl>E. Wagner, Fundstätten und Funde aus vorgeschichtlicher, römischer und alamannisch-fränkischer Zeit im Grossherzogtum Baden 2. Das Badische Unterland (Tübingen 1911) 283; Abb. 237 (Zeichnung).</bibl><bibl>R. Ludwig, in: R. Ludwig - P. Marzolff (Hrsg.), Der Heiligenberg bei Heidelberg, Führer zu den archäologischen Denkmälern in Baden-Württemberg 20 (Stuttgart 1999) 44; Abb. 23.</bibl><bibl>CIL 13, 04, 06409 add. p. 96.</bibl><bibl>F. Feraudi-Gruénais - R. Ludwig, Die Heidelberger Römersteine. Bildwerke, Architekturteile und Inschriften im Kurpfälzischen Museum Heidelberg (Heidelberg 2017) 86, Nr. 48; Foto.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

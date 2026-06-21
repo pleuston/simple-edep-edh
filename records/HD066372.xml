@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Cemenelum &amp;ndash; Nice (Alpes Maritimae)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD066372</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD066372</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Alpes Maritimae</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/157834">Cemenelum</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1658"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/3024946">Nice</placeName><placeName type="findspot">{Cimiez}, Vigne de la Galère</placeName><placeName type="region">Provence-Alpes-Côte d’Azur</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD066372_1" sex="M"><persName><name type="praenomen">P.</name><name type="nomen">Etereius</name><name type="cognomen">Quadratus+</name></persName></person><person xml:id="HD066372_2" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Etereius</name><name type="cognomen">Domesticus</name></persName></person><person xml:id="HD066372_3" sex="M"><persName><name type="praenomen">P.</name><name type="nomen">Etereius</name><name type="cognomen">Lius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-07-19" who="Cimarosti">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>P</abbr><ex>ublio</ex></expan> Etereio <expan><abbr>M</abbr><ex>arci</ex></expan> <lb n="2"/>Eterei Domes<lb break="no" n="3"/>tici <expan><abbr>f</abbr><ex>ilio</ex></expan> Quirina <lb n="4"/>Qu<supplied reason="lost" cert="low">adrato</supplied> C<gap reason="lost" extent="unknown" unit="character"><certainty match=".." locus="name"/></gap> <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/>M <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/>M<gap reason="lost" extent="unknown" unit="character"/> <lb n="7"/><expan><abbr>P</abbr><ex>ublius</ex></expan> Etereius Lius <lb n="8"/><expan><abbr>d</abbr><ex>edit</ex></expan> <expan><abbr>d</abbr><ex>edicavit</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Bearbeiterin: V. Pettirossi.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 05, 07937.</bibl><bibl>G. Laguerre, Inscriptions antiques de Nice-Cimiez (Cemenelum, ager Cemenelensis) (Paris 1975) 147.</bibl><bibl>S. Morabito, Inscriptions latines des Alpes Maritimes (Nice - Montpellier 2010) 335-336, Nr. 226.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

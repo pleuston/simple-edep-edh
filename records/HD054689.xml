@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Aelium Cetium, bei &amp;ndash; S. Pölten (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD054689</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD054689</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>S. Pölten, Radlberg, Unterradlberg, Bundesdenkmalamt</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor, weiß</material><dimensions unit="cm"><height>42</height><width>26</width><depth>17</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3-5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118629">Aelium Cetium, bei</placeName></origPlace><origDate><origDate notBefore-custom="0171" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found" when="2002"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2768473">S. Pölten</placeName><placeName type="findspot">{Pottenbrunn}</placeName><placeName type="region">Niederösterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-07-25" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <del rend="erasure"><gap reason="lost" extent="unknown" unit="character"/></del><certainty match="preceding-sibling::node()" locus="value"/> <lb n="2"/>Dianae
+            </ab></div>
+            <div type="commentary">
+                <p>Die erhaltene Inschriftzeile befindet sich am unteren Rand des Mittelteils; darüber relativ tiefe Ausmeißelung wohl eher einer Reliefdarstellung als vorangegangener Inschriftzeilen. Buchstabe E in Form von II. (B): Böhm - Weber: --- / Dianae / ---.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2005, 1177.</bibl><bibl>K. Böhm - E. Weber, Tyche 20, 2005, 241, Nr. 120. (B) - AE 2005.</bibl><bibl>S. Jilek - P. Scherrer - E. Trinkl, Leben in Aelium Cetium. Wohnen und Arbeiten im römischen St. Pölten (St. Pölten 2005) 19, Nr. 2; Abb. 2. - AE 2005.</bibl><bibl>C. Blesl - P. Scherrer, in: F. Beutler - W. Hameter (Hrsg.), "Eine ganz normale Inschrift" und ähnliches zum Geburtstag von Ekkehard Weber. Festschrift zum 30. April 2005 (Wien 2005) 403-408; Abb. 3 u. 5; Abb. 4 (Zeichnungen). - AE 2005.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

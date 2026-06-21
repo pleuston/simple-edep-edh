@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Thessalonica &amp;ndash; Thessaloníki (Macedonia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD052093</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD052093</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">altar?</objectType><dimensions unit="cm"><height>230</height><width>50</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Macedonia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/491741">Thessalonica</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/390903">Greece</placeName><placeName type="modern">Thessaloníki</placeName><placeName type="findspot"/><placeName type="region">Kentrikí Makedonía</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD052093_1" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Geminius</name><name type="cognomen">Priscus</name></persName></person><person xml:id="HD052093_2" sex="M"><persName><name type="cognomen">[---]</name></persName></person><person xml:id="HD052093_3" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Iulius</name><name type="cognomen">Firmus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2012-09-03" who="Cowey">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>M</abbr><ex>arcus</ex></expan> Geminius <lb n="2"/><expan><abbr>C</abbr><ex>ai</ex></expan> &amp;lt;f&amp;gt;(ilius) <expan><abbr>Ser</abbr><ex>gia</ex></expan> Priscus <lb n="3"/>veteranus Mac<expan><ex>ed</ex><abbr>o</abbr></expan><certainty match="preceding-sibling::node()" locus="value"/> <lb n="4"/>hic situs est qui <expan><abbr>militav</abbr><ex>it</ex></expan> <lb n="5"/>in praetorio <lb n="6"/>in c<expan><ex>o</ex><abbr>horte</abbr></expan> prima &amp;lt;<expan><abbr><am><g type="centuria"/></am></abbr><ex>centuria</ex></expan>=S&amp;gt; <lb n="7"/>ROFFIII annos XX <lb n="8"/>vix<surplus>x</surplus>it autem annos <lb n="9"/>X&amp;lt;L&amp;gt;III <expan><abbr>pe</abbr><ex>r</ex></expan> <expan><abbr>C</abbr><ex>aium</ex></expan> <lb n="10"/>Iu&amp;lt;l&amp;gt;ium Firmum <lb n="11"/>heredem <lb n="12"/>eius 
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 07328.</bibl><bibl>IG 10, 02, 1, 00661.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

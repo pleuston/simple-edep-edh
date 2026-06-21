@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Defixio from Aquae Tarbellicae &amp;ndash; Dax (Aquitania)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD047662</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD047662</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Dax, Mus. de Borda</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>6</height><width>6</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Aquitania</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/246173">Aquae Tarbellicae</placeName></origPlace><origDate><origDate notBefore-custom="0301" notAfter-custom="0500" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">301 AD - 500 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1976"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/3021670">Dax</placeName><placeName type="findspot">sogenannte Fontaine Chaude?</placeName><placeName type="region">Nouvelle-Aquitaine</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/76">defixio</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2008-03-11" who="Platz">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Leontio <lb n="2"/><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied> Leontio <lb n="3"/><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied> D<surplus>e</surplus>idio <lb n="4"/>Iovino </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><ex>in</ex><abbr>bo</abbr></expan><lb break="no" n="2"/>lave<lb break="no" n="3"/>runt <note>sic</note> <lb n="4"/>manus </ab></div><div n="3" type="textpart"><ab><lb n="1"/> pedis quicumqui <note>sic</note> le<supplied reason="lost" cert="low">vavit</supplied> <lb n="2"/>an<expan><ex>n</ex><abbr>ue</abbr></expan><gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/>culi qui <supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied>i<gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/>imm<supplied reason="lost">e</supplied>r&amp;lt;g=I&amp;gt;<expan><abbr>o</abbr><ex cert="low"/></expan> i<gap reason="lost" extent="unknown" unit="character"/><lb break="no" n="5"/>ru<gap reason="lost" extent="unknown" unit="character"/><lb break="no" n="6"/>e<gap reason="lost" extent="unknown" unit="character"/> 
+            </ab></div></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2000, 0925.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

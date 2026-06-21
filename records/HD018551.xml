@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Military diploma from Castra Regina &amp;ndash; Regensburg (Raetia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD018551</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD018551</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material><dimensions unit="cm"><height>(3)</height><width>(3)</width><depth>0</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Raetia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118791">Castra Regina</placeName></origPlace><origDate><origDate notBefore-custom="0140" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">140 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1951"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/8378694">Regensburg</placeName><placeName type="findspot">Kumpfmühler Straße, {Altenpflegeheim}</placeName><placeName type="region">Bayern</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/91">military diploma</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-02-01" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/>llo <expan><abbr>proc</abbr><ex>uratore</ex></expan> qui<supplied reason="lost">nque et viginti stipendii</supplied>s emeritis <supplied reason="lost">dimissis honesta missio</supplied>ne quorum <supplied reason="lost">nomina subscripta sunt civ</supplied>itatem Rom<supplied reason="lost">anam qui eorum non haberen</supplied>t d[edit et conubium cum uxoribus ------ </ab></div><div n="2" type="textpart"><ab><lb n="0"/> <gap reason="lost" quantity="1" unit="line"/> et III Th<supplied reason="lost"><expan><abbr>rac</abbr><ex>um</ex></expan> <expan><abbr>vet</abbr><ex>erana</ex></expan> et III <expan><abbr>Thrac</abbr><ex>um</ex></expan> <expan><abbr>c</abbr><ex>ivium</ex></expan> <expan><abbr>R</abbr><ex>omanorum</ex></expan> et III <expan><abbr>Brit</abbr><ex>tanorum</ex></expan> et IV</supplied> <expan><abbr>Gall</abbr><ex>orum</ex></expan> et V B<supplied reason="lost"><expan><abbr>racar</abbr><ex>augustanorum</ex></expan> et VI <expan><abbr>Lusitan</abbr><ex>orum</ex></expan> et IX <expan><abbr>Batav</abbr><ex>orum</ex></expan></supplied> |(miliaria) et sun<supplied reason="lost">t in Raetia sub <gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>proc</abbr><ex>uratore</ex></expan></supplied> quinq<supplied reason="lost">ue et viginti stipendiis d</supplied>imissi<supplied reason="lost">s honesta missione quorum nomi</supplied>na subs[cripta sunt ------
+            </ab></div></div>
+            <div type="commentary">
+                <p>Erhalten Fragment von tab. I; wiedergegeben in der Reihenfolge ext. // int.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1953, 0116.</bibl><bibl>AE 1959, 0105.</bibl><bibl>W. Kraft, Germania 30, 1952, 345-348, Nr. 2; Taf. 21, 3 u. 21, 4. - AE 1953.</bibl><bibl>W.J. De Boone, FA 11, 1956, 278, Nr. 4500. - AE 1959.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

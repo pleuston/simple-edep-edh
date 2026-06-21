@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription from Tres Tabernae (Civitas Tribocorum) &amp;ndash; Saverne (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD079017</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD079017</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Saverne, Mus. du château des Rohan</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(12)</height><width>(18)</width><depth>9</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109389">Tres Tabernae (Civitas Tribocorum)</placeName></origPlace><origDate><origDate notBefore-custom="0031" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">31 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1908"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/2975588">Saverne</placeName><placeName type="findspot">{Rue des Murs 18 / rue des Églises, Ecke}, spätantike Stadtmauer, sekundär verwendet</placeName><placeName type="region">Grand Est</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/143" xml:lang="en">unknown</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-08-25" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F038936" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/397a7496-5803-4c7d-b0ce-b1e3d4f72295/file/id/799809/file_version/name/small"/><graphic xml:id="F038937" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/c05b68f6-40b6-4c32-921c-8409e9260f16/file/id/799810/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>XXV<gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>I</abbr><ex cert="low"/>IV</expan><gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Allseitig abgebrochenes Fragment. Z. 2: statt I auch L möglich. (B): CAG 67, 1: Z. 1: XV.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>(o. Autor), in: P. Flotté u. a., Le Bas-Rhin, Carte archéologique de la Gaule 67, 1 (Paris 2000) 572. (B)</bibl><bibl>F. Goubet - F. Jodry - N. Meyer - N. Weiss, Au "grès" du temps. Collections lapidaires celtes et gallo-romaines du Musée archéologique de Saverne (Saverne 2015) 179, Nr. 119; Foto.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

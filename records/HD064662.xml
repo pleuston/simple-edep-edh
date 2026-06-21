@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Karbunarë (Macedonia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD064662</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD064662</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Vlorë, Muz. Hist.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>55</height><width>28</width><depth>10</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4-5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Macedonia</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0051" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/783754">Albania</placeName><placeName type="modern">Karbunarë</placeName><placeName type="findspot"/><placeName type="region">Qarku i Vlorës</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD064662_1" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Epius</name><name type="cognomen">Potinus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-01-15" who="Ehmig">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F024682" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/600a1f8c-8751-4661-bd1e-da54699998a3/file/id/785349/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>M</abbr><ex>arcus</ex></expan> Epius <lb n="2"/>Potinus <lb n="3"/>pare<expan><ex>n</ex><abbr>tes</abbr></expan> <lb n="4"/><expan><abbr>feceran</abbr><ex>t</ex></expan> <lb n="5"/>filio su<lb break="no" n="6"/>o <expan><abbr>b</abbr><ex>ene</ex></expan> m<expan><ex>eren</ex><abbr>ti</abbr></expan> <lb n="7"/>vixit <expan><abbr>a</abbr><ex>n</ex></expan><lb break="no" n="8"/><expan><abbr>n</abbr><ex>os</ex></expan> XXX
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>S. Anamali - H. Ceka - É. Deniaux, Corpus des inscriptions latines d’Albanie (Rome 2009) 166-167, Nr. 219; Foto.</bibl><bibl>U. Ehmig - R. Haensch, Die lateinischen Inschriften aus Albanien (LIA) (Bonn 2012) 544-545, Nr. 228; Foto.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

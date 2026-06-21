@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Vindobona &amp;ndash; Wien (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD067352</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD067352</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(45)</height><width>51</width><depth>13</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/128537">Vindobona</placeName></origPlace><origDate><origDate notBefore-custom="0501" notAfter-custom="0700" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">501 AD - 700 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1954"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2761369">Wien</placeName><placeName type="findspot">{Hoher Markt 3}, sekundär verwendet</placeName><placeName type="region">Wien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD067352_1" sex="M"><persName><name type="nomen">Martius</name><name type="cognomen">Consantius</name></persName></person><person xml:id="HD067352_2" sex="W"><persName><name type="cognomen">[--]ssintea</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-02-12" who="Gräf">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/>RDINI E<supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied>S<gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/>Martio Consan<lb break="no" n="3"/>tio O<gap reason="lost" extent="unknown" unit="character"/> dig<lb break="no" n="4"/>na moris <supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied>ssi<lb break="no" n="5"/>ntea amov<supplied reason="lost">i</supplied>t
+            </ab></div>
+            <div type="commentary">
+                <p>Z. 1: nur die unteren Buchstabenhälften erhalten. Z. 5: Kreuzzeichen zwischen den Wörtern.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>A. Neumann, AustrRom 4, 1954, 41-42.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

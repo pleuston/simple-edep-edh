@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Brigetio &amp;ndash; Komárom (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD011509</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD011509</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197180">Brigetio</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 230 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1899"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3044294">Komárom</placeName><placeName type="findspot">Szőny, {Dolichenum}, spätantikes Grab, sekundär verwendet</placeName><placeName type="region">Komárom-Esztergom megye</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD011509_1" sex="M"><persName ref="http://romans1by1.com/rpeople/17770"><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-02-15" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><supplied reason="lost"><expan><abbr>dec</abbr><ex>urio</ex></expan></supplied> mun<supplied reason="lost"><expan><abbr>ic</abbr><ex>ipii</ex></expan></supplied> <lb n="2"/><expan><abbr><supplied reason="lost">B</supplied>rig</abbr><ex>etionensium</ex></expan> a mi<supplied reason="lost">li</supplied><lb break="no" n="3"/><expan><abbr><supplied reason="lost">t</supplied>i</abbr><ex>i</ex>s</expan> qui e<supplied reason="lost"><expan><abbr>q</abbr><ex>uestrem</ex></expan> <expan><abbr>m</abbr><ex>ilitiam</ex></expan></supplied> <lb n="4"/><expan><abbr><supplied reason="lost">pe</supplied>t</abbr><ex>it</ex></expan> templum <lb n="5"/>a fundame<supplied reason="lost">n</supplied><lb break="no" n="6"/><supplied reason="lost">t</supplied>is extru<supplied reason="lost">xit</supplied> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Tóth; AE 1971; CCID: Z. 1: [de]c(urio); Z. 2/3: mil[i]/[t]i(i)s.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1971, 0319. (B)</bibl><bibl>RIU 0504; Abb. 504 (Foto u. Zeichnung).</bibl><bibl>I. Tóth, ACD 7, 1971, 91-93. (B) - AE 1971.</bibl><bibl>CCID 238. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

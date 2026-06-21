@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Novalesa (Alpes Cottiae)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD048948</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD048948</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Novalesa, Mus. Arch. dell'Abbazia</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>98</height><width>72</width><depth>11</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Alpes Cottiae</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern" ref="http://www.geonames.org/3172193">Novalesa</placeName><placeName type="findspot">{SS. Pietro e Andrea, Abtei}</placeName><placeName type="region">Piemonte</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD048948_1" sex="W"><persName><name type="nomen">Cassia+</name><name type="cognomen">Severa+</name></persName></person><person xml:id="HD048948_2" sex="M"><persName><name type="cognomen">[---]eamius</name></persName></person><person xml:id="HD048948_3" sex="M"><persName><name type="praenomen">T.</name><name type="nomen">Qu[---]?</name><name type="cognomen">[---]mius?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-07-18" who="Cimarosti">checked through autopsy</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F027393" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/6af8dfb5-dcc4-4272-b598-b86b19c010bb/file/id/788150/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Cass<supplied reason="lost">ia</supplied><gap reason="lost" extent="unknown" unit="character"/>eami <expan><abbr>f</abbr><ex>ilia</ex></expan> <lb n="2"/>Sev<supplied reason="lost">er</supplied>a sibi et <lb n="3"/><expan><abbr>T</abbr><ex>ito</ex></expan> Qu<gap reason="lost" extent="unknown" unit="character"/><expan><abbr>mio</abbr><ex cert="low"/></expan> <expan><abbr>Quir</abbr><ex>ina</ex></expan> <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>to<gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr><supplied reason="lost">e</supplied>st</abbr><ex>3</ex></expan><certainty match="preceding-sibling::node()" locus="value"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"><certainty match=".." locus="name"/></gap> <lb n="6"/>et A<gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>f</abbr><ex>ili-</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Z. 4: Ferrua, Mercando-Paci: [---]++O; Z. 5: Ferrua, Mercando-Paci: acur[---]est; Z. 7: Ferrua: et Adm[---]+ia; Mercando-Paci: et Adiu++[---] tia. Marmor, weiß.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1998, 0861.</bibl><bibl>CIL 05, 00763*.</bibl><bibl>A. Ferrua, Segusium 8, 1971, 48; Fig. 2a (Foto). (B)</bibl><bibl>L. Mercando - G. Paci, MonAL 57 (Roma 1998) 149, Nr. 76; tav. 26a, n. 84. (B) - AE 1998.</bibl><bibl>E. Cimarosti, Le iscrizioni di età romana sul versante italiano delle Alpes Cottiae (Barcelona 2012) 117, Nr. 7; Foto Nr. 64.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

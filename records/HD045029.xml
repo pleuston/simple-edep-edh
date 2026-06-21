@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Celeia &amp;ndash; Celje (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD045029</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD045029</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Celje, Pokrajinski Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(87)</height><width>(89)</width><depth>8</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6-4.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197206">Celeia</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="2003"><placeName type="country" ref="https://www.geonames.org/3190538">Slovenia</placeName><placeName type="modern" ref="http://www.geonames.org/3202781">Celje</placeName><placeName type="findspot">Mariborska ulica, {S. Maksimilijana, Kirche, bei}</placeName><placeName type="region">Savinjska statistična regija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD045029_1" sex="M"><persName><name type="cognomen">Vitalis</name></persName></person><person xml:id="HD045029_2" sex="M"><persName><name type="cognomen">Finitus</name></persName></person><person xml:id="HD045029_3" sex="W"><persName><name type="cognomen">Ingenua</name></persName></person><person xml:id="HD045029_4" sex="M"><persName/></person><person xml:id="HD045029_5" sex="M"><persName><name type="cognomen">Verinus</name></persName></person><person xml:id="HD045029_6" sex="W"><persName><name type="cognomen">Fusca+</name></persName></person><person xml:id="HD045029_7" sex="M"><persName><name type="cognomen">Valentinus+?</name></persName></person><person xml:id="HD045029_8"><persName><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-04-30" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/>Vitalis Finiti <lb n="3"/>et Ingenua Cris<lb break="no" n="4"/>pi coniunx <expan><abbr>v</abbr><ex>ivi</ex></expan> <expan><abbr>s</abbr><ex>ibi</ex></expan> <expan><abbr>f</abbr><ex>ecerunt</ex></expan> <lb n="5"/><supplied reason="lost">e</supplied>t Verino <expan><abbr>an</abbr><ex>norum</ex></expan> XXV <lb n="6"/><supplied reason="lost">et F</supplied>uscae <expan><abbr>an</abbr><ex>norum</ex></expan> VII <lb n="7"/><supplied reason="lost" cert="low">et Val</supplied>entino <expan><abbr>an</abbr><ex>norum</ex></expan> <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr><supplied reason="lost">a</supplied>n</abbr><ex>norum</ex></expan> II <expan><abbr>fil</abbr><ex cert="low">iis</ex></expan> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2003, 1302.</bibl><bibl>M. Lovenjak, AArchSlov 54, 2003, 333-334. 357, Nr. 2; sl. 2. - AE 2003.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

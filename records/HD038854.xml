@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Municipium Claudium Virunum, bei &amp;ndash; S. Marein/Neumarkt (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD038854</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD038854</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>S. Marein/Neumarkt, S. Georgen/Neumarkt 27 (ehemaliges Schulhaus), vermauert</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>48</height><width>74</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.0-4.0</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197583">Municipium Claudium Virunum, bei</placeName></origPlace><origDate><origDate notBefore-custom="0301" notAfter-custom="0400" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">301 AD - 400 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2766696">S. Marein/Neumarkt</placeName><placeName type="findspot">{S. Georgen/Neumarkt}, Pfarrhaus, sekundär verwendet</placeName><placeName type="region">Steiermark</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD038854_1" sex="W"><persName><name type="nomen">Victoria*</name><name type="cognomen">Priminia</name></persName></person><person xml:id="HD038854_2" sex="M"><persName><name type="cognomen">Pacatianus+?</name></persName></person><person xml:id="HD038854_3"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-05-15" who="Böhm">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Vi<expan><ex>c</ex><abbr>toriae</abbr></expan> Priminia<supplied reason="lost">e ca</supplied><lb break="no" n="2"/>rissim<expan><ex>a</ex><abbr>e</abbr></expan> dulcissim<expan><ex>a</ex><abbr>e</abbr></expan> <supplied reason="lost">co</supplied><lb break="no" n="3"/><supplied reason="lost">n</supplied>iugi Pacatian<supplied reason="lost" cert="low">us</supplied> <abbr>p</abbr> <abbr>f</abbr> <abbr>q</abbr> <lb n="4"/>cum qua <expan><abbr>vi</abbr><ex>xit</ex></expan> <expan><abbr>an</abbr><ex>nos</ex></expan> <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">pi</supplied>am m<supplied reason="lost">e</supplied><lb break="no" n="5"/>moriam fecserit <note>sic</note> <supplied reason="lost">et</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="6"/><expan><abbr>fil</abbr><ex>i-</ex></expan> <expan><abbr>carissi</abbr><ex>m-</ex></expan> <expan><abbr>ob</abbr><ex>it-</ex></expan> an<expan><ex>n</ex><abbr>o</abbr><ex>rum</ex></expan> XV
+            </ab></div>
+            <div type="commentary">
+                <p>Die Buchstabenformen und das Latein vulgär, Ergänzung und Lesung äußerst schwierig. Z. 5 scheint nachträglich hinzugefügt worden zu sein.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>E. Weber, Die römerzeitlichen Inschriften der Steiermark (Graz 1969) 337-338, Nr. 282; Foto.</bibl><bibl>CIL 03, 05059.</bibl><bibl>ILLPRON 1216.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

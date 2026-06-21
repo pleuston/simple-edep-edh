@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Sumelocenna (Civitas Sumelocennensis) &amp;ndash; Rottenburg/Neckar (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD036792</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD036792</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Stuttgart, Württ. Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>98</height><width>47</width><depth>34</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6-5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118985">Sumelocenna (Civitas Sumelocennensis)</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1852"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2843729">Rottenburg/Neckar</placeName><placeName type="findspot">{Jahnstraße 22-40}</placeName><placeName type="region">Baden-Württemberg</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD036792_1" sex="W"><persName><name type="nomen">Iulia</name><name type="cognomen">Severina</name></persName></person><person xml:id="HD036792_2" sex="M"><persName><name type="praenomen">D.</name><name type="nomen">Iulius</name><name type="cognomen">Severus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-10-16" who="Osnabrügge">checked through autopsy</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F023298" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/c93cf35a-6daa-4b36-bc6a-3a1b77a105a0/file/id/783957/file_version/name/small"/><graphic xml:id="F023299" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/803499d6-2009-4afd-a808-0c48343855c6/file/id/783958/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/>Iuliae <lb n="3"/>Severinae <lb n="4"/><expan><abbr>D</abbr><ex>ecimus</ex></expan> Iulius <lb n="5"/>Severus <lb n="6"/><expan><abbr>f</abbr><ex>aciendum</ex></expan> <expan><abbr>c</abbr><ex>uravit</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Auf den Nebenseiten Darstellung des trauernden Attis. Z. 1 und 6: hederae als Worttrenner.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>F. Haug - G. Sixt, Die römischen Inschriften und Bildwerke Württembergs (2. Aufl. Stuttgart 1914) 239-240, Nr. 129; Foto.</bibl><bibl>CIL 13, 06368.</bibl><bibl>É. Espérandieu, Recueil général des bas-reliefs, statues et bustes de la Germanie romaine (Paris - Bruxelles 1931) 382, Nr. 606; Foto.</bibl><bibl>W. Faust, Die Grabstelen des 2. und 3. Jahrhunderts im Rheingebiet (Köln 1998) 161-162, Nr. 224.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

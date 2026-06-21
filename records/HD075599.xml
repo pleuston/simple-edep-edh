@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Bingium &amp;ndash; Bingen/Rhein (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD075599</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD075599</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bingen/Rhein</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">honorific/grave/votive column?</objectType><material>Gesteine</material><dimensions unit="cm"><height>300</height></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/108809">Bingium</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2948825">Bingen/Rhein</placeName><placeName type="findspot">{Mainzer Straße 18}</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD075599_1" sex="W"><persName><name type="cognomen">Macrina+?</name></persName></person><person xml:id="HD075599_2" sex="M"><persName><name type="praenomen">A.?</name><name type="nomen">Cornelius</name><name type="cognomen">Protus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-12-28" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost" cert="low">Ma</supplied>crina <lb n="2"/><expan><abbr>A</abbr><ex>uli</ex></expan><certainty match="preceding-sibling::node()" locus="value"/> Corneli <lb n="3"/>Proti <expan><abbr>f</abbr><ex>ilia</ex></expan> <expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>ita</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Monument in der Form eines nach oben spitz zulaufenden, an der Oberseite schräg abgeschlagenen Säulenschaftes. Höhenangabe nur ungefähr; 10 Fuß. Z. 2: möglicherweise auch M(arci).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 07518.</bibl><bibl>W. Boppert, Römische Steindenkmäler aus dem Landkreis Mainz-Bingen, CSIR Deutschland 2, 14 (Mainz 2005) 79-80, Nr. 37; Tafel 16, 37.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Hedum Castellum Daesitiatium, bei &amp;ndash; Breza (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD033834</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD033834</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Sarajevo, Zem. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(119)</height><width>102</width><depth>65</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7.7-5.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197299">Hedum Castellum Daesitiatium, bei</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1930"><placeName type="country" ref="https://www.geonames.org/3277605">Bosnia and Herzegovina</placeName><placeName type="modern" ref="http://www.geonames.org/3203427">Breza</placeName><placeName type="findspot">{Basilika II}</placeName><placeName type="region">Zeničko-dobojski kanton</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD033834_1" sex="W"><persName><name type="nomen">Ulpia</name><name type="cognomen">Procula</name></persName></person><person xml:id="HD033834_2" sex="M"><persName><name type="praenomen">T.</name><name type="nomen">Flavius*</name><name type="cognomen">Valens</name></persName></person><person xml:id="HD033834_3" sex="M"><persName><name type="cognomen">Varro*</name></persName></person><person xml:id="HD033834_4" sex="W"><persName><name type="nomen">Aelia</name><name type="cognomen">Iusta</name></persName></person><person xml:id="HD033834_5" sex="M"><persName><name type="cognomen">Scenobarbus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-10-04" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Ulpiae <expan><abbr>T</abbr><ex>iti</ex></expan> <expan><abbr>f</abbr><ex>iliae</ex></expan> <lb n="2"/>Proculae <expan><abbr>an</abbr><ex>norum</ex></expan> XX <lb n="3"/><expan><abbr>T</abbr><ex>itus</ex></expan> <expan><abbr>F</abbr><ex>lavius</ex></expan> Valens <expan><abbr>Varron</abbr><ex>is</ex></expan> <lb n="4"/><expan><abbr>f</abbr><ex>ilius</ex></expan> princeps <expan><abbr>Desitiati</abbr><ex>um</ex></expan> <lb n="5"/>et Aelia Iusta <lb n="6"/>Scenobar<supplied reason="lost">bi <expan><abbr>f</abbr><ex>ilia</ex></expan></supplied> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Škegro: abweichende Lesungen/Ergänzungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILJug 1582.</bibl><bibl>G. Alföldy, Die Personennamen in der römischen Provinz Dalmatia (Heidelberg 1969) 319.</bibl><bibl>A. Škegro, OpuscArchZagreb 21, 1997, 103, Nr. 126. (B)</bibl><bibl>V. Paškvalin, GlasSarajevo 47, 1992-1995, 94-96; tab. 2, 1.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

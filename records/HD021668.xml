@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Salonae &amp;ndash; Solin (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD021668</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD021668</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>119</height><width>40</width><depth>13</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-1.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197488">Salonae</placeName></origPlace><origDate><origDate notBefore-custom="0041" notAfter-custom="0071" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">41 AD - 71 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3190359">Solin</placeName><placeName type="findspot">Amphitheater, östlich, {Parzelle Nr. 4057 (alter Katasterplan)}</placeName><placeName type="region">Splitsko-dalmatinska županija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD021668_1" sex="M"><persName><name type="cognomen">Felicio</name></persName></person><person xml:id="HD021668_2" sex="M"><persName><name type="nomen">Arruntius</name><name type="cognomen">Camillus Scribonianus*</name></persName></person><person xml:id="HD021668_3" sex="W"><persName><name type="cognomen">Guttilla</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-09-08" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F033739" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/95d10185-71e8-4571-a41c-e13be997853d/file/id/794547/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Felicio <lb n="2"/>Camilli Ar<lb break="no" n="3"/>runti <expan><abbr>Scrib</abbr><ex>oniani</ex></expan> <lb n="4"/><expan><abbr>ser</abbr><ex>vus</ex></expan> <expan><abbr>a</abbr><ex>nnorum</ex></expan> XL <expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>itus</ex></expan> <expan><abbr>e</abbr><ex>st</ex></expan> <lb n="5"/>Guttilla <expan><abbr>cons</abbr><ex>erva</ex></expan> <lb n="6"/>bene merenti <lb n="7"/>pos<expan><ex>u</ex><abbr>it</abbr></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): ILJug: Z. 5: Gutilla.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1906, 0018.</bibl><bibl>ILJug 2221. (B)</bibl><bibl>F. Bulić, BAHD 28, 1905, 20-26, Nr. 3415A; Fig. 1,1; Zeichnung. - AE 1906.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

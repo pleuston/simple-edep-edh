@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Szekszárd (Pannonia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD023311</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD023311</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Szekszárd, Balogh Ádám Múz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(149)</height><width>(59)</width><depth>(27)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7.5-7</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia inferior</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3044760">Szekszárd</placeName><placeName type="findspot"/><placeName type="region">Tolna megye</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD023311_1" sex="M"><persName><name type="nomen">Surius</name><name type="cognomen">Cattenas</name></persName></person><person xml:id="HD023311_2" sex="M"><persName><name type="cognomen">Essimnus</name></persName></person><person xml:id="HD023311_3" sex="M"><persName><name type="cognomen">Florus</name></persName></person><person xml:id="HD023311_4" sex="M"><persName/></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-11-02" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F003906" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/ecb5bf8a-c9f3-48b9-b255-25d63e9b9a0c/file/id/764664/file_version/name/small"/><graphic xml:id="F013115" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/53b5bbb2-2409-42c1-9254-97747f4c4327/file/id/772643/file_version/name/small"/><graphic xml:id="F033427" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/d194f0f3-dba6-40b8-8855-c2d9763a25af/file/id/794234/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Surius Essi<lb break="no" n="2"/>mni <expan><abbr>f</abbr><ex>ilius</ex></expan> Catte<lb break="no" n="3"/>nas miles <expan><abbr>coh</abbr><ex>ortis</ex></expan> <lb n="4"/>I <expan><abbr>Vind</abbr><ex>elicorum</ex></expan> <expan><abbr>n<am>n</am></abbr><ex>orum</ex></expan> <lb n="5"/>XXXX <expan><abbr>stip</abbr><ex>endiorum</ex></expan> XX <lb n="6"/><expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>itus</ex></expan> <expan><abbr>e</abbr><ex>st</ex></expan> <lb n="7"/>Florus et <lb n="0"/>Bassus CE<gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Datierung nach Lőrincz: 98/99.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1935, 0103.</bibl><bibl>RIU 1029; Abb. 1029 (Foto u. Zeichnung).</bibl><bibl>R. Egger, Germania 19, 1935, 227-228; Abb. 1. - AE 1935.</bibl><bibl>A.S. Burger, Die Skulpturen des Stadtgebietes von Sopianae und des Gebietes zwischen der Drau und der Limesstrecke Lussonium - Altinum, CSIR Ungarn 7 (Budapest 1991) 43, Nr. 42; Taf. 16, 1.</bibl><bibl>B. Lőrincz, in: HPS 19 (Budapest - Debrecen 2011) 299, Nr. 70.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

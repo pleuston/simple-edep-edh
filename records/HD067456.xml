@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Colonia Claudia Augusta? Agrippinensium &amp;ndash; Köln (Germania inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD067456</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD067456</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Köln, Kurt-Hackenberg-Platz, vermauert</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>85</height><width>60</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/108751">Colonia Claudia Augusta? Agrippinensium</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found" when="2008"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2886242">Köln</placeName><placeName type="findspot">{Kurt-Hackenberg-Platz}</placeName><placeName type="region">Nordrhein-Westfalen</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD067456_1" sex="M"><persName><name type="praenomen">C.+</name><name type="nomen">Lupassius+</name><name type="cognomen">[---]ius?</name></persName></person><person xml:id="HD067456_2" sex="W"><persName><name type="nomen">Axia*</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD067456_3"><persName><name type="praenomen">[-]?</name><name type="nomen">Iulius/a</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD067456_4" sex="W"><persName><name type="cognomen">[---]ta</name></persName></person><person xml:id="HD067456_5" sex="W"><persName><name type="nomen">[---]tia?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-09-14" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>C</abbr><ex>aio</ex></expan></supplied> Lu<supplied reason="lost">passi</supplied>o <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>lib</abbr><ex>erto</ex></expan> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>io Axi<expan><ex>a</ex><abbr>e</abbr></expan> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>Iul</abbr><ex>i--</ex></expan> <expan><abbr>l</abbr><ex>ibert--</ex></expan> <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>VL I <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/>STI<gap reason="lost" extent="unknown" unit="character"/> <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/>tae <expan><abbr>f</abbr><ex>iliae</ex></expan> <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/>tia <expan><abbr>f</abbr><ex>ilia</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2010, 1020.</bibl><bibl>B. Galsterer - H. Galsterer, Die römischen Steininschriften aus Köln, IKöln (2.</bibl><bibl>Aufl.) (Mainz 2010) 530-531, Nr. 796; Foto. - AE 2010.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

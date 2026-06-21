@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Cossura (Sicilia, Melita)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD037282</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD037282</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>(12)</height><width>(14)</width><depth>1</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">2.5-1.6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Sicilia, Melita</placeName><placeName type="ancient" ref="#">Cossura</placeName></origPlace><origDate><origDate notBefore-custom="0116" notAfter-custom="0117" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">116 AD - 117 AD</origDate></origDate></origin>
+                        <provenance type="found" when="2001"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern"/><placeName type="findspot">Akropolis, sekundär verwendet</placeName><placeName type="region">Pantelleria</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD037282_1" sex="M"><persName><name type="praenomen">M.+</name><name type="nomen">Appuleius+</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD037282_2" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Appuleius</name><name type="cognomen">Insulanus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-03-13" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F012315" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/41dd40fa-7fd2-4788-a86e-772548f3ca24/file/id/771838/file_version/name/small"/><graphic xml:id="F012316" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/934280d6-8971-4494-8107-476adc62ec35/file/id/771839/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>M</abbr><ex>arco</ex></expan> Appuleio <expan><abbr>M</abbr><ex>arci</ex></expan>? <expan><abbr>f</abbr><ex>ilio</ex></expan> <expan><abbr>Quir</abbr><ex>ina</ex></expan> <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">adl</supplied>ecto in V <lb n="3"/><supplied reason="lost">decurias ab<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <expan><abbr>Imp</abbr><ex>eratore</ex></expan>? Traiano<certainty locus="name" match="preceding-sibling::text()" cert="low"/> Optimo<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <expan><abbr>Aug</abbr><ex>usto</ex></expan>? <expan><abbr>praef</abbr><ex>ecto</ex></expan></supplied> <expan><abbr>coh</abbr><ex>ortis</ex></expan> <supplied reason="lost">I</supplied> <lb n="4"/><expan><abbr><supplied reason="lost">Ul</supplied>p</abbr><ex>iae</ex></expan> Tr<supplied reason="lost"><expan><abbr>aian</abbr><ex>ae</ex></expan>? <expan><abbr>Cugern</abbr><ex>orum</ex></expan>? <expan><abbr>c</abbr><ex>ivium</ex></expan>? <expan><abbr>R</abbr><ex>omanorum</ex></expan>? donis donato ab <expan><abbr>Imp</abbr><ex>eratore</ex></expan> Traiano</supplied> <lb n="5"/><supplied reason="lost">Opt</supplied>imo <expan><abbr>Aug</abbr><ex>usto</ex></expan> <supplied reason="lost">bello Dacico hasta pura et corona <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="6"/><expan><abbr>trib</abbr><ex>uno</ex></expan> <expan><abbr>mil</abbr><ex>itum</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> <supplied reason="lost">II Traia</supplied><expan><abbr>n</abbr><ex>ae</ex></expan> <expan><abbr>fort</abbr><ex>is</ex></expan> pr<supplied reason="lost"><expan><abbr>aef</abbr><ex>ecto</ex></expan> alae <gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>proc</abbr><ex>uratori</ex></expan></supplied> <lb n="7"/><expan><abbr>Aug</abbr><ex>usti</ex></expan> ab ann<supplied reason="lost"><expan><abbr>on</abbr><ex>a</ex></expan> ad Pu</supplied>teolos <expan><abbr>praef</abbr><ex>ecto</ex></expan> cla<supplied reason="lost" cert="low">ssis Alexandrinae</supplied> <lb n="8"/><expan><abbr>L</abbr><ex>ucius</ex></expan> Appuleius <expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> Q<supplied reason="lost"><expan><abbr>uir</abbr><ex>ina</ex></expan> In</supplied>sulanus piissimo p<supplied reason="lost" cert="low">atri faciend(um)? curavit</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Gefunden in der spätantiken Verfüllung zweier Zisternen. 3 Fragmente erhalten; Maße beziehen sich auf den unteren Teil von Fragment a; der anpassende obere Teil mißt (10,6) x (7,2) x 1,5 cm; Maße Fragment b (aus 3 Teilen zusammengesetzt): (11,8) x (14,3) x 1,5 cm; Maße Fragment c: (9,2) x (8,5) x 1,3 cm. Rekonstruierte Maße der Tafel: circa 34 x 54 cm. Z. 1 (Ende): noch ein Rest von der unteren Haste des drittletzten oder vorletzten Buchstabens erhalten; nicht mehr identifizierbar.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>G. Alföldy, ZPE 151, 2005, 193-213; Abb. 1-3 u. 5; Abb. 4 (Zeichnung).</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

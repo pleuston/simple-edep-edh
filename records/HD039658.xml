@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Dianium, bei &amp;ndash; Oliva (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD039658</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD039658</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Oliva, Mus. Arq. Mun.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><dimensions unit="cm"><height>93</height><width>41</width><depth>32</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6-3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Hispania citerior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/403182">Dianium, bei</placeName></origPlace><origDate><origDate notBefore-custom="0171" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD - 230 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern">Oliva</placeName><placeName type="findspot">Les Fonts</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD039658_1"><persName><name type="nomen">Pompeia</name><name type="cognomen">Venusta+</name></persName></person><person xml:id="HD039658_2"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]us?</name></persName></person><person xml:id="HD039658_3"><persName><name type="praenomen">C.</name><name type="nomen">Pompeius+</name><name type="cognomen">Nicostratus</name></persName></person><person xml:id="HD039658_4"><persName><name type="praenomen">Q.</name><name type="nomen">Pompeius+</name><name type="cognomen">Philippus*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-10-05" who="Garcia">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/>Pompeiae Ven<supplied reason="lost">us</supplied><lb break="no" n="3"/><supplied reason="lost">t</supplied>ae <expan><abbr>an</abbr><ex>norum</ex></expan> LXX <gap reason="lost" extent="unknown" unit="character"/><lb break="no" n="4"/><expan><abbr>us</abbr><ex cert="low"/></expan> <supplied reason="lost">u</supplied>xori <lb n="5"/><supplied reason="lost">c</supplied>arissimae ar<supplied reason="lost">am</supplied> <lb n="6"/><supplied reason="lost">p</supplied>osuit et <expan><abbr>G</abbr><ex>aio</ex></expan> Pom<supplied reason="lost">pe</supplied><lb break="no" n="7"/><supplied reason="lost">i</supplied>o Nicostrato <supplied reason="lost">con</supplied><lb break="no" n="8"/><supplied reason="lost">so</supplied>brino et <expan><abbr>Q</abbr><ex>uinto</ex></expan> Pom<lb break="no" n="9"/><supplied reason="lost">p</supplied>eio Philip<expan><ex>p</ex><abbr>o</abbr></expan> so<lb break="no" n="10"/>roris viro adf<supplied reason="lost">i</supplied><lb break="no" n="11"/>nibus piissi<lb break="no" n="12"/>mis
+            </ab></div>
+            <div type="commentary">
+                <p>Bekrönung und oberer Teil des Inschriftfeldes stark verwittert.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>J. Corell, Inscripcions romanes d'Ilici, Lucentum, Allon, Dianium i els seus respectius territoris (Valencia 1999) 280-281, Nr. 184; Foto.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Salviae &amp;ndash; Glamoč (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD023324</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD023324</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Sarajevo, Zem. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material>Gesteine</material><dimensions unit="cm"><height>(36)</height><width>(35)</width><depth>(24)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197490">Salviae</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1926"><placeName type="country" ref="https://www.geonames.org/3277605">Bosnia and Herzegovina</placeName><placeName type="modern" ref="http://www.geonames.org/3199427">Glamoč</placeName><placeName type="findspot">{Halapić}, bei, "Gradac"</placeName><placeName type="region">Hercegbosanska županija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD023324_1" sex="M"><persName><name type="praenomen">T.</name><name type="nomen">Coninius</name><name type="cognomen">Ursus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2018-04-18" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> et Genio</supplied> <lb n="2"/>loci <expan><abbr>T</abbr><ex>itus</ex></expan> Coni<lb break="no" n="3"/>nius Ursus <lb n="4"/>|(centurio) <expan><abbr>coh</abbr><ex>ortis</ex></expan> VIII <expan><abbr>vol</abbr><ex>untariorum</ex></expan> <lb n="5"/>gratias agens <lb n="6"/><supplied reason="lost">c</supplied>um suis <expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Sergejevski: abweichende Textwiedergabe / Auflösungen / Ergänzungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILJug 1645.</bibl><bibl>E. Imamović, Antički kultni i votivni spomenici na području Bosne i Hercegovine (Sarajevo 1977) 382. 406, Nr. 128. 167; Fotos.</bibl><bibl>D. Sergejevski, GlasSarajevo 40, 1928, 82-83. 95, Nr. 3; sl. 3. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

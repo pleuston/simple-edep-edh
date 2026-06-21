@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Santicum &amp;ndash; Villach (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD053633</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD053633</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Villach, Stadtmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material>Marmor, geädert / farbig</material><dimensions unit="cm"><height>(97)</height><width>(50)</width><depth>23</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/187537">Santicum</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1991"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2762372">Villach</placeName><placeName type="findspot">{Weißbriachgasse 2}, sekundär verwendet</placeName><placeName type="region">Kärnten</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD053633_1" sex="M"><persName><name type="cognomen">Macrinus</name></persName></person><person xml:id="HD053633_2" sex="M"><persName><name type="nomen">Acilius*</name><name type="cognomen">Censorinus</name></persName></person><person xml:id="HD053633_3" sex="W"><persName><name type="cognomen">Satulla</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-07-15" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Macrino <lb n="2"/>A&amp;lt;c=G&amp;gt;<expan><abbr>il</abbr><ex>i</ex></expan> Censo<lb break="no" n="3"/>rini <expan><abbr>ser</abbr><ex>vo</ex></expan> <lb n="4"/>Satulla <expan><abbr>sor</abbr><ex>or</ex></expan> <lb n="5"/><expan><abbr>fec</abbr><ex>it</ex></expan> 
+            </ab></div>
+            <div type="commentary">
+                <p>Material: gelblicher Marmor. Im Giebelfeld oberhalb des Inschriftfeldes Halbmond, in den Zwickeln Delphine. (B): Karpf; Weber - Selinger; Piccottini; AE 1992: Z. 2: Acil(i).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1992, 1338. (B)</bibl><bibl>G. Piccottini, Grabstelen, Reiter- und Soldatendarstellungen sowie dekorative Reliefs des Stadtgebietes von Virunum und Nachträge zu CSIR-Österreich II/1-4, CSIR Österreich 2, 5 (Wien 1994) 13, Nr. 407; Taf. 2, 407. (B)</bibl><bibl>E. Weber - R. Selinger, RŒ 19/20, 1991/92, 233, Nr. 337. (B) - AE 1992.</bibl><bibl>K. Karpf, FuBerÖ 30, 1991, 278. (B) - AE 1992.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

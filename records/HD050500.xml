@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Tragurium &amp;ndash; Trogir (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD050500</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD050500</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Trogir, Muz. grad. Trog.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><dimensions unit="cm"><height>(38)</height><width>28</width><depth>7</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197555">Tragurium</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3188763">Trogir</placeName><placeName type="findspot"/><placeName type="region">Splitsko-dalmatinska županija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD050500_1"><persName><name type="nomen">Aletius</name><name type="cognomen">Barbius</name></persName></person><person xml:id="HD050500_2"><persName><name type="cognomen">Marcella*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2008-07-22" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <supplied reason="lost"><expan><abbr>s</abbr><ex>acrum</ex></expan></supplied> <lb n="2"/>Aletius Barbiu<lb break="no" n="3"/>s infelicis<expan><ex>s</ex><abbr>im</abbr><ex>a</ex><abbr>e</abbr></expan> co<expan><ex>n</ex><abbr>i</abbr></expan><lb break="no" n="4"/>ugi su<expan><ex>a</ex><abbr>e</abbr></expan> Marcel<expan><ex>la</ex><abbr>e</abbr></expan> <lb n="5"/>qu<expan><ex>a</ex><abbr>e</abbr></expan> vix<surplus>x</surplus>i&amp;lt;t=X&amp;gt; bene <lb n="6"/>mecum annos <lb n="7"/><expan><abbr>plu</abbr><ex>s</ex></expan> minus LV filio<lb break="no" n="8"/>s reliquit qua<lb break="no" n="9"/>t<expan><ex>tu</ex><abbr>or</abbr></expan> qu<expan><ex>a</ex><abbr>e</abbr></expan> nul<expan><ex>l</ex><abbr>um</abbr></expan> <lb n="10"/>dolum de se vidit 
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2004, 1103.</bibl><bibl>D. Maršić, OpuscArchZagreb 28, 2004, 113. 135-137, Nr. 2; sl. 8. - AE 2004.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from (Civitas Iovia?) &amp;ndash; Alsóhetény, bei (Pannonia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD073514</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD073514</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Budapest, Magyar Nemzeti Múz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>62</height><width>74</width><depth>7</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6.5-8</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197327">(Civitas Iovia?)</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3056177">Alsóhetény, bei</placeName><placeName type="findspot">Alsóheténypuszta, römisches Lager, sekundär verwendet</placeName><placeName type="region">Tolna megye</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD073514_1" sex="M"><persName><name type="praenomen">T.</name><name type="nomen">Claudius*</name><name type="cognomen">Tutor Dos?</name></persName></person><person xml:id="HD073514_2" sex="W"><persName><name type="nomen">Veturia*?</name><name type="cognomen">Paulina</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-07-07" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/><expan><abbr>T</abbr><ex>itus</ex></expan> <expan><abbr>Cl</abbr><ex>audius</ex></expan> <expan><abbr>T</abbr><ex>iti</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <lb n="3"/>Tutor DOS <lb n="4"/><expan><abbr>an</abbr><ex>norum</ex></expan> <expan><abbr>vi</abbr><ex>vus</ex></expan> <expan><abbr>f</abbr><ex>ecit</ex></expan> <expan><abbr>s</abbr><ex>ibi</ex></expan> et <lb n="5"/><expan><abbr>c</abbr><ex>oniugi</ex></expan> <expan><abbr>p</abbr><ex>ientissimae</ex></expan> <expan><abbr>Vet</abbr><ex cert="low">uriae</ex></expan> Paulinae <lb n="6"/><expan><abbr>an</abbr><ex>norum</ex></expan> LXX <expan><abbr>h</abbr><ex>ic</ex></expan> s&amp;lt;i<certainty match="preceding-sibling::node()" locus="value"/>=E&amp;gt;(ti) <expan><abbr>s</abbr><ex>unt</ex></expan> 
+            </ab></div>
+            <div type="commentary">
+                <p>Z. 6: Mráv, AE 2009: h(ic) s(ita) es(t).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2009, 1095. (B)</bibl><bibl>Z. Mráv, in: E. Tóth (Hrsg.), Studia Valeriana. Az alsóhetényi és ságvári keső római erődök kutatásának eredményei (Dombóvár 2009) 254-255, Nr. 6; 5. kép. (Foto u. Zeichnung). (B) - AE 2009.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

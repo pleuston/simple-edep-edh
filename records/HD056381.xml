@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph? from Municipium Malvesiatium &amp;ndash; Srebrenica (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD056381</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD056381</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Srebrenica, Skelani, frühchristiliche Kirche</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/35">architectural member</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(60)</height><width>(167)</width><depth>(59)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207263">Municipium Malvesiatium</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1897"><placeName type="country" ref="https://www.geonames.org/3277605">Bosnia and Herzegovina</placeName><placeName type="modern" ref="http://www.geonames.org/3190159">Srebrenica</placeName><placeName type="findspot">Skelani, {Basilika (Kirche I)}</placeName><placeName type="region">Republika Srpska</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph?</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD056381_1" sex="M"><persName><name type="praenomen">[-]?</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD056381_2" sex="W"><persName><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD056381_3" sex="M"><persName><name type="nomen">Claudius*</name><name type="cognomen">Ca[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-10-22" who="Feraudi">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/>avii <expan><abbr>eq</abbr><ex>uitis</ex></expan> <expan><abbr>R</abbr><ex>omani</ex></expan> <expan><abbr>c</abbr><ex>larissimi</ex></expan> <expan><abbr>v</abbr><ex>iri</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> matris <expan><abbr>c</abbr><ex>larissimae</ex></expan> <expan><abbr>f</abbr><ex>eminae</ex></expan> <expan><abbr>Cl</abbr><ex>audius</ex></expan> Ca<gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Architravblock. Hederae. Die in AE zitierte Referenzpublikation konnte nicht konsultiert werden (S. Loma, Claudius Gallus and New Men in Severus&amp;apos; Senate. Studies in epigraphy, 2010) 295-296, Nr. 13).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>C. Patsch, WMBH 11, 1909, 152-153, Nr. 19; Fig. 59 u. 60 (Zeichnungen).</bibl><bibl>ILJug 1547.</bibl><bibl>AE 2010, 1158.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

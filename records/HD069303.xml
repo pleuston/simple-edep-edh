@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Aquae Iasae &amp;ndash; Varaždinske Toplice (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD069303</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD069303</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Varaždinske Toplice, Zav. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor, weiß</material><dimensions unit="cm"><height>64</height><width>145</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">8-7</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197127">Aquae Iasae</placeName></origPlace><origDate><origDate notBefore-custom="0041" notAfter-custom="0068" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">41 AD - 68 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1882"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3188380">Varaždinske Toplice</placeName><placeName type="findspot">{Kurpark}, bei, antike Ruinen (Thermen?)</placeName><placeName type="region">Varaždinska županija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD069303_1" sex="M"><persName ref="http://data.snapdrgn.net/person/4132"><name type="praenomen">M.</name><name type="nomen">Rutilius</name><name type="cognomen">Lupus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-03-09" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Nymphas <note>sic</note> salutares <note>sic</note> <lb n="2"/><expan><abbr>M</abbr><ex>arcus</ex></expan> Rutilius Lupus <expan><abbr>tr</abbr><ex>ibunus</ex></expan> <expan><abbr>mil</abbr><ex>itum</ex></expan> <lb n="3"/><expan><abbr>leg</abbr><ex>ionis</ex></expan> XXII <expan><abbr>q</abbr><ex>uaestor</ex></expan> <expan><abbr>tr</abbr><ex>ibunus</ex></expan> <expan><abbr>pl</abbr><ex>ebis</ex></expan> <lb n="4"/><expan><abbr>leg</abbr><ex>atus</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> XIII <expan><abbr>gem</abbr><ex>inae</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Datierung: Fitz; PIR (2. Aufl.) R 251: M. Rutilius Lupus war wahrscheinlich unter Claudius oder Nero Legionslegat der legio XIII gem.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2013, 1207.</bibl><bibl>CIL 03, 10893.</bibl><bibl>ILS 3865.</bibl><bibl>AIJ 462; Foto.</bibl><bibl>PIR (2. Aufl.) R 251.</bibl><bibl>J. Fitz, Die Verwaltung Pannoniens in der Römerzeit (Budapest 1993) 186, Nr. 77.</bibl><bibl>L. Lučić, VjesAMuzZagreb 46, 2013, 218, Nr. 9. - AE 2013.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

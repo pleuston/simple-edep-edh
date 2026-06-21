@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Manacor (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD042117</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD042117</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/35">architectural member</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Hispania citerior</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0351" notAfter-custom="0600" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">351 AD - 600 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1907"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern">Manacor</placeName><placeName type="findspot">Carrotja de Porto Cristo, frühchristliche Basilika</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD042117_1" sex="W"><persName><name type="nomen">[---]</name><name type="cognomen">Honoria+?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-08-24" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost" cert="low"> Ho</supplied>nor<supplied reason="lost">i</supplied>a an<supplied reason="lost">norum</supplied> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> et posit<supplied reason="lost">a</supplied> <lb n="3"/>e<supplied reason="lost">s</supplied>t die <gap reason="lost" extent="unknown" unit="character"/>III K<supplied reason="lost"><expan><abbr>al</abbr><ex>endas</ex></expan></supplied> <lb n="4"/>April<supplied reason="lost">is</supplied><gap reason="lost" extent="unknown" unit="character"/>R<gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Mosaik in Funktion einer Grabplatte.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1992, 1080a.</bibl><bibl>AE 1996, 0834.</bibl><bibl>J. Gómez Pallarès, Conimbriga 30, 1991, 132-134. - AE 1992.</bibl><bibl>J. Gómez Pallarès - M. Mayer, CEA 31, 1996, 67-68, Nr. PM1; lám. 17. - AE 1996.</bibl><bibl>C. Veny, Corpus de las inscripciones baleáricas hasta la dominación árabe (Madrid 1965) 84-85, Nr. 70; lám. 20, 70.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

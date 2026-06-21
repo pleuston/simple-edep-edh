@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Lauriacum &amp;ndash; Enns (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD018590</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD018590</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Enns, Mus. Lauriacum</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor, weiß</material><dimensions unit="cm"><height>(29)</height><depth>9</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">2.8</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118802">Lauriacum</placeName></origPlace><origDate><origDate notBefore-custom="0271" notAfter-custom="0273" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">271 AD - 273 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1950"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2780048">Enns</placeName><placeName type="findspot">{Legionslager, Principia}</placeName><placeName type="region">Oberösterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD018590_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q46780"><name type="praenomen">L.</name><name type="nomen">Domitius+</name><name type="cognomen">Aurelianus+</name></persName></person><person xml:id="HD018590_2" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">Ingenuus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-08-27" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F025512" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/356a14a9-83f3-404f-bffb-de1b59de3fa6/file/id/786264/file_version/name/small"/><graphic xml:id="F025513" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/c80d2112-20fe-44f2-b97a-733ffa2ffa67/file/id/786265/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Imp</abbr><ex>eratori</ex></expan> C</supplied><expan><abbr>aes</abbr><ex>ari</ex></expan> <expan><abbr>L</abbr><ex>ucio</ex></expan> D<supplied reason="lost">omitio</supplied> <lb n="2"/><supplied reason="lost">Aur</supplied>eliano P<supplied reason="lost">io <expan><abbr>F</abbr><ex>elici</ex></expan> Invicto</supplied> <lb n="3"/><supplied reason="lost"><expan><abbr>Aug</abbr><ex>usto</ex></expan></supplied> <expan><abbr>p</abbr><ex>ontifici</ex></expan> <expan><abbr>m</abbr><ex>aximo</ex></expan> <expan><abbr>trib</abbr><ex>unicia</ex></expan> <supplied reason="lost"><expan><abbr>potest</abbr><ex>ate</ex></expan> <gap reason="lost" quantity="1" unit="character"/></supplied> <lb n="4"/><supplied reason="lost"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan></supplied> <expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> proc<supplied reason="lost"><expan><abbr>o</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/> Ingenu<supplied reason="lost">us |(centurio) <expan><abbr>coh</abbr><ex>ortis</ex></expan> <gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/> <expan><abbr>pr</abbr><ex>aetoriae</ex></expan></supplied> <lb n="6"/><supplied reason="lost">piae</supplied> <expan><abbr>vin</abbr><ex>dicis</ex></expan> regi<supplied reason="lost">onarius</supplied> <lb n="7"/><supplied reason="lost">devo</supplied>tus <expan><abbr>n</abbr><ex>umini</ex></expan> <expan><abbr>m</abbr><ex>aiestati</ex></expan><supplied reason="lost">que eius</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Maximale erhaltene Breite des Inschriftfeldes: 18 cm. Ergänzungen nach Weber. (B): Vetters: Z. 1: Ca]es(ari).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1953, 0129.</bibl><bibl>ILLPRON 0963.</bibl><bibl>H. Vetters, JŒAI (Beibl.) 39, 1952, 103-106; Abb. 26; Abb. 27 (Zeichnung). (B) - AE 1953.</bibl><bibl>E. Weber, in: H. Ubl (Hrsg.), Museum Lauriacum. Katalog zur Schausammlung "Römerzeit" des Museums Lauriacum-Enns 2 (Enns - Wien 1997) 35-36, Nr. I/26.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

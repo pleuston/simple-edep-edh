@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Bad Homburg/Höhe (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD041996</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD041996</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bad Homburg/Höhe, Römerkastell Saalburg</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/241">statue</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>64</height><width>37</width><depth>15</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">1.5-2.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109297"/></origPlace><origDate><origDate when-custom="0218" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">218 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1882"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/3208114">Bad Homburg/Höhe</placeName><placeName type="findspot">{Saalburg, Lager, Principia, westlich}</placeName><placeName type="region">Hessen</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD041996_1" sex="W"><persName><name type="nomen">Atinia+?</name><name type="cognomen">Atte[-]i[---]?</name></persName></person><person xml:id="HD041996_2" sex="M"><persName><name type="cognomen">Antoninus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-02-07" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F021011" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/94f2ba73-0565-4386-a203-6b1d78f6cdd2/file/id/781088/file_version/name/small"/><graphic xml:id="F021015" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/f4acbf1c-2ddb-469b-a7f8-c018ec2accc1/file/id/781091/file_version/name/small"/><graphic xml:id="F021016" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/cc282eaf-4544-428d-998b-bbb2da25b1ff/file/id/781092/file_version/name/small"/><graphic xml:id="F021018" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/7c59cc1f-3e6b-4d6a-b2e8-e6415afa3788/file/id/781094/file_version/name/small"/><graphic xml:id="F021013" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/e1e633b2-df61-4e69-94c9-2b9a17b406b6/file/id/781089/file_version/name/small"/><graphic xml:id="F021005" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/667960e2-0be3-447e-857d-d08e1a384a3b/file/id/781081/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Ge<lb break="no" n="2"/>ni<lb break="no" n="3"/>o <lb n="4"/>|(centuriae) </ab></div><div n="2" type="textpart"><ab><lb n="1"/> In <expan><abbr>h</abbr><ex>onorem</ex></expan> <expan><abbr>d</abbr><ex>omus</ex></expan> <expan><abbr>d</abbr><ex>ivinae</ex></expan> Ge<supplied reason="lost">n</supplied>io |(centuriae) </ab></div><div n="3" type="textpart"><ab><lb n="1"/> <expan><abbr>AT</abbr><ex cert="low"/>inia</expan> <expan><abbr>AT</abbr><ex cert="low"/>T</expan><certainty match="preceding-sibling::node()" locus="value"/>E<supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied><expan><abbr>I</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/>de suo posu<supplied reason="lost">it <gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied><expan><abbr>I</abbr><ex cert="low"/>I</expan><certainty match="preceding-sibling::node()" locus="value"/><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied> <lb n="3"/><expan><abbr>Imp</abbr><ex>eratore</ex></expan> <expan><abbr>d</abbr><ex>omino</ex></expan> <expan><abbr>n</abbr><ex>ostro</ex></expan> An<supplied reason="lost">tonino <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ule</ex></expan></supplied>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Statuette eines an einem Altar opfernden Genius. Die Inschriften befinden sich auf dem Altar (Z. 1-4) und der niederen, in einem Stück mit der Statuette gearbeiteten Basis (Z. 5-8); Z. 5 steht auf dem leicht vorspringenden oberen Absatz der Basis. Oberfläche teilweise stark verrieben. (B): Jacobi; CIL 13, 07450; Mattern: kleinere Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 07450. (B)</bibl><bibl>M. Mattern, Römische Steindenkmäler vom Taunus- und Wetteraulimes mit Hinterland zwischen Heftrich und Großkrotzenburg, CSIR Deutschland 2, 12 (Mainz 2001) 48-49, Nr. 34; Tafel 14. (B)</bibl><bibl>L. Jacobi, Das Römerkastell Saalburg bei Homburg vor der Höhe (Homburg/Höhe 1897) 281-282, Nr. 23; 404; Taf. 26, 2 (Zeichnung). (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

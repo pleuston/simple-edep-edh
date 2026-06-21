@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from (Civitas Lingonum) &amp;ndash; Arc-en-Barrois (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD081739</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD081739</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Chaumont, Mus. Arch.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>173</height><width>62</width><depth>22</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4-6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="#">(Civitas Lingonum)</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 230 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1846"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/3037229">Arc-en-Barrois</placeName><placeName type="findspot">Römerstraße Andematunnum-Agedincum, bei, Nekropole</placeName><placeName type="region">Grand Est</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD081739_1" sex="M"><persName><name type="cognomen">Paullinus</name></persName></person><person xml:id="HD081739_2" sex="M"><persName><name type="cognomen">Senilis</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-08-19" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F028684" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/b286e4c6-9898-40c5-ac8d-94fb81781844/file/id/789441/file_version/name/small"/><graphic xml:id="F028686" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/be44498e-eeba-49f7-8dfc-56467d560cfb/file/id/789443/file_version/name/small"/><graphic xml:id="F028685" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/0ae97973-89c9-4fad-a408-c9488f47824c/file/id/789442/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <supplied reason="lost"><expan><abbr>M</abbr><ex>anibus</ex></expan></supplied> <lb n="2"/>Paullinus <lb n="3"/>Senilis <expan><abbr>filiu</abbr><ex>s</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Stele mit Dreiecksgiebel. Im Giebelfeld Rosette. Darunter als tabula ansata ausgeführtes Inschrirftfeld mit erhabenem Rahmen, Z. 1 auf der oberen Rahmenleiste. Unterhalb des Inschriftfeldes zwei flache Pilaster, zwischen diesen im unteren Bereich Relief eines Altars, darüber tiefe, mit einem Rundbogen abgeschlossene Nische.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 05930.</bibl><bibl>J.-J. Thévenard, in: J.-J. Thévenard - A. Villes - R. Neiss, La Haute-Marne, Carte archéologique de la Gaule 52, 1 (Paris 1996) 110.</bibl><bibl>Y. Le Bohec, Inscriptions de la cité des Lingons (Paris 2003) 339, Nr. 621; Abb. 296.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

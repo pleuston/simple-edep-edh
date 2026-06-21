@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription from Glanum &amp;ndash; S.-Rémy-de-Provence (Narbonensis)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD019311</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD019311</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>S. Rémy de Provence</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/35">architectural member</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Narbonensis</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/148093">Glanum</placeName></origPlace><origDate><origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar"/></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/2977214">S.-Rémy-de-Provence</placeName><placeName type="findspot"/><placeName type="region">Provence-Alpes-Côte d’Azur</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/143" xml:lang="en">unknown</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD019311_1"><persName><name type="praenomen">M.</name><name type="cognomen">Agrippa</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-05-19" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F004460" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/9115b26a-87dc-4aa8-8696-af15bed044be/file/id/765222/file_version/name/small"/><graphic xml:id="F028592" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/92adcecd-a670-42c3-ba69-7e42ff916ed2/file/id/789349/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost">Val</supplied>etudini <expan><abbr>M</abbr><ex>arcus</ex></expan> Agrippa
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1955, 0111b.</bibl><bibl>AE 1956, 0162.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

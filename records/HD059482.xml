@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Lepcis Magna &amp;ndash; Al Khums (Africa Proconsularis)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD059482</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD059482</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/53">base</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>155</height><width>95</width><depth>95</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Africa Proconsularis</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/344448">Lepcis Magna</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2215636">Libya</placeName><placeName type="modern" ref="http://www.geonames.org/2219905">Al Khums</placeName><placeName type="findspot">{Hadriansthermen, Frigidarium}, sekundär verwendet</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD059482_1" sex="M"><persName><name type="praenomen">C.++</name><name type="nomen">Aemilius++</name><name type="cognomen">[---]a++</name></persName></person><person xml:id="HD059482_2" sex="M"><persName><name type="praenomen">C.++</name><name type="nomen">Aemilius++</name><name type="cognomen">Rufinus++</name></persName></person><person xml:id="HD059482_3" sex="W"><persName><name type="nomen">Aemilia++</name><name type="cognomen">Victrix++</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-05-21" who="Bigi">checked through autopsy</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F032974" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/477162b8-a358-4e4e-8177-1b5160ee57f7/file/id/793776/file_version/name/small"/><graphic xml:id="F032975" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/eff53242-5a54-423c-a398-6fffcab35ad2/file/id/793777/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <del rend="erasure"><expan><abbr>C</abbr><ex>aio</ex></expan> Aemilio</del> <lb n="2"/><del rend="erasure"><expan><abbr>Pap</abbr><ex>iria</ex></expan> <gap reason="lost" extent="unknown" unit="character"/>ae</del> <lb n="3"/><del rend="erasure"><expan><abbr>C</abbr><ex>ai</ex></expan> Aemili Rufini filio</del> <lb n="4"/><del rend="erasure">Aemilia Victrix</del> <lb n="5"/><del rend="erasure">mater <expan><abbr>f</abbr><ex>ilio</ex></expan> pi<supplied reason="lost">is</supplied>s<supplied reason="lost">i</supplied>mo per</del><lb break="no" n="6"/><del rend="erasure">missu splendidis</del><lb break="no" n="7"/><del rend="erasure">simi ordinis sua</del> <lb n="8"/><del rend="erasure">pecunia posuit</del>
+            </ab></div>
+            <div type="commentary">
+                <p>Reused as support for ideal sculpture together with IRT 628.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IRT 629.</bibl><bibl>I. Tantillo - F. Bigi (Hrsg.), Leptis Magna. Una città e le sue iscrizioni in epoca tardoromana (Cassino 2010) 242; 278 u. 279; tav. 24.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

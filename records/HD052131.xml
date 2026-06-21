@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Colonia Claudia Augusta? Agrippinensium &amp;ndash; Köln (Germania inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD052131</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD052131</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Köln, Röm.-Germ. Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(44)</height><width>(31)</width><depth>9</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/108751">Colonia Claudia Augusta? Agrippinensium</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1994"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2886242">Köln</placeName><placeName type="findspot">{Benesisstraße 24}-32</placeName><placeName type="region">Nordrhein-Westfalen</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD052131_1" sex="M"><persName><name type="nomen">Calidius+</name><name type="cognomen">Σoilus+ (= Zoilus)</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2018-03-29" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <supplied reason="lost"><expan><abbr>s</abbr><ex>acrum</ex></expan></supplied> <lb n="2"/>Cali<supplied reason="lost">dius</supplied> <lb n="3"/>&amp;lt;Z=Σ&amp;gt;oi<supplied reason="lost">lus</supplied> <lb n="4"/>rhet<supplied reason="lost">or</supplied> <lb n="5"/>grae<supplied reason="lost">cus</supplied> <lb n="6"/><expan><abbr>h</abbr><ex>eres</ex></expan> <expan><abbr>f</abbr><ex>aciendum</ex></expan> <supplied reason="lost"><expan><abbr>c</abbr><ex>uravit</ex></expan></supplied> 
+            </ab></div>
+            <div type="commentary">
+                <p>Z. 1: Zoi[lus] mit spiegelverkehrtem Σ anstelle von Z.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2004, 0976.</bibl><bibl>H. Galsterer, KJ 37, 2004, 131-132, Nr. 12; Abb. 14. - AE 2004.</bibl><bibl>B. Galsterer - H. Galsterer, Die römischen Steininschriften aus Köln, IKöln (2.</bibl><bibl>Aufl.) (Mainz 2010) 364, Nr. 437; Foto.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

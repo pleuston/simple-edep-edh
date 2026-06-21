@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Flavia Solva, bei &amp;ndash; Starše (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD074486</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD074486</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Ptuj, Stadtturm, vermauert</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">stele?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><width>(60)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197273">Flavia Solva, bei</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3190538">Slovenia</placeName><placeName type="modern" ref="http://www.geonames.org/3189917">Starše</placeName><placeName type="findspot"/><placeName type="region">Podravska statistična regija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD074486_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]ius</name><name type="cognomen">[---]mus</name></persName></person><person xml:id="HD074486_2" sex="M"><persName><name type="cognomen">Successus*</name></persName></person><person xml:id="HD074486_3" sex="W"><persName><name type="nomen">Ulpia+*?</name><name type="cognomen">Suadra</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-01-26" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F012873" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/486217b7-fbda-4809-9f16-069fec476a26/file/id/772398/file_version/name/small"/><graphic xml:id="F008990" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/6bba2b41-ed75-42e9-b79a-b0328d6e079e/file/id/768756/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan></supplied> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>ius <expan><abbr>Suc</abbr><ex>cessi</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>mus <expan><abbr>an</abbr><ex>norum</ex></expan> LX <lb n="4"/><supplied reason="lost">testame</supplied>nto fieri <lb n="5"/><supplied reason="lost" cert="low">iussit sibi? et? Ul</supplied><expan><abbr>p</abbr><ex cert="low">iae</ex></expan> Suadrae <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">ben</supplied>e meritae <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>fac</abbr><ex>iendum</ex></expan> <expan><abbr>cur</abbr><ex>av---</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Material- und Breitenangabe nach lupa 4848. CIL 03, 04103: Z. 1: Buchstabe M noch erhalten.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 04103.</bibl><bibl>CIL 03, 04103 add. p. 1748.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Viminacium, bei &amp;ndash; Kostolac, bei (Moesia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD036114</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD036114</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Wien, Privatbesitz</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><dimensions unit="cm"><height>(63)</height><width>41</width><depth>10</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.2-3.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207549">Viminacium, bei</placeName></origPlace><origDate><origDate notBefore-custom="0301" notAfter-custom="0450" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">301 AD - 450 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1982"><placeName type="country" ref="https://www.geonames.org/6290252">Serbia</placeName><placeName type="modern" ref="http://www.geonames.org/789210">Kostolac, bei</placeName><placeName type="findspot">{"Pećine"}</placeName><placeName type="region">Centralna Srbija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD036114_1" sex="M"><persName ref="http://romans1by1.com/rpeople/12888"><name type="nomen">[---]</name><name type="cognomen">Eusebius+</name></persName></person><person xml:id="HD036114_2" sex="M"><persName ref="http://romans1by1.com/rpeople/12889"><name type="cognomen">Antianu? (= Antianus?)</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-07-20" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                ------<certainty match="preceding-sibling::node()" locus="value"/>] <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> Eusebius filiu<supplied reason="lost" cert="low">s</supplied> <lb n="3"/><expan><abbr>Antianu</abbr><ex cert="low"/></expan> <note>sic</note> civis Germaniceu<supplied reason="lost">s</supplied> <lb n="4"/>ex vico Abdarmisu <note>sic</note> qui bixi<lb break="no" n="5"/>t <note>sic</note> annus <note>sic</note> XXIII qui filius pat<lb break="no" n="6"/>ri facere debebat ego iam <supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Ungewöhnliche Buchstabenformen bei G, F, Q und L; S in Z. 1 und das zweite N in Z. 4 spiegelverkehrt. Buchstaben modern rot nachgezogen. (B): IMS: Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2000, 1262.</bibl><bibl>IMS 2, 169; Foto. (B)</bibl><bibl>E. Weber, in: G. Paci (Hrsg.), Έπιγραφαί. Miscellanea epigrafica in onore di Lidio Gasperini (Roma 2000) 1095-1098. - AE 2000.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

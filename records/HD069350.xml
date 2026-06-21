@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Londinium &amp;ndash; London (Britannia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD069350</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD069350</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>London, Brit. Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/70">Oolith</material><dimensions unit="cm"><height>(55)</height><width>(35)</width><depth>22</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Britannia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/79574">Londinium</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1843"><placeName type="country" ref="https://www.geonames.org/2635167">United Kingdom</placeName><placeName type="modern" ref="http://www.geonames.org/2643743">London</placeName><placeName type="findspot">The City, {Blackfriars, Playhouse Yard}</placeName><placeName type="region">London</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD069350_1" sex="M"><persName><name type="cognomen">Celsus+</name></persName></person><person xml:id="HD069350_2" sex="M"><persName><name type="nomen">Antonius+*</name><name type="cognomen">Dardanus</name><name type="supernomen">Cursor+</name></persName></person><person xml:id="HD069350_3" sex="M"><persName><name type="nomen">Valerius+</name><name type="cognomen">Pudens</name></persName></person><person xml:id="HD069350_4" sex="M"><persName><name type="nomen">[---]s</name><name type="cognomen">Probus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-04-23" who="Cowey">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F018536" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/37732ba0-a5bc-4692-a987-ba8316baa566/file/id/778608/file_version/name/small"/><graphic xml:id="F004440" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/9bddd44e-eecf-4ff0-a299-250bbd12602a/file/id/765202/file_version/name/small"/><graphic xml:id="F028209" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/f354228f-2ba6-4b00-a334-b8dee8c26fbe/file/id/788966/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost">Dis Mani</supplied>bus <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>r <expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> C<supplied reason="lost"><expan><abbr>l</abbr><ex>audia</ex></expan></supplied> Celsu<supplied reason="lost">s</supplied> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr><supplied reason="lost">s</supplied>pec</abbr><ex>ulator</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> <supplied reason="lost">II A</supplied><expan><abbr>ug</abbr><ex>ustae</ex></expan> An<lb break="no" n="4"/><expan><abbr><supplied reason="lost">to</supplied>n</abbr><ex>ius</ex></expan> Dardanus Cu<supplied reason="lost">r</supplied><lb break="no" n="5"/><supplied reason="lost">sor Val</supplied>erius Pudens <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/>s Probus <expan><abbr>sp<supplied reason="lost">e</supplied>c</abbr><ex>ulatores</ex></expan> l<supplied reason="lost"><expan><abbr>eg</abbr><ex>ionis</ex></expan></supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Zu den Leseabweichungen s. RIB 0019.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 07, 00024. (B)</bibl><bibl>RIB 0019; Zeichnung.</bibl><bibl>P. Coombe - F. Grew - K. Hayward - M. Henig, Roman sculpture from London and the South-East, CSIR Great Britain 1, 10 (Oxford 2015) 46, Nr. 78; Pl. 44, 78.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

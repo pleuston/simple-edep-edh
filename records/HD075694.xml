@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Noviomagus (Civitas Nemetum) &amp;ndash; Speyer (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD075694</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD075694</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Speyer, Hist. Mus. Pfalz, Depot</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(54)</height><width>(30)</width><depth>31</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109224">Noviomagus (Civitas Nemetum)</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1855"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2830582">Speyer</placeName><placeName type="findspot">{Dom}, alte Umfassungsmauer</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD075694_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]ius</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD075694_2" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">Fatalis</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-02-18" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F039408" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/85f607e0-7cc5-4fdf-876d-84dcc256369d/file/id/800287/file_version/name/small"/><graphic xml:id="F039409" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/b49180c5-11f0-49a8-86b2-82d1e29136e1/file/id/800288/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost" cert="low">D(is)? M(anibus)</supplied> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>io <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>d</abbr><ex>ecurioni</ex></expan> <expan><abbr>c</abbr><ex>ivitatis</ex></expan> <expan><abbr>N</abbr><ex>emetum</ex></expan> <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>Fatalis <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>her</abbr><ex cert="low">es</ex></expan> <lb n="6"/><supplied reason="lost" cert="low">f(aciendum)</supplied> <expan><abbr>c</abbr><ex>uravit</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Fragment vom mittleren Teil einer Stele mit Bildnische, oben, links und unten abgebrochen. Oberhalb des Inschriftfeldes ist noch der untere Rand der Bildnische erhalten, darin noch ein Fuß zu erkennen. In Z. 4 ist noch die obere Querhaste des F zu erkennen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 06106.</bibl><bibl>F.J. Hildenbrand, Der römische Steinsaal (Lapidarium) des Historischen Museums der Pfalz zu Speyer (Speyer 1911) 48, Nr. 142.</bibl><bibl>S. Ditsch, Dis Manibus. Die römischen Grabdenkmäler aus der Pfalz (Neustadt/Weinstraße 2011) 186-187, Nr. Speyer 07.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

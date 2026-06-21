@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Salonae, bei &amp;ndash; Solin (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD034747</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD034747</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Split, Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/214">sarcophagus</objectType><material>Gesteine</material><dimensions unit="cm"><height>75</height><width>210</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197488">Salonae, bei</placeName></origPlace><origDate><origDate notBefore-custom="0251" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">251 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3190359">Solin</placeName><placeName type="findspot">Manastirine, {Basilika}, östlich</placeName><placeName type="region">Splitsko-dalmatinska županija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD034747_1" sex="W"><persName><name type="nomen">Quintia</name><name type="cognomen">C[---]</name></persName></person><person xml:id="HD034747_2" sex="M"><persName><name type="nomen">Quintius</name><name type="cognomen">Germanus</name></persName></person><person xml:id="HD034747_3" sex="M"><persName><name type="nomen">Flavius</name><name type="cognomen">Valens</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-07-03" who="Feraudi">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/>Quintiae C<gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><expan><abbr>stolat</abbr><ex>ae</ex></expan> feminae Quinti <expan><abbr>q</abbr><ex>uondam</ex></expan> <lb n="3"/>Germani <expan><abbr>primipilar</abbr><ex>is</ex></expan> filiae <lb n="4"/>quae <expan><abbr>d<am>d</am></abbr><ex>idit</ex></expan> <expan><abbr>n<am>n</am></abbr><ex>um</ex></expan> XXX <lb n="5"/>Flavius Valens b<expan><ex>ene</ex><abbr>f</abbr><ex>iciarius</ex></expan> co<expan><ex>n</ex><abbr>s</abbr><ex>ularis</ex></expan> <expan><abbr>n<am>n</am></abbr><ex>iae</ex></expan> <lb n="6"/><expan><abbr>super</abbr><ex>ioris</ex></expan> coniugi karissimae
+            </ab></div>
+            <div type="commentary">
+                <p>Z. 2 (Ende): ILCV, Schallmayer u.a.: Quinti Q(uintii?). Inschrift auf der Vorderseite eines Sarkophagkastens; Inschriftfeld in Form einer tabula ansata.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILJug 2358.</bibl><bibl>CIL 03, 08754.</bibl><bibl>CIL 03, 08754 add. p. 1510.</bibl><bibl>E. Schallmayer - K. Eibl - J. Ott - G. Preuß - E. Wittkopf, Der römische Weihebezirk von Osterburken 1 (Stuttgart 1990) 378-379, Nr. 480.</bibl><bibl>ILCV 0396. (B)</bibl><bibl>R. Egger, Der altchristliche Friedhof Manastirine nach dem Materiale Fr.</bibl><bibl>Bulić', Forschungen in Salona 2 (Wien 1926) 74-75, Nr. 80.</bibl><bibl>E. Marin u. a., Salona 4. Inscriptions de Salone chrétienne, IVe-VIIe siècles (Rome - Split 2010) 123.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

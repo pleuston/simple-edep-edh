@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Roma &amp;ndash; Roma (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD016689</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD016689</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">block</objectType><dimensions unit="cm"><height>(32)</height><width>(31)</width><depth>14</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.5-2.2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma</placeName></origPlace><origDate><origDate notBefore-custom="-0050" notAfter-custom="-0001" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">50 BC - 1 BC</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma</placeName><placeName type="findspot">via Torre Rossa 21, bei</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD016689_1"><persName><name type="praenomen">T.</name><name type="nomen">Plotius+</name><name type="cognomen">Alexander+</name></persName></person><person xml:id="HD016689_2"><persName><name type="nomen">Flavia</name><name type="cognomen">Eris+?</name></persName></person><person xml:id="HD016689_3"><persName><name type="nomen">Flavia</name><name type="cognomen">Agatia</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2010-02-08" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>T</abbr><ex>itus</ex></expan><certainty match="preceding-sibling::node()" locus="value"/> Plo<supplied reason="lost" cert="low">tius</supplied> <gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/>Alexande<supplied reason="lost">r</supplied> <lb n="3"/>Flavia <expan><abbr>P</abbr><ex>ubli</ex></expan> <expan><abbr>l</abbr><ex>iberta</ex></expan> Eri<supplied reason="lost" cert="low">s</supplied> <lb n="4"/>Flavia |(mulieris) <expan><abbr>l</abbr><ex>iberta</ex></expan> Agatia <lb n="5"/>liebertis <note>sic</note> libertab</ab></div><div n="2" type="textpart"><ab><lb n="1"/>us <expan><abbr>posteri</abbr><ex>sque</ex></expan> eoru<supplied reason="lost">m</supplied>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Z. 5 (Ende): Die Buchstaben VS befinden sich auf der rechten Seite d. Steins. (B): Ferrua; AE 1990: Z. 5 (Ende): VS nicht gelesen; AE 1990: Z. 6: eorum.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1990, 0345. (B)</bibl><bibl>A. Ferrua, RPAA 61, 1988/89, 348, Nr. 4; fig. 5. (B) - AE 1990.</bibl><bibl>I. Di Stefano Manzella, in: Epigrafia. Actes du Colloque international d'épigraphie latine en mémoire de Attilio Degrassi, Rome, 27-28 mai 1988 (Rome 1991) 253-254, Nr. 7. - AE 1990.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

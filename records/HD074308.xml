@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Carnuntum, bei &amp;ndash; Weiden/See - Podersdorf/See, zwischen (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD074308</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD074308</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Eisenstadt, Landesmus. Burgenland</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(92)</height><width>(70)</width><depth>29</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6.5-8.0</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/128376">Carnuntum, bei</placeName></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0130" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 130 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1982"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2761758">Weiden/See - Podersdorf/See, zwischen</placeName><placeName type="findspot">{Zitzmannsdorfer Wiesen}, nördlich, sekundär verwendet</placeName><placeName type="region">Burgenland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD074308_1" sex="W"><persName><name type="nomen">Claudia</name><name type="cognomen">Candida+?</name></persName></person><person xml:id="HD074308_2" sex="M"><persName><name type="cognomen">[---]nus</name></persName></person><person xml:id="HD074308_3" sex="M"><persName><name type="nomen">[---]</name><name type="cognomen">Florentinus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-04-13" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Claudia <expan><abbr>Tib</abbr><ex>eri</ex></expan> <expan><abbr>l</abbr><ex>iberta</ex></expan> <supplied reason="lost" cert="low">Can</supplied><lb break="no" n="2"/>dida viva <expan><abbr>p</abbr><ex>osuit</ex></expan> <expan><abbr>s</abbr><ex>ibi</ex></expan> e<supplied reason="lost">t</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/>Florentini ser<supplied reason="lost">vo<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <gap reason="lost" extent="unknown" unit="character"/></supplied><lb break="no" n="4"/>no <expan><abbr>con</abbr><ex>iugi</ex></expan> suo <expan><abbr>an</abbr><ex>norum</ex></expan> <gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Gefunden in Sekundärverwendung als Teil eines spätantiken Steinplattengrabes (4. Jh. n. Chr.). Oberhalb des Inschriftfeldes sitzende Ganzfigur einer einheimischen Frau, rechts daneben Bein einer weiteren Figur. Der obere Rand einer weiteren Zeile vorgerissen. (B): Kaus; RŒ; Diebold: Abweichungen in Lesung/Ergänzung.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>K. Kaus, FuBerÖ 21, 1982, 273. (B)</bibl><bibl>(o. Autor), RŒ 11/12, 1983/84, 385, Nr. 28. (B)</bibl><bibl>A. Diebold, Die römerzeitlichen Steindenkmäler des Eisenstädter Landesmuseums und ihre Bedeutung für den nordwestpannonischen Raum 1. Katalog (Diss. Wien 1993) 102-103; Taf. 45. (B)</bibl><bibl>I. Weber-Hiden, in: F. Humer - G. Kremer - E. Pollhammer - A. Pülz (Hrsg.), Akten der 3. Österreichischen Römersteintagung, Hainburg a. d. Donau 2014 (Wien 2014) 225.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

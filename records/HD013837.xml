@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from (Civitas Aurelia G---?) &amp;ndash; Murrhardt (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD013837</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD013837</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Murrhardt, Carl-Schweizer-Mus. (Kopie)</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">statue base?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>152</height><width>90</width><depth>25</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7-5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118854">(Civitas Aurelia G---?)</placeName></origPlace><origDate><origDate notBefore-custom="0222" notAfter-custom="0235" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">222 AD - 235 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1885"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2867431">Murrhardt</placeName><placeName type="findspot">{Lager}</placeName><placeName type="region">Baden-Württemberg</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD013837_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1769"><name type="praenomen">M.</name><name type="nomen">Aurelius+</name><name type="cognomen">Severus+ Alexander+++</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-12-02" who="Osnabrügge">checked through autopsy</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Imp</abbr><ex>eratori</ex></expan></supplied> Cae<supplied reason="lost"><expan><abbr>s</abbr><ex>ari</ex></expan></supplied> <lb n="2"/>Marco Au<supplied reason="lost">r</supplied><lb break="no" n="3"/>elio <supplied reason="lost">S</supplied>ever<supplied reason="lost">o</supplied> <lb n="4"/><del rend="erasure">[Alexandro</del>] <lb n="5"/>Pio Fe<supplied reason="lost">l</supplied>i<supplied reason="lost">ci</supplied> <expan><abbr>Aug</abbr><ex>usto</ex></expan> <lb n="6"/><expan><abbr>coh</abbr><ex>ors</ex></expan> X<supplied reason="lost">X</supplied>IIII <expan><abbr>vol</abbr><ex>untariorum</ex></expan> <lb n="7"/>Severiana <lb n="8"/><expan><abbr>c</abbr><ex>ivium</ex></expan> <expan><abbr>R</abbr><ex>omanorum</ex></expan> devotissi<lb break="no" n="9"/>ma numini <lb n="10"/>ei<surplus>i</surplus>us
+            </ab></div>
+            <div type="commentary">
+                <p>Tafel, vermutlich einer Statuenbasis; in acht Teile zerbrochen. Nachbildung in Murrhardt; Original im Krieg zerstört. (B): CIL: leichte Abweichungen in der Lesung. Autopsie R. Wiegels. Hauptbearbeiterin B. Esch.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1895, 0034.</bibl><bibl>CIL 13, 06532. (B)</bibl><bibl>F. Haug - G. Sixt, Die römischen Inschriften und Bildwerke Württembergs, (Stuttgart 1900) 306-307, Nr. 402; Abb. 179.</bibl><bibl>C. Hämmerle, in: Der obergermanisch-rätische Limes des Römerreiches B, IV, 44 (Lieferung 1) (Berlin - Leipzig 1929) 10; Foto. - AE 1895.</bibl><bibl>M. Reuter, SJ 48, 1995, 33, Nr. 60.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

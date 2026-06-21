@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Mompantero (Alpes Cottiae)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD065914</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD065914</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Torino, Mus. Ant.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>117</height><width>149</width><depth>8</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Alpes Cottiae</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0044" notAfter-custom="0080" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">44 AD - 80 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1808"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern" ref="http://www.geonames.org/6542377">Mompantero</placeName><placeName type="findspot">{Urbiano}</placeName><placeName type="region">Piemonte</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD065914_1" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Iulius*</name><name type="cognomen">Paris</name></persName></person><person xml:id="HD065914_2" sex="M"><persName><name type="nomen">Cottius</name></persName></person><person xml:id="HD065914_3" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Iulius*</name><name type="cognomen">Eleuther</name></persName></person><person xml:id="HD065914_4" sex="W"><persName><name type="nomen">Iulia*</name><name type="cognomen">Basila+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-07-18" who="Cimarosti">checked through autopsy</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F027400" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/81699b89-dc2a-46b0-abe6-5df1d9947224/file/id/788157/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>M</abbr><ex>arcus</ex></expan> <expan><abbr>Iul</abbr><ex>ius</ex></expan> Cott<supplied reason="lost">i</supplied> <expan><abbr>reg</abbr><ex>is</ex></expan> <lb n="2"/><expan><abbr>l</abbr><ex>ibertus</ex></expan> Paris <expan><abbr>t</abbr><ex>estamento</ex></expan> <expan><abbr>f</abbr><ex>ieri</ex></expan> <expan><abbr>i</abbr><ex>ussit</ex></expan> <lb n="3"/>sibi et <lb n="4"/><expan><abbr>M</abbr><ex>arco</ex></expan> <expan><abbr>Iul</abbr><ex>io</ex></expan> Eleuthero <expan><abbr>l</abbr><ex>iberto</ex></expan> <lb n="5"/>e<supplied reason="lost">t</supplied> <expan><abbr>Iul</abbr><ex>iae</ex></expan> <supplied reason="lost">B</supplied><expan><abbr>asilae</abbr><ex cert="low"/></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Z.5: CIL 05, 07296: p(osuit), non confermato dalla verifica autoptica.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 05, 07296. (B)</bibl><bibl>ILS 848.</bibl><bibl>A. Ferrua, Segusium 4, 1967, 42.</bibl><bibl>B. Rémy, Segusium 31, 1994, 95, Nr. 20.</bibl><bibl>E. Cimarosti, Le iscrizioni di età romana sul versante italiano delle Alpes Cottiae (Barcelona 2012) 259, Nr. 82; Foto Nr. 71.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

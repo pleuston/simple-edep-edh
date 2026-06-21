@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Segusio &amp;ndash; Susa (Alpes Cottiae)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD048949</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD048949</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Susa, Mus. Civ.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><dimensions unit="cm"><height>117</height><width>(60)</width><depth>21</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">8.4-3.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Alpes Cottiae</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/912936">Segusio</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1938"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern" ref="http://www.geonames.org/3166018">Susa</placeName><placeName type="findspot">{Castello}</placeName><placeName type="region">Piemonte</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD048949_1" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Bottius+</name><name type="cognomen">Sabinus+</name></persName></person><person xml:id="HD048949_2" sex="M"><persName><name type="nomen">Bottius</name><name type="cognomen">Sabinus+</name></persName></person><person xml:id="HD048949_3" sex="W"><persName><name type="nomen">Attia</name><name type="cognomen">Firmina+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-07-18" who="Cimarosti">checked through autopsy</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F027392" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/12e8f80c-b2df-4838-9ec3-a331fc0c0794/file/id/788149/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>M</abbr><ex>arcus</ex></expan> Bott<supplied reason="lost">ius</supplied> <lb n="2"/>Sabi<supplied reason="lost">nus</supplied> <lb n="3"/>sibi <supplied reason="lost">et</supplied> <lb n="4"/>Bottio Sab<supplied reason="lost">ino</supplied> <lb n="5"/>patri <lb n="6"/>Attiae Firm<supplied reason="lost" cert="low">inae</supplied> <lb n="7"/>matr<supplied reason="lost">i</supplied> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Z. 6: Mercando - Paci: Fir[mae]. Marmor, weiß.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1998, 0862.</bibl><bibl>AE 1968, 0286.</bibl><bibl>J. Prieur, La province romaine des Alpes Cottiennes: recueil des inscriptions, (Diss. Grenoble 1968) 56, Nr. 96; tav. 17, 4. - AE 1968.</bibl><bibl>L. Mercando - G. Paci, MonAL 57 (Roma 1998) 184, Nr. 110; tav. 98. (B) - AE 1998.</bibl><bibl>E. Cimarosti, Le iscrizioni di età romana sul versante italiano delle Alpes Cottiae (Barcelona 2012) 245, Nr. 74; Foto Nr. 63.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

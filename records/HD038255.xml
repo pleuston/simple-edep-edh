@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Brigetio, aus? &amp;ndash; Hurbanovo (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD038255</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD038255</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Hurbanovo, reformierte Kirche</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/214">sarcophagus</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>90</height><width>150</width><depth>42</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197180">Brigetio, aus?</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1793"><placeName type="country" ref="https://www.geonames.org/3057568">Slovakia</placeName><placeName type="modern" ref="http://www.geonames.org/3059821">Hurbanovo</placeName><placeName type="findspot">Abadomb</placeName><placeName type="region">Nitriansky kraj</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD038255_1" sex="M"><persName ref="http://romans1by1.com/rpeople/17979"><name type="praenomen">C.</name><name type="nomen">Arruntius+*</name><name type="cognomen">Vindicius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-03-16" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>D</abbr><ex>is</ex></expan></supplied> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/><expan><abbr>C</abbr><ex>aio</ex></expan> <expan><abbr>Ar<supplied reason="lost">r</supplied>unt</abbr><ex>io</ex></expan> Vindicio <expan><abbr>OCT</abbr><ex cert="low"/></expan> <lb n="3"/><expan><abbr>c</abbr><ex cert="low">ivitatis</ex></expan> T<lb break="no" n="4"/><gap reason="lost" extent="unknown" unit="character"/>S<gap reason="lost" extent="unknown" unit="character"/>VNV<supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied><expan><abbr>SI</abbr><ex cert="low"/></expan><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied>NN <lb n="5"/>D<gap reason="lost" extent="unknown" unit="character"/>NO<gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"><certainty match=".." locus="name"/></gap>
+            </ab></div>
+            <div type="commentary">
+                <p>Wohl verschleppt; Oberfläche zum großen Teil stark verrieben; Front eines Sarkophags? Z. 1: NT-Ligatur. Inschriftfeld gerahmt von Volutenmotiv (sog. Barockmotiv). Alternative Lesung Z. 1 nach RIU: Vindici q(uondam) q(uaestori?) c(ivitatis?) T. (B): CIL 03, 04353: Z. 1: M nicht gelesen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>RIU 0740; Abb. 740 (Foto u. Zeichnung).</bibl><bibl>CIL 03, 04353. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Brigetio, bei &amp;ndash; Környe (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD020103</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD020103</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Környe, Pfarrhaus</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">statue base</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>125</height><width>76</width><depth>54</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">8.0-6.0</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197180">Brigetio, bei</placeName></origPlace><origDate><origDate notBefore-custom="0220" notAfter-custom="0222" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">220 AD - 222 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3049421">Környe</placeName><placeName type="findspot">spätantike Festung, sekundär verwendet</placeName><placeName type="region">Komárom-Esztergom megye</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD020103_1" sex="W"><persName ref="http://data.snapdrgn.net/person/6690"><name type="nomen">Iulia+++*</name><name type="cognomen">Aquilia+++ Severa+++</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-06-08" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <del rend="erasure"><supplied reason="lost"><expan><abbr>Iul</abbr><ex>iae</ex></expan></supplied> Aq<supplied reason="lost">uili</supplied>ae</del> <lb n="2"/><del rend="erasure">Sever[ae</del>] sanc<lb break="no" n="3"/>tissimae <expan><abbr>Aug</abbr><ex>ustae</ex></expan> <lb n="4"/>matri castro<lb break="no" n="5"/>rum senatus <lb n="6"/>ac patriae <lb n="7"/>ordo <lb n="8"/><expan><abbr>mun</abbr><ex>icipii</ex></expan> <expan><abbr>B<supplied reason="lost">ri</supplied>g</abbr><ex>etionis</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Gefunden als Spolie in der Mauer des spätantiken Binnenkastells von Környe. Z. 2: AN-Ligatur; Z. 3: AE-Ligatur; Reste von roter Farbe in den Buchstaben. (B): AE 1944: Keine Differenzierung der noch lesbaren Buchstaben im eradierten Teil; Radnóti: Z. 1/2: Iul(iae) Aquiliae / Severae; aber richtige Wiedergabe der Lesung im Fließtext.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1944, 0104. (B)</bibl><bibl>RIU 0674.</bibl><bibl>A. Radnóti, in: Laureae Aquincenses memoriae Valentini Kuzsinszky dicatae 2 (Budapest 1941) 98-100; pl. 8, 3-4. (B) - AE 1944.</bibl><bibl>PIR (2. Aufl.) I 648.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Ruhstorf/Rott (Raetia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD042450</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD042450</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>139</height><width>88</width><depth>62</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7.0-2.0</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Raetia</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2843677">Ruhstorf/Rott</placeName><placeName type="findspot">Rotthof, {S. Peter u. Paul, Kirche (Siebenschläferkirche)}, sekundär verwendet</placeName><placeName type="region">Bayern</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD042450_1" sex="W"><persName><name type="cognomen">Flora</name></persName></person><person xml:id="HD042450_2" sex="M"><persName><name type="cognomen">Ursus</name></persName></person><person xml:id="HD042450_3" sex="M"><persName><name type="cognomen">Iucundus</name></persName></person><person xml:id="HD042450_4" sex="W"><persName><name type="cognomen">Successa*</name></persName></person><person xml:id="HD042450_5" sex="M"><persName><name type="cognomen">Succesus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-08-18" who="Böhm">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/>Flora vilica <lb n="3"/>Urso actori <lb n="4"/>marito caris<lb break="no" n="5"/>simo @(obito) <expan><abbr>an</abbr><ex>norum</ex></expan> XLV <lb n="6"/>et Iucundo <lb n="7"/>socro et Succ<lb break="no" n="8"/>ess<expan><ex>a</ex><abbr>e</abbr></expan> socr<expan><ex>a</ex><abbr>e</abbr></expan> pientissimis et <lb n="9"/>sibi viva fecit <lb n="10"/>et Succesus <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>parentib</abbr><ex>us</ex></expan> pientissimis
+            </ab></div>
+            <div type="commentary">
+                <p>Z. 10 wurde nachträglich hinzugefügt.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>W. Hameter, Die norischen Inschriften Bayerns (Diss. Wien 1992) 138-139, Nr. 105; Foto.</bibl><bibl>CIL 03, 05616.</bibl><bibl>IBR 437; tab. 61, 437.</bibl><bibl>J. Hefner, Das römische Bayern in seinen Schrift- und Bildmalen (München 1852) 171-172, Nr. 196.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

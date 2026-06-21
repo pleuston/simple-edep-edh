@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Mogontiacum &amp;ndash; Mainz (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD055286</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD055286</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mainz, Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">altar?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(46)</height><width>(28)</width><depth>(12)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109169">Mogontiacum</placeName></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1895"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2874225">Mainz</placeName><placeName type="findspot">Rhein, {Eisenbahnbrücke}, bei</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD055286_1" sex="M"><persName><name type="nomen">Flavius*</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-05-23" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F014971" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/711771fb-0bbb-40a1-b7c1-4ded819773c7/file/id/774506/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Victo<supplied reason="lost">riae</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/>milit<gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/>per <expan><abbr>Fl</abbr><ex>avio</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied>nni <gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/>V<certainty locus="name" match="preceding-sibling::text()" cert="low"/>C<certainty locus="name" match="preceding-sibling::text()" cert="low"/>T<certainty locus="name" match="preceding-sibling::text()" cert="low"/><gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Z. 5: Die oberen Enden der ergänzten Buchstaben waren bei der Auffindung noch erhalten. (B): Körber; CIL 13, 06760: Z. 4: P(?)EB EL[---].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 06760. (B)</bibl><bibl>K. Körber, ZRheinGeschMainz 4, 1893-1905, 216, Nr. 88; Zeichnung. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

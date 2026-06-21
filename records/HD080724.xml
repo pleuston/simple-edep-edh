@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Luxovium &amp;ndash; Luxeuil-les-Bains (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD080724</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD080724</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Luxeuil, Thermen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>175</height><width>84</width><depth>30</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/177568">Luxovium</placeName></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1847"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/2996995">Luxeuil-les-Bains</placeName><placeName type="findspot">{Rue Jean-Jaurés 9-13}, spätantikes Lager, sekundär verwendet</placeName><placeName type="region">Bourgogne-Franche-Comté</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD080724_1" sex="M"><persName><name type="cognomen">Cassianus</name></persName></person><person xml:id="HD080724_2" sex="M"><persName><name type="cognomen">Maronianus</name></persName></person><person xml:id="HD080724_3" sex="W"><persName><name type="cognomen">Vinilla</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-10-18" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F041511" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/58f8851f-db1e-4a42-a093-8dcb601f0652/file/id/802613/file_version/name/small"/><graphic xml:id="F039356" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/32cc5419-d21e-42a9-86ae-3c5d907c6938/file/id/800235/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/>Cassianus Ma<lb break="no" n="3"/>ronianus filius ux<surplus>s</surplus>or <lb n="4"/>Vinilla
+            </ab></div>
+            <div type="commentary">
+                <p>Giebelstele mit Akroteren. Bildfeld mit rundem oberen Abschluss, darin zwei stehende ganzfigurige Darstellungen eines Mannes und einer Frau in Mänteln. In der Rechten der Frau eine Kanne, den linken Arm um die Schulter des Mannes gelegt. Dieser hält in der linken ein Etui für Tafeln. In den Akroteren Rosetten, im Giebelfeld Medaillon mit Büste eines jungen Mannes. Die Inschrift befindet sich im Giebelfeld zu beiden Seiten des Medaillons. Farbreste an Teilen des Reliefs.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 05431.</bibl><bibl>É. Espérandieu, Recueil général des bas-reliefs, statues et bustes de la Gaule romaine 7 (Paris 1918) 52, Nr. 5318; Foto.</bibl><bibl>H. Walter, La sculpture funéraire gallo-romaine en Franche-Comté (Paris 1974) 57-58, Nr. 32; Taf. 12.</bibl><bibl>O. Faure-Brac, La Haute-Saône, Carte archéologique de la Gaule 70 (Paris 2002) 299; fig. 345.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

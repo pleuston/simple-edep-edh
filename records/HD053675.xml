@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Baška Voda (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD053675</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD053675</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Split, Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><dimensions unit="cm"><height>60</height><width>45</width><depth>6</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3204439">Baška Voda</placeName><placeName type="findspot"/><placeName type="region">Splitsko-dalmatinska županija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD053675_1" sex="W"><persName><name type="nomen">Aurelia*</name><name type="cognomen">Messilla</name></persName></person><person xml:id="HD053675_2" sex="W"><persName><name type="nomen">Aurelia*</name><name type="cognomen">Messoria</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-02-10" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F033595" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/f3c4d969-a68e-4cd9-a631-7e99f8afed56/file/id/794402/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>Aur</abbr><ex>elia</ex></expan> Messilla <lb n="2"/>filio infelicis<lb break="no" n="3"/>simo suo qui <lb n="4"/>vixxit <note>sic</note> <expan><abbr>p</abbr><ex>lus</ex></expan> <expan><abbr>m</abbr><ex>inus</ex></expan> <lb n="5"/><expan><abbr>an</abbr><ex>nos</ex></expan> III <expan><abbr>Aur</abbr><ex>elia</ex></expan> Mes<lb break="no" n="6"/>soria titulu<lb break="no" n="7"/>m posuit
+            </ab></div></div>
+            <div type="commentary">
+                <p>Oberhalb der Inschrift die Büste eines Kindes. Z. 1: Buchstaben D und M stehen in der linken und rechten oberen Ecke des Rahmens des Inschriftfeldes. (B): Rinaldi Tufi: Z. 7/8: titulum / posuit.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 01901.</bibl><bibl>CIL 03, 01901 add. p. 1499.</bibl><bibl>S. Rinaldi Tufi, MAL 16, 1971, 107, Nr. 28; tav. 9, 1. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

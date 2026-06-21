@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Alauna &amp;ndash; Maryport (Britannia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD070094</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD070094</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Maryport, Senhouse Roman Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/260">slab</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(71)</height><width>147</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Britannia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/89102">Alauna</placeName></origPlace><origDate><origDate notBefore-custom="0138" notAfter-custom="0161" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">138 AD - 161 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1600"><placeName type="country" ref="https://www.geonames.org/2635167">United Kingdom</placeName><placeName type="modern" ref="http://www.geonames.org/2642927">Maryport</placeName><placeName type="findspot"/><placeName type="region">Cumbria</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD070094_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1429"><name type="cognomen">Antoninus+</name></persName></person><person xml:id="HD070094_2" sex="M"><persName><name type="nomen">Postumius+</name><name type="cognomen">Paulus+ Acilianus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-02-13" who="Cowey">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Pro sa<supplied reason="lost">lute <expan><abbr>imp</abbr><ex>eratoris</ex></expan> <expan><abbr>Caes</abbr><ex>aris</ex></expan></supplied> <lb n="2"/>Antonin<supplied reason="lost">i</supplied> <expan><abbr>Aug</abbr><ex>usti</ex></expan> Pii <expan><abbr>p</abbr><ex>atris</ex></expan> <supplied reason="lost"><expan><abbr>p</abbr><ex>atriae</ex></expan></supplied> <lb n="3"/><supplied reason="lost">P</supplied>aulus <supplied reason="lost"><expan><abbr>P</abbr><ex>auli</ex></expan></supplied> <expan><abbr>f</abbr><ex>ilius</ex></expan> Palatina <lb n="4"/><supplied reason="lost">Postumi</supplied>us Acil<supplied reason="lost">i</supplied>anus <lb n="5"/><expan><abbr>praef</abbr><ex>ectus</ex></expan> <expan><abbr>c<supplied reason="lost">o</supplied>h</abbr><ex>ortis</ex></expan> I <expan><abbr>Delmatar</abbr><ex>um</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Abweichende Textgestaltung. Anscheinend sah man früher mehr Buchstaben als heute erkennbar sind.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 07, 00400. (B)</bibl><bibl>CIL 07, 00400, add. p. 308.</bibl><bibl>RIB 0850; Zeichnungen.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

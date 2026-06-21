@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Magnae &amp;ndash; Carvoran (Britannia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD070985</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD070985</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Newcastle upon Tyne, Great North Museum, Hancock</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>73</height><width>84</width><depth>9</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6.7-7.8</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Britannia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/89238">Magnae</placeName></origPlace><origDate><origDate notBefore-custom="0069" notAfter-custom="0096" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">69 AD - 96 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1840"><placeName type="country" ref="https://www.geonames.org/2635167">United Kingdom</placeName><placeName type="modern">Carvoran</placeName><placeName type="findspot"/><placeName type="region">Northumberland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD070985_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Valerius</name><name type="cognomen">Iullus</name></persName></person><person xml:id="HD070985_2" sex="M"><persName><name type="praenomen">C.</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-03-05" who="Cowey">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>G</abbr><ex>aius</ex></expan> Valerius <expan><abbr>G</abbr><ex>ai</ex></expan> <expan><abbr>Vol</abbr><ex>tinia</ex></expan> <lb n="2"/>Iullus <expan><abbr>Vian</abbr><ex>na</ex></expan> <expan><abbr>mil</abbr><ex>es</ex></expan> <lb n="3"/><expan><abbr>leg</abbr><ex>ionis</ex></expan> XX <expan><abbr>V</abbr><ex>aleriae</ex></expan> <expan><abbr>v</abbr><ex>ictricis</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Zu den leichten Leseabweichungen s. RIB 1826. Vielleicht eher ins 2. Jh. zu datieren.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 07, 00794. (B)</bibl><bibl>RIB 1826; Zeichnungen.</bibl><bibl>J.C. Coulston - E.J. Phillips, Hadrian's Wall west of the North Tyne, and Carlisle, CSIR Great Britain 1, 6 (Oxford 1988) 91, Nr. 222; Pl. 60, 222.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Colonia Claudia Augusta? Agrippinensium &amp;ndash; Köln (Germania inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD024424</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD024424</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Köln, Röm.-Germ. Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(58)</height><width>(32)</width><depth>7</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/108751">Colonia Claudia Augusta? Agrippinensium</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1927"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2886242">Köln</placeName><placeName type="findspot">{Richmodstraße}, Mithrastempel, bei, sekundär verwendet</placeName><placeName type="region">Nordrhein-Westfalen</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD024424_1" sex="M"><persName><name type="cognomen">Cimber</name></persName></person><person xml:id="HD024424_2" sex="W"><persName><name type="cognomen">Pietas</name></persName></person><person xml:id="HD024424_3" sex="M"><persName><name type="cognomen">Exsochus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-08-06" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Cor<expan><ex>a</ex><abbr>x</abbr></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Have <lb n="2"/>Cimber <expan><abbr>es</abbr><ex>sedarius</ex></expan> et <lb n="3"/>Pietas Exsocho <note>sic</note> <lb n="4"/><expan><abbr>essed</abbr><ex>ario</ex></expan> sodali <lb n="5"/><supplied reason="lost">be</supplied>ne merent<supplied reason="lost">i</supplied> <lb n="6"/><supplied reason="lost">pos</supplied>uit <note>sic</note> <expan><abbr>val</abbr><ex>e</ex></expan>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Z.1 stammt von der Zweitverwendung als Weihinschrift im Mithräum.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1929, 0110.</bibl><bibl>B. Galsterer - H. Galsterer, Die römischen Steininschriften aus Köln (Köln 1975) 76, Nr. 318; Taf. 69.</bibl><bibl>F. Fremersdorf, Germania 13, 1929, 134-135, Nr. 11; Abb. 1 (Zeichnung). - AE 1929.</bibl><bibl>B. Galsterer - H. Galsterer, Die römischen Steininschriften aus Köln, IKöln (2.</bibl><bibl>Aufl.) (Mainz 2010) 350, Nr. 420; Foto.</bibl><bibl>E. Schwertheim, Die Denkmäler orientalischer Gottheiten im römischen Deutschland (Leiden 1974) 16, Nr. 10 c.</bibl><bibl>H. Finke, BRGK 17, 1927, 211-212, Nr. 366; Zeichnung.</bibl><bibl>A. Kakoschke, Ortsfremde in den römischen Provinzen Germania inferior und Germania superior (Möhnesee 2002), Nr. 2.20.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

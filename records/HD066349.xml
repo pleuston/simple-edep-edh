@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Cemenelum &amp;ndash; Nice (Alpes Maritimae)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD066349</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD066349</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Alpes Maritimae</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/157834">Cemenelum</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/2990440">Nice</placeName><placeName type="findspot">{S.-Pons, Abtei}</placeName><placeName type="region">Provence-Alpes-Côte d’Azur</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD066349_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Subrius</name><name type="cognomen">Secundinus</name></persName></person><person xml:id="HD066349_2" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Subrius</name><name type="cognomen">Severianus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-07-19" who="Cimarosti">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Memoriae sanctissimae <lb n="2"/><expan><abbr>C</abbr><ex>ai</ex></expan> Subri Secundini <lb n="3"/>flaminis et patroni provinciae <lb n="4"/>pietatis eloquentiae morum <lb n="5"/>magistri <lb n="6"/><expan><abbr>C</abbr><ex>aius</ex></expan> Subrius Severianus frater <lb n="7"/>inmatura eius morte deceptus </ab></div><div n="2" type="textpart"><ab><lb n="1"/> XXXX annis vixi<supplied reason="lost">t</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/>bis duo iungantur quos menses quattuor augent <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> mortique dies felix si longior aetas <lb n="4"/>mansisset quam dura sibi fortuna negavit <lb n="5"/>o miseros homines <note>sic</note> vivunt qui vivere nolunt <lb n="6"/>vivere qui debent fato moriuntur acerbo
+            </ab></div></div>
+            <div type="commentary">
+                <p>Bearbeiterin: V. Pettirossi.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 05, 07917.</bibl><bibl>G. Laguerre, Inscriptions antiques de Nice-Cimiez (Cemenelum, ager Cemenelensis) (Paris 1975) 94.</bibl><bibl>S. Morabito, Inscriptions latines des Alpes Maritimes (Nice - Montpellier 2010) 293-295, Nr. 186.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Borbetomagus (Civitas Vangionum) &amp;ndash; Worms (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD075808</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD075808</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Worms, Stadtmus. im Andreasstift</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(84)</height><width>73</width><depth>34</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7.8-7.0</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/108820">Borbetomagus (Civitas Vangionum)</placeName></origPlace><origDate><origDate notBefore-custom="0014" notAfter-custom="0037" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">14 AD - 37 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1666"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2806142">Worms</placeName><placeName type="findspot">{Martinspforte}, ehemaliges Mainzer Tor, am Stadtgraben</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD075808_1" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Sempronius+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-02-24" who="Osnabrügge">checked through autopsy</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F038875" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/bf9311ae-f041-4446-b500-fbd6942c114d/file/id/799748/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>M</abbr><ex>arcus</ex></expan> Semp<supplied reason="lost">roni</supplied><lb break="no" n="2"/>us <expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> d<supplied reason="lost">omo</supplied> <lb n="3"/>Terme<supplied reason="lost">stinus</supplied> <lb n="4"/><supplied reason="lost"><expan><abbr>anno</abbr><ex>rum</ex></expan> XX<gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="5"/><supplied reason="lost"><expan><abbr>dec</abbr><ex>urio</ex></expan> eques alae</supplied> <lb n="6"/><supplied reason="lost">Sebosianae</supplied> <lb n="7"/><supplied reason="lost"><expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>itus</ex></expan> <expan><abbr>e</abbr><ex>st</ex></expan></supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Oberer Teil einer Giebelstele mit dreieckigem Abschluss. Im Inschriftfeld über der ersten Zeile Kranz oder Torques. Heute ist nur noch der obere Teil erhalten, das Inschriftfeld ist mittlerweile so stark verwittert, das Teile nicht mehr lesbar sind.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 06236.</bibl><bibl>ILS 2533.</bibl><bibl>W. Boppert, Römische Steindenkmäler aus Worms und Umgebung, CSIR Deutschland 2, 10 (Mainz 1998) 95-97, Nr. 56; Taf. 59, 56.</bibl><bibl>L. Hernández Guerra, in: J.J. Ferrer-Maestro - C. Kunst - D. Hernández de la Fuente - E. Faber (Hrsg.), Entre los mundos: Homenaje a Pedro Barceló. Zwischen den Welten: Festschrift für Pedro Barceló (Besançon 2017) 381-382, Nr. 1; 402, Nr. 2; 406, Nr. 5.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

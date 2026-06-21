@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Barcino &amp;ndash; Barcelona (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD056808</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD056808</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Barcelona, Mus. Hist. Ciudad</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">statue base</objectType><dimensions unit="cm"><height>(73)</height><width>(57)</width><depth>56</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.1-7.7</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Hispania citerior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/246343">Barcino</placeName></origPlace><origDate><origDate notBefore-custom="0131" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">131 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1600"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern" ref="http://www.geonames.org/3128760">Barcelona</placeName><placeName type="findspot">Plaza del Rei</placeName><placeName type="region">Cataluña</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD056808_1" sex="M"><persName><name type="praenomen">L.+</name><name type="nomen">Pedanius+</name><name type="cognomen">Atilianus+</name></persName></person><person xml:id="HD056808_2" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Pedanius+*</name><name type="cognomen">Paternus</name></persName></person><person xml:id="HD056808_3" sex="M"><persName><name type="nomen">Iulius+</name><name type="cognomen">Eutychianus+</name></persName></person><person xml:id="HD056808_4" sex="M"><persName><name type="nomen">Pedanius+</name><name type="cognomen">Irenicus+</name></persName></person><person xml:id="HD056808_5" sex="W"><persName><name type="nomen">Pedanius+</name><name type="cognomen">Irene</name></persName></person><person xml:id="HD056808_6" sex="W"><persName><name type="nomen">Pomponia+</name><name type="cognomen">Philete</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2012-03-15" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F020893" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/f17cca95-e1c8-470e-96cf-c2c14f302084/file/id/780967/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>L</abbr><ex>ucio</ex></expan> Peda</supplied>nio <expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> Atili<lb break="no" n="2"/><supplied reason="lost">ano a</supplied>edili cui <expan><abbr>L</abbr><ex>ucius</ex></expan> <expan><abbr><supplied reason="lost">Pe</supplied>d</abbr><ex>anius</ex></expan> <lb n="3"/>Paternus pater <lb n="4"/><supplied reason="lost">st</supplied>at<supplied reason="lost" cert="low">uam aeneam</supplied> <lb n="5"/><supplied reason="lost">po</supplied>nendam destina<lb break="no" n="6"/><supplied reason="lost">ve</supplied>rat heredes Iul<supplied reason="lost">ius</supplied> <lb n="7"/><supplied reason="lost">Eu</supplied>tychianus Peda<supplied reason="lost">nii</supplied> <lb n="8"/><supplied reason="lost">I</supplied>renicus et Irene <lb n="9"/><supplied reason="lost">P</supplied>omponia Philete <lb n="10"/><supplied reason="lost">u</supplied>xor voluntati <lb n="11"/><supplied reason="lost">ei</supplied>us satisfecerunt <lb n="12"/><supplied reason="lost"><expan><abbr>l</abbr><ex>ocus</ex></expan></supplied> <expan><abbr>d</abbr><ex>atus</ex></expan> <expan><abbr>d</abbr><ex>ecreto</ex></expan> <expan><abbr>d</abbr><ex>ecurionum</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Mittelteil einer Statuenbasis. Inschriftenfeld mittlerweile stark beschädigt, nur noch einzelne Buchstaben ab der fünften Zeile zu erkennen. Rekonstruktion daher durch Nutzung der handschriftlichen Überlieferung. Z. 4: statt aeneam? auch eius? denkbar.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IRC 4, 068; pl. 39, 68 (Foto u. Zeichnungen).</bibl><bibl>CIL 02, 04529.</bibl><bibl>ILER 1704.</bibl><bibl>S. Mariner Bigorra, Inscripciones romanas de Barcelona (Barcelona 1973) 71-72, Nr. 61.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

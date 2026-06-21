@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Identification inscription from Vareš (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD033142</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD033142</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Dabravine, Gradina, frühchristliche Basilica, vermauert</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/35">architectural member</objectType><material>Gesteine</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0471" notAfter-custom="0530" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">471 AD - 530 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3277605">Bosnia and Herzegovina</placeName><placeName type="modern" ref="http://www.geonames.org/3202234">Vareš</placeName><placeName type="findspot">Dabravine, {Gradina, Burgberg}, Kirchenruine, sekundär verwendet</placeName><placeName type="region">Zeničko-dobojski kanton</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>identification inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD033142_1"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">Kari[---]</name></persName></person><person xml:id="HD033142_2" sex="M"><persName><name type="cognomen">Marcianus+</name></persName></person><person xml:id="HD033142_3" sex="M"><persName><name type="cognomen">Bonosus+?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-01-12" who="Gräf">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Kari<gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/>Marc<supplied reason="lost">ia</supplied><lb break="no" n="3"/>nus Bo<supplied reason="lost" cert="low">nos</supplied><lb break="no" n="4"/>us
+            </ab></div>
+            <div type="commentary">
+                <p>Architrav; Inschrift eingeritzt. Fundstelle: Die Kirche stammt aus der 1. Hälfte des 6. Jhs. n. Chr.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILJug 0166.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

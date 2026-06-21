@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Prozor-Rama (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD039990</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD039990</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Prozor-Rama, Šcit, Pfarrhaus</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">stele?</objectType><dimensions unit="cm"><height>(30)</height><width>(27)</width><depth>8</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197143"/></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1860"><placeName type="country" ref="https://www.geonames.org/3277605">Bosnia and Herzegovina</placeName><placeName type="modern" ref="http://www.geonames.org/3192278">Prozor-Rama</placeName><placeName type="findspot">‎Šćit, {Kloster}, ehemalige Kirche, sekundär verwendet</placeName><placeName type="region">Hercegovačko-neretvanska</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD039990_1"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD039990_2" sex="W"><persName><name type="nomen">Ulpia</name><name type="cognomen">[---]lina</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-02-24" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/>Ulpiae <gap reason="lost" extent="unknown" unit="character"/><lb break="no" n="2"/>linae <gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/>caris<supplied reason="lost">simae</supplied> <lb n="4"/>defunc<supplied reason="lost">tae</supplied> <lb n="5"/>anno<supplied reason="lost" cert="low">rum LII</supplied> <lb n="6"/>se vivo <supplied reason="lost" cert="low">sibi</supplied> <lb n="7"/>libe<supplied reason="lost">risque</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>2 aneinanderpassende Fragmente, von denen nur noch das linke erhalten / auffindbar ist; Maße beziehen sich auf dieses Fragment, auf dem rechten Fragment waren noch die Enden der Z. 3-7 erhalten. (B): CIL III: 10049. 13232; Škegro, VjesAMuzZagreb; Škegro, OpuscArchZagreb: Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1994, 1345.</bibl><bibl>AE 2003, 1327.</bibl><bibl>CIL 03, 10049. (B)</bibl><bibl>CIL 03, 13232. (B)</bibl><bibl>CIL 03, 13232 add. p. 2328, 11.</bibl><bibl>A. Škegro, ZPE 101, 1994, 297-298, Nr. 8; Abb. 4 (Zeichnung). - AE 1994.</bibl><bibl>A. Škegro, VjesAMuzZagreb 36, 2003, 158-159, Nr. 20; sl. 22 (Zeichnung). (B) - AE 2003.</bibl><bibl>A. Škegro, OpuscArchZagreb 21, 1997, 101-102, Nr. 119.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription from Flavia Solva, bei &amp;ndash; Seggauberg (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD067419</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD067419</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material>Gesteine</material><dimensions unit="cm"><height>90</height><width>60</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197273">Flavia Solva, bei</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1737"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2765224">Seggauberg</placeName><placeName type="findspot">{Schloß Seggau, Alter Turm}, sekundär verwendet</placeName><placeName type="region">Steiermark</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/143" xml:lang="en">unknown</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD067419_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">Attius</name><name type="cognomen">Vitalis</name></persName></person><person xml:id="HD067419_2" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[--]atinius</name><name type="cognomen">Iuvenis+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-06-22" who="Gräf">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied> Attius <lb n="2"/>Vitalis <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>atinius <lb n="4"/><supplied reason="lost">I</supplied>&amp;lt;u=A&amp;gt;venis <lb n="5"/><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied>FA posuit <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/>OL<gap reason="lost" extent="unknown" unit="character"/> <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/>LM <lb n="8"/>VS<gap reason="lost" extent="unknown" unit="character"/> 
+            </ab></div>
+            <div type="commentary">
+                <p>Fundjahr: Die Inschrift wurde erstmals 1737 von Richard Pococke am Alten Turm gesehen und dokumentiert. Nur handschriftlich überliefert; Maße nur ungefähr. Nach Karl vermutlich nicht identisch mit CIL 03, 05319, wie dort vorgeschlagen. Z. 5: überliefert ist FOCVIT. (B): Weber-Hiden: Z. 7/8: Zeilenfall nicht angegeben.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2011, 0874.</bibl><bibl>S. Karl, in: S. Karl - G. Wrolli, Der Alte Turm im Schloss Seggau zu Leibnitz. Historische Untersuchungen zum ältesten Bauteil der Burgenanlage Leibnitz in der Steiermark (Wien - Berlin - Münster 2011) 99; Zeichnung. - AE 2011.</bibl><bibl>I. Weber-Hiden, RŒ 36, 2013, 376, Nr. 91; Zeichnung. (B) - AE 2011.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

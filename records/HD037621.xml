@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Ad Statuas &amp;ndash; Várdomb (Pannonia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD037621</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD037621</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Szekszárd, Balogh Ádám Múz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">stele?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(51)</height><width>(63)</width><depth>23</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6-5.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197085">Ad Statuas</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3043175">Várdomb</placeName><placeName type="findspot">Wohnhaus Nr. 58 des F. Klieber</placeName><placeName type="region">Tolna megye</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD037621_1" sex="M"><persName><name type="nomen">Aurelius+*</name><name type="cognomen">Valerianus</name></persName></person><person xml:id="HD037621_2" sex="W"><persName><name type="cognomen">Maximina+*</name></persName></person><person xml:id="HD037621_3" sex="W"><persName><name type="cognomen">Saturna+*</name></persName></person><person xml:id="HD037621_4" sex="M"><persName><name type="cognomen">Firmus+</name></persName></person><person xml:id="HD037621_5" sex="M"><persName><name type="cognomen">Firmanus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-10-25" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><expan><abbr><supplied reason="lost">Au</supplied>r</abbr><ex>elius</ex></expan> Valerianus <lb n="2"/><supplied reason="lost">vi</supplied>xit <expan><abbr>an</abbr><ex>nos</ex></expan> LXX M<lb break="no" n="3"/><expan><abbr><supplied reason="lost">a</supplied>ximina</abbr><ex>e</ex></expan> <expan><abbr>nep</abbr><ex>oti</ex></expan> et <lb n="4"/><expan><abbr><supplied reason="lost">Sa</supplied>turn</abbr><ex>a</ex>e</expan> <expan><abbr>con</abbr><ex>iugi</ex></expan> Fir<lb break="no" n="5"/><supplied reason="lost">m</supplied>us et Firmanus <lb n="6"/><supplied reason="lost">titulu</supplied>m <expan><abbr>fil</abbr><ex>ii</ex></expan> <expan><abbr>pare</abbr><ex>ntibus</ex></expan> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Auf der Rückseite girlandentragende Eroten. In den Buchstaben Spuren schwarzer Farbe. Buchstabe F in Form eines I, von dessen oberen Ende zwei Schräghasten nach rechts führen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>RIU 1032; Abb. 1032 (Foto u. Zeichnung).</bibl><bibl>CIL 03, 10280.</bibl><bibl>A.S. Burger, Die Skulpturen des Stadtgebietes von Sopianae und des Gebietes zwischen der Drau und der Limesstrecke Lussonium - Altinum, CSIR Ungarn 7 (Budapest 1991) 44, Nr. 45; Taf. 48, 2.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

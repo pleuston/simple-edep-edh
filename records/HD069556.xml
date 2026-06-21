@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Lindum &amp;ndash; Lincoln (Britannia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD069556</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD069556</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>London, Brit. Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/53">base</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>48</height><width>63</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Britannia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/79395">Lindum</placeName></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0116" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 116 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1859"><placeName type="country" ref="https://www.geonames.org/2635167">United Kingdom</placeName><placeName type="modern" ref="http://www.geonames.org/2644487">Lincoln</placeName><placeName type="findspot">{Röm. Mauer, westlich von}</placeName><placeName type="region">Lincolnshire</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD069556_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Iulius</name><name type="cognomen">Calenus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-04-23" who="Cowey">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F018530" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/34608f30-25d3-4eb3-bbf5-bf59f3c9ad53/file/id/778602/file_version/name/small"/><graphic xml:id="F028201" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/c4c1de96-41e7-496e-b749-c741d5622d3b/file/id/788958/file_version/name/small"/><graphic xml:id="F028202" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/ed64a786-1b92-4309-93a1-14c00e8142ad/file/id/788959/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Dis <expan><abbr>Manib</abbr><ex>us</ex></expan> <lb n="2"/><expan><abbr>G</abbr><ex>ai</ex></expan> Iuli <expan><abbr>Gal</abbr><ex>eria</ex></expan> <lb n="3"/>Caleni <expan><abbr>Lug</abbr><ex>duno</ex></expan> <lb n="4"/><expan><abbr>vet</abbr><ex>erani</ex></expan> ex <expan><abbr>leg</abbr><ex>ione</ex></expan> VI <lb n="5"/><expan><abbr>Vic</abbr><ex>trice</ex></expan> <expan><abbr>p</abbr><ex>ia</ex></expan> <expan><abbr>F</abbr><ex>ideli</ex></expan> <expan><abbr>h</abbr><ex>eres</ex></expan> a se <expan><abbr>m</abbr><ex>emoriae</ex></expan> <expan><abbr>f</abbr><ex>ecit</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Tabula ansata. Zur Datierung vgl. RIB 3005.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 07, 00182.</bibl><bibl>RIB 0252; Zeichnung.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

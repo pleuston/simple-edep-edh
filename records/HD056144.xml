@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Mogontiacum &amp;ndash; Mainz (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD056144</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD056144</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mainz, Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(30)</height><width>(18)</width><depth>18</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109169">Mogontiacum</placeName></origPlace><origDate><origDate notBefore-custom="0070" notAfter-custom="0092" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">70 AD - 92 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1896"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2874225">Mainz</placeName><placeName type="findspot">{Gautor}, westlich, römische Stadtmauer, sekundär verwendet</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD056144_1" sex="M"><persName><name type="nomen">Cornelius+</name><name type="cognomen">Capito+*?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-05-22" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F015255" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/f55bae54-301a-487b-882b-baa3b87a9067/file/id/774832/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr><supplied reason="lost">Le</supplied>g</abbr><ex>io</ex></expan> XIIII <lb n="2"/><supplied reason="lost"><expan><abbr>g</abbr><ex>emina</ex></expan></supplied> <expan><abbr>M</abbr><ex>artia</ex></expan> <expan><abbr>v</abbr><ex>ictrix</ex></expan> <lb n="3"/><supplied reason="lost"><expan><abbr><am><g type="centuria"/></am></abbr><ex>centuria</ex></expan> Co</supplied>rneli <lb n="4"/><supplied reason="lost" cert="low">Cap</supplied>iton<expan><ex>i</ex><abbr>s</abbr></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Tabula ansata. (B): Körber: Z. 1: [Leg(io)]; Z. 3: Cor]neli.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 06927.</bibl><bibl>K. Körber, ZRheinGeschMainz 4, 1893-1905, 188, Nr. 38; Zeichnung. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

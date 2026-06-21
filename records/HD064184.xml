@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Fréterive (Lugdunensis)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD064184</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD064184</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Chambéry, Musée Savoisien</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>183</height><width>68</width><depth>50</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">9-5.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Lugdunensis</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0131" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">131 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1805"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/3017108">Fréterive</placeName><placeName type="findspot"/><placeName type="region">Auvergne-Rhône-Alpes</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD064184_1" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Iulius*</name><name type="cognomen">Iulianus</name></persName></person><person xml:id="HD064184_2" sex="M"><persName><name type="cognomen">Iullus?</name></persName></person><person xml:id="HD064184_3" sex="M"><persName><name type="cognomen">Iucundus</name></persName></person><person xml:id="HD064184_4" sex="W"><persName><name type="nomen">Vireia</name><name type="cognomen">Secundinula</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-03-07" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/><expan><abbr>L</abbr><ex>ucio</ex></expan> <expan><abbr>Iul</abbr><ex>io</ex></expan> <expan><abbr>Front</abbr><ex>onis</ex></expan> <lb n="3"/><expan><abbr>fil</abbr><ex>io</ex></expan> <expan><abbr>Vol</abbr><ex>tinia</ex></expan> Iulia<lb break="no" n="4"/>no <expan><abbr>IIvir</abbr><ex>o</ex></expan> <expan><abbr>aer</abbr><ex>arii</ex></expan> <lb n="5"/>Iul&amp;lt;l=I&amp;gt;<expan><abbr>us</abbr><ex cert="low"/></expan> et Iucun<lb break="no" n="6"/>dus patri et Vi<lb break="no" n="7"/>reia Secundi<lb break="no" n="8"/>nula marito 
+            </ab></div>
+            <div type="commentary">
+                <p>Denkmal in Form eines Altars; auf der Oberseite Pinienzapfen statt des focus. In zwei Teile gebrochen. Zusammen mit drei weiteren ähnlichen &amp;quot;&amp;quot;Altären&amp;quot;&amp;quot; (CILXII 2334. 2335. 2336) auf der Umfassungsmauer wohl eines inzwischen nicht mehr erhaltenen Mausoleums gefunden. Z. 5: auf dem Stein IVLIVS. (B): ILN V; Rémy: Z. 5: Iullus.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2006, 0791.</bibl><bibl>B. Rémy, BPrehistArchAlp 17, 2006, 114-115, Nr. 1. (B) - AE 2006.</bibl><bibl>CIL 12, 02333.</bibl><bibl>ILN 5, 522; Foto. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

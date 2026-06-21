@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Corduba &amp;ndash; Córdoba (Baetica)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD010002</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD010002</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><dimensions unit="cm"><height>(33)</height></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Baetica</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/256128">Corduba</placeName></origPlace><origDate><origDate notBefore-custom="0171" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD - 230 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern" ref="http://www.geonames.org/2519240">Córdoba</placeName><placeName type="findspot"/><placeName type="region">Córdoba</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD010002_1" sex="M"><persName><name type="cognomen">Aristobulus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-10-12" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"><certainty match=".." locus="name"/></gap> <lb n="1"/>Aris<supplied reason="lost">tob</supplied><lb break="no" n="2"/>ulus His<lb break="no" n="3"/><supplied reason="lost">p</supplied>ani XXII <lb n="4"/><expan><abbr><supplied reason="lost">na</supplied>t</abbr><ex>ione</ex></expan> <expan><abbr>Graec</abbr><ex>us</ex></expan> <lb n="5"/><supplied reason="lost"><expan><abbr>ann</abbr><ex>orum</ex></expan></supplied> XXI <lb n="6"/><supplied reason="lost"><expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>itus</ex></expan> <expan><abbr>e</abbr><ex>st</ex></expan> <expan><abbr>s</abbr><ex>it</ex></expan> <expan><abbr>t</abbr><ex>ibi</ex></expan></supplied> <expan><abbr>t</abbr><ex>erra</ex></expan> <expan><abbr>l</abbr><ex>evis</ex></expan> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Piernavieja Rozitis, AE 1975: Abweichende Ergänzungen und Textwiedergabe.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1975, 0506. (B)</bibl><bibl>CIL 02 (2. Aufl.) 07, 00358.</bibl><bibl>A. García y Bellido, AEA 33, 1960, 189-190, Nr. 25; fig. 46 (Zeichnung). - AE 1975.</bibl><bibl>HAE 1858.</bibl><bibl>P. Piernavieja Rozitis, AEA 48, 1975, 157-158; Foto. (B) - AE 1975.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

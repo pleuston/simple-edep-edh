@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Cruciniacum (Civitas Vangionum?) &amp;ndash; Bad Kreuznach (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD076464</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD076464</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bad Kreuznach, Römerhalle</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/230">grave monument</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/11">Granit</material><dimensions unit="cm"><height>(48)</height><width>(112)</width><depth>57</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">13.5-10</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109427">Cruciniacum (Civitas Vangionum?)</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-2000"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2953416">Bad Kreuznach</placeName><placeName type="findspot">Hüffelsheimer Straße, {römische Villa}</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2018-05-30" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F038483" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/d1a80035-13ac-43fe-810e-61269efc7878/file/id/799355/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>CIEII <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>LORV <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>ICTIS <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Bruchstück vom rechten Rand eines Eckblocks von einem Grabbau. Das Inschriftfeld wird rechts von einem Rahmenpilaster mit Akanthusornament gerahmt. In Z. 1 noch der untere Teil der Buchstaben sichtbar, statt I auch T oder F möglich, in Z. 3 noch die obere Hälfte der Buchstaben.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>W. Boppert, Römische Steindenkmäler aus dem Landkreis Bad Kreuznach, CSIR Deutschland 2, 9 (Mainz 2001) 109-110, Nr. 91; Taf. 63, 91.</bibl><bibl>S. Willer, Römische Grabbauten des 2. und 3. Jahrhunderts nach Christus im Rheingebiet (Bonn 2005) 114, Nr. 7.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

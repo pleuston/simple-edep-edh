@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Mogontiacum &amp;ndash; Mainz (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD023270</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD023270</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mainz, Landesmus., Depot Bretzenheim</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">altar?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(46)</height><width>(28)</width><depth>25</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.5-2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109169">Mogontiacum</placeName></origPlace><origDate><origDate notBefore-custom="0070" notAfter-custom="0086" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">70 AD - 86 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1896"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2874225">Mainz</placeName><placeName type="findspot">{Wallstraße 98}</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD023270_1" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Vireius</name><name type="cognomen">Dexter</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-08-08" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F014986" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/4559cd61-c932-4d3b-a493-99132e221070/file/id/774521/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><supplied reason="lost">v</supplied>oto s<supplied reason="lost">us</supplied><lb break="no" n="2"/>cepto <lb n="3"/><expan><abbr>L</abbr><ex>ucius</ex></expan> Vireius <lb n="4"/>Dexter se<lb break="no" n="5"/><expan><abbr>plasiar</abbr><ex>ius</ex></expan> in <lb n="6"/><expan><abbr>leg</abbr><ex>ione</ex></expan> I <expan><abbr>ad</abbr><ex>iutrice</ex></expan> <lb n="7"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Altar oder Basis / Statuenbasis. Oberfläche des Inschriftfeldes teilweise stark verwittert. Z. 1: nur noch die unteren Buchstabenenden erhalten. (B): Körber; AE 1896: Z. 1/2: [v]oto s[us]/cepto.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1896, 0098. (B)</bibl><bibl>CIL 13, 06778.</bibl><bibl>K. Körber, KWDZ 15, 1896, 84-85. (B) - AE 1896.</bibl><bibl>B. Rémy - P. Faure, Les médecins dans l'Occident romain (Péninsule Ibérique, Bretagne, Gaules, Germanies) (Bordeaux 2010) 192-193, Nr. S.3; Foto.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

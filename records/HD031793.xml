@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Molino de la Torre (Baetica)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD031793</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD031793</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>166</height><width>65</width><depth>(36)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6-2.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Baetica</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1995"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern">Molino de la Torre</placeName><placeName type="findspot"/></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD031793_1" sex="W"><persName><name type="nomen">Cornelia+</name><name type="cognomen">[---]niana?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2010-10-14" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <supplied reason="lost"><expan><abbr>s</abbr><ex>acrum</ex></expan></supplied> <lb n="2"/><supplied reason="lost">Co</supplied>rnelia <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>N</abbr><ex cert="low"/>ian</expan><supplied reason="lost">a</supplied> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <gap reason="lost" extent="unknown" unit="character"/>lerat <supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost" cert="low"> c</supplied>arior <expan><abbr>lib</abbr><ex cert="low">e</ex>ri</expan><supplied reason="lost" cert="low">s</supplied> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>IEQV<gap reason="lost" extent="unknown" unit="character"/>uit morum <lb n="4"/><expan><abbr>COM</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/> supe<supplied reason="lost">r</supplied><expan><abbr>I</abbr><ex cert="low"/>I</expan><certainty match="preceding-sibling::node()" locus="value"/><expan><abbr>I</abbr><ex cert="low"/>ATA</expan> subi<supplied reason="lost" cert="low">t</supplied>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Die Inschrift verteilt sich auf 2 übereinanderliegende Inschriftfelder. Z. 3 (Anfang): statt N auch L möglich. Z. 7 (Anfang): statt M auch N möglich. (B): Ordóñez Agulla - Sáez Fernández; AE 1997: Lesung abweichend / unvollständig.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 02 (2. Aufl.) 05, 01124.</bibl><bibl>AE 1997, 0831. (B)</bibl><bibl>S. Ordóñez Agulla - P. Sáez Fernández, Habis 27, 1996, 104-106, Nr. 4; Fotos. (B) - AE 1997.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

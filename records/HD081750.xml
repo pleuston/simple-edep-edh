@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from (Civitas Lingonum) &amp;ndash; Bourbonne-les-Bains (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD081750</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD081750</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bourbonne-les-Bains, Musée</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor, weiß</material><dimensions unit="cm"><height>15</height><width>12</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">2-0.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/177476">(Civitas Lingonum)</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1833"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/3031086">Bourbonne-les-Bains</placeName><placeName type="findspot">{Grande Rue}</placeName><placeName type="region">Grand Est</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD081750_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Daminius</name><name type="cognomen">Ferox</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-08-24" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F028486" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/76b28282-a402-4db3-8c3d-ca990aed574e/file/id/789243/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Deo Apol<lb break="no" n="2"/>lini Borvoni <lb n="3"/>et Damonae <lb n="4"/><expan><abbr>C</abbr><ex>aius</ex></expan> Daminius <lb n="5"/>Ferox civis <lb n="6"/>Lingonus ex <lb n="7"/>voto
+            </ab></div>
+            <div type="commentary">
+                <p>Z. 2: NI-Ligatur; Z. 3: AE-Ligatur.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 05911.</bibl><bibl>ILS 4656.</bibl><bibl>Y. Le Bohec, Inscriptions de la cité des Lingons (Paris 2003) 130-131, Nr. 200; Abb. 91.</bibl><bibl>J.-J. Thévenard, in: J.-J. Thévenard - A. Villes - R. Neiss, La Haute-Marne, Carte archéologique de la Gaule 52, 1 (Paris 1996) 126. 136; fig. 76 (Zeichnung).</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

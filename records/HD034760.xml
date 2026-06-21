@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Salonae, bei &amp;ndash; Solin (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD034760</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD034760</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Split, Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material>Gesteine</material><dimensions unit="cm"><width>(67)</width><depth>10</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6-3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197488">Salonae, bei</placeName></origPlace><origDate><origDate notBefore-custom="0301" notAfter-custom="0400" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">301 AD - 400 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1884"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3190359">Solin</placeName><placeName type="findspot">Manastirine, {Basilika}, bei</placeName><placeName type="region">Splitsko-dalmatinska županija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-07-22" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <gap reason="lost" extent="unknown" unit="character"/> fabrec<expan><ex>a</ex><abbr>e</abbr></expan> <note>sic</note> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>IIA <lb n="0"/><gap reason="lost" quantity="1" unit="line"/> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost" cert="low"> ec</supplied><expan><abbr>clesi</abbr><ex cert="low"/></expan><supplied reason="lost" cert="low">ae? Sal(onitanae)</supplied> <lb n="4"/>deci<expan><ex>e</ex><abbr>s</abbr></expan> centena m<supplied reason="lost">i</supplied><lb break="no" n="5"/>lia <lb n="6"/>et <expan><abbr>r</abbr><ex>ei</ex></expan> <expan><abbr>p</abbr><ex>ublicae</ex></expan> inferit <expan><abbr>fol</abbr><ex>les</ex></expan> n<expan><ex>u</ex><abbr>m</abbr><ex>ero</ex></expan> <expan><abbr>quinquagint</abbr><ex>a</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Drei teilweise aneinander passende Fragmente erhalten. Sehr wahrscheinlich zusammengehörig. Textwiedergabe nach E. Marin u. a.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILJug 2373.</bibl><bibl>CIL 03, 09582.</bibl><bibl>CIL 03, 12872.</bibl><bibl>ILS 8253.</bibl><bibl>R. Egger, Der altchristliche Friedhof Manastirine nach dem Materiale Fr.</bibl><bibl>Bulić', Forschungen in Salona 2 (Wien 1926) 79, Nr. 95; Zeichnung.</bibl><bibl>E. Marin u. a., Salona 4. Inscriptions de Salone chrétienne, IVe-VIIe siècles (Rome - Split 2010) 980-981, Nr. 610; Foto.</bibl><bibl>ILCV 3836A.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Salonae, bei &amp;ndash; Solin (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD039765</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD039765</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Solin, Arh. zbirka Marka Matijevica</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(27)</height><width>34</width><depth>3</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">2-2-5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197488">Salonae, bei</placeName></origPlace><origDate><origDate notBefore-custom="0171" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3190359">Solin</placeName><placeName type="findspot">{Ulica Zvonimirova}</placeName><placeName type="region">Splitsko-dalmatinska županija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD039765_1" sex="M"><persName><name type="nomen">Lusidenius*</name><name type="cognomen">Glicerus (= Glycerus)</name></persName></person><person xml:id="HD039765_2" sex="M"><persName><name type="nomen">Lusidenius</name><name type="cognomen">Glicerus* (= Glycerus*)</name></persName></person><person xml:id="HD039765_3" sex="W"><persName><name type="cognomen">Secunda*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-11-09" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F035004" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/ece17391-1421-4a7f-9ec9-1c70c48ab184/file/id/795850/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan></supplied> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/> <lb n="2"/><expan><abbr>L</abbr><ex>usidenius</ex></expan> Glicerus <note>sic</note> delica<lb break="no" n="3"/>to suo <expan><abbr>b</abbr><ex>ene</ex></expan> <expan><abbr>m</abbr><ex>erenti</ex></expan> <expan><abbr>p</abbr><ex>osuit</ex></expan> <lb n="4"/>Lusidenius <expan><abbr>Glicer</abbr><ex>us</ex></expan> <note>sic</note> fe<lb break="no" n="5"/>cit Secund<expan><ex>a</ex><abbr>e</abbr></expan> fili<expan><ex>a</ex><abbr>e</abbr></expan> <lb n="6"/>su<expan><ex>a</ex><abbr>e</abbr></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Teilweise Spuren roter Farbe in den Buchstaben erhalten.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2001, 1609.</bibl><bibl>A. Kurilić, in: D. Davison - V. Gaffney - E. Marin (Hrsg.), Dalmatia. Research in the Roman province 1970-2001. Papers in honour of J.J. Wilkes (Oxford 2006) 140, Nr. 50.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

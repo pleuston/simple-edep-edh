@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Vindonissa &amp;ndash; Windisch (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD024106</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD024106</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mannheim?</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/276">tessera</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material><dimensions unit="cm"><height>3</height><width>5</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/177661">Vindonissa</placeName></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1897"><placeName type="country" ref="https://www.geonames.org/2658434">Switzerland</placeName><placeName type="modern" ref="http://www.geonames.org/2657976">Windisch</placeName><placeName type="findspot">{Legionslager, Principia}, Fahnenheiligtum</placeName><placeName type="region">Kanton Aargau</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD024106_1" sex="M"><persName><name type="nomen">Domitius</name><name type="cognomen">[--]todus</name></persName></person><person xml:id="HD024106_2" sex="M"><persName><name type="nomen">Valerius*</name><name type="cognomen">Tertius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-02-12" who="Gräf">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr><am><g type="centuria"/></am></abbr><ex>centuria</ex></expan> Domiti <lb n="2"/><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied>todi <lb n="3"/><expan><abbr>Val</abbr><ex>erius</ex></expan> Tertius <lb n="4"/>&amp;lt;G=Q&amp;gt;enio <expan><abbr>leg</abbr><ex>ionis</ex></expan> XI <expan><abbr>C</abbr><ex>laudiae</ex></expan> <expan><abbr>p</abbr><ex>iae</ex></expan> <expan><abbr>f</abbr><ex>idelis</ex></expan> <lb n="5"/>pullum <expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <lb n="6"/><expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan> 
+            </ab></div>
+            <div type="commentary">
+                <p>Votivtäfelchen in Form einer tabula ansata. Schreibtechnik: gepunzt. Z. 2: vor T zwei nicht eindeutig identifizierbare Buchstaben. (B): Bohn, Germania; AE 1926; Finke: Z. 4: Genio.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1926, 0069. (B)</bibl><bibl>AE 1926, p. 2 s. n. 6.</bibl><bibl>H. Finke, BRGK 17, 1927, 34-35, Nr. 100. (B)</bibl><bibl>O. Bohn, Germania 9, 1925, 133-134. (B) - AE 1926, 0069.</bibl><bibl>O. Bohn, ASA 27, 1925, 202-203, Nr. 5; Zeichnung. - AE 1926, p. 2 s. n. 6.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

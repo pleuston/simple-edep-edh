@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Raetinium? &amp;ndash; Bihać (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD033274</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD033274</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/78">urn</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/76">Kalkmergel / Mergel</material><dimensions unit="cm"><height>70</height><width>(40)</width><depth>75</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6-5.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197466">Raetinium?</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1956"><placeName type="country" ref="https://www.geonames.org/3277605">Bosnia and Herzegovina</placeName><placeName type="modern" ref="http://www.geonames.org/3200429">Bihać</placeName><placeName type="findspot">Golubić, {katholischer Friedhof}, Crkvina, frühchristliche Kirche, sekundär verwendet</placeName><placeName type="region">Unsko-sanski kanton</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD033274_1"><persName><name type="praenomen">[-]</name><name type="nomen">[---]pho[---]?</name><name type="cognomen">[---]pho[---]?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-04-10" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <gap reason="lost" extent="unknown" unit="character"/>PHO<lb break="no" n="2"/><gap reason="lost" extent="unknown" unit="character"/>AEV <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">an</supplied><expan><abbr>n</abbr><ex>o-</ex></expan> <expan><abbr>L</abbr><ex cert="low"/>XXV</expan> <lb n="4"/><supplied reason="lost"><expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>it-</ex></expan></supplied> <expan><abbr>e</abbr><ex>st</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Inschriftfeld ehemals von 2 Säulen gerahmt. (B): ILJug: Z. 3: [--- an]norum XXV.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILJug 0223. (B)</bibl><bibl>I. Čremošnik, GlasSarajevo 12, 1957, 163, Nr. 2; sl. 1 (Zeichnung).</bibl><bibl>B. Raunig, Starinar 23, 1972. 39-42. 49-50; t. 5, 15.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

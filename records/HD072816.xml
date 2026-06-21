@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Carnuntum &amp;ndash; Bad Deutsch-Altenburg (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD072816</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD072816</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">statue base?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(70)</height><width>46</width><depth>31</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/128376">Carnuntum</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1881"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2782068">Bad Deutsch-Altenburg</placeName><placeName type="findspot">canabae, {Weingartenfeld}</placeName><placeName type="region">Niederösterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-12-02" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>OSAL<gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>ONET<gap reason="lost" extent="unknown" unit="character"/>OME <lb n="3"/>NVS C<gap reason="lost" extent="unknown" unit="character"/>MPI <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>CTOR signum <lb n="5"/><expan><abbr><supplied reason="lost">G</supplied>eni</abbr><ex>i</ex></expan> marmo<lb break="no" n="6"/><supplied reason="lost">r</supplied>eum cum ae<lb break="no" n="7"/><supplied reason="lost">d</supplied>e testamento <lb n="8"/>mandavit poni
+            </ab></div>
+            <div type="commentary">
+                <p>Die Inschrift befindet sich auf dem unteren Teil einer Statuenbasis oder eines Altars, oberer Teil abgebrochen. Die Buchstaben in Z. 3-4 scheinen zu weit auseinander zu stehen, um zu C[a]mpi/[do]ctor ergänzt werden zu können. [Vi]ctor? (B): CIL 03, 11261: Z. 1-4: OSA / [-]ONET [---] ME / NVS C[-]MPE / [-]RCTOR. (B): Hirschfeld: keine Wiedergabe von Z. 1; Leseabweichungen. (B): Vorbeck: [Pr]o sa[l(ute) ---] / [---]onet [---]m/enus [---] M(arcus?) P[-]/[---]ctor signum [g]eni(i) marmo/[re]um cum a[e]/[d]e testamento / mandavit [p]oni. (B): Kremer: Z. 1-4: ---] / [pr]o salu[te] / [.]onet++ome/rus c[a]mpi/[d]octor signum / [G]eni. (B): Nach Weber-Hiden zusammengehörig mit http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD072920 (Oberteil), was von Kremer, der wir uns hier anschließen, aufgrund der unterschiedlichen Schriftgröße, der Fundorte sowie der bei HD072920 noch vorhandenen Z. 3 der beiden nicht aneinanderpassenden Fragmente jedoch verworfen wird.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 11261. (B)</bibl><bibl>O. Hirschfeld, AEM 5, 1881, 221, Nr. 10.</bibl><bibl>E. Vorbeck, Zivilinschriften aus Carnuntum (Wien 1980) 77, Nr. 351. (B)</bibl><bibl>I. Weber-Hiden, in: P. Mauritsch - W. Petermandl - R. Rollinger - C. Ulf (Hrsg.), Antike Lebenswelten. Konstanz - Wandel - Wirkungsmacht. Festschrift für Ingomar Weiler zum 70. Geburtstag (Wiesbaden 2008) 624-625, Nr. 5. (B)</bibl><bibl>G. Kremer, Götterdarstellungen, Kult- und Weihedenkmäler aus Carnuntum, CSIR Österreich Carnuntum (Suppl.) 1 (Wien 2012) 143, Nr. 269; Taf. 73, 269. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

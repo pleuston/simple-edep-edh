@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Kratovo (Macedonia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD067401</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD067401</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Macedonia</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 230 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/718075">Macedonia</placeName><placeName type="modern" ref="http://www.geonames.org/785794">Kratovo</placeName><placeName type="findspot">{Šlegovo}</placeName><placeName type="region">Severoistočen region</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD067401_1" sex="M"><persName><name type="cognomen">Τήρης</name><name type="supernomen">ὁ καὶ Ταΐς</name></persName></person><person xml:id="HD067401_2" sex="M"><persName><name type="cognomen">Επτηλος</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-03-04" who="Cowey">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Τήρῃ Επτ<lb break="no" n="2"/>ηλου τῷ κ<lb break="no" n="3"/>αὶ Ταίτι ζή<lb break="no" n="4"/>σαντι καλ<lb break="no" n="5"/>ῶς ἔτη ἑβδ<lb break="no" n="6"/>ομήκοντα <lb n="7"/>ΓΟΥΙΟ <gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2008, 1233.</bibl><bibl>R. Petkovski, Patrimonium MK 2, 2008/09, 45-50; sl. 1. - AE 2008.</bibl><bibl>S. Babamova, Systasis 13, 2008.</bibl><bibl>SEG 58, 0636.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

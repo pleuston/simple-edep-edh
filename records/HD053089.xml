@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Forum Iulii, bei &amp;ndash; Lorgues (Narbonensis)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD053089</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD053089</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Lorgues, Privatbesitz</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><dimensions unit="cm"><height>48</height><width>28</width><depth>11</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Narbonensis</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/187386">Forum Iulii, bei</placeName></origPlace><origDate><origDate notBefore-custom="0451" notAfter-custom="0600" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">451 AD - 600 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1932"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/2997581">Lorgues</placeName><placeName type="findspot">Boulevard Clemenceau, ehemaliges Hôtel Moderne (heute Hôtel du Parc)</placeName><placeName type="region">Provence-Alpes-Côte d’Azur</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2008-12-08" who="Platz">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Servilia <expan><abbr>n</abbr><ex>obilissima</ex></expan> <expan><abbr>p</abbr><ex>uella</ex></expan> <lb n="2"/><expan><ex>h</ex><abbr>ic</abbr></expan> <expan><abbr>requiesc</abbr><ex>it</ex></expan> <lb n="3"/>in pace d<expan><ex>omi</ex><abbr>ni</abbr></expan> <lb n="4"/>nostri <lb n="5"/>annor<lb break="no" n="6"/>um <expan><abbr>n</abbr><ex>umero</ex></expan> XXIII<lb break="no" n="7"/><expan><abbr>V</abbr><ex cert="low"/></expan> die XII <expan><abbr>K</abbr><ex>alendas</ex></expan> Sep<lb break="no" n="8"/>tembris </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <supplied reason="lost">Hi</supplied>c requies<lb break="no" n="2"/><supplied reason="lost">c</supplied>et <note>sic</note> in pace <lb n="3"/><expan><abbr><supplied reason="lost">b</supplied>on</abbr><ex>ae</ex></expan> <expan><abbr>m</abbr><ex>emoriae</ex></expan> Benen<lb break="no" n="4"/><supplied reason="lost">at</supplied>a <expan><abbr>q</abbr><ex>uae</ex></expan> <expan><abbr>vix</abbr><ex>it</ex></expan> <expan><abbr>an</abbr><ex>nos</ex></expan> <lb n="5"/><expan><abbr>pl</abbr><ex>us</ex></expan> <expan><abbr>me</abbr><ex>nus</ex></expan> <note>sic</note> <gap reason="lost" quantity="1" unit="line"/>
+            </ab></div></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1993, 1102.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

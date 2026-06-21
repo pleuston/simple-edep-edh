@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Mogontiacum &amp;ndash; Mainz (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD016939</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD016939</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mainz, Privatbesitz</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(150)</height><width>75</width><depth>12</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7-8</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109169">Mogontiacum</placeName></origPlace><origDate><origDate notBefore-custom="0070" notAfter-custom="0090" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">70 AD - 90 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1957"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2874225">Mainz</placeName><placeName type="findspot">{Oberer Laubenheimer Weg}</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD016939_1" sex="M"><persName><name type="cognomen">Abaius</name></persName></person><person xml:id="HD016939_2" sex="M"><persName><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-08-15" who="Gräf">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Abaius <gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>na</abbr><ex>tione</ex></expan> Pan<supplied reason="lost"><expan><abbr>non</abbr><ex>nius</ex></expan></supplied> <lb n="3"/><supplied reason="lost"><expan><abbr>eq</abbr><ex>ues</ex></expan></supplied> <expan><abbr>al</abbr><ex>ae</ex></expan> <expan><abbr><supplied reason="lost">P</supplied>ic</abbr><ex>entianae</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Zahlreiche, teils aneinanderpassende Fragmente erhalten. Oberhalb des Inschriftfeldes ein Reiter. (B): von Pfeffer; AE 1962; Schillinger-Häfele: Abweichungen in Lesung / Ergänzung.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1962, 0290. (B)</bibl><bibl>W. von Pfeffer, MZ 54, 1959, 42, Nr. 2; Zeichnung. (B) - AE 1962.</bibl><bibl>W. Boppert, Militärische Grabdenkmäler aus Mainz und Umgebung, CSIR Deutschland 2, 5 (Mainz 1992) 150-151, Nr. 43; Tafel 39, 43 Zeichnung).</bibl><bibl>U. Schillinger-Häfele, BRGK 58, 1977, 503-504, Nr. 92. (B)</bibl><bibl>K. Wachtel, Historia 15, 1966, 242.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

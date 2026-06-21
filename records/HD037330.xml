@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Intercisa &amp;ndash; Dunaújváros (Pannonia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD037330</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD037330</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Budapest, Magyar Nemzeti Múz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(192)</height><width>(69)</width><depth>18</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.3-4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197323">Intercisa</placeName></origPlace><origDate><origDate notBefore-custom="0171" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD - 230 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3053438">Dunaújváros</placeName><placeName type="findspot">Weingarten des Ferenc Hauser</placeName><placeName type="region">Fejér megye</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD037330_1" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Aurelius*</name><name type="cognomen">Primus+</name></persName></person><person xml:id="HD037330_2" sex="W"><persName><name type="nomen">0?</name><name type="cognomen">T[---]</name></persName></person><person xml:id="HD037330_3" sex="W"><persName><name type="nomen">[---]</name><name type="cognomen">[---]mma*</name></persName></person><person xml:id="HD037330_4" sex="W"><persName><name type="nomen">Aurelia+?</name><name type="cognomen">Flora*</name></persName></person><person xml:id="HD037330_5" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Aurelius+*</name><name type="cognomen">Primianus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-12-05" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>M</abbr><ex>arco</ex></expan> <expan><abbr>Aur</abbr><ex>elio</ex></expan> Prim<supplied reason="lost">o qui vi</supplied><lb break="no" n="2"/><expan><abbr>x</abbr><ex>it</ex></expan> <expan><abbr>an</abbr><ex>nos</ex></expan> L et T<gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/><expan><abbr>m</abbr><ex>atri</ex></expan> <expan><abbr>vix</abbr><ex>it</ex></expan> <expan><abbr>an</abbr><ex>nos</ex></expan> XXXXV <supplied reason="lost">et</supplied><gap reason="lost" extent="unknown" unit="character"/><lb break="no" n="4"/>mm<expan><ex>a</ex><abbr>e</abbr></expan> soro<supplied reason="lost">ri <expan><abbr>q</abbr><ex>uae</ex></expan></supplied> <lb n="5"/><expan><abbr>vix</abbr><ex>it</ex></expan> <expan><abbr>an</abbr><ex>nos</ex></expan> X et <supplied reason="lost" cert="low">Aureli</supplied><lb break="no" n="6"/>ae Flor<expan><ex>a</ex><abbr>e</abbr></expan> <expan><abbr>q</abbr><ex>uae</ex></expan> <supplied reason="lost"><expan><abbr>vix</abbr><ex>it</ex></expan></supplied> <lb n="7"/><expan><abbr>an</abbr><ex>num</ex></expan> parum <expan><abbr>M</abbr><ex>arcus</ex></expan> <supplied reason="lost"><expan><abbr>Aurel</abbr><ex>ius</ex></expan></supplied> <lb n="8"/>Primianu<supplied reason="lost">s miles</supplied> <lb n="9"/>c<expan><ex>o</ex><abbr>ho</abbr><ex>rtis</ex></expan> |(miliariae) <expan><abbr>He</abbr><ex>mesenorum</ex></expan> pa<supplied reason="lost">rentibus</supplied> <lb n="10"/>bene <expan><abbr>meri</abbr><ex cert="low"/></expan><supplied reason="lost">tis <expan><abbr>pos</abbr><ex>uit</ex></expan></supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Oberhalb des Inschriftfeldes Opferszene und darüber die Büsten eines Ehepaars mit Kind.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>RIU 1197; Abb. 1197 (Foto u. Zeichnung).</bibl><bibl>AE 1976, 0554.</bibl><bibl>J. Fitz, Alba Regia 14, 1975, 357, Nr. 2. - AE 1976.</bibl><bibl>J. Mander, Portraits of children on Roman funerary monuments (Cambridge 2013) 312, Nr. 728.</bibl><bibl>G. Erdélyi - F. Fülep, in: L. Barkóczi u. a., Intercisa I. (Dunapentele - Sztálinváros). Geschichte der Stadt in der Römerzeit (Budapest 1954) 280, Nr. 15; Taf. 37, 2.</bibl><bibl>B. Lőrincz, Die römischen Hilfstruppen in Pannonien während der Prinzipatszeit 1. Die Inschriften (Wien 2001) 259, Nr. 341.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Scarbantia, bei &amp;ndash; Katzelsdorf/Leitha (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD073914</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD073914</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">stele?</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197501">Scarbantia, bei</placeName></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1854"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2774612">Katzelsdorf/Leitha</placeName><placeName type="findspot"/><placeName type="region">Niederösterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD073914_1" sex="M"><persName ref="http://romans1by1.com/rpeople/18604"><name type="nomen">Aurelius</name><name type="cognomen">Parasenus+</name></persName></person><person xml:id="HD073914_2" sex="W"><persName ref="http://romans1by1.com/rpeople/18605"><name type="nomen">Cassia*</name><name type="cognomen">Campana*</name></persName></person><person xml:id="HD073914_3" sex="W"><persName ref="http://romans1by1.com/rpeople/18606"><name type="nomen">Aurelia</name><name type="cognomen">Ama</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-06-08" who="Osnabrügge">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> Aurelio <lb n="2"/>Para<supplied reason="lost">s</supplied>eno <expan><abbr>ve</abbr><ex>terano</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> XIIII <lb n="3"/><expan><abbr>G</abbr><ex>eminae</ex></expan> <expan><abbr>an</abbr><ex>norum</ex></expan> LXX et Cassi<expan><ex>a</ex><abbr>e</abbr></expan> Campan<expan><ex>a</ex><abbr>e</abbr></expan> <lb n="4"/><expan><abbr>an</abbr><ex>norum</ex></expan> L Aurelia Ama <expan><abbr>f</abbr><ex>ilia</ex></expan> <expan><abbr>p</abbr><ex>arentibus</ex></expan> <expan><abbr>p</abbr><ex>ro</ex></expan> <expan><abbr>p</abbr><ex>ietate</ex></expan> <lb n="5"/><expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>iti</ex></expan> <expan><abbr>s</abbr><ex>unt</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>1888 noch von v. Domaszewski im Schloss Katzelsdorf gesehen. Gefunden in Zweitverwendung als Tisch in einem Bauernhaus. In Zeile 1 stehen D und M links und rechts von Aurelio. Zeile 2: AR-, VE-Ligatur; Zeile 3: AN-, ET-, AMP-, ANE-Ligatur; Zeile 4: AN-, AVR-Ligatur.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 04550.</bibl><bibl>CIL 03, 11298.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Carnuntum, bei &amp;ndash; Petronell-Carnuntum (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD060925</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD060925</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Petronell-Carnuntum, Lapidarium</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(86)</height><width>56</width><depth>20</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6.0-4.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/128376">Carnuntum, bei</placeName></origPlace><origDate><origDate notBefore-custom="0041" notAfter-custom="0054" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">41 AD - 54 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1866"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2769013">Petronell-Carnuntum</placeName><placeName type="findspot">Gräberstraße, {Parzelle Nr. 321/1}</placeName><placeName type="region">Niederösterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD060925_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Aufidius</name><name type="cognomen">Sura</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-06-22" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F004345" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/2df15605-ae0d-4774-985a-4f4093c93fb7/file/id/765107/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>C</abbr><ex>aius</ex></expan> Aufidi<lb break="no" n="2"/>us <expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>Quir</abbr><ex>ina</ex></expan> <lb n="3"/>Sura do<lb break="no" n="4"/>mo <expan><abbr>Heupo</abbr><ex cert="low">ria</ex></expan> <lb n="5"/>veteranu<lb break="no" n="6"/><supplied reason="lost">s l</supplied><expan><abbr>eg</abbr><ex>ionis</ex></expan> XV <expan><abbr>Apo</abbr><ex>llinaris</ex></expan> <lb n="0"/><gap reason="lost" quantity="1" unit="line"><certainty match=".." locus="name"/></gap>
+            </ab></div>
+            <div type="commentary">
+                <p>Oberhalb des Inschriftfeldes Bildfeld in Form eines gestelzten Giebels; im Giebelfeld Schild mit gekreuzten Speeren. Zeile 4: HE-Ligatur. Heuporia = Euporia in Makedonien? Möglicherweise auch Schreibfehler für Heliop(oli) aus der jursiven Vorlage. (B): Krüger; Vorbeck; Mosser: kleinere Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 11210.</bibl><bibl>CIL 03, 11210 add. p. 2328, 32.</bibl><bibl>M.-L. Krüger, Die Reliefs des Stadtgebietes von Carnuntum 2. Die dekorativen Reliefs, CSIR Österreich 1, 4 (Wien 1972) 10-11, Nr. 386; Taf. 3, 386. (B)</bibl><bibl>E. Vorbeck, Militärinschriften aus Carnuntum (2. Aufl. Wien 1980) 86, Nr. 227. (B)</bibl><bibl>M. Mosser, Die Steindenkmäler der legio XV Apollinaris (Wien 2003) 198-199, Nr. 71; Taf. 13, 71. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

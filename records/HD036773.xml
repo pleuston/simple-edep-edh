@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Arae Flaviae &amp;ndash; Rottweil (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD036773</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD036773</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Rottweil, Dominikanermus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(76)</height><width>(80)</width><depth>25</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">16-12.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118572">Arae Flaviae</placeName></origPlace><origDate><origDate notBefore-custom="0096" notAfter-custom="0117" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">96 AD - 117 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1906"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2843636">Rottweil</placeName><placeName type="findspot">{sogenannte Villa A}, sekundär verwendet</placeName><placeName type="region">Baden-Württemberg</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD036773_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1419"><name type="cognomen">Nerva+?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-11-04" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F008826" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/e0c96991-c59f-4042-839c-aa7f4229750b/file/id/768593/file_version/name/small"/><graphic xml:id="F012698" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/ea993d75-dd61-41e0-a90f-1c33c7f39ed9/file/id/772223/file_version/name/small"/><graphic xml:id="F012699" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/3035d898-ac36-46df-8599-af51a786ee11/file/id/772224/file_version/name/small"/><graphic xml:id="F024379" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/69715772-07f8-483d-8908-d11ab9f5b73a/file/id/785045/file_version/name/small"/><graphic xml:id="F037309" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/2a6b8ba7-57a2-4727-b79b-5dc20df05697/file/id/798175/file_version/name/small"/><graphic xml:id="F037310" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/e7f1a039-80a0-466a-bac5-d3ded58e4886/file/id/798176/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><supplied reason="lost"><expan><abbr>Imp</abbr><ex>erator</ex></expan> Nerva<certainty locus="name" match="preceding-sibling::text()" cert="low"/> Cae</supplied>sar A<supplied reason="lost"><expan><abbr>ug</abbr><ex>ustus</ex></expan></supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost" cert="low"> cohor</supplied>s III D<supplied reason="lost" cert="low">almatarum? p(ia)? f(idelis)? ---</supplied> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> novi f<supplied reason="lost" cert="low">aciendum</supplied><supplied reason="lost">aciendum</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Mehrere aneinanderpassende Fragmente erhalten. Materialangabe nach lupa 7737; Haug - Sixt: Keupersandstein. Ergänzungsvorschlag nach Wiegels (Nerva oder - eher - Trajan). CIL 03, 11722: [Imp. Nerva Cae]sar Au[g. Germ.] / [p. m. tr. p. II co]s. III d[es. IIII] oder [Imp. Caes. Vespasianus Aug.] / [cos. V] / [T. Cae]sar Au[ug. f.] / [co]s. III d[es. III] / [murum? vici] novi f[aciendum curaverunt]. Haug - Sixt: [Imp. Nerva Traianus Cae]sar A[ugustus Germanicus pont. max. trib. pot. IIII co]s. III d[es. IIII murum? vici] novi f[aciendum? curavit?]. Filtzinger: [Imp. Caesar Vespasianus Aug. pont. max. trib. pot. VII] / [imp. XIIII cos. VI desig. VII censor pater patriae et] / [Imp. Titus Caesar Aug. f. Vespasianus trib. pot. V] / [imp. VIII cos. IIII desig. V censor et] / [Domitianus Cae]sar A[ug. f. Vespasianus princeps] / [iuventutis cos. III d[esig. IIII templum et] / [forum municipii] novi f[aciendum curaverunt]. K. Dietz (Brief an P. Filtzinger vom 15.3.91 aus dem Nachlass Filtzinger; freundlicher Hinweis von K. Kortüm): [Ti. Claudius Drusi f. Cae]sar A[ugustus Germanicus] / [pont. max. trib. pot. IIII co]s. III d[esig. IIII imp. VIII p. p.] / [---] novi f[ecit et ---] oder [Imp. Nerva Cae]sar A[ug. Germ. pont. max.] / [trib. pot. II co]s. III d[esig. IIII p. p.] / [---] novi f[aciend. curavit]. Ein im Rottweiler Dominikanermuseum ausgestelltes, an das Erhaltene scheinbar oben anschließendes Fragment mit vier weiteren Zeilen ist nicht antik.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 11722.</bibl><bibl>F. Haug - G. Sixt, Die römischen Inschriften und Bildwerke Württembergs (2. Aufl. Stuttgart 1914) 155-156, Nr. 511; Foto.</bibl><bibl>D. Planck, Arae Flaviae 1. Neue Untersuchungen zur Geschichte des römischen Rottweil (Stuttgart 1975) 190.</bibl><bibl>P. Filtzinger, Arae Flaviae. Das römische Rottweil (Winnenden 1995) 21-22, Nr. 4; 83-84; Abb. 16.</bibl><bibl>R. Wiegels, in: K. Matijević - W. Spickermann (Hrsg.), Rainer Wiegels. Kleine Schriften zur Epigraphik und Militärgeschichte der germanischen Provinzen (Stuttgart 2010) 89-91.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

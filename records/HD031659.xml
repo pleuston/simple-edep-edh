@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Burnum, bei &amp;ndash; Kistanje (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD031659</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD031659</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Zadar, Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><dimensions unit="cm"><height>(89)</height><width>64</width><depth>15</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.5-2.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197184">Burnum, bei</placeName></origPlace><origDate><origDate notBefore-custom="0042" notAfter-custom="0069" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">42 AD - 69 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3198135">Kistanje</placeName><placeName type="findspot"/><placeName type="region">Šibensko-kninska županija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD031659_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">Satrius+?</name><name type="cognomen">Rufus</name></persName></person><person xml:id="HD031659_2" sex="M"><persName><name type="nomen">Fabricius</name><name type="cognomen">Verus</name></persName></person><person xml:id="HD031659_3" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Muscius</name><name type="cognomen">Maternus</name></persName></person><person xml:id="HD031659_4" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Asuvius</name><name type="cognomen">Crescens</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-11-10" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F033971" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/a00cd20b-a687-4257-9a54-09d852cf7ea6/file/id/794780/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                ------<certainty match="preceding-sibling::node()" locus="value"/>] <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost" cert="low"> S</supplied>atr<lb break="no" n="3"/><supplied reason="lost">ius<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <gap reason="lost" quantity="1" unit="character"/> <expan><abbr>f</abbr><ex>ilius</ex></expan></supplied> <expan><abbr>Cam</abbr><ex>ilia</ex></expan> Rufus <lb n="4"/>Ravenna miles <lb n="5"/><expan><abbr>leg</abbr><ex>ionis</ex></expan> XI <expan><abbr>C</abbr><ex>laudiae</ex></expan> <expan><abbr>p</abbr><ex>iae</ex></expan> <expan><abbr>f</abbr><ex>idelis</ex></expan> <lb n="6"/><expan><abbr><am><g type="centuria"/></am></abbr><ex>centuria</ex></expan> Fabrici Veri <lb n="7"/><expan><abbr>n<am>n</am></abbr><ex>orum</ex></expan> XXXIII <expan><abbr>stip</abbr><ex>endiorum</ex></expan> XV <lb n="8"/><expan><abbr>t</abbr><ex>estamento</ex></expan> <expan><abbr>f</abbr><ex>ieri</ex></expan> <expan><abbr>i</abbr><ex>ussit</ex></expan> <lb n="9"/><expan><abbr>C</abbr><ex>aius</ex></expan> Muscius Maternus <lb n="10"/>et <lb n="11"/><expan><abbr>C</abbr><ex>aius</ex></expan> Asuvius Crescens <lb n="12"/><expan><abbr>her</abbr><ex>edes</ex></expan> <expan><abbr>f</abbr><ex>aciendum</ex></expan> <expan><abbr>c</abbr><ex>uraverunt</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Unterhalb des Inschriftfeldes Reliefdarstellung verschiedener chirurgischer Instrumente. Datierung: nicht vor 42 n. Chr., als die legio XI ihre Beinamen Claudia pia fidelis erhielt; sie war bis 69 n. Chr. in Burnum stationiert. (B): ILJug: Z. 1/2: [-- S]atr[ius] / [- f.].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1903, 0376.</bibl><bibl>ILJug 2814. (B)</bibl><bibl>H. Liebl, WS 24, 1902, 381-385; Foto. - AE 1903.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

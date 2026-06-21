@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Hottenbach (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD081345</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD081345</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Trier, Rhein. Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">block</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>57</height><width>60</width><depth>118</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 230 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1903"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2898431">Hottenbach</placeName><placeName type="findspot">{Kirche} (Vorgängerbau), sekundär verwendet</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD081345_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]us</name></persName></person><person xml:id="HD081345_2" sex="W"><persName><name type="nomen">[---]ria</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-01-08" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>D</abbr><ex>is</ex></expan></supplied> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>o pa<lb break="no" n="3"/><supplied reason="lost">tri<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <gap reason="lost" extent="unknown" unit="character"/></supplied>riae <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost" cert="low"> mat</supplied>ri VI<lb break="no" n="5"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>P</abbr><ex cert="low"/>F</expan><certainty match="preceding-sibling::node()" locus="value"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Block eines Grabmals; auf der rechten Nebenseite Reliefdarstellung einer sich in einem Bett aufrecht sitzenden Frau und einer Dienerin, die ihr ein Gewand reicht; auf der Rückseite Teil einer Rosette. Auf der Oberseite Dübellöcher zur Befestigung eines weiteren Blocks. Akanthusranke auf dem erhaltenen rechten Rahmen des Inschriftfeldes. Z. 5: statt P auch B oder R, statt F auch E möglich. (B): Kohl; CIL 13, 07555c: Z. 2: [---]IO; Kohl: Z. 3: vor R das untere Ende einer abfallenden Schräghaste; CIL 13, 07555c: Z. 3: [---]TRIAE; Z. 5: nicht gelesen; Kohl: Z. 5: P(?) nicht gelesen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 07555c. (B)</bibl><bibl>CIL 13, 04, 07555c add. p. 128.</bibl><bibl>H. Dragendorff - E. Krüger, BRGK 5, 1909, 46, Nr. k; Abb. 9.</bibl><bibl>O. Kohl, KWDZ 22, 1903, 131-134; Zeichnung. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

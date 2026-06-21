@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Roma? &amp;ndash; Roma? (Roma?)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD027008</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD027008</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Roma, Mus. Civ. Rom. (vorm. P.zzo Esp.)</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>(25)</height><width>(26)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.5-3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma?</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma?</placeName></origPlace><origDate><origDate notBefore-custom="0198" notAfter-custom="0209" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">198 AD - 209 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma?</placeName><placeName type="findspot"/><placeName type="region">Lazio?</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD027008_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q183089"><name type="praenomen">P.+++</name><name type="nomen">Septimius+++</name><name type="cognomen">Geta+++</name></persName></person><person xml:id="HD027008_2" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1442"><name type="praenomen">L.</name><name type="nomen">Septimius+</name><name type="cognomen">Severus+ Pertinax+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-01-04" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F010722" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/a0c9cfbf-fa16-4755-97ae-7294db28b573/file/id/770242/file_version/name/small"/><graphic xml:id="F026456" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/1cdbf208-090e-444f-b9ea-c665bd2aa856/file/id/787208/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <del rend="erasure">[<expan><abbr>P</abbr><ex>ublio</ex></expan> Septimio Getae</del>] <lb n="2"/><del rend="erasure">[nobilissimo <expan><abbr>Caes</abbr><ex>ari</ex></expan></del>] <lb n="3"/><expan><abbr>Imp</abbr><ex>eratoris</ex></expan> <expan><abbr>Caes</abbr><ex>aris</ex></expan> <expan><abbr>L</abbr><ex>uci</ex></expan> S<supplied reason="lost">eptimi Severi Pii</supplied> <lb n="4"/>Pertina<supplied reason="lost">cis <expan><abbr>Aug</abbr><ex>usti</ex></expan> Arabici</supplied> <lb n="5"/><supplied reason="lost">Adiabenici Parthici <expan><abbr>max</abbr><ex>imi</ex></expan></supplied> <lb n="6"/><supplied reason="lost"><expan><abbr>pont</abbr><ex>ificis</ex></expan> <expan><abbr>max</abbr><ex>imi</ex></expan> <expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Ergänzungen G. Alföldy.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 06, 40666; Foto.</bibl><bibl>CIL 06, 01045.</bibl><bibl>CIL 06, 36882.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

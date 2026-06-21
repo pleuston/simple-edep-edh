@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Wasserburg/Inn (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD042334</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD042334</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>München, Arch. Staatsslg.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(58)</height><width>(62)</width><depth>44</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1534"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2885447">Wasserburg/Inn</placeName><placeName type="findspot">{Kornberg}</placeName><placeName type="region">Bayern</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD042334_1" sex="M"><persName><name type="nomen">Clodius+*</name><name type="cognomen">Marianus+</name></persName></person><person xml:id="HD042334_2" sex="M"><persName><name type="nomen">Lucanius+</name><name type="cognomen">Laurentius+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-11-10" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan></supplied> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <supplied reason="lost"><expan><abbr>Clod</abbr><ex>io</ex></expan> Mariano</supplied> <lb n="2"/><supplied reason="lost">frumentario</supplied> <lb n="3"/><expan><abbr><supplied reason="lost">l</supplied>eg</abbr><ex>ionis</ex></expan> VI<supplied reason="lost">I <expan><abbr>gem</abbr><ex>inae</ex></expan></supplied> <lb n="4"/><supplied reason="lost">L</supplied>ucan<supplied reason="lost">ius</supplied> <lb n="5"/>Laure<supplied reason="lost">ntius</supplied> <lb n="6"/><supplied reason="lost">f</supplied>aceundum <note>sic</note> <supplied reason="lost"><expan><abbr>cur</abbr><ex>avit</ex></expan></supplied>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Auf den beiden Nebenseiten je eine Benefiziarierlanze. Z. 1: Buchstaben D und M auf den Eckakroteren der corona. Vier aneinanderpassende Fragmente erhalten. Der Altar samt Inschrift war bei der Auffindung noch weitgehend erhalten (s. IBR tab. 3, 24) außer den Buchstaben D (Z. 1), F (Z. 3) und L (Z. 4). Fundjahr: Der Stein war bereits Aventin (1477-1534) bekannt.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 05579.</bibl><bibl>IBR 024; tab. 3, 24.</bibl><bibl>ILLPRON 1531.</bibl><bibl>J. Hefner, Das römische Bayern in seinen Schrift- und Bildmalen (München 1852) 156, Nr. 177; Taf. 1, 4 (Zeichnung).</bibl><bibl>A. Obermayr, Römersteine zwischen Inn und Salzach (Freilassing 1974) 105-108.</bibl><bibl>W. Hameter, Die norischen Inschriften Bayerns (Diss. Wien 1992) 31-33, Nr. 15.</bibl><bibl>G. Gamer - A. Rüsch, Raetia (Bayern südlich des Limes) und Noricum (Chiemseegebiet), CSIR Deutschland 1, 1 (Bonn 1973) 127, Nr. 553; Taf. 161, 553.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

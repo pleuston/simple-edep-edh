@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Sumelocenna (Civitas Sumelocennensis) &amp;ndash; Rottenburg/Neckar (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD036793</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD036793</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Stuttgart, Württ. Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>120</height><width>59</width><depth>19</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118985">Sumelocenna (Civitas Sumelocennensis)</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1852"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2843729">Rottenburg/Neckar</placeName><placeName type="findspot">{Jahnstraße 22-40}</placeName><placeName type="region">Baden-Württemberg</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD036793_1" sex="M"><persName><name type="nomen">Vitellius+?</name><name type="cognomen">Martialis</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2018-12-12" who="Osnabrügge">checked through autopsy</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F039158" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/0da119fc-0438-4a66-8f85-5de32e1ff0cf/file/id/800035/file_version/name/small"/><graphic xml:id="F039159" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/cdf2599d-a216-4ca0-bb52-984282bdc379/file/id/800036/file_version/name/small"/><graphic xml:id="F039169" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/e13b14a5-1218-4040-94ab-fd47916c7361/file/id/800046/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/>V<supplied reason="lost" cert="low">it</supplied>elli<lb break="no" n="3"/><supplied reason="lost" cert="low">us</supplied> Marti<lb break="no" n="4"/>alis <gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/><expan><abbr>vix</abbr><ex>it</ex></expan> <supplied reason="lost"><expan><abbr>an</abbr><ex>nos</ex></expan><gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="6"/><expan><abbr>t</abbr><ex cert="low">estamento</ex></expan> <supplied reason="lost" cert="low">f(ieri)? i(ussit)</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Oberhalb der Inschrift muschelartige Nische. Stein in 3 Fragmente gebrochen. (B): CIL 13, 06373: Z. 2 (Anfang): IV; Z. 3 (Anfang): I(?). Mögliche Lesungen Z. 2: V[it?]elli[us?], V[ig?]elli[us?], V[it?]elli[nus?]. Faust: Z. 3: [---] Marti. Autopsie R. Wiegels.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>F. Haug - G. Sixt, Die römischen Inschriften und Bildwerke Württembergs (2. Aufl. Stuttgart 1914) 240, Nr. 130.</bibl><bibl>CIL 13, 06373. (B)</bibl><bibl>A. Gaubatz-Sattler, Sumelocenna, Geschichte und Topographie des römischen Rottenburg am Neckar nach den Befunden und Funden bis 1985 (Stuttgart 1999) 380, Nr. 61.</bibl><bibl>W. Faust, Die Grabstelen des 2. und 3. Jahrhunderts im Rheingebiet (Köln 1998) 160-161, Nr. 220. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

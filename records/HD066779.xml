@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Sevnica (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD066779</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD066779</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Graz, Landesmus. Joanneum, Lapidarium Schloß Eggenberg</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">sarcophagus?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(37)</height><width>(29)</width><depth>18</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">2.5-3.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1901"><placeName type="country" ref="https://www.geonames.org/3190538">Slovenia</placeName><placeName type="modern" ref="http://www.geonames.org/3187359">Sevnica</placeName><placeName type="findspot">Vranje, Ajdovski gradec, {spätantike Fliehburg}</placeName><placeName type="region">Posavska statistična regija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD066779_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">Avitianus+?</name></persName></person><person xml:id="HD066779_2" sex="M"><persName><name type="cognomen">[---]us</name></persName></person><person xml:id="HD066779_3" sex="M"><persName><name type="cognomen">Avitianus+</name></persName></person><person xml:id="HD066779_4" sex="M"><persName><name type="cognomen">[---]nus</name></persName></person><person xml:id="HD066779_5" sex="M"><persName><name type="cognomen">Secundinus+?</name></persName></person><person xml:id="HD066779_6" sex="W"><persName><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD066779_7"><persName><name type="cognomen">[---]</name></persName></person><person xml:id="HD066779_8" sex="M"><persName><name type="cognomen">[---]nianus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-10-01" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost" cert="low"> Avit</supplied>ianus <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>us Avitia<supplied reason="lost">ni</supplied> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>nus Secundin<supplied reason="lost" cert="low">i</supplied> <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>a <expan><abbr>an</abbr><ex>norum</ex></expan> <abbr>S</abbr> <abbr>S</abbr> <supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied> <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/>niani <expan><abbr>an</abbr><ex>norum</ex></expan> <supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied> <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/>VAV<gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Fundjahr: 1901-1905. Buchstabe E in Form von II geschrieben. Z. 3 (Ende): statt N auch A möglich. (B): AIJ 037: kleinere Leseabweichung.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AIJ 037; Zeichnung. (B)</bibl><bibl>AIJ 037 add. p. 3*.</bibl><bibl>E. Weber, Die römerzeitlichen Inschriften der Steiermark (Graz 1969) 410, Nr. 358.</bibl><bibl>ILLPRON 1959.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

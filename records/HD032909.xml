@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Roma &amp;ndash; Roma (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD032909</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD032909</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Roma, S. Pietro, Bas., Grotte</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>88</height><width>(57)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma</placeName></origPlace><origDate><origDate when-custom="0523" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">523 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma</placeName><placeName type="findspot"/><placeName type="region">Roma</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD032909_1" sex="M"><persName><name type="nomen">Flavius*</name><name type="cognomen">Maximus</name></persName></person><person xml:id="HD032909_2" sex="M"><persName><name type="cognomen">Petrus+?</name></persName></person><person xml:id="HD032909_3" sex="W"><persName><name type="cognomen">Iohanna+</name></persName></person><person xml:id="HD032909_4" sex="M"><persName><name type="cognomen">Hormisda</name></persName></person><person xml:id="HD032909_5" sex="M"><persName><name type="cognomen">Transmundo+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-04-18" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F011092" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/53ef428d-8b71-4f92-adcd-97a6116ae017/file/id/770615/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Fl</abbr><ex>avio</ex></expan> Maximo <expan><abbr>v</abbr><ex>iro</ex></expan> <expan><abbr>c</abbr><ex>larissimo</ex></expan> con<supplied reason="lost"><expan><abbr>s</abbr><ex>ule</ex></expan></supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/>concessum locum Pe<supplied reason="lost" cert="low">tro? v(iro) sp(ectabili) vicario? urbis</supplied> <lb n="3"/>Rom<expan><ex>a</ex><abbr>e</abbr></expan> ex tr<expan><ex>i</ex><abbr>b</abbr><ex>uno</ex></expan> volupt<supplied reason="lost">atum</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/>et coniugi eius Iohan<supplied reason="lost">nae <gap reason="lost" extent="unknown" unit="character"/>? a beatissimo</supplied> <lb n="5"/>papa Hormisda et Transm<supplied reason="lost">undo</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="6"/>praep<expan><ex>o</ex><abbr>s</abbr><ex>i</ex><abbr>t</abbr></expan>(o) bas<expan><ex>ili</ex><abbr>c</abbr><ex>ae</ex></expan> beati Petri <supplied reason="lost">apostoli</supplied><gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Datierung: vor dem 6.8.523 n. Chr.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 06, 41420c; Foto.</bibl><bibl>CIL 06, 08566.</bibl><bibl>ICUR 1, 0989; Zeichnung.</bibl><bibl>ICUR n. s. 04184; tab. 17.</bibl><bibl>ILCV 0110.</bibl><bibl>PLRE 2 Maximus 20.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

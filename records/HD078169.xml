@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Bad Neuenahr-Ahrweiler, bei (Germania inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD078169</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD078169</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bad Neuenahr-Ahrweiler, Mus. Römervilla</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>56</height><width>(42)</width><depth>14</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.8-4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania inferior</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1950"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/953689">Bad Neuenahr-Ahrweiler, bei</placeName><placeName type="findspot"/><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD078169_1" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Calpurnius+?</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD078169_2" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]gius</name><name type="cognomen">Acutus+?</name></persName></person><person xml:id="HD078169_3" sex="M"><persName><name type="cognomen">Anthus*</name></persName></person><person xml:id="HD078169_4" sex="M"><persName><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-03-05" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <gap reason="lost" extent="unknown" unit="character"/>e Dea<supplied reason="lost">e</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">A</supplied>ugusto <gap reason="lost" extent="unknown" unit="character"><certainty match=".." locus="name"/></gap> <lb n="3"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> pro salu</supplied>te <expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>Calp</abbr><ex cert="low"/></expan><lb break="no" n="4"/><supplied reason="lost">urni<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <gap reason="lost" extent="unknown" unit="character"/></supplied>gi Ant<expan><ex>h</ex><abbr>i</abbr></expan> <expan><abbr>f</abbr><ex>ili</ex></expan> Acu<lb break="no" n="5"/><supplied reason="lost">ti<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <gap reason="lost" extent="unknown" unit="character"/></supplied>henium cum <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/>M <abbr>omni</abbr> <abbr>vot</abbr> <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>ser</abbr><ex cert="low">v--</ex></expan> <expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>p</abbr><ex>osuit</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2014, 0899.</bibl><bibl>P. Rothenhöfer, BJ 214, 2014, 32-35; Abb. 4. - AE 2014.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

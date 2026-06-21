@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Friedberg (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD059942</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD059942</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Friedberg, Wetterau-Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>51</height><width>23</width><depth>18</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118681"/></origPlace><origDate><origDate notBefore-custom="0069" notAfter-custom="0090" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">69 AD - 90 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1914"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2924802">Friedberg</placeName><placeName type="findspot"/><placeName type="region">Hessen</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD059942_1" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Iunius+</name><name type="cognomen">Iovinianus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-09-20" who="Esch">checked through autopsy</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F023314" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/42317103-c358-45be-af2a-f4c3d304ae40/file/id/783973/file_version/name/small"/><graphic xml:id="F037737" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/d6918f05-a10b-4950-a13b-77dce6ec82bc/file/id/798605/file_version/name/small"/><graphic xml:id="F037738" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/ed929eb0-b308-4eb6-8c66-dabcc7e4c4c4/file/id/798606/file_version/name/small"/><graphic xml:id="F023315" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/de3159bf-6798-47b8-9a5f-cc16a206db1b/file/id/783974/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Victor<lb break="no" n="2"/>iae <lb n="3"/><expan><abbr>M</abbr><ex>arcus</ex></expan> Iuni<supplied reason="lost">us</supplied> <lb n="4"/>Iovin<supplied reason="lost">ia</supplied><lb break="no" n="5"/><supplied reason="lost">n</supplied>us m<supplied reason="lost"><expan><abbr>il</abbr><ex>es</ex></expan></supplied> <lb n="6"/><expan><abbr><supplied reason="lost">c</supplied>oh</abbr><ex>ortis</ex></expan> I <expan><abbr>Aq</abbr><ex>uitanorum</ex></expan> <expan><abbr>v</abbr><ex>otum</ex></expan> <supplied reason="lost"><expan><abbr>s</abbr><ex>olvit</ex></expan></supplied> <lb n="7"/><expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Autopsie: R. Wiegels.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 07399a.</bibl><bibl>H. Roth, FriedbergerGeschbl 12, 1937, 13.</bibl><bibl>M. Mattern, Römische Steindenkmäler vom Taunus- und Wetteraulimes mit Hinterland zwischen Heftrich und Großkrotzenburg, CSIR Deutschland 2, 12 (Mainz 2001) 134, Nr. 293; Tafel 109, 293.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

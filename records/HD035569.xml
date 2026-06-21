@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Beograd, Sopot, bei (Moesia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD035569</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD035569</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><dimensions unit="cm"><height>(96)</height><width>70</width><depth>26</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-4.8</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia superior</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/6290252">Serbia</placeName><placeName type="modern" ref="http://www.geonames.org/785671">Beograd, Sopot, bei</placeName><placeName type="findspot"/><placeName type="region">Centralna Srbija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD035569_1" sex="M"><persName ref="http://romans1by1.com/rpeople/10394"><name type="praenomen">M.</name><name type="nomen">Aurelius+*</name><name type="cognomen">Probus</name></persName></person><person xml:id="HD035569_2" sex="M"><persName ref="http://romans1by1.com/rpeople/10397"><name type="praenomen">M.</name><name type="nomen">Aurelius*</name><name type="cognomen">Prisgianus (= Priscianus)</name></persName></person><person xml:id="HD035569_3" sex="W"><persName ref="http://romans1by1.com/rpeople/10398"><name type="nomen">Aurelia*</name><name type="cognomen">Maxima</name></persName></person><person xml:id="HD035569_4" sex="M"><persName ref="http://romans1by1.com/rpeople/10399"><name type="praenomen">M.</name><name type="nomen">Aurelius*</name><name type="cognomen">Capericus*?</name></persName></person><person xml:id="HD035569_5" sex="W"><persName ref="http://romans1by1.com/rpeople/10400"><name type="nomen">Aurelia*</name><name type="cognomen">Maximina</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-09-10" who="Feraudi">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><expan><abbr>M</abbr><ex>arcus</ex></expan> Au<supplied reason="lost"><expan><abbr>r</abbr><ex>elius</ex></expan></supplied> Probus <lb n="2"/><expan><abbr><supplied reason="lost">v</supplied>ix</abbr><ex>it</ex></expan> <expan><abbr>an</abbr><ex>nos</ex></expan> LXXX <expan><abbr>M</abbr><ex>arcus</ex></expan> <lb n="3"/><expan><abbr>Aur</abbr><ex>elius</ex></expan> Prisgianus <note>sic</note> <lb n="4"/><expan><abbr>vix</abbr><ex>it</ex></expan> <expan><abbr>an</abbr><ex>nos</ex></expan> XX <expan><abbr>Aur</abbr><ex>elia</ex></expan> <lb n="5"/>Maxima <expan><abbr>con</abbr><ex>iugi</ex></expan> <lb n="6"/><expan><abbr>k</abbr><ex>arissimo</ex></expan> et <expan><abbr>fil</abbr><ex>io</ex></expan> <expan><abbr>pien</abbr><ex>tissimo</ex></expan> et <lb n="7"/>si&amp;lt;b=S&amp;gt;i viva <expan><abbr>pos</abbr><ex>uit</ex></expan> <lb n="8"/><expan><abbr>M</abbr><ex>arcus</ex></expan> <expan><abbr>Aur</abbr><ex>elius</ex></expan> <expan><abbr>Caperic</abbr><ex>us</ex></expan><certainty match="preceding-sibling::node()" locus="value"/> <lb n="9"/>et <expan><abbr>Aur</abbr><ex>elia</ex></expan> M&amp;lt;a=X&amp;gt;ximi<lb break="no" n="10"/>na <expan><abbr>p</abbr><ex>atri</ex></expan> et <expan><abbr>fr</abbr><ex>atri</ex></expan> <expan><abbr>b</abbr><ex>ene</ex></expan> <expan><abbr>m</abbr><ex>erentibus</ex></expan> <lb n="11"/><expan><abbr>p</abbr><ex>osuerunt</ex></expan> 
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IMS 1, 124; Zeichnung.</bibl><bibl>CIL 03, 14539.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription from Roma &amp;ndash; Roma (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD013490</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD013490</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Roma, S. Giorgio in Velabro</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>(34)</height><width>(70)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma</placeName></origPlace><origDate><origDate when-custom="0103" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">103 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma</placeName><placeName type="findspot"/><placeName type="region">Roma</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/143" xml:lang="en">unknown</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD013490_1" sex="M"><persName><name type="cognomen">Nerva</name></persName></person><person xml:id="HD013490_2" sex="M"><persName><name type="praenomen">M'.</name><name type="nomen">Laberius?</name><name type="cognomen">Maximus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2012-08-24" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F010676" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/7080329b-f504-4cb3-b1a7-8516d1144d6e/file/id/770196/file_version/name/small"/><graphic xml:id="F026650" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/eea6e2f2-f1fb-4592-a8f0-9eed3ff09f02/file/id/787402/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><expan><abbr>Imp</abbr><ex>eratore</ex></expan> Caesare Nerva <supplied reason="lost">Traiano Augusto</supplied> <lb n="2"/>Germanico <supplied reason="lost">Dacico V</supplied> <lb n="3"/><expan><abbr>M</abbr><ex>anlius</ex></expan> <expan><abbr>Laberio</abbr><ex cert="low"/></expan> <supplied reason="lost">Maximo II</supplied> <lb n="4"/><supplied reason="lost"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan></supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Ferrua: Z. 1: Imp. Caesare Nerva[e Aug.]; AE 1968: Z. 1: Imp(eratore) Caesare Nerv[a Aug.]; Ferrua, AE 1968: Z. 3: [---]lare[---]; CIL VI 854: Imp. Caesare Nerv[a Traiano Aug.] / Germanico [Dacico II] / M&amp;apos;. Laberi[o maximo II cos.]. Tafel im Zuge einer Wiederverwendung ringsum beschnitten.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1968, 0023. (B)</bibl><bibl>CIL 06, 40838; Foto.</bibl><bibl>CIL 06, 00854. (B)</bibl><bibl>A. Ferrua, Epigraphica 29, 1967, 99-100, Nr. 139. (B) - AE 1968.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

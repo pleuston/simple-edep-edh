@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Poetovio &amp;ndash; Ptuj (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD037457</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD037457</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(66)</height><width>(54)</width><depth>5</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197446">Poetovio</placeName></origPlace><origDate><origDate notBefore-custom="0102" notAfter-custom="0106" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">102 AD - 106 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1963"><placeName type="country" ref="https://www.geonames.org/3190538">Slovenia</placeName><placeName type="modern" ref="http://www.geonames.org/3192241">Ptuj</placeName><placeName type="findspot">Vičava, {Parzelle Nr. 454-456 (alter Katasterplan)}</placeName><placeName type="region">Podravska statistična regija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD037457_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1425"><name type="cognomen">Nerva+ Traianus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-03-01" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F009327" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/7c8fb6e5-4841-400f-9328-e5e3007f53bc/file/id/769092/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Imp</abbr><ex>erator</ex></expan> <expan><abbr>Caes</abbr><ex>ar</ex></expan> divi Nervae <expan><abbr>f</abbr><ex>ilius</ex></expan> Nerva Traianus <expan><abbr>Aug</abbr><ex>ustus</ex></expan></supplied> <lb n="2"/><supplied reason="lost">Germanicus Dacicus po</supplied>ntife<supplied reason="lost">x maximus</supplied> <lb n="3"/><supplied reason="lost">tribunicia potestate <gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>imp</abbr><ex>erator</ex></expan></supplied> IIII co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> V <supplied reason="lost">pater patriae</supplied> <lb n="4"/><supplied reason="lost">coloniae Ulpiae Trai</supplied>anae Poet<supplied reason="lost">ovionensis</supplied> <lb n="5"/><supplied reason="lost">forum<certainty locus="name" match="preceding-sibling::text()" cert="low"/> dedit</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Rekonstruierte Breite 370 cm. (B): Jevremov: Z. 2: ]III.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2000, 1189.</bibl><bibl>AE 2003, 1348.</bibl><bibl>I. Mikl, APregl 5, 1963, 94-95. - AE 2000.</bibl><bibl>Z. Mráv, in: HPS 6 (Debrecen 2000) 77-94; pl. 1 (Zeichnung). - AE 2000.</bibl><bibl>Z. Mráv, AAntHung 43, 2003, 132; Abb. 5 (Zeichnung). - AE 2003.</bibl><bibl>B. Jevremov, Vodnik po lapidariju 1 (Ptuj 1988) 78-79, Nr. 63; Foto. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

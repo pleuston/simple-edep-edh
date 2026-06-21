@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Colonia Claudia Augusta? Agrippinensium, bei &amp;ndash; Inden (Germania inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD082417</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD082417</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Füren, Leopold Hoesch-Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/260">slab</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>46</height><width>32</width><depth>19</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/108751">Colonia Claudia Augusta? Agrippinensium, bei</placeName></origPlace><origDate><origDate notBefore-custom="0501" notAfter-custom="0600" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">501 AD - 600 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1944"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2853810">Inden</placeName><placeName type="findspot">{Pier (alt)}, S. Martin, Pfarrkirche, Turm, sekundär verwendet</placeName><placeName type="region">Nordrhein-Westfalen</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD082417_1" sex="W"><persName><name type="cognomen">Cheldofrida</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-10-21" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost">In Ch</supplied><expan><abbr>r</abbr><ex>isto</ex></expan> hoc tomolus <note>sic</note> requies<supplied reason="lost">cit</supplied> <lb n="2"/><supplied reason="lost"><expan><abbr>dom</abbr><ex>i</ex></expan></supplied>na <surplus>mna</surplus> Cheldofrida <gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>VCE nomen eius refuls<supplied reason="lost">it et</supplied> <lb n="4"/><supplied reason="lost">pro</supplied>les clara gracia <note>sic</note> plen<supplied reason="lost">a obiit</supplied> <lb n="5"/><supplied reason="lost">in pa</supplied>ce annus <note>sic</note> XXXXV et men<supplied reason="lost"><expan><abbr>s</abbr><ex>es</ex></expan></supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="6"/><supplied reason="lost">recept</supplied>a in dei gloriam ant<supplied reason="lost">e eius</supplied> <lb n="7"/><supplied reason="lost">ma</supplied>ge<supplied reason="lost">s</supplied>tates ubi dom<supplied reason="lost">inum</supplied> <lb n="8"/><supplied reason="lost">san</supplied>ct<supplied reason="lost">i</supplied> laudare non c<supplied reason="lost">es</supplied><lb break="no" n="9"/><supplied reason="lost">san</supplied>t cuius obitus po<supplied reason="lost">st</supplied> <lb n="10"/><supplied reason="lost">d</supplied>ies XV de Kalenda<supplied reason="lost">s</supplied> <note>sic</note> <lb n="11"/><supplied reason="lost">F</supplied>ebruarias <note>sic</note>
+            </ab></div>
+            <div type="commentary">
+                <p>Ergänzungen nach Egger. (B): Egger: Z. 2/3: [in] / [pace]</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>R. Egger, BJ 154, 1954, 156-157, Nr. 23; Taf. 13.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

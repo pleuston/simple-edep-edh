@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Aldenhoven (Germania inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD081027</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD081027</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bonn, Rhein. Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(88)</height><width>(47)</width><depth>(25)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania inferior</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1844"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2851565">Aldenhoven</placeName><placeName type="findspot">Aldenhoven, {Pützdorf}, bei, "Heerstraße", sekundär verwendet</placeName><placeName type="region">Nordrhein-Westfalen</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD081027_1" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Aemilius</name><name type="cognomen">Genialis</name></persName></person><person xml:id="HD081027_2" sex="M"><persName><name type="nomen">Amilius*</name><name type="cognomen">Avitus</name></persName></person><person xml:id="HD081027_3" sex="W"><persName><name type="nomen">Aemilia*</name><name type="cognomen">Lupula*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-06-10" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F020480" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/09957d99-6239-4380-9d7b-5b959fce0888/file/id/780553/file_version/name/small"/><graphic xml:id="F020479" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/c7e22982-9c59-4a67-89cd-2a3c0044b097/file/id/780552/file_version/name/small"/><graphic xml:id="F020481" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/60c77f71-d1c5-4371-93e4-41c4b347d5c8/file/id/780554/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Iunonibus <lb n="2"/><expan><abbr>M</abbr><ex>arcus</ex></expan> Aemilius <lb n="3"/>Genialis <lb n="4"/>pro se et Aemili<expan><ex>i</ex><abbr>s</abbr></expan> <lb n="5"/>Avito et <expan><abbr>Lupula</abbr><ex>e</ex></expan> <lb n="6"/>liberis suis
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 07860; Zeichnung.</bibl><bibl>É. Espérandieu, Recueil général des bas-reliefs, statues et bustes de la Gaule Romaine 14 (Paris 1955) 64, Nr. 8549; pl. 77, 8549, 1 u. 2.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

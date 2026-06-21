@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Celeia &amp;ndash; Celje (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD066959</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD066959</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Celje, Pokrajinski Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>328</height><width>103</width><depth>25</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">9-4.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197206">Celeia</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1884"><placeName type="country" ref="https://www.geonames.org/3190538">Slovenia</placeName><placeName type="modern" ref="http://www.geonames.org/3202781">Celje</placeName><placeName type="findspot">{Lava}</placeName><placeName type="region">Savinjska statistična regija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD066959_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Lucanius</name><name type="cognomen">Venustinus?+</name></persName></person><person xml:id="HD066959_2" sex="W"><persName><name type="nomen">Pompeia+</name><name type="cognomen">Matrona+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-03-24" who="Cowey">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>C</abbr><ex>aius</ex></expan> Lucanius <lb n="2"/>Ve<supplied reason="lost">nusti</supplied>nu<supplied reason="lost" cert="low">s</supplied> <lb n="3"/><supplied reason="lost">P</supplied>ompe<supplied reason="lost">iae</supplied> <lb n="4"/><supplied reason="lost">M</supplied>atron<supplied reason="lost">ae</supplied> <expan><abbr>con</abbr><ex>iugi</ex></expan> <lb n="5"/><supplied reason="lost">hoc mo</supplied><expan><abbr>n</abbr><ex>umentum</ex></expan> <expan><abbr>her</abbr><ex>edem</ex></expan> non <supplied reason="lost"><expan><abbr>seq</abbr><ex>uetur</ex></expan></supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Abweichende Textwiedergabe.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 11703. (B)</bibl><bibl>AIJ 055; Foto. (B)</bibl><bibl>G. Alföldy, in: EpStud 8 (Düsseldorf 1969) 2, Nr. 2.</bibl><bibl>ILLPRON 1806.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

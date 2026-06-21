@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Cabillonum &amp;ndash; Chalon-sur-Saône (Lugdunensis)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD024675</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD024675</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Chalon-sur-Saône, Mus. Denon</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">grave monument?</objectType><dimensions unit="cm"><height>(167)</height><depth>160</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Lugdunensis</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/177485">Cabillonum</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1856"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/3027484">Chalon-sur-Saône</placeName><placeName type="findspot"/></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD024675_1" sex="W"><persName><name type="nomen">Tertinia</name><name type="cognomen">Florentinia</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-01-17" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F004748" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/334ee7a0-0538-45d1-89f4-78dc7f709ac7/file/id/765503/file_version/name/small"/><graphic xml:id="F037766" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/8a093ba5-6e5c-451c-b3da-ea7ed3ccd626/file/id/798634/file_version/name/small"/><graphic xml:id="F037763" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/164a415c-9a7e-49ab-a66a-8ebc6fbb227f/file/id/798631/file_version/name/small"/><graphic xml:id="F037767" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/7ca8ccb9-c5c8-4fbe-bd9b-72d88c06a8b6/file/id/798635/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>Man</abbr><ex>ibus</ex></expan> <lb n="2"/>Tertiniae Flore<lb break="no" n="3"/>ntiniae cives <note>sic</note> Sueb<lb break="no" n="4"/>a Nicreti <note>sic</note> vixit a<supplied reason="lost">n</supplied><lb break="no" n="5"/><supplied reason="lost">no</supplied>s XXI<gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Oberhalb der Inschrift kleines rechteckiges Bildfeld mit Reliefdarstellung eines Hundes.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1990, 0755.</bibl><bibl>CIL 13, 02633.</bibl><bibl>M.P. Speidel - B. Scardigli, AKB 20, 1990, 204-205, Nr. 5; Taf. 26, 2.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

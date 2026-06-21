@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Carthago Nova &amp;ndash; Cartagena (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD037645</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD037645</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Cartagena, Mus. Arq. Mun.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>47</height><width>61</width><depth>23</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.5-2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Hispania citerior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/265849">Carthago Nova</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0050" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 50 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern" ref="http://www.geonames.org/2520058">Cartagena</placeName><placeName type="findspot">barrio de la Concepción</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD037645_1" sex="W"><persName><name type="nomen">Argentaria</name><name type="cognomen">Faustilla*</name></persName></person><person xml:id="HD037645_2"><persName><name type="cognomen">Nigella</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-01-28" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F012351" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/1213ed52-9422-4d81-9121-4948ea3f1186/file/id/771874/file_version/name/small"/><graphic xml:id="F012495" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/5a6db93f-c2b6-49f0-b02c-c198c1fc096d/file/id/772018/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Argentaria <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>f</abbr><ex>ilia</ex></expan> <expan><abbr>Faustil</abbr><ex>la</ex></expan> <lb n="2"/>octavos cum iterum aetatis <lb n="3"/>mihi curreret annus rapta <lb n="4"/>conplexu <note>sic</note> coniugis hic iaceo <lb n="5"/>cura quibus ius fasque fuit sola<lb break="no" n="6"/>cia mortis haec habeo vitae <lb n="7"/>praemia quae tuleram hunc <lb n="8"/>mihi defunctae monimenti in<lb break="no" n="9"/>pendit honorem mater et incu<lb break="no" n="10"/>ras ipsa Nigella suas
+            </ab></div>
+            <div type="commentary">
+                <p>Metrik: elegische Distichen. Datierung: nach Carbonell i Manils vermutlich etwa zur Zeit des Tiberius. (B): HEp 08, 2002, 0369: Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1997, 0946.</bibl><bibl>AE 1998, 0782.</bibl><bibl>HEp 06, 1996, 0661.</bibl><bibl>HEp 08, 2002, 0369. (B)</bibl><bibl>J.M. Abascal Palazón - S.F. Ramallo Asensio, La ciudad de Carthago Nova: La documentación epigráfica (Murcia 1997) 292-295, Nr. 102; lám. 101. - AE 1997.</bibl><bibl>J. Carbonell i Manils, Faventia 20, 2, 1998, 129-141; Foto. - AE 1998.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

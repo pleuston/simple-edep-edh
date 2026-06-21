@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Narona &amp;ndash; Metković (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD032923</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD032923</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(28)</height><width>(28)</width><depth>1</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6-5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197400">Narona</placeName></origPlace><origDate><origDate notBefore-custom="-0012" notAfter-custom="-0008" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">12 BC - 8 BC</origDate></origDate></origin>
+                        <provenance type="found" when="1951"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3187815">Metković</placeName><placeName type="findspot">{Vid}, Mosaikhaus</placeName><placeName type="region">Dubrovačko-neretvanska županija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD032923_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1405"><name type="praenomen">Imp.</name><name type="nomen">Caesar+</name><name type="cognomen">Augustus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-10-14" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>eratori</ex></expan> Caes<supplied reason="lost">ari Divi <expan><abbr>f</abbr><ex>ilio</ex></expan></supplied> <lb n="2"/>Augusto <supplied reason="lost">pontifici</supplied> <lb n="3"/>maxim<supplied reason="lost">o</supplied> co<expan><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> <supplied reason="lost">XI</supplied> <lb n="4"/><supplied reason="lost"><expan><abbr>imp</abbr><ex>eratori</ex></expan></supplied> <expan><abbr>XI</abbr><ex cert="low"/></expan> t<supplied reason="lost">r</supplied>ibu<supplied reason="lost" cert="low">nic(ia)</supplied> <lb n="5"/>[<expan><abbr>pot</abbr><ex>estate</ex></expan> XI<certainty match="preceding-sibling::node()" locus="value"/> ------
+            </ab></div>
+            <div type="commentary">
+                <p>2 nicht aneinanderpassende Fragmente erhalten; Maße beziehen sich auf das größere Fragment. Datierung: Die Zahl der Imperatorakklamationen ist nicht eindeutig und kann XI, XII, XIII oder XIV betragen haben.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILJug 0107.</bibl><bibl>I. Marović, BAHD 54, 1952, 164-166. 173; t. 10; sl. 7 (Zeichnung).</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

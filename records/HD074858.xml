@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Bíňa (Barbaricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD074858</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD074858</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bratislava, Slov. Nár. Múz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><dimensions unit="cm"><height>(45)</height><width>(60)</width><depth>45</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Barbaricum</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0205" notAfter-custom="0208" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">205 AD - 208 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1982"><placeName type="country" ref="https://www.geonames.org/3057568">Slovakia</placeName><placeName type="modern" ref="http://www.geonames.org/3061071">Bíňa</placeName><placeName type="findspot">Kloster, vermauert</placeName><placeName type="region">Nitriansky kraj</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD074858_1" sex="M"><persName><name type="cognomen">Antoninus*</name></persName></person><person xml:id="HD074858_2" sex="M"><persName><name type="cognomen">Geta+++</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-06-07" who="Osnabrügge">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><supplied reason="lost"><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan></supplied> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>l</abbr><ex>aetus</ex></expan> <supplied reason="lost"><expan><abbr>m</abbr><ex>erito</ex></expan> <expan><abbr>Imp</abbr><ex>eratore</ex></expan></supplied> <lb n="2"/><expan><abbr>Antonin</abbr><ex>o</ex></expan> Au<supplied reason="lost" cert="low">gu(sto) II</supplied> <lb n="3"/>et <del rend="erasure">[Getae <expan><abbr>Caes</abbr><ex>aris</ex></expan></del>] <lb n="4"/>co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Reste von roter Farbe in den Buchstaben. Unterer Teil eines Altars. Hošek, dessen Lesung und Interpretation von Matyasowszky übernommen wurde, liest in Z. 4 das erste E als ET-Ligatur und ergänzt daher den eradierten Namen zu &amp;apos;T. [[[Fl(avio) Novio Ru]]]/ [[[fo]]]&amp;apos;, der Konsul des Jahres 219 gewesen sei. Eponymer Konsul 219 war Tineius Sacerdos (PIR (2. Aufl.) T 229); zu ergänzen wäre bei einer Datierung ins Jahr 219 etwa T[[[ineio Sacerdote]]], eine damnatio memoriae ist bei diesem jedoch nicht bekannt. Datierung: 205 (Antonino Augusto II et Getae) oder 208 (Antonino Augusto III et Getae II). Datierung nach Hošek: 219.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>R. Hošek, Tituli Latini Pannoniae superioris annis 1967-1982 in Slovacia reperti (Praha 1985) 91-92, Abb. 55 (Zeichnung). (B)</bibl><bibl>F.Ž. Matyasowszky, Antické nápisné pamiatky na území Slovenska (Nitra 2003) 83, Nr. 1; Zeichnung. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

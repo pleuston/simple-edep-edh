@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Okoličná na Ostrove (Barbaricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD038258</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD038258</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Barbaricum</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1787"><placeName type="country" ref="https://www.geonames.org/3057568">Slovakia</placeName><placeName type="modern" ref="http://www.geonames.org/3058413">Okoličná na Ostrove</placeName><placeName type="findspot"/><placeName type="region">Nitriansky kraj</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD038258_1" sex="M"><persName><name type="nomen">Iulius</name><name type="cognomen">Serenus</name></persName></person><person xml:id="HD038258_2" sex="W"><persName><name type="nomen">Iulia*</name><name type="cognomen">Rufina+</name></persName></person><person xml:id="HD038258_3" sex="M"><persName><name type="cognomen">Terentius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-05-04" who="Gräf">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/>Iulio Sereno m<lb break="no" n="3"/>i<supplied reason="lost"><expan><abbr>l</abbr><ex>iti</ex></expan></supplied> le<supplied reason="lost"><expan><abbr>g</abbr><ex>ionis</ex></expan></supplied> <expan><abbr>p</abbr><ex>rimae</ex></expan> <expan><abbr>ad</abbr><ex>iutricis</ex></expan> st<supplied reason="lost">i</supplied><lb break="no" n="4"/><expan><abbr><supplied reason="lost">pe</supplied>n</abbr><ex>diorum</ex></expan> XX <surplus>v</surplus>vi<supplied reason="lost">xit</supplied> <lb n="5"/>annos XLVI <expan><abbr>Iul</abbr><ex>ia</ex></expan> <lb n="6"/>Ru<supplied reason="lost">f</supplied>ina coniux <lb n="7"/>et Terentius <lb n="8"/><expan><abbr>f</abbr><ex>aciendum</ex></expan> <expan><abbr>c</abbr><ex>uraverunt</ex></expan> <lb n="9"/><expan><abbr>E</abbr><ex cert="low"/></expan> P V I C eius
+            </ab></div>
+            <div type="commentary">
+                <p>Wohl verschleppt; jetzt verschollen. Z. 4 in der Überlieferung im CIL 03 zwei V miteinander verschränkt. CIL III: Z. 3 (Anfang): I LE P AD; Z. 2: [--]I XX.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>RIU 0741.</bibl><bibl>CIL 03, 11028.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

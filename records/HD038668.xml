@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from (Civitas Ulpia Sueborum Nicrensium) &amp;ndash; Heidelberg (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD038668</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD038668</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Heidelberg, Kurpfälz. Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(234)</height><width>81</width><depth>30</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">9-5.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118731">(Civitas Ulpia Sueborum Nicrensium)</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0130" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 130 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1968"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2865682">Heidelberg</placeName><placeName type="findspot">Neuenheim, {Berliner Straße}, Nekropole</placeName><placeName type="region">Baden-Württemberg</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD038668_1" sex="W"><persName><name type="cognomen">Accepta</name></persName></person><person xml:id="HD038668_2" sex="M"><persName><name type="cognomen">Sabinus</name></persName></person><person xml:id="HD038668_3" sex="M"><persName><name type="nomen">Ammonius+</name><name type="cognomen">Mogetius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-03-12" who="Feraudi">checked through autopsy</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F012417" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/04b758b7-a8f6-44fc-ad22-592016ca6dcc/file/id/771940/file_version/name/small"/><graphic xml:id="F012418" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/c5efdcd7-afbe-4f0c-b6cf-147170c697e6/file/id/771941/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Dis <expan><abbr>Man</abbr><ex>ibus</ex></expan> <lb n="2"/>Acceptae <lb n="3"/>Sabini <expan><abbr>f</abbr><ex>iliae</ex></expan> <expan><abbr>civ</abbr><ex>i</ex></expan> M<supplied reason="lost"><expan><abbr>ed</abbr><ex>iomatricae</ex></expan></supplied> <lb n="4"/><expan><abbr>an</abbr><ex>norum</ex></expan> XXV Ammon<supplied reason="lost">ius</supplied> <lb n="5"/>Mogetius coniu<supplied reason="lost">gi</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Material: Bundsandstein.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2012, 1008.</bibl><bibl>R. Ludwig, Kelten, Kastelle, Kurfürsten. Archäologie am Unteren Neckar (Stuttgart 1997) 99; Foto. - AE 2012.</bibl><bibl>F. Feraudi-Gruénais - R. Ludwig, Die Heidelberger Römersteine. Bildwerke, Architekturteile und Inschriften im Kurpfälzischen Museum Heidelberg (Heidelberg 2017) 87-88, Nr. 49; Foto.</bibl><bibl>R. Wiegels, in: A. Hensen - S. Biegert, Das römische Brand- und Körpergräberfeld von Heidelberg 1 (Stuttgart 2009) 67, Nr. 10; Taf. 530.</bibl><bibl>A. Hensen, in: A. Hensen - S. Biegert, Das römische Brand- und Körpergräberfeld von Heidelberg 1 (Stuttgart 2009) 585-586, Nr. 68/39,1.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

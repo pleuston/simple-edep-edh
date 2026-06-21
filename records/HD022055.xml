@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Bergheim (Germania inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD022055</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD022055</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bonn, Rhein. Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(82)</height><width>(23)</width><depth>(24)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania inferior</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1905"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2822632">Bergheim</placeName><placeName type="findspot">{Thorr}, alte Kirche, vermauert</placeName><placeName type="region">Nordrhein-Westfalen</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD022055_1" sex="M"><persName><name type="praenomen">Q.</name><name type="nomen">Capitonius+?</name><name type="cognomen">Bellicus+?</name></persName></person><person xml:id="HD022055_2" sex="W"><persName><name type="cognomen">Capitonia+?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-06-02" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F019532" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/ef1b1d77-9a90-457e-bb9c-067fbe6639b8/file/id/779604/file_version/name/small"/><graphic xml:id="F019531" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/c5d756d4-f87e-4dd2-8918-fe1a6068a265/file/id/779603/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Mat<supplied reason="lost">ronis</supplied> <lb n="2"/>Gavas<supplied reason="lost">iabus</supplied> <lb n="3"/><expan><abbr>Q</abbr><ex>uintus</ex></expan> Cap<supplied reason="lost" cert="low">itonius</supplied> <lb n="4"/>Belli<supplied reason="lost">cus<certainty locus="name" match="preceding-sibling::text()" cert="low"/> et<certainty locus="name" match="preceding-sibling::text()" cert="low"/> Ca</supplied><lb break="no" n="5"/>piton<supplied reason="lost" cert="low">ia</supplied> <lb n="6"/><expan><abbr>l</abbr><ex cert="low">ibentes</ex></expan> <supplied reason="lost"><expan><abbr>p</abbr><ex cert="low">osuerunt</ex></expan></supplied>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1906, 0159.</bibl><bibl>CIL 13, 12067; Zeichnung.</bibl><bibl>H. Lehner, Die antiken Steindenkmäler des Provinzialmuseums in Bonn (Bonn 1918) 151, Nr. 331; Zeichnung.</bibl><bibl>A.G. Garman, The cult of the matronae in the Roman Rhineland. An historical evaluation of the archaeological evidence (Lewiston 2008) 122, Nr. 165.</bibl><bibl>H. Lehner, KWDZ 25, 1906, 101-102; Zeichnung. - AE 1906.</bibl><bibl>A. von Domaszewski - H. Finke, BRGK 3, 1906/07, 116, Nr. 250; Zeichnung.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

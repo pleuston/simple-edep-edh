@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Augusta Treverorum &amp;ndash; Trier (Belgica)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD077422</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD077422</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Trier, Rhein. Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material>Marmor, geädert / farbig</material><dimensions unit="cm"><height>22</height><width>48</width><depth>4</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">1-2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Belgica</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/108894">Augusta Treverorum</placeName></origPlace><origDate><origDate notBefore-custom="0701" notAfter-custom="0730" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">701 AD - 730 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1817"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2821164">Trier</placeName><placeName type="findspot">{S. Maximin, Kirche}</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD077422_1" sex="M"><persName><name type="cognomen">Hlodericus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-06-09" who="Cowey">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F026690" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/207b84dd-f317-4317-8395-e5e82324d17f/file/id/787442/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Hic requies data Hloderici membra sepu<supplied reason="lost">l</supplied>crum <lb n="2"/>qui capu&amp;lt;t=S&amp;gt; in n&amp;lt;u=O&amp;gt;mero vicarii nomine sum<supplied reason="lost">p</supplied>sit <lb n="3"/>fuit in p&amp;lt;o=V&amp;gt;pulo gratus et in suo genere pr<supplied reason="lost">i</supplied>mus <lb n="4"/>cui uxor nob&amp;lt;i=E&amp;gt;lis pro amore t&amp;lt;i=E&amp;gt;t&amp;lt;u=O&amp;gt;lum fie<supplied reason="lost">ri</supplied> iussit <lb n="5"/>qui vixit in saeculo ann&amp;lt;o=U&amp;gt;s plus m&amp;lt;i=E&amp;gt;nus <gap reason="lost" extent="unknown" unit="character"/>L <lb n="6"/>cui deposi&amp;lt;t=C&amp;gt;io fuit in saeculo VII Ka<supplied reason="lost"><expan><abbr>l</abbr><ex>endas</ex></expan> Aug</supplied>ustas 
+            </ab></div>
+            <div type="commentary">
+                <p>Vier Hexameterzeilen. Der vierte Hexameter ist siebenfüßig! Wohl unterhalb der Inschrift Darstellung einer Vase und symmetrisch flankierenden Tauben. Links davon Darstellung eines Krokodils und eines Fisches.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 03683.</bibl><bibl>ILCV 0444.</bibl><bibl>E. Gose, Katalog der frühchristlichen Inschriften in Trier (Berlin 1958) 60-61, Nr. 440; Foto.</bibl><bibl>RICG 01, 135; Foto.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

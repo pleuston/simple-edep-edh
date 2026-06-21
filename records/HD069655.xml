@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Isca Silurum &amp;ndash; Caerleon (Britannia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD069655</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD069655</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Caerleon, Nat. Rom. Leg. Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>113</height><width>83</width><depth>7</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-4.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Britannia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/79532">Isca Silurum</placeName></origPlace><origDate><origDate notBefore-custom="0100" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">100 AD - 230 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1849"><placeName type="country" ref="https://www.geonames.org/2635167">United Kingdom</placeName><placeName type="modern" ref="http://www.geonames.org/2654093">Caerleon</placeName><placeName type="findspot">{Pil Bach Farm}</placeName><placeName type="region">Gwent</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD069655_1" sex="W"><persName><name type="nomen">Tadia</name><name type="cognomen">Vallaunius+</name></persName></person><person xml:id="HD069655_2" sex="M"><persName><name type="nomen">Tadius</name><name type="cognomen">Exuperatus*</name></persName></person><person xml:id="HD069655_3" sex="W"><persName><name type="nomen">Tadia</name><name type="cognomen">Exuperata</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-11-27" who="Cowey">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F009159" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/0325dd72-d7f6-44c8-ba24-8df794ad41b2/file/id/768925/file_version/name/small"/><graphic xml:id="F028739" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/bcb21f0f-580f-47e6-9aff-ff7109f62f24/file/id/789496/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/>Tadia Vallaun<supplied reason="lost">i</supplied>us vixit <lb n="3"/><expan><abbr>n<am>n</am></abbr><ex>os</ex></expan> LXV et Tadius Exuper<expan><ex>a</ex><abbr>tus</abbr></expan> <lb n="4"/>filius vixit <expan><abbr>n<am>n</am></abbr><ex>os</ex></expan> XXXVII <expan><abbr>defun</abbr><ex>c</ex></expan><lb break="no" n="5"/>tus expeditione Germanica <lb n="6"/>Tadia Exuperata filia <lb n="7"/>ma<supplied reason="lost">t</supplied>ri et fratri piiss<expan><ex>i</ex><abbr>ma</abbr></expan> <lb n="8"/>secus tumulum <lb n="9"/>patris posuit
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 07, 00126.</bibl><bibl>RIB 0369; Zeichnung.</bibl><bibl>R.J. Brewer, Wales, CSIR Great Britain 1, 5 (Oxford 1986) 19, Nr. 22; Pl. 10, 22.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

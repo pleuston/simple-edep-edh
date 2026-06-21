@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Banna &amp;ndash; Birdoswald (Britannia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD071038</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD071038</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Carlisle, Tullie House Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>88</height><width>33</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Britannia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/89109">Banna</placeName></origPlace><origDate><origDate notBefore-custom="0270" notAfter-custom="0273" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">270 AD - 273 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1599"><placeName type="country" ref="https://www.geonames.org/2635167">United Kingdom</placeName><placeName type="modern">Birdoswald</placeName><placeName type="findspot">{Birdoswald Farm}, sekundär verwendet</placeName><placeName type="region">Cumbria</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD071038_1" sex="M"><persName><name type="nomen">Pomponius+</name><name type="cognomen">Desideratus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-02-13" who="Cowey">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Deo <lb n="2"/>Co<supplied reason="lost">c</supplied>i<supplied reason="lost">dio</supplied> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan> <lb n="2"/><expan><abbr>coh</abbr><ex>ors</ex></expan> I <expan><abbr>Ael</abbr><ex>ia</ex></expan> <expan><abbr>D<supplied reason="lost">a</supplied>c</abbr><ex>orum</ex></expan> <lb n="3"/>Tetricianoru<lb break="no" n="4"/>m <expan><abbr>c</abbr><ex>ui</ex></expan> <expan><abbr>p</abbr><ex>raeest</ex></expan> Pomp<supplied reason="lost">on</supplied><lb break="no" n="5"/><supplied reason="lost">i</supplied>us D<supplied reason="lost">eside</supplied><lb break="no" n="6"/>rat<supplied reason="lost">us</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="7"/>t<supplied reason="lost"><expan><abbr>rib</abbr><ex>unus</ex></expan></supplied><gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div></div>
+            <div type="commentary">
+                <p>(B): Zu den Leseabweichungen s. RIB 1885.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 07, 00823. (B)</bibl><bibl>RIB 1885; Zeichnungen.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

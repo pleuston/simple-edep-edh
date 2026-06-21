@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Harta (Pannonia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD038228</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD038228</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Harta, Tájház</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(53)</height><width>(31)</width><depth>(22)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia inferior</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate when-custom="0249" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">249 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3051657">Harta</placeName><placeName type="findspot"/><placeName type="region">Bács-Kiskun megye</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD038228_1" sex="M"><persName><name type="cognomen">Aquilinus+</name></persName></person><person xml:id="HD038228_2" sex="M"><persName><name type="cognomen">Aemilianus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-10-28" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> III <expan><abbr>Id</abbr><ex>us</ex></expan> I<supplied reason="lost"><expan><abbr>un</abbr><ex>ias</ex></expan>? <gap reason="lost" extent="unknown" unit="character"/>? Aquili</supplied><lb break="no" n="2"/><supplied reason="lost">no</supplied> et Aem<supplied reason="lost">ili</supplied><lb break="no" n="3"/><supplied reason="lost">ano</supplied> II <lb n="4"/><supplied reason="lost"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan></supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Gefunden links der Donau, möglicherweise verschleppt aus Bölcske.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>TRHR (Suppl.) 208; Abb. 208 (Foto u. Zeichnung).</bibl><bibl>AE 2000, 1225.</bibl><bibl>P. Kovács, in: HPS 6 (Debrecen 2000) 59-60, Nr. 4. - AE 2000.</bibl><bibl>PIR (2. Aufl.) F 529.</bibl><bibl>PIR (2. Aufl.) N 6.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

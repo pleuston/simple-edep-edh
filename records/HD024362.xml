@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription? from Valentia, bei &amp;ndash; Llombay (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD024362</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD024362</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Hispania citerior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/442845">Valentia, bei</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1600"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern">Llombay</placeName><placeName type="findspot"/><placeName type="region">Comunidad Valenciana</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription?</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD024362_1" sex="M"><persName ref="http://data.snapdrgn.net/person/5212"><name type="praenomen">[-]</name><name type="nomen">Fonteius</name><name type="cognomen">Pius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-01-20" who="Gräf">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><certainty match="preceding-sibling::node()" locus="value"/> Fonteio <gap reason="lost" extent="unknown" unit="character"/><certainty match="preceding-sibling::node()" locus="value"/> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><certainty match="preceding-sibling::node()" locus="value"/> Pio <gap reason="lost" extent="unknown" unit="character"/><certainty match="preceding-sibling::node()" locus="value"/> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><certainty match="preceding-sibling::node()" locus="value"/> <expan><abbr>laticlavi</abbr><ex>o</ex></expan><certainty match="preceding-sibling::node()" locus="value"/> <gap reason="lost" extent="unknown" unit="character"/><certainty match="preceding-sibling::node()" locus="value"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Unterschiedliche handschriftliche Überlieferungen; Lesung weitgehend nach Benlloch (s. Corell, Fonaments).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1992, 1088.</bibl><bibl>J. Corell, Fonaments 8, 1992, 190; làm. 7 (Zeichnung). - AE 1992.</bibl><bibl>CIL 02, 03776.</bibl><bibl>CIL 02 (2. Aufl.) 14, 00103.</bibl><bibl>PIR (2. Aufl.) F 474.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

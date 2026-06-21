@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Intercisa &amp;ndash; Dunaújváros (Pannonia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD037221</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD037221</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Budapest, Magyar Nemzeti Múz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>78</height><width>(129)</width><depth>25</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">11.3-11.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197323">Intercisa</placeName></origPlace><origDate><origDate notBefore-custom="0183" notAfter-custom="0185" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">183 AD - 185 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1912"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3053438">Dunaújváros</placeName><placeName type="findspot">Weingarten des János Szórád, Grab 166, sekundär verwendet</placeName><placeName type="region">Fejér megye</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD037221_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1434"><name type="praenomen">M.+</name><name type="nomen">Aurelius+*</name><name type="cognomen">Commodus+++ Antoninus+</name></persName></person><person xml:id="HD037221_2" sex="M"><persName><name type="praenomen">L.+++</name><name type="nomen">Cornelius+++</name><name type="cognomen">Felix+++ Plotianus+++</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-05-11" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                [<expan><abbr>Imp</abbr><ex>erator</ex></expan> <expan><abbr>Caes</abbr><ex>ar</ex></expan> <expan><abbr>M</abbr><ex>arcus</ex></expan> <expan><abbr>Aurel</abbr><ex>ius</ex></expan> <del rend="erasure">Commodus</del> Antoninus A]u<supplied reason="lost"><expan><abbr>g</abbr><ex>ustus</ex></expan></supplied> Pius <expan><abbr>Sarm</abbr><ex>aticus</ex></expan> Ger<supplied reason="lost"><expan><abbr>m</abbr><ex>anicus</ex></expan> <expan><abbr>max</abbr><ex>imus</ex></expan> <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="2"/><supplied reason="lost"><expan><abbr>Brit</abbr><ex>annicus</ex></expan> <expan><abbr>pont</abbr><ex>ifex</ex></expan> <expan><abbr>max</abbr><ex>imus</ex></expan> <expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> X <expan><abbr>imp</abbr><ex>erator</ex></expan> VII <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> IIII <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <expan><abbr>coh</abbr><ex>orti</ex></expan></supplied> I <expan><abbr>Aur</abbr><ex>elia</ex></expan> Antonina&amp;lt;e&amp;gt; |(miliariae) <supplied reason="lost"><expan><abbr>Hem</abbr><ex>esenorum</ex></expan></supplied> <lb n="3"/>fecit curam agente <del rend="erasure"><supplied reason="lost"><expan><abbr>L</abbr><ex>ucio</ex></expan> Cornelio Felice Plo</supplied>tiano le[<expan><abbr>g</abbr><ex>ato</ex></expan> <expan><abbr>pr</abbr><ex>o</ex></expan> <expan><abbr>pr</abbr><ex>aetore</ex></expan></del>]
+            </ab></div>
+            <div type="commentary">
+                <p>Gefunden in Wiederverwendung als Deckplatte für ein spätantikes Grab. Das Erhaltene ist in mehrere Teile gebrochen. Rekonstruierte Breite: circa 5 m. Mehrere heute fehlende Buchstaben waren bei der Auffindung noch vorhanden: G in [A]u[g.] und M in Ger[m.] (Z. 1), H in [Hem.] (Z. 2), [[GPR]] in [[[leg. pr.]]] (Z. 3). Sehr viele Ligaturen; teilweise Buchstaben klein in andere Buchstaben eingefügt. Lesung und Ergänzung nach Mráv. (B): RIU: Z. 3: nicht gelesen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2008, 1118.</bibl><bibl>RIU 1124; Abb. 1124 (Foto u. Zeichnung). (B)</bibl><bibl>Z. Mráv, in: P. Kovács - Á. Szabó (Hrsg.), Studia epigraphica Pannonica (SEP).</bibl><bibl>Èzak-Kelet Pannonia 1 (Budapest 2008) 244-248. 252-257, Nr. 1; kép. 1 u. 4; kép. 2-3 u. 7a (Zeichnungen). - AE 2008.</bibl><bibl>PIR (2. Aufl.) C 1359.</bibl><bibl>G. Erdélyi - F. Fülep, in: L. Barkóczi u. a., Intercisa I. (Dunapentele - Sztálinváros). Geschichte der Stadt in der Römerzeit (Budapest 1954) 320, Nr. 308; Taf. 77,6.</bibl><bibl>B. Lőrincz, Die römischen Hilfstruppen in Pannonien während der Prinzipatszeit 1. Die Inschriften (Wien 2001) 247, Nr. 300.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Nida, bei (Civitas Taunensium) &amp;ndash; Frankfurt/Main (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD059878</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD059878</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Kassel, Schloss Wilhelmshöhe</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(114)</height><width>71</width><depth>33</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109205">Nida, bei (Civitas Taunensium)</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1758"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2852309">Frankfurt/Main</placeName><placeName type="findspot">{Praunheim}</placeName><placeName type="region">Hessen</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD059878_1" sex="M"><persName><name type="praenomen">Q.</name><name type="nomen">Favonius</name><name type="cognomen">Varus</name></persName></person><person xml:id="HD059878_2" sex="M"><persName><name type="praenomen">Q.</name><name type="nomen">Favonius</name><name type="cognomen">Varus</name></persName></person><person xml:id="HD059878_3" sex="W"><persName><name type="nomen">Terentia+</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-04-26" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F037849" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/82849319-010c-4e6d-9ded-d534b55ab18d/file/id/798717/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Dis <expan><abbr>Man</abbr><ex>ibus</ex></expan> <lb n="2"/><expan><abbr>Q</abbr><ex>uinto</ex></expan> Favonio <lb n="3"/>Varo <expan><abbr>fil</abbr><ex>io</ex></expan> <lb n="4"/><expan><abbr>Q</abbr><ex>uintus</ex></expan> Favoni<lb break="no" n="5"/>us Varus <lb n="6"/><expan><abbr>coh</abbr><ex>orte</ex></expan> XXXII <lb n="7"/><expan><abbr>vol</abbr><ex>untariorum</ex></expan> pater <lb n="8"/>et Terenti<lb break="no" n="9"/><supplied reason="lost">a</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Höhenangabe bezieht sich auf den erhaltenen Teil; Höhe mit moderner Ergänzung: 213 cm. Z. 8: nur die oberen Buchstabenenden erhalten. Zahlreiche Ligaturen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 07381.</bibl><bibl>G. Wolff, in: Der obergermanisch-rätische Limes des Römerreiches B, II, 3, 27 (Lieferung 42) (Heidelberg 1915) 48. 54, Nr. 2; Taf. 4, 2.</bibl><bibl>M. Bieber, Die antiken Skulpturen und Bronzen des königlichen Museums Fridericianum in Cassel (Marburg 1915) 48-49, Nr. 102; Foto.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

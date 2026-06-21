@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Carnuntum &amp;ndash; Bad Deutsch-Altenburg (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD073392</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD073392</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Szombathely</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">stele?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/128376">Carnuntum</placeName></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0114" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 114 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1897"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2782068">Bad Deutsch-Altenburg</placeName><placeName type="findspot">{Burgfeld}</placeName><placeName type="region">Niederösterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD073392_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Ge[---]</name><name type="cognomen">[---]s?</name></persName></person><person xml:id="HD073392_2" sex="M"><persName><name type="praenomen">A.</name><name type="nomen">V[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-05-20" who="Osnabrügge">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>C</abbr><ex>aius</ex></expan> Ge<gap reason="lost" extent="unknown" unit="character"/><lb break="no" n="2"/>s Sa<supplied reason="lost">varia<certainty locus="name" match="preceding-sibling::text()" cert="low"/> mi</supplied><lb break="no" n="3"/><expan><abbr>l</abbr><ex>es</ex></expan> le<supplied reason="lost"><expan><abbr>g</abbr><ex>ionis</ex></expan> XV Apol</supplied><lb break="no" n="4"/><expan><abbr>l</abbr><ex>inaris</ex></expan> <expan><abbr><am><g type="centuria"/></am></abbr><ex>centuria</ex></expan> <expan><abbr>A</abbr><ex>uli</ex></expan> V<gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/><expan><abbr>an</abbr><ex>norum</ex></expan> XX<gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost"><expan><abbr>stip</abbr><ex>endiorum</ex></expan></supplied> <lb n="6"/>V<gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Lesung nach CIL 03, 14358, 19. (B): Mosser: Z. 5/6: kein Zeilenfall angegeben.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 14358, 19.</bibl><bibl>E. Vorbeck, Militärinschriften aus Carnuntum (2. Aufl., Wien 1980) 71, Nr. 181.</bibl><bibl>M. Mosser, Die Steindenkmäler der legio XV Apollinaris (Wien 2003) 246, Nr. 149. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

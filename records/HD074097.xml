@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Carnuntum &amp;ndash; Petronell-Carnuntum (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD074097</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD074097</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Hainburg/Donau, Kulturfabrik, Arch. Zentraldepot</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/214">sarcophagus</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/128376">Carnuntum</placeName></origPlace><origDate><origDate notBefore-custom="0212" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">212 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="2009"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2769013">Petronell-Carnuntum</placeName><placeName type="findspot">Besucherzentrum, Parkplatz, {Nekropole}</placeName><placeName type="region">Niederösterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD074097_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Valerius*</name><name type="cognomen">Firminus</name></persName></person><person xml:id="HD074097_2" sex="W"><persName><name type="nomen">Valeria*</name><name type="cognomen">Kalendina</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-03-05" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>C</abbr><ex>aio</ex></expan> <expan><abbr>Val</abbr><ex>erio</ex></expan> Firmino <expan><abbr>dec</abbr><ex>urioni</ex></expan> <lb n="2"/><expan><abbr>col</abbr><ex>oniae</ex></expan> <expan><abbr>Sav</abbr><ex>ariae</ex></expan> |(centurioni) <expan><abbr>coh</abbr><ex>ortis</ex></expan> V <expan><abbr>Luc</abbr><ex>ensium</ex></expan> <lb n="3"/><expan><abbr>Ant</abbr><ex>oninianae</ex></expan> <expan><abbr>Val</abbr><ex>eria</ex></expan> Kalendina amita <lb n="4"/>nepoti pientissimo reli<lb break="no" n="5"/>quias condidit
+            </ab></div>
+            <div type="commentary">
+                <p>Datierung: Beiname Antoniniana, Grabbeigabe (Fibel des späten 3. Jhs. n. Chr.) Z. 3: ANT-Ligatur.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2014, 1054.</bibl><bibl>F. Beutler, RŒ 37/38, 2014/15, 202, Nr. 45. - AE 2014.</bibl><bibl>F. Beutler - I. Weber-Hiden, in: F. Humer (Hrsg.), Carnuntum. Wiedergeborene Stadt der Kaiser (Darmstadt 2014) 120; Abb. 139. - AE 2014.</bibl><bibl>F. Beutler, Acta Carnuntina 5, 2, 2015, 36-37; Abb. 2.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

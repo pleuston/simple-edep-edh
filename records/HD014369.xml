@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Mönchengladbach (Germania inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD014369</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD014369</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mönchengladbach, Städt. Mus. Schloss Rheydt</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(89)</height><width>(59)</width><depth>(30)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania inferior</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1961"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2847585">Mönchengladbach</placeName><placeName type="findspot">{Rheydt}</placeName><placeName type="region">Nordrhein-Westfalen</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD014369_1" sex="M"><persName><name type="nomen">Faustinius</name><name type="cognomen">Albinus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-06-28" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F019633" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/7f328f0c-7f3d-4bbf-ba35-ff48374d8b0d/file/id/779705/file_version/name/small"/><graphic xml:id="F019634" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/d6576045-fc36-4ce9-8624-8d5e4da6d155/file/id/779706/file_version/name/small"/><graphic xml:id="F019635" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/ba4b8b40-d085-4062-94c3-59a47dcbaa1e/file/id/779707/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Cantrusteihi<lb break="no" n="2"/>abus Faustini<lb break="no" n="3"/>us Albinus pro <lb n="4"/>se et suis ex <expan><abbr>imp</abbr><ex>erio</ex></expan> <lb n="5"/><expan><abbr>ips</abbr><ex>arum</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Zwei aneinander passende Fragmente erhalten.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1968, 0327.</bibl><bibl>U. Schillinger-Häfele, BRGK 58, 1977, 551, Nr. 202.</bibl><bibl>G. Alföldy, in: EpStud 5 (Düsseldorf 1969) 91-92, Nr. 12. - AE 1968.</bibl><bibl>A.G. Garman, The cult of the matronae in the Roman Rhineland. An historical evaluation of the archaeological evidence (Lewiston 2008) 120, Nr. 153.</bibl><bibl>CF-GeI-15 [hdl.handle.net/11471/504.50.15] (31.01.2019).</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

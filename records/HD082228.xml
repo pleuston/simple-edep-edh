@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from (Civitas Lingonum) &amp;ndash; Pontailler-sur-Saône (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD082228</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD082228</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material>Gesteine</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="#">(Civitas Lingonum)</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1890"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/2986310">Pontailler-sur-Saône</placeName><placeName type="findspot">Straße nach Andemantunnum / Langres, Nekropole</placeName><placeName type="region">Bourgogne-Franche-Comté</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD082228_1" sex="M"><persName><name type="cognomen">Ser[---]olus</name></persName></person><person xml:id="HD082228_2" sex="M"><persName><name type="cognomen">Verecundus+?</name></persName></person><person xml:id="HD082228_3" sex="W"><persName><name type="cognomen">[---]</name></persName></person><person xml:id="HD082228_4" sex="M"><persName><name type="cognomen">[---]atta</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-02-17" who="Osnabrügge">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Ser<gap reason="lost" extent="unknown" unit="character"/>oli <supplied reason="lost" cert="low">Ver</supplied>ecundi <lb n="2"/>coniugi <gap reason="lost" extent="unknown" unit="character"/>attae filiae
+            </ab></div>
+            <div type="commentary">
+                <p>Stele mit Dreiecksgiebel, darunter im Bildfeld noch der Kopf einer Frau und ein bärtiger(?) Mann. Z.1 befindet sich auf den Giebelschrägen, Z. 2 auf der unteren Rahmenleiste des Giebels</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 05611.</bibl><bibl>Y. Le Bohec, Inscriptions de la cité des Lingons. Inscriptions sur pierre (Paris 2003) 51, Nr. 41.</bibl><bibl>M. Provost, in: M. Provost u. a. (Hrsg.), La Côte-d'Or de Nuits-Saint-Georges à Voulaines-les-Templiers, Carte archéologique de la Gaule 21, 3 (Paris 2009) 67.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

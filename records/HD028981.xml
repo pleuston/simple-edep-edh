@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Luguvalium &amp;ndash; Carlisle (Britannia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD028981</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD028981</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Carlisle, Tullie House Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/260">slab</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(43)</height><width>137</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Britannia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/89234">Luguvalium</placeName></origPlace><origDate><origDate notBefore-custom="0222" notAfter-custom="0235" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">222 AD - 235 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1893"><placeName type="country" ref="https://www.geonames.org/2635167">United Kingdom</placeName><placeName type="modern" ref="http://www.geonames.org/2653775">Carlisle</placeName><placeName type="findspot">{Röm. Nekropole, Gallows Hill}</placeName><placeName type="region">Cumbria</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD028981_1" sex="M"><persName><name type="cognomen">Alexander++</name></persName></person><person xml:id="HD028981_2" sex="W"><persName><name type="nomen">Iulia++*</name><name type="cognomen">Mamaea+++</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-09-01" who="Cowey">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Deo Marti Ocelo et <lb n="2"/>numini <expan><abbr>Imp</abbr><ex>eratoris</ex></expan> <del rend="erasure">Alexandri</del> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <lb n="3"/><del rend="erasure">et <expan><abbr>Iul</abbr><ex>iae</ex></expan> M<supplied reason="lost">ama</supplied>eae <supplied reason="lost">ma</supplied><expan><abbr>tr</abbr><ex>is</ex></expan> <expan><abbr>castr</abbr><ex>orum</ex></expan></del> <lb n="4"/><supplied reason="lost">et senatus et <expan><abbr>patr</abbr><ex>iae</ex></expan> et toti</supplied> domui <lb n="5"/>[divinae ------
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Zu den leichten Leseabweichungen s. RIB 0949.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1894, 0160.</bibl><bibl>F. Haverfield, PSA 15, 1893-1895, 118-120; Foto. - AE 1894.</bibl><bibl>EphEp 9, p. 606-607 n. 1219. (B)</bibl><bibl>ILS 4579.</bibl><bibl>RIB 0949; Zeichnung.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

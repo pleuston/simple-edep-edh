@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Salonae, bei &amp;ndash; Solin (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD035241</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD035241</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Split, Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/35">architectural member</objectType><dimensions unit="cm"><height>60</height><width>133</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7.2-8.4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197488">Salonae, bei</placeName></origPlace><origDate><origDate notBefore-custom="0501" notAfter-custom="0600" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">501 AD - 600 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1885"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3190359">Solin</placeName><placeName type="findspot">Manastirine, Basilika, {Narthex}</placeName><placeName type="region">Splitsko-dalmatinska županija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-11-10" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F033492" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/d184262c-f5dc-4efa-b875-f40f3939bfa8/file/id/794299/file_version/name/small"/><graphic xml:id="F032286" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/ce9e431d-f5e4-4d19-8298-1c275fd95c8d/file/id/793080/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost">In lucem<certainty locus="name" match="preceding-sibling::text()" cert="low"/> po</supplied>stquam <supplied reason="lost">te fudit celsa v</supplied>oluntas <lb n="2"/><supplied reason="lost">annos et vir</supplied>ides postquam doctrina replevit <lb n="3"/><supplied reason="lost">tunc lacrima</supplied>tus abis tunc gaudia larga parentum <lb n="4"/><supplied reason="lost">spesque omnes</supplied> mesto tecum sub pulvere condis <lb n="5"/><supplied reason="lost">at super astra</supplied> Deus qui te formavit et aufert <lb n="6"/><supplied reason="lost">clemens accipi</supplied>at servetque ad gaud<supplied reason="lost">ia</supplied> membrum
+            </ab></div>
+            <div type="commentary">
+                <p>Ergänzungen nach E. Marin u. a.; Egger: teilweise abweichende Ergänzungsvorschläge. Die Abmessungen geben die Abmessungen des Feldes der Mosaikinschrift wieder; die Inschrift befindet sich innerhalb eines Mosaikfußbodens mit einer erhaltenen Breite von ca. 230 cm (ursprünglich breiter). Rekonstruierte Breite des Inschriftfeldes ca. 200 cm. Mosaikfußboden.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILJug 2553.</bibl><bibl>CIL 03, 09638.</bibl><bibl>CLE 0752.</bibl><bibl>E. Marin u. a., Salona 4. Inscriptions de Salone chrétienne, IVe-VIIe siècles (Rome - Split 2010) 379-381, Nr. 145; Foto.</bibl><bibl>ILCV 3336.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

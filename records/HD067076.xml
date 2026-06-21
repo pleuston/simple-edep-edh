@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Aquincum &amp;ndash; Budapest (Pannonia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD067076</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD067076</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Budapest, Aquincumi Múz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(35)</height><width>45</width><depth>12</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.8</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197130">Aquincum</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0170" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 170 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1951"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/7284842">Budapest</placeName><placeName type="findspot">Óbuda, {Hajógyári sziget}, Haus der legati provinciae</placeName><placeName type="region">Budapest</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD067076_1" sex="M"><persName ref="http://data.snapdrgn.net/person/614"><name type="praenomen">C.+</name><name type="nomen">Iulius+?</name><name type="cognomen">Geminus+? Capellianus+?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-03-21" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F037124" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/2c17ac26-45ee-4ecc-9cc0-c413a735b27f/file/id/797989/file_version/name/small"/><graphic xml:id="F037126" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/bf65f9d5-5d7d-4de0-ae24-8806bb7bc4ed/file/id/797991/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><supplied reason="lost" cert="low">C(aius) Iulius</supplied> <lb n="2"/><supplied reason="lost" cert="low">Geminus</supplied> <lb n="3"/><supplied reason="lost" cert="low">Capellianus</supplied> <lb n="4"/><supplied reason="lost" cert="low">leg(atus)? Aug(usti)? pr(o)? pr(aetore)</supplied> <lb n="5"/><supplied reason="lost">so</supplied><expan><abbr>dal</abbr><ex cert="low">is</ex></expan> Titi<supplied reason="lost">us</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2008, 1138.</bibl><bibl>TitAq 0465; Foto.</bibl><bibl>Á. Szábo, in: P. Kovács - Á. Szabó (Hrsg.), Észak-kelet Pannonia 1. Előszó, kommentárok, olvasatok a CIL III² 3 kötethez, Studia Epigraphica Pannonica (SEP) 1 (Budapest 2008) 176-177, Nr. 19. - AE 2008.</bibl><bibl>PIR (2. Aufl.) I 339.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

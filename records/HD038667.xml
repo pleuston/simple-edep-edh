@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from (Civitas Ulpia Sueborum Nicrensium) &amp;ndash; Heidelberg (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD038667</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD038667</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Heidelberg, Kurpfälz. Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(91)</height><width>(48)</width><depth>12</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6-3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118731">(Civitas Ulpia Sueborum Nicrensium)</placeName></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0130" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 130 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1963"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2865682">Heidelberg</placeName><placeName type="findspot">Neuenheim, {Berliner Straße}, Nekropole</placeName><placeName type="region">Baden-Württemberg</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD038667_1" sex="M"><persName><name type="praenomen">[-]?</name><name type="nomen">0?</name><name type="cognomen">[---]nus</name></persName></person><person xml:id="HD038667_2" sex="M"><persName><name type="cognomen">Mo[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-11-22" who="Feraudi">checked through autopsy</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F012415" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/c568a35f-9e07-4952-94ee-4111c8913805/file/id/771938/file_version/name/small"/><graphic xml:id="F012416" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/ab4efbe9-a6a8-4dc6-a93e-d5ada0558381/file/id/771939/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <gap reason="lost" extent="unknown" unit="character"/>nus <expan><abbr><supplied reason="lost">e</supplied>q</abbr><ex>ues</ex></expan> <lb n="2"/><supplied reason="lost">et vexil</supplied><expan><abbr>lar</abbr><ex>ius</ex></expan> <expan><abbr>coh</abbr><ex>ortis</ex></expan> <lb n="3"/><supplied reason="lost" cert="low">II Aug(ustae) Cyr(enaicae) eq(uitatae)</supplied> <expan><abbr>tur</abbr><ex>ma</ex></expan> Mo<lb break="no" n="4"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>stip</abbr><ex>endiorum</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> a</supplied><expan><abbr>n<am>n</am></abbr><ex>orum</ex></expan> XXV <lb n="5"/><supplied reason="lost"><expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>itus</ex></expan> <expan><abbr>e</abbr><ex>st</ex></expan> <expan><abbr>h</abbr><ex>eres</ex></expan> <expan><abbr>f</abbr><ex>aciendum</ex></expan></supplied> <expan><abbr>c</abbr><ex>uravit</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Material: gelber Keupersandstein.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>F. Feraudi-Gruénais - R. Ludwig, Die Heidelberger Römersteine. Bildwerke, Architekturteile und Inschriften im Kurpfälzischen Museum Heidelberg (Heidelberg 2017) 90, Nr. 51; Foto.</bibl><bibl>R. Wiegels, in: A. Hensen - S. Biegert, Das römische Brand- und Körpergräberfeld von Heidelberg 1 (Stuttgart 2009) 65-66, Nr. 8.</bibl><bibl>A. Hensen, in: A. Hensen - S. Biegert, Das römische Brand- und Körpergräberfeld von Heidelberg 1 (Stuttgart 2009) 277, Nr. 63/33.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

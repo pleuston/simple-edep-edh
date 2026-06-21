@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Várpalota (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD031975</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD031975</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Várpalota, Burg</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(66)</height><width>(24)</width><depth>24</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.5-3.7</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0117" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">117 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1959"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3043095">Várpalota</placeName><placeName type="findspot">{Burg}, sekundär verwendet</placeName><placeName type="region">Veszprém megye</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD031975_1" sex="M"><persName><name type="praenomen">P.+</name><name type="nomen">Aelius+*</name><name type="cognomen">Verus</name></persName></person><person xml:id="HD031975_2" sex="M"><persName><name type="praenomen">P.</name><name type="nomen">Aelius*</name><name type="cognomen">Primus</name></persName></person><person xml:id="HD031975_3" sex="W"><persName><name type="nomen">Aelia*</name><name type="cognomen">Vera</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-02-05" who="Gräf">checked through autopsy</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>P</abbr><ex>ublio</ex></expan> A</supplied><expan><abbr>el</abbr><ex>io</ex></expan> Vero <lb n="2"/>vixit <expan><abbr>an</abbr><ex>nos</ex></expan> II <lb n="3"/><expan><abbr>men</abbr><ex>ses</ex></expan> II dies IIII <lb n="4"/><expan><abbr>P</abbr><ex>ublius</ex></expan> <expan><abbr>Ael</abbr><ex>ius</ex></expan> Primus et <lb n="5"/><expan><abbr>Ael</abbr><ex>ia</ex></expan> Vera <expan><abbr>pare</abbr><ex>ntes</ex></expan> <lb n="6"/><expan><abbr>fec</abbr><ex>erunt</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Fundjahr: 1959-1964. Lesung nach G. Alföldy (Autopsie). (B): RIU: Z. 3: diis; Z. 5/6: pare/[nt(es)].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>RIU 1413; Abb. 1413 (Foto u. Zeichnung). (B)</bibl><bibl>G. Alföldy, SpNov 18, 2004, 35-36.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

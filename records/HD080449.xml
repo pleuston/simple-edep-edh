@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Tenedo &amp;ndash; Bad Zurzach (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD080449</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD080449</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Brugg, Vindonissa-Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(39)</height><width>(66)</width><depth>15</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/177639">Tenedo</placeName></origPlace><origDate><origDate notBefore-custom="0070" notAfter-custom="0101" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">70 AD - 101 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1690"><placeName type="country" ref="https://www.geonames.org/2658434">Switzerland</placeName><placeName type="modern" ref="http://www.geonames.org/2657891">Bad Zurzach</placeName><placeName type="findspot">{Schlösslibuck}</placeName><placeName type="region">Kanton Aargau</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD080449_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]iugiacus</name><name type="cognomen">Super</name></persName></person><person xml:id="HD080449_2" sex="M"><persName><name type="nomen">Saenius</name><name type="cognomen">[---]imus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-07-26" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F028829" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/984dac6d-7b85-4afc-ab94-e5dfe8dfd5c0/file/id/789586/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/>iugiacus <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>f</abbr><ex>ilius</ex></expan> Pol<expan><ex>l</ex><abbr>ia</abbr></expan> Super <lb n="2"/><supplied reason="lost">Pol</supplied>lentia miles <lb n="3"/><supplied reason="lost"><expan><abbr>leg</abbr><ex>ionis</ex></expan></supplied> XI <expan><abbr>C</abbr><ex>laudiae</ex></expan> <expan><abbr>p</abbr><ex>iae</ex></expan> <expan><abbr>f</abbr><ex>idelis</ex></expan> <expan><abbr><am><g type="centuria"/></am></abbr><ex>centuria</ex></expan> Saeni <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>imi <expan><abbr>n<am>n</am></abbr><ex>m</ex></expan> <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/>XXXI<gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Frei-Stolba; Walser: Z. 5: [Max]imi.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 05240.</bibl><bibl>CIL 13, 04, 05240 add. p. 68.</bibl><bibl>G. Walser, Römische Inschriften in der Schweiz 2 (Bern 1980) 164-165, Nr. 190; Foto. (B)</bibl><bibl>R. Frei-Stolba, SZG 31, 1981, 55-57; Abb. 3. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

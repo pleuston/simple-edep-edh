@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Borbetomagus (Civitas Vangionum) &amp;ndash; Worms (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD075803</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD075803</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Worms, Stadtmus. im Andreasstift</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(93)</height><width>72</width><depth>20</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/108820">Borbetomagus (Civitas Vangionum)</placeName></origPlace><origDate><origDate notBefore-custom="0020" notAfter-custom="0041" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">20 AD - 41 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1666"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2806142">Worms</placeName><placeName type="findspot">{Martinspforte}, ehemaliges Mainzer Tor</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD075803_1" sex="M"><persName><name type="cognomen">Partus</name></persName></person><person xml:id="HD075803_2" sex="M"><persName><name type="cognomen">Mutius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-02-24" who="Osnabrügge">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Partus Mutii <expan><abbr>f</abbr><ex>ilius</ex></expan> <lb n="2"/>eques ala Agrippi<lb break="no" n="3"/>ana natione Trever <lb n="4"/><expan><abbr>n<am>n</am></abbr><ex>m</ex></expan> XXXV <expan><abbr>stip</abbr><ex>endiorum</ex></expan> <lb n="5"/><supplied reason="lost">X</supplied>IIII hic <expan><abbr>sit</abbr><ex>us</ex></expan> est <lb n="6"/>fratres posuerunt
+            </ab></div>
+            <div type="commentary">
+                <p>Reitergrabstele, nur noch der obere Teil ist erhalten, der untere Teil mit dem Inschriftfeld ist heute verloren.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 06235.</bibl><bibl>ILS 2503.</bibl><bibl>W. Boppert, Römische Steindenkmäler aus Worms und Umgebung, CSIR Deutschland 2, 10 (Mainz 1998) 86-88, Nr. 50; Taf. 53, 50.</bibl><bibl>J. Krier, Die Treverer außerhalb ihrer Civitas. Mobilität und Aufstieg (Trier 1981) 83-86, Nr. 29; Abb. 23.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

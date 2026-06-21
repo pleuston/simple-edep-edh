@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Burnum, bei &amp;ndash; Kistanje (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD039870</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD039870</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material>Gesteine</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197184">Burnum, bei</placeName></origPlace><origDate><origDate notBefore-custom="0042" notAfter-custom="0070" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">42 AD - 70 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3199030">Kistanje</placeName><placeName type="findspot">{Ivoševci}</placeName><placeName type="region">Šibensko-kninska županija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD039870_1" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Tertius</name><name type="cognomen">Tertianus+</name></persName></person><person xml:id="HD039870_2" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Pomponius*?</name><name type="cognomen">Pollio+?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-11-04" who="Feraudi">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>L</abbr><ex>ucius</ex></expan> Tertius <expan><abbr>L</abbr><ex>uci</ex></expan><certainty match="preceding-sibling::node()" locus="value"/> <expan><abbr>f</abbr><ex>ilius</ex></expan> <lb n="2"/><supplied reason="lost">Te</supplied>rtianus <lb n="3"/>H<supplied reason="lost">era</supplied>cl<supplied reason="lost">ea</supplied> <expan><abbr>n<am>n</am></abbr><ex>orum</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/>HIR ACLRA <expan><abbr>mil</abbr><ex>es</ex></expan> <lb n="5"/><expan><abbr>leg</abbr><ex>ionis</ex></expan> XI <supplied reason="lost"><expan><abbr>C</abbr><ex>laudiae</ex></expan> <expan><abbr>p</abbr><ex>iae</ex></expan></supplied> <expan><abbr>f</abbr><ex>idelis</ex></expan> <lb n="6"/><expan><abbr>n<am>n</am></abbr><ex>orum</ex></expan> XL <expan><abbr>stip</abbr><ex>endiorum</ex></expan> XVII <lb n="7"/><expan><abbr>L</abbr><ex>ucius</ex></expan> <expan><abbr>Pomp</abbr><ex cert="low">onius</ex></expan> Pol<supplied reason="lost" cert="low">lio? ---</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Lesungsvorschlag nach Kurilić. (B): AE 1999: Z. 3: H[era]cl(ea).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1999, 1234. (B)</bibl><bibl>CIL 03, 00394*, 3.</bibl><bibl>A. Kurilić, in: B. Čečuk (Hrsg.), Područje Šibenske Županije od pretpovijesti do srednjega vijeka, Šibenik 1995 (Zagreb 1998) 172, Nr. 2; sl. 3. 2 (Zeichnung). - AE 1999.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

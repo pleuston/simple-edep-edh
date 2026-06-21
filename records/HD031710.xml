@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Salonae, bei &amp;ndash; Solin (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD031710</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD031710</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Split, Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material>Gesteine</material><dimensions unit="cm"><height>(45)</height><width>(46)</width><depth>9</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197488">Salonae, bei</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0050" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 50 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1901"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3186233">Solin</placeName><placeName type="findspot">{Vranjic}, sekundär verwendet</placeName><placeName type="region">Splitsko-dalmatinska županija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD031710_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]ius</name><name type="cognomen">Phileros</name></persName></person><person xml:id="HD031710_2" sex="M"><persName><name type="cognomen">Himeros*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-11-15" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F025212" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/71b0ed37-6159-499d-950b-1c99cdc750af/file/id/785964/file_version/name/small"/><graphic xml:id="F033778" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/f984a96b-2d19-4338-a036-24d25f5406ae/file/id/794586/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <gap reason="lost" extent="unknown" unit="character"/>ius <expan><abbr>P</abbr><ex>ubli</ex></expan> <expan><abbr>l</abbr><ex>ibertus</ex></expan> Phileros <lb n="2"/><supplied reason="lost">se</supplied>vir <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>l</abbr><ex>ibertus</ex></expan> <expan><ex>H</ex><abbr>imeros</abbr></expan> <lb n="4"/><supplied reason="lost">sev</supplied>ir <lb n="5"/><supplied reason="lost" cert="low">---? aedem</supplied> deae Barbaricae <lb n="6"/><supplied reason="lost">sua pecunia f</supplied><expan><abbr>ac</abbr><ex>iendum</ex></expan> <expan><abbr>coer</abbr><ex>averunt</ex></expan> <expan><abbr>idemq</abbr><ex>ue</ex></expan> <lb n="7"/><supplied reason="lost">dedicaverunt<certainty locus="name" match="preceding-sibling::text()" cert="low"/> probaverun</supplied><expan><abbr>tq</abbr><ex>ue</ex></expan><certainty match="preceding-sibling::node()" locus="value"/>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1902, 0007.</bibl><bibl>M. Šašel Kos, in: Y. Le Bohec (Hrsg.), L'Afrique, la Gaule, la religion à l'époque romaine. Mélanges à la mémoire de Marcel Le Glay (Bruxelles 1994) 782, Nr. 1. - AE 1994.</bibl><bibl>AE 1994, 1348.</bibl><bibl>F. Bulić, BAHD 24, 1901, 99-100, Nr. 2866; Zeichnung. - AE 1902.</bibl><bibl>CIL 03, 14663, 2; Zeichnung.</bibl><bibl>M. Šašel Kos, Pre-Roman divinities of the eastern Alps and Adriatic (Ljubljana 1999) 82, Nr. 1.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Flavia Solva, bei &amp;ndash; Wildon (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD038047</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD038047</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Graz, Landesmus. Joanneum, Lapidarium Schloß Eggenberg</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>64</height><width>84</width><depth>20</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7.5-3.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197273">Flavia Solva, bei</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0130" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 130 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2761208">Wildon</placeName><placeName type="findspot">{S. Magdalena, Pfarrkirche}, ehemaliger Pfarrhof, sekundär verwendet</placeName><placeName type="region">Steiermark</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD038047_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Sempronius</name><name type="cognomen">Summinus</name></persName></person><person xml:id="HD038047_2" sex="W"><persName><name type="cognomen">Musa</name></persName></person><person xml:id="HD038047_3" sex="M"><persName><name type="cognomen">Primus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-08-01" who="Böhm">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>C</abbr><ex>aius</ex></expan> Semproni<lb break="no" n="2"/>us Summinus <lb n="3"/><expan><abbr>v</abbr><ex>ivus</ex></expan> <expan><abbr>f</abbr><ex>ecit</ex></expan> <expan><abbr>sib</abbr><ex>i</ex></expan> et Musae <lb n="4"/><expan><abbr>ux</abbr><ex>ori</ex></expan> et Primo <expan><abbr>fil</abbr><ex>io</ex></expan> <lb n="5"/><expan><abbr>an</abbr><ex>norum</ex></expan> VIIII
+            </ab></div>
+            <div type="commentary">
+                <p>Z. 2: Ligatur VS. Z. 3: Ligatur BI und AE. Z. 5 mit der Altersangabe des Sohnes nachträglich hinzugefügt.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>E. Weber, Die römerzeitlichen Inschriften der Steiermark (Graz 1969) 281-282, Nr. 230; Foto.</bibl><bibl>CIL 03, 05424.</bibl><bibl>W. Modrijan - E. Weber, Die Römersteinsammlung im Eggenberger Schloßpark bei Leibnitz (Wien 1959) 83-84, Nr. 177; Foto.</bibl><bibl>ILLPRON 1490.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

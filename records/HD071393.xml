@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mile-/leaguestone from Lagentium &amp;ndash; Castleford (Britannia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD071393</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD071393</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Leeds, City Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">mile-/leaguestone</objectType><material>Gesteine</material><dimensions unit="cm"><height>173</height></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Britannia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/79553">Lagentium</placeName></origPlace><origDate><origDate notBefore-custom="0251" notAfter-custom="0253" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">251 AD - 253 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2635167">United Kingdom</placeName><placeName type="modern" ref="http://www.geonames.org/2653584">Castleford</placeName><placeName type="findspot">{Beancroft Road}</placeName><placeName type="region">West Yorkshire</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>mile-/leaguestone</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD071393_1" sex="M"><persName><name type="nomen">Vibius</name><name type="cognomen">Gallus</name></persName></person><person xml:id="HD071393_2" sex="M"><persName><name type="praenomen">C.</name><name type="cognomen">Veldumnianus* Volusianus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-03-09" who="Cowey">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>eratoribus</ex></expan> <expan><abbr>C</abbr><ex>aesaribus</ex></expan> Vibio <lb n="2"/><surplus>O</surplus> Gallo et <expan><abbr>G</abbr><ex>aio</ex></expan> <expan><abbr>V</abbr><ex>eldumniano</ex></expan> <lb n="3"/>Volusia<lb break="no" n="4"/>no <expan><abbr>P</abbr><ex>iis</ex></expan> <expan><abbr>F</abbr><ex>elicibus</ex></expan> <lb n="5"/><expan><abbr>Aug</abbr><ex>ustis</ex></expan> <expan><abbr>Eb</abbr><ex>oraco</ex></expan> <lb n="6"/><expan><abbr>m</abbr><ex>ilia</ex></expan> <expan><abbr>p</abbr><ex>assuum</ex></expan> XXII
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Zu den leichten Leseabweichungen s. RIB 2274.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>EphEp 7, p. 337 n. 1105. (B)</bibl><bibl>EphEp 9, p. 636 n. 1253b. (B)</bibl><bibl>RIB 2274; Zeichnung.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

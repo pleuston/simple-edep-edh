@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Flavia Solva, bei &amp;ndash; Seggauberg (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD037274</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD037274</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Seggauberg, Schloß Seggau, vermauert</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material>Gesteine</material><dimensions unit="cm"><height>(88)</height><width>82</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">8-4.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197273">Flavia Solva, bei</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0170" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 170 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1827"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2765224">Seggauberg</placeName><placeName type="findspot">{Schloß Seggau, Alter Turm}, sekundär verwendet</placeName><placeName type="region">Steiermark</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD037274_1" sex="M"><persName><name type="praenomen">M.+</name><name type="nomen">Iunius+</name><name type="cognomen">Cerialis</name></persName></person><person xml:id="HD037274_2" sex="W"><persName><name type="nomen">Iunia</name><name type="cognomen">Aphrodisia</name></persName></person><person xml:id="HD037274_3" sex="W"><persName><name type="nomen">Iunia*</name><name type="cognomen">Ingenua+</name></persName></person><person xml:id="HD037274_4" sex="M"><persName><name type="praenomen">M.+?</name><name type="nomen">Iunius</name><name type="cognomen">S[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-04-15" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F004330" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/00c24b86-0bf2-4fff-bac2-026b490c4ae8/file/id/765092/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>M</abbr><ex>arcus</ex></expan> Iunius</supplied> <lb n="2"/><expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>lib</abbr><ex>ertus</ex></expan> <lb n="3"/>Cerialis et <lb n="4"/>Iunia <lb n="5"/>Aphrodisia <lb n="6"/><expan><abbr>ux</abbr><ex>or</ex></expan> <expan><abbr>v</abbr><ex>ivi</ex></expan> <expan><abbr>f</abbr><ex>ecerunt</ex></expan> s<supplied reason="lost">ib</supplied>i et <lb n="7"/><expan><abbr>Iun</abbr><ex>iae</ex></expan> Ingenu<supplied reason="lost">ae</supplied> <lb n="8"/><expan><abbr>fil</abbr><ex>iae</ex></expan> <expan><abbr>an</abbr><ex>norum</ex></expan> III <supplied reason="lost" cert="low">et M(arco)</supplied> <lb n="9"/>Iunio S<gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): CIL III 5363: Z. 7: III [et ---]; Z. 8: Si[---]. Fundjahr: 1826 (Beginn der zweiten Abbruchphase des Alten Turms) oder 1927 (erste Aufzeichnung durch Kaspar Harb).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>E. Weber, Die römerzeitlichen Inschriften der Steiermark (Graz 1969) 252-253, Nr. 195; Foto.</bibl><bibl>CIL 03, 05363. (B)</bibl><bibl>CIL 03, 05363 add. p. 1834.</bibl><bibl>ILLPRON 1381.</bibl><bibl>S. Karl - G. Wrolli, in: S. Karl - G. Wrolli, Der Alte Turm im Schloss Seggau zu Leibnitz. Historische Untersuchungen zum ältesten Bauteil der Burgenanlage Leibnitz in der Steiermark (Wien - Berlin - Münster 2011) 162-163, Nr. 9; Zeichnung.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Senia &amp;ndash; Senj (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD042311</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD042311</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Senj, Kirche S. Franziskus, Presbyterium</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>(35)</height><width>(38)</width><depth>11</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.5-3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197505">Senia</placeName></origPlace><origDate><origDate notBefore-custom="0200" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">200 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3191055">Senj</placeName><placeName type="findspot">S. Matej, Kirche</placeName><placeName type="region">Ličko-senjska županija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD042311_1"><persName><name type="nomen">Flavia+</name><name type="cognomen">Procula+</name></persName></person><person xml:id="HD042311_2"><persName><name type="cognomen">Iustus+</name><name type="supernomen">Neapolitanus+*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-09-29" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost">Flavia Pro</supplied><lb break="no" n="2"/><supplied reason="lost">cula Iusto</supplied> <lb n="3"/><supplied reason="lost">coniugi suo</supplied> <lb n="4"/>N<expan><ex>e</ex><abbr>apol</abbr></expan><supplied reason="lost">itano</supplied> <lb n="5"/>s&amp;lt;e=F&amp;gt; viva <supplied reason="lost">ti</supplied><lb break="no" n="6"/>tulum <supplied reason="lost">po</supplied><lb break="no" n="7"/><supplied reason="lost">su</supplied>it 
+            </ab></div>
+            <div type="commentary">
+                <p>Bei der Auffindung Inschrifttext noch fast vollständig erhalten.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1998, 1033.</bibl><bibl>M. Glavičić, SenjZbor 23, 1996, 24-29; sl. 2. - AE 1998.</bibl><bibl>CIL 03, 03019.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

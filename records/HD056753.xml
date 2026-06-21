@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Barcino &amp;ndash; Barcelona (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD056753</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD056753</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Barcelona, Mus. d'Arq. Catalunya</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">statue base</objectType><dimensions unit="cm"><height>81</height><width>59</width><depth>56</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3-6.2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Hispania citerior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/246343">Barcino</placeName></origPlace><origDate><origDate notBefore-custom="0286" notAfter-custom="0305" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">286 AD - 305 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1800"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern" ref="http://www.geonames.org/3128760">Barcelona</placeName><placeName type="findspot"/><placeName type="region">Cataluña</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD056753_1" sex="M"><persName><name type="praenomen">M.+++</name><name type="nomen">Aurelius Valerius+++</name><name type="cognomen">Maximianus+++</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-11-28" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <del rend="erasure">[<expan><abbr>Imp</abbr><ex>eratori</ex></expan> <expan><abbr>Caes</abbr><ex>ari</ex></expan> <expan><abbr>M</abbr><ex>arco</ex></expan> <expan><abbr>Aur</abbr><ex>elio</ex></expan>?</del>] <lb n="2"/><del rend="erasure"><supplied reason="lost"><expan><abbr>Val</abbr><ex>erio</ex></expan> Maximia</supplied>no</del> <lb n="3"/>Invicto <expan><abbr>Aug</abbr><ex>usto</ex></expan> <expan><abbr>p</abbr><ex>ontifici</ex></expan> <expan><abbr>m</abbr><ex>aximo</ex></expan> <lb n="4"/><expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> <expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> pro<lb break="no" n="5"/>co<expan><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> <lb n="6"/>ordo <expan><abbr>Barc</abbr><ex>inonensium</ex></expan> devo<lb break="no" n="7"/>tus numini ma<lb break="no" n="8"/><expan><abbr>iestati</abbr><ex>que</ex></expan> <lb n="9"/>eius
+            </ab></div>
+            <div type="commentary">
+                <p>Mittelteil einer Statuenbasis, sekundär verwendet. Hederae. Für die Identifikation des Kaisers gibt es mehrere Möglichkeiten: s. hierzu IRC. Z. 1: oder Aurel(io).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IRC 4, 027; pl. 13, 27.</bibl><bibl>CIL 02, 04507.</bibl><bibl>CIL 02, 04507 add. p. 981.</bibl><bibl>ILER 1251.</bibl><bibl>S. Mariner Bigorra, Inscripciones romanas de Barcelona (Barcelona 1973) 33, Nr. 26.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

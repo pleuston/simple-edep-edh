@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Municipium Claudium Virunum &amp;ndash; Maria Saal (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD057590</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD057590</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Klagenfurt/Wörthersee, Landesmus. Kärnten</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>39</height><width>41</width><depth>7</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197583">Municipium Claudium Virunum</placeName></origPlace><origDate><origDate notBefore-custom="0050" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">50 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1868"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2760473">Maria Saal</placeName><placeName type="findspot">{Zollfeld}</placeName><placeName type="region">Kärnten</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD057590_1" sex="M"><persName><name type="cognomen">Scipio</name></persName></person><person xml:id="HD057590_2" sex="M"><persName><name type="nomen">Sabinius*</name><name type="cognomen">Dexter*</name></persName></person><person xml:id="HD057590_3" sex="W"><persName><name type="cognomen">Vicaria</name></persName></person><person xml:id="HD057590_4" sex="M"><persName><name type="cognomen">Exspectatus*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-12-03" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Scipio <expan><abbr>Sab</abbr><ex>ini</ex></expan> <lb n="2"/><expan><abbr>Dextr</abbr><ex>i</ex></expan> <expan><abbr>se</abbr><ex>rvus</ex></expan> <expan><abbr>v</abbr><ex>ivus</ex></expan> <lb n="3"/><expan><abbr>f</abbr><ex>ecit</ex></expan> <expan><abbr>sib</abbr><ex>i</ex></expan> et Vica<lb break="no" n="4"/>riae <expan><abbr>con</abbr><ex>iugi</ex></expan> et <lb n="5"/>E<expan><ex>x</ex><abbr>spectato</abbr></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> <expan><abbr>an</abbr><ex>norum</ex></expan> <lb n="6"/>VII
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILLPRON 0813.</bibl><bibl>CIL 03, 04974a.</bibl><bibl>CIL 03, 04974a add. p. 1813.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

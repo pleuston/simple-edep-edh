@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Roma &amp;ndash; Roma (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD018719</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD018719</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Roma, S. Pietro, Bas., Grotte</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/214">sarcophagus</objectType><dimensions unit="cm"><height>(181)</height><width>243</width><depth>144</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">2.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma</placeName></origPlace><origDate><origDate when-custom="0359" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">359 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1597"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma</placeName><placeName type="findspot">S. Pietro, Bas., Confessio, unter</placeName><placeName type="region">Lazio</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD018719_1" sex="M"><persName><name type="nomen">Iunius*</name><name type="cognomen">Bassus</name></persName></person><person xml:id="HD018719_2" sex="M"><persName><name type="cognomen">Eusebius</name></persName></person><person xml:id="HD018719_3" sex="M"><persName><name type="cognomen">Hypatius*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-10-14" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F011160" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/ae0de75b-52b0-4b0a-9213-31f70241879b/file/id/770683/file_version/name/small"/><graphic xml:id="F011272" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/ce58536e-8ec7-4bfc-8532-088d5067db7d/file/id/770795/file_version/name/small"/><graphic xml:id="F029933" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/460adfad-e6e1-4f12-afdd-9791f8ec23c4/file/id/790690/file_version/name/small"/><graphic xml:id="F029934" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/2b051ff8-9cc4-4c81-9db1-6c0882c56dbe/file/id/790691/file_version/name/small"/><graphic xml:id="F029935" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/828a15aa-e5a0-4593-9ed4-421f032ef2aa/file/id/790692/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                ------<certainty match="preceding-sibling::node()" locus="value"/>] <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">h</supplied>aec Ba<supplied reason="lost">ss<gap reason="lost" quantity="1" unit="character"/> <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost" cert="low"> ge</supplied>neri ma<supplied reason="lost">trisque<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>o regi <expan><abbr>coI</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">pra</supplied>efectorum <gap reason="lost" extent="unknown" unit="character"/>ere m<gap reason="lost" extent="unknown" unit="character"/> <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/> praefectur<supplied reason="lost">ae car</supplied>mina pro me<supplied reason="lost">ritis</supplied> <lb n="7"/><supplied reason="lost">hic mo</supplied>derans plebem patriae sedemque se<supplied reason="lost">natus</supplied> <lb n="8"/><supplied reason="lost">ur</supplied>bis perpetuas occidit ad lacrimas <lb n="9"/><supplied reason="lost">nec l</supplied>icuit famulis domini gestare feretrum <lb n="10"/><supplied reason="lost">c</supplied>ertantis populi sed fuit illud onus <lb n="11"/><supplied reason="lost">fle</supplied>vit turba omnis matres puerique senes<supplied reason="lost">que</supplied> <lb n="12"/><supplied reason="lost">fle</supplied>vit et abiectis tunc pius ordo togis <lb n="13"/><supplied reason="lost">flere vide</supplied>bantur tunc et fastigia Romae <lb n="14"/><supplied reason="lost">sacrae tu</supplied>nc gemitus edere tecta viae <lb n="15"/><gap reason="lost" extent="unknown" unit="character"/>s spirantum cedite honores <lb n="16"/><supplied reason="lost">celsius est culmen</supplied> mors quod huic tribuit </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>Iun</abbr><ex>ius</ex></expan> Bassus <expan><abbr>v</abbr><ex>ir</ex></expan> <expan><abbr>c</abbr><ex>larissimus</ex></expan> qui vixit annis XLII <expan><abbr>men</abbr><ex>sibus</ex></expan> II in ipsa praefectura urbi neofitus iit ad Deum VIII <expan><abbr>Kal</abbr><ex>endas</ex></expan> <expan><abbr>Sept</abbr><ex>embres</ex></expan> Eusebio et <expan><ex>H</ex><abbr>ypatio</abbr></expan> co<expan><ex>n</ex><abbr>ss</abbr><ex>ulibus</ex></expan>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Deckel möglicherweise ursprünglich nicht zugehörig. (B): ILCV, Apollonj Ghetti u.a. (Hrsg.), AE 1953: abweichende Textwiedergabe.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1953, 0239. (B)</bibl><bibl>ILCV 0090.</bibl><bibl>ILCV (Suppl.) 0090. (B)</bibl><bibl>ICUR n. s. 04164.</bibl><bibl>B. Apollonj Ghetti - A. Ferrua - E. Josi - E. Kirschbaum, Esplorazioni sotto la Confessione di San Pietro in Vaticano eseguite negli anni 1940-1949 1 (Città del Vaticano 1951) 220-222; fig. 171. (B) - AE 1953.</bibl><bibl>CIL 06, 32004.</bibl><bibl>ILS 1286.</bibl><bibl>CIL 06, 41341; fig. α u. β.</bibl><bibl>AE 2002, 0208.</bibl><bibl>A. Cameron, ZPE 139, 2002, 288-292. - AE 2002.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

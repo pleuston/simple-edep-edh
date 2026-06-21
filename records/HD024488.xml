@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Edeta sive Liria &amp;ndash; Llíria / Liria (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD024488</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD024488</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Valencia, Mus. Bell. Art.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">block</objectType><dimensions unit="cm"><height>105</height><width>(50)</width><depth>28</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6.5-5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Hispania citerior</placeName><placeName type="ancient" ref="#">Edeta sive Liria</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0130" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 130 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern">Llíria / Liria</placeName><placeName type="findspot">Porta Valentina, bei</placeName><placeName type="region">Comunidad Valenciana</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD024488_1" sex="M"><persName><name type="praenomen">M.+</name><name type="nomen">Baebius+</name><name type="cognomen">Quietus</name></persName></person><person xml:id="HD024488_2" sex="W"><persName><name type="nomen">Baebia+</name><name type="cognomen">Aphrodisia+</name></persName></person><person xml:id="HD024488_3" sex="M"><persName><name type="cognomen">Gallicus+</name></persName></person><person xml:id="HD024488_4" sex="W"><persName><name type="cognomen">Harmonia</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-10-12" who="Feraudi">checked through autopsy</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>M</abbr><ex>arcus</ex></expan></supplied> Baebi<lb break="no" n="2"/><supplied reason="lost">us</supplied> Quietus <lb n="3"/><supplied reason="lost">Bae</supplied>bia <lb n="4"/><supplied reason="lost">Aphr</supplied>odisia </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Galli<supplied reason="lost">cus</supplied> <lb n="2"/><supplied reason="lost"><expan><abbr>fil</abbr><ex>ius</ex></expan></supplied> <expan><abbr>an</abbr><ex>norum</ex></expan> II <lb n="3"/>Har<supplied reason="lost">mo</supplied><lb break="no" n="4"/>nia a<supplied reason="lost"><expan><abbr>n</abbr><ex>norum</ex></expan> XVI</supplied>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Die Inschriften verteilen sich auf zwei nebeneinanderstehende, eigens gerahmte Inschriftfelder; B-Höhe bezieht sich auf Feld a; B-Höhe Feld b: 4-6. Zeile 1 u. 2 der Inschrift b wurden offenbar erst nach Inschrift a von einer zweiten Hand eingemeißelt, schließlich von einer dritten Hand die Zeilen 3 u. 4. In älteren Handschriften ist der Text - außer den Buchstaben VS am Ende der 1. Zeile der Inschrift b - noch vollständig überliefert. Autopsie G. Alföldy.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 02 (2. Aufl.) 14, 00149; tab. 4, 3.</bibl><bibl>CIL 02, 03797.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

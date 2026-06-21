@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Egweil (Raetia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD058094</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD058094</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Egweil, Kirche, vermauert</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">stele?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>100</height><width>70</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Raetia</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1949"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2932952">Egweil</placeName><placeName type="findspot">{S. Martin, Kirche}, gotischer Vorgängerbau, sekundär verwendet</placeName><placeName type="region">Bayern</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD058094_1" sex="M"><persName><name type="praenomen">T.</name><name type="nomen">Flavius*</name><name type="cognomen">Paternus+</name></persName></person><person xml:id="HD058094_2" sex="W"><persName><name type="nomen">Pomponia+*</name><name type="cognomen">Iucunda+</name></persName></person><person xml:id="HD058094_3" sex="M"><persName><name type="cognomen">Onesimus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-11-15" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/><expan><abbr>T</abbr><ex>itus</ex></expan> <expan><abbr>Fl</abbr><ex>avius</ex></expan> Paternus <lb n="3"/><expan><abbr>vet</abbr><ex>eranus</ex></expan> <expan><abbr>al</abbr><ex>ae</ex></expan> I Fl<supplied reason="lost">a</supplied>vi&amp;lt;a=V&amp;gt;e <expan><abbr>s</abbr><ex>ingularium</ex></expan> <lb n="4"/><expan><abbr>Batav</abbr><ex>us</ex></expan> <gap reason="lost" extent="unknown" unit="character"/>S <lb n="5"/>et <lb n="6"/><expan><abbr>Pomp</abbr><ex>oniae</ex></expan> <supplied reason="lost">I</supplied>ucun<lb break="no" n="7"/>dae Onesi<lb break="no" n="8"/>mi filiae <lb n="9"/>coni<supplied reason="lost">u</supplied>gi pien<lb break="no" n="10"/>tissimae vi<supplied reason="lost"><expan><abbr>x</abbr><ex>it</ex></expan></supplied> <lb n="11"/><expan><abbr>an</abbr><ex>nos</ex></expan> XXXXV <lb n="12"/>viv<expan><ex>u</ex><abbr>s</abbr></expan> sibi et <lb n="13"/>co<expan><ex>n</ex><abbr>iugi</abbr></expan> fecit <lb n="14"/>H<gap reason="lost" extent="unknown" unit="character"/> 
+            </ab></div>
+            <div type="commentary">
+                <p>Vielleicht auch Mittelteil eines Grabaltars? Oberfläche stark verwittert und stellenweise nur schwer lesbar. Z. 4: möglicherweise Batav[u]s oder s(ibi), der Abstand könnte von einer antiken Verletzung des Steines herrühren. Z. 13: IT ist klein in den Bogen des C eingeschrieben. Z. 14: das H scheint nicht so tief gearbeitet zu sein wie die anderen Buchstaben, was vielleicht auch Ergebnis der Erosion sein kann. (B): Wagner: Abweichungen in Lesung/Ergänzung.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>F. Wagner, BRGK 37/38, 1956/57, 234, Nr. 72; Taf. 19, 72. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Vindonissa &amp;ndash; Windisch (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD079391</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD079391</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Brugg, Vindonissa-Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/30">Tuff</material><dimensions unit="cm"><height>21</height><width>14</width><depth>13</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">1-2.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/177661">Vindonissa</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1953"><placeName type="country" ref="https://www.geonames.org/2658434">Switzerland</placeName><placeName type="modern" ref="http://www.geonames.org/2657976">Windisch</placeName><placeName type="findspot">{Rebengässli}</placeName><placeName type="region">Kanton Aargau</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD079391_1" sex="M"><persName><name type="nomen">Venusius?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-03-07" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F028928" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/c40a97e1-21fd-4a49-9550-d07c365d49cf/file/id/789685/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied><expan><abbr>A</abbr><ex cert="low"/>VSTANVI</expan><certainty match="preceding-sibling::node()" locus="value"/><gap reason="lost" extent="unknown" unit="character"/> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>NI</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/>IMV<gap reason="lost" extent="unknown" unit="character"/> </ab></div><div n="3" type="textpart"><ab><lb n="1"/> <expan><abbr>c</abbr><ex cert="low">enturia</ex></expan> Venu<lb break="no" n="2"/><expan><abbr>si</abbr><ex cert="low"/></expan> <expan><abbr>p</abbr><ex cert="low">osuit</ex></expan> <expan><abbr>v</abbr><ex cert="low">otum</ex></expan> &amp;lt;l=E&amp;gt;(ibens)<certainty match="preceding-sibling::node()" locus="value"/> <expan><abbr>l</abbr><ex cert="low">aetus</ex></expan> 
+            </ab></div></div>
+            <div type="commentary">
+                <p>Z. 1 u. 2 befinden sich auf der senkrechten Vorderseite corona bzw. auf dem Profil darunter. Oberfläche teilweise stark verwittert und mit dem Meißel überarbeitet. Z. 2: noch Hasten von weiteren Buchstaben erhalten, die auf den zur Verfügung stehenden Fotos nicht identifizieren lassen. (B): Fellmann; Nesselhauf - Lieb: kleinere Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>H. Nesselhauf - H. Lieb, BRGK 40, 1959, 144-145, Nr. 60. (B)</bibl><bibl>R. Fellmann, Pro Vindonissa 1955/56, 24-25; Abb. 10 (Zeichnung). (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mile-/leaguestone from Tipasa &amp;ndash; Tipasa (Mauretania Caesariensis)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD029741</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD029741</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">mile-/leaguestone</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Mauretania Caesariensis</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/344519">Tipasa</placeName></origPlace><origDate><origDate notBefore-custom="0337" notAfter-custom="0367" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">337 AD - 367 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2589581">Algeria</placeName><placeName type="modern" ref="http://www.geonames.org/2476028">Tipasa</placeName><placeName type="findspot"/><placeName type="region">Tipasa</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>mile-/leaguestone</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2010-07-15" who="Platz">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost" cert="low">Dd(ominis)</supplied> n<supplied reason="lost" cert="low">n(ostris)</supplied> <lb n="2"/><del rend="erasure">[Constantino et<certainty locus="name" match="preceding-sibling::text()" cert="low"/></del>] <expan><abbr>d<am>d</am></abbr><ex>ominis</ex></expan> <expan><abbr>n</abbr><ex>ostris</ex></expan> <expan><abbr>Impp</abbr><ex>eratoribus</ex></expan> <expan><abbr>n</abbr><ex>ostris</ex></expan> <lb n="3"/>Constan<supplied reason="lost">tio</supplied> <lb n="4"/><del rend="erasure">[et Constanti</del>] <expan><abbr>Fl</abbr><ex>avio</ex></expan> Valent<supplied reason="lost">iniano et Valenti</supplied> <lb n="5"/>invict<supplied reason="lost"><expan><abbr>iss</abbr><ex>imis</ex></expan>? <expan><abbr>semp</abbr><ex>er</ex></expan></supplied> <lb n="6"/>Augg<del rend="erasure">[<expan><abbr>g</abbr><ex>ustis</ex></expan></del>]
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2002, 1709.</bibl><bibl>CIL 08, 22555.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

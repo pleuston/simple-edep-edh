@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Andematunnum (Civitas Lingonum) &amp;ndash; Langres (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD081990</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD081990</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Langres, Mus. Art Hist. (Mus. Guy-Baillet)</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">stele?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(60)</height><width>132</width><depth>18</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/177441">Andematunnum (Civitas Lingonum)</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1864"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/3007680">Langres</placeName><placeName type="findspot">{Zitadelle}</placeName><placeName type="region">Grand Est</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD081990_1" sex="M"><persName><name type="nomen">Publicius</name><name type="cognomen">Sarasus</name></persName></person><person xml:id="HD081990_2" sex="M"><persName><name type="nomen">Publicius*?</name><name type="cognomen">Sacrovirus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-04-16" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F040410" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/cc5cb640-bdf2-40d5-befc-2c573e7b730c/file/id/801292/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> Pub<surplus>i</surplus><expan><abbr>lici</abbr><ex>i</ex></expan> Sarasi <lb n="2"/>et liberorum <lb n="3"/>ei<surplus>i</surplus>us <expan><abbr>P</abbr><ex cert="low">ublicius</ex></expan> Sacrovirus <lb n="4"/><expan><abbr>m</abbr><ex cert="low">onumentum</ex></expan> <expan><abbr>p</abbr><ex>osuit</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Giebel einer Aediculastele(?) mit Akroteren. Im Giebelfeld Büste einer männlichen Figur, in den Akroteren links Büste der Diana mit Mondsichel, rechts Büste des Apollo mit Strahlenkrone. Die Inschrift befindet sich auf der Leiste unterhalb des Giebels. (B): CIL 13, 05833: Z. 4: [m(onumentum)](?) v(ivus) p(osuit); Joly: Z. 4: p(onendum) c(uravit) ou [m(onumentum) ?] v(ivus) p(osuit).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 05833. (B)</bibl><bibl>É. Espérandieu, Recueil général des bas-reliefs, statues et bustes de la Gaule romaine 4 (Paris 1911) 273-274, Nr. 3228; Foto.</bibl><bibl>M. Joly, Langres, Carte archéologique de la Gaule 52, 2 (Paris 2001) 122. (B)</bibl><bibl>Y. Le Bohec, Inscriptions de la cité des Lingons. Inscriptions sur pierre (Paris 2003) 295, Nr. 532; Abb. 255.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

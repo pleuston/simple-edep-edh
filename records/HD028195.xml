@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mile-/leaguestone from Apollonopolis &amp;ndash; Abou-Tarfa (Aegyptus)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD028195</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD028195</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">mile-/leaguestone</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Aegyptus</placeName><placeName type="ancient" ref="#">Apollonopolis</placeName></origPlace><origDate><origDate notBefore-custom="0103" notAfter-custom="0107" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">103 AD - 107 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/357994">Egypt</placeName><placeName type="modern">Abou-Tarfa</placeName><placeName type="findspot"/></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>mile-/leaguestone</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD028195_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1425"><name type="cognomen">Nerva+ Traianus+</name></persName></person><person xml:id="HD028195_2" sex="M"><persName><name type="nomen">Vibius</name><name type="cognomen">Maximus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-07-28" who="Cowey">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Imp</abbr><ex>erator</ex></expan> <expan><abbr>Caes</abbr><ex>ar</ex></expan> divi Nervae</supplied> <lb n="2"/><supplied reason="lost"><expan><abbr>f</abbr><ex>ilius</ex></expan> Nerva Traianus <expan><abbr>Aug</abbr><ex>ustus</ex></expan></supplied> <lb n="3"/><supplied reason="lost"><expan><abbr>Germ</abbr><ex>anicus</ex></expan></supplied> <expan><abbr>Dacic</abbr><ex>us</ex></expan> <expan><abbr>tribun</abbr><ex>icia</ex></expan> pot<lb break="no" n="4"/><expan><abbr><supplied reason="lost">e</supplied>st</abbr><ex>ate</ex></expan> <supplied reason="lost">VII i</supplied>m<supplied reason="lost"><expan><abbr>p</abbr><ex>erator</ex></expan> IIII</supplied> co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> V <lb n="5"/><expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <lb n="6"/>V<supplied reason="lost">ibi</supplied>o Maximo <lb n="7"/><expan><abbr><supplied reason="lost">p</supplied>raef</abbr><ex>ecto</ex></expan> <expan><abbr>Aegy</abbr><ex>pti</ex></expan> <lb n="8"/>a Philis XXXII </ab></div><div n="2" type="textpart"><ab><lb n="1"/> ἀπὸ Φιλῶν <abbr>σπ</abbr><certainty match="preceding-sibling::node()" locus="value"/> λβʹ </ab></div><div n="3" type="textpart"><ab><lb n="1"/> ἀπὸ <gap reason="lost" extent="unknown" unit="character"/>ορ<lb break="no" n="2"/>α<supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied>ολ<supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied>ν <lb n="3"/>μ(ίλια)<certainty match="preceding-sibling::node()" locus="value"/> πβʹ
+            </ab></div></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1900, 0053.</bibl><bibl>CIL 03, 14148, 2.</bibl><bibl>IGR 1, 1357.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

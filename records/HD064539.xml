@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Lalm (Macedonia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD064539</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD064539</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Lalm, im Gelände</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>55</height><width>34</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Macedonia</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/783754">Albania</placeName><placeName type="modern" ref="http://www.geonames.org/3184995">Lalm</placeName><placeName type="findspot">Lalm</placeName><placeName type="region">Qarku i Tiranës</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD064539_1" sex="W"><persName><name type="cognomen">Fortunata*</name></persName></person><person xml:id="HD064539_2" sex="M"><persName><name type="cognomen">Firmus</name></persName></person><person xml:id="HD064539_3" sex="W"><persName><name type="praenomen">P.</name><name type="nomen">Gavinia</name><name type="cognomen">Cupita</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-01-14" who="Ehmig">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <expan><abbr>s</abbr><ex>acrum</ex></expan> <lb n="2"/>Fortun<lb break="no" n="3"/>at<expan><ex>a</ex><abbr>e</abbr></expan> Firmi <lb n="4"/><expan><abbr>lib</abbr><ex>ertae</ex></expan> <expan><abbr>q</abbr><ex>uae</ex></expan> <expan><abbr>v</abbr><ex>ixit</ex></expan> <expan><abbr>a</abbr><ex>nnos</ex></expan> <lb n="5"/>LXI <expan><abbr>P</abbr><ex>ublia</ex></expan> Gav<lb break="no" n="6"/>inia Cupi<lb break="no" n="7"/>ta <expan><abbr>nutric</abbr><ex>i</ex></expan> <lb n="8"/><expan><abbr>b</abbr><ex>ene</ex></expan> <expan><abbr>m</abbr><ex>erenti</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>S. Anamali - H. Ceka - É. Deniaux, Corpus des inscriptions latines d’Albanie (Rome 2009) 42, Nr. 28.</bibl><bibl>U. Ehmig - R. Haensch, Die lateinischen Inschriften aus Albanien (LIA) (Bonn 2012) 377-378, Nr. 152.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Guéthary (Aquitania)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD051637</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD051637</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>39</height><width>52</width><depth>4</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Aquitania</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar"/></origDate></origin>
+                        <provenance type="found" when="1984"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/3014340">Guéthary</placeName><placeName type="findspot">Bahnhof, bei</placeName><placeName type="region">Nouvelle-Aquitaine</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD051637_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Iulius</name><name type="cognomen">Niger</name></persName></person><person xml:id="HD051637_2" sex="M"><persName><name type="cognomen">Leo</name></persName></person><person xml:id="HD051637_3" sex="W"><persName><name type="nomen">Iulia</name><name type="cognomen">Hilara</name></persName></person><person xml:id="HD051637_4" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Iulius</name><name type="cognomen">Adiucus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-12-18" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Viv</abbr><ex>us</ex></expan> <lb n="2"/><expan><abbr>C</abbr><ex>aius</ex></expan> Iulius Leonis <expan><abbr>l</abbr><ex>ibertus</ex></expan> <lb n="3"/>Niger sibi et Iuliae <lb n="4"/>Leonis <supplied reason="lost"><expan><abbr>l</abbr><ex>ibertae</ex></expan></supplied> Hilarae <lb n="5"/>et <expan><abbr>C</abbr><ex>aio</ex></expan> Iulio Leonis <expan><abbr>lib</abbr><ex>erto</ex></expan> <lb n="6"/>Adiuco fratri
+            </ab></div>
+            <div type="commentary">
+                <p>In zwei Teile gebrochen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1994, 1211.</bibl><bibl>AE 2006, 0810.</bibl><bibl>R. Étienne, Aquitania 22, 2006, 77-79; fig. 2a. - AE 2006.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

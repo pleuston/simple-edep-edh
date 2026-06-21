@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Carnuntum, bei &amp;ndash; Au/Leithaberge (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD065303</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD065303</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bad Deutsch-Altenburg, Arch. Mus. Carnuntinum</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/128376">Carnuntum, bei</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2782242">Au/Leithaberge</placeName><placeName type="findspot">{römisches Gräberfeld an der Straße nach Hof}, sekundär verwendet</placeName><placeName type="region">Niederösterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD065303_1" sex="W"><persName><name type="praenomen">C.</name><name type="nomen">Iulia*</name><name type="cognomen">Calia</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-06-23" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> cineribus <lb n="2"/><expan><abbr>G</abbr><ex>aiae</ex></expan><certainty match="preceding-sibling::node()" locus="value"/> <expan><abbr>Iul</abbr><ex>iae</ex></expan> Cal<lb break="no" n="3"/>ies <note>sic</note> an<expan><ex>n</ex><abbr>o</abbr><ex>rum</ex></expan> <lb n="4"/>LX <expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>ita</ex></expan> <expan><abbr>e</abbr><ex>st</ex></expan> <lb n="5"/><expan><abbr>fili</abbr><ex>i</ex></expan> <expan><abbr>mat</abbr><ex>ri</ex></expan> <lb n="6"/><expan><abbr>pientis</abbr><ex>s</ex></expan><lb break="no" n="7"/>um<expan><ex>a</ex><abbr>e</abbr></expan> <note>sic</note> <expan><abbr>pos</abbr><ex>uerunt</ex></expan>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Aufbewahrungsort und Material nach lupa 13633. Z. 1: Die Buchstaben D und M stehen auf den beiden Akroteren der corona. Reste von roter Farbe in den Buchstaben. Z. 3 (Anfang): möglicherweise auch C(aiae); nach dem Foto bei lupa 13633 nicht sicher zu entscheiden. Holzner - Weber; AE 2007: Z. 3: C(aiae).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2007, 1159.</bibl><bibl>M. Holzner - E. Weber, Tyche 23, 2008, 199, Nr. 145. - AE 2007.</bibl><bibl>R. Wedenig - P. de Bernardo Stempel, in: H. Birkhan - H. Tauber (Hrsg.), Kelten-Einfälle an der Donau. Akten des Vierten Symposiums deutschsprachiger Keltologinnen und Keltologen, Linz 2005 (Wien 2007) 624-625. - AE 2007.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

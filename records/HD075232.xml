@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Summuntorium &amp;ndash; Mertingen (Raetia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD075232</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD075232</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Grünwald, Burgmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>30</height><width>21</width><depth>16</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Raetia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118986">Summuntorium</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2941251">Mertingen</placeName><placeName type="findspot">Burghöfe, {Lager}, bei?</placeName><placeName type="region">Bayern</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD075232_1" sex="W"><persName><name type="cognomen">Tulla</name></persName></person><person xml:id="HD075232_2" sex="M"><persName><name type="cognomen">Tertius*?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-11-15" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Mar<lb break="no" n="2"/>ti <expan><abbr>s</abbr><ex>acrum</ex></expan> <expan><abbr>p</abbr><ex>ro</ex></expan> <expan><abbr>sa</abbr><ex>lute</ex></expan> Tull<lb break="no" n="3"/><expan><abbr>ae</abbr><ex cert="low"/></expan> <expan><abbr>Ter</abbr><ex>ti</ex></expan><certainty match="preceding-sibling::node()" locus="value"/> <expan><abbr>fil</abbr><ex cert="low">iae</ex></expan> <lb n="4"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Kleiner Weihaltar, linke Seite des Inschriftfeldes abgebrochen. Inschriftfeld beschädigt und stellenweise schwer lesbar. In Z. 4 möglicherweise RE-Ligatur (mittlere Querhaste von gleicher Länge, Höhe und Ausrichtung wie beim folgenden F scheint erkennbar zu sein, ebenso untere Querhaste). T und I scheinen sich kaum zu unterscheiden, auch Iullae möglich. (B): Garbsch: Z. 3-5: T(itus) Satuti(us) / Afr(i) fil(ius) / [v(otum)]. AE 2011: Z. 5: Tr(---) fil(iae?).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2011, 0854. (B)</bibl><bibl>J. Garbsch, in: (o. Hrsg.) 125 Jahre Bayerische Handelsbank in München 1869-1994. Festschrift Geschichten aus der Geschichte der bayerischen</bibl><bibl>Handelsbank. Römischer Alltag in Bayern. Das Leben vor 2000 Jahren (München 1994) 269-270. (B) - AE 2011.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

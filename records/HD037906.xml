@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Flavia Solva, bei &amp;ndash; Seggauberg (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD037906</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD037906</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Seggauberg, Schloß Seggau, vermauert</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor, weiß</material><dimensions unit="cm"><height>(108)</height><width>(70)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">9-5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197273">Flavia Solva, bei</placeName></origPlace><origDate><origDate notBefore-custom="0131" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">131 AD - 230 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2765224">Seggauberg</placeName><placeName type="findspot">{Schloß Seggau}</placeName><placeName type="region">Steiermark</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD037906_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">Fidelis</name></persName></person><person xml:id="HD037906_2" sex="W"><persName><name type="nomen">Turbonia+</name><name type="cognomen">Nigrina*</name></persName></person><person xml:id="HD037906_3" sex="W"><persName><name type="cognomen">Finita+</name></persName></person><person xml:id="HD037906_4" sex="M"><persName><name type="nomen">[---]us</name><name type="cognomen">Valens+?</name></persName></person><person xml:id="HD037906_5" sex="M"><persName><name type="cognomen">Rufus</name></persName></person><person xml:id="HD037906_6" sex="M"><persName><name type="nomen">[---]ius</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-04-29" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> Fidelis <lb n="2"/><expan><abbr>v</abbr><ex>ivus</ex></expan> <expan><abbr>f</abbr><ex>ecit</ex></expan> sibi e<supplied reason="lost">t</supplied> <lb n="3"/>Turbonia<supplied reason="lost">e</supplied> <lb n="4"/>Nigrin<expan><ex>a</ex><abbr>e</abbr></expan> u<supplied reason="lost"><expan><abbr>x</abbr><ex>ori</ex></expan></supplied> <lb n="5"/>et Fi<supplied reason="lost">ni</supplied>ta<supplied reason="lost">e <expan><abbr>f</abbr><ex>iliae</ex></expan></supplied> <lb n="6"/>d<expan><ex>e</ex><abbr>f</abbr><ex>unctae</ex></expan> <expan><abbr>an</abbr><ex>nis</ex></expan> III <gap reason="lost" extent="unknown" unit="character"/><lb break="no" n="7"/><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied>o Rufi Valen<supplied reason="lost" cert="low">ti</supplied> <lb n="8"/><supplied reason="lost"><expan><abbr>an</abbr><ex>n-</ex></expan> <gap reason="lost" quantity="1" unit="character"/></supplied> <expan><abbr>men</abbr><ex>sibus</ex></expan> II <expan><abbr>d</abbr><ex>iebus</ex></expan> II<gap reason="lost" extent="unknown" unit="character"/><lb break="no" n="9"/>io Rufi <expan><abbr>fil</abbr><ex>io</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <lb n="10"/><expan><abbr>an</abbr><ex>nis</ex></expan> VII <expan><abbr>men</abbr><ex>sibus</ex></expan> III <expan><abbr>dieb</abbr><ex>us</ex></expan> <supplied reason="lost" cert="low">XV</supplied>I
+            </ab></div>
+            <div type="commentary">
+                <p>Oberfläche teilweise stark verrieben. Mehrere Ligaturen. (B): CIL III 5374; Hainzmann - Pochmarski: kleinere Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 05374. (B)</bibl><bibl>CIL 03, 11724.</bibl><bibl>ILLPRON 1356.</bibl><bibl>E. Diez, Flavia Solva. Die römischen Steindenkmäler auf Schloß Seggau bei Leibnitz (2. Aufl. Wien 1959) 55, Nr. 104.</bibl><bibl>E. Weber, Die römerzeitlichen Inschriften der Steiermark (Graz 1969) 259-260, Nr. 203.</bibl><bibl>M. Hainzmann - E. Pochmarski, Die römerzeitlichen Inschriften und Reliefs von Schloß Seggau bei Leibnitz (Graz 1994) 232-233, Nr. 84; Foto. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

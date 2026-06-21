@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Tragurium &amp;ndash; Trogir (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD040063</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD040063</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/214">sarcophagus</objectType><dimensions unit="cm"><height>(57)</height><width>(95)</width><depth>(10)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6-7</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197555">Tragurium</placeName></origPlace><origDate><origDate when-custom="0402" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">402 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1990"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3188763">Trogir</placeName><placeName type="findspot">{S. Barbara, Kirche}</placeName><placeName type="region">Splitsko-dalmatinska županija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD040063_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q159369"><name type="cognomen">Arcadius+</name></persName></person><person xml:id="HD040063_2" sex="M"><persName ref="https://www.wikidata.org/wiki/Q159798"><name type="cognomen">Honorius+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-05-28" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D<supplied reason="lost">ep</supplied>osit</abbr><ex>io</ex></expan> bon<expan><ex>a</ex><abbr>e</abbr></expan> <expan><abbr>mem<supplied reason="lost">or</supplied>i</abbr><ex>a</ex>e</expan> <gap reason="lost" extent="unknown" unit="character"/>S <lb n="2"/>Iunias <expan><abbr>conss</abbr><ex>ulibus</ex></expan> <expan><abbr>domi</abbr><ex>nis</ex></expan> Ar<supplied reason="lost">cadio et Honorio</supplied> <lb n="3"/>Augg<expan><ex>usti</ex><abbr>s</abbr></expan> quinquies si quis s<supplied reason="lost">epulchrum viola</supplied><lb break="no" n="4"/>re voluerit det ec<expan><ex>c</ex><abbr>les</abbr><ex>iae</ex></expan> <surplus>s</surplus> cat<supplied reason="lost">holicae</supplied><gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1993, 1255.</bibl><bibl>V. Kovačič, Diadora 14, 1992, 301-310; sl. 1; sl. 2 (Zeichnung). - AE 1993.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Novi Grad (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD052719</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD052719</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Sarajevo, Zem. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/35">architectural member</objectType><dimensions unit="cm"><height>(68)</height><width>26</width><depth>25</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate when-custom="0241" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">241 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3277605">Bosnia and Herzegovina</placeName><placeName type="modern" ref="http://www.geonames.org/3200057">Novi Grad</placeName><placeName type="findspot">{Gornji Agići}</placeName><placeName type="region">Republika Srpska</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD052719_1" sex="M"><persName><name type="cognomen">Philocyrius</name></persName></person><person xml:id="HD052719_2" sex="M"><persName><name type="cognomen">Gordianus</name></persName></person><person xml:id="HD052719_3" sex="M"><persName><name type="cognomen">Pompeianus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-11-18" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/><lb break="no" n="1"/>ni suo<lb break="no" n="2"/>rumque <lb n="3"/>omnium <lb n="4"/>Philocy<lb break="no" n="5"/>rius <expan><abbr>tib</abbr><ex>icen</ex></expan> <lb n="6"/>ex voto <lb n="7"/>posuit <lb n="8"/>et tempu</ab></div><div n="2" type="textpart"><ab><lb n="1"/><supplied reason="lost">lum</supplied> <note>sic</note> res<lb break="no" n="2"/>tituit <lb n="3"/><expan><abbr>Id</abbr><ex>ibus</ex></expan> Iuli<expan><ex>i</ex><abbr>s</abbr></expan> <lb n="4"/><expan><abbr>Imp</abbr><ex>eratore</ex></expan> <expan><abbr>d</abbr><ex>omino</ex></expan> <expan><abbr>n</abbr><ex>ostro</ex></expan> <expan><abbr>C</abbr><ex>aesare</ex></expan> <lb n="5"/>Gordia<lb break="no" n="6"/>no <expan><abbr>Aug</abbr><ex>usto</ex></expan> II <lb n="7"/><supplied reason="lost">e</supplied>t Pompe<lb break="no" n="8"/>iano co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan>
+            </ab></div></div>
+            <div type="commentary">
+                <p>2 Blöcke wohl von einem Türpfeiler;der Anfang der Inschrift muß sich auf einem weiteren Block befunden haben. Maße beziehen sich auf den oberen Block; unterer Block: (67,5) x 25,5 x 25,3 cm. (B): Patsch; Imamović: Abweichungen in Lesung / Ergänzung. (B): Imamović: Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 14972.</bibl><bibl>E. Imamović, Antički kultni i votivni spomenici na području Bosne i Hercegovine (Sarajevo 1977) 462, Nr. 249; Fotos. (B)</bibl><bibl>C. Patsch, WMBH 7, 1900, 66-68; Fig. 41; Fig. 40 (Zeichnung).</bibl><bibl>PIR (2. Aufl.) C 1177.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

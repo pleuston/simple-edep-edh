@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph? from Byllis, bei &amp;ndash; Ballsh (Macedonia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD014094</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD014094</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(61)</height><width>(17)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-3.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Macedonia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/481777">Byllis, bei</placeName></origPlace><origDate><origDate notBefore-custom="0051" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD - 230 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/783754">Albania</placeName><placeName type="modern">Ballsh</placeName><placeName type="findspot">frühchristliche Kirche</placeName><placeName type="region">Qarku i Fierit</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph?</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD014094_1" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Domitius+?</name><name type="cognomen">Sallenius+</name></persName></person><person xml:id="HD014094_2" sex="W"><persName><name type="nomen">[---]</name><name type="cognomen">Flaviana+</name></persName></person><person xml:id="HD014094_3" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">Philo?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-02-28" who="Ehmig">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F024771" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/afb33d98-e8ad-4a0f-a680-5ee14f28409c/file/id/785438/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>L</abbr><ex>ucius</ex></expan> Dom<supplied reason="lost">itius<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="2"/><expan><abbr>f</abbr><ex>ilius</ex></expan> Salle<supplied reason="lost">nius</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/>Flavian<supplied reason="lost">a</supplied><gap reason="lost" extent="unknown" unit="character"/><lb break="no" n="4"/>tia merit<gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/>eius dom<gap reason="lost" extent="unknown" unit="character"/><lb break="no" n="6"/>tini patr<gap reason="lost" extent="unknown" unit="character"/> <lb n="7"/>quae <expan><abbr>a</abbr><ex cert="low">nnos</ex></expan> <expan><abbr>v</abbr><ex cert="low">ixit</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <lb n="8"/><expan><abbr>M</abbr><ex>ani</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> Philo<gap reason="lost" extent="unknown" unit="character"/> <lb n="9"/>et omni<gap reason="lost" extent="unknown" unit="character"/> <lb n="10"/>praesen<gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Praschniker; Sestieri; AE 1978; Anamali - Ceka - Deniaux: Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>C. Praschniker, JŒAI (Beibl.) 21/22, 1922, 200, Nr. 15. (B) – AE 1978.</bibl><bibl>P.C. Sestieri, Studime e Tekste 2, 1, 1943, 19. 70, Nr. 19. (B) – AE 1978.</bibl><bibl>AE 1978, 0767. (B)</bibl><bibl>S. Anamali - H. Ceka - É. Deniaux, Corpus des inscriptions latines d’Albanie (Rome 2009) 160, Nr. 208. (B)</bibl><bibl>U. Ehmig - R. Haensch, Die lateinischen Inschriften aus Albanien (LIA) (Bonn 2012) 504-506, Nr. 209; Zeichnung.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

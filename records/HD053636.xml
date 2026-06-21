@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Virunum?, bei &amp;ndash; Magdalensberg (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD053636</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD053636</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Magdalensberg, Ottmanach, Schloß</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>64</height><width>82</width><depth>17</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">8.6-4.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197365">Virunum?, bei</placeName></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0130" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 130 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1983"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2769330">Magdalensberg</placeName><placeName type="findspot">{Ottmanach, Schloß}, bei</placeName><placeName type="region">Kärnten</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD053636_1" sex="M"><persName><name type="praenomen">T.</name><name type="nomen">Flavius</name><name type="cognomen">Euphrosynus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-04-01" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>T</abbr><ex>itus</ex></expan> Flavius <lb n="2"/>Euphrosynus <lb n="3"/><expan><abbr>v</abbr><ex>ivus</ex></expan> <expan><abbr>fec</abbr><ex>it</ex></expan> sibi et <lb n="4"/>libertis <expan><abbr>libertab</abbr><ex>usque</ex></expan> <lb n="5"/><expan><abbr>h</abbr><ex>oc</ex></expan> <expan><abbr>m</abbr><ex>onumentum</ex></expan> <expan><abbr>h</abbr><ex>eredem</ex></expan> <expan><abbr>no</abbr><ex>n</ex></expan> <expan><abbr>s</abbr><ex>equetur</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Material: grauweißer Marmor. Hederae in Z. 5.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1992, 1342.</bibl><bibl>E. Weber - R. Selinger, RŒ 19/20, 1991/92, 234, Nr. 343. - AE 1992.</bibl><bibl>G. Piccottini, Carinthia I 180, 1990, 14-16; Abb. 2; Abb. 3 (Zeichnung). - AE 1992.</bibl><bibl>G. Piccottini, FuBerÖ 24/25, 1985/86, 284. - AE 1992.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

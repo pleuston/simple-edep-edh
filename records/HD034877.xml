@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Ovilava &amp;ndash; Wels (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD034877</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD034877</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Wels, Stadtmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">altar?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>119</height><width>75</width><depth>47</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118901">Ovilava</placeName></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1913"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2761524">Wels</placeName><placeName type="findspot">{Stadtpfarrkirche}, sekundär verwendet</placeName><placeName type="region">Oberösterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD034877_1" sex="M"><persName><name type="praenomen">T.</name><name type="nomen">Flavius*</name><name type="cognomen">Campestrinus</name></persName></person><person xml:id="HD034877_2" sex="W"><persName><name type="nomen">Iulia*</name><name type="cognomen">Exorata</name></persName></person><person xml:id="HD034877_3" sex="M"><persName><name type="nomen">Iulius*</name><name type="cognomen">Exoratus</name></persName></person><person xml:id="HD034877_4" sex="M"><persName><name type="nomen">Secundinius</name><name type="cognomen">Candidianus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-04-13" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F005817" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/38f2b908-563e-4829-9f6c-dde823bced6f/file/id/766592/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>T</abbr><ex>itus</ex></expan> <expan><abbr>Fl</abbr><ex>avius</ex></expan> Campestrinus <lb n="2"/><expan><abbr>vet</abbr><ex>eranus</ex></expan> et <expan><abbr>Iul</abbr><ex>ia</ex></expan> Exora<lb break="no" n="3"/>ta <expan><abbr>Iul</abbr><ex>io</ex></expan> Exorato <lb n="4"/><expan><abbr>lib</abbr><ex>rario</ex></expan> co<expan><ex>n</ex><abbr>s</abbr><ex>ulari</ex></expan> <expan><abbr>fil</abbr><ex>io</ex></expan> <expan><abbr>ob</abbr><ex>ito</ex></expan> <expan><abbr>an</abbr><ex>norum</ex></expan> XX <lb n="5"/>et Secundinio Can<lb break="no" n="6"/>didiano b<expan><ex>ene</ex><abbr>f</abbr><ex>iciario</ex></expan> co<expan><ex>n</ex><abbr>s</abbr><ex>ulari</ex></expan> ge<lb break="no" n="7"/>nero vivi fecerunt
+            </ab></div>
+            <div type="commentary">
+                <p>Oberhalb des Inschriftfeldes weibliche und männliche Büste; auf der linken Nebenseite Krater, aus dem eine spiralförmige Ranke wächst. Nach Kremer wohl Schaftblock eines altar- oder pfeilerförmigen Grabbaus. (B): Zabehlicky-Scheffenegger: Z. 5: Secundino; Zabehlicky-Scheffenegger; Eckhart; Kremer: Z. 5/6: Can/d[i]diano.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 05631.</bibl><bibl>ILLPRON 1022.</bibl><bibl>L. Eckhart, Die Skulpturen des Stadtgebietes von Ovilava, CSIR Österreich 3, 3 (Wien 1981) 46, Nr. 54; Taf. 34, 54. (B)</bibl><bibl>G. Kremer, Antike Grabbauten in Noricum (Wien 2001) 253, Nr. II 295. (B)</bibl><bibl>H. Petrovitsch, Legio II Italica (Linz 2006) 66-67, Nr. No.01; Fotos.</bibl><bibl>C. Hemmers - S. Traxler, in: C. Schwanzar - G. Winkler (Hrsg.), Archäologie und Landeskunde. Beiträge zur Tagung im Linzer Schlossmuseum, Linz 2007 (Linz 2007) 23-24; Abb. 4.</bibl><bibl>S. Zabehlicky-Scheffenegger, in: K. Holter - W. Rieß - S. Zabehlicky-Scheffenegger, Stadtmuseum Wels. Katalog. Vorgeschichte, Römerzeit, Frühgeschichte, JbWels 22 (Wels 1981) 53-54, Nr. R 10. (B)</bibl><bibl>C. Hemmers - S. Traxler, in: Festschrift für Walter Aspernig zum 70. Geburtstag, JbWels 36 (Linz 2012) 64-65, Nr. WELS G05; Abb. 1. - AE 2012.</bibl><bibl>E. Schallmayer - K. Eibl - J. Ott - G. Preuß - E. Wittkopf, Der römische Weihebezirk von Osterburken 1 (Stuttgart 1990) 228-229, Nr. 271*; Fotos.</bibl><bibl>I. Weber-Hiden, RŒ 36, 2013, 354, Nr. 14. - AE 2012.</bibl><bibl>AE 2012, 1078.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

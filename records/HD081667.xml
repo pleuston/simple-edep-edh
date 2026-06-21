@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from (Civitas Lingonum) &amp;ndash; Mirebeau-sur-Bèze (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD081667</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD081667</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Dijon, Mus. Arch.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(40)</height><width>(45)</width><depth>20</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4-1.8</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/177581">(Civitas Lingonum)</placeName></origPlace><origDate><origDate notBefore-custom="0070" notAfter-custom="0086" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">70 AD - 86 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1863"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/2993730">Mirebeau-sur-Bèze</placeName><placeName type="findspot">römische Straße, bei</placeName><placeName type="region">Bourgogne-Franche-Comté</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD081667_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name></persName></person><person xml:id="HD081667_2" sex="M"><persName><name type="nomen">Satrius+?</name><name type="cognomen">Valens+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-01-25" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F031582" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/57d42e34-382c-485f-a355-3d117262078a/file/id/792345/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/>AFII<gap reason="lost" extent="unknown" unit="character"/>S <lb n="1"/><supplied reason="lost">T</supplied>eretina <lb n="2"/><expan><abbr><supplied reason="lost">v</supplied>eter</abbr><ex>anus</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> VIII <lb n="3"/><expan><abbr><supplied reason="lost">A</supplied>ug</abbr><ex>ustae</ex></expan> hic situs <lb n="4"/><supplied reason="lost">e</supplied>st qui testa<lb break="no" n="5"/><supplied reason="lost">m</supplied>ento iussit <lb n="6"/><supplied reason="lost">si</supplied>bi fieri <expan><abbr>p</abbr><ex>er</ex></expan> <lb n="7"/><supplied reason="lost">Sa</supplied><expan><abbr>trium</abbr><ex cert="low"/></expan> Va<lb break="no" n="8"/><supplied reason="lost">le</supplied>ntem <expan><abbr>veter</abbr><ex>anum</ex></expan> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Bruchstück einer Stele mit dem rechten Rand des Inschriftfeldes, oben, links und unten abgebrochen. In Z. 1 nach dem F noch die unteren Ansätze zweier Vertikalhasten zu erkennen. (B): Drioux; Le Bohec; Barral et al.: Abweichungen in Lesung/Ergänzung.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 05613.</bibl><bibl>G. Drioux, Les Lingons. Textes et inscriptions antiques (Paris 1934) 61 Nr. 169, (B)</bibl><bibl>Y. Le Bohec, Inscriptions de la cité des Lingons (Paris 2003) 142-143, Nr. 218; Abb. 105. (B)</bibl><bibl>P. Barral u. a., in: M. Provost u. a. (Hrsg.), La Côte-d'Or d'Allerey à Normier, Carte archéologique de la Gaule 21, 2 (Paris 2009) 546. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

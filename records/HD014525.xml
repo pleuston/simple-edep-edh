@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Nettersheim (Germania inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD014525</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD014525</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bonn, Rhein. Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(19)</height><width>(19)</width><depth>7</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania inferior</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1913"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2854794">Nettersheim</placeName><placeName type="findspot">Pesch, {Tempelbezirk ('Heidentempel')}, Hof A</placeName><placeName type="region">Nordrhein-Westfalen</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD014525_1" sex="M"><persName><name type="nomen">[---]tius</name><name type="cognomen">Iustinus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-11-11" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F018305" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/a8c4250d-3dea-4986-a95a-3fe2231c5914/file/id/778377/file_version/name/small"/><graphic xml:id="F018345" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/a6ef9126-632b-4652-ba29-bb2ad60ec5ca/file/id/778417/file_version/name/small"/><graphic xml:id="F018346" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/17092a44-67d2-408e-ac14-193ffe125669/file/id/778418/file_version/name/small"/><graphic xml:id="F020567" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/011d2b62-8932-45c3-91e2-6fbf447f59d5/file/id/780640/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>tius <lb n="2"/>Ius<supplied reason="lost">ti</supplied>nus <lb n="3"/><supplied reason="lost">pro se</supplied> et <lb n="4"/><supplied reason="lost">su</supplied>is <lb n="5"/><supplied reason="lost"><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan></supplied> <expan><abbr>m</abbr><ex>erito</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Drei nicht aneinander passende Fragmente erhalten. Fundstellen: Frg. 1: s. o.; Frg. 2 u. 3: Hof A 2 (vgl. Alföldy Abb. 1). Abmessungen: Frg. 1: s. o.; Frg. 2 u. 3: unbekannt.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1968, 0380.</bibl><bibl>G. Alföldy, in: EpStud 5 (Düsseldorf 1968) 57, Nr. 173.</bibl><bibl>H. Lehner, Die antiken Steindenkmäler des Provinzialmuseums in Bonn (Bonn 1918) 176, Nr. 419; Zeichnungen.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

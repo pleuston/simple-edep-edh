@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Ala Nova, bei &amp;ndash; Wien (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD054706</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD054706</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Wien, Wien 10 (Favoriten), Unterlaa, S. Johannes, Kirche, vermauert</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material>Gesteine</material><dimensions unit="cm"><height>(40)</height><width>(205)</width><depth>38</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/128354">Ala Nova, bei</placeName></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1989"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2761369">Wien</placeName><placeName type="findspot">Wien 10 (Favoriten), {Unterlaa}, S. Johannes, Kirche, sekundär verwendet</placeName><placeName type="region">Wien</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD054706_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD054706_2" sex="M"><persName><name type="nomen">E[---]</name><name type="cognomen">Marcellinus+</name></persName></person><person xml:id="HD054706_3" sex="M"><persName><name type="cognomen">Marcellus</name></persName></person><person xml:id="HD054706_4" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">Passer</name></persName></person><person xml:id="HD054706_5" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">Marcellus+</name></persName></person><person xml:id="HD054706_6" sex="M"><persName><name type="nomen">Aurelius</name><name type="cognomen">Quintus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-11-30" who="Gräf">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">de</supplied>functo Altino <expan><abbr>an</abbr><ex>norum</ex></expan> XX et E<gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">Mar</supplied>cellino <expan><abbr>mil</abbr><ex>iti</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> <expan><abbr>s</abbr><ex>upra</ex></expan> <expan><abbr>s</abbr><ex>criptae</ex></expan> <expan><abbr>an</abbr><ex>norum</ex></expan> XXXII D<gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> et Marcello <expan><abbr>mil</abbr><ex>iti</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> XIII <expan><abbr>an</abbr><ex>norum</ex></expan> XXX <gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> Passeri <expan><abbr>an</abbr><ex>norum</ex></expan> III matri frat<supplied reason="lost">ri</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">Mar</supplied>cello Aureli Quinti <gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Die Inschrift ist durch die heutige Vermauerung nicht sichtbar. Höhe: 40-70 cm (nicht exakt messbar).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2005, 1238.</bibl><bibl>O. Harl, FuBerÖ 28, 1989, 256, Nr. 10. - AE 2005.</bibl><bibl>O. Harl, AustrRom 40, 1990, 6-7. - AE 2005.</bibl><bibl>E. Weber - R. Selinger, RŒ 19/20, 1991/92, 219, Nr. 271. - AE 2005.</bibl><bibl>M. Mosser, Fundort Wien 8, 2005, 135. - AE 2005.</bibl><bibl>E. Weber - I. Weber-Hiden, RŒ 30, 2007, 165, Nr. 30.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

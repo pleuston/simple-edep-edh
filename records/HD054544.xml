@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Salonae &amp;ndash; Solin (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD054544</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD054544</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Split, Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><dimensions unit="cm"><height>42</height><width>31</width><depth>7</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197488">Salonae</placeName></origPlace><origDate><origDate notBefore-custom="0301" notAfter-custom="0600" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">301 AD - 600 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1897"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3190359">Solin</placeName><placeName type="findspot"/><placeName type="region">Splitsko-dalmatinska županija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD054544_1" sex="W"><persName><name type="nomen">Aurelia*</name><name type="cognomen">Messia</name></persName></person><person xml:id="HD054544_2" sex="M"><persName><name type="praenomen">Q.</name><name type="nomen">Pr(---)</name><name type="cognomen">Uranius*?</name></persName></person><person xml:id="HD054544_3" sex="M"><persName><name type="cognomen">Criscentio (= Crescentio)</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-02-09" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F033601" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/c49837fd-80e6-464c-8db0-f297eee94c6a/file/id/794408/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>Aur</abbr><ex>elia</ex></expan> Messia fi<lb break="no" n="2"/>lio defun<expan><ex>c</ex><abbr>to</abbr></expan> rap<expan><ex>t</ex><abbr>u</abbr><ex>s</ex></expan> <lb n="3"/>es<surplus>s</surplus>t p<expan><ex>o</ex><abbr>s</abbr><ex>i</ex><abbr>t</abbr></expan>(um) <expan><abbr>arb</abbr><ex>itratu</ex></expan> <expan><abbr>Q</abbr><ex>uinti</ex></expan> <abbr>Pr</abbr> <lb n="4"/><expan><abbr>Ur</abbr><ex cert="low">a</ex>ni</expan> Criscentioni <note>sic</note> <lb n="5"/><expan><abbr>in</abbr><ex>fanti</ex></expan> <expan><abbr>an</abbr><ex>norum</ex></expan> XI
+            </ab></div></div>
+            <div type="commentary">
+                <p>Oberhalb der Inschrift Büste eines Knaben. Z. 1: Buchstaben D und M stehen links und rechts der Büste. Zeilenlinien für die Beschriftung. (B): Rinaldi Tufi: Z. 4: est.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>S. Rinaldi Tufi, MAL 16, 1971, 106-107, Nr. 27; tav. 8, 4. (B)</bibl><bibl>CIL 03, 08934.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

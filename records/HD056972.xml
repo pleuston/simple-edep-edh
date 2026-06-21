@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Barcino &amp;ndash; Barcelona (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD056972</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD056972</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">block</objectType><dimensions unit="cm"><height>40</height><width>80</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Hispania citerior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/246343">Barcino</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1800"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern" ref="http://www.geonames.org/3128760">Barcelona</placeName><placeName type="findspot">Calle de la Plazuela de S. Domingo, Haus des F. Avellà</placeName><placeName type="region">Cataluña</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD056972_1" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Fabius</name><name type="cognomen">Quietus</name></persName></person><person xml:id="HD056972_2" sex="M"><persName><name type="cognomen">Firmanus</name></persName></person><person xml:id="HD056972_3" sex="W"><persName><name type="nomen">Minicia</name><name type="cognomen">Iucunda</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-12-01" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>L</abbr><ex>ucius</ex></expan> Fabius Firmani <expan><abbr>l</abbr><ex>ibertus</ex></expan> <lb n="2"/>Quietus sibi et <lb n="3"/>Miniciae Iucundae
+            </ab></div>
+            <div type="commentary">
+                <p>Nur handschriftlich überliefert. Die Maße sind aus alten Angaben (&amp;quot;&amp;quot;Quatro palmos de largo y alto como dos palmos&amp;quot;&amp;quot;) umgerechnet.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IRC 4, 161; pl. 77, 161 (Zeichnung).</bibl><bibl>CIL 02, 04568.</bibl><bibl>ILER 5034.</bibl><bibl>S. Mariner Bigorra, Inscripciones romanas de Barcelona (Barcelona 1973) 144, Nr. 152.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

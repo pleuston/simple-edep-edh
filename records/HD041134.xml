@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mile-/leaguestone from San Cugat del Vallés (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD041134</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD041134</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Barcelona, Mus. Arq. Catalunya</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">mile-/leaguestone</objectType><dimensions unit="cm"><height>(58)</height><width>56</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">11-10</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Hispania citerior</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate when-custom="0044" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">44 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1932"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern">San Cugat del Vallés</placeName><placeName type="findspot">Monasterio</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>mile-/leaguestone</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD041134_1"><persName><name type="praenomen">Ti.</name><name type="nomen">Claudius*</name><name type="cognomen">Caesar Augustus Germanicus</name></persName></person><person xml:id="HD041134_2"><persName><name type="cognomen">Drusus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2018-11-29" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Tib</abbr><ex>erius</ex></expan> <expan><abbr>Claud</abbr><ex>ius</ex></expan> Drusi <expan><abbr>f</abbr><ex>ilius</ex></expan> <lb n="2"/>Caesar Augustus <lb n="3"/>Germanicus <supplied reason="lost">pontifex</supplied> <lb n="4"/><supplied reason="lost"><expan><abbr>max</abbr><ex>imus</ex></expan> <expan><abbr>tribunic</abbr><ex>ia</ex></expan> <expan><abbr>potest</abbr><ex>ate</ex></expan> IIII</supplied> <lb n="5"/><supplied reason="lost"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> III <expan><abbr>imp</abbr><ex>erator</ex></expan> VIII</supplied> <lb n="6"/><supplied reason="lost">pater patriae</supplied> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>J. Lostal Pros, Los miliarios de la provincia tarraconense (conventos tarraconense, cesaraugustano, cluniense y cartaginense) (Zaragoza 1992) 51-52, Nr. 45; fig. 31 (Zeichnung), lám. 28.</bibl><bibl>IRC 1, 180; pl. 66, 180.</bibl><bibl>IRC 5, p. 28.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

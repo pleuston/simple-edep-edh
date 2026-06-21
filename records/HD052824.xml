@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Defixio from Ratcliffe-on-Soar (Britannia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD052824</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD052824</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/108">Blei</material><dimensions unit="cm"><height>5</height><width>11</width><depth>0</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Britannia</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0400" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 400 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1990"><placeName type="country" ref="https://www.geonames.org/2635167">United Kingdom</placeName><placeName type="modern" ref="http://www.geonames.org/2639626">Ratcliffe-on-Soar</placeName><placeName type="findspot"/><placeName type="region">Nottinghamshire</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/76">defixio</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD052824_1" sex="M"><persName><name type="cognomen">Camulorix*</name></persName></person><person xml:id="HD052824_2" sex="W"><persName><name type="cognomen">Titocuna*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-04-16" who="Cowey">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Nomine <expan><abbr>Camulorigi</abbr><ex>s</ex></expan> et Titocun<expan><ex>a</ex><abbr>e</abbr></expan> molam quam perdederunt <note>sic</note> <lb n="2"/>in fanum <note>sic</note> dei devovi cuicumque num<supplied reason="lost">e</supplied>n <note>sic</note> involasit <note>sic</note> <lb n="3"/><expan><abbr>mola</abbr><ex>m</ex></expan> illam ut <expan><abbr>sanguin</abbr><ex>em</ex></expan> suum mittat usque diem quo <lb n="4"/>moriatur q<supplied reason="lost">ui</supplied>cumque invo<supplied reason="lost">l</supplied>a<supplied reason="lost">sit!</supplied> furta moriatur <lb n="5"/>et PAVLATORIAM quicumque <supplied reason="lost">illam</supplied> involasit <note>sic</note> <lb n="6"/>et ipse mo<supplied reason="lost">ri</supplied>atur <expan><abbr>quicumqu</abbr><ex>e</ex></expan> illam <lb n="7"/>involasit <note>sic</note> et VERTOGN de hospitio vel vissacio <note>sic</note> <lb n="8"/>quicumque illam involasit <note>sic</note> a devo <note>sic</note> mori<expan><ex>a</ex><abbr>tur</abbr></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Bleitafel. Schriftrichtung rechts nach links. Buchstaben spiegelverkehrt. Gebet für Gerechtigkeit.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1993, 1087.</bibl><bibl>M.W.C. Hassall - R.S.O. Tomlin, Britannia 24, 1993, 310-314, Nr. 2; fig. 2 (Zeichnung); pl. 15 A. - AE 1992.</bibl><bibl>A. Kropp, Defixiones. Ein aktuelles Corpus lateinischer Fluchtafeln (Speyer 2008) Nr. 3.19/3.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

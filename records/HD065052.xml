@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mile-/leaguestone from Klosterneuburg (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD065052</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD065052</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Klosterneuburg, Stiftsmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">mile-/leaguestone</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>117</height><width>57</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6-8</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118577"/></origPlace><origDate><origDate when-custom="0249" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">249 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1834"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2773913">Klosterneuburg</placeName><placeName type="findspot">{Stift Klosterneuburg, Kornhäuseltrakt}</placeName><placeName type="region">Niederösterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>mile-/leaguestone</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD065052_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Messius+ Decius+</name><name type="cognomen">Quintus+ Troianus+ (= Traianus+)</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-11-11" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>erator</ex></expan> <supplied reason="lost"><expan><abbr>Caes</abbr><ex>ar</ex></expan></supplied> <lb n="2"/><expan><abbr>C</abbr><ex>aius</ex></expan> M<supplied reason="lost">essius Qui</supplied>ntus <lb n="3"/>De<supplied reason="lost">cius T</supplied>roia<lb break="no" n="4"/>nu<supplied reason="lost">s! Augus</supplied><expan><abbr>t</abbr><ex>us</ex></expan> pon<lb break="no" n="5"/>tif<supplied reason="lost">ex <expan><abbr>max</abbr><ex>imus</ex></expan></supplied> <expan><abbr>trib</abbr><ex>unicia</ex></expan> <lb n="6"/>po<supplied reason="lost"><expan><abbr>test</abbr><ex>ate</ex></expan> c</supplied>o<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> <expan><abbr>pr</abbr><ex>o</ex></expan><lb break="no" n="7"/><expan><abbr>co</abbr><ex>n</ex></expan><supplied reason="lost"><expan><abbr>s</abbr><ex>ul</ex></expan> vias e</supplied>t <expan><abbr>pont</abbr><ex>es</ex></expan> <lb n="8"/>co<supplied reason="lost">nlaps</supplied>as re<lb break="no" n="9"/>st<supplied reason="lost">ituit a</supplied> <expan><abbr>Vind</abbr><ex>obona</ex></expan> <lb n="10"/><supplied reason="lost"><expan><abbr>m</abbr><ex>ilia</ex></expan> <expan><abbr>p</abbr><ex>assuum</ex></expan> <gap reason="lost" extent="unknown" unit="character"/></supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Reste von roter Farbe in den Buchstaben. (B): CIL 03, 05752; Ubl: kleinere Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 05752. (B)</bibl><bibl>CIL 03, 05752 add. p. 2200.</bibl><bibl>E. Weber, JŒAI 49, 1968-1971, 134-135, Nr. 12; Abb. 13.</bibl><bibl>H. Ubl, Das römische Lapidarium (Klosterneuburg 1991) 122-123, Nr. 32; Foto. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

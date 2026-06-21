@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from (Civitas Lingonum) &amp;ndash; Fénay (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD081297</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD081297</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Dijon, Mus. Arch.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material>Gesteine</material><dimensions unit="cm"><height>53</height><width>43</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="#">(Civitas Lingonum)</placeName></origPlace><origDate><origDate notBefore-custom="0501" notAfter-custom="0600" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">501 AD - 600 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1873"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/3018737">Fénay</placeName><placeName type="findspot">Les Combettes</placeName><placeName type="region">Bourgogne-Franche-Comté</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD081297_1" sex="W"><persName><name type="cognomen">Bauderisima</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-01-25" who="Osnabrügge">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Hic requiiscit <note>sic</note> bene <note>sic</note> memo<lb break="no" n="2"/>riae <expan><abbr>Bauderisima</abbr><ex cert="low"/></expan> puella <lb n="3"/>qui <note>sic</note> vixit annus <note>sic</note> <expan><abbr>dece</abbr><ex>m</ex></expan> se<lb break="no" n="4"/><expan><abbr>pte</abbr><ex>m</ex></expan> et requiivit <note>sic</note> in pa<lb break="no" n="5"/>ce in mensi <note>sic</note> Iulio di<lb break="no" n="6"/>&amp;lt;ae=EA&amp;gt; <note>sic</note> Sabato 
+            </ab></div>
+            <div type="commentary">
+                <p>Kreuzzeichen am Anfang von Z. 1.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 05463.</bibl><bibl>ILCV 3129.</bibl><bibl>M. Provost - R. Joly, in: M. Provost u. a. (Hrsg.), La Côte-d'Or d'Allerey à Normier, Carte archéologique de la Gaule 21, 2 (Paris 2009) 333.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

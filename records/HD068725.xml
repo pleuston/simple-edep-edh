@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Aquincum &amp;ndash; Budapest (Pannonia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD068725</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD068725</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Budapest, Aquincumi Múz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">stele?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(60)</height><width>(60)</width><depth>15</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197130">Aquincum</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/7284842">Budapest</placeName><placeName type="findspot">{Óbuda}</placeName><placeName type="region">Budapest</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD068725_1" sex="M"><persName><name type="praenomen">[-]?</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD068725_2" sex="M"><persName><name type="praenomen">Q.</name><name type="nomen">Sam[---]ius</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD068725_3" sex="W"><persName><name type="nomen">Claudia*</name><name type="cognomen">Tiberina*</name></persName></person><person xml:id="HD068725_4" sex="W"><persName><name type="nomen">Licinia*</name><name type="cognomen">Valentina*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-03-08" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>vix</abbr><ex>it</ex></expan> <expan><abbr>an</abbr><ex>nos</ex></expan></supplied> XLVI<gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <abbr>Q</abbr> Sam<gap reason="lost" extent="unknown" unit="character"/><lb break="no" n="3"/><gap reason="lost" extent="unknown" unit="character"/>ius Sirmi <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>leg</abbr><ex>ionis</ex></expan> II <expan><abbr>ad</abbr><ex>iutricis</ex></expan> <lb n="5"/><supplied reason="lost">co</supplied>niugi <expan><abbr>b</abbr><ex>ene</ex></expan> <expan><abbr>m</abbr><ex>erenti</ex></expan> et <lb n="6"/><supplied reason="lost" cert="low">si</supplied>bi et <expan><abbr>Cl</abbr><ex>audiae</ex></expan> Tiberin<expan><ex>a</ex><abbr>e</abbr></expan> <lb n="7"/><supplied reason="lost">et</supplied> <expan><abbr>Lic</abbr><ex>iniae</ex></expan> Valentin<expan><ex>a</ex><abbr>e</abbr></expan> <lb n="8"/><expan><abbr>nept</abbr><ex cert="low">ibus</ex></expan> <expan><abbr>v</abbr><ex>ivus</ex></expan> <expan><abbr>s</abbr><ex>ibi</ex></expan> <expan><abbr>f</abbr><ex cert="low">ecit</ex></expan> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 03563.</bibl><bibl>CIL 03, 10386.</bibl><bibl>TitAq 0753; Foto.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

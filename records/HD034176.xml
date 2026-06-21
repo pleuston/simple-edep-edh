@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Narona, bei &amp;ndash; Metković (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD034176</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD034176</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/210">cliff</objectType><dimensions unit="cm"><height>39</height><width>87</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197400">Narona, bei</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3187815">Metković</placeName><placeName type="findspot">{Vid, nördlich}</placeName><placeName type="region">Dubrovačko-neretvanska županija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD034176_1" sex="M"><persName><name type="praenomen">Sex.</name><name type="nomen">Herennius</name><name type="cognomen">Eros</name></persName></person><person xml:id="HD034176_2" sex="W"><persName><name type="nomen">Licinia</name><name type="cognomen">Iucunda</name></persName></person><person xml:id="HD034176_3" sex="W"><persName><name type="nomen">Herennia</name><name type="cognomen">Tyche*</name></persName></person><person xml:id="HD034176_4" sex="W"><persName><name type="nomen">Herennia</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-03-25" who="Feraudi">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Sex</abbr><ex>tus</ex></expan> Herennius <lb n="2"/><expan><abbr>Sex</abbr><ex>ti</ex></expan> <expan><abbr>l</abbr><ex>ibertus</ex></expan> Eros IIIIIIvir <lb n="3"/>Licinia <expan><abbr>Q</abbr><ex>uinti</ex></expan> <expan><abbr>f</abbr><ex>ilia</ex></expan> Iucunda <lb n="4"/>Herennia <expan><abbr>Sex</abbr><ex>ti</ex></expan> <expan><abbr>fil</abbr><ex>ia</ex></expan> Tyc<expan><ex>h</ex><abbr>e</abbr></expan> <lb n="5"/>Herennia <expan><abbr>Sex</abbr><ex>ti</ex></expan> <expan><abbr>lib</abbr><ex>erta</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Inschriftfeld in Form einer tabula ansata.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILJug 1888.</bibl><bibl>C. Patsch, Zur Geschichte und Topographie von Narona (Wien 1907) 37, Nr. 5; Fig. 17 (Zeichnung).</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

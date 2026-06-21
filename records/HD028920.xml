@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Voreda &amp;ndash; Plumpton (Britannia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD028920</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD028920</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>137</height><width>63</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Britannia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/89318">Voreda</placeName></origPlace><origDate><origDate notBefore-custom="0122" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">122 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1908"><placeName type="country" ref="https://www.geonames.org/2635167">United Kingdom</placeName><placeName type="modern">Plumpton</placeName><placeName type="findspot">{Lager, bei}</placeName><placeName type="region">Cumbria</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD028920_1" sex="M"><persName><name type="cognomen">Burcanius</name></persName></person><person xml:id="HD028920_2" sex="M"><persName><name type="cognomen">Arcavius</name></persName></person><person xml:id="HD028920_3" sex="M"><persName><name type="cognomen">Vagdavarcustus</name></persName></person><person xml:id="HD028920_4" sex="M"><persName><name type="cognomen">Pov[--]c[-]arus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-02-07" who="Cowey">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Omnibus <lb n="2"/>dibus Unse<lb break="no" n="3"/>nis Fersome<lb break="no" n="4"/>ris Burcanius <lb n="5"/>Arcavius Vagda<lb break="no" n="6"/>varcustus Pov<supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied><lb break="no" n="7"/><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied>c<supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied>arus <expan><abbr>vex</abbr><ex>illationis</ex></expan> MA<lb break="no" n="8"/>VI <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">pr</supplied>o salute <lb n="9"/>sua et suorum <expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olverunt</ex></expan> <expan><abbr>l</abbr><ex>ibentes</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Zu den Leseabweichungen s. RIB 0926.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>EphEp 9, p. 567 n. 1124. (B)</bibl><bibl>AE 1911, 0131. (B)</bibl><bibl>F. Haverfield, TC&amp;WAntArchS 11, 1911, 470-472; Nr. 2; Foto. (B)</bibl><bibl>RIB 0926; Zeichnung.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

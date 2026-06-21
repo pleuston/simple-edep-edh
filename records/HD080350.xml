@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Salodurum &amp;ndash; Solothurn (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD080350</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD080350</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Solothurn, Jesuitenkirche, Lapidarium</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">altar?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(60)</height><width>50</width><depth>27</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/177624">Salodurum</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1762"><placeName type="country" ref="https://www.geonames.org/2658434">Switzerland</placeName><placeName type="modern" ref="http://www.geonames.org/2658564">Solothurn</placeName><placeName type="findspot">{S. Urs und Vickor, Kathedrale}, sekundär verwendet</placeName><placeName type="region">Kanton Solothurn</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD080350_1" sex="M"><persName><name type="cognomen">Pardulianus+</name></persName></person><person xml:id="HD080350_2" sex="M"><persName><name type="cognomen">Riparus</name></persName></person><person xml:id="HD080350_3" sex="W"><persName><name type="cognomen">Quieta</name></persName></person><person xml:id="HD080350_4" sex="M"><persName><name type="cognomen">Principalis</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-07-31" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F036984" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/9789a844-c47a-4ed4-8edb-f6ade74ad309/file/id/797845/file_version/name/small"/><graphic xml:id="F038804" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/1b96ef3b-7818-4d8a-ad64-74527d644cb2/file/id/799677/file_version/name/small"/><graphic xml:id="F038805" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/c6698bba-e42c-4e95-82d8-c550180a4171/file/id/799678/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <supplied reason="lost"><expan><abbr>M</abbr><ex>anibus</ex></expan></supplied> <lb n="2"/>Pardu<supplied reason="lost">liani</supplied> <lb n="3"/>Ripari f<supplied reason="lost">ilii</supplied> <lb n="4"/><expan><abbr>q</abbr><ex>ui</ex></expan> <expan><abbr>v</abbr><ex>ixit</ex></expan> <expan><abbr>n<am>n</am></abbr><ex>os</ex></expan> X<gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/>Qu<expan><ex>i</ex><abbr>eta</abbr></expan> mate<supplied reason="lost">r et</supplied> <lb n="6"/>Principalis fr<supplied reason="lost">a</supplied><lb break="no" n="7"/>ter et pater <expan><abbr>s</abbr><ex>upra</ex></expan> <expan><abbr>s</abbr><ex>criptus</ex></expan> <lb n="8"/><expan><abbr>f</abbr><ex>aciendum</ex></expan> <expan><abbr>c</abbr><ex>uraverunt</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Einige Buchstaben modern anchgemalt und nicht aud dem Stein zu sehen. (B): CIL 13, 05177: Z. 6: Princip[a]lis.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 05177. (B)</bibl><bibl>G. Walser, Römische Inschriften in der Schweiz 2 (Bern 1980) 48-49, Nr. 132; Foto.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

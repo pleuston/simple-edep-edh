@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Bingium, bei &amp;ndash; Bingen/Rhein (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD027409</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD027409</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bingen/Rhein, Saarlandstraße 182, vermauert</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material>Gesteine</material><dimensions unit="cm"><height>(125)</height><width>75</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/108809">Bingium, bei</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0130" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 130 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1834"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2942079">Bingen/Rhein</placeName><placeName type="findspot">Büdesheim, {Saarlandstraße 182}</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD027409_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Claudius</name><name type="cognomen">Secundinus*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-02-21" who="Gräf">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/><expan><abbr>C</abbr><ex>aio</ex></expan> Claudio Sec<lb break="no" n="3"/><expan><abbr>undin</abbr><ex>o</ex></expan> <expan><abbr>signif</abbr><ex>ero</ex></expan> ve<lb break="no" n="4"/><expan><abbr>ter</abbr><ex>ano</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> XXII <expan><abbr>Pri</abbr><ex>migeniae</ex></expan> <lb n="5"/><supplied reason="lost"><expan><abbr>p</abbr><ex>iae</ex></expan> <expan><abbr>f</abbr><ex>idelis</ex></expan></supplied> libra<supplied reason="lost">rii</supplied> et <lb n="6"/>co<supplied reason="lost"><expan><abbr>ll</abbr><ex>egium</ex></expan></supplied> <expan><abbr>tubic</abbr><ex>inum</ex></expan> milit<supplied reason="lost">um</supplied> <lb n="7"/><expan><abbr>Bing</abbr><ex>ensium</ex></expan> <supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied><expan><abbr>EPC</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Maßangaben nur ungefähr. Z. 3: zeichnerisch überliefert ist SIGNETVE. (B): Como: kleinere Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1920, 0050.</bibl><bibl>J. Como, Germania 1, 1917, 83-87; Zeichnung. (B) - AE 1920.</bibl><bibl>W. Boppert, Römische Steindenkmäler aus dem Landkreis Mainz-Bingen, CSIR Deutschland 2, 14 (Mainz 2005) 73-74, Nr. 32; Tafel 16, 32 (Zeichnung).</bibl><bibl>H. Finke, BRGK 17, 1927, 76-77, Nr. 232.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

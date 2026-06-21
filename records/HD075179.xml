@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Andematunnum (Civitas Lingonum) &amp;ndash; Langres (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD075179</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD075179</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Langres, Mus. Art Hist. (Mus. Guy-Baillet)</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(114)</height><width>60</width><depth>37</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.8</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/177441">Andematunnum (Civitas Lingonum)</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1845"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/3007680">Langres</placeName><placeName type="findspot">{Zitadelle}</placeName><placeName type="region">Grand Est</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD075179_1" sex="M"><persName><name type="cognomen">December</name></persName></person><person xml:id="HD075179_2" sex="M"><persName><name type="cognomen">Soicelasius</name></persName></person><person xml:id="HD075179_3" sex="W"><persName><name type="cognomen">Regina*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-02-17" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F040315" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/9885f1f4-f10f-4264-ae80-0c53f0701703/file/id/801197/file_version/name/small"/><graphic xml:id="F040314" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/4b9f0934-d958-4a97-b960-3ae775b63d99/file/id/801196/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> et memoriae De<lb break="no" n="2"/>cembris alum<lb break="no" n="3"/>ni et Soicelasi et <lb n="4"/>Regin<expan><ex>a</ex><abbr>e</abbr></expan> <expan><abbr>uxori</abbr><ex>s</ex></expan> vi<lb break="no" n="5"/>vi aedi<expan><ex>fi</ex><abbr>caver</abbr></expan><lb break="no" n="6"/><expan><abbr>u</abbr><ex>nt</ex></expan>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Oberhalb des Inschriftfeldes die Büsten einer Frau, eines Knaben und eines Mannes innerhalb einer Nische. Z. 1: D und M befinden sich in den Zwickeln über der Nische. (B): CIL 13, 05752: Z. 4: Soigelasi; CIL 13, 05752; Le Bohec; Mander: Z. 7: nicht gelesen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 05752.</bibl><bibl>J. Mander, Portraits of children on Roman funerary monuments (Cambridge 2013) 250-251, Nr. 427; fig. 119. (B)</bibl><bibl>Y. Le Bohec, Inscriptions de la cité des Lingons. Inscriptions sur pierre (Paris 2003) 253-254, Nr. 448; Foto. (B)</bibl><bibl>M. Joly, Langres, Carte archéologique de la Gaule 52, 2 (Paris 2001) 135.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

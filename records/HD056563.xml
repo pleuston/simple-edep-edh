@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Iuenna &amp;ndash; Globasnitz (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD056563</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD056563</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Globasnitz, Arch. Pilgermus. Hemmaberg-Juenna</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>33</height><width>(49)</width><depth>5</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197330">Iuenna</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1913"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2778467">Globasnitz</placeName><placeName type="findspot"/><placeName type="region">Kärnten</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD056563_1" sex="M"><persName><name type="cognomen">Vibius</name></persName></person><person xml:id="HD056563_2" sex="M"><persName><name type="cognomen">Vindex</name></persName></person><person xml:id="HD056563_3" sex="W"><persName><name type="cognomen">Tattu</name></persName></person><person xml:id="HD056563_4" sex="M"><persName><name type="cognomen">Varro*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2012-07-26" who="Krenn">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F022715" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/d4ecb2dc-ef5d-4c6c-adab-d64350bc3679/file/id/782881/file_version/name/small"/><graphic xml:id="F022716" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/0a22d337-f4d7-4171-a203-4b4125acf0fc/file/id/782882/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Vibio Vin<lb break="no" n="2"/>dicis <expan><abbr>fil</abbr><ex>io</ex></expan> <expan><abbr>an</abbr><ex>norum</ex></expan> XXX <lb n="3"/>Tattu Var<expan><ex>r</ex><abbr>onis</abbr></expan> <lb n="4"/><expan><abbr>f</abbr><ex>ilia</ex></expan> sibi et <expan><abbr>mari</abbr><ex>to</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Mehrere aneinanderpassende Fragmente erhalten. Z. 3 (Anfang): Buchstabe T in Form einer senkrechten Haste mit einer nach rechts führenden Querhaste in der Mitte. (B): Leber, Gerstl, Kremer: Z. 3: f(ecit) Attu Varonis; Leber: Z. 4: mari[to]; Gerstl, ILLPRON: Z. 4: mari[to ---].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILLPRON 0096. (B)</bibl><bibl>P.S. Leber, Die in Kärnten seit 1902 gefundenen römischen Steininschriften (Klagenfurt 1972) 126, Nr. 237. (B)</bibl><bibl>A. Gerstl, Supplementum epigraphicum zu CIL III für Kärnten und Osttirol 1902-1961 (Diss. Wien 1961) 38, Nr. 78. (B)</bibl><bibl>G. Kremer, Antike Grabbauten in Noricum (Wien 2001) 290, Nr. III 7a; Taf. 30, III 7a. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

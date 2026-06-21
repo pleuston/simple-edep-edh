@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Lovászpatona (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD039068</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD039068</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Nemesvámos, Baláca, Römerzeitlicher Gutshof</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>66</height><width>140</width><depth>13</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7.1-5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1792"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3048707">Lovászpatona</placeName><placeName type="findspot">Vicsepuszta, spätantikes Grab, sekundär verwendet</placeName><placeName type="region">Veszprém megye</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD039068_1" sex="M"><persName><name type="nomen">Claudius*</name><name type="cognomen">Galonius</name></persName></person><person xml:id="HD039068_2" sex="M"><persName><name type="nomen">Claudius</name><name type="cognomen">Nigrinus</name></persName></person><person xml:id="HD039068_3" sex="W"><persName><name type="nomen">Ulpia*</name><name type="cognomen">Finita</name></persName></person><person xml:id="HD039068_4" sex="W"><persName><name type="nomen">Claudia*</name><name type="cognomen">Gallonia</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-05-04" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Cl</abbr><ex>audio</ex></expan> Galonio <expan><abbr>an</abbr><ex>norum</ex></expan> XXV scri<lb break="no" n="2"/><expan><abbr>b</abbr><ex>ae</ex></expan> <expan><abbr>Mursel</abbr><ex>lae</ex></expan> hic situs est <lb n="3"/>et Claudio Nigrino <expan><abbr>n<am>n</am></abbr><ex>orum</ex></expan> <lb n="4"/>LXXXV et <expan><abbr>Ulp</abbr><ex>iae</ex></expan> Finitae <expan><abbr>an</abbr><ex>norum</ex></expan> LX <lb n="5"/><expan><abbr>Claud</abbr><ex>ia</ex></expan> Gallonia ob <expan><abbr>memor</abbr><ex>iam</ex></expan> <lb n="6"/>fratris et parentibus vivis <expan><abbr>f</abbr><ex>aciendum</ex></expan> <expan><abbr>c</abbr><ex>uravit</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Gefunden in Wiederverwendung für ein spätantikes Grab. (B): CIL III: Z. 1: Gallonio; RIU: Z. 6: parentibus f(aciendum) (aber in der Zeichnung richtig).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 04267. (B)</bibl><bibl>RIU 0372; Abb. 372 (Foto u. Zeichnung). (B)</bibl><bibl>S.K. Palágyi, Veszprém megye római kori kőfaragványainak gyűjteménye. Baláca, Római kori villagazdaság. Katalógus. Sammlung der römerzeitlichen Steindenkmäler im Komitat Veszprém. Baláca, Römerzeitlicher Gutshof. Katalog (Veszprém 2004) 31, Nr. 9; Foto.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

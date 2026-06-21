@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Celeia, bei &amp;ndash; Slovenska Bistrica (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD066803</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD066803</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Slovenska Bistrica, Veliko Tinje, S. Petra in Pavla, Kirche, Kirchhof, vermauert</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/214">sarcophagus</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor, weiß</material><dimensions unit="cm"><height>50</height><width>75</width><depth>60</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197206">Celeia, bei</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1888"><placeName type="country" ref="https://www.geonames.org/3190538">Slovenia</placeName><placeName type="modern" ref="http://www.geonames.org/3187922">Slovenska Bistrica</placeName><placeName type="findspot">Veliko Tinje, {Petra in Pavla, Kirche}, sekundär verwendet</placeName><placeName type="region">Podravska statistična regija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD066803_1" sex="M"><persName><name type="cognomen">Valentinus</name></persName></person><person xml:id="HD066803_2" sex="W"><persName><name type="cognomen">Ursula</name></persName></person><person xml:id="HD066803_3" sex="M"><persName><name type="cognomen">Ursus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-08-25" who="Cowey">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/>Valentinus <lb n="3"/><expan><abbr>li</abbr><ex>bertus</ex></expan> <expan><abbr>vi</abbr><ex>vus</ex></expan> <expan><abbr>fe</abbr><ex>cit</ex></expan> <expan><abbr>si</abbr><ex>bi</ex></expan> et <lb n="4"/><expan><abbr>sui</abbr><ex>s</ex></expan> Ursul<expan><ex>a</ex><abbr>e</abbr></expan> <lb n="5"/><expan><abbr>con</abbr><ex>iugi</ex></expan> <expan><abbr>car</abbr><ex>issimae</ex></expan> <expan><abbr>an</abbr><ex>norum</ex></expan> <lb n="6"/>XXV et <abbr>Ursi</abbr> <expan><abbr>fi</abbr><ex>lio</ex></expan> <lb n="7"/><expan><abbr>an</abbr><ex>norum</ex></expan> V
+            </ab></div>
+            <div type="commentary">
+                <p>(B): CIL 03, 11717: Z. 1 fehlt.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 11717. (B)</bibl><bibl>AIJ 088; Zeichnung.</bibl><bibl>ILLPRON 1925.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

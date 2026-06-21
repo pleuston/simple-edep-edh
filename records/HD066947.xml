@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Celeia, bei &amp;ndash; Slovenska Bistrica (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD066947</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD066947</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Slovenska Bistrica, Črešnjevec, S. Mihael, Pfarrkirche, bei</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/78">urn</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor, weiß</material><dimensions unit="cm"><height>(42)</height><width>(46)</width><depth>(35)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-3.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197206">Celeia, bei</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1858"><placeName type="country" ref="https://www.geonames.org/3190538">Slovenia</placeName><placeName type="modern" ref="http://www.geonames.org/3202517">Slovenska Bistrica</placeName><placeName type="findspot">Črešnjevec, {S. Mihael, Pfarrkirche}, Kirchhof, sekundär verwendet</placeName><placeName type="region">Podravska statistična regija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD066947_1"><persName><name type="nomen">Max[---]?</name><name type="cognomen">Max[---]?</name></persName></person><person xml:id="HD066947_2"><persName><name type="nomen">Ma[---]?</name><name type="cognomen">Ma[---]?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-07-23" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>MaX</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/>@(obit-) <expan><abbr>an</abbr><ex>norum</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/>et Ma<gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/>infe<supplied reason="lost">licissim</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/>eoru<supplied reason="lost">m</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="6"/>AMTIA<gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Fragment von der Vorderseite einer Aschenkiste; links des Inschriftfeldes Rest eines Reliefs. Höhe / Breite / Tiefe nach CIL 03-neu (in Vorbereitung; Bearbeiterin: J. Visočnik). CIL 03, p. 647 s. n. 5302: Inschrifttext irrtümlich als Lesevariante zur Inschrift CIL 03, 05302 angeführt. Mehrere Ligaturen. Z. 1: nur noch die untersten Buchstabenenden erhalten, bei X nur das linke untere cornu. (B): AIJ 084: Z. 5: eorum; Weber: Z. 4: in [---].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, p. 647 s. n. 5302.</bibl><bibl>AIJ 084; Zeichnung. (B)</bibl><bibl>AIJ 084 add. p. 4*.</bibl><bibl>ILLPRON 1760.</bibl><bibl>E. Weber, Die römerzeitlichen Inschriften der Steiermark (Graz 1969) 413-414, Nr. 366. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

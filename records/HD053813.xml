@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Klosterneuburg (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD053813</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD053813</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Klosterneuburg, Stiftsmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(10)</height><width>(78)</width><depth>26</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118577"/></origPlace><origDate><origDate notBefore-custom="0131" notAfter-custom="0170" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">131 AD - 170 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1982"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2773913">Klosterneuburg</placeName><placeName type="findspot">{Stift Klosterneuburg, Leopoldihof (Kuchelhof)}, römische Zisterne, sekundär verwendet</placeName><placeName type="region">Niederösterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD053813_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD053813_2" sex="M"><persName><name type="cognomen">Verus</name></persName></person><person xml:id="HD053813_3" sex="M"><persName><name type="cognomen">Praesens</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-05-04" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><expan><abbr>eq</abbr><ex>uiti</ex></expan> c<supplied reason="lost"><expan><abbr>oh</abbr><ex>ortis</ex></expan></supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><expan><abbr>an</abbr><ex>norum</ex></expan> XL <expan><abbr><supplied reason="lost">st</supplied>ip</abbr><ex>endiorum</ex></expan> XXII <lb n="3"/>Verus Praese<lb break="no" n="4"/>ntis <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>f</abbr><ex>aciendum</ex></expan> <expan><abbr>c</abbr><ex>uravit</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Zwei fast aneinanderpassende Fragmente erhalten. Inschriftfeld von Halbsäulen eingefasst. (B): Ubl; Weber - Selinger; AE 1992: Z. 2: stip.; Z. 5: h. f. c. Z. 1: nach Lőrincz entweder die cohors II Batavorum milliaria oder die cohors I Aelia milliara sagittaria zu ergänzen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1992, 1447. (B)</bibl><bibl>H. Ubl, Das römische Lapidarium (Klosterneuburg 1991) 117, Nr. 23. (B - AE 1992.</bibl><bibl>E. Weber - R. Selinger, RŒ 19/20, 1991/92, 218, Nr. 263. (B) - AE 1992.</bibl><bibl>B. Lőrincz, Die römischen Hilfstruppen in Pannonien während der Prinzipatszeit 1. Die Inschriften (Wien 2001) 301, Nr. 493.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

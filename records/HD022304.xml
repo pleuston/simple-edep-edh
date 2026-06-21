@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription? from Mogontiacum &amp;ndash; Mainz (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD022304</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD022304</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mainz, Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">architectural member?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><width>44</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3-2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109169">Mogontiacum</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0050" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 50 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1897"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2874225">Mainz</placeName><placeName type="findspot">{Breidenbacher Straße}, katholisches Lehrlingshaus</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription?</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD022304_1" sex="M"><persName ref="http://data.snapdrgn.net/person/9406"><name type="praenomen">L.</name><name type="nomen">Otacilius</name><name type="cognomen">Fabricius+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-06-06" who="Gräf">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>L</abbr><ex>ucius</ex></expan> Otacilius Fabriciu<supplied reason="lost">s <gap reason="lost" extent="unknown" unit="character"/> Xvir</supplied> <lb n="2"/><expan><abbr>stlitib</abbr><ex>us</ex></expan> <expan><abbr>iudic</abbr><ex>andis</ex></expan> <expan><abbr>trib</abbr><ex>unus</ex></expan> <expan><abbr>mil</abbr><ex>itum</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> X<supplied reason="lost" cert="low">--- quaestor ---</supplied> <lb n="3"/><expan><abbr>trib</abbr><ex>unus</ex></expan> <expan><abbr>pleb</abbr><ex>is</ex></expan> praetor <expan><abbr>leg</abbr><ex>atus</ex></expan> Ca<supplied reason="lost"><expan><abbr>es</abbr><ex>aris</ex></expan></supplied><gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Steinkugel; um ihre Mitte verläuft eine 7 cm breite Vertiefung, in welche ursprünglich wohl ein Metallband eingelegt war; oben und unten ist die Kugel abgeflacht, vielleicht weil sie in eine Architektur eingefügt war. Die Inschrift befindet sich auf der oberen Halbkugel; der erhaltene Teil der Inschrift ist 30 cm lang. (B): AE 1898: Z. 1: Fabricius; Z. 2: leg. V.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1898, 0068. (B)</bibl><bibl>CIL 13, 06809.</bibl><bibl>K. Körber, KWDZ 17, 1898, 1-3, Nr. 1. - AE 1898.</bibl><bibl>K. Körber, ZRheinGeschMainz 4, 1893-1905, 235-236, Nr. 116; Zeichnung.</bibl><bibl>PIR (2. Aufl.) O 173.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

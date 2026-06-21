@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Aguntum, bei &amp;ndash; Lavant (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD019735</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD019735</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Dölsach, Stribach, Aguntum Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">statue base</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(62)</height><width>(69)</width><depth>40</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/187265">Aguntum, bei</placeName></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1954"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2772820">Lavant</placeName><placeName type="findspot">Kirchbichl, {frühchristliche Bischofskirche, Aufgangsrampe}, sekundär verwendet</placeName><placeName type="region">Tirol</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD019735_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-05-20" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/>ordo A<supplied reason="lost">gu</supplied><lb break="no" n="2"/><expan><abbr>nt</abbr><ex>ensium</ex></expan> <expan><abbr>d</abbr><ex>evotus</ex></expan> <expan><abbr>n</abbr><ex>umini</ex></expan> <expan><abbr>m</abbr><ex>aiestatique</ex></expan> <lb n="3"/>eiius <note>sic</note>
+            </ab></div>
+            <div type="commentary">
+                <p>Das Erhaltene ist in mehrere Teile gebrochen. Falls vom linken Rand nichts erhalten sein sollte (auf den Fotos nicht eindeutig zu erkennen), möglicherweise auch: [--] ordo m[un(icipii)] / [Agu]nt(ensium) d(evotus) n(umini) m(aiestati)/q(ue) eiius(!). (B): Walde: Z. 3: eius.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1958, 0083.</bibl><bibl>F. Miltner, JŒAI (Beibl.) 43, 1956-1958, 98-99; Abb. 41; Abb. 44 (Zeichnung). - AE 1958.</bibl><bibl>R. Wedenig, Epigraphische Quellen zur städtischen Administration in Noricum (Klagenfurt 1997) 103-104, Nr. A 5; Taf. 1, A 5.</bibl><bibl>A. Gerstl, Supplementum epigraphicum zu CIL III für Kärnten und Osttirol 1902-1961 (Diss. Wien 1961) 109, Nr. 294.</bibl><bibl>E. Walde, in: G. Grabherr - B. Kainrath (Hrsg.), Die spätantike Höhensiedlung auf dem Kirchbichl von Lavant. Eine archäologische und archivalische Spurensuche (Innsbruck 2011) 454-455, Nr. 18; Foto. (B)</bibl><bibl>ILLPRON 1043.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

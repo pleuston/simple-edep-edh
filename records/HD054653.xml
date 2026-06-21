@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Konjic (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD054653</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD054653</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Sarajevo, Zem. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><dimensions unit="cm"><height>140</height><width>65</width><depth>20</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3277605">Bosnia and Herzegovina</placeName><placeName type="modern" ref="http://www.geonames.org/3344680">Konjic</placeName><placeName type="findspot">{Lisičići}, Bahnhof, bei, "Crkvina"</placeName><placeName type="region">Hercegovačko-neretvanski kanton</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD054653_1" sex="W"><persName><name type="cognomen">Posaulio</name></persName></person><person xml:id="HD054653_2" sex="M"><persName><name type="cognomen">Iacus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-04-26" who="Gräf">checked through squeeze</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/>Posaul<lb break="no" n="3"/>ionis Ia<lb break="no" n="4"/>ci filiae <lb n="5"/>piissim<expan><ex>a</ex><abbr>e</abbr></expan> <lb n="6"/><expan><abbr>def</abbr><ex>unctae</ex></expan> <expan><abbr>an</abbr><ex>norum</ex></expan> XX <lb n="7"/><expan><abbr>p</abbr><ex>arentes</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Oberhalb des Inschriftfeldes Giebel mit Rosette; in den Zwickeln darüber je ein Delphin. Z. 3: Der Buchstabe vor O und A ähnelt einem Y und gibt nach Patsch wohl einen einheimischen Laut wieder. (B): Patsch, AEM; CIL III 12774: Z. 5: piissimae (AE-Ligatur).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 12774. (B)</bibl><bibl>CIL 03, 13866.</bibl><bibl>K. Patsch, AEM 16, 1893, 83, Nr. 5. (B)</bibl><bibl>C. Patsch, WMBH 4 1896, 267, Nr. 1; Fig. 36 (Zeichnung).</bibl><bibl>G. Alföldy, Die Personennamen in der römischen Provinz Dalmatia (Heidelberg 1969) 269.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

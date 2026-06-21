@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Poetovio &amp;ndash; Hajdina (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD071858</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD071858</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Ptuj, Pokrajinski Muz. Ptuj-Ormož</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>65</height><width>20</width><depth>(15)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197446">Poetovio</placeName></origPlace><origDate><origDate notBefore-custom="0131" notAfter-custom="0170" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">131 AD - 170 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1901"><placeName type="country" ref="https://www.geonames.org/3190538">Slovenia</placeName><placeName type="modern" ref="http://www.geonames.org/3190249">Hajdina</placeName><placeName type="findspot">Spodnja Hajdina, Parzelle Nr. 882 (alter Katasterplan), {Mithraeum II}</placeName><placeName type="region">Podravska statistična regija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD071858_1" sex="M"><persName ref="http://romans1by1.com/rpeople/17752"><name type="cognomen">Epictetus</name></persName></person><person xml:id="HD071858_2" sex="M"><persName ref="http://romans1by1.com/rpeople/17753"/></person><person xml:id="HD071858_3" sex="M"><persName><name type="cognomen">Servandus</name></persName></person><person xml:id="HD071858_4" sex="M"><persName ref="http://romans1by1.com/rpeople/13533"><name type="praenomen">Q.</name><name type="nomen">Sabinius</name><name type="cognomen">Veranus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-03-02" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Fonti <lb n="2"/>Perenni <lb n="3"/>Epictetus <lb n="4"/>et Viator <lb n="5"/>Servandi <lb n="6"/><expan><abbr>Q</abbr><ex>uinti</ex></expan> Sabini Veran<supplied reason="lost">i</supplied> <lb n="7"/><expan><abbr>t</abbr><ex>ertiae</ex></expan> <expan><abbr>p</abbr><ex>artis</ex></expan> <expan><abbr>c</abbr><ex>onductoris</ex></expan> <expan><abbr>p</abbr><ex>ublici</ex></expan> <expan><abbr>p</abbr><ex>ortorii</ex></expan> vilici <lb n="8"/><expan><abbr>vicari</abbr><ex>i</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): CIL 03, 15184, 24; CIMRM 1533; Fitz; Selem: Z. 6: Verani (mit NI-Ligatur).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 15184, 24. (B)</bibl><bibl>CIMRM 1533. (B)</bibl><bibl>J. Fitz, Die Verwaltung Pannoniens in der Römerzeit (Budapest 1993) 722, Nr. 398, 6. (B)</bibl><bibl>P. Selem, Les religions orientales dans la Pannonie romaine. Partie en Yougoslavie (Leiden 1980) 107, Nr. 44. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

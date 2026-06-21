@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Praetorium Agrippinae &amp;ndash; Katwijk (Germania inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD018216</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD018216</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(22)</height><width>(36)</width><depth>(14)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.1-7.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/99021">Praetorium Agrippinae</placeName></origPlace><origDate><origDate notBefore-custom="0116" notAfter-custom="0117" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">116 AD - 117 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1987"><placeName type="country" ref="https://www.geonames.org/2750405">Netherlands</placeName><placeName type="modern" ref="http://www.geonames.org/2745872">Katwijk</placeName><placeName type="findspot">{Valkenburg}</placeName><placeName type="region">Zuid-Holland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD018216_1" sex="M"><persName><name type="cognomen">Nerva+ Traianus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-12-11" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Imp</abbr><ex>erator-</ex></expan> Caesar<gap reason="lost" quantity="1" unit="character"/></supplied> <lb n="2"/><supplied reason="lost">divi Nervae <expan><abbr>f</abbr><ex>ilio</ex></expan></supplied> <lb n="3"/><supplied reason="lost">Nerva<gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/> Traiano</supplied> <lb n="4"/><supplied reason="lost"><expan><abbr>Aug</abbr><ex>usto</ex></expan></supplied> Ge<supplied reason="lost"><expan><abbr>r</abbr><ex>manico</ex></expan> Dacico</supplied> <lb n="5"/><supplied reason="lost">Parthi</supplied>co pon<supplied reason="lost"><expan><abbr>t</abbr><ex>ific-</ex></expan> <expan><abbr>max</abbr><ex>imo</ex></expan></supplied> <lb n="6"/><supplied reason="lost"><expan><abbr>coh</abbr><ex>ors</ex></expan></supplied> IIII Th<supplied reason="lost"><expan><abbr>rac</abbr><ex>um</ex></expan> <expan><abbr>p</abbr><ex>ia</ex></expan> <expan><abbr>f</abbr><ex>idelis</ex></expan></supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Material: Lothringischer Kalkstein. (B): AE 1989, Reuter: letzte Zeile: Th/rac(um) ..., Th/racum ... .</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1989, 0559. (B)</bibl><bibl>AE 1995, 0045.</bibl><bibl>J.E. Bogaers, in: E.J. Bult - D.P. Hallewas (Hrsg.), Graven bij Valkenbug III.</bibl><bibl>Het archeologisch onderzoek in 1987 en 1988 (Delft 1990) 53-56; Afb. 31. - AE 1989.</bibl><bibl>M. Reuter, SJ 48, 1995, 30, Nr. 27. (B) - AE 1995.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

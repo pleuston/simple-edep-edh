@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Brigetio &amp;ndash; Komárom (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD039215</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD039215</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>50</height><width>(39)</width><depth>5</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197180">Brigetio</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3044294">Komárom</placeName><placeName type="findspot">{Szőny}</placeName><placeName type="region">Komárom-Esztergom megye</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD039215_1" sex="W"><persName ref="http://romans1by1.com/rpeople/18045"><name type="nomen">Claudia</name><name type="cognomen">Pia+?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-03-16" who="Gräf">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Deo M<supplied reason="lost">agno</supplied> <lb n="2"/>Aeter<supplied reason="lost">no synago</supplied><lb break="no" n="3"/>gam pr<supplied reason="lost">oseucham</supplied> <lb n="4"/>a <supplied reason="lost">solo</supplied> <lb n="5"/>Claudia P<supplied reason="lost">ia<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="6"/>OVE pecun<supplied reason="lost">ia sua</supplied> <lb n="7"/>fecit ex v<supplied reason="lost">oto</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Z. 5/6: möglicherweise P[ia pro se suis]/que. Z. 2-5: Ergänzungsvorschlag weitgehend nach Tóth; Z. 5/6: Tóth: P[ia? filio]/que(?). Z. 2-6: Ergänzungsvorschlag Gáspár: domum lon]/gam pr[o se et suis] / A[urelia] / Claudia P[ia filio]/que.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1995, 1257.</bibl><bibl>AE 2008, 1089.</bibl><bibl>AE 2008, 1090.</bibl><bibl>CIL 03, 10998.</bibl><bibl>RIU 0440.</bibl><bibl>I. Tóth, ActaMusPap 5, 1995, 161-168, Nr. 3; kép. 3, 2 (Zeichnung). - AE 1995.</bibl><bibl>D. Gáspár, Christianity in Roman Pannonia. An evaluation of early Christian finds and sites from Hungary (Oxford 2002) 128-129; fig. 364b (Zeichnung). - AE 2008, 1089.</bibl><bibl>T. Grüll, in: Á. Szabó - P. Vargyas (Hrsg.), De rebus aetatis Graecorum et Romanorum. In memoriam István Tóth (Budapest 2008) 151-161; fig. 2 (Zeichnung). - AE 2008, 1090.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Savaria, bei &amp;ndash; Rotenturm/Pinka (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD074995</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD074995</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Eisenstadt, Landesmus. Burgenland</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(37)</height><width>(44)</width><depth>12</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197498">Savaria, bei</placeName></origPlace><origDate><origDate notBefore-custom="0171" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD - 230 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1926"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2767111">Rotenturm/Pinka</placeName><placeName type="findspot"/><placeName type="region">Burgenland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD074995_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]I(?)[-]o[-]etus</name></persName></person><person xml:id="HD074995_2" sex="W"><persName ref="http://romans1by1.com/rpeople/17737"><name type="cognomen">[--]mmunis</name></persName></person><person xml:id="HD074995_3" sex="M"><persName><name type="cognomen">Saturninus+</name></persName></person><person xml:id="HD074995_4" sex="M"><persName ref="http://romans1by1.com/rpeople/17738"><name type="cognomen">Sennus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-03-30" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>I</abbr><ex cert="low"/></expan><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied>o<supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied>eto <lb n="2"/><supplied reason="lost">et <gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied>mmuni Saturn<lb break="no" n="3"/><supplied reason="lost">ini</supplied> <expan><abbr>f</abbr><ex>iliae</ex></expan> coniugi <expan><abbr>an</abbr><ex>norum</ex></expan> <lb n="4"/><supplied reason="lost">et</supplied> Senno patri <expan><abbr>an</abbr><ex>norum</ex></expan> <lb n="5"/><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied>V <expan><abbr>fili</abbr><ex>i</ex></expan> <expan><abbr>p</abbr><ex>arentibus</ex></expan> <expan><abbr>p</abbr><ex>ientissimis</ex></expan> <expan><abbr>f</abbr><ex>ecerunt</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Lesung und Ergänzung nach lupa 3765 auf der Grundlage von I. Weber-Hiden, CIL 03 (2. Aufl.). (B): Hild; Tóth: Lesung abweichend / unvollständig.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>F. Hild, Supplementum epigraphicum zu CIL III. Das pannonische Niederösterreich, Burgenland und Wien 1902-1968 (Diss. Wien 1968) 243-244, Nr. 391. (B)</bibl><bibl>E. Tóth, Lapidarium Savariense. Savaria római feliratos kőemlékei (Szombathely 2011) 260, Nr. 235. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

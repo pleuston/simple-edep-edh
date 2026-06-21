@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Brigetio &amp;ndash; Komárom (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD039425</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD039425</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">honorific/grave/votive column?</objectType><material>Gesteine</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197180">Brigetio</placeName></origPlace><origDate><origDate notBefore-custom="0171" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1865"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3044294">Komárom</placeName><placeName type="findspot">{Szőny}</placeName><placeName type="region">Komárom-Esztergom megye</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD039425_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD039425_2" sex="M"><persName ref="http://romans1by1.com/rpeople/18111"><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">Marinus</name></persName></person><person xml:id="HD039425_3" sex="W"><persName ref="http://romans1by1.com/rpeople/18112"><name type="nomen">Aurelia*</name><name type="cognomen">Marina+</name></persName></person><person xml:id="HD039425_4"><persName ref="http://romans1by1.com/rpeople/18113"><name type="nomen">Aelius/a*</name><name type="cognomen">Sa[---]</name></persName></person><person xml:id="HD039425_5"><persName ref="http://romans1by1.com/rpeople/18114"><name type="nomen">Aelius/a*</name><name type="cognomen">Sabinianus/a+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-05-04" who="Gräf">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> Marinus stra<supplied reason="lost"><expan><abbr>t</abbr><ex>or</ex></expan></supplied> <expan><abbr>leg</abbr><ex>ati</ex></expan> <lb n="2"/><supplied reason="lost"><expan><abbr>leg</abbr><ex>ionis</ex></expan> I a</supplied><expan><abbr>di</abbr><ex>utricis</ex></expan> fra<supplied reason="lost">t</supplied>ri pientis<lb break="no" n="3"/><expan><abbr><supplied reason="lost">si</supplied>m</abbr><ex>o</ex></expan> <expan><abbr>cura</abbr><ex>ntibus</ex></expan> <expan><abbr>Aur</abbr><ex>elia</ex></expan> Ma<lb break="no" n="4"/><supplied reason="lost">rina c</supplied>on<supplied reason="lost">i</supplied>uge et <expan><abbr>Ael</abbr><ex>i-</ex></expan> Sa<gap reason="lost" extent="unknown" unit="character"/>ne et <expan><abbr>Ael</abbr><ex>i-</ex></expan> Sabinia<lb break="no" n="5"/><supplied reason="lost">n<gap reason="lost" quantity="1" unit="character"/> v</supplied>ivus fecit
+            </ab></div>
+            <div type="commentary">
+                <p>Verschollen. CIL III: &amp;quot;&amp;quot;in fracta columna&amp;quot;&amp;quot;; möglicherweise ein Rundaltar(?). Lesungsvorschlag nach CIL III. Z. 1 (Ende): SIRA ET G; Z. 2 (Anfang): VI FRA FI; Z. 4: ONVGI. Die Zeilenfälle können auch etwas anders liegen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>RIU 0531.</bibl><bibl>CIL 03, 04317.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

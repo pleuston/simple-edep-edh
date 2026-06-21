@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from (Civitas Lingonum) &amp;ndash; Pothières (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD081681</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD081681</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="#">(Civitas Lingonum)</placeName></origPlace><origDate><origDate notBefore-custom="0461" notAfter-custom="0482" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">461 AD - 482 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1850"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/2985904">Pothières</placeName><placeName type="findspot">{Kirche}, sekundär verwendet</placeName><placeName type="region">Bourgogne-Franche-Comté</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD081681_1" sex="W"><persName><name type="cognomen">Bert}---]</name></persName></person><person xml:id="HD081681_2" sex="M"><persName><name type="cognomen">Severinus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-10-07" who="Osnabrügge">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Bert<gap reason="lost" extent="unknown" unit="character"/> hoc <surplus>h</surplus>ordine res<gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/>cum petere optassem sancta sepulcra prior <lb n="3"/><supplied reason="lost">felix</supplied> o nimium tanti si munere voti <lb n="4"/><supplied reason="lost">liq</supplied>uissem natos incolumemque virum <lb n="5"/>sic quia progenitis superest e quattuor unus <lb n="6"/><supplied reason="lost">de</supplied>precor hic sa<expan><ex>l</ex><abbr>tim</abbr></expan> vivat ut <surplus>h</surplus>ossa colat <lb n="7"/>inlustris fem&amp;lt;i=E&amp;gt;na hic ena<gap reason="lost" extent="unknown" unit="character"/> <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/>to X <expan><abbr>Kal</abbr><ex>endas</ex></expan> Maias Severino <expan><abbr>v</abbr><ex>iro</ex></expan> <expan><abbr>c</abbr><ex>larissimo</ex></expan> c<expan><ex>on</ex><abbr>s</abbr><ex>u</ex><abbr>l</abbr></expan>(e!) <lb n="9"/>annos quinquaginta et duos 
+            </ab></div>
+            <div type="commentary">
+                <p>461 (Cos. Fl. Severinus, PLRE Severinus 5) oder 482 (Cos. Severinus iunior, PLRE Severinus 3). Metrik: Elegisches Distichon; Z. 6: Zitat aus Mart. 1,114,6.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 05657.</bibl><bibl>CIL 13, 04, 05657 add. p. 74 CLE 2118. (B)</bibl><bibl>ILCV 220.</bibl><bibl>M. Provost, in: M. Provost u. a. (Hrsg.), La Côte-d'Or de Nuits-Saint-Georges à Voulaines-les-Templiers, Carte archéologique de la Gaule 21, 3 (Paris 2009) 70.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

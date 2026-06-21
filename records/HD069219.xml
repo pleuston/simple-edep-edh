@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Aquincum &amp;ndash; Budapest (Pannonia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD069219</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD069219</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Budapest, Aquincumi Múz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(130)</height><width>96</width><depth>17</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.8-4.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197130">Aquincum</placeName></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0130" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 130 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1894"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/7284842">Budapest</placeName><placeName type="findspot">Óbuda, {Bécsi út 343}-363</placeName><placeName type="region">Budapest</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD069219_1" sex="M"><persName><name type="nomen">0?</name><name type="cognomen">[---]ucus</name></persName></person><person xml:id="HD069219_2" sex="M"><persName><name type="cognomen">Ata*</name></persName></person><person xml:id="HD069219_3" sex="W"><persName><name type="cognomen">Lucita*</name></persName></person><person xml:id="HD069219_4" sex="M"><persName><name type="cognomen">Kapito</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-12-30" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F018838" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/ce2941a1-2f7a-4245-8fd8-b977d3243988/file/id/778910/file_version/name/small"/><graphic xml:id="F018836" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/75338789-0b0a-4196-9b84-116b145f6293/file/id/778908/file_version/name/small"/><graphic xml:id="F018837" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/f5f2153a-f65a-42f6-a8b6-5b08e8f6c109/file/id/778909/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <gap reason="lost" extent="unknown" unit="character"/>ucus At<expan><ex>a</ex><abbr>e</abbr></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> viv<expan><ex>u</ex><abbr>s</abbr></expan> sibi <expan><abbr>t</abbr><ex>itulum</ex></expan> <expan><abbr>p</abbr><ex>osuit</ex></expan> <lb n="2"/><supplied reason="lost">et</supplied> coniugi Lucit<expan><ex>a</ex><abbr>e</abbr></expan> <lb n="3"/>Kapitonis f<expan><ex>i</ex><abbr>lia</abbr></expan> <gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>an</abbr><ex>norum</ex></expan> XXXX <gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 14351.</bibl><bibl>TitAq 0797; Fotos.</bibl><bibl>Z. Visy, Die Wagendarstellungen der pannonischen Grabsteine (Pécs 1996) 27-28, Nr. 30.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

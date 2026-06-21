@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Borbetomagus (Civitas Vangionum) &amp;ndash; Worms (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD078411</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD078411</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/214">sarcophagus</objectType><dimensions unit="cm"><width>220</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/108820">Borbetomagus (Civitas Vangionum)</placeName></origPlace><origDate><origDate notBefore-custom="0171" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1547"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2806142">Worms</placeName><placeName type="findspot">{Schildergasse?} (S. Ulrich, ehemalige Kapelle)</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD078411_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Candidius</name><name type="cognomen">Martinus</name></persName></person><person xml:id="HD078411_2" sex="W"><persName><name type="nomen">Severia</name><name type="cognomen">Severa</name></persName></person><person xml:id="HD078411_3" sex="W"><persName><name type="nomen">Candidia</name><name type="cognomen">Dignilla</name><name type="supernomen">sive Martinia</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-02-24" who="Osnabrügge">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>C</abbr><ex>aio</ex></expan> Candidio Martino IIIIII<lb break="no" n="2"/><expan><abbr>vir</abbr><ex>o</ex></expan> Augustali <expan><abbr>c</abbr><ex>ivi</ex></expan> Sen<supplied reason="lost" cert="low">t</supplied>io <lb n="3"/>Severia Severa coniux <lb n="4"/>et Candidia sive Marti<lb break="no" n="5"/>nia Dignilla filia <expan><abbr>fac</abbr><ex>iendum</ex></expan> <lb n="6"/><expan><abbr>cur</abbr><ex>averunt</ex></expan>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Breite aus alten Maßen (&amp;quot;&amp;quot;tumba spithamas XI [circ. m. 2,20]&amp;quot;&amp;quot;, CIL 13, 06243) rekonstruiert. Z. 1 flankiert gesperrt das Inschriftfeld.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 06243.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

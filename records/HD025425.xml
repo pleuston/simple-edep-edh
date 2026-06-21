@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Defixio from Isca Silurum &amp;ndash; Caerleon (Britannia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD025425</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD025425</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Caerleon, Nat. Rom. Leg. Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/108">Blei</material><dimensions unit="cm"><height>7</height><width>8</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Britannia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/79532">Isca Silurum</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1927"><placeName type="country" ref="https://www.geonames.org/2635167">United Kingdom</placeName><placeName type="modern" ref="http://www.geonames.org/2654093">Caerleon</placeName><placeName type="findspot">{Amphitheater, nördliche Arena}</placeName><placeName type="region">Gwent</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/76">defixio</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-03-11" who="Cowey">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Dom<expan><ex>i</ex><abbr>na</abbr></expan> Ne<lb break="no" n="2"/>mesis do ti<lb break="no" n="3"/>bi palleum <note>sic</note> <lb n="4"/>et galliculas <lb n="5"/>qui tulit non <lb n="6"/>redimat ni <lb n="7"/>vita sanguinei <lb n="8"/>suo
+            </ab></div>
+            <div type="commentary">
+                <p>Bleitafel. Tabula ansata (gebrochen). (B): Leichte Leseabweichungen. Gebet für Gerechtigkeit.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1929, 0046. (B)</bibl><bibl>R.G. Collingwood, Archeologia 78, 1928, 158-159; Nr. 10; fig. 12, 10 (Zeichnung) - AE 1929. (B)</bibl><bibl>AE 1929, p. 34 s. n. 129.</bibl><bibl>AE 1931, 0069. (B)</bibl><bibl>A. Oxé, Germania 15, 1931, 16-19; Zeichnung. - AE 1931. (B)</bibl><bibl>RIB 0323; Zeichnung.</bibl><bibl>A. Kropp, Defixiones. Ein aktuelles Corpus lateinischer Fluchtafeln (Speyer 2008) Nr. 3.6/1.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

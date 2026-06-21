@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Nida (Civitas Taunensium) &amp;ndash; Frankfurt/Main (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD059861</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD059861</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Wiesbaden, Mus. Wiesbaden</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/16">Basalt</material><dimensions unit="cm"><height>(60)</height><width>54</width><depth>8</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.0</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109205">Nida (Civitas Taunensium)</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1822"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2908403">Frankfurt/Main</placeName><placeName type="findspot">{Heddernheim}</placeName><placeName type="region">Hessen</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD059861_1" sex="M"><persName><name type="nomen">[---]ialius</name><name type="cognomen">[---]tatus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-09-11" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F039895" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/b25e729b-b5ab-492f-84b8-4f381f1f1c53/file/id/800775/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>In</abbr><ex cert="low"/></expan> <supplied reason="lost" cert="low">h(onorem)? d(omus)? d(ivinae)</supplied> <lb n="2"/>Gen<supplied reason="lost">io c</supplied><expan><abbr>olleg</abbr><ex>ii</ex></expan> <lb n="3"/><expan><abbr><supplied reason="lost">fabro</supplied>r</abbr><ex>um</ex></expan> <expan><abbr>tign</abbr><ex>ariorum</ex></expan> <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>I</abbr><ex cert="low"/>alius</expan> <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/>tatus <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">d</supplied>e suo <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/>it
+            </ab></div>
+            <div type="commentary">
+                <p>Drei Fragmente, davon zwei aneinanderpassend. Höhe und Breite beziehen sich auf die die rekonstruierten Zustand im Museum. (B): CIL 13, 07371; Grönke: Abweichungen in Lesung / Ergänzung. Autopsie R. Wiegels.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 07371. (B)</bibl><bibl>E. Grönke, Die römischen Steindenkmäler im Städtischen Museum Wiesbaden (Frankfurt/Main 1982) 63-64, Nr. 65. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

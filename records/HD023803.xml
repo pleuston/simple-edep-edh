@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Camulodunum &amp;ndash; Colchester (Britannia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD023803</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD023803</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Colchester, Colchester Castle Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/70">Oolith</material><dimensions unit="cm"><height>239</height><width>76</width><depth>26</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4-6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Britannia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/79393">Camulodunum</placeName></origPlace><origDate><origDate notBefore-custom="0043" notAfter-custom="0049" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">43 AD - 49 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1928"><placeName type="country" ref="https://www.geonames.org/2635167">United Kingdom</placeName><placeName type="modern" ref="http://www.geonames.org/2652618">Colchester</placeName><placeName type="findspot">{Beverley Road, westlich von}</placeName><placeName type="region">Essex</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD023803_1" sex="M"><persName><name type="cognomen">Longinus Sdapeze</name></persName></person><person xml:id="HD023803_2" sex="M"><persName><name type="cognomen">Matygus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-03-02" who="Cowey">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Longinus Sdapeze<lb break="no" n="2"/>matygi <expan><abbr>f</abbr><ex>ilius</ex></expan> duplicarius <lb n="3"/>ala prima T<expan><ex>h</ex><abbr>racum</abbr></expan> pago <lb n="4"/>Sardica <expan><abbr>n<am>n</am></abbr><ex>orum</ex></expan> XL <expan><abbr>aeror</abbr><ex>um</ex></expan> XV <lb n="5"/>heres exs <note>sic</note> <expan><abbr>testam</abbr><ex>ento</ex></expan> <supplied reason="lost"><expan><abbr>f</abbr><ex>aciendum</ex></expan></supplied> <expan><abbr>c</abbr><ex>uravit</ex></expan> <lb n="6"/><expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>itus</ex></expan> <expan><abbr>e</abbr><ex>st</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1928, 0156.</bibl><bibl>R.G. Collingwood - M.V. Taylor, JRS 18, 1928, 212-213, Nr. 5; pl. 23.</bibl><bibl>AE 1929, p. 10 s. n. 34.</bibl><bibl>RIB 0201; Foto.</bibl><bibl>AE 2002, 0888.</bibl><bibl>S. Perea Yébenes, Aquila legionis 2, 2002, 102-105; Foto. - AE 2002.</bibl><bibl>J. Huskinson, Roman sculpture from Eastern England, CSIR Great Britain 1, 8 (Oxford 1994) 23-24, Nr. 48; Pl. 19, 48.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

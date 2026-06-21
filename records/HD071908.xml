@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Carnuntum &amp;ndash; Bad Deutsch-Altenburg (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD071908</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD071908</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bad Deutsch-Altenburg, Arch. Mus. Carnuntinum</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>95</height><width>70</width><depth>38</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/128376">Carnuntum</placeName></origPlace><origDate><origDate notBefore-custom="0171" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1853"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2782068">Bad Deutsch-Altenburg</placeName><placeName type="findspot">{Mithraeum I}</placeName><placeName type="region">Niederösterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD071908_1" sex="M"><persName><name type="praenomen">C.?</name><name type="nomen">Atius?</name><name type="cognomen">Secundus?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-10-20" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F025703" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/cc7eb89b-17a7-4b32-9c13-88b27bf2973a/file/id/786455/file_version/name/small"/><graphic xml:id="F025702" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/deef1188-8005-4fdc-9f26-5b39620a71fe/file/id/786454/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>eo</ex></expan> <expan><abbr>I</abbr><ex>nvicto</ex></expan> <expan><abbr>M</abbr><ex>ithrae</ex></expan> <lb n="2"/><expan><abbr>C</abbr><ex>aius</ex></expan><certainty match="preceding-sibling::node()" locus="value"/> <expan><abbr>Atius</abbr><ex cert="low"/></expan> Se<lb break="no" n="3"/><expan><abbr>cundus</abbr><ex cert="low"/></expan> <expan><abbr>v</abbr><ex>ir</ex></expan> <lb n="4"/><expan><abbr>p</abbr><ex>erfectissimus</ex></expan> templum <lb n="5"/>vetustate <lb n="6"/>conlabsum <note>sic</note> <lb n="7"/>restituit
+            </ab></div>
+            <div type="commentary">
+                <p>Auf den Nebenseite je eine phrygische Mütze und ein Dolch. Vorderseite stark beschädigt: Lesung Z. 1-3 unsicher. (B): CIL 03, 04420. 11088. 14356; CIMRM 1673; Krüger; Vorbeck; Kremer: Lesung abweichend / unvollständig.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 04420. (B)</bibl><bibl>CIL 03, 11088. (B)</bibl><bibl>CIL 03, 14356. (B)</bibl><bibl>CIMRM 1672.</bibl><bibl>CIMRM 1673. (B)</bibl><bibl>M.-L. Krüger, Die Reliefs des Stadtgebietes von Carnuntum 1. Die figürlichen Reliefs, CSIR Österreich 1, 3 (Wien 1970) 20, Nr. 182; Taf. 18, 182.</bibl><bibl>E. Vorbeck, Zivilinschriften aus Carnuntum (Wien 1980) 10, Nr. 25. (B)</bibl><bibl>G. Kremer, Götterdarstellungen, Kult- und Weihedenkmäler aus Carnuntum, CSIR Österreich Carnuntum (Suppl.) 1 (Wien 2012) 181-182, Nr. 353; Taf. 109. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Asturis? &amp;ndash; Zwentendorf/Donau (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD020368</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD020368</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/74">Konglomerat</material><dimensions unit="cm"><height>54</height><width>57</width><depth>11</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118577">Asturis?</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1973"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2760430">Zwentendorf/Donau</placeName><placeName type="findspot">{Flur Haidbreiten}, Parzelle Nr. 685</placeName><placeName type="region">Niederösterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD020368_1" sex="M"><persName><name type="nomen">Aelius*</name><name type="cognomen">Ingenuus*</name></persName></person><person xml:id="HD020368_2" sex="W"><persName><name type="cognomen">Iucunda</name></persName></person><person xml:id="HD020368_3" sex="W"><persName><name type="cognomen">Iulia</name></persName></person><person xml:id="HD020368_4" sex="M"><persName><name type="cognomen">Festus</name></persName></person><person xml:id="HD020368_5" sex="M"><persName><name type="cognomen">Novellus*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-12-17" who="Gräf">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Ael</abbr><ex>ius</ex></expan> Ingenu<expan><ex>u</ex><abbr>s</abbr></expan> <lb n="2"/><expan><abbr>ob</abbr><ex>itus</ex></expan> <expan><abbr>an</abbr><ex>norum</ex></expan> LX et <lb n="3"/>Iucunda <expan><abbr>fil</abbr><ex>ia</ex></expan> <lb n="4"/><expan><abbr>an</abbr><ex>norum</ex></expan> VI Iulia co<expan><ex>n</ex><abbr>i</abbr><ex>unx</ex></expan> <lb n="5"/>et Festo <expan><abbr>an</abbr><ex>norum</ex></expan> XX <expan><abbr>fil</abbr><ex>io</ex></expan> <expan><abbr>f</abbr><ex>ecit</ex></expan> <lb n="6"/>et Novel<expan><ex>l</ex><abbr>us</abbr></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Material: grobes Konglomerat, weshalb die Oberfläche mit einer Mörtelschicht versehen wurde. (B): AE 1977: Z. 1: Ingen(u)s; ILLPRON: Z. 5: f(ilio).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1977, 0597. (B)</bibl><bibl>H. Stiglitz, AustrRom 23, 1973, 36-37. - AE 1977.</bibl><bibl>ILLPRON 0913. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

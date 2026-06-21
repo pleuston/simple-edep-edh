@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Aquae S(---), bei &amp;ndash; Vogošća (unknown)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD055436</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD055436</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3-5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">unknown</placeName><placeName type="ancient" ref="#">Aquae S(---), bei</placeName></origPlace><origDate><origDate notBefore-custom="0131" notAfter-custom="0170" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">131 AD - 170 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3277605">Bosnia and Herzegovina</placeName><placeName type="modern" ref="http://www.geonames.org/3187464">Vogošća</placeName><placeName type="findspot">Krivoglavci</placeName><placeName type="region">Sarajevski kanton</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD055436_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">Victorinus+</name></persName></person><person xml:id="HD055436_2" sex="W"><persName><name type="nomen">Ulpia*</name><name type="cognomen">Gallia*</name></persName></person><person xml:id="HD055436_3" sex="M"><persName><name type="praenomen">P.</name><name type="nomen">Aelius*</name><name type="cognomen">Victorinus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-12-06" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">Vict</supplied>orino <expan><abbr>dec</abbr><ex>urioni</ex></expan> <expan><abbr>m</abbr><ex>unicipii</ex></expan> <expan><abbr>Aq</abbr><ex>uae</ex></expan> <expan><abbr>fili<supplied reason="lost">o</supplied>q</abbr><ex>ue</ex></expan> infelicissi<lb break="no" n="2"/><supplied reason="lost">mo vixit ann</supplied>os X <note>sic</note> me<expan><ex>n</ex><abbr>s</abbr><ex>es</ex></expan> <expan><abbr>L</abbr><ex cert="low"/>I</expan> <note>sic</note> dies XIIII et <expan><abbr>Ulp</abbr><ex>iae</ex></expan> Galli<expan><ex>a</ex><abbr>e</abbr></expan> <lb n="3"/><supplied reason="lost">coniugi<certainty locus="name" match="preceding-sibling::text()" cert="low"/> i</supplied>ncomparabili <expan><abbr>P</abbr><ex>ublius</ex></expan> <expan><abbr>Ael</abbr><ex>ius</ex></expan> Victorinus <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>q</abbr><ex>uaestor</ex></expan> II<del rend="erasure">I</del>vir q<expan><ex>uin</ex><abbr>q</abbr><ex>uennalis</ex></expan> ed <note>sic</note> sibi vi<expan><ex>v</ex><abbr>us</abbr></expan> fecit
+            </ab></div>
+            <div type="commentary">
+                <p>Zeilenlinien für die Beschriftung. Z. 2: möglicherweise Jahres- und Monatszahl vertauscht; Zahl L(?) ähnlich einer TL-Ligatur; (B): Paškvalin - Forić; AE 2006: Abweichungen in Lesung und Ergänzung.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2006, 1022. (B)</bibl><bibl>V. Paškvalin - M. Forić, GodAkSarajevo 35, 2006, 161-177; sl. 1. (B) - AE 2006.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

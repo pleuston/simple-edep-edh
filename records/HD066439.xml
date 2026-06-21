@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>List from Samothracia &amp;ndash; Samothráki (Thracia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD066439</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD066439</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Samothráki, Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(36)</height><width>(16)</width><depth>6</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">1.5-4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Thracia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/501596">Samothracia</placeName></origPlace><origDate><origDate when-custom="0006" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">6 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1971"><placeName type="country" ref="https://www.geonames.org/390903">Greece</placeName><placeName type="modern" ref="http://www.geonames.org/734808">Samothráki</placeName><placeName type="findspot">Palaiópolis, Heiligtum der Großen Götter, {Stoa}, bei</placeName><placeName type="region">Anatolikí Makedonía, Thráki</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/108">list</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD066439_1" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Aemilius</name><name type="cognomen">Lepidus+</name></persName></person><person xml:id="HD066439_2" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Arruntius+</name></persName></person><person xml:id="HD066439_3" sex="M"><persName><name type="cognomen">Ἄτταλος</name></persName></person><person xml:id="HD066439_4" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Gavius</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-07-03" who="Cowey">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>agnis</ex></expan> <lb n="2"/><expan><abbr>M</abbr><ex>arco</ex></expan> Aemilio <supplied reason="lost">Lepido</supplied> <lb n="3"/><expan><abbr>L</abbr><ex>ucio</ex></expan> Arrun<supplied reason="lost">tio <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan></supplied> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> ἐπὶ β<supplied reason="lost">ασιλέως <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="2"/>Ἀττάλου <gap reason="lost" extent="unknown" unit="character"/> </ab></div><div n="3" type="textpart"><ab><lb n="1"/> in<supplied reason="lost">itiati sunt<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="2"/><expan><abbr>C</abbr><ex>aius</ex></expan> Gavius <gap reason="lost" quantity="1" unit="line"/>
+            </ab></div></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2008, 1208.</bibl><bibl>N. Dimitrova, Theoroi and Initiates in Samothrace. The Epigraphical Evidence.</bibl><bibl>(Athens 2008) 172-173, Nr. 86; Fig. 67. - AE 2008.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

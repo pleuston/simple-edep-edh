@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Segobriga &amp;ndash; Saelices (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD035358</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD035358</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Saelices, Parque Arq. Segóbriga, Museo</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">statue base</objectType><dimensions unit="cm"><height>108</height><width>57</width><depth>56</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">9-3.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Hispania citerior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/266036">Segobriga</placeName></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0130" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 130 AD</origDate></origDate></origin>
+                        <provenance type="found" when="2002"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern">Saelices</placeName><placeName type="findspot">Forum, Südportikus, sekundär verwendet</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD035358_1" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Iulius+</name><name type="cognomen">Gallus</name></persName></person><person xml:id="HD035358_2" sex="M"><persName><name type="cognomen">Annianus+</name></persName></person><person xml:id="HD035358_3" sex="M"><persName><name type="praenomen">C.++</name><name type="nomen">Iulius++</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-01-22" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F011820" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/74859737-95be-4823-9f3e-8854193720a3/file/id/771343/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>L</abbr><ex>ucio</ex></expan> Iu<supplied reason="lost">l</supplied>io <lb n="2"/>Annian<supplied reason="lost">i</supplied> <expan><abbr>f</abbr><ex>ilio</ex></expan> <lb n="3"/><expan><abbr>Gal</abbr><ex>eria</ex></expan> Gallo <lb n="4"/><expan><abbr>IIIIvir</abbr><ex>o</ex></expan> b<supplied reason="lost">is</supplied> <lb n="5"/>flamini A<supplied reason="lost"><expan><abbr>ug</abbr><ex>usti</ex></expan></supplied> <lb n="6"/><del rend="erasure"><expan><abbr>C</abbr><ex>aius</ex></expan> Iulius [<gap reason="lost" extent="unknown" unit="character"/></del>] <lb n="7"/>fratr<supplied reason="lost">i</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Mittelteil einer Statuenbasis. Z. 6 wurde nachträglich eradiert.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2003, 0988.</bibl><bibl>G. Alföldy - J.M. Abascal - R. Cebrián, ZPE 144, 2003, 218, Nr. 12; lám. 7. - AE 2003.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

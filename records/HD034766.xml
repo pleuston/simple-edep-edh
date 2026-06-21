@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Salonae, bei &amp;ndash; Solin (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD034766</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD034766</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Split, Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/214">sarcophagus</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><depth>9</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197488">Salonae, bei</placeName></origPlace><origDate><origDate notBefore-custom="0301" notAfter-custom="0400" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">301 AD - 400 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3190359">Solin</placeName><placeName type="findspot">{Manastirine}</placeName><placeName type="region">Splitsko-dalmatinska županija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD034766_1" sex="M"><persName><name type="nomen">Flavius*</name><name type="cognomen">Dalmatius+?</name></persName></person><person xml:id="HD034766_2" sex="W"><persName><name type="cognomen">Quiriace</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-11-08" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F032264" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/7c2784a1-d535-4da7-92c5-9742228287ad/file/id/793058/file_version/name/small"/><graphic xml:id="F032265" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/b103ab4e-3e80-48d4-9122-47f56c0bae81/file/id/793059/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Fla</abbr><ex>vius</ex></expan> <expan><abbr>Dalm</abbr><ex cert="low"/></expan><supplied reason="lost">atius<certainty locus="name" match="preceding-sibling::text()" cert="low"/> et</supplied> Quiriace <lb n="2"/>uxor arca<supplied reason="lost">m nobis viv</supplied>is posue<lb break="no" n="3"/>mus SV<gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">corpo</supplied>ra nos<lb break="no" n="4"/>tra s<supplied reason="lost">i quis volue</supplied>rit pon<lb break="no" n="5"/>ere in<supplied reason="lost">feret<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <gap reason="lost" extent="unknown" unit="character"/>? ecc</supplied>lesi<expan><ex>a</ex><abbr>e</abbr></expan> <lb n="6"/>pond<supplied reason="lost">o <gap reason="lost" extent="unknown" unit="character"/>? argen</supplied>ti X DE<lb break="no" n="7"/>CE<gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Textwiedergabe weitgehend (außer Z. 6/7, s.u.) nach Marin u. a. Zweimal zwei aneinander passende Fragmente einer Sarkophagwand. Z. 6/7: Egger: De/ce[ntio et Paulo cons(ulibus)] (352 n. Chr.); ILCV, Marin u. a.: de/ce[m].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILJug 2380.</bibl><bibl>CIL 03, 09094.</bibl><bibl>CIL 03, 09689.</bibl><bibl>CIL 03, 09572.</bibl><bibl>CIL 03, 09663.</bibl><bibl>CIL 03, 12842.</bibl><bibl>R. Egger, Der altchristliche Friedhof Manastirine nach dem Materiale Fr.</bibl><bibl>Bulić', Forschungen in Salona 2 (Wien 1926) 80, Nr. 102.</bibl><bibl>E. Marin u. a., Salona 4. Inscriptions de Salone chrétienne, IVe-VIIe siècles (Rome - Split 2010) 723-724, Nr. 401; Foto.</bibl><bibl>ILCV 3835D.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

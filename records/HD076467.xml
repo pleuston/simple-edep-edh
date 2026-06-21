@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Defixio from Cruciniacum (Civitas Vangionum?) &amp;ndash; Bad Kreuznach (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD076467</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD076467</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bonn, Rhein. Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/276">tessera</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/108">Blei</material><dimensions unit="cm"><width>48</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109427">Cruciniacum (Civitas Vangionum?)</placeName></origPlace><origDate><origDate notBefore-custom="0051" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1886"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2953416">Bad Kreuznach</placeName><placeName type="findspot">{Planig}, Nekropole</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/76">defixio</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD076467_1" sex="W"><persName><name type="cognomen">Silonia</name></persName></person><person xml:id="HD076467_2" sex="M"><persName><name type="cognomen">Surus</name></persName></person><person xml:id="HD076467_3" sex="M"><persName><name type="cognomen">Caenus*</name></persName></person><person xml:id="HD076467_4" sex="M"><persName><name type="cognomen">Secundus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-02-24" who="Osnabrügge">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Nomina <lb n="2"/>data <supplied reason="lost">dela</supplied><lb break="no" n="3"/>ta le<supplied reason="lost" cert="low">gata</supplied> <lb n="4"/>ad inferos <lb n="5"/><supplied reason="lost">ut</supplied> illos per vim <lb n="6"/><supplied reason="lost">c</supplied>o&amp;lt;r=N&amp;gt;rip<supplied reason="lost">i</supplied>ant </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>Silonia</abbr><ex>m</ex></expan> <lb n="2"/>Surum Cae<lb break="no" n="3"/><expan><abbr>nu</abbr><ex>m</ex></expan> <lb n="4"/>Secundum <lb n="5"/>ille te <lb n="6"/><expan><ex>s</ex><abbr>ponsus</abbr></expan> pro<lb break="no" n="7"/>cat il<expan><ex>l</ex><abbr>um</abbr></expan> amo 
+            </ab></div></div>
+            <div type="commentary">
+                <p>Rundes Fluchtäfelchen aus Blei. Zweiseitig beschriftet. Schreibtechnik: geritzt. Kursive Schrift. (B): Audollent: Text 1, Z. 2/3: [manda]/ta l[igata]; Z. 6: [c]onr[u]ant. Kropp: Text 2, Z. 1: Silonia&amp;lt;m&amp;gt;(!); Blänsdorf, Text 2, Z. 1: Silonia.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 07550.</bibl><bibl>A. Audollent, Defixionum tabellae (Parisiis 1904, ND Frankfurt/Main 1967) 153, Nr. 100. (B)</bibl><bibl>A. Kropp, Defixiones. Ein aktuelles Corpus lateinischer Fluchtafeln (Speyer 2008) Nr. 5.1.4/7. (B)</bibl><bibl>J. Blänsdorf, Die Defixionum tabellae des Mainzer Isis- und Mater Magna-Heiligtums (Klagenfurt 2008) 184. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

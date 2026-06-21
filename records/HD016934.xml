@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Saguntum - Dertosa, inter &amp;ndash; Alcalà de Xivert (Alcalá de Chivert) (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD016934</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD016934</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">altar?</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Hispania citerior</placeName><placeName type="ancient" ref="#">Saguntum - Dertosa, inter</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern">Alcalà de Xivert (Alcalá de Chivert)</placeName><placeName type="findspot"/></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD016934_1"><persName><name type="praenomen">M.</name><name type="nomen">Sulpicius</name><name type="cognomen">Camerianus+?</name></persName></person><person xml:id="HD016934_2"><persName><name type="praenomen">[-]</name><name type="nomen">Sulpicius+</name><name type="cognomen">Crispus</name></persName></person><person xml:id="HD016934_3"><persName><name type="nomen">Calpurnia</name><name type="cognomen">Lupercilla</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2006-08-16" who="Gräf">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>M</abbr><ex>arco</ex></expan> Sulpicio Camer<supplied reason="lost">i</supplied><lb break="no" n="2"/><expan><abbr>ano</abbr><ex cert="low"/></expan> a<supplied reason="lost"><expan><abbr>nn</abbr><ex>orum</ex></expan></supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">Sul</supplied><lb break="no" n="4"/><supplied reason="lost">piciu</supplied>s Cris<supplied reason="lost">pus</supplied> <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/>en<supplied reason="lost">sis<certainty locus="name" match="preceding-sibling::text()" cert="low"/> et</supplied> <lb n="6"/>Calpurnia Luper<lb break="no" n="7"/>cilla filio dulcissi<lb break="no" n="8"/>mo et sibi <lb n="9"/>se vivi<supplied reason="lost">s</supplied> fecerunt
+            </ab></div>
+            <div type="commentary">
+                <p>Denkmaltyp: möglicherweise auch Statuenbasis. Der Stein war in 2 Teile zerbrochen und ist heute verschollen. (B): CIL II 4050: Z. 1/2: Camer/[---]ano; Alföldy, Res publica Leserensis, AE 1977: Z. 6: [Leser]en[sis? et]; CIL II 4050: Z. 8: CILIA; AE 1977: Z. 9/10: sibi se; CIL II 4050, AE 1977: Z. 10: se vivi fecerunt.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1977, 0462. (B)</bibl><bibl>CIL 02, 04050. (B)</bibl><bibl>CIL 02 (2. Aufl.) 14, 00767.</bibl><bibl>G. Alföldy, Res publica Leserensis (Valencia 1977) 19-20. 37-38. (B) - AE 1977.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Viroconium &amp;ndash; Wroxeter (Britannia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD019333</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD019333</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Shrewsbury, Mus. and Art Gall.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">stele?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(67)</height><width>61</width><depth>23</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Britannia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/79741">Viroconium</placeName></origPlace><origDate><origDate notBefore-custom="0051" notAfter-custom="0066" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD - 66 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1861"><placeName type="country" ref="https://www.geonames.org/2635167">United Kingdom</placeName><placeName type="modern" ref="http://www.geonames.org/2633473">Wroxeter</placeName><placeName type="findspot">{Röm. Nekropole}</placeName><placeName type="region">Shropshire</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD019333_1" sex="M"><persName><name type="praenomen">T.</name><name type="nomen">Flaminius+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-03-10" who="Cowey">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>T</abbr><ex>itus</ex></expan> F</supplied>laminius <expan><abbr>T</abbr><ex>iti</ex></expan> <expan><abbr>Pol</abbr><ex>lia</ex></expan> Fa<supplied reason="lost"><expan><abbr>v</abbr><ex>entia</ex></expan></supplied> <lb n="2"/><supplied reason="lost">an</supplied>norum XXXXV <expan><abbr>stip</abbr><ex>endiorum</ex></expan> XXII <expan><abbr>mil</abbr><ex>es</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> <lb n="3"/><supplied reason="lost">XII</supplied>II <expan><abbr>gem</abbr><ex>inae</ex></expan> militavi <expan><abbr>aq</abbr><ex>uilifer</ex></expan> nunc hic s<supplied reason="lost">u</supplied>m <lb n="4"/><supplied reason="lost">hoc</supplied> legite et felices vita plus min<supplied reason="lost">us</supplied> e<supplied reason="lost">ste</supplied> <lb n="5"/><supplied reason="lost">d</supplied>i uva vini et aqua prohibent ubi <lb n="6"/>Ta<supplied reason="lost">r</supplied>tara Ditis vivite dum si<supplied reason="lost">dus</supplied> <lb n="7"/>vitae dat tempus honeste
+            </ab></div>
+            <div type="commentary">
+                <p>Reste zweier Füße. Imperfekte daktylische Hexameter. (B): Zu den leichten Leseabweichungen s. RIB 0292. Z. 3: a(t)q(ue) statt aq(uilifer). Z. 6: Tartara Ditis nur bei CLEBrit (2. Aufl.), ansonsten Tartar(a) aditis.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 07, 00154. (B)</bibl><bibl>CLE 0806. (B)</bibl><bibl>AE 1959, 0158. (B)</bibl><bibl>R.P. Wright, JRS 48, 1958, 151, Nr. 5. - AE 1959. (B)</bibl><bibl>RIB 0292; Zeichnung. (B)</bibl><bibl>AE 1995, 0997.</bibl><bibl>M.W.C. Hassall - R.S.O. Tomlin, Britannia 26, 1995, 388-389, (b). - AE 1995.</bibl><bibl>M. Henig, Roman sculpture from the North West Midlands CSIR Great Britain 1, 9 (Oxford 2004) 47-48, Nr. 147; Pl. 41, 147.</bibl><bibl>CLEBrit (2. Aufl.) 01.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Mutina &amp;ndash; Modena (Aemilia (Regio VIII))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD019863</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD019863</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>39</height><width>32</width><depth>12</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4-2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Aemilia (Regio VIII)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/383715">Mutina</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Modena</placeName><placeName type="findspot">porta di S. Agostino, bei</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD019863_1"><persName><name type="cognomen">Helius</name></persName></person><person xml:id="HD019863_2"><persName><name type="cognomen">Leo</name></persName></person><person xml:id="HD019863_3"><persName><name type="cognomen">Vera</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2000-04-13" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Helio </ab></div><div n="3" type="textpart"><ab><lb n="1"/> Leo et Vera </ab></div><div n="4" type="textpart"><ab><lb n="1"/> parentes funeri <note>sic</note> de subito ra<lb break="no" n="2"/>ptus decumbis in ag<lb break="no" n="3"/>ro o caesis o dira dies <lb n="4"/>supprema <note>sic</note> iacenti <note>sic</note> inste<lb break="no" n="5"/>tit <note>sic</note> <expan><abbr>p</abbr><ex>ro</ex></expan> <expan><abbr>t</abbr><ex>e</ex></expan> myserum <note>sic</note> morti<lb break="no" n="6"/><supplied reason="lost">s malum a</supplied>cerbum
+            </ab></div></div>
+            <div type="commentary">
+                <p>In die Vorderseite der Tafel sind über dem eigentlichen Inschriftfeld durch Ritzungen ein Giebel mit 2 Akroteren angegeben; Z. 1-3 der Inschrift verteilen sich auf die dadurch entstehenden Felder und Zwickel. Z. 7: das A in CAESIS wurde aus versehntlich geschriebenem E korrigiert. (B): Wiedergabe bei Cervi ohne Zeilentrenner, sondern nach den Hexamterversen geordnet; CIL XI 6926: Z. 7: o genesis; Cervi: Z. 8: suprema; CIL XI 6926: Z. 9: et myserum; Cervi Z. 9: miserum.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1945, 0059.</bibl><bibl>CIL 11, 06926. (B)</bibl><bibl>M.C. Cervi, Epigraphica 3, 1941, 247; fig. 4. (B) - AE 1945.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

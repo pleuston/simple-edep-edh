@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Augusta Vindelicorum, bei &amp;ndash; Augsburg (Raetia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD058569</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD058569</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Augsburg, Peutingerhaus, vermauert</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>102</height><width>117</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Raetia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118580">Augusta Vindelicorum, bei</placeName></origPlace><origDate><origDate notBefore-custom="0171" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1505"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2949415">Augsburg</placeName><placeName type="findspot">{Biberbach}, sekundär verwendet</placeName><placeName type="region">Bayern</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD058569_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Iulianius</name><name type="cognomen">Iulius</name></persName></person><person xml:id="HD058569_2" sex="W"><persName><name type="nomen">Secundinia</name><name type="cognomen">Pervinca</name></persName></person><person xml:id="HD058569_3" sex="M"><persName><name type="nomen">Iulianius</name><name type="cognomen">Iulius Iunior</name></persName></person><person xml:id="HD058569_4" sex="M"><persName><name type="nomen">Iulianius</name><name type="cognomen">Iucundus</name></persName></person><person xml:id="HD058569_5" sex="M"><persName><name type="nomen">Iulianius</name><name type="cognomen">Iustus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-09-29" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F035378" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/9bee8a59-2e78-4d21-8453-36ddcda3a97a/file/id/796227/file_version/name/small"/><graphic xml:id="F035379" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/4d35cab3-e541-4386-a71b-ab40469bd27c/file/id/796228/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Perpetuae securitati <lb n="2"/><expan><abbr>C</abbr><ex>aius</ex></expan> Iulianius Iulius <expan><abbr>dec</abbr><ex>urio</ex></expan> <expan><abbr>mun</abbr><ex>icipii</ex></expan> <lb n="3"/>IIIIviralis sibi et <lb n="4"/>Secundiniae Pervincae <lb n="5"/>coniugi carissimae <lb n="6"/>erga se diligentissimae <lb n="7"/>feminae rarissimae <lb n="8"/>singularis exempli <lb n="9"/>pudicitiae <lb n="10"/>quae vixit annos XXXXV <lb n="11"/>menses VII dies XXI et <lb n="12"/>Iulianiis Iulio Iuniori et <lb n="13"/>Iucundo et Iusto fili<expan><ex>i</ex><abbr>s</abbr></expan> <lb n="14"/>vivis vivos fecit
+            </ab></div>
+            <div type="commentary">
+                <p>Mehrere aneinanderpassende Fragmente. (B): vor Z. 1: [D(is) M(anibus) et].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IBR 136; tab. 19, 136. (B)</bibl><bibl>CIL 03, 05825.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

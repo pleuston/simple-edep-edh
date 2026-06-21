@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Mogontiacum &amp;ndash; Mainz (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD056464</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD056464</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material>Gesteine</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109169">Mogontiacum</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0050" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 50 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2874225">Mainz</placeName><placeName type="findspot">{S. Victor, ehemaliges Stift}</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD056464_1" sex="W"><persName><name type="nomen">Iulia</name><name type="cognomen">Cirrata*</name></persName></person><person xml:id="HD056464_2" sex="M"><persName><name type="cognomen">Annaius (= Annaeus)</name></persName></person><person xml:id="HD056464_3" sex="M"><persName><name type="nomen">Apronius</name></persName></person><person xml:id="HD056464_4" sex="M"><persName><name type="nomen">Iulius</name><name type="cognomen">Rufus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-12-08" who="Esch">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Cir<expan><ex>r</ex><abbr>ata</abbr></expan> Iulia <lb n="2"/>Annai <note>sic</note> <expan><abbr>f</abbr><ex>ilia</ex></expan> natio<lb break="no" n="3"/>ne Nervia an<lb break="no" n="4"/><expan><abbr>no</abbr><ex>rum</ex></expan> XXVIII in<lb break="no" n="5"/>munis <note>sic</note> <expan><abbr>benefici</abbr><ex>o</ex></expan> A<lb break="no" n="6"/>proni <lb n="7"/><expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>ita</ex></expan> <expan><abbr>e</abbr><ex>st</ex></expan> <lb n="8"/>Rufus Iulius <lb n="9"/>pro pietate po<lb break="no" n="10"/>suit
+            </ab></div>
+            <div type="commentary">
+                <p>Nur handschriftlich in verschiedenen Versionen überliefert. Textwiedergabe nach Zeichnung von J. Huttich.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 07088.</bibl><bibl>W. Boppert, Zivile Grabsteine aus Mainz und Umgebung, CSIR Deutschland 2, 6 (Mainz 1992) 88-89, Nr. 39; Taf. 29, 39 (Zeichnung).</bibl><bibl>A. Kakoschke, Ortsfremde in den römischen Provinzen Germania inferior und Germania superior: Eine Untersuchung zur Mobilität in den germanischen Provinzen anhand der Inschriften des 1. bis 3. Jahrhunderts n. Chr. (Möhnesee 2002) 41, Nr. 1. 89.</bibl><bibl>PIR (2. Aufl.) A 971.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

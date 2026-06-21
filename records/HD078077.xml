@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Mogontiacum &amp;ndash; Mainz (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD078077</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD078077</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mainz, Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/260">slab</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(45)</height><width>58</width><depth>10</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109169">Mogontiacum</placeName></origPlace><origDate><origDate notBefore-custom="0501" notAfter-custom="0600" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">501 AD - 600 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1907"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2874225">Mainz</placeName><placeName type="findspot">{S. Alban, Stift, ehemalige Kirche}, nördliche Seitenapsis, sekundär verwendet</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD078077_1" sex="W"><persName><name type="cognomen">Leutegondis (= Leutegundis)</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-05-02" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F016143" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/59d86ecb-2923-4bfa-8b89-44c86e72c669/file/id/775721/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Tumolant <note>sic</note> hic mar<lb break="no" n="2"/>mora cultum Leute<lb break="no" n="3"/>gondes <note>sic</note> in albis rap<lb break="no" n="4"/><expan><abbr>ta</abbr><ex>e</ex></expan> <expan><abbr>q</abbr><ex>uius</ex></expan> <note>sic</note> an<expan><ex>i</ex><abbr>ma</abbr></expan> in pace Chr<expan><ex>ist</ex><abbr>i</abbr></expan> <lb n="5"/>quiescit con&amp;lt;di&amp;gt;derunt <lb n="6"/>hoc titulum <note>sic</note> pater et &amp;lt;mater&amp;gt; os<lb break="no" n="7"/>sa piis<expan><ex>s</ex><abbr>imi</abbr></expan> <expan><abbr>M</abbr><ex cert="low"/>A</expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Unterhalb der Inschrift und in die letzte Zeile hineinragend ein Christusmonogramm. Kreuzzeichen am Anfang von Z. 1. Z. 4: IN nachträglich klein in den Zwischenraum zwischen Z. 3 u. 4 eingemeißelt. Paläographie: Vorkarolingische Kapitalis II.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILCV 1543.</bibl><bibl>W. Boppert, Die frühchristlichen Inschriften des Mittelrheingebietes (Mainz 1971) 56-60; Zeichnung.</bibl><bibl>K. Körber, MZ 3, 1908, 14-15, Nr. 39; Abb. 28 (Zeichnung).</bibl><bibl>C. Kessel, MZ 113, 2018, 35-37, Nr. 14; Abb. 23.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

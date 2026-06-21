@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Iuvavum, bei &amp;ndash; Vöcklamarkt (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD067275</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD067275</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Linz, Oberösterreich. Landesmus., Schloßmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(40)</height><width>(87)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/187432">Iuvavum, bei</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1865"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2771185">Vöcklamarkt</placeName><placeName type="findspot">{Mösendorf 63} (Burgstall 6), bei</placeName><placeName type="region">Oberösterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD067275_1"><persName><name type="cognomen">Sumeli[---]</name></persName></person><person xml:id="HD067275_2"><persName><name type="cognomen">Cobru[---]</name></persName></person><person xml:id="HD067275_3"><persName><name type="cognomen">Aur(---)</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-12-09" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <gap reason="lost" extent="unknown" unit="character"/> Sumeli<gap reason="lost" extent="unknown" unit="character"/>edili <gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/>Cobru<gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/><abbr>Aur</abbr> <gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Z. 1: CIL SVMELI EDILI; ILLPRON Sumeliu [A]edili. Vor dem EDILI gibt es ein hoch liegenden Querstrich, der am ehesten als T zu deuten wäre. Z. 2 COBRU mit nachfolgendem senkrechten Strich, als spiegelverkehrter N veilleicht zu deuten. Z. 3 AVR oder MVR (CIL 03, 11783). Der dritte Buchstabe könnte auch ein F sein.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 05604. (B)</bibl><bibl>CIL 03, 11783. (B)</bibl><bibl>ILLPRON 0990. (B)</bibl><bibl>L. Eckhart, RŒ 3, 1975, 65-67, Nr. 2; Taf. 10, 1.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

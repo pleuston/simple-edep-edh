@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Svrljig (Moesia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD027043</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD027043</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(84)</height><width>(45)</width><depth>(33)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.5-2.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia superior</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1931"><placeName type="country" ref="https://www.geonames.org/6290252">Serbia</placeName><placeName type="modern" ref="http://www.geonames.org/787654">Svrljig</placeName><placeName type="findspot">{Niševac}, "Palilula", Wassermühle, sekundär verwendet</placeName><placeName type="region">Centralna Srbija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD027043_1" sex="M"><persName ref="http://romans1by1.com/rpeople/13070"><name type="praenomen">L.</name><name type="nomen">Aurelius*</name><name type="cognomen">Iustinus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-12-09" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan> ceterisque <lb n="2"/>dis deabusque <lb n="3"/><supplied reason="lost">i</supplied>mmortalibus pro sa<lb break="no" n="4"/>lute dominorum <expan><abbr>n<am>n</am></abbr><ex>ostrorum</ex></expan> <lb n="5"/>Imperatorum <supplied reason="lost">A</supplied><lb break="no" n="6"/><expan><abbr>ugg</abbr><ex>ustorum</ex></expan> <expan><abbr>L</abbr><ex>ucius</ex></expan> <expan><abbr>Aur</abbr><ex>elius</ex></expan> Iusti<lb break="no" n="7"/>nus <expan><abbr>v</abbr><ex>ir</ex></expan> <expan><abbr>c</abbr><ex>larissimus</ex></expan><certainty match="preceding-sibling::node()" locus="value"/> numini <lb n="8"/><supplied reason="lost">m</supplied>aiestatique <lb n="9"/><supplied reason="lost">eo</supplied>rum dicatis</ab></div><div n="2" type="textpart"><ab><lb n="1"/>simus
+            </ab></div></div>
+            <div type="commentary">
+                <p>Letzte Zeile auf dem Sockelprofil. (B): Vulić, AE 1934: Z. 7: v(eteranus) statt v(ir) c(larissimus)(?). Ein L. Aur. Iustinus als v.c. bisher allerdings nicht bekannt.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1934, 0198. (B)</bibl><bibl>IMS 4, 062; Foto.</bibl><bibl>N. Vulić, Spomenik 75, 1933, 72, Nr. 207. (B) - AE 1934.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

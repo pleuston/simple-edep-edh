@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Fines Cotti &amp;ndash; Avigliana (Alpes Cottiae)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD066041</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD066041</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Torino, Mus. Ant.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/85">cippus</objectType><material>Gesteine unbestimmt</material><dimensions unit="cm"><height>61</height><width>48</width><depth>27</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.7-4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Alpes Cottiae</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/383545">Fines Cotti</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern" ref="http://www.geonames.org/3182634">Avigliana</placeName><placeName type="findspot">{Drubiaglio, Ghetto}</placeName><placeName type="region">Piemonte</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD066041_1" sex="W"><persName><name type="nomen">[---]ut[---]</name><name type="cognomen">Fortunata+</name></persName></person><person xml:id="HD066041_2" sex="W"><persName><name type="nomen">Ulpia</name><name type="cognomen">Chia+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-08-23" who="Cimarosti">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F027454" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/66a8b188-c5d7-4f3e-8d6f-5618e1226535/file/id/788211/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/><expan><abbr>le</abbr><ex cert="low"/></expan> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>et</abbr><ex cert="low"/></expan> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>ut<gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/><supplied reason="lost">F</supplied>ortun<supplied reason="lost">atae</supplied> <lb n="4"/>Ulpia Chi<supplied reason="lost" cert="low">a</supplied> <lb n="5"/>parentibus <lb n="6"/>dulcissimis
+            </ab></div>
+            <div type="commentary">
+                <p>(B) Z. 1/2: In CIL le lettere del frammento che qui si propone come solidale non appaiono posizionate nel contesto dell’iscrizione, bensì affiancate alla sua destra; Z. 4: CIL 05, 07216: ortun[---]; Z. 5: 05, 07216: Ulpia Chr[---; Ferrua: Ulpia Chi[one] vel Chl[oe].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 05, 07216. (B)</bibl><bibl>A. Ferrua, Segusium 4, 1967, 40, fig. 1a. (B)</bibl><bibl>E. Cimarosti, Le iscrizioni di età romana sul versante italiano delle Alpes Cottiae (Barcelona 2012) 337, Nr. 146 ; Foto Nr. 122 (Foto u. Zeichnungen).</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

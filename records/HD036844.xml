@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from (Civitas Port---?) &amp;ndash; Stuttgart (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD036844</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD036844</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Stuttgart, Württ. Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/24">relief</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(82)</height><width>77</width><depth>25</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118980">(Civitas Port---?)</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1906"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2953533">Stuttgart</placeName><placeName type="findspot">Bad Cannstatt, {ehemalige Ziegelwerke Höfer &amp; Cie.}, bei, Nekropole</placeName><placeName type="region">Baden-Württemberg</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD036844_1" sex="M"><persName><name type="cognomen">Ingenuus*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2018-03-07" who="Osnabrügge">checked through autopsy</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Ingenu<expan><ex>u</ex><abbr>s</abbr></expan> <expan><abbr>vix</abbr><ex>it</ex></expan> <expan><abbr>a</abbr><ex>nnos</ex></expan> <expan><abbr>LII</abbr><ex cert="low"/></expan><supplied reason="lost" cert="low">I</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>2 aneinanderpassende Fragmente erhalten. Inschriftfeld in Form einer tabula ansata; oberhalb der Inschrift ein Totenmahlrelief. Oberhalb der erhaltenen Zeile noch Raum für 2 weitere Zeilen, doch scheint dort nichts gestanden zu haben. Autopsie R. Wiegels.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>F. Haug - G. Sixt, Die römischen Inschriften und Bildwerke Württembergs (2. Aufl. Stuttgart 1914) 399-400, Nr. 541; Foto.</bibl><bibl>CIL 13, 11748.</bibl><bibl>É. Espérandieu, Recueil général des bas-reliefs, statues et bustes de la Germanie romaine (Paris - Bruxelles 1931) 361, Nr. 566; Foto.</bibl><bibl>P. Filtzinger, Hic saxa loquuntur. Römische Steindenkmäler im Lapidarium Stiftsfruchtkasten und in der Ausstellung "Die Römer in Württemberg" im Alten Schloß (Stuttgart 1980) 79, Nr. 36; Abb. 36.</bibl><bibl>W. Faust, Die Grabstelen des 2. und 3. Jahrhunderts im Rheingebiet (Köln 1998) 180-181, Nr. 286; Taf. 16, 3.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

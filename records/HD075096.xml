@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Ulpia Noviomagus Batavorum &amp;ndash; Nijmegen (Germania inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD075096</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD075096</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Nijmegen, Mus. Het Valkhof, Depot</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(45)</height><width>(66)</width><depth>13</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/98921">Ulpia Noviomagus Batavorum</placeName></origPlace><origDate><origDate notBefore-custom="0051" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1793"><placeName type="country" ref="https://www.geonames.org/2750405">Netherlands</placeName><placeName type="modern" ref="http://www.geonames.org/2750053">Nijmegen</placeName><placeName type="findspot">Hengstberg</placeName><placeName type="region">Gelderland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD075096_1" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Sempronius*</name><name type="cognomen">Clemens+?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-08-08" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>M</abbr><ex>arcus</ex></expan> <expan><abbr>Semproni</abbr><ex>us</ex></expan> <lb n="2"/><expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>Gal</abbr><ex>eria</ex></expan> Clem<lb break="no" n="3"/>[ens<certainty match="preceding-sibling::node()" locus="value"/> ------
+            </ab></div>
+            <div type="commentary">
+                <p>Kakoschke: M(arcus) Seius P(h)roni/m(us) Gal(eria) Clem[---].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 08740.</bibl><bibl>S. Weiß-König - A. Kakoschke, FeRA 28, 2015, 12-16; Abb. 2 u. 3; Abb. 1 (Zeichnung). - AE 2015.</bibl><bibl>AE 2015, 0957.</bibl><bibl>A. Kakoschke, Ortsfremde in den römischen Provinzen Germania inferior und Germania superior (Möhnesee 2002), Nr. 7.1.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

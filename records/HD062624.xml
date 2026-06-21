@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Salonae &amp;ndash; Solin (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD062624</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD062624</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Split, Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197488">Salonae</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1823"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3190359">Solin</placeName><placeName type="findspot"/><placeName type="region">Splitsko-dalmatinska županija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD062624_1" sex="W"><persName><name type="cognomen">Secunda+</name></persName></person><person xml:id="HD062624_2" sex="M"><persName><name type="cognomen">Dassius+</name></persName></person><person xml:id="HD062624_3" sex="W"><persName><name type="cognomen">Rosula</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-02-24" who="Gräf">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost">Se</supplied>cundae f<supplied reason="lost">iliae infe</supplied><lb break="no" n="2"/><expan><abbr><supplied reason="lost">li</supplied>cissim</abbr><ex>a</ex>e</expan> q<supplied reason="lost">uae vixit</supplied> <lb n="3"/><expan><abbr>n<am>n</am></abbr><ex>os</ex></expan> <expan><abbr>p</abbr><ex>lus</ex></expan> <expan><abbr>m</abbr><ex>inus</ex></expan> <gap reason="lost" quantity="1" unit="character"/><supplied reason="lost">Dassius</supplied> <lb n="4"/>et Rosula <supplied reason="lost">parentes</supplied> <lb n="5"/><supplied reason="lost">posuerunt</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Die Inschrift war bei der Auffindung noch vollständig lesbar außer Buchstabe V in QVAE (Z. 2) u. dem Buchstaben vor DASSIVS (Z. 3).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 02516.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

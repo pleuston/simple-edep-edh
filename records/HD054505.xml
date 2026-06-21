@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Massilia &amp;ndash; Marseille (Narbonensis)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD054505</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD054505</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Marseille, Dep. arch. mun.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>41</height><width>26</width><depth>3</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3-2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Narbonensis</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/148127">Massilia</placeName></origPlace><origDate><origDate notBefore-custom="0501" notAfter-custom="0600" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">501 AD - 600 AD</origDate></origDate></origin>
+                        <provenance type="found" when="2004"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern">Marseille</placeName><placeName type="findspot">Rue Malaval, Grabbasilika, sekundär verwendet</placeName><placeName type="region">Provence-Alpes-Côte d’Azur</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-02-09" who="Platz">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Hic <lb n="2"/>requir<expan><ex>es</ex><abbr>c</abbr><ex>i</ex><abbr>t</abbr></expan> <note>sic</note> in pa<lb break="no" n="3"/>ce <expan><abbr>bon</abbr><ex>ae</ex></expan> memoria<lb break="no" n="4"/>e I<expan><ex>s</ex><abbr>t</abbr><ex>e</ex><abbr>fanus</abbr></expan> <expan><abbr>q</abbr><ex>ui</ex></expan> <expan><ex>v</ex><abbr>iset</abbr></expan> <note>sic</note> p<lb break="no" n="5"/>lus m<expan><ex>inu</ex><abbr>s</abbr></expan> a<expan><ex>nno</ex><abbr>s</abbr></expan> XVII re<expan><ex>cess</ex><abbr>it</abbr></expan> <lb n="6"/>VII K<expan><ex>a</ex><abbr>l</abbr><ex>en</ex><abbr>d</abbr></expan><expan><ex>a</ex><abbr>s</abbr></expan> Oct<expan><ex>o</ex><abbr>b</abbr><ex>re</ex><abbr>s</abbr></expan> i<expan><ex>n</ex><abbr>d</abbr><ex>ic</ex><abbr>si</abbr></expan>(one!) <lb n="7"/>nona
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2005, 0993.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

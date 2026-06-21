@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from (Civitas Aurelia G---?) &amp;ndash; Mainhardt (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD036680</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD036680</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Stuttgart, Württ. Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>160</height><width>94</width><depth>24</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7-5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118829">(Civitas Aurelia G---?)</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1835"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2874246">Mainhardt</placeName><placeName type="findspot">{Kirche}, sekundär verwendet</placeName><placeName type="region">Baden-Württemberg</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD036680_1" sex="M"><persName><name type="cognomen">Maximus</name></persName></person><person xml:id="HD036680_2" sex="M"><persName><name type="cognomen">Dasas+</name></persName></person><person xml:id="HD036680_3" sex="M"><persName><name type="nomen">Coe[---]unus</name><name type="cognomen">Quintinus+</name></persName></person><person xml:id="HD036680_4" sex="M"><persName><name type="cognomen">Bato</name></persName></person><person xml:id="HD036680_5" sex="M"><persName><name type="cognomen">Beusans*</name></persName></person><person xml:id="HD036680_6" sex="M"><persName><name type="nomen">[---]</name><name type="cognomen">Apies</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-08-06" who="Gräf">checked through autopsy</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F039330" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/1c091b06-e4fd-4bd7-a02b-02d67df5e42d/file/id/800208/file_version/name/small"/><graphic xml:id="F039331" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/0150ba84-d1bc-4ecb-b040-c63fc9c5ef38/file/id/800209/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/>Maximo Dasan<lb break="no" n="3"/>t<supplied reason="lost">is</supplied> mensori <expan><abbr>coh</abbr><ex>ortis</ex></expan> I <lb n="4"/>Asturum <expan><abbr><am><g type="centuria"/></am></abbr><ex>centuria</ex></expan> Coe<gap reason="lost" extent="unknown" unit="character"/><lb break="no" n="5"/>uni Quin<supplied reason="lost">t</supplied>in<supplied reason="lost">i sti</supplied><lb break="no" n="6"/>pendiorum XVIII <lb n="7"/>an<expan><ex>n</ex><abbr>orum</abbr></expan> XXXVIII <lb n="8"/><expan><abbr>c</abbr><ex>ivis</ex></expan> Dalmata ex m<lb break="no" n="9"/>unicipio <abbr>Magab</abbr> <lb n="10"/>et Batoni <expan><abbr>Beusanti</abbr><ex>s</ex></expan> <lb n="11"/>optioni <expan><abbr>coh</abbr><ex>ortis</ex></expan> <expan><abbr>s</abbr><ex>upra</ex></expan> <expan><abbr>s</abbr><ex>criptae</ex></expan> <expan><abbr><am><g type="centuria"/></am></abbr><ex>centuria</ex></expan> ea<lb break="no" n="12"/>dem <expan><abbr>stip</abbr><ex>endiorum</ex></expan> XVIII an<supplied reason="lost">no</supplied><lb break="no" n="13"/>rum XL ex munici<lb break="no" n="14"/>pio Salvio Apies <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): CIL 13, 06538; Faust: Z.3: /tis mensori coh[.I?]; Z.5: Quin[t]ini s[ti]/; Z.9: Magn[o]/; Z.10: e[t] Ba[t]oni Beusantis/; Z.12: s[t]ip. XVIII ann[o]/; Z.13/14: muni[c]i/pio Salvi[a?] A[2]e[2]/[3]ionis[&amp;amp; Autopsie R. Wiegels.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 06538. (B)</bibl><bibl>F. Haug - G. Sixt, Die römischen Inschriften und Bildwerke Württembergs (Stuttgart 1900) 314-316, Nr. 416; Zeichnung.</bibl><bibl>CIL 13, 04, 06538 add. p. 100.</bibl><bibl>A. Mettler, in: Der obergermanisch-rätische Limes des Römerreiches B, IV, 43 (Lieferung 32) (Berlin - Leipzig 1929) 13-14, Nr. 5.</bibl><bibl>W. Faust, Die Grabstelen des 2. und 3. Jahrhunderts im Rheingebiet (Köln 1998) 137, Nr. 152. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

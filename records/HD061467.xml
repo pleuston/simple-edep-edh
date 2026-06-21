@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Neuwied (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD061467</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD061467</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bonn, Rhein. Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/53">base</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>45</height><width>(200)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.0-3.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109035"/></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1905"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2908399">Neuwied</placeName><placeName type="findspot">Heddesdorf, Lager, bei, {Thermen}, Raum H</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD061467_1" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Alpinius</name><name type="cognomen">Classicianus+</name></persName></person><person xml:id="HD061467_2"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD061467_3" sex="W"><persName><name type="cognomen">Prima</name></persName></person><person xml:id="HD061467_4"><persName><name type="cognomen">Potentinus/a+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-10-06" who="Esch">checked through autopsy</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F017478" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/092201c1-6366-4cca-8ae4-0514623acd1a/file/id/777087/file_version/name/small"/><graphic xml:id="F017477" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/38c19001-99ae-4d26-a7fe-6cdd18266c5a/file/id/777086/file_version/name/small"/><graphic xml:id="F017479" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/f891c378-3877-402e-b9a7-f741877e0fcd/file/id/777089/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                I<supplied reason="lost">n honore</supplied>m <expan><abbr>d</abbr><ex>omus</ex></expan> <expan><abbr>d</abbr><ex>ivinae</ex></expan> et co<supplied reason="lost"><expan><abbr>h</abbr><ex>ortis</ex></expan></supplied><gap reason="lost" extent="unknown" unit="character"/> vo<supplied reason="lost"><expan><abbr>l</abbr><ex>untariorum</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> ob inco</supplied>lu<lb break="no" n="2"/>mitatem <expan><abbr>M</abbr><ex>arcus</ex></expan> Alpinius Auli fi<supplied reason="lost"><expan><abbr>l</abbr><ex>ius</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> Qu</supplied>irina <lb n="3"/><supplied reason="lost">C</supplied>lassicianu<supplied reason="lost">s |(centurio) c</supplied><expan><abbr>oh</abbr><ex>ortis</ex></expan> <expan><abbr>s</abbr><ex>upra</ex></expan> <expan><abbr>s</abbr><ex>criptae</ex></expan> flame<supplied reason="lost">n</supplied><gap reason="lost" extent="unknown" unit="character"/> et Prima <lb n="4"/><supplied reason="lost">et Po</supplied>tenti<supplied reason="lost">n<gap reason="lost" extent="unknown" unit="character"/> signum ae</supplied>reum rever<supplied reason="lost">sus Fortu</supplied>nae Conser<lb break="no" n="5"/><supplied reason="lost">va</supplied>tric<supplied reason="lost">i</supplied> posuit </ab></div><div n="2" type="textpart"><ab><lb n="1"/> N
+            </ab></div></div>
+            <div type="commentary">
+                <p>Autopsie R. Wiegels. Mehrere, teilweise aneinanderpassende Fragmente erhalten. Rekonstruierte Breite: mindestens 200 cm. Z. 6 (Buchstabe N) befindet sich auf der Oberseite in der vorderen rechten Ecke.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 07741.</bibl><bibl>H. Lehner, Die antiken Steindenkmäler des Provinzialmuseums in Bonn (Bonn 1918) 78, Nr. 155.</bibl><bibl>G. Weisgerber, Das Pilgerheiligtum des Apollo und der Sirona von Hochscheid im Hunsrück (Bonn 1975) 124, Nr. 4.</bibl><bibl>R. Bodewig, in: Der obergermanisch-rätische Limes des Römerreiches B, I, 1 (Lieferung 19) (Berlin - Leipzig 1937) 13-14, Nr. 1; Taf. 4, 16 (Zeichnung).</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

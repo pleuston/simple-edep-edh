@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Roma &amp;ndash; Roma (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD030370</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD030370</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Roma, Mus. Naz. Rom.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>(118)</height><width>(157)</width><depth>32</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6-7.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma</placeName></origPlace><origDate><origDate notBefore-custom="0037" notAfter-custom="0041" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">37 AD - 41 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma</placeName><placeName type="findspot">Tiberufer, Ponte Sisto, bei</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD030370_1"><persName><name type="praenomen">Q.+</name><name type="nomen">Septicius+</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD030370_2"><persName ref="https://www.wikidata.org/wiki/Q1407"><name type="praenomen">Ti.</name><name type="nomen">Caeasar</name><name type="cognomen">Augustus</name></persName></person><person xml:id="HD030370_3"><persName ref="https://www.wikidata.org/wiki/Q1409"><name type="praenomen">C.</name><name type="nomen">Caesar</name><name type="cognomen">Augustus</name></persName></person><person xml:id="HD030370_4"><persName><name type="cognomen">Crispina</name></persName></person><person xml:id="HD030370_5"><persName><name type="cognomen">Caepio</name></persName></person><person xml:id="HD030370_6"><persName><name type="praenomen">M.</name><name type="nomen">Septicius</name><name type="cognomen">Sura+</name></persName></person><person xml:id="HD030370_7"><persName><name type="nomen">Artorius+</name><name type="cognomen">Geminus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2008-05-15" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F010817" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/e6befccd-18e7-4a66-9e44-48ce4d6e2e2b/file/id/770337/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost" cert="low">Q(uintus) Septicius C(ai) f(ilius) C(ai) n(epos) ---</supplied> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/>] <lb n="2"/>Xvir <expan><abbr>stl</abbr><ex>itibus</ex></expan> <expan><abbr>iud</abbr><ex>icandis</ex></expan> <expan><abbr>tr</abbr><ex>ibunus</ex></expan> <expan><abbr>mil</abbr><ex>itum</ex></expan> <expan><abbr>q</abbr><ex>uaestor</ex></expan> <expan><abbr>tr</abbr><ex>ibunus</ex></expan> <expan><abbr>pl</abbr><ex>ebis</ex></expan> <expan><abbr>pr</abbr><ex>aetor</ex></expan> <lb n="3"/><expan><abbr>leg</abbr><ex>atus</ex></expan> <expan><abbr>Ti</abbr><ex>beri</ex></expan> Caesaris Augusti et <lb n="4"/><expan><abbr>C</abbr><ex>ai</ex></expan> Caesaris Augusti <lb n="5"/>Crispina Caepionis <expan><abbr>f</abbr><ex>ilia</ex></expan> uxor <lb n="6"/><expan><abbr>M</abbr><ex>arcus</ex></expan> Septicius <expan><abbr>Q</abbr><ex>uinti</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>n</abbr><ex>epos</ex></expan> <expan><abbr>C</abbr><ex>ai</ex></expan> et Gemini <lb n="7"/><supplied reason="lost">Artori pronepo</supplied>s Sur<supplied reason="lost">a</supplied> <lb n="8"/><supplied reason="lost">vixit annis <gap reason="lost" extent="unknown" unit="character"/> men</supplied>sibus X <expan><abbr>d</abbr><ex>iebus</ex></expan> <gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Zwei aneinanderpassende Fragmente erhalten.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 06, 41057; Foto.</bibl><bibl>CIL 06, 31765.</bibl><bibl>PIR (2. Aufl.) S 410.</bibl><bibl>AE 1973, 0033.</bibl><bibl>F. Silvestrini, Sepulcrum Marci Artori Gemini. La Tomba detta dei Platorini nel Museo Nazionale Romano (Roma 1987) 41-45, Nr. 3; fig. 27.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

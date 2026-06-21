@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Military diploma from Lussonium &amp;ndash; Dunakömlőd (Pannonia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD055771</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD055771</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Paks, Városi Múz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material><dimensions unit="cm"><height>(7)</height><width>(4)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia inferior</placeName><placeName type="ancient" ref="#">Lussonium</placeName></origPlace><origDate><origDate notBefore-custom="0148" notAfter-custom="0160" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">148 AD - 160 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1994"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern">Dunakömlőd</placeName><placeName type="findspot">Spätantikes Kastell</placeName><placeName type="region">Tolna</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/91">military diploma</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-04-29" who="Lopez">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>A</abbr><ex>nte</ex></expan></supplied> <expan><abbr>d</abbr><ex>iem</ex></expan> III <gap reason="lost" extent="unknown" unit="character"/>FA IA O E L T<gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>Aug</abbr><ex cert="low">ustae</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> Flavi<supplied reason="lost">us<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <gap reason="lost" extent="unknown" unit="character"/></supplied> ex g[regale ------ </ab></div><div n="2" type="textpart"><ab><lb n="0"/> <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><supplied reason="lost"><expan><abbr>P</abbr><ex>ubli</ex></expan> Oci</supplied>li <supplied reason="lost">Prisci</supplied>
+            </ab></div></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2002, 1178.</bibl><bibl>RMD 429.</bibl><bibl>Z. Visy, SpNov 16, 2000, 39-46; Abb. 2 u. 3; Abb. 3 (Zeichnung). - AE 2002.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

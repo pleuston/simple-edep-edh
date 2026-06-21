@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Roma &amp;ndash; Roma (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD032918</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD032918</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Roma, S. Paolo f.l.m.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>(41)</height><width>(27)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4-6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma</placeName></origPlace><origDate><origDate notBefore-custom="0301" notAfter-custom="0500" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">301 AD - 500 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma</placeName><placeName type="findspot">S. Paolo, sekundär verwendet</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD032918_1"><persName><name type="nomen">[---]</name><name type="cognomen">Dexter+?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2010-11-19" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F011094" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/35b8eec9-e556-41be-afd6-c19665da7f8d/file/id/770617/file_version/name/small"/><graphic xml:id="F040516" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/53a2da61-f9cb-4a00-a9fe-1036a07e7a28/file/id/801398/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                ------<certainty match="preceding-sibling::node()" locus="value"/>] <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost" cert="low"> Dex</supplied>tro viro perfectiss<supplied reason="lost">imo</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>is atque sanctitat<supplied reason="lost">is</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>ann</abbr><ex>orum</ex></expan> <gap reason="lost" extent="unknown" unit="character"/></supplied>IIII mensum <note>sic</note> <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">d</supplied>iebus XV de<supplied reason="lost">functo<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/> depossio <note>sic</note> <gap reason="lost" extent="unknown" unit="character"/> V die Kalen<supplied reason="lost"><expan><abbr>d</abbr><ex>is</ex></expan></supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/>CVN<gap reason="lost" extent="unknown" unit="character"/>N<gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Es sind 2 Fragmente erhalten; Maße beziehen sich auf Fragment a (aus 3 Teilen zusammengesetzt); Maße Fragment b: (29) x (29) x ? cm. Z. 5 (Ende): hinter N Rest eines nicht mehr identifizierbaren Buchstabens.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 06, 41424; Foto.</bibl><bibl>CIL 06, 32082.</bibl><bibl>ILCV 4341A.</bibl><bibl>ICUR n. s. 05553.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

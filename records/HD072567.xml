@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Buthoe &amp;ndash; Budva (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD072567</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD072567</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Budva, Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material>Gesteine</material><dimensions unit="cm"><height>(42)</height><width>22</width><depth>14</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/481770">Buthoe</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1980"><placeName type="country" ref="https://www.geonames.org/3194884">Montenegro</placeName><placeName type="modern" ref="http://www.geonames.org/3203106">Budva</placeName><placeName type="findspot">{Hotel Avala}, bei, Nekropole</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD072567_1" sex="W"><persName><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD072567_2" sex="W"><persName><name type="nomen">[---]minia</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-01-15" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F036624" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/ea6f97e6-7928-423f-8d6a-57afb87b2159/file/id/797484/file_version/name/small"/><graphic xml:id="F036625" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/67a2f7d7-7eda-4fc0-9854-a4d72d03b186/file/id/797485/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>D</abbr><ex>is</ex></expan></supplied> <expan><abbr>M</abbr><ex>anibus</ex></expan> <expan><abbr>s</abbr><ex>acrum</ex></expan> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>AILNV <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>PLEPTO <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>cissim<expan><ex>a</ex><abbr>e</abbr></expan> <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/>minia <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>a</abbr><ex>nno---</ex></expan> XIIII
+            </ab></div>
+            <div type="commentary">
+                <p>Die Inschrift befindet sich auf der Vorderseite eines Quaders (21 x 22,5 x 14,5 cm) mit kegelförmigem Aufsatz. Fundjahr: 1980/81.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>J.J. Martinović, Antički natpisi u Crnoj Gori. Corpus inscriptionum Latinarum et Graecarum Montenegri (Kotor 2011) 61-62, Nr. 28; Foto u. Zeichnung.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

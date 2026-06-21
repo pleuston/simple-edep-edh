@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Valcum (Volgum), bei? &amp;ndash; Keszthely - Újmajor, zwischen (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD038783</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD038783</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Keszthely, Balatoni Múz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>46</height><width>85</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7.6-4.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197585">Valcum (Volgum), bei?</placeName></origPlace><origDate><origDate notBefore-custom="0031" notAfter-custom="0071" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">31 AD - 71 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1910"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3050212">Keszthely - Újmajor, zwischen</placeName><placeName type="findspot">frühkaiserzeitliches Gräberfeld</placeName><placeName type="region">Zala megye</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD038783_1" sex="M"><persName><name type="praenomen">Ti.</name><name type="nomen">Iulius</name><name type="cognomen">Faustus</name></persName></person><person xml:id="HD038783_2" sex="W"><persName><name type="nomen">Iulia</name><name type="cognomen">Fausta</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-03-30" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F004509" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/1c0114de-e14f-4cbf-ae71-e926ab8c01fd/file/id/765271/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Ti</abbr><ex>berius</ex></expan> Iulius Faustus <lb n="2"/><expan><abbr>n<am>n</am></abbr><ex>orum</ex></expan> XXXXV <lb n="3"/>Iulia Fausta <lb n="4"/><expan><abbr>n<am>n</am></abbr><ex>orum</ex></expan> XL <expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>iti</ex></expan> <expan><abbr>s</abbr><ex>unt</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>In fünf aneinanderpassende Teile gebrochen. Gefunden im Dezember 1909 oder Januar/Februar 1910. Z. 1: AV-Ligatur; S klein in V eingeschrieben.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>RIU 0294; Abb. 294 (Foto u. Zeichnung).</bibl><bibl>Á. Csák, ArchErt 32, 1912, 375. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

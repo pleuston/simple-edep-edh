@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Bingium &amp;ndash; Bingen/Rhein (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD078306</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD078306</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Kassel, Schloss Wilhelmshöhe</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/260">slab</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(47)</height><width>(31)</width><depth>10</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/108809">Bingium</placeName></origPlace><origDate><origDate notBefore-custom="0401" notAfter-custom="0600" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">401 AD - 600 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1779"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2948825">Bingen/Rhein</placeName><placeName type="findspot"/><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD078306_1" sex="M"><persName><name type="cognomen">Paulinus</name></persName></person><person xml:id="HD078306_2" sex="W"><persName><name type="cognomen">Paulina</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-04-26" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F037850" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/b8b0c90c-392b-476a-9f37-d01eb9fe6d2f/file/id/798718/file_version/name/small"/><graphic xml:id="F037860" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/71bd3030-a451-45cb-86e6-f4c6e5f98786/file/id/798728/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Paulinus <expan><abbr>I</abbr><ex cert="low"/>I</expan><certainty match="preceding-sibling::node()" locus="value"/><expan><abbr>B</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/>nobilis vitae <gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/>tum osculum <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">o</supplied><lb break="no" n="4"/>ptaverat dar<supplied reason="lost">e <gap reason="lost" extent="unknown" unit="character"/> co</supplied><lb break="no" n="5"/>nmendans <note>sic</note> <gap reason="lost" extent="unknown" unit="character"/><lb break="no" n="6"/>it SECVNTONI<gap reason="lost" extent="unknown" unit="character"/><lb break="no" n="7"/>ritum qui de<gap reason="lost" extent="unknown" unit="character"/> <lb n="8"/>sinus MAII <expan><abbr>C</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/> <lb n="9"/>quem suo SV<gap reason="lost" extent="unknown" unit="character"/><lb break="no" n="10"/>MVS cum D<gap reason="lost" extent="unknown" unit="character"/><lb break="no" n="11"/>inus hoc te<gap reason="lost" extent="unknown" unit="character"/> <lb n="12"/>aeius SARV<gap reason="lost" extent="unknown" unit="character"/><lb break="no" n="13"/>inus hoc te<gap reason="lost" extent="unknown" unit="character"/> <lb n="14"/>Paulina <expan><abbr>PN</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/> <lb n="15"/><supplied reason="lost">l</supplied><expan><abbr>audanD</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Boppert; Kessel: Z. 4 (Ende): DAN[---]; ILCV: Z. 7: qu[-]d [---]; ILCV; Kessel: Z. 8: maii[---]; ILCV; Kessel: Z. 11: rirranuce[---]; Kessel: Z. 12: Sar[---]; Boppert: Z. 13 (Anfang): NVS; ILCV: Z. 13 (Ende): ie[---]; Z. 14: [P]aulina pi[---]; Z. 15: [-]u audand[---]; unter Z. 15 eine weitere Zeile: [---]A[---]; Paläographie: Vorkarolingische Kapitalis I.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 07527.</bibl><bibl>W. Boppert, Die frühchristlichen Inschriften des Mittelrheingebietes (Mainz 1971) 120-122; Zeichnung. (B)</bibl><bibl>K. Körber, MZ 4, 1909, 31, Nr. 51; Abb. 47 (Zeichnung).</bibl><bibl>C. Kessel, MZ 113, 2018, 99-10, Nr. 81; Abb. 87. (B)</bibl><bibl>ILCV 0273. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

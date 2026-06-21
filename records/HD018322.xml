@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription? from Mogontiacum &amp;ndash; Mainz (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD018322</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD018322</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mainz, Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(46)</height><width>(53)</width><depth>33</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">2.2-2.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109169">Mogontiacum</placeName></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1960"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2874225">Mainz</placeName><placeName type="findspot">{Bauerngasse / Löhrstraße, Ecke}, römische Stadtmauer, sekundär verwendet</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription?</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD018322_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-08-15" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F017144" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/cd0d9d2a-9c64-4e16-ac4b-907dd3085d2a/file/id/776750/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>I</abbr><ex cert="low"/>A</expan><certainty match="preceding-sibling::node()" locus="value"/> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr><supplied reason="lost">tr</supplied>ib</abbr><ex>uno</ex></expan> <expan><abbr>pleb</abbr><ex>is</ex></expan> candi<lb break="no" n="3"/>datus <expan><abbr>praet</abbr><ex>or</ex></expan> urbanus <lb n="4"/>curator rei <expan><abbr>publ</abbr><ex>icae</ex></expan> colo<lb break="no" n="5"/>niae Lugensium <expan><abbr>leg</abbr><ex>atus</ex></expan> <lb n="6"/><expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> XXII <expan><abbr>Primi</abbr><ex>geniae</ex></expan> <expan><abbr>p</abbr><ex>iae</ex></expan> <expan><abbr>f</abbr><ex>idelis</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Unterer Teil eines Altars oder einer Basis / Statuenbasis. Z. 2: vor IB noch ein Rest der schräg abfallenden Haste des R erkennbar. (B): von Pfeffer; AE 1965; Schillinger-Häfele: geringfügige Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1965, 0244. (B)</bibl><bibl>W. von Pfeffer, MZ 59, 1964, 58, Nr. 6; Foto. (B) - AE 1965.</bibl><bibl>U. Schillinger-Häfele, BRGK 58, 1977, 496, Nr. 76. (B)</bibl><bibl>G. Alföldy, Die Legionslegaten der römischen Rheinarmeen (Köln 1967) 64, Nr. 79.</bibl><bibl>K. Wachtel, Historia 15, 1966, 242.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

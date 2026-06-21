@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Ninia, bei &amp;ndash; Knin, bei (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD058291</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD058291</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Knin, Franziskanerkloster</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>41</height><width>27</width><depth>7</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197410">Ninia, bei</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1886"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3197986">Knin, bei</placeName><placeName type="findspot">{Kapitul}</placeName><placeName type="region">Šibensko-kninska županija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD058291_1" sex="M"><persName><name type="praenomen">P.?</name><name type="nomen">Flavius?</name><name type="cognomen">0?</name></persName></person><person xml:id="HD058291_2" sex="M"><persName><name type="praenomen">[-]?</name><name type="nomen">0?</name><name type="cognomen">[---]rus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-09-16" who="Feraudi">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>P</abbr><ex cert="low">ubli--</ex></expan> Fl[avi--<certainty match="preceding-sibling::node()" locus="value"/> ------ </ab></div><div n="2" type="textpart"><ab><lb n="1"/> ------ vixit<certainty match="preceding-sibling::node()" locus="value"/> a]<expan><abbr>n</abbr><ex>nos</ex></expan><certainty match="preceding-sibling::node()" locus="value"/> <lb n="2"/><expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>itus</ex></expan> <expan><abbr>e</abbr><ex>st</ex></expan> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>rus <expan><abbr>h</abbr><ex>eres</ex></expan> <expan><abbr>p</abbr><ex>osuit</ex></expan>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Zwei nach Patsch sehr wahrscheinlich zusammen gehörige Fragmente. Abmessungen des größeren, mutmaßlich rechten unteren Fragments: s. o.; Abmessungen des kleineren, mutmaßlich linken oberen Fragments: 21 x 25 x 8.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 09923 a-b.</bibl><bibl>CIL 03, 09923 a-b add. p. 2328, 13.</bibl><bibl>C. Patsch, WMBH 5, 1897, 199, Nr. 41; Fig. 41 (Zeichnung).</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

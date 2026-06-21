@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Carnuntum &amp;ndash; Bad Deutsch-Altenburg (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD010879</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD010879</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bad Deutsch-Altenburg, Arch. Mus. Carnuntinum, Kurpark</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>210</height><width>72</width><depth>22</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/128376">Carnuntum</placeName></origPlace><origDate><origDate notBefore-custom="0031" notAfter-custom="0070" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">31 AD - 70 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1972"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2782068">Bad Deutsch-Altenburg</placeName><placeName type="findspot">{Burgfeld}</placeName><placeName type="region">Niederösterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD010879_1" sex="W"><persName><name type="nomen">Cliternia</name><name type="cognomen">Prisca</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-10-20" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F019465" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/53748e8a-8799-4b2c-a937-5dfcd2ce8dd4/file/id/779537/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Cliternia <lb n="2"/>Prisca <expan><abbr>an</abbr><ex cert="low">cillae</ex></expan> <lb n="3"/><expan><abbr>lll</abbr><ex>ibertisque</ex></expan> se viva <lb n="4"/>pos<expan><ex>u</ex><abbr>it</abbr></expan> <expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>itae</ex></expan> <expan><abbr>s</abbr><ex>unt</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Lesevorschlag bei Vorbeck; Genser: L L(ucii) l(iberta). Z. 1: kleines A am Zeilenende; Z. 2: an(cillae) oder an(norum)?</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1975, 0683.</bibl><bibl>E. Vorbeck, AustrRom 23, 1973, 2.</bibl><bibl>E. Weber, RŒ 3, 1975, 256. - AE 1975.</bibl><bibl>E. Vorbeck, Zivilinschriften aus Carnuntum (Wien 1980) 16-17, Nr. 58. (B)</bibl><bibl>K. Genser, Römische Steindenkmäler aus Carnuntum I (Wien 2005) 76-77.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

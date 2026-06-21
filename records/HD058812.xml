@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Celeusum &amp;ndash; Pförring (Raetia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD058812</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD058812</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Raetia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118628">Celeusum</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 230 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1534"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2853974">Pförring</placeName><placeName type="findspot">{Lager, Porta decumana}</placeName><placeName type="region">Bayern</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD058812_1" sex="M"><persName><name type="nomen">Cornelius*</name><name type="cognomen">Rogatus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-02-08" who="Gräf">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                In <expan><abbr>honor</abbr><ex>em</ex></expan> <expan><abbr>d</abbr><ex>omus</ex></expan> <expan><abbr>d</abbr><ex>ivinae</ex></expan> <lb n="2"/><expan><abbr>templ</abbr><ex>um</ex></expan> vetustate <lb n="3"/>conlabs<supplied reason="lost">u</supplied>m <note>sic</note> Cor<lb break="no" n="4"/><expan><abbr>nel</abbr><ex>ius</ex></expan> Rogatu<supplied reason="lost">s</supplied> <lb n="5"/><expan><abbr>praef</abbr><ex>ectus</ex></expan> <expan><abbr>coh</abbr><ex>ortis</ex></expan> I ML <expan><abbr>s</abbr><ex cert="low">ibi</ex></expan> suis<lb break="no" n="6"/><expan><abbr>que</abbr><ex cert="low"/></expan> <supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied>RCONI <lb n="7"/>ME et <expan><abbr>rest</abbr><ex>ituit</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Nur handschriftlich überliefert, Lesung wenig zuverlässig. Vermutlich fand sich der Name einer Gottheit noch auf einem weiteren Bauteil oder Fragment oberhalb von Z. 1. Bei der Einheit könnte es sich um die Cohors I Flavia Canathenorum miliaria handeln. (B): CIL 03, 05911: Abweichungen in Lesung/Ergänzung.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IBR 262.</bibl><bibl>CIL 03, 05911. (B)</bibl><bibl>CIL 03, 05911 add. p. 1050.</bibl><bibl>CIL 03, 05911 add. p. 2328,201.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

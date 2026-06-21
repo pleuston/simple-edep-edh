@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Trebinje (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD032920</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD032920</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Sarajevo, Zem. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>33</height><width>(58)</width><depth>28</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3277605">Bosnia and Herzegovina</placeName><placeName type="modern" ref="http://www.geonames.org/3187152">Trebinje</placeName><placeName type="findspot">{Vrpolje Ljubomir}?</placeName><placeName type="region">Republika Srpska</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD032920_1" sex="M"><persName><name type="cognomen">Zanatis+</name></persName></person><person xml:id="HD032920_2" sex="M"><persName><name type="cognomen">Ziraeus+</name></persName></person><person xml:id="HD032920_3" sex="W"><persName><name type="cognomen">Annaia</name></persName></person><person xml:id="HD032920_4" sex="M"><persName><name type="cognomen">Zanatis*</name></persName></person><person xml:id="HD032920_5" sex="M"><persName><name type="cognomen">Plarens</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-09-13" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">Z</supplied>anati <lb n="2"/><supplied reason="lost">Zira</supplied>ei <expan><abbr>f</abbr><ex>ilio</ex></expan> defuncto <lb n="3"/><expan><abbr>n<am>n</am></abbr><ex>um</ex></expan> XXX <lb n="4"/>Annaia <expan><abbr>Zanat</abbr><ex>is</ex></expan> <expan><abbr>f</abbr><ex>ilia</ex></expan> vir<supplied reason="lost">o et <expan><abbr>f</abbr><ex>ilio</ex></expan></supplied> <lb n="5"/>et Plarens Zira<supplied reason="lost">ei <expan><abbr>f</abbr><ex>ilius</ex></expan></supplied> <lb n="6"/>patri et fratri
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILJug 0106.</bibl><bibl>A. Škegro, OpuscArchZagreb 21, 1997, 91, Nr. 34.</bibl><bibl>D. Sergejevski, GlasSarajevo 47, 1935, 21-22 Nr. 1; tab. 6, 6.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

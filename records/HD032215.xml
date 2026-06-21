@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Intercisa &amp;ndash; Dunaújváros (Pannonia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD032215</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD032215</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Budapest, Magyar Nemzeti Múz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material>Gesteine</material><dimensions unit="cm"><height>(45)</height><width>(60)</width><depth>24</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197323">Intercisa</placeName></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3053438">Dunaújváros</placeName><placeName type="findspot"/><placeName type="region">Fejér megye</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD032215_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">Saturninus+*?</name></persName></person><person xml:id="HD032215_2" sex="M"><persName><name type="nomen">Septimius*</name><name type="cognomen">Maximianus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-10-06" who="Feraudi">checked through autopsy</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost" cert="low"> Satur</supplied><expan><abbr>n</abbr><ex cert="low"/>in</expan>(us) q<expan><ex>uon</ex><abbr>d</abbr><ex>am</ex></expan> armat<supplied reason="lost">ura</supplied> <lb n="2"/><expan><abbr>leg</abbr><ex>ionis</ex></expan> II <expan><abbr>ad</abbr><ex>iutricis</ex></expan> <expan><abbr>stip</abbr><ex>endiorum</ex></expan> XVI o<supplied reason="lost">r</supplied><lb break="no" n="3"/>iundus ex regio<lb break="no" n="4"/>ne Bassiane<expan><ex>n</ex><abbr>si</abbr></expan> desi<lb break="no" n="5"/>deratus in Dacia <expan><abbr>qu</abbr><ex>ondam</ex></expan> <lb n="6"/>qui vixit <expan><abbr>n<am>n</am></abbr><ex>os</ex></expan> XXXIIII <lb n="7"/><expan><abbr>Sept</abbr><ex>imius</ex></expan> Maximi<supplied reason="lost">a</supplied>n<supplied reason="lost">us</supplied><gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Lesung nach Á. Szabó (Autopsie) und G. Alföldy. (B): RIU: abweichende Textwiedergabe.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>RIU 1552a; Abb. 1552a (Foto u. Zeichnung). (B)</bibl><bibl>CIL 03, 03336.</bibl><bibl>G. Alföldy, SpNov 16, 2000, 61-62, Nr. 23. - AE 2001.</bibl><bibl>AE 2001, 1669.</bibl><bibl>IDRE 285.</bibl><bibl>G. Erdélyi - F. Fülep, in: L. Barkóczi u. a., Intercisa I. (Dunapentele - Sztálinváros). Geschichte der Stadt in der Römerzeit (Budapest 1954) 282, Nr. 27; Taf. 46, 4.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

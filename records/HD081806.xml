@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Andematunnum (Civitas Lingonum) &amp;ndash; Langres (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD081806</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD081806</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Langres, Mus. Art Hist. (Mus. Guy-Baillet)</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">block</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>55</height><width>(75)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7-4.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/177441">Andematunnum (Civitas Lingonum)</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1835"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/3007680">Langres</placeName><placeName type="findspot">{Place Jean Duvet}</placeName><placeName type="region">Grand Est</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD081806_1" sex="M"><persName><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD081806_2" sex="M"><persName><name type="nomen">[---]ius</name><name type="cognomen">Pacatus</name></persName></person><person xml:id="HD081806_3" sex="W"><persName><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD081806_4" sex="W"><persName><name type="cognomen">[---]ana</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-09-08" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F040176" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/dfb2c54f-d5b5-4ed1-b311-b0315fe327e5/file/id/801058/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/>i Pacati <expan><abbr>f</abbr><ex>ilii</ex></expan> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>anae <expan><abbr>f</abbr><ex>iliae</ex></expan> cali<lb break="no" n="2"/><supplied reason="lost"><expan><abbr>darium</abbr><ex cert="low"/></expan> cum s</supplied>uis ornam<lb break="no" n="3"/><supplied reason="lost">entis</supplied><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>s</abbr><ex>ua</ex></expan> <expan><abbr>p</abbr><ex>ecunia</ex></expan> <expan><abbr>p</abbr><ex>osuit</ex></expan> <expan><abbr>l</abbr><ex>ocus</ex></expan> <expan><abbr>d</abbr><ex>atus</ex></expan> <expan><abbr>d</abbr><ex>ecreto</ex></expan> <expan><abbr>d</abbr><ex>ecurionum</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Block, links abgebrochen oder abgearbeitet, rechts noch ein Peltenhenkel, der das Inschriftfeld rahmt.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 05687.</bibl><bibl>M. Joly, Langres, Carte archéologique de la Gaule 52, 2 (Paris 2001) 73.</bibl><bibl>Y. Le Bohec, Inscriptions de la cité des Lingons (Paris 2003) 203-204, Nr. 356; Abb. 158.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

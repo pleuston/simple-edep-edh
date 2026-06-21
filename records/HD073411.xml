@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Carnuntum &amp;ndash; Hainburg/Donau (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD073411</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD073411</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/128376">Carnuntum</placeName></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0085" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 85 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2776988">Hainburg/Donau</placeName><placeName type="findspot"/><placeName type="region">Niederösterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD073411_1" sex="M"><persName><name type="praenomen">T.</name><name type="nomen">Exomnius</name><name type="cognomen">Craxa+?</name></persName></person><person xml:id="HD073411_2" sex="M"><persName><name type="cognomen">Iulianus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-04-13" who="Osnabrügge">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>T</abbr><ex>itus</ex></expan> Exomnius <lb n="2"/>C<supplied reason="lost">r</supplied>a<supplied reason="lost">x</supplied><expan><abbr>a</abbr><ex cert="low"/></expan> <expan><abbr>mil</abbr><ex>es</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> <lb n="3"/>XV <expan><abbr>Apol<supplied reason="lost">l</supplied>inar</abbr><ex>is</ex></expan> <lb n="4"/><expan><abbr><am><g type="centuria"/></am></abbr><ex>centuria</ex></expan> Iu<supplied reason="lost">l</supplied>i<supplied reason="lost">an</supplied>i <expan><abbr>n<am>n</am></abbr><ex>orum</ex></expan> XXX <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Wiedergabe nach Neulesung I. Weber-Hiden; aufgrund der Herkunft und Legion wäre dort ein Cognomen zu erwarten, da so früh noch keine Soldaten dieser Legion aus Claudia Ara Ubiorum nachweisbar sind. Alternative Lesung: C[i]n[n]a? (B): CIL 03; Vorbeck; Mosser: C[l(audia)] A[r]a.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 04465. (B)</bibl><bibl>E. Vorbeck, Militärinschriften aus Carnuntum (2. Aufl., Wien 1980) 69, Nr. 176.</bibl><bibl>M. Mosser, Die Steindenkmäler der legio XV Apollinaris (Wien 2003) 248, Nr. 157. (B)</bibl><bibl>I. Weber-Hiden, in: F. Humer - G. Kremer - E. Pollhammer - A. Pülz (Hrsg.), Akten der 3. Österreichischen Römersteintagung, Hainburg a. d. Donau 2014 (Wien 2014) 220.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

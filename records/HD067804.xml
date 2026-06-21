@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Aquincum &amp;ndash; Budapest (Pannonia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD067804</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD067804</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Budapest, Magyar Nemzeti Múz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(221)</height><width>(93)</width><depth>20</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">8.3-6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197130">Aquincum</placeName></origPlace><origDate><origDate notBefore-custom="0131" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">131 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1976"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/7284842">Budapest</placeName><placeName type="findspot">Óbuda, Donauufer, {Gaswerke}</placeName><placeName type="region">Budapest</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD067804_1" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Aemilius</name><name type="cognomen">Campanus</name></persName></person><person xml:id="HD067804_2" sex="W"><persName><name type="cognomen">Marcia</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-04-13" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>M</abbr><ex>arcus</ex></expan> Aemilius <lb n="2"/><expan><abbr>Ter</abbr><ex>etina</ex></expan> C&amp;lt;a&amp;gt;mpanus domo <lb n="3"/><expan><abbr>Viminaci</abbr><ex>o</ex></expan> <expan><abbr>mil</abbr><ex>es</ex></expan> <lb n="4"/><expan><abbr>leg</abbr><ex>ionis</ex></expan> II <expan><abbr>ad</abbr><ex>iutricis</ex></expan> adiutor <lb n="5"/><expan><abbr>princi</abbr><ex>pis</ex></expan> <expan><abbr>praetori</abbr><ex>i</ex></expan> <lb n="6"/><expan><abbr>stip</abbr><ex>endiorum</ex></expan> XVI <expan><abbr>n<am>n</am></abbr><ex>orum</ex></expan> XXXVI <lb n="7"/><expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>itus</ex></expan> <expan><abbr>e</abbr><ex>st</ex></expan> Marcia soror <lb n="8"/><supplied reason="lost">f</supplied>ratri pientis<expan><ex>s</ex><abbr>imo</abbr></expan> <lb n="9"/>posuit
+            </ab></div></div>
+            <div type="commentary">
+                <p>Gefunden in Wiederverwendung für einen spätantiken Sarkophag. Oberhalb des Inschriftfeldes Lorbeerkranz mit herabhängenden Tänien, zwischen denen sich die Buchstaben D und M (Z. 1) befinden. Zahlreiche Ligaturen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2010, 1282.</bibl><bibl>TitAq 0523; Fotos.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Municipium Claudium Virunum, bei &amp;ndash; Bad S. Leonhard/Lavanttal (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD017626</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD017626</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bad S. Leonhard/Lavanttal, Schleifmittelfabrik</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>73</height><width>127</width><depth>20</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197583">Municipium Claudium Virunum, bei</placeName></origPlace><origDate><origDate notBefore-custom="0051" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1972"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2782049">Bad S. Leonhard/Lavanttal</placeName><placeName type="findspot">Schleifmittelfabrik, Parzelle Nr. 251/2 und {261/1}</placeName><placeName type="region">Kärnten</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD017626_1" sex="M"><persName><name type="praenomen">T.</name><name type="nomen">Fannius</name><name type="cognomen">Quartus</name></persName></person><person xml:id="HD017626_2" sex="W"><persName><name type="nomen">Valeria</name><name type="cognomen">Iulia</name></persName></person><person xml:id="HD017626_3" sex="M"><persName><name type="nomen">Fannius</name><name type="cognomen">Valerius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-08-19" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>T</abbr><ex>itus</ex></expan> Fannius <lb n="2"/>Quartus sibi <lb n="3"/>et Valeriae <lb n="4"/>Iuliae uxori <lb n="5"/>et Fannio Valerio <expan><abbr>fil</abbr><ex>io</ex></expan> <expan><abbr>an</abbr><ex>norum</ex></expan> XXX
+            </ab></div>
+            <div type="commentary">
+                <p>Nach Kremer ursprünglich zentral am Sockelgeschoss eines Grabbaus angebracht. Hedera in Z. 4. Z. 5 offenbar nachträglich angebracht; hierfür wurde der untere Rahmen teilweise weggemeißelt.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILLPRON 0029.</bibl><bibl>G. Piccottini, AustrRom 22, 1972, 29, Nr. 1.</bibl><bibl>G. Kremer, Antike Grabbauten in Noricum (Wien 2001) 219, Nr. II 150.</bibl><bibl>G. Piccottini, Die Römer in Kärnten. Ein Führer zu den wichtigsten römerzeitlichen Ausgrabungen und Denkmälern des Landes (Klagenfurt 1989) 23; Abb. 5.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Municipium Claudium Virunum, bei &amp;ndash; Bleiburg (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD057487</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD057487</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Klagenfurt/Wörthersee, Landesmus. Kärnten</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material>Marmor, geädert / farbig</material><dimensions unit="cm"><height>(38)</height><width>(90)</width><depth>24</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.3-14.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197583">Municipium Claudium Virunum, bei</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1901"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2762797">Bleiburg</placeName><placeName type="findspot">Loibach, {S. Andreas, Kirche, Friedhof}, sekundär verwendet</placeName><placeName type="region">Kärnten</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD057487_1" sex="W"><persName><name type="nomen">Iulia+?</name></persName></person><person xml:id="HD057487_2" sex="M"><persName><name type="praenomen">Ti.+</name><name type="nomen">Iulius+</name><name type="cognomen">Latiaris</name></persName></person><person xml:id="HD057487_3" sex="M"><persName><name type="cognomen">Priscus+</name></persName></person><person xml:id="HD057487_4" sex="M"><persName><name type="cognomen">Spectatus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-01-31" who="Gräf">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost" cert="low">Iul</supplied>iae <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>f</abbr><ex>iliae</ex></expan> <supplied reason="lost"><expan><abbr>Ti</abbr><ex>berius</ex></expan> I</supplied>ulius <lb n="2"/>Pris<supplied reason="lost">ci f</supplied><expan><abbr>il</abbr><ex>ius</ex></expan> Latiaris <lb n="3"/><expan><abbr>con</abbr><ex>iugi</ex></expan> <expan><abbr>f</abbr><ex>ecit</ex></expan> <lb n="4"/>Specta<supplied reason="lost">t</supplied>us <lb n="0"/><gap reason="lost" quantity="1" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/>
+            </ab></div>
+            <div type="commentary">
+                <p>12 teils aneinanderpassende Fragmente, die drei nicht aneinanderpassende Stücke (a-c) ergeben; Maße beziehen sich auf das größte Stück (b); Maße a: (31) x (47) cm; c: (47,5) x (59) cm. In der Mitte Rest eines Medaillons mit weiblichem Porträt. Material: gelblich-weißer Marmor. Z. 1 (Anfang): statt I auch N möglich (nur die obere Hälfte der senkrechten Haste erhalten). (B): Nowotny; CIL 03, 15205k: Abweichungen in Lesung und Ergänzung; Leber: Z. 2/3: Zeilenfall fehlt.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILLPRON 0653.</bibl><bibl>CIL 03, 15205k. (B)</bibl><bibl>P.S. Leber, Die in Kärnten seit 1902 gefundenen römischen Steininschriften (Klagenfurt 1972) 128-129, Nr. 241. (B)</bibl><bibl>E. Nowotny, JŒAI (Beibl.) 5, 1902, 173-176, Nr. 3; Zeichnung. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

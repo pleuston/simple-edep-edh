@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Mogontiacum, bei &amp;ndash; Ingelheim/Rhein (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD050570</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD050570</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Ingelheim/Rhein, Mus. Kaiserpfalz</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(185)</height><width>64</width><depth>25</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.2-9.2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109169">Mogontiacum, bei</placeName></origPlace><origDate><origDate notBefore-custom="0171" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD - 230 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1925"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2896015">Ingelheim/Rhein</placeName><placeName type="findspot">Ober-Ingelheim, {Weingut J. Neuss}, sekundär verwendet</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD050570_1" sex="M"><persName><name type="nomen">Martialius</name><name type="cognomen">Miccio</name></persName></person><person xml:id="HD050570_2" sex="W"><persName><name type="nomen">Ibliomaria*</name><name type="cognomen">Bodica*</name></persName></person><person xml:id="HD050570_3" sex="W"><persName><name type="nomen">Miccionia</name><name type="cognomen">Ammisia</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2018-04-06" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Martialio <lb n="2"/>Miccioni <lb n="3"/>et Ibliomari<expan><ex>a</ex><abbr>e</abbr></expan> <lb n="4"/>Bodic<expan><ex>a</ex><abbr>e</abbr></expan> <expan><abbr>patribu</abbr><ex>s</ex></expan> <lb n="5"/>Miccionia <lb n="6"/>Ammisia <lb n="7"/>filia <lb n="8"/><expan><abbr>f</abbr><ex>aciendum</ex></expan> <expan><abbr>c</abbr><ex>uravit</ex></expan>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Stele sekundär als Abdeckplatte für eine römische Körperbestattung verwendet. Oberhalb des Inschriftfeldes Rundnische mit weiblicher Gewandfigur capite velato; zu ihren Seiten die Buchstaben D und M.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>H. Finke, BRGK 17, 1927, 73-74, Nr. 224.</bibl><bibl>W. Boppert, Römische Steindenkmäler aus dem Landkreis Mainz-Bingen, CSIR Deutschland 2, 14 (Mainz 2005) 112-114, Nr. 70; Tafel 44.</bibl><bibl>W. Faust, Die Grabstelen des 2. und 3. Jahrhunderts im Rheingebiet (Köln 1998) 113-114, Nr. 67.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

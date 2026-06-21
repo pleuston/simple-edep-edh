@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Sirmium &amp;ndash; Sremska Mitrovica (Pannonia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD075043</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD075043</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207447">Sirmium</placeName></origPlace><origDate><origDate notBefore-custom="0351" notAfter-custom="0450" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">351 AD - 450 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/6290252">Serbia</placeName><placeName type="modern" ref="http://www.geonames.org/3190103">Sremska Mitrovica</placeName><placeName type="findspot"/><placeName type="region">Vojvodina</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD075043_1" sex="M"><persName><name type="nomen">Flavius+*?</name><name type="cognomen">Felix+?</name></persName></person><person xml:id="HD075043_2" sex="W"><persName><name type="nomen">Flavia*</name><name type="cognomen">Decembrina+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-04-11" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">a</supplied>d beati<supplied reason="lost">ssimam</supplied> <lb n="2"/><expan><abbr><supplied reason="lost">marty</supplied>re</abbr><ex>m</ex></expan> Anast<supplied reason="lost">asiam</supplied> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">in</supplied> hoc loco d<supplied reason="lost">epositus <expan><abbr>Fl</abbr><ex>avius</ex></expan></supplied> <lb n="4"/><supplied reason="lost" cert="low">Feli</supplied>x qui conv<supplied reason="lost">ixit annis</supplied> <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/> qui vixit an<supplied reason="lost">nis</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="6"/><supplied reason="lost">marit</supplied>o eius <expan><abbr>d</abbr><ex>ie</ex></expan> pridie <gap reason="lost" extent="unknown" unit="character"/> <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/>T <expan><abbr>Fl</abbr><ex>avia</ex></expan> Decem<supplied reason="lost">brina</supplied> <lb n="8"/><supplied reason="lost" cert="low">---? po</supplied>su<supplied reason="lost">it memoriam</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>P. Kovács, Die antiken Quellen zu Pannonien in der Spätantike. Teil I: 284-337 n. Chr. (Wien 2014) 126-127; Abb. 18.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Salonae, bei &amp;ndash; Solin (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD034137</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD034137</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Split, Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>59</height><width>31</width><depth>12</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197488">Salonae, bei</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 230 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1949"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3190359">Solin</placeName><placeName type="findspot">Straße nach Mravince, bei, {Karabaš}</placeName><placeName type="region">Splitsko-dalmatinska županija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD034137_1" sex="M"><persName><name type="cognomen">Callistus</name></persName></person><person xml:id="HD034137_2" sex="M"><persName><name type="nomen">Aemilius</name></persName></person><person xml:id="HD034137_3" sex="W"><persName><name type="cognomen">Crescentilla</name></persName></person><person xml:id="HD034137_4" sex="M"><persName><name type="cognomen">Crescens</name></persName></person><person xml:id="HD034137_5" sex="M"><persName><name type="cognomen">Fuscus*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-09-19" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/>Callis<lb break="no" n="3"/>tus Aemi<lb break="no" n="4"/>li et Cres<lb break="no" n="5"/>centilla <lb n="6"/>Crescenti <lb n="7"/><expan><abbr>fil</abbr><ex>io</ex></expan> <expan><abbr>in<supplied reason="lost">f</supplied>elic</abbr><ex>issimo</ex></expan> <lb n="8"/><expan><abbr>n<am>n</am></abbr><ex>orum</ex></expan> II <expan><abbr>m<supplied reason="lost">e</supplied></abbr><ex>n</ex>s</expan>(ium) <lb n="9"/><supplied reason="lost">I</supplied>III et <expan><abbr>Fusc</abbr><ex>us</ex></expan> <lb n="10"/>amicu<supplied reason="lost">s</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Oberhalb des Inschriftfeldes Giebel mit männlicher Büste; in den Giebelzwickeln Delphine. (B): Rendić-Miočevič; Rinaldi Tufi; ILJug: Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILJug 0713. (B)</bibl><bibl>S. Rinaldi Tufi, MAL 16, 1971, 108-109, Nr. 32. (B)</bibl><bibl>D. Rendić-Miočevič, BAHD 53, 1950/51, 222-223, Nr. 27; sl. 5. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

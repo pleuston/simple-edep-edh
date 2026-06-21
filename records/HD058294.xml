@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Burnum &amp;ndash; Kistanje (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD058294</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD058294</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Knin, Muz. Kninske krajine</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><dimensions unit="cm"><height>(40)</height><width>45</width><depth>13</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197184">Burnum</placeName></origPlace><origDate><origDate notBefore-custom="0042" notAfter-custom="0069" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">42 AD - 69 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1894"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3199030">Kistanje</placeName><placeName type="findspot">Ivoševci, bei, {Šuplja Crkva (Archi Romani)}</placeName><placeName type="region">Šibensko-kninska županija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD058294_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">Valerius+</name><name type="cognomen">Valerianus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2010-10-14" who="Gräf">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost" cert="low">D(is)? M(anibus)</supplied> <lb n="2"/><gap reason="lost" quantity="1" unit="character"/><supplied reason="lost">Va</supplied>leri <lb n="3"/><supplied reason="lost">V</supplied>aleriani <lb n="4"/><expan><abbr>mil</abbr><ex>itis</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> XI <lb n="5"/><expan><abbr>C</abbr><ex>laudiae</ex></expan> <expan><abbr>p</abbr><ex>iae</ex></expan> <expan><abbr>f</abbr><ex>idelis</ex></expan> <lb n="6"/><expan><abbr>n<am>n</am></abbr><ex>orum</ex></expan> XXXVII <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Patsch, WMBH 5; CIL III 14321, 19: Leseabweichungen. Datierung: nicht vor 42. n. Chr., als die legio XI die Beinamen Claudia pia fidelis erhielt; sie war bis 69 n. Chr. in Burnum stationiert.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 14321, 19. (B)</bibl><bibl>CIL 03, 14321, 19 add. p. 2328, 161.</bibl><bibl>C. Patsch, WMBH 5, 1897, 180, Nr. 5; Fig. 5 (Zeichnung). (B)</bibl><bibl>C. Patsch, WMBH 7, 1900, 73, Nr. 2; Zeichnung.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Saguntum &amp;ndash; Sagunto (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD026024</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD026024</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Sagunto, Mus. Arq.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><dimensions unit="cm"><height>41</height><width>(53)</width><depth>15</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Hispania citerior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/266021">Saguntum</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern" ref="http://www.geonames.org/2511619">Sagunto</placeName><placeName type="findspot">S. Francisco?</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD026024_1"><persName><name type="praenomen">[-]</name><name type="nomen">[---]icius</name><name type="cognomen">Meleager</name></persName></person><person xml:id="HD026024_2"><persName><name type="nomen">[---]icia</name><name type="cognomen">Perpetua</name></persName></person><person xml:id="HD026024_3"><persName><name type="praenomen">[-]</name><name type="nomen">Caecilio+?</name><name type="cognomen">Acto?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2007-11-19" who="Gräf">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <gap reason="lost" extent="unknown" unit="character"/>icius Meleager <expan><abbr>n<am>n</am></abbr><ex>orum</ex></expan> e<supplied reason="lost">t</supplied> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>icia Perpetua <expan><abbr>an</abbr><ex>norum</ex></expan> sibi et <expan><abbr>s</abbr><ex>uis</ex></expan> et <lb n="3"/><supplied reason="lost" cert="low">- Ca</supplied>ecilio <expan><abbr>Acto</abbr><ex cert="low"/></expan> de se bene merito
+            </ab></div>
+            <div type="commentary">
+                <p>Lesung der Zeilenanfänge nur handschriftlich überliefert. Z. 2 u. 3: Nach ann. bzw. an. Platz für 6 bzw. 4 Buchstaben für die nachträgliche Einfügung der Altersangaben, die aber nie eingemeißelt wurden. Autopsie G. Alföldy.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 02 (2. Aufl.) 14, 00500.</bibl><bibl>CIL 02, 03924.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

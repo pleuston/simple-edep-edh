@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription? from Roma &amp;ndash; Roma (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD032465</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD032465</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Roma, Mus. Vat. (Gall. Lap.)</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>(48)</height><width>(27)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">8-5.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma</placeName></origPlace><origDate><origDate notBefore-custom="0270" notAfter-custom="0275" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">270 AD - 275 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma</placeName><placeName type="findspot"/><placeName type="region">Roma</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription?</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD032465_1"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD032465_2"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">Romanus+?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2007-09-20" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F010942" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/b8f3e0c5-5fb6-475d-b160-f39d56908f22/file/id/770462/file_version/name/small"/><graphic xml:id="F040236" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/3c04c812-dd99-412a-9c68-13329cf753b6/file/id/801118/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><supplied reason="lost"><expan><abbr>Xvir</abbr><ex>o</ex></expan> stlitibu</supplied>s i<supplied reason="lost">udicandis seviro</supplied> <lb n="2"/><supplied reason="lost"><expan><abbr>equit</abbr><ex>um</ex></expan> <expan><abbr>Rom</abbr><ex>anorum</ex></expan></supplied> <expan><abbr>praef</abbr><ex>ecto</ex></expan> ur<supplied reason="lost">bi <expan><abbr>feriar</abbr><ex>um</ex></expan> <expan><abbr>Latinar</abbr><ex>um</ex></expan></supplied> <lb n="3"/><supplied reason="lost">pontifici</supplied> <expan><abbr>mai</abbr><ex>ori</ex></expan> XVvi<supplied reason="lost"><expan><abbr>r</abbr><ex>o</ex></expan> sacris faciundis</supplied> <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>f<gap reason="lost" extent="unknown" unit="character"/> Roma<supplied reason="lost">nus<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Inschriftengattung: möglicherweise auch Grabinschrift. Ergänzungsvorschlag nach G. Alföldy.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 06, 41241; Foto.</bibl><bibl>CIL 06, 01582.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

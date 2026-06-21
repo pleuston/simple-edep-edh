@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Divio (Civitas Lingonum) &amp;ndash; Dijon (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD081586</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD081586</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Dijon, Mus. Arch.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/260">slab</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(29)</height><width>(30)</width><depth>9</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/177489">Divio (Civitas Lingonum)</placeName></origPlace><origDate><origDate notBefore-custom="0401" notAfter-custom="0500" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">401 AD - 500 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1850"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/3021372">Dijon</placeName><placeName type="findspot">{ehemalige Kirche S.-Jean}, sekundär verwendet</placeName><placeName type="region">Bourgogne-Franche-Comté</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD081586_1" sex="W"><persName><name type="cognomen">[---]ntia</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-01-25" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F031574" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/a73f0e22-81ed-473d-9288-4f6e11c5a131/file/id/792337/file_version/name/small"/><graphic xml:id="F031573" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/caf4e2f9-46bc-480a-a095-ec50b6d346da/file/id/792336/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <supplied reason="lost">In ho</supplied>c tomo<lb break="no" n="2"/><supplied reason="lost">lo!</supplied> req<expan><ex>u</ex><abbr>i</abbr><ex>e</ex><abbr>s</abbr></expan><surplus>i</surplus>cit <lb n="3"/><supplied reason="lost">bona</supplied>e memoriae <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>ntiae q<expan><ex>u</ex><abbr>i</abbr></expan> <note>sic</note> <expan><abbr>vix</abbr><ex>it</ex></expan> <lb n="5"/><supplied reason="lost">an</supplied>nus <note>sic</note> XVII et <lb n="6"/><supplied reason="lost">me</supplied>nsis <note>sic</note> VI </ab></div><div n="2" type="textpart"><ab><lb n="0"/> <gap reason="lost" quantity="1" unit="line"/>V<gap reason="lost" quantity="1" unit="line"/>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Platte, umgearbeitet aus einem größeren Moument. von diesem ist an der rechten Schmalseite noch der linke Rand des Inschriftfeldes mit Reliefschmuck und der untere Teil eines V zu erkennen. (B): CIL 13, 05592: Text 2: NIV. ILCV; Provost - Périchon: Text 2 nicht gelesen; Text 1: Provost - Périchon; CIL 13, 05592: [Flore]ntiae.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 05592. (B)</bibl><bibl>ILCV s. n. 3566. (B)</bibl><bibl>M. Provost - D. Périchon, in: M. Provost u. a. (Hrsg.), La Côte-d'Or d'Allerey à Normier, Carte archéologique de la Gaule 21, 2 (Paris 2009) 297; fig. 366. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

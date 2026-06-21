@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from (Civitas Vangionum) &amp;ndash; Kreimbach-Kaulbach (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD075655</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD075655</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Speyer, Hist. Mus. Pfalz</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(80)</height><width>(58)</width><depth>18</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6.5-7.0</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="#">(Civitas Vangionum)</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1893"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/3207528">Kreimbach-Kaulbach</placeName><placeName type="findspot">{Heidenburg}, spätantike Höhensiedlung</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD075655_1" sex="M"><persName><name type="nomen">[---]</name><name type="cognomen">Rufus</name></persName></person><person xml:id="HD075655_2"><persName><name type="nomen">April­[---]?</name><name type="cognomen">April[---]?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-02-18" who="Osnabrügge">checked through autopsy</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F039541" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/79ec0160-3d05-4c6e-83ba-0c610260fd94/file/id/800420/file_version/name/small"/><graphic xml:id="F039542" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/ab9a3f4c-22db-4a7f-8b01-c76a3467ba61/file/id/800421/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>Rufo</abbr><ex cert="low"/></expan> e<supplied reason="lost" cert="low">t ---</supplied> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>IISONIS<gap reason="lost" extent="unknown" unit="character"/><certainty match="preceding-sibling::node()" locus="value"/> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>A et April<gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> defu<expan><ex>n</ex><abbr>cto</abbr></expan> <gap reason="lost" extent="unknown" unit="character"/><certainty match="preceding-sibling::node()" locus="value"/> <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">s</supplied>ibi et suis su<supplied reason="lost">o</supplied><lb break="no" n="6"/><supplied reason="lost">rumque post</supplied>eris
+            </ab></div>
+            <div type="commentary">
+                <p>Bruchstück, oben und an den Seiten abgebrochen. (B): Z. 1: Hildenbrand: nicht gelesen; Z. 3: Hildenbrand: ET APRII; Ditsch: APRIE.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 06162.</bibl><bibl>F.J. Hildenbrand, Der römische Steinsaal (Lapidarium) des Historischen Museums der Pfalz zu Speyer (Speyer 1911) 28, Nr. 38. (B)</bibl><bibl>S. Ditsch, Dis Manibus. Die römischen Grabdenkmäler aus der Pfalz (Neustadt/Weinstraße 2011) 118-119, Nr. Kreimbach 15; Taf. 25, 3 u. 4 (Foto u. Zeichnung). (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

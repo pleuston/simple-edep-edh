@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Brigetio &amp;ndash; Komárom (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD039090</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD039090</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Budapest, Magyar Nemzeti Múz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">base?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>12</height><width>13</width><depth>11</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">8</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197180">Brigetio</placeName></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1942"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3044294">Komárom</placeName><placeName type="findspot">Szőny, {Legionslager}, südlicher Teil</placeName><placeName type="region">Komárom-Esztergom megye</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD039090_1" sex="M"><persName ref="http://romans1by1.com/rpeople/17995"><name type="praenomen">C.</name><name type="nomen">Silvinius+</name></persName></person><person xml:id="HD039090_2" sex="M"><persName ref="http://romans1by1.com/rpeople/17996"><name type="praenomen">C.</name><name type="nomen">Lucius+?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-12-14" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Genio <expan><abbr>leg</abbr><ex>ionis</ex></expan> <lb n="2"/>I <expan><abbr>adi</abbr><ex>utricis</ex></expan> <expan><abbr>p</abbr><ex>iae</ex></expan> <expan><abbr>f</abbr><ex>idelis</ex></expan> <gap reason="lost" extent="unknown" unit="character"/><certainty match="preceding-sibling::node()" locus="value"/> <lb n="3"/>sc<expan><ex>h</ex><abbr>olae</abbr></expan> ||(centurionum) ob ho<lb break="no" n="4"/>norem <expan><abbr>d<am>d</am></abbr><ex>ominorum</ex></expan> <expan><abbr>n<am>n</am></abbr><ex>ostrorum</ex></expan> <lb n="5"/><expan><abbr>C</abbr><ex>aius</ex></expan> Silv<supplied reason="lost">i</supplied>nius <lb n="6"/><expan><abbr>C</abbr><ex>aius</ex></expan> Lu<supplied reason="lost" cert="low">ci</supplied>us <lb n="7"/>ex optione <lb n="8"/><expan><abbr>leg</abbr><ex>ionis</ex></expan> II <expan><abbr>Aug</abbr><ex>ustae</ex></expan> <lb n="9"/><expan><abbr>d</abbr><ex>onum</ex></expan> <expan><abbr>d</abbr><ex>edit</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Mittelteil eines Altars oder einer Basis; Oberfläche sehr stark verwittert; kreisförmige Eintiefung auf der Oberseite; in der Mitte des Inschriftfeldes ein quadratisches Loch; Spuren roter Farbe. Das Inschriftfeld ist stark verwittert.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>RIU 0390; Abb. 390 (Foto u. Zeichnung).</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

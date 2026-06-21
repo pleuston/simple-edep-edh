@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Brigetio &amp;ndash; Komárom (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD039525</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD039525</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Komárom, Klapka György Múz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(128)</height><width>58</width><depth>25</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.2-2.8</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197180">Brigetio</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0170" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 170 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3044294">Komárom</placeName><placeName type="findspot">{Szőny}</placeName><placeName type="region">Komárom-Esztergom megye</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD039525_1" sex="M"><persName ref="http://romans1by1.com/rpeople/18171"><name type="praenomen">M.</name><name type="nomen">Munatius</name><name type="cognomen">Placidus</name></persName></person><person xml:id="HD039525_2" sex="M"><persName ref="http://romans1by1.com/rpeople/18172"><name type="nomen">Tertius*</name><name type="cognomen">Abascantus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-05-04" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>M</abbr><ex>arcus</ex></expan> Munati<lb break="no" n="2"/>us <expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>Coll</abbr><ex>ina</ex></expan> <lb n="3"/>Placidus Ic<lb break="no" n="4"/>conio <note>sic</note> <expan><abbr>veter</abbr><ex>anus</ex></expan> <lb n="5"/><expan><abbr>leg</abbr><ex>ionis</ex></expan> I <expan><abbr>ad</abbr><ex>iutricis</ex></expan> <expan><abbr>p</abbr><ex>iae</ex></expan> <expan><abbr>f</abbr><ex>idelis</ex></expan> <lb n="6"/><expan><abbr>an</abbr><ex>norum</ex></expan> L <expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>itus</ex></expan> <expan><abbr>e</abbr><ex>st</ex></expan> T<expan><ex>e</ex><abbr>r</abbr></expan><lb break="no" n="7"/>t<expan><ex>i</ex><abbr>us</abbr></expan> Abascan<lb break="no" n="8"/>tus d<expan><ex>o</ex><abbr>mes</abbr><ex>t</ex><abbr>ic</abbr></expan>(us) <lb n="9"/>patrono be<lb break="no" n="10"/>ne merenti
+            </ab></div>
+            <div type="commentary">
+                <p>Oberhalb des Inschriftfeldes Kranz mit Rosette.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>RIU 0570; Abb. 570 (Foto u. Zeichnung).</bibl><bibl>CIL 03, 11030.</bibl><bibl>L. Borhy, Vezető Komárom város római kori kőemlékeihez (Komárom 2006) 73, Nr. 42; Fotos. (X)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Intercisa &amp;ndash; Dunaújváros (Pannonia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD018244</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD018244</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Budapest, Magyar Nemzeti Múz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(223)</height><width>(66)</width><depth>30</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.8-5.2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197323">Intercisa</placeName></origPlace><origDate><origDate notBefore-custom="0246" notAfter-custom="0247" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">246 AD - 247 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1913"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3053438">Dunaújváros</placeName><placeName type="findspot">Weingarten des János Szórád</placeName><placeName type="region">Fejér megye</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD018244_1" sex="M"><persName><name type="praenomen">P.</name><name type="nomen">Aelius*</name><name type="cognomen">Proculinus</name></persName></person><person xml:id="HD018244_2" sex="M"><persName><name type="praenomen">P.</name><name type="nomen">Aelius*</name><name type="cognomen">Proculus+</name></persName></person><person xml:id="HD018244_3" sex="W"><persName><name type="nomen">Aurelia+</name><name type="cognomen">[---]a</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-11-29" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F004229" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/89c6d299-b7ab-4363-9c84-f05f8e4d97c1/file/id/764991/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>P</abbr><ex>ublio</ex></expan> <expan><abbr>Ael</abbr><ex>io</ex></expan> Proculino <supplied reason="lost"><expan><abbr>e</abbr><ex>gregiae</ex></expan> <expan><abbr>m</abbr><ex>emoriae</ex></expan> <expan><abbr>v</abbr><ex>iro</ex></expan> <gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/> |(centurioni)</supplied> <lb n="2"/>primo in <expan><abbr>coh</abbr><ex>orte</ex></expan> |(miliaria) <supplied reason="lost"><expan><abbr>Hemes</abbr><ex>enorum</ex></expan> trans</supplied><lb break="no" n="3"/>lato in <expan><abbr>leg</abbr><ex>ionem</ex></expan> II ad<supplied reason="lost"><expan><abbr>iut</abbr><ex>ricem</ex></expan> <expan><abbr>p</abbr><ex>iam</ex></expan> <expan><abbr>f</abbr><ex>idelem</ex></expan> exer</supplied><lb break="no" n="4"/><expan><abbr>cit</abbr><ex>atori</ex></expan> <expan><abbr>eq</abbr><ex>uitum</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> <expan><abbr>s</abbr><ex>upra</ex></expan> <supplied reason="lost"><expan><abbr>s</abbr><ex>criptae</ex></expan> |(centurioni) <expan><abbr>coh</abbr><ex>ortis</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>urb</abbr><ex>anae</ex></expan> |(centurioni)</supplied> <lb n="5"/><expan><abbr>coh</abbr><ex>ortis</ex></expan> VII <expan><abbr>praet</abbr><ex>oriae</ex></expan> <expan><abbr>p</abbr><ex>iae</ex></expan> <expan><abbr>v</abbr><ex>indicis</ex></expan> <supplied reason="lost"><expan><abbr>Phil</abbr><ex>ippianae</ex></expan> bello</supplied> <lb n="6"/>Dacico deside<supplied reason="lost">rato ad ca</supplied><lb break="no" n="7"/><expan><abbr>stell</abbr><ex>um</ex></expan> Carporum <supplied reason="lost"><expan><abbr>milit</abbr><ex>avit</ex></expan> <expan><abbr>ann</abbr><ex>os</ex></expan></supplied> <lb n="8"/>XXVI <expan><abbr>P</abbr><ex>ublius</ex></expan> <expan><abbr>Ael</abbr><ex>ius</ex></expan> Procu<supplied reason="lost">lus |(centurio) <expan><abbr>coh</abbr><ex>ortis</ex></expan> ei</supplied><lb break="no" n="9"/>usdem et Aure<supplied reason="lost">lia</supplied><gap reason="lost" extent="unknown" unit="character"/><lb break="no" n="10"/>a parentes fil<supplied reason="lost">io suo ca</supplied><lb break="no" n="11"/>rissimo et sib<supplied reason="lost">i vivis</supplied> <lb n="12"/>et infelic<supplied reason="lost">issimo</supplied> <lb n="13"/>filio posue<supplied reason="lost">runt</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Gefunden in Wiederverwendung für ein Grab. Oberhalb des Inschriftfeldes Reste eines Soldatenreliefs. (B): AE 1965: Z. 8/9: ei]usdem; Fitz, Latomus; AE 1965; Fitz, Les Syriens: Z. 12: infeli[cissimo]. Ergänzungen nach RIU.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1965, 0223. (B)</bibl><bibl>AE 1971, 0326.</bibl><bibl>RIU 1155; Abb. 1155 (Foto u. Zeichnung).</bibl><bibl>J. Fitz, Latomus 24, 1965, 565-575; pl. 44 (Zeichnung). (B) - AE 1965.</bibl><bibl>J. Fitz, Les Syriens à Intercisa (Bruxelles 1972) 236-246. (B)- AE 1971.</bibl><bibl>IDRE 286.</bibl><bibl>B. Lőrincz, Die römischen Hilfstruppen in Pannonien während der Prinzipatszeit 1. Die Inschriften (Wien 2001) 254, Nr. 321.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

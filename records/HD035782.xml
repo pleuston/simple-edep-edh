@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Viminacium, bei &amp;ndash; Kostolac, bei (Moesia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD035782</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD035782</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Požarevac, Narod. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><dimensions unit="cm"><height>195</height><width>72</width><depth>35</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7.6-5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207549">Viminacium, bei</placeName></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1974"><placeName type="country" ref="https://www.geonames.org/6290252">Serbia</placeName><placeName type="modern" ref="http://www.geonames.org/789210">Kostolac, bei</placeName><placeName type="findspot">{"Rit"}, spätantikes Grab, sekundär verwendet</placeName><placeName type="region">Centralna Srbija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD035782_1" sex="M"><persName ref="http://romans1by1.com/rpeople/12053"><name type="praenomen">P.</name><name type="nomen">Publicius</name><name type="cognomen">Constans*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-07-20" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F024652" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/d89b738e-5435-450a-9de2-23e29b1ffe6c/file/id/785319/file_version/name/small"/><graphic xml:id="F016094" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/054357cd-2d0c-40a0-9825-a57d7d2a6cc1/file/id/775672/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>P</abbr><ex>ublius</ex></expan> Publicius <lb n="2"/>Fabia Consta<expan><ex>n</ex><abbr>s</abbr></expan> <lb n="3"/><expan><abbr>Brixxi</abbr><ex>a</ex></expan> <note>sic</note> e<supplied reason="lost" cert="low">q(ues)</supplied> <expan><abbr>leg</abbr><ex>ionis</ex></expan> IIII <lb n="4"/><expan><abbr>F</abbr><ex>laviae</ex></expan> <expan><abbr>f</abbr><ex>elicis</ex></expan> <expan><abbr>t</abbr><ex>estamento</ex></expan> <expan><abbr>f</abbr><ex>ieri</ex></expan> <expan><abbr>i</abbr><ex>ussit</ex></expan> <expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>itus</ex></expan> &amp;lt;e=F&amp;gt;st 
+            </ab></div>
+            <div type="commentary">
+                <p>Gefunden in Wiederverwendung für ein Grab.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IMS 2, 088; Foto.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Aquincum &amp;ndash; Budapest (Pannonia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD038706</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD038706</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Budapest, Aquincumi Múz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(215)</height><width>120</width><depth>25</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7.5-3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197130">Aquincum</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1898"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/7284844">Budapest</placeName><placeName type="findspot">Várkerület, {Dezső utca}?</placeName><placeName type="region">Budapest</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD038706_1" sex="M"><persName><name type="cognomen">Reginus</name></persName></person><person xml:id="HD038706_2" sex="M"><persName><name type="cognomen">Troucetissa</name></persName></person><person xml:id="HD038706_3" sex="M"><persName><name type="cognomen">Receptus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-04-21" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Reginus Trouce<lb break="no" n="2"/>tissae <expan><abbr>f</abbr><ex>ilius</ex></expan> domo Tr<lb break="no" n="3"/>ever <note>sic</note> <expan><abbr>n<am>n</am></abbr><ex>rum</ex></expan> XXX se<lb break="no" n="4"/><expan><abbr>squiplic</abbr><ex>arius</ex></expan> alae <expan><abbr>Aur</abbr><ex>ianae</ex></expan> I <lb n="5"/><expan><abbr>stipendio</abbr><ex>rum</ex></expan> V <expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>itus</ex></expan> <expan><abbr>e</abbr><ex>st</ex></expan> <lb n="6"/>Receptus <expan><abbr>sesquip</abbr><ex>licarius</ex></expan> <lb n="7"/>alae <expan><abbr>Asturu</abbr><ex>m</ex></expan> II fra<lb break="no" n="8"/>ter <expan><abbr>ide</abbr><ex>m</ex></expan> heres <lb n="9"/>pos<expan><ex>u</ex><abbr>it</abbr></expan>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 14349, 8.</bibl><bibl>B. Lőrincz, Die römischen Hilfstruppen in Pannonien während der Prinzipatszeit 1. Die Inschriften (Wien 2001) 173, Nr. 53.</bibl><bibl>TitAq 0689; Fotos.</bibl><bibl>A. Schober, Die römischen Grabsteine von Noricum und Pannonien (Wien 1923) 32, Nr. 57.</bibl><bibl>H. Ubl, Waffen und Uniform des römischen Heeres der Prinzipatsepoche nach den Grabreliefs Noricums und Pannoniens (Wien 2013) XL, Nr. 65; Taf. 24, 93 u. 94.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

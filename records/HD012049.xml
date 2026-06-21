@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Várpalota (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD012049</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD012049</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Várpalota, Burg</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(58)</height><width>91</width><depth>20</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6.1-3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1959"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3051122">Várpalota</placeName><placeName type="findspot">{Inota}</placeName><placeName type="region">Veszprém megye</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD012049_1"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD012049_2" sex="W"><persName><name type="nomen">Aelia</name><name type="cognomen">Mulsa</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-10-07" who="Gräf">checked through autopsy</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/>vixit <expan><abbr>an</abbr><ex>nos</ex></expan> XIIII Aelia <lb n="2"/>Mulsa co<expan><ex>n</ex><abbr>iu</abbr></expan>&amp;lt;g=C&amp;gt;i <lb n="3"/>et fili<expan><ex>i</ex><abbr>s</abbr></expan> caris<expan><ex>s</ex><abbr>imis</abbr></expan> <lb n="4"/>faciendum curavit 
+            </ab></div>
+            <div type="commentary">
+                <p>Überprüfung der Lesung durch G. Alföldy (Autopsie). Über der ersten voll erhaltenen Zeile die Spuren einer senkrechten Haste und eines L zu sehen; nach Alföldy vielleicht Fl[avius]. Auf den seitlichen Rahmen des Inschriftfeldes Efeuranken. (B): 1969/70, 0472; RIU 1412: Buchstabenreste oberhalb von Z. 1 nicht gelesen; Z. 2: co(n)iugi (aber in der Zeichnung bei RIU richtig); Ertel - Palágyi - Redő: Z. 2: co(n)iugi.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1969/70, 0472. (B)</bibl><bibl>RIU 1412; Abb. 1412 (Foto u. Zeichnung). (B)</bibl><bibl>I. Éri - M. Kelemen - P. Németh - I. Torma, Veszprém megye régészeti topográfiája 2 (Budapest 1969) 335; 45 táb. 2. - AE 1969/70.</bibl><bibl>G. Alföldy, SpNov 18, 2004, 35.</bibl><bibl>C. Ertel - S. Palágyi - F. Redő, Die Skulpturen des Stadtgebietes von Salla und Mogetiana sowie des Balaton-(Plattensee-)Oberlandes in den Komitaten Zala und Veszprém, CSIR Ungarn 8 (Budapest 1999) 89, Nr. 126; Taf. 23, 1. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

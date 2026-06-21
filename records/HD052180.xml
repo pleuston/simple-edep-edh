@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Defixio from Mogontiacum &amp;ndash; Mainz (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD052180</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD052180</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mainz, Römerpassage 1</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/276">tessera</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/108">Blei</material><dimensions unit="cm"><height>6</height><width>6</width><depth>0</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">0.8-0.6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109169">Mogontiacum</placeName></origPlace><origDate><origDate notBefore-custom="0065" notAfter-custom="0117" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">65 AD - 117 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1999"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2874225">Mainz</placeName><placeName type="findspot">{Heiligtum der Isis und der Magna Mater}</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/76">defixio</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD052180_1" sex="W"><persName><name type="cognomen">Avita</name></persName></person><person xml:id="HD052180_2" sex="M"><persName><name type="cognomen">Gratus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2018-05-16" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Avita</abbr><ex>m</ex></expan> <expan><abbr>noverca</abbr><ex>m</ex></expan> <lb n="2"/>dono tibi <lb n="3"/>et Gratum <lb n="4"/><supplied reason="lost">do</supplied>no tibi <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>EMESMANT</abbr><ex cert="low"/></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Fluchtäfelchen. Buchstaben: Kapitalis; Beschriftung linksläufig. Schreibtechnik: geritzt.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2004, 1025.</bibl><bibl>AE 2011, 0829.</bibl><bibl>AE 2012, 1023.</bibl><bibl>M. Witteyer, Das Heiligtum für Isis und Mater Magna. Texte und Bilder (Mainz 2005) 47; Foto u. Zeichnung. - AE 2004.</bibl><bibl>J. Blänsdorf, Die Defixionum tabellae des Mainzer Isis- und Mater Magna-Heiligtums (Mainz 2012) 111-112, Nr. 8; Foto u. Zeichnung. - AE 2012.</bibl><bibl>J. Blänsdorf, in: H. Sonnabend - E. Olshausen (Hrsg.), Antike Herrscher. Vorträge und Beiträge als Grundlage für Deutung und Bewältigung heutiger Probleme (Stuttgart 2011) 67, Nr. 15. - AE 2011.</bibl><bibl>J. Blänsdorf, in: M. Reuter - M. Scholz (Hrsg.), Geritzt und entziffert. Schriftzeugnisse der römischen Informationsgesellschaft (Esslingen/Neckar 2004) 72-74; Abb. 113 (Zeichnung). - AE 2004.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

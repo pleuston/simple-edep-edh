@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Santicum, bei &amp;ndash; Villach (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD057197</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD057197</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Villach, Oberwollanig, S. Laurentius, Kirche, vermauert</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>32</height><width>(40)</width><depth>7</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/187537">Santicum, bei</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1940"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2769582">Villach</placeName><placeName type="findspot">Oberwollanig, {S. Laurentius, Kirche}, sekundär verwendet</placeName><placeName type="region">Kärnten</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD057197_1" sex="M"><persName><name type="cognomen">[---]</name></persName></person><person xml:id="HD057197_2" sex="M"><persName><name type="cognomen">Lotto*</name></persName></person><person xml:id="HD057197_3" sex="W"><persName><name type="cognomen">[---]iula</name></persName></person><person xml:id="HD057197_4" sex="M"><persName><name type="cognomen">Dab[---]</name></persName></person><person xml:id="HD057197_5" sex="M"><persName><name type="cognomen">[---]ro</name></persName></person><person xml:id="HD057197_6" sex="W"><persName><name type="cognomen">[---]a</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-03-27" who="Krenn">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <gap reason="lost" extent="unknown" unit="character"/> Lot<expan><ex>t</ex><abbr>onis</abbr></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> <lb n="2"/><supplied reason="lost">et</supplied><gap reason="lost" extent="unknown" unit="character"/>iulae Dab<lb break="no" n="3"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>f</abbr><ex>iliae</ex></expan> <gap reason="lost" extent="unknown" unit="character"/></supplied>ro <expan><abbr>f</abbr><ex>ilius</ex></expan> et <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>a <expan><abbr>f</abbr><ex>ilia</ex></expan> <expan><abbr>fili</abbr><ex>i</ex></expan> <lb n="5"/><supplied reason="lost"><expan><abbr>par</abbr><ex>entibus</ex></expan></supplied> <expan><abbr>f</abbr><ex>ecerunt</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Die linke Seite des Inschriftfeldes liegt unter dem Wandverputz; angegebene Breite bezieht sich nur auf den sichtbaren Teil.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILLPRON 0334.</bibl><bibl>A. Gerstl, Supplementum epigraphicum zu CIL III für Kärnten und Osttirol 1902-1961 (Diss. Wien 1961) 54, Nr. 124.</bibl><bibl>P.S. Leber, Die in Kärnten seit 1902 gefundenen römischen Steininschriften (Klagenfurt 1972) 174, Nr. 324.</bibl><bibl>R. Egger, Carinthia I 136-138, 1948, 270-271; Zeichnung.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

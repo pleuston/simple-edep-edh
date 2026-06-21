@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mile-/leaguestone from Breage? (Britannia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD026179</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD026179</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Breage, Kirche</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">mile-/leaguestone</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/11">Granit</material><dimensions unit="cm"><height>170</height><width>40</width><depth>25</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Britannia</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0258" notAfter-custom="0268" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">258 AD - 268 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1920"><placeName type="country" ref="https://www.geonames.org/2635167">United Kingdom</placeName><placeName type="modern" ref="http://www.geonames.org/2654835">Breage?</placeName><placeName type="findspot"/><placeName type="region">Cornwall</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>mile-/leaguestone</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD026179_1" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Cassianus Latinius+</name><name type="cognomen">Postumus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-11-07" who="Cowey">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>eratori</ex></expan> <supplied reason="lost"><expan><abbr>C</abbr><ex>aesari</ex></expan></supplied> <lb n="2"/><expan><abbr>do</abbr><ex>mino</ex></expan> <expan><abbr>no</abbr><ex>stro</ex></expan> <lb n="3"/><expan><abbr>Marc</abbr><ex>o</ex></expan> <lb n="4"/>Cassi<lb break="no" n="5"/>anio <lb n="6"/><supplied reason="lost">Latinio</supplied> <lb n="7"/><supplied reason="lost">Postumo</supplied> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): [pio felici augusto] (mit verschiedenen Abkürzungen) wird ergänzt.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1924, 0001. (B)</bibl><bibl>R.G. Collingwood, AntJ 4, 1924, 104-105, Nr. 2; fig. 3. - AE 1924. (B)</bibl><bibl>AE 1925, p. 19 s. n. 81. (B)</bibl><bibl>F. Haverfield, Romano-British remains. A history of the country of Cornwall 5 (London 1924) 27-28; fig. 16 (Zeichnung). - AE 1925. (B)</bibl><bibl>AE 1925, p. 36 s. n. 126.</bibl><bibl>M.V. Taylor - R.G. Collingwood, JRS 12, 1922, 281, Nr. 9. - AE 1925.</bibl><bibl>RIB 2232; Zeichnung.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

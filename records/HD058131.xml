@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription? from Abusina &amp;ndash; Neustadt/Donau (Raetia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD058131</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD058131</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>München, Arch. Staatsslg.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">tabula?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(31)</height><width>(20)</width><depth>5</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.7</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Raetia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118539">Abusina</placeName></origPlace><origDate><origDate when-custom="0213" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">213 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1953"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2931741">Neustadt/Donau</placeName><placeName type="findspot">Eining, {spätantikes Lager}, sekundär verwendet</placeName><placeName type="region">Bayern</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription?</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD058131_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-09-08" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr><supplied reason="lost">pote</supplied>st</abbr><ex>ate</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">fortissi</supplied>mo a<supplied reason="lost">c felicissimo</supplied> <lb n="3"/><supplied reason="lost">principi</supplied> <expan><abbr>coh</abbr><ex>ors</ex></expan> <supplied reason="lost">III<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <expan><abbr>Brit</abbr><ex>annorum</ex></expan></supplied> <lb n="4"/><supplied reason="lost">Anton</supplied>ini<supplied reason="lost">ana</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Datierung: von Wagner mit der Inschrift IBR 336 in Verbindung gebracht und entsprechend datiert. In Z. 1 ist der erste sichtbare Buchstabe sicher ein S, der untere Bogen ist deutlich zu erkennen und von den Bögen der O verschieden, danach noch der untere Ansatz einer Vertikalhaste, statt T auch I oder F, N, P oder R denkbar.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>F. Wagner, BRGK 37/38, 1956/57, 239, Nr. 92; Taf. 22, 92.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

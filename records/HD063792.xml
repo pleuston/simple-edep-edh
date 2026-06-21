@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Augusta Vindelicorum &amp;ndash; Augsburg (Raetia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD063792</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD063792</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Augsburg, Röm. Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(57)</height><width>(42)</width><depth>(18)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Raetia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118580">Augusta Vindelicorum</placeName></origPlace><origDate><origDate notBefore-custom="0171" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1915"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2954172">Augsburg</placeName><placeName type="findspot">{Lauterlech}, S. Jakob, Kirche, bei</placeName><placeName type="region">Bayern</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD063792_1"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD063792_2" sex="M"><persName><name type="nomen">[---]lanius</name><name type="cognomen">Victorinus+</name></persName></person><person xml:id="HD063792_3" sex="W"><persName><name type="nomen">Iulia*</name><name type="cognomen">Providentia+</name></persName></person><person xml:id="HD063792_4"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-01-18" who="Osnabrügge">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>lanio Victo<supplied reason="lost">rino</supplied> <lb n="2"/>vivis et <expan><abbr>Iul</abbr><ex>iae</ex></expan> Provident<supplied reason="lost">iae</supplied> <lb n="3"/><supplied reason="lost">c</supplied>arissimae quonda<supplied reason="lost">m et dul</supplied><lb break="no" n="4"/><expan><abbr><supplied reason="lost">ci</supplied>s</abbr><ex>simae</ex></expan> <expan><abbr>mul</abbr><ex>ieri</ex></expan> <supplied reason="lost"><expan><abbr>vix</abbr><ex>it</ex></expan> an</supplied><expan><abbr>n</abbr><ex>os</ex></expan> XXX<gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/> dies XX<gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">e</supplied>t Au<gap reason="lost" extent="unknown" unit="character"/> <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">an</supplied>noru<supplied reason="lost">m</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Allseitig abgebrochen. Z. 1: NI-Ligatur; Z. 2: ET-, PR- ID-, NT-Ligatur; Z. 3: ND-Ligatur. (B): Roger: Abweichungen in der Lesung.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IBR 175, 1.</bibl><bibl>IBR 175, 1 add. p. V.</bibl><bibl>F. Wagner, BRGK 37/38, 1956/57, 229, Nr. 49.</bibl><bibl>O. Roger, ZHistSchwab 41, 1915, 141, Nr. 2. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

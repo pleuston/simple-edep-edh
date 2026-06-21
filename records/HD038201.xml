@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Tatabánya (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD038201</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD038201</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><dimensions unit="cm"><height>225</height><width>75</width><depth>26</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.1</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0131" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">131 AD - 230 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1907"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3044082">Tatabánya</placeName><placeName type="findspot">spätantikes Grab, sekundär verwendet</placeName><placeName type="region">Komárom-Esztergom megye</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD038201_1" sex="M"><persName><name type="praenomen">P.</name><name type="nomen">Aelius*</name><name type="cognomen">Dasses</name></persName></person><person xml:id="HD038201_2" sex="W"><persName><name type="nomen">Aelia*</name><name type="cognomen">Marina</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-05-04" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>P</abbr><ex>ublius</ex></expan> <expan><abbr>Ael</abbr><ex>ius</ex></expan> Dasses de<lb break="no" n="2"/><expan><abbr><supplied reason="lost">fu</supplied>n</abbr><ex>ctus</ex></expan> <expan><abbr>an</abbr><ex>norum</ex></expan> LXXXI <lb n="3"/><expan><abbr>Ael</abbr><ex>ia</ex></expan> Marina co<lb break="no" n="4"/>n<supplied reason="lost">i</supplied>u&amp;lt;gi=SS<certainty match="preceding-sibling::node()" locus="value"/>&amp;gt; <expan><abbr>t</abbr><ex>itulum</ex></expan> <expan><abbr>p</abbr><ex>osuit</ex></expan> <expan><abbr>h</abbr><ex>eres</ex></expan> <expan><abbr>p</abbr><ex>osuit</ex></expan> 
+            </ab></div></div>
+            <div type="commentary">
+                <p>Gefunden in Wiederverwendung für ein spätantikes Steinkistengrab. Oberhalb des Inschriftfeldes Fries mit Dreifuß, zwei weiblichen Figuren und nach links schreitendem Pferd; darüber Darstellung eines Ehepaars. Z. 1 befindet sich zwischen dem Fries und dem Inschriftfeld.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>RIU 0717; Abb. 717 (Foto u. Zeichnung).</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

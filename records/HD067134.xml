@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Flavia Solva, bei &amp;ndash; Maribor (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD067134</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD067134</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Maribor, Knabenseminar, Trubarjeva ulica, vermauert</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor, weiß</material><dimensions unit="cm"><height>(123)</height><width>80</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7-4.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197273">Flavia Solva, bei</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3190538">Slovenia</placeName><placeName type="modern" ref="http://www.geonames.org/8987037">Maribor</placeName><placeName type="findspot">{Celestrina}, S. Petrus, Kirche, bei</placeName><placeName type="region">Podravska statistična regija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD067134_1" sex="M"><persName><name type="cognomen">Auscus+</name></persName></person><person xml:id="HD067134_2" sex="M"><persName><name type="cognomen">Saturninus</name></persName></person><person xml:id="HD067134_3" sex="W"><persName><name type="cognomen">Verecunda*</name></persName></person><person xml:id="HD067134_4" sex="M"><persName><name type="cognomen">Avitus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-08-29" who="Cowey">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Aus<surplus>s</surplus>cu<supplied reason="lost">s</supplied> <lb n="2"/>Saturnini et <lb n="3"/>Verecund<expan><ex>a</ex><abbr>e</abbr></expan> <lb n="4"/><expan><abbr>c</abbr><ex>oniugi</ex></expan> <expan><abbr>o</abbr><ex>ptimae</ex></expan> <expan><abbr>v</abbr><ex>ivus</ex></expan> <expan><abbr>f</abbr><ex>ecit</ex></expan> <expan><abbr>s</abbr><ex>ibi</ex></expan> et <lb n="5"/>Avito <expan><abbr>f</abbr><ex>ilio</ex></expan> <expan><abbr>an</abbr><ex>norum</ex></expan> XXV
+            </ab></div>
+            <div type="commentary">
+                <p>Inschriftfeld von tordierten Halbsäulen eingefaßt; unterhalb des Inschriftfeldes zwei Delphine. (B): AIJ 107: Z. 1 Auscus.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 11720.</bibl><bibl>AIJ 107; Foto. (B)</bibl><bibl>AIJ 107 add. p. 4*.</bibl><bibl>ILLPRON 1581.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

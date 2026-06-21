@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Vienna &amp;ndash; Vienne (Narbonensis)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD050227</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD050227</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Vienne, Mus. lap.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><dimensions unit="cm"><height>51</height><width>49</width><depth>8</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-2.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Narbonensis</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/167719">Vienna</placeName></origPlace><origDate><origDate notBefore-custom="0171" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD - 230 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern">Vienne</placeName><placeName type="findspot">S.-Pierre, Kirche</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2008-07-08" who="Platz">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/>et quieti aeter<lb break="no" n="3"/>nae <expan><abbr>T</abbr><ex>iti</ex></expan> Virei Ma<expan><ex>n</ex><abbr>su</abbr></expan><lb break="no" n="4"/>eti signo Floren<lb break="no" n="5"/>ti <expan><abbr>defunct</abbr><ex>i</ex></expan> <expan><abbr>n<am>n</am></abbr><ex>orum</ex></expan> II <lb n="6"/><expan><abbr>mens</abbr><ex>ium</ex></expan> V <expan><abbr>dier</abbr><ex>um</ex></expan> XVIII <lb n="7"/>Vireius Sapricius <lb n="8"/><supplied reason="lost">et</supplied><gap reason="lost" extent="unknown" unit="character"/>tia Ma<expan><ex>n</ex><abbr>sue</abbr></expan><lb break="no" n="9"/><supplied reason="lost">ta pare</supplied>ntes infe<lb break="no" n="10"/>[licissimi ------
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1996, 1013.</bibl><bibl>CIL 12, 01998.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

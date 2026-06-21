@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Carnuntum &amp;ndash; Petronell-Carnuntum (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD073459</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD073459</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Hainburg/Donau, Kulturfabrik, Arch. Zentraldepot</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">stele?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(85)</height><width>(53)</width><depth>10</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6.0-7.0</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/128376">Carnuntum</placeName></origPlace><origDate><origDate notBefore-custom="0051" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1923"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2769013">Petronell-Carnuntum</placeName><placeName type="findspot">Zivilstadt, {Amphitheater II}</placeName><placeName type="region">Niederösterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD073459_1" sex="M"><persName><name type="nomen">Rupil[i---]?</name><name type="cognomen">Rupil[i---]?</name></persName></person><person xml:id="HD073459_2"><persName><name type="nomen">Mo[---]?</name><name type="cognomen">Mo[---]?</name></persName></person><person xml:id="HD073459_3"><persName><name type="nomen">Claudius/a*</name><name type="cognomen">Stat[---]</name></persName></person><person xml:id="HD073459_4" sex="M"><persName><name type="nomen">Cirrius</name><name type="cognomen">V[---]</name></persName></person><person xml:id="HD073459_5" sex="W"><persName><name type="nomen">[---]</name><name type="cognomen">[---]unita</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-05-11" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F019464" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/1071af9b-7de5-4a5b-a383-380e32b8b505/file/id/779536/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Rupil<supplied reason="lost">i</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><expan><abbr>n<am>n</am></abbr><ex>orum</ex></expan> <gap reason="lost" extent="unknown" unit="character"/><lb break="no" n="3"/>VI Mo<gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">et</supplied> <lb n="4"/><expan><abbr>Cl</abbr><ex>audius</ex></expan> Stat<supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>f</abbr><ex>ecerunt</ex></expan> et </supplied> <lb n="5"/>Cirrio V<gap reason="lost" extent="unknown" unit="character"/> <lb n="6"/><expan><abbr>fra</abbr><ex>tri</ex></expan> mis<supplied reason="lost">ero et <gap reason="lost" extent="unknown" unit="character"/></supplied><lb break="no" n="7"/>unitae <gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Linker Teil des Inschriftfeldes einer Grabinschrift mit linkem Abschluss. Stele? Die einzelnen Namen lassen sich kaum je einwandfrei ergänzen, da jeweils einige Varianten in Frage kommen. Z. 3/4 die Eltern? Z. 6/7: M]/unitae oder Fr]unitae. Ergänzungsvorschlag nach Egger: Rupil[ian(---) fil(---)] / ann[or(um) --- mens(ium)] / VI Mo[desta et] / Cl(audius) Stat[us --- f(ecerunt) et] / Cirrio C[alenti] / fra(tri) mis[ero et M]/unitae [---]. (B): Egger; Hild; Krüger; Vorbeck: Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>R. Egger, RLŒ 16, 1926, 131, Nr. 65; Abb. 47. (B)</bibl><bibl>F. Hild, Supplementum epigraphicum zu CIL III. Das pannonische Niederösterreich, Burgenland und Wien 1902-1968 (Diss. Wien 1968) 161-162, Nr. 235. (B)</bibl><bibl>M.-L. Krüger, Die Reliefs des Stadtgebietes von Carnuntum 2. Die dekorativen Reliefs, CSIR Österreich 1, 4 (Wien 1972) 39, Nr. 508; Taf. 38, 508. (B)</bibl><bibl>E. Vorbeck, Zivilinschriften aus Carnuntum (Wien 1980) 16, Nr. 55. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

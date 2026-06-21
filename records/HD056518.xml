@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Iader &amp;ndash; Zadar (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD056518</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD056518</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197312">Iader</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1895"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3186952">Zadar</placeName><placeName type="findspot"/><placeName type="region">Zadarska županija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD056518_1" sex="W"><persName><name type="cognomen">Isidora+</name></persName></person><person xml:id="HD056518_2" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Minicius</name><name type="cognomen">Zosimus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2010-04-13" who="Gräf">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/> <lb n="1"/><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied><expan><abbr>CE</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/>Isidor<supplied reason="lost">ae</supplied> <lb n="3"/><expan><abbr>n<am>n</am></abbr><ex>orum</ex></expan> XIX <lb n="4"/><expan><abbr>M</abbr><ex>arcus</ex></expan> Minicius <lb n="5"/>Zosimus <lb n="6"/><expan><abbr>v</abbr><ex>ivus</ex></expan> <expan><abbr>f</abbr><ex>ecit</ex></expan> <lb n="7"/>delicatae suae
+            </ab></div>
+            <div type="commentary">
+                <p>Z. 1: statt E auch L möglich. (B): CIL III 10004; Fadić; Selem: Z. 1 nicht angegeben; Fadić: Z. 2: Isido[rae]; Selem: Z. 2: Isidor(ae); Z. 3: ann(orum).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 10004. (B)</bibl><bibl>CIL 03, 10004 add. p. 2328, 15.</bibl><bibl>CIL 03, 10004 add. p. 2328, 169.</bibl><bibl>I. Fadić, Diadora 12, 1990, 271-272, Nr. 43. (B)</bibl><bibl>P. Selem, OpuscArchZagreb 23/24, 1999/2000, 110, Nr. Iz. 1. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

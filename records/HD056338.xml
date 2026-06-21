@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Emporiae &amp;ndash; Empúries (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD056338</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD056338</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Empúries, Mus. Arq.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>53</height><width>45</width><depth>4</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.5-3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Hispania citerior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/246382">Emporiae</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1945"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern">Empúries</placeName><placeName type="findspot">Torres, Nekropole</placeName><placeName type="region">Cataluña</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD056338_1" sex="M"><persName><name type="praenomen">M.?</name><name type="nomen">Cornelius</name><name type="cognomen">Saturninus+</name></persName></person><person xml:id="HD056338_2" sex="M"><persName><name type="praenomen">M.?</name><name type="nomen">Cornelius+</name><name type="cognomen">Saturninus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-10-22" who="Platz">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>M</abbr><ex>arco</ex></expan><certainty match="preceding-sibling::node()" locus="value"/> Cornelio <expan><abbr>M</abbr><ex>arci</ex></expan><certainty match="preceding-sibling::node()" locus="value"/> <supplied reason="lost"><expan><abbr>f</abbr><ex>ilio</ex></expan></supplied> <lb n="2"/><supplied reason="lost"><expan><abbr>Gal</abbr><ex>eria</ex></expan>? Sa</supplied>turn<supplied reason="lost">i</supplied>no <lb n="3"/>a<supplied reason="lost"><expan><abbr>ed</abbr><ex>ili</ex></expan> II</supplied><expan><abbr>v<supplied reason="lost">i</supplied>r</abbr><ex>o</ex></expan> fla<supplied reason="lost"><expan><abbr>m</abbr><ex>ini</ex></expan></supplied> <lb n="4"/><expan><abbr>M</abbr><ex>arcus</ex></expan><certainty match="preceding-sibling::node()" locus="value"/> <supplied reason="lost">Cor</supplied>nelius Sa<lb break="no" n="5"/>turn<supplied reason="lost">inus</supplied> pat<supplied reason="lost">r</supplied>i
+            </ab></div>
+            <div type="commentary">
+                <p>Es handelt sich um 33 z. T. zusammenpassende Fragmente. Bei den angegebenen Abmessungen handelt es sich um ungefähre Werte, die sich auf die rekonsturierte Tafel beziehen. Z. 1 u. 4: statt M(arcus) auch M(anius) möglich.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IRC 3, 042; pl. 23, 42 (Foto u. Zeichnung).</bibl><bibl>IRC 5, p. 81.</bibl><bibl>HEp 04, 1994, 0409.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

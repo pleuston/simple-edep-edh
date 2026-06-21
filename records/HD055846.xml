@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Domavium &amp;ndash; Srebrenica (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD055846</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD055846</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207088">Domavium</placeName></origPlace><origDate><origDate when-custom="0220" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">220 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1891"><placeName type="country" ref="https://www.geonames.org/3277605">Bosnia and Herzegovina</placeName><placeName type="modern" ref="http://www.geonames.org/3211629">Srebrenica</placeName><placeName type="findspot">Gradina, {Thermen}</placeName><placeName type="region">Republika Srpska</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD055846_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1762"><name type="praenomen">M.+++</name><name type="nomen">Aurelius+++</name><name type="cognomen">Antoninus+++</name></persName></person><person xml:id="HD055846_2" sex="M"><persName><name type="cognomen">Comazon</name></persName></person><person xml:id="HD055846_3" sex="M"><persName><name type="nomen">Valerius*</name><name type="cognomen">Super</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2018-07-25" who="Gräf">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <del rend="erasure">Im[<expan><abbr>p</abbr><ex>eratore</ex></expan> <expan><abbr>Caes</abbr><ex>are</ex></expan> <expan><abbr>M</abbr><ex>arco</ex></expan> Aure</del>]<lb break="no" n="2"/><del rend="erasure"><supplied reason="lost">li</supplied>o [Antonino <expan><abbr>Aug</abbr><ex>usto</ex></expan> III</del>] <lb n="3"/><del rend="erasure"><supplied reason="lost">et</supplied> Com[azonte <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan></del>] <lb n="4"/><expan><abbr>Val</abbr><ex>erius</ex></expan> Super <expan><abbr>v</abbr><ex>ir</ex></expan> <expan><abbr>e</abbr><ex>gregius</ex></expan> pr<supplied reason="lost"><expan><abbr>o</abbr><ex>curator</ex></expan> argentari</supplied><lb break="no" n="5"/>arum balneo p<supplied reason="lost">ublico a</supplied><lb break="no" n="6"/>quam sufficiente<supplied reason="lost">m ind</supplied><lb break="no" n="7"/>ux<supplied reason="lost">it</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Inschriftfeld in Form einer tabula ansata. (B): AE 1893: Z. 1: Buchstabenreste nicht wiedergegeben.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1893, 0130. (B)</bibl><bibl>CIL 03, 12734.</bibl><bibl>W. Radimský, WMBH 1, 1893, 244; Fig. 51 (Zeichnung). - AE 1893.</bibl><bibl>PIR (2. Aufl.) V 59.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

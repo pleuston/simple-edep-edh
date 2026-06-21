@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Kirchheim/Ries (Raetia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD037016</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD037016</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Aalen, Limesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">block</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/30">Tuff</material><dimensions unit="cm"><height>90</height><width>(121)</width><depth>34</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">8-4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Raetia</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1871"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2890481">Kirchheim/Ries</placeName><placeName type="findspot">{S. Martin, Kapelle}, sekundär verwendet</placeName><placeName type="region">Baden-Württemberg</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD037016_1" sex="M"><persName><name type="praenomen">M.</name><name type="cognomen">Cerialis+</name></persName></person><person xml:id="HD037016_2" sex="W"><persName><name type="cognomen">Amma</name></persName></person><person xml:id="HD037016_3" sex="W"><persName><name type="cognomen">[---]onissa?</name></persName></person><person xml:id="HD037016_4" sex="M"><persName><name type="cognomen">Victor</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-11-15" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F012154" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/8f12feca-bdb9-4732-98e3-89ccce5d9484/file/id/771682/file_version/name/small"/><graphic xml:id="F027060" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/579fb745-c983-48c3-8544-41dd249a2b2c/file/id/787817/file_version/name/small"/><graphic xml:id="F028240" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/805fc771-6c81-455f-950e-77f8c29fa342/file/id/788997/file_version/name/small"/><graphic xml:id="F035281" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/22ceca3f-d495-4485-90d9-b10b5da3a466/file/id/796130/file_version/name/small"/><graphic xml:id="F035282" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/4bb0a882-9072-4345-927a-931f6e68681e/file/id/796131/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/>Marcus <lb n="3"/><supplied reason="lost">C</supplied>erialis ex |(centurione)<certainty match="preceding-sibling::node()" locus="value"/> <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> et Amma <expan><abbr>et</abbr><ex cert="low"/></expan> <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>onissa</abbr><ex cert="low"/></expan> <expan><abbr>et</abbr><ex cert="low"/></expan> Victor <lb n="6"/>AHI <gap reason="lost" extent="unknown" unit="character"/>TO <expan><abbr>pat</abbr><ex>ri</ex></expan> et <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost" cert="low"> posue</supplied>r<expan><ex>u</ex><abbr>nt</abbr></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Lesung der Inschrift unsicher. Inschriftfeld in Form einer tabula ansata.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 11922.</bibl><bibl>F. Haug - G. Sixt, Die römischen Inschriften und Bildwerke Württembergs (Stuttgart 1900) 38-39, Nr. 49; Abb. 18.</bibl><bibl>IBR 304; tab. 40, 304.</bibl><bibl>D. Planck, AAusgrBadWürt 1981, 130.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

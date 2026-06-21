@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Savaria, bei &amp;ndash; Mischendorf (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD074992</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD074992</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Eisenstadt, Landesmus. Burgenland</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>58</height><width>64</width><depth>101</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197498">Savaria, bei</placeName></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1900"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2771567">Mischendorf</placeName><placeName type="findspot">Straße nach Kohfidisch</placeName><placeName type="region">Burgenland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD074992_1" sex="M"><persName ref="http://romans1by1.com/rpeople/17735"><name type="praenomen">T.</name><name type="nomen">Marcius*</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-04-06" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>T</abbr><ex>itus</ex></expan> <expan><abbr>Marci</abbr><ex>us</ex></expan> <lb n="2"/><expan><abbr>T</abbr><ex>iti</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>Vel</abbr><ex>ina</ex></expan> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>T</abbr><ex cert="low"/>I</expan><certainty match="preceding-sibling::node()" locus="value"/> <lb n="4"/><expan><abbr>M</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>V</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Oberfläche des Inschriftfeldes stark verwittert. In den Z. 3-5 noch Reste von nicht mehr identifizierbaren Buchstaben erhalten. (B): Hild: Tóth: Z. 2: T(iti) f(ilius) an(norum) L; Tóth: Z. 3-5: v(ivus) [fecit ---]II / ap[---] vix(it) / [------].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>E. Tóth, Lapidarium Savariense. Savaria római feliratos kőemlékei (Szombathely 2011) 258, Nr. 231. (B)</bibl><bibl>F. Hild, Supplementum epigraphicum zu CIL III. Das pannonische Niederösterreich, Burgenland und Wien 1902-1968 (Diss. Wien 1968) 241, Nr. 387. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

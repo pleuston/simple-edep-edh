@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Salonae, bei &amp;ndash; Kaštela (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD052758</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD052758</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Split, Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material>Gesteine</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197488">Salonae, bei</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1878"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3198210">Kaštela</placeName><placeName type="findspot">Kaštel Sućurac, Putalj, {S. Juraj, Kapelle}, sekundär verwendet</placeName><placeName type="region">Splitsko-dalmatinska županija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD052758_1" sex="M"><persName><name type="praenomen">P.</name><name type="nomen">Aelius*</name><name type="cognomen">Rastorianus</name></persName></person><person xml:id="HD052758_2" sex="W"><persName><name type="nomen">Aelia</name><name type="cognomen">Prociliana+?</name></persName></person><person xml:id="HD052758_3" sex="W"><persName><name type="nomen">Albia</name><name type="cognomen">Crispina+?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-12-11" who="Feraudi">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/><expan><abbr>P</abbr><ex>ublio</ex></expan> <expan><abbr>Ael</abbr><ex>io</ex></expan> Rastoriano <lb n="3"/><expan><abbr>eq</abbr><ex>uo</ex></expan> <expan><abbr>p</abbr><ex>ublico</ex></expan> <expan><abbr>decur</abbr><ex>ioni</ex></expan> IIviro <lb n="4"/>et q<expan><ex>uin</ex><abbr>q</abbr><ex>uennali</ex></expan> <expan><abbr>munic</abbr><ex>ipii</ex></expan> <supplied reason="lost">Bis</supplied><lb break="no" n="5"/>tuatium dis<supplied reason="lost"><expan><abbr>p</abbr><ex>unctori</ex></expan> ci</supplied><lb break="no" n="6"/><expan><abbr>vitat</abbr><ex>is</ex></expan> Naron<supplied reason="lost"><expan><abbr>ens</abbr><ex>ium</ex></expan></supplied> <lb n="7"/><expan><abbr>q</abbr><ex>uaestori</ex></expan> <expan><abbr>municipp</abbr><ex>iorum</ex></expan> Azina<supplied reason="lost">tium</supplied> <lb n="8"/>Splonistarum Ar<supplied reason="lost"><expan><abbr>upin</abbr><ex>orum</ex></expan></supplied> <lb n="9"/>et Ael<supplied reason="lost">i</supplied>ae Procili<supplied reason="lost" cert="low">anae</supplied> <lb n="10"/><expan><abbr>defunct</abbr><ex>ae</ex></expan> <expan><abbr>n<am>n</am></abbr><ex>orum</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <lb n="11"/>Albia Crisp<supplied reason="lost">ina<certainty locus="name" match="preceding-sibling::text()" cert="low"/> coniugi</supplied> <lb n="12"/>incompara<supplied reason="lost">bili et fi</supplied><lb break="no" n="13"/>liae infelicissim<supplied reason="lost">ae</supplied> <lb n="14"/>et sibi
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Nedved: abweichende Textwiedergabe.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 08783.</bibl><bibl>ILS 7163.</bibl><bibl>CIL 03, 08783 add. p. 2136.</bibl><bibl>CIL 03, 08783 add. p. 2326.</bibl><bibl>B. Nedved, in: Z. Gunjača (Hrsg.), Znanstveni skup. Kaštel Sućurac od prapovijesti do XX. stoljeća, zbornik (Split 1992) 13-14, Nr. 26.</bibl><bibl>S. Loma, in: Mélanges d'histoire et d'épigraphie offerts à Fanoula Papazoglou (Beograd 1997) 194-195, Nr. 5.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

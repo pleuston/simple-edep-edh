@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Doxato (Macedonia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD050112</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD050112</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><dimensions unit="cm"><height>35</height><width>24</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Macedonia</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/390903">Greece</placeName><placeName type="modern" ref="http://www.geonames.org/736401">Doxato</placeName><placeName type="findspot"/><placeName type="region">Anatolikí Makedonía, Thráki</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD050112_1" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Octavius+</name><name type="cognomen">Salvius+</name></persName></person><person xml:id="HD050112_2" sex="M"><persName><name type="nomen">Octavius+</name><name type="cognomen">Salvius+</name></persName></person><person xml:id="HD050112_3" sex="W"><persName/></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-11-18" who="Cowey">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>L</abbr><ex>ucius</ex></expan> Oc<supplied reason="lost">tavius</supplied> <lb n="2"/><expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>Vol</abbr><ex>tinia</ex></expan> Sal<supplied reason="lost">vius</supplied> <lb n="3"/><expan><abbr>n<am>n</am></abbr><ex>orum</ex></expan> V <expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>itus</ex></expan> <supplied reason="lost"><expan><abbr>e</abbr><ex>st</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> Oc</supplied><lb break="no" n="4"/>tav<supplied reason="lost">i</supplied>us Salv<supplied reason="lost">ius</supplied> <lb n="5"/>et Agathe <supplied reason="lost"><expan><abbr>f</abbr><ex>ilio</ex></expan> infeli</supplied><lb break="no" n="6"/>cissimo <lb n="7"/>locus <expan><abbr>sep</abbr><ex>ulturae</ex></expan> <supplied reason="lost">datus <expan><abbr>d</abbr><ex>ecreto</ex></expan> <expan><abbr>d</abbr><ex>ecurionum</ex></expan></supplied>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 07350.</bibl><bibl>P. Pilhofer, Philippi 2. Katalog der Inschriften von Philippi (Tübingen 2000) 438, Nr. 448.</bibl><bibl>P. Pilhofer, Philippi 2. Katalog der Inschriften von Philippi (2. Aufl. Tübingen 2009) 526-527, Nr. 448.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

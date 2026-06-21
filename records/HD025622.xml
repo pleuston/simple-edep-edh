@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Roma? &amp;ndash; Roma? (Roma?)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD025622</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD025622</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Roma, Mus. Civ. Rom. (vorm. P.zzo Esp.)</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>(18)</height><width>(35)</width><depth>(3)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.5-4.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma?</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma?</placeName></origPlace><origDate><origDate notBefore-custom="0102" notAfter-custom="0117" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">102 AD - 117 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma?</placeName><placeName type="findspot"/><placeName type="region">Lazio?</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD025622_1"><persName><name type="cognomen">[---]</name></persName></person><person xml:id="HD025622_2" sex="M"><persName><name type="praenomen">C.+</name><name type="nomen">Aburnius+</name><name type="cognomen">Valens+</name></persName></person><person xml:id="HD025622_3" sex="M"><persName><name type="praenomen">C.+</name><name type="nomen">Iulius+</name><name type="cognomen">Proculus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-01-03" who="Feraudi">checked through autopsy</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F010456" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/a3d5a32a-03f4-4e9a-94e5-48f6df6bebe4/file/id/769976/file_version/name/small"/><graphic xml:id="F026250" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/3273571a-d508-4c13-9526-dac041560cc0/file/id/787002/file_version/name/small"/><graphic xml:id="F042916" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/9222fd1e-e0e6-4ac3-90c5-c9c7d1b48fdf/file/id/804022/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                ------<certainty match="preceding-sibling::node()" locus="value"/>] <lb n="2"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/>? Germanico</supplied> Dacico p<supplied reason="lost" cert="low">ontif(ici)? max(imo)</supplied> <lb n="3"/><supplied reason="lost">fortissimo<certainty locus="name" match="preceding-sibling::text()" cert="low"/> pr</supplied>incipi <supplied reason="lost"><expan><abbr>C</abbr><ex>aio</ex></expan></supplied> Aburnio <supplied reason="lost">Valente <expan><abbr>C</abbr><ex>aio</ex></expan> Iulio Proculo <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan></supplied> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Autopsie und Ergänzungen G. Alföldy. Genauere Datierungsmöglichkeit: zwischen dem 1. September und dem 31. Dezember 109 n. Chr.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 06, 40498; Foto.</bibl><bibl>PIR (2. Aufl.) I 497.</bibl><bibl>PIR (2. Aufl.) A 21b.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

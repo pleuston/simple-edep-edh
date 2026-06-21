@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Sierre (Alpes Poeninae)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD017802</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD017802</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Géronde, Kloster</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material>Gesteine</material><dimensions unit="cm"><height>150</height><width>54</width><depth>65</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3-3.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Alpes Poeninae</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1963"><placeName type="country" ref="https://www.geonames.org/2658434">Switzerland</placeName><placeName type="modern" ref="http://www.geonames.org/2658606">Sierre</placeName><placeName type="findspot">Géronde, {Kloster}, sekundär verwendet</placeName><placeName type="region">État du Valais</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD017802_1" sex="W"><persName><name type="nomen">Vinelia+</name><name type="cognomen">Modestina</name></persName></person><person xml:id="HD017802_2" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">Optatus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-07-24" who="Masci">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <gap reason="lost" extent="unknown" unit="character"/> et me<supplied reason="lost">moriae</supplied> <lb n="2"/>V<supplied reason="lost">in</supplied>eliae <lb n="3"/>Modestinae <lb n="4"/>cl<supplied reason="lost">a</supplied>rissimae <lb n="5"/>f<supplied reason="lost">em</supplied>inae <lb n="6"/>a<supplied reason="lost">nn</supplied>orum <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>pientis</abbr><ex>simae</ex></expan> <lb n="8"/>et perfectae <lb n="9"/><gap reason="lost" extent="unknown" unit="character"/> Opt<supplied reason="lost">a</supplied>tus <lb n="10"/><supplied reason="lost">mat</supplied>ri karis<lb break="no" n="11"/><supplied reason="lost">si</supplied>mae <expan><abbr>f</abbr><ex>aciendum</ex></expan> <expan><abbr>c</abbr><ex>uravit</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Wiblé: Z. 5: f[em]inae T[---]nae; Walser - Zawadzki: Z. 7: [sa]pientis; Z. 9: [Val(erius)?]; Z. 11: [soro]ri.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1978, 0459.</bibl><bibl>AE 1973, 0324. (B)</bibl><bibl>G. Walser - T. Zawadzki, Vallesia 26, 1971, 1-4; Foto. (B) - AE 1973.</bibl><bibl>F. Wiblé, Vallesia 33, 1978, 37, Nr. 60. - AE 1978.</bibl><bibl>PIR (2. Aufl.) M 654.</bibl><bibl>G. Walser, Römische Inschriften in der Schweiz 3 (Bern 1980) 96-97, Nr. 291; Foto.</bibl><bibl>F. Wiblé, in: F. Wiblé - P. Curdy - O. Paccolat M.-A. Haldimann, Vallis Poenina, le Valais à l'époque romaine (Sion 1998) 193, Nr. 155; Foto. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

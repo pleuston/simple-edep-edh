@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription from (Civitas Tribocorum) &amp;ndash; Mietesheim (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD079185</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD079185</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mietesheim?</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="#">(Civitas Tribocorum)</placeName></origPlace><origDate><origDate notBefore-custom="0031" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">31 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1841"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/2993939">Mietesheim</placeName><placeName type="findspot">{Kirche}, Turm, sekundär verwendet</placeName><placeName type="region">Grand Est</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/143" xml:lang="en">unknown</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD079185_1"><persName><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD079185_2" sex="M"><persName><name type="cognomen">[---]rus</name></persName></person><person xml:id="HD079185_3" sex="M"><persName><name type="nomen">Candidius</name><name type="cognomen">Euhodus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-02-18" who="Osnabrügge">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>ri <expan><abbr>sacerd</abbr><ex>os</ex></expan> <lb n="2"/><supplied reason="lost">et</supplied> Candidius <lb n="3"/><supplied reason="lost" cert="low">Euh</supplied>odus pr<expan><ex>a</ex><abbr>ef</abbr><ex>ectus</ex></expan> <lb n="4"/><supplied reason="lost"><expan><abbr>d</abbr><ex>e</ex></expan></supplied> <expan><abbr>s</abbr><ex>uo</ex></expan> <expan><abbr>p</abbr><ex>osuerunt</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Fragment von einem nicht näher identifizierten Monument.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 06026.</bibl><bibl>W. Brambach, Corpus inscriptionum Rhenanarum (Elberfeld 1867) 334, Nr. 1846. (B)</bibl><bibl>(o. Autor), in: P. Flotté u. a., Le Bas-Rhin, Carte archéologique de la Gaule 67, 1 (Paris 2000) 426.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

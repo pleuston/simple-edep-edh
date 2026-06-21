@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Bonna &amp;ndash; Bonn (Germania inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD017086</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD017086</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bonn, Rhein. Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(103)</height><width>75</width><depth>17</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/108818">Bonna</placeName></origPlace><origDate><origDate notBefore-custom="0051" notAfter-custom="0070" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD - 70 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1958"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2946447">Bonn</placeName><placeName type="findspot">{Adenauerallee} (ehemals Koblenzer Strasse 77)</placeName><placeName type="region">Nordrhein-Westfalen</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD017086_1" sex="M"><persName><name type="cognomen">Reburrus</name></persName></person><person xml:id="HD017086_2" sex="M"><persName><name type="cognomen">Friatto*?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-06-04" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F007089" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/efe4dba1-c44a-48d8-8dde-d949e5b85de1/file/id/767501/file_version/name/small"/><graphic xml:id="F017000" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/0720b6e9-7d29-4342-a84c-4bbef3f53ee3/file/id/776606/file_version/name/small"/><graphic xml:id="F017285" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/045e8ee7-28bb-43fa-ab57-6f912ea7e250/file/id/776891/file_version/name/small"/><graphic xml:id="F020242" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/ec5615e8-27a6-4ede-b5c2-2663d3f06a55/file/id/780315/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Reburrus Fria<lb break="no" n="2"/>tton<expan><ex>i</ex><abbr>s</abbr></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> eques <expan><abbr>al</abbr><ex>ae</ex></expan> <lb n="3"/><expan><abbr>Fr<supplied reason="lost">on</supplied>to</abbr><ex>nianae</ex></expan> an[<expan><abbr>n</abbr><ex>orum</ex></expan> ------
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1963, 0049.</bibl><bibl>U. Schillinger-Häfele, BRGK 58, 1977, 536, Nr. 162.</bibl><bibl>G. Bauchhenß, Germania inferior. Bonn und Umgebung. Militärische Grabdenkmäler, CSIR Deutschland 3, 1 (Bonn 1978) 37-38, Nr. 17; Taf. 21.</bibl><bibl>H.-G. Kolbe, BJ 161, 1961, 97-104, Nr. 11; Taf. 21. - AE 1963.</bibl><bibl>G. Alföldy, Die Hilfstruppen der römischen Provinz Germania Inferior, EpStud 6 (Düsseldorf 1968) 189, Nr. 71.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Viminacium, bei &amp;ndash; Požarevac (Moesia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD035828</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD035828</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207549">Viminacium, bei</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/6290252">Serbia</placeName><placeName type="modern" ref="http://www.geonames.org/786827">Požarevac</placeName><placeName type="findspot">{S. arhangela Mihaila i Gavrila, Kirche}, sekundär verwendet?</placeName><placeName type="region">Centralna Srbija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD035828_1" sex="W"><persName ref="http://romans1by1.com/rpeople/12289"><name type="nomen">Oppia</name><name type="cognomen">Agathe</name></persName></person><person xml:id="HD035828_2" sex="M"><persName ref="http://romans1by1.com/rpeople/12290"><name type="nomen">Iulius*</name><name type="cognomen">Quadratus</name></persName></person><person xml:id="HD035828_3" sex="M"><persName ref="http://romans1by1.com/rpeople/12291"><name type="cognomen">Herculanus</name></persName></person><person xml:id="HD035828_4" sex="M"><persName ref="http://romans1by1.com/rpeople/12292"><name type="nomen">Iulius*</name><name type="cognomen">Bassus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-02-18" who="Gräf">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/>Oppiae Aga<lb break="no" n="3"/>then<supplied reason="lost">i</supplied> matri <lb n="4"/><expan><abbr>v</abbr><ex>ixit</ex></expan> <expan><abbr>a</abbr><ex>nnos</ex></expan> LX et <expan><abbr>Iul</abbr><ex>io</ex></expan> <lb n="5"/>Quadrato <lb n="6"/><expan><abbr>pat</abbr><ex>ri</ex></expan> ve<supplied reason="lost"><expan><abbr>t</abbr><ex>erano</ex></expan></supplied> <expan><abbr>leg</abbr><ex>ionis</ex></expan> VII <lb n="7"/><expan><abbr>Cl</abbr><ex>audiae</ex></expan> <expan><abbr>v</abbr><ex>ixit</ex></expan> <expan><abbr>a</abbr><ex>nnos</ex></expan> LXV Hercula<lb break="no" n="8"/>no <expan><abbr>frat</abbr><ex>ri</ex></expan> <expan><abbr>v</abbr><ex>ixit</ex></expan> <expan><abbr>a</abbr><ex>nnos</ex></expan> VIII <lb n="9"/><expan><abbr>Iul</abbr><ex>ius</ex></expan> Bassus <expan><abbr>m</abbr><ex>iles</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> <expan><abbr>II</abbr><ex cert="low"/>I</expan><certainty match="preceding-sibling::node()" locus="value"/> <expan><abbr>P</abbr><ex>arthicae</ex></expan><certainty match="preceding-sibling::node()" locus="value"/> <lb n="10"/><expan><abbr>s</abbr><ex cert="low">trator</ex></expan> co<expan><ex>n</ex><abbr>s</abbr><ex>ularis</ex></expan> <expan><abbr>b</abbr><ex>ene</ex></expan> <expan><abbr>m</abbr><ex>erentibus</ex></expan> <expan><abbr>p</abbr><ex>osuit</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Verschollen. Oberhalb der Inschrift aedicula mit Büsten der beiden Eltern und des Bruders. Z. 9 (Ende): Lesung unsicher; möglicherweise handelt es sich auch um die leg. I Italica oder die IIII Flavia. (B): CIL III 1651: Z. 4: [L]X; Z. 9: Iul[iu]s; Z. 10: nicht gelesen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IMS 2, 132; Zeichnung.</bibl><bibl>CIL 03, 01651. (B)</bibl><bibl>CIL 03, 01651 add. p. 1021.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

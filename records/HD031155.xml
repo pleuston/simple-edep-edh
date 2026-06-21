@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Maastricht (Belgica)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD031155</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD031155</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(40)</height><width>58</width><depth>15</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">8-5.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Belgica</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1900"><placeName type="country" ref="https://www.geonames.org/2750405">Netherlands</placeName><placeName type="modern" ref="http://www.geonames.org/2751283">Maastricht</placeName><placeName type="findspot">{Plankstraat 7}</placeName><placeName type="region">Limburg</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD031155_1" sex="W"><persName><name type="cognomen">Ammaca</name><name type="supernomen">Gamaleda</name></persName></person><person xml:id="HD031155_2" sex="M"><persName><name type="cognomen">Verecundus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2018-07-12" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Ammacae <lb n="2"/>sive <lb n="3"/>Gamaledae <lb n="4"/><supplied reason="lost">Vere</supplied>cundi <lb n="5"/><supplied reason="lost">filiae</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1903, 0142.</bibl><bibl>AE 1903, 0339.</bibl><bibl>AE 1996, 1091.</bibl><bibl>A. Kakoschke, ZPE 190, 2014, 287, Nr. 2.</bibl><bibl>T.A.S.M. Panhuysen, Romeins Maastricht en zijn beelden (Roman Maastricht reflected in stones) (Maastricht 1996) 263-265, NR. 6; Afb. 96. - AE 1996.</bibl><bibl>CIL 13, 03615; Zeichnung.</bibl><bibl>J.-P. Waltzing, MB 6, 1902, 447-451, Nr. 3; Foto. - AE 1903, 0339.</bibl><bibl>J.-P. Waltzing, KWDZ 22, 1903, 9; Zeichnung. - AE 1903, 0142.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

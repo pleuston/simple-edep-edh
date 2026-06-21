@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Carnuntum &amp;ndash; Bad Deutsch-Altenburg (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD073699</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD073699</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bad Deutsch-Altenburg, Arch. Mus. Carnuntinum</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(33)</height><width>(30)</width><depth>(8)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6.5-4.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/128376">Carnuntum</placeName></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 230 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1978"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2782068">Bad Deutsch-Altenburg</placeName><placeName type="findspot">{Pfaffenberg, Tempelbezirk, Amphitheater,} Grabungsfläche VIII, sekundär verwendet</placeName><placeName type="region">Niederösterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD073699_1" sex="M"><persName ref="http://romans1by1.com/rpeople/18717"><name type="praenomen">[-]</name><name type="nomen">Publienus+*</name><name type="cognomen">Proculus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-09-01" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <gap reason="lost" extent="unknown" unit="character"/><expan><abbr><supplied reason="lost">Pu</supplied>blien</abbr><ex>us</ex></expan> <lb n="2"/><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/> <expan><abbr>fil</abbr><ex>ius</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> Pr</supplied>oculus <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>sac</abbr><ex>erdos</ex></expan> <expan><abbr>flam</abbr><ex>en</ex></expan> <lb n="4"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>tr</abbr><ex>ibunus</ex></expan> mi</supplied><expan><abbr>l</abbr><ex>itum</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> II <expan><abbr>Ad</abbr><ex>iutricis</ex></expan> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/> <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>imp</abbr><ex>ensa</ex></expan> s<supplied reason="lost">ua</supplied><gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+            <div type="commentary">
+                <p>13 Fragmente vom Inschriftfeld einer Tafel. Gefunden in Sekundärverwendung wahrscheinlich zur spätantiken Reparatur des Amphitheaters. Dies dürfte auch der ursprüngliche Aufstellungsort gewesen sein. Zeile 3: AM-Ligatur; Zeile 4: AD-Ligatur. Die Maßangabe bezieht sich auf Fragment (a - 11 Stücke); Maße Fragment (b - 2 Stücke) in cm: H: 12; B: 25; T: 9.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>I. Piso, Das Heiligtum des Jupiter Optimus Maximus auf dem Pfaffenberg/Carnuntum 1. Die Inschriften (Wien 2003) 88-89, Nr. 140; Foto u. Zeichnung.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

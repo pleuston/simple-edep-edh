@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Carnuntum, bei &amp;ndash; Sommerein (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD022311</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD022311</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Hainburg/Donau, Kulturfabrik, Arch. Zentraldepot</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">tabula?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(39)</height><width>(44)</width><depth>29</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6.0</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/128376">Carnuntum, bei</placeName></origPlace><origDate><origDate notBefore-custom="0124" notAfter-custom="0194" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">124 AD - 194 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1932"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2764937">Sommerein</placeName><placeName type="findspot">{Ried Rote Kreuzäcker}</placeName><placeName type="region">Niederösterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD022311_1" sex="M"><persName><name type="praenomen">P.</name><name type="nomen">Vedius*</name><name type="cognomen">Aquilinus</name></persName></person><person xml:id="HD022311_2"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-11-23" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F018963" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/895e8ed7-b3c2-46ff-9667-49c0e335729f/file/id/779035/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>P</abbr><ex>ublio</ex></expan> <expan><abbr>Ve</abbr><ex cert="low">dio</ex></expan> Aquilino <lb n="2"/><expan><abbr>qu</abbr><ex>aestori</ex></expan> <expan><abbr>m</abbr><ex>unicipii</ex></expan> Ae<supplied reason="lost"><expan><abbr>l</abbr><ex>ii</ex></expan></supplied> <expan><abbr>K</abbr><ex>arnunti</ex></expan> <expan><abbr>an</abbr><ex>norum</ex></expan> L e<supplied reason="lost">t</supplied> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>FT <expan><abbr>an</abbr><ex>norum</ex></expan><certainty match="preceding-sibling::node()" locus="value"/> II<gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Drei aneinanderpassende Fragmente eines Grabsteines. In Zeile 3 unterhalb des A von Z. 2 noch oberer Abschluss eines F oder E zu erkennen. Lesung Z. 3 unsicher. Datierung: municipium Carnuntum. Die Maßangabe bezieht sich auf die drei Fragmente zusammengenommen. Das dritte, rechte Fragment ist auf dem neueren Foto nicht zu sehen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1938, 0167.</bibl><bibl>E. Polaschek - A. Seracsin, RLŒ 18, 1937, 121-122; Abb. 62.</bibl><bibl>F. Hild, Supplementum epigraphicum zu CIL III. Das pannonische Niederösterreich, Burgenland und Wien 1902-1968 (Diss. Wien 1968) 191-192, Nr. 273.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

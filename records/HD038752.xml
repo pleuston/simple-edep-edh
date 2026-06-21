@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Traboch (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD038752</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD038752</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Traboch, S. Nikolaus, Pfarrkirche, vermauert</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">tabula?</objectType><material>Gesteine</material><dimensions unit="cm"><height>(57)</height><width>(54)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6.5-2.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1830"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2763488">Traboch</placeName><placeName type="findspot">Wurmhof</placeName><placeName type="region">Steiermark</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD038752_1" sex="M"><persName><name type="cognomen">Vicarius+</name></persName></person><person xml:id="HD038752_2" sex="M"><persName><name type="cognomen">Surus+</name></persName></person><person xml:id="HD038752_3" sex="W"><persName><name type="cognomen">Profutura+</name></persName></person><person xml:id="HD038752_4" sex="M"><persName><name type="cognomen">Septumus (= Septimus)</name></persName></person><person xml:id="HD038752_5" sex="W"><persName><name type="cognomen">Secundina+*</name></persName></person><person xml:id="HD038752_6" sex="W"><persName><name type="cognomen">Viatorina+?</name></persName></person><person xml:id="HD038752_7" sex="M"><persName><name type="cognomen">Libertio</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-11-19" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> Vicar<supplied reason="lost">io Suri</supplied> <lb n="2"/><expan><abbr>libert</abbr><ex>o</ex></expan> et Profut<supplied reason="lost">urae</supplied> <lb n="3"/><expan><abbr>con</abbr><ex>iugi</ex></expan> Septumi <note>sic</note> <supplied reason="lost">et Se</supplied><lb break="no" n="4"/>cundin<expan><ex>a</ex><abbr>e</abbr></expan> <expan><abbr>l</abbr><ex>ibertae</ex></expan> <supplied reason="lost" cert="low">Via</supplied><lb break="no" n="5"/>torina @(obita) a<supplied reason="lost"><expan><abbr>n</abbr><ex>norum</ex></expan> XXXXV</supplied> <lb n="6"/>et Libertio <expan><abbr>v</abbr><ex>ivus</ex></expan> <expan><abbr>f</abbr><ex>ecit</ex></expan> <supplied reason="lost"><expan><abbr>s</abbr><ex>ibi</ex></expan> et</supplied> <lb n="7"/>coniugi <expan><abbr>f</abbr><ex cert="low">iliis</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Ergänzungen rechts durch frühere Abschriften gesichert; Fundjahr nur ungefähr. Z. 1 das S von Suri stand im V. Z. 2 Ligatur RT und ET, das FV steht klein im O. Z. 3 das O klein dem C eingeschrieben sowie das I im Zwickel des M. Z. 4 Ligatur NE, Z. 5 Symbol für obitus, Z. 6 Ligatur ET, Z. 7 O steht im C. Z. 6 (Ende): ET nicht überliefert, sondern hier ergänzt.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>E. Weber, Die römerzeitlichen Inschriften der Steiermark (Graz 1969) 288-289, Nr. 236; Foto.</bibl><bibl>CIL 03, 05467.</bibl><bibl>ILLPRON 1431.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

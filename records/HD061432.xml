@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Tropojë (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD061432</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD061432</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bajram Curri, Muze</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(130)</height><width>(64)</width><depth>15</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0170" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 170 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/783754">Albania</placeName><placeName type="modern" ref="http://www.geonames.org/7302898">Tropojë</placeName><placeName type="findspot">{Margegaj}</placeName><placeName type="region">Qarku i Kukësit</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD061432_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-05-24" who="Cowey">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F024405" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/ae8f8aa9-2537-4e39-9b40-6216515ce062/file/id/785070/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>D</abbr><ex>is</ex></expan></supplied> <expan><abbr>M</abbr><ex>anibus</ex></expan> <expan><abbr>s</abbr><ex>acrum</ex></expan> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>dec</abbr><ex cert="low">urioni</ex></expan> <expan><abbr>II</abbr><ex cert="low">viro</ex></expan> <expan><abbr>vix</abbr><ex>it</ex></expan> <expan><abbr>an</abbr><ex>nos</ex></expan> LV <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>NT</abbr><ex cert="low"/></expan> atfines <note>sic</note> et <abbr>V</abbr> IPA<supplied reason="lost" cert="low">-</supplied> <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>RE faciendum <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>V</abbr><ex cert="low"/></expan> <expan><abbr>A</abbr><ex cert="low"/>NTI</expan><certainty match="preceding-sibling::node()" locus="value"/> <abbr>H</abbr> <abbr>S</abbr> <supplied reason="lost" cert="low">-</supplied> <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/> statuam de su<supplied reason="lost">o</supplied> <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/>it
+            </ab></div>
+            <div type="commentary">
+                <p>Zahlreiche Ligaturen. Z. 1: Querhaste über II; zu dec(urio-) II(vir-) vgl. AE 1933, 77 = ILJug 1818; möglicherweise auch dec(uria-) II. (B): Jubani; Anamali - Ceka - Deniaux: Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>S. Anamali - H. Ceka - É. Deniaux, Corpus des inscriptions latines d'Albanie (Rome 2009) 26, Nr. 2; Foto. (B)</bibl><bibl>B. Jubani, BulArk 4, 1973, 199, Nr. 1b; tab. 2 (Zeichnung). (B)</bibl><bibl>U. Ehmig - R. Haensch, Die lateinischen Inschriften aus Albanien (LIA) (Bonn 2012) 19-21, Nr. 1; Foto u. Zeichnung.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

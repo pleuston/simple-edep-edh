@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Noviodunum &amp;ndash; Nyon (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD053564</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD053564</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Nyon?</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><dimensions unit="cm"><height>87</height><width>47</width><depth>17</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6.8-6.9</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109216">Noviodunum</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0070" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 70 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1989"><placeName type="country" ref="https://www.geonames.org/2658434">Switzerland</placeName><placeName type="modern" ref="http://www.geonames.org/2659422">Nyon</placeName><placeName type="findspot">{Rue Juste-Olivier}</placeName><placeName type="region">Canton de Vaud</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD053564_1" sex="M"><persName><name type="praenomen">Q.</name><name type="nomen">Vennius+</name><name type="cognomen">Succ[---]?</name></persName></person><person xml:id="HD053564_2" sex="M"><persName><name type="praenomen">Q.</name><name type="nomen">Vennius</name><name type="cognomen">Paetus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-08-25" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Q</abbr><ex>uinti</ex></expan> Ven<supplied reason="lost">ni</supplied> <lb n="2"/>Succ<supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied> <lb n="3"/><expan><abbr>Q</abbr><ex>uintus</ex></expan> Vennius <lb n="4"/>Paetus <expan><abbr>l</abbr><ex>ibertus</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Zwei aneinanderpassende Fragmente einer Stele, oben abgebrochen; oberer Rand des Inschriftfeldes erhalten. In Z. 2 rechts noch der linke untere Teil des Bogens eines Rundbuchstaben zu erkennen, C, G, O oder Q. Succ[o, i] oder Suco? (B): Rossi 2009: Z. 1: Q(into); Z. 2: Suc[]; AE 1992: Z. 1: [D(is) M(anibus)] / Q(uinti) Ven[ni]; Z. 2: Suc[cessi]; Rossi 1990: Z. 1: Q(into) Ven[nio]; Z. 2: Suc[].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1992, 1265. (B)</bibl><bibl>F. Rossi, in: L. Flutsch - G. Kaenel - F. Rossi (Hrsg.), Archéologie en terre vaudoise (Lausanne 2009) 172-173; Foto. (B)</bibl><bibl>F. Rossi, JSGU 73, 1990, 218. (B) - AE 1992.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

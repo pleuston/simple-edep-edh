@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Brigetio &amp;ndash; Komárom (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD039076</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD039076</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Komárom, Klapka György Múz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(38)</height><width>27</width><depth>21</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">2.8-2.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197180">Brigetio</placeName></origPlace><origDate><origDate when-custom="0157" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">157 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1962"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3044294">Komárom</placeName><placeName type="findspot">Szőny, {Legionslager}, südlich</placeName><placeName type="region">Komárom-Esztergom megye</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD039076_1" sex="M"><persName ref="http://romans1by1.com/rpeople/17986"><name type="praenomen">M.</name><name type="nomen">Antonius*</name><name type="cognomen">Marcianus*</name></persName></person><person xml:id="HD039076_2" sex="M"><persName><name type="cognomen">Barbarus</name></persName></person><person xml:id="HD039076_3" sex="M"><persName><name type="cognomen">Regulus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-03-30" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Dis deabus <lb n="2"/>omnibus <lb n="3"/><expan><abbr>M</abbr><ex>arcus</ex></expan> <expan><abbr>Antoniu</abbr><ex>s</ex></expan> <lb n="4"/><expan><abbr>Marcianu</abbr><ex>s</ex></expan> <lb n="5"/>|(centurio)<certainty match="preceding-sibling::node()" locus="value"/> <expan><abbr>leg</abbr><ex>ionis</ex></expan> <expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <supplied reason="lost"><expan><abbr>m</abbr><ex>erito</ex></expan></supplied> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Barba&amp;lt;r=N&amp;gt;o <lb n="2"/><supplied reason="lost">et R</supplied>egul<supplied reason="lost">o</supplied> <lb n="3"/><supplied reason="lost"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan></supplied> 
+            </ab></div></div>
+            <div type="commentary">
+                <p>Südlich des Legionslagers gefunden. Rote Farbe in den Buchstaben der Inschrift auf der Vorderseite. Die Konsuldatierung befindet auf der rechten Seite und ist nur gemalt. Z. 3: NI-Ligatur; Z. 4: AN-Ligatur. Z. 4: Am Zeilenende könnte ursprünglich ein S mit geringerer Buchstabenhöhe gestanden haben. Rechte Nebenseite: Schreibtechnik: gemalt. (B): RIU: rechte Nebenseite: Barbano / [---]ecul / [------].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>RIU 0382; Abb. 382 (Foto u. Zeichnung). (B)</bibl><bibl>PIR (2. Aufl.) C 602.</bibl><bibl>PIR (2. Aufl.) M 540.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

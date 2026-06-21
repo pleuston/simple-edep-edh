@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Celeia &amp;ndash; Celje (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD066988</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD066988</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Celje, Pokrajinski Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor, weiß</material><dimensions unit="cm"><height>(50)</height><width>37</width><depth>16</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197206">Celeia</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1943"><placeName type="country" ref="https://www.geonames.org/3190538">Slovenia</placeName><placeName type="modern" ref="http://www.geonames.org/3202781">Celje</placeName><placeName type="findspot">{Mariborska cesta}</placeName><placeName type="region">Savinjska statistična regija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD066988_1" sex="M"><persName><name type="nomen">Cornelius+</name><name type="cognomen">Iantumarus+</name></persName></person><person xml:id="HD066988_2" sex="W"><persName><name type="nomen">[---]</name><name type="cognomen">Aphrodisia+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-02-25" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Cor<supplied reason="lost">nelius</supplied> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Iantum<supplied reason="lost">arus</supplied> <lb n="2"/><expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>itus</ex></expan> <supplied reason="lost"><expan><abbr>e</abbr><ex>st</ex></expan></supplied> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">Aphr</supplied>od<supplied reason="lost">i</supplied>si<lb break="no" n="4"/><supplied reason="lost">a coni</supplied>ugi <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>f</abbr><ex>ecit</ex></expan> <lb n="6"/>sibi et suis
+            </ab></div></div>
+            <div type="commentary">
+                <p>4 Fragmente, davon die beiden oberen und die beiden unteren jeweils aneinanderpassend. Oberhalb des Inschriftfeldes Dreieckgiebel; in den Zwickeln darüber Delphine. Z. 1 steht zwischen dem gerahmten Inschriftfeld und dem Giebel. Z. 4: vermutlich DI-Ligatur (oberer Teil nicht erhalten); der letzte Buchstabe (I) steht auf dem Rahmen. (B): ILLPRON: Z. 4/5: Aphr]od[i]si/a coniugi.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILJug 0390.</bibl><bibl>ILLPRON 1778. (B)</bibl><bibl>B. Saria, JŒAI (Beibl.) 36, 1946, 55, Nr. 8; Abb. 26.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Colonia Iulia Augusta Philippensium (= Philippi) &amp;ndash; Krenides (Macedonia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD023862</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD023862</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>94</height><width>97</width><depth>20</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">12.5-9</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Macedonia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/501482">Colonia Iulia Augusta Philippensium (= Philippi)</placeName></origPlace><origDate><origDate notBefore-custom="0324" notAfter-custom="0337" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">324 AD - 337 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/390903">Greece</placeName><placeName type="modern">Krenides</placeName><placeName type="findspot">{Forum}</placeName><placeName type="region">Anatolikí Makedonía, Thráki</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD023862_1" sex="M"><persName><name type="nomen">Flavius*</name><name type="cognomen">Constantinus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-10-21" who="Cowey">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost"><expan><abbr>Imp</abbr><ex>eratorem</ex></expan></supplied> <expan><abbr>Caes</abbr><ex>arem</ex></expan> <expan><abbr>Fl</abbr><ex>avium</ex></expan> Const<supplied reason="lost">antinum</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>max</abbr><ex>imum</ex></expan> victo<supplied reason="lost">r</supplied>em <gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">c</supplied>onditorem <gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">c</supplied>oloniae Phili<supplied reason="lost">ppensium</supplied><gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Abweichende Textgestaltung der Z. 2 u. 4.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1933, 0086. (B)</bibl><bibl>P. Collart, BCH 56, 1932, 209-213, Nr. 7, Fig. 11. - AE 1933.</bibl><bibl>AE 1948, 0207. (B)</bibl><bibl>P. Lemerle, Philippes et la Macédoine orientale à l'époque chrétienne et byzantine. Recherches d'histoire et d'archéologie (Paris 1945), 108. - AE 1948.</bibl><bibl>T. Grünewald, Constantinus Maximus Augustus (Stuttgart 1990) 239, Nr. 387.</bibl><bibl>P. Pilhofer, Philippi 2. Katalog der Inschriften von Philippi (Tübingen 2000) 253-254, Nr. 235. (B)</bibl><bibl>P. Pilhofer, Philippi 2. Katalog der Inschriften von Philippi (2. Aufl. Tübingen 2009) 300-301, Nr. 235.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

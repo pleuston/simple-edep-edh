@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Neviodunum, bei &amp;ndash; Sevnica (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD049771</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD049771</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Brežice, Pos. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>49</height><width>65</width><depth>13</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6.5-6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197408">Neviodunum, bei</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1983"><placeName type="country" ref="https://www.geonames.org/3190538">Slovenia</placeName><placeName type="modern" ref="http://www.geonames.org/8989501">Sevnica</placeName><placeName type="findspot">{Rovišče pri Studencu}, Krivica</placeName><placeName type="region">Posavska statistična regija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD049771_1" sex="M"><persName ref="http://romans1by1.com/rpeople/18811"><name type="cognomen">Sirus</name></persName></person><person xml:id="HD049771_2" sex="M"><persName><name type="cognomen">Brogimarus</name></persName></person><person xml:id="HD049771_3" sex="W"><persName ref="http://romans1by1.com/rpeople/18812"><name type="cognomen">Matugnata</name></persName></person><person xml:id="HD049771_4" sex="M"><persName><name type="cognomen">Admato</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-11-19" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F012808" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/7db48064-a378-4565-b407-f82eb2d33961/file/id/772333/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Sirus Brogim<lb break="no" n="2"/>ari <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>v</abbr><ex>ivus</ex></expan> <expan><abbr>f</abbr><ex>ecit</ex></expan> <expan><abbr>s</abbr><ex>ibi</ex></expan> et Ma<lb break="no" n="3"/><expan><abbr>tugnata</abbr><ex>e</ex></expan> Adma<lb break="no" n="4"/>tonis <expan><abbr>n<am>n</am></abbr><ex>norum</ex></expan> XXXX
+            </ab></div>
+            <div type="commentary">
+                <p>Z. 4: Buchstabe N hinter A spiegelverkehrt geschrieben.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1997, 1243.</bibl><bibl>M. Lovenjak, AArchSlov 48, 1997, 76-78. 88, Nr. 11; sl. 15. - AE 1997.</bibl><bibl>ILSl 1, 089; Foto.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

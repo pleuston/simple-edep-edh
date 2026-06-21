@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Celeia &amp;ndash; Celje (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD050957</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD050957</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Celje, Pokrajinski Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(110)</height><width>(79)</width><depth>59</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6-4.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197206">Celeia</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1991"><placeName type="country" ref="https://www.geonames.org/3190538">Slovenia</placeName><placeName type="modern" ref="http://www.geonames.org/3202781">Celje</placeName><placeName type="findspot">{Fürstenhof}, Palatium, sekundär verwendet</placeName><placeName type="region">Savinjska statistična regija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD050957_1" sex="M"><persName><name type="praenomen">Q.</name><name type="nomen">Ennius+?</name><name type="cognomen">C[---]</name></persName></person><person xml:id="HD050957_2" sex="W"><persName><name type="nomen">Ennia+</name><name type="cognomen">Secunda+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-04-30" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F009046" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/72ba9596-abd1-46f3-a373-49b42d6e2faa/file/id/768812/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Q</abbr><ex>uintus</ex></expan> E<supplied reason="lost" cert="low">nniu</supplied>s <expan><abbr>Q</abbr><ex>uinti</ex></expan> <expan><abbr>fil</abbr><ex>ius</ex></expan> <lb n="2"/>C<gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/><expan><abbr>viv</abbr><ex>us</ex></expan> <expan><abbr>f</abbr><ex>ecit</ex></expan> <supplied reason="lost">sibi</supplied> et <lb n="4"/>Enn<supplied reason="lost">iae</supplied> <expan><abbr>Q</abbr><ex>uinti</ex></expan> <expan><abbr>lib</abbr><ex>ertae</ex></expan> <lb n="5"/>Secu<supplied reason="lost">n</supplied>dae <lb n="6"/>uxo<supplied reason="lost">ri</supplied> optimae <lb n="7"/>piissimae <expan><abbr>an</abbr><ex>norum</ex></expan> LX et <lb n="8"/>suis
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1995, 1208.</bibl><bibl>AE 2003, 1309.</bibl><bibl>V. Kolšek, AArchSlov 46, 1995, 285. 289, Nr. 12; sl. 12. - AE 1995.</bibl><bibl>M. Lovenjak, AArchSlov 54, 2003, 341-342. 362, Nr. 10; sl. 10. - AE 2003.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

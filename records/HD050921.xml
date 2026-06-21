@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mile-/leaguestone from Lannes (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD050921</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD050921</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">mile-/leaguestone</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(43)</height><width>(39)</width><depth>(19)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6.7</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate when-custom="0043" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">43 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1991"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/3007616">Lannes</placeName><placeName type="findspot">{La Croix-d'Equerre}</placeName><placeName type="region">Grand Est</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>mile-/leaguestone</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD050921_1" sex="M"><persName><name type="praenomen">Ti.+</name><name type="nomen">Claudius+ Caesar+</name><name type="cognomen">Augustus+* Germanicus+*</name></persName></person><person xml:id="HD050921_2" sex="M"><persName><name type="cognomen">Drusus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-12-08" who="Osnabrügge">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Ti</abbr><ex>berio</ex></expan> C</supplied>laudio D<supplied reason="lost">rusi <expan><abbr>f</abbr><ex>ilio</ex></expan></supplied> <lb n="2"/><supplied reason="lost">Caes</supplied>ari Au<supplied reason="lost"><expan><abbr>g</abbr><ex>usto</ex></expan></supplied> <lb n="3"/><supplied reason="lost"><expan><abbr>Germanic</abbr><ex>o</ex></expan> <expan><abbr>pont</abbr><ex>ifici</ex></expan> <expan><abbr>max</abbr><ex>imo</ex></expan></supplied> <lb n="4"/><supplied reason="lost"><expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> III<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <expan><abbr>imp</abbr><ex>eratori</ex></expan></supplied> <lb n="5"/><supplied reason="lost">III<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> III<certainty locus="name" match="preceding-sibling::text()" cert="low"/> de</supplied><lb break="no" n="6"/><supplied reason="lost" cert="low">signat(o) IIII</supplied> <lb n="7"/><supplied reason="lost" cert="low">And(emantunno) m(ilia) p(assuum) VI</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Rekonstruierter Durchmesser: circa 59 cm. Thévenard; Le Bohec: kleinere Abweichungen in der Ergänzung und bei den Zeilenfällen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1995, 1152.</bibl><bibl>J.-J. Thévenard, in: J.-J. Thévenard - A. Villes - R. Neiss, La Haute-Marne, Carte archéologique de la Gaule 52, 1 (Paris 1996) 242; fig. 215 (Zeichnung).</bibl><bibl>Y. Le Bohec, Inscriptions de la cité des Lingons. Inscriptions sur pierre (Paris 2003) 353, Nr. B 8.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

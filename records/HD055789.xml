@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Mogontiacum &amp;ndash; Mainz (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD055789</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD055789</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mainz, Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">block</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(61)</height><width>72</width><depth>13</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7.0</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109169">Mogontiacum</placeName></origPlace><origDate><origDate notBefore-custom="0301" notAfter-custom="0330" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">301 AD - 330 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1881"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2874225">Mainz</placeName><placeName type="findspot">{Kaiser-Friedrich-Straße, Mittlere Bleiche - Große Bleiche, zwischen}</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD055789_1" sex="M"><persName><name type="nomen">Flavius*</name><name type="cognomen">Pusinnio*</name></persName></person><person xml:id="HD055789_2" sex="M"><persName><name type="cognomen">Iustinus*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2018-04-12" who="Esch">checked through autopsy</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F015142" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/d09e81f0-6bea-453f-a58f-4ecd9cc8d62b/file/id/774719/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Mem</ab></div><div n="2" type="textpart"><ab><lb n="1"/>oria <expan><abbr>Fl</abbr><ex>avi</ex></expan> Pusinnionis <expan><abbr>optio</abbr><ex>nis</ex></expan> <lb n="2"/><expan><abbr>leg</abbr><ex>ionis</ex></expan> II Pannonic<expan><ex>a</ex><abbr>e</abbr></expan> qui vixit <lb n="3"/>annos XXXX stupendi<lb break="no" n="4"/>a <note>sic</note> XVIII Iu<expan><ex>s</ex><abbr>tinus</abbr></expan> <expan><ex>h</ex><abbr>eres</abbr></expan> <note>sic</note> p<lb break="no" n="5"/>ro pietate posuit <lb n="6"/>MIINAM
+            </ab></div></div>
+            <div type="commentary">
+                <p>Z. 1 befindet sich auf dem oberen Rahmen des Inschriftfeldes; darüber noch die Füße einer stehenden Figur und unterer Teil eines Schildes. Autopsie R. Wiegels.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 06849.</bibl><bibl>K. Körber, MZ 11, 1916, 67-68, Nr. 14; Zeichnung.</bibl><bibl>W. Boppert, Militärische Grabdenkmäler aus Mainz und Umgebung, CSIR Deutschland 2, 5 (Mainz 1992) 113, Nr. 18; Tafel 17.</bibl><bibl>W. Faust, Die Grabstelen des 2. und 3. Jahrhunderts im Rheingebiet (Köln 1998) 146, Nr. 176.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

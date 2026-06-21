@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Vindonissa &amp;ndash; Windisch (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD062223</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD062223</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Brugg, Vindonissa-Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">altar?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(15)</height><width>11</width><depth>12</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">1.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/177661">Vindonissa</placeName></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1897"><placeName type="country" ref="https://www.geonames.org/2658434">Switzerland</placeName><placeName type="modern" ref="http://www.geonames.org/2657976">Windisch</placeName><placeName type="findspot">{Legionslager, Principia}, Fahnenheiligtum</placeName><placeName type="region">Kanton Aargau</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD062223_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD062223_2" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">Super+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-03-20" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F028827" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/c80c516b-4c08-4f0e-85f1-303a998d64a1/file/id/789584/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/>Sup<supplied reason="lost">e</supplied>ri <lb n="2"/><expan><abbr>tr</abbr><ex>ibuni</ex></expan> ex <lb n="3"/><expan><abbr>leg</abbr><ex>ione</ex></expan> XI <expan><abbr>C</abbr><ex>laudia</ex></expan> <expan><abbr>p</abbr><ex>ia</ex></expan> <expan><abbr>f</abbr><ex>ideli</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Unterer Teil eines Altars oder einer Basis /Statuenbasis. Z. 1: hinter V das untere Ende einer senkrechten Haste erhalten. (B): CIL 13, 11525; Walser: Z. 1/2: SV[---] / [--]trex; Speidel: Z. 1/2: Sup[er](?) v[e]/t(e)r(anus); Scharf: Z. 1: Su[---] (hinter V der Rest einer senkrechten Haste); AE 1991: Z. 1: Su[---]; Z. 2: möglicherweise auch v[e]/t(e)r(anus).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2012, 0995.</bibl><bibl>AE 1991, 1259. (B)</bibl><bibl>CIL 13, 11525. (B)</bibl><bibl>M.A. Speidel, Pro Vindonissa 1988/89, 56-57; Abb. 1 u. 2. (B) - AE 1991.</bibl><bibl>R. Scharf, ZPE 89, 1991, 261-264. - AE 1991. (B)</bibl><bibl>G. Walser, Römische Inschriften in der Schweiz 2 (Bern 1980) 136-137, Nr. 176; Foto. (B) - AE 1991; AE 2012.</bibl><bibl>A. Kolb, AAS 95, 2012, 150; Abb. 6. - AE 2012.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

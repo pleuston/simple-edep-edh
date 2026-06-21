@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Salonae, bei &amp;ndash; Split (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD062247</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD062247</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material>Gesteine</material><dimensions unit="cm"><height>(130)</height><width>70</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197488">Salonae, bei</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3190261">Split</placeName><placeName type="findspot">Lučac-Manus, {Lučac}</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD062247_1" sex="W"><persName><name type="nomen">Iulia</name><name type="cognomen">Procilla</name></persName></person><person xml:id="HD062247_2" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Iulius</name><name type="cognomen">Epaphroditus</name></persName></person><person xml:id="HD062247_3" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Iulius</name><name type="cognomen">Crescens</name></persName></person><person xml:id="HD062247_4" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Iulius</name><name type="cognomen">Doryphorus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-04-23" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Iuliae Procillae <lb n="2"/><expan><abbr>L</abbr><ex>uci</ex></expan> Iuli Epaphroditi filiae <lb n="3"/><expan><abbr>n<am>n</am></abbr><ex>orum</ex></expan> XXII <expan><abbr>L</abbr><ex>ucius</ex></expan> Iulius Crescens <lb n="4"/>et <expan><abbr>L</abbr><ex>ucius</ex></expan> Iulius Doryphorus <expan><abbr>L</abbr><ex>uci</ex></expan> l<lb break="no" n="5"/>iberti patronae <expan><abbr>b</abbr><ex>ene</ex></expan> <expan><abbr>m</abbr><ex>erenti</ex></expan> <expan><abbr>posuer</abbr><ex>unt</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Ädikulaartige Stele. Textwiedergabe außer für Z. 2 nach Cambi. Cambi: Z. 2: L(uci) Iul(i) Pepaphroditi filiae. (B): geringfügig abweichende Textwiedergabe; sechs statt fünf Zeilen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 02398; Zeichnung. (B)</bibl><bibl>CIL 03, 08629. (B)</bibl><bibl>AE 2008, 1050.</bibl><bibl>N. Cambi, ARadRaspr 15, 2007, 16-23, Nr. 1; Sl. 1 u. 2. - AE 2008.</bibl><bibl>G. Alföldy, Die Personennamen in der römischen Provinz Dalmatia (Heidelberg 1969) 193.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

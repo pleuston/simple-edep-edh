@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Tavannes (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD080343</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD080343</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Tavannes, Route de Pierre-Partuis; Zürich, Landesmus. (Kopie)</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/210">cliff</objectType><material>Gesteine</material><dimensions unit="cm"><height>97</height><width>150</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">15-9</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0161" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">161 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2658434">Switzerland</placeName><placeName type="modern" ref="http://www.geonames.org/2658415">Tavannes</placeName><placeName type="findspot">Route de Pierre-Pertuis, {antiker Felsdurchbruch}</placeName><placeName type="region">Kanton Bern</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD080343_1" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Dunius</name><name type="cognomen">Paternus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-08-19" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Numini Augus<lb break="no" n="2"/>t<supplied reason="lost">or</supplied>um <lb n="3"/>via <supplied reason="lost">d</supplied>ucta per <expan><abbr>M</abbr><ex>arcum</ex></expan> <lb n="4"/>Dunium Paternum <lb n="5"/>IIvir<supplied reason="lost">u</supplied>m <expan><abbr>col</abbr><ex>oniae</ex></expan> <expan><abbr>Helvet</abbr><ex>iorum</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Die Inschrift befindet sich an der Wand eines bereits in der Antike erweiterten, natürlichen Felsdurchbruches an der Passstraße zwischen Aventicum und Augusta Raurica, bekannt ist sie seit dem 13. Jh. Die Inschrift befindetsich in einem geglätteten Feld. Zum Bauherren vgl. https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD067579.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 05166.</bibl><bibl>G. Walser, Römische Inschriften in der Schweiz 2 (Bern 1980) 34-35, Nr. 125; (Foto d. Abklatsches).</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Public legal inscription from Roma &amp;ndash; Roma (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD027018</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD027018</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Roma, Mus. Naz. Rom.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material><dimensions unit="cm"><height>(8)</height><width>(10)</width><depth>0</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">1</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma</placeName></origPlace><origDate><origDate notBefore-custom="0198" notAfter-custom="0211" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">198 AD - 211 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma</placeName><placeName type="findspot">Tiberbett</placeName><placeName type="region">Lazio</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/5">public legal inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD027018_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1442"><name type="cognomen">Severus</name></persName></person><person xml:id="HD027018_2" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1446"><name type="cognomen">Antoninus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-05-13" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F010220" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/01997874-64a9-4b15-948a-b05bceb07ee6/file/id/769740/file_version/name/small"/><graphic xml:id="F026391" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/2b824026-aa95-4202-b0ef-9a69f481037a/file/id/787143/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/>ad subs<supplied reason="lost">ignandum<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="2"/>Severi <supplied reason="lost">et</supplied> An<supplied reason="lost">tonini</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/>rem legatos mit<supplied reason="lost">tere</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/>huic decreto <expan><abbr>n</abbr><ex>ostro</ex></expan> a<supplied reason="lost" cert="low">pponendam curavimus epistulam? ---</supplied> <lb n="5"/>cum sciamus vos d<supplied reason="lost">ominos</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="6"/>vico paganico M<gap reason="lost" extent="unknown" unit="character"/> <lb n="7"/>petimus arandam <gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Vier nicht aneinanderpassende Fragmente erhalten; Maße von Fragment a): s.o.; Maße von Fragment b): -1,5 x -2,5 x 0,25; Fragment c): -1 x -1,4 x 0,25; d): -1,2 x -1,4 x 0,25. Epistula imperatoris.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1913, 0072.</bibl><bibl>R.K. Sherk, The municipal decrees of the Roman West (Buffalo 1970) 24, Nr. 10.</bibl><bibl>R. Paribeni, MDAI(R) 28, 1913, 119-121; fig. 4 (Zeichnung) - AE 1913.</bibl><bibl>CIL 06, 40614; Foto.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Forum Iulium, bei &amp;ndash; Cividale/Friuli, bei (Venetia et Histria (Regio X))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD057274</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD057274</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Rosegg, Schloß Rosegg, Garten, vermauert</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">tabula?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>58</height><width>66</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Venetia et Histria (Regio X)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/187386">Forum Iulium, bei</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 230 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1729"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern" ref="http://www.geonames.org/3178605">Cividale/Friuli, bei</placeName><placeName type="findspot"/><placeName type="region">Friuli-Venezia Giulia</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD057274_1" sex="M"><persName><name type="cognomen">Mogiancus</name></persName></person><person xml:id="HD057274_2" sex="M"><persName><name type="cognomen">Ingenuus</name></persName></person><person xml:id="HD057274_3" sex="W"><persName><name type="nomen">Tulliu</name><name type="cognomen">Ingenua</name></persName></person><person xml:id="HD057274_4" sex="M"><persName><name type="cognomen">Covnertus</name></persName></person><person xml:id="HD057274_5" sex="M"><persName><name type="cognomen">Secundinus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-05-14" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Mogiancus <lb n="2"/>Ingenui <expan><abbr>fil</abbr><ex>ius</ex></expan> et <lb n="3"/>Tulliu Ingenua <lb n="4"/><expan><abbr>ux</abbr><ex>or</ex></expan> et Covnert<lb break="no" n="5"/>us et Secundin<lb break="no" n="6"/>us <expan><abbr>fili</abbr><ex>i</ex></expan> fecerunt
+            </ab></div>
+            <div type="commentary">
+                <p>In zwei Teile gebrochen. Aufbewahrungsort, Material und Maße nach lupa 2211. Z. 6 (Ende): Die Buchstaben ERVNT ragen unten teilweise in den Rahmen hinein. (B): CIL 05, 01789: Z. 2: [f. e]t; Gerstl: Z. 2: f(ilius) et; ILLPRON; CIL 03, 06491: Z. 3: nicht wiedergegeben; Gerstl: Z. 3/4: Zeilenfall fehlt; ILLPRON; CIL 03, 06491: Z. 4/5: [---] Cunerti/us [--] Secundini; Z. 6: v(ivi) f(ecerunt) et Ingenu(a)e; CIL 05, 01789: 6: f[ec]eru[nt].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 06491. (B)</bibl><bibl>CIL 05, 01789. (B)</bibl><bibl>A. Gerstl, Supplementum epigraphicum zu CIL III für Kärnten und Osttirol 1902-1961 (Diss. Wien 1961) 135. (B)</bibl><bibl>ILLPRON 0395. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

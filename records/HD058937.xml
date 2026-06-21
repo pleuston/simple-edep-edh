@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mile-/leaguestone from Ključ (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD058937</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD058937</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Ključ, Kopjenica, Mohammedanischer Friedhof</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">mile-/leaguestone</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(160)</height><width>39</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6-9</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate when-custom="0047" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">47 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1893"><placeName type="country" ref="https://www.geonames.org/3277605">Bosnia and Herzegovina</placeName><placeName type="modern" ref="http://www.geonames.org/3220443">Ključ</placeName><placeName type="findspot">{Lanište} - {Kopjenica}, zwischen</placeName><placeName type="region">Unsko-sanski kanton</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>mile-/leaguestone</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD058937_1" sex="M"><persName><name type="praenomen">Ti.</name><name type="nomen">Claudius+ Caesar</name><name type="cognomen">Augustus Germanicus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-09-23" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Ti</abbr><ex>berius</ex></expan> Clau<supplied reason="lost">dius</supplied> <lb n="2"/>Caesar Augustus <lb n="3"/>Germanic<supplied reason="lost">u</supplied>s <lb n="4"/><expan><abbr>pont</abbr><ex>ifex</ex></expan> <expan><abbr>max</abbr><ex>imus</ex></expan> <expan><abbr>tr</abbr><ex>ibunicia</ex></expan> po<supplied reason="lost"><expan><abbr>t</abbr><ex>estate</ex></expan></supplied> VII <lb n="5"/><expan><abbr>imp</abbr><ex>erator</ex></expan> <supplied reason="lost">XIIII</supplied> co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> <supplied reason="lost">I</supplied>III <expan><abbr>p</abbr><ex>ater</ex></expan> <supplied reason="lost"><expan><abbr>p</abbr><ex>atriae</ex></expan></supplied> <lb n="6"/>censor <lb n="7"/>LXIX
+            </ab></div>
+            <div type="commentary">
+                <p>Maße: Der Meilenstein steckt teilweise in der Erde; Höhenangabe bezieht sich auf den heute sichtbaren Teil. Lesung und Ergänzung nach CIL 17, 04. Z. 5: Die Zahlenangaben hinter imp. und cos. waren bei der Auffindung noch erkennbar. (B): Patsch; Ballif: kleinere Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>K. Patsch, in: P. Ballif, Römische Straßen in Bosnien und der Hercegovina (Wien 1893) 53, Nr. 14. (B)</bibl><bibl>P. Ballif, Römische Straßen in Bosnien und der Hercegovina (Wien 1893) 14. 48.</bibl><bibl>CIL 03, 13335. (B)</bibl><bibl>CIL 17, 04, 00294; Fig. α; Fig. β (Zeichnung).</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

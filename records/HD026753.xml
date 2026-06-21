@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Defixio from Saguntum &amp;ndash; Sagunto (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD026753</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD026753</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Sagunto, Privatbesitz</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/276">tessera</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/108">Blei</material><dimensions unit="cm"><height>5</height><width>17</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">0.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Hispania citerior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/266021">Saguntum</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern" ref="http://www.geonames.org/2511619">Sagunto</placeName><placeName type="findspot">castillo, Westabhang</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/76">defixio</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD026753_1" sex="W"><persName><name type="cognomen">Livia?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-03-25" who="Gräf">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Quis res <expan><abbr>tunica</abbr><ex>m</ex></expan> tolid <note>sic</note> <expan><abbr>e</abbr><ex cert="low"/></expan> <expan><abbr>Livia</abbr><ex cert="low"/></expan> odi eam <lb n="2"/>vel ium <note>sic</note> <expan><abbr>ite</abbr><ex>m</ex></expan> is <note>sic</note> quis <note>sic</note> qu<expan><ex>a</ex><abbr>esto</abbr><ex>m</ex></expan> <note>sic</note> hhabeat <note>sic</note> <lb n="3"/>tra<expan><ex>c</ex><abbr>ta</abbr></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Schreibtechnik: eingraviert. Z. 1: e Livia unsicher; nach der Zeichnung I(?)LLIOIA. Z. 2: möglicherweise auch eum, da einer der beiden senkrechten Hasten des E zerstört oder nicht lesbar sein kann. (B): CIL 02 (2. Aufl.): Z. 1: Quisquis tunica tolit(?) Malliola(?); Corell; AE 1994: Z. 1: tulid; obi.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1994, 1073. (B)</bibl><bibl>CIL 02 (2. Aufl.) 14, 00757b. (B)</bibl><bibl>J. Corell, ZPE 101, 1994, 282-286; Abb. 2 (Zeichnung). (B) - AE 1994.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

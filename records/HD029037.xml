@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Ferentium &amp;ndash; Ferento (Etruria (Regio VII))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD029037</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD029037</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>50</height><width>(36)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6.5-5.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Etruria (Regio VII)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/413132">Ferentium</placeName></origPlace><origDate><origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar"/></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Ferento</placeName><placeName type="findspot">Theater, bei</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD029037_1"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">Gallus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2001-05-30" who="Gräf">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                ------<certainty match="preceding-sibling::node()" locus="value"/>] <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>L Gallo <gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">V</supplied>Iviro tur<supplied reason="lost" cert="low">m(ae) ---</supplied> <lb n="4"/><supplied reason="lost"><expan><abbr>equit</abbr><ex>um</ex></expan> <expan><abbr>Rom</abbr><ex>anorum</ex></expan> tri</supplied><expan><abbr>b</abbr><ex>uno</ex></expan> <expan><abbr>milit</abbr><ex>um</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> X<gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost"><expan><abbr>quaest</abbr><ex>ori</ex></expan></supplied> <expan><abbr>provinc</abbr><ex>iae</ex></expan> Sic<supplied reason="lost">iliae</supplied> <lb n="6"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>praet</abbr><ex>ori</ex></expan> urb</supplied>ano lega<supplied reason="lost">to</supplied> <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr><supplied reason="lost">p</supplied>raef</abbr><ex>ecto</ex></expan> fru<supplied reason="lost"><expan><abbr>m</abbr><ex>enti</ex></expan></supplied> <lb n="8"/><supplied reason="lost">dandi <expan><abbr>leg</abbr><ex>ato</ex></expan> <expan><abbr>pr</abbr><ex>o</ex></expan> <expan><abbr>pr</abbr><ex>aetore</ex></expan> provi</supplied><expan><abbr>nc</abbr><ex>iae</ex></expan> Asi<supplied reason="lost">ae</supplied> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Galli, AE 1911, CIL XI: Abweichungen in der Textverteilung und z.T. in der Ergänzung.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1911, 0185.</bibl><bibl>CIL 11, 07423.</bibl><bibl>E. Galli, NSA 8, 1911, 30-31. - AE 1911.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Flavia Solva, bei &amp;ndash; S. Nikolai/Sausal (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD052215</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD052215</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>S. Nikolai/Sausal, S. Nikolaus, Pfarrkirche</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/24">relief</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor, weiß</material><dimensions unit="cm"><height>71</height><width>49</width><depth>11</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197273">Flavia Solva, bei</placeName></origPlace><origDate><origDate notBefore-custom="0171" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD - 230 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1968"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2766485">S. Nikolai/Sausal</placeName><placeName type="findspot">{S. Nikolaus, Pfarrkirche}, sekundär verwendet</placeName><placeName type="region">Steiermark</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD052215_1" sex="M"><persName><name type="praenomen">P.</name><name type="nomen">Cassius+</name><name type="cognomen">Maternianus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-06-22" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>P</abbr><ex>ublio</ex></expan> Cass<supplied reason="lost">io</supplied> Maternia<lb break="no" n="2"/>no <supplied reason="lost">filio an</supplied><expan><abbr>n</abbr><ex>norum</ex></expan> III
+            </ab></div>
+            <div type="commentary">
+                <p>Freistehendes Porträtmedaillon mit giebelförmigem oberen Abschluß; die Inschrift befindet sich auf dem angearbeiteten Sockel unter dem Medaillon. Im Medaillon die Büste eines mit der Toga bekleideten Knaben mit Horuslocke. (B): Beutler - Hofmann - Weber: Z. 2: an. X?]III; AE 2004: Z. 2: ann. X]III; Pochmarski: [fi(lio) a]n. Der im Medaillon dargestellte Knabe scheint älter als drei Jahre zu sein; andererseits ist in Z. 2 vor III sicher kein Teil eines X, sondern die obere Hälfte einer senkrechten Haste erhalten.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2004, 1087. (B)</bibl><bibl>AE 2011, 0875-0880.</bibl><bibl>E. Dietz, JŒAI 49, 1968-1971, 116-118; Abb. 2. - AE 2004.</bibl><bibl>F. Beutler - V. Hofmann - E. Weber, Tyche 19, 2004, 250, Nr. 77. (B) - AE 2004.</bibl><bibl>E. Pochmarski, Die Portraitmedaillons und Portraitnischen des Stadtgebietes von Flavia Solva, CSIR Österreich 4, 2 (Wien 2011) 44, Nr. 5; Taf. 4, 2. (B) - AE 2011.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

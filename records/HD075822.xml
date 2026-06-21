@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Colonia Claudia Augusta? Agrippinensium &amp;ndash; Köln (Germania inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD075822</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD075822</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Köln, Röm.-Germ. Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(196)</height><width>96</width><depth>29</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/108751">Colonia Claudia Augusta? Agrippinensium</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1895"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/6324464">Köln</placeName><placeName type="findspot">{Richard-Wagner-Straße 52}</placeName><placeName type="region">Nordrhein-Westfalen</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD075822_1" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Valerius*</name><name type="cognomen">Celerinus</name></persName></person><person xml:id="HD075822_2" sex="W"><persName><name type="nomen">Marcia</name><name type="cognomen">Procula+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-10-02" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F005945" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/46ecf38a-fdf4-4cce-8882-ea9663f3f5de/file/id/766720/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>M</abbr><ex>arcus</ex></expan> <expan><abbr>Val</abbr><ex>erius</ex></expan> Celerinus <lb n="2"/>Papiria Astigi <lb n="3"/>cives <note>sic</note> <expan><abbr>Agrippine</abbr><ex>nsis</ex></expan> <lb n="4"/><expan><abbr>veter</abbr><ex>anus</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> X <expan><abbr>g</abbr><ex>eminae</ex></expan> <expan><abbr>p</abbr><ex>iae</ex></expan> <expan><abbr>f</abbr><ex>idelis</ex></expan> <lb n="5"/>vivos <note>sic</note> fecit sibi <lb n="6"/>et Marciae Pro<lb break="no" n="7"/>cul<supplied reason="lost">a</supplied>e uxori
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Z. 3: Kisa, AE 1895: civis. Datierung nach Hernández Guerra.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 08283.</bibl><bibl>B. Galsterer - H. Galsterer, Die römischen Steininschriften aus Köln, IKöln (2.</bibl><bibl>Aufl.) (Mainz 2010) 268-269, Nr. 315; Foto.</bibl><bibl>AE 1895, 0142. (B)</bibl><bibl>A. Kisa, KWDZ 14, 1895, 89-90; Zeichnung. (B) - AE 1895 W. Faust, Die Grabstelen des 2. und 3. Jahrhunderts im Rheingebiet (Köln 1998) 131-132; Taf. 11, 1.</bibl><bibl>L. Hernández Guerra, in: J.J. Ferrer-Maestro - C. Kunst - D. Hernández de la Fuente - E. Faber (Hrsg.), Entre los mundos: Homenaje a Pedro Barceló. Zwischen den Welten: Festschrift für Pedro Barceló (Besançon 2017) 402. 407, Nr. 13.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

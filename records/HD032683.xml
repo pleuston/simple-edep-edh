@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Heraclea Lyncestis &amp;ndash; Bitola (Macedonia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD032683</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD032683</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bitola, Museum</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(88)</height><width>71</width><depth>15</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.5-7</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Macedonia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/481861">Heraclea Lyncestis</placeName></origPlace><origDate><origDate notBefore-custom="-0050" notAfter-custom="-0001" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">50 BC - 1 BC</origDate></origDate></origin>
+                        <provenance type="found" when="1937"><placeName type="country" ref="https://www.geonames.org/718075">Macedonia</placeName><placeName type="modern" ref="http://www.geonames.org/792578">Bitola</placeName><placeName type="findspot"/><placeName type="region">Pelagoniski region</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD032683_1" sex="M"><persName><name type="praenomen">T.</name><name type="nomen">Vessuenus</name><name type="cognomen">Maxumus (= Maximus)</name></persName></person><person xml:id="HD032683_2" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Vessuenus</name></persName></person><person xml:id="HD032683_3" sex="W"><persName><name type="nomen">Vessuena+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-11-23" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>T</abbr><ex>ito</ex></expan> Vessueno Ma<lb break="no" n="2"/>xumo <note>sic</note> et <expan><abbr>L</abbr><ex>ucio</ex></expan> Ves<lb break="no" n="3"/>sueno <expan><abbr>T</abbr><ex>iti</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> Ve<supplied reason="lost">ssu</supplied><lb break="no" n="4"/>enae <expan><abbr>T</abbr><ex>iti</ex></expan> <expan><abbr>f</abbr><ex>iliae</ex></expan> m<gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/>viva sib<supplied reason="lost">i</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILJug 1231.</bibl><bibl>N. Vulić, Spomenik 98, 1941-1948, 12, Nr. 25; Foto.</bibl><bibl>IG 10, 02, 2, 00081; tab. 13, 81.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

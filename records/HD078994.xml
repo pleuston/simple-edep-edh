@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription from Argentorate (Civitas Tribocorum) &amp;ndash; Strasbourg (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD078994</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD078994</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(39)</height><width>(23)</width><depth>13</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/108754">Argentorate (Civitas Tribocorum)</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1925"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/2973783">Strasbourg</placeName><placeName type="findspot">Cathédrale Notre-Dame, {Langhaus}, sekundär verwendet</placeName><placeName type="region">Grand Est</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/143" xml:lang="en">unknown</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD078994_1" sex="M"><persName><name type="nomen">Firminius*</name><name type="cognomen">Augustino</name></persName></person><person xml:id="HD078994_2" sex="M"><persName><name type="nomen">Adnamatius</name><name type="cognomen">Taurinus</name></persName></person><person xml:id="HD078994_3" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">Sabinianius</name><name type="cognomen">Dignianus</name></persName></person><person xml:id="HD078994_4" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Oct[---]ius*</name><name type="cognomen">Honoratus</name></persName></person><person xml:id="HD078994_5" sex="M"><persName><name type="nomen">[---]us</name><name type="cognomen">Felix</name></persName></person><person xml:id="HD078994_6" sex="M"><persName><name type="nomen">[---]inius</name><name type="cognomen">Victor</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-02-06" who="Osnabrügge">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>C</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>Firmin</abbr><ex>ius</ex></expan> Augu<supplied reason="lost">st</supplied>ino <lb n="3"/><expan><abbr>Adnamat</abbr><ex>ius</ex></expan> Taurinus <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>S <expan><abbr>Sabinian</abbr><ex>ius</ex></expan> Dignianus <lb n="5"/><expan><abbr>C</abbr><ex>aius</ex></expan> Oct<gap reason="lost" extent="unknown" unit="character"/><expan><abbr>i</abbr><ex>us</ex></expan> Honoratus <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/>us Felix <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>in</abbr><ex>ius</ex></expan> Vic<supplied reason="lost" cert="low">tor</supplied> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Vermutlich Namenliste der Stifterinschrift eines Collegium. (B): Z. 4: Finke; ILTG: [---]O[---]IN(ius) HO[nor]ATVS.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILTG 425. (B)</bibl><bibl>R. Forrer, CAHA 4, 1926, 336-337; Abb. 200 (Zeichnung).</bibl><bibl>H. Finke, BRGK 17, 1927, 45, Nr. 137. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

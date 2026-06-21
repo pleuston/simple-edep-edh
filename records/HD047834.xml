@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Cardena &amp;ndash; Treis-Karden (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD047834</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD047834</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Koblenz, Landesamt für Denkmalpflege</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/142">instrumentum sacrum</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/131">Ton</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/108859">Cardena</placeName></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1984"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2892965">Treis-Karden</placeName><placeName type="findspot">Karden, Unter den Weinbergen, {gallo-römischer Tempelbezirk}</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-08-21" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <gap reason="lost" extent="unknown" unit="character"/>F E solvit <gap reason="lost" extent="unknown" unit="character"/><certainty match="preceding-sibling::node()" locus="value"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Fragmente eines Räucherkelches. Schreibtechnik: gemalt / Dipinto. Fundjahr: 1984-1986.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2000, 1116.</bibl><bibl>C. Nickel, Gaben an die Götter. Der gallo-römische Tempelbezirk von Karden (Kr. Cochem-Zell, D) (Montagnac 1999) 143. 253, Nr. GNr. 72; Fototafel 12, GNr. 72; Taf. 78, GNr. 72 (Zeichnung). - AE 2000.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

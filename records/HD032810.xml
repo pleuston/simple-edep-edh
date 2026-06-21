@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Roma &amp;ndash; Roma (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD032810</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD032810</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Roma, Merc. Trai.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">statue base?</objectType><dimensions unit="cm"><height>(23)</height><width>(18)</width><depth>(9)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.5-4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma</placeName></origPlace><origDate><origDate notBefore-custom="0421" notAfter-custom="0442" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">421 AD - 442 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma</placeName><placeName type="findspot">Augustusforum</placeName><placeName type="region">Lazio</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD032810_1" sex="M"><persName><name type="nomen">Anicius+ Acilius+</name><name type="cognomen">Glabrio+ Faustus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-04-18" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F011062" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/776997bb-e6bf-4ecb-b3e0-da81c92fbcbb/file/id/770585/file_version/name/small"/><graphic xml:id="F031022" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/266f9f85-484a-4bb7-9cdc-baa5905eccec/file/id/791780/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                ------<certainty match="preceding-sibling::node()" locus="value"/>] <lb n="2"/><supplied reason="lost">Anicio Acilio</supplied> Glabr<supplied reason="lost">ioni Fausto <expan><abbr>v</abbr><ex>iro</ex></expan> <expan><abbr>c</abbr><ex>larissimo</ex></expan> et <expan><abbr>inl</abbr><ex>ustri</ex></expan></supplied> <lb n="3"/><supplied reason="lost"><expan><abbr>quaest</abbr><ex>ori</ex></expan> candi</supplied>dato pr<supplied reason="lost"><expan><abbr>aet</abbr><ex>ori</ex></expan> <expan><abbr>tutel</abbr><ex>ario</ex></expan> comiti intra</supplied> <lb n="4"/><supplied reason="lost">consistorium p</supplied><expan><abbr>raef</abbr><ex>ecto</ex></expan> <supplied reason="lost">urbi</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Ergänzungsvorschlag nach H. Niquet.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 06, 41390; Foto.</bibl><bibl>PLRE 2 Faustus 8.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

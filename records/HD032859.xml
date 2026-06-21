@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Barilović (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD032859</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD032859</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Zagreb, Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>170</height><width>65</width><depth>20</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1894"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3204470">Barilović</placeName><placeName type="findspot">{Svojić}, bei</placeName><placeName type="region">Karlovačka županija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD032859_1" sex="M"><persName><name type="nomen">F(---)</name><name type="cognomen">T(---)</name></persName></person><person xml:id="HD032859_2" sex="W"><persName><name type="nomen">I(---)</name><name type="cognomen">C(---)</name></persName></person><person xml:id="HD032859_3" sex="M"><persName><name type="nomen">Valerius</name><name type="cognomen">Saturninus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-02-17" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/><abbr>F</abbr> <abbr>T</abbr> et <abbr>I</abbr> <abbr>C</abbr> <lb n="3"/>titulum po<lb break="no" n="4"/>sueru&amp;lt;nt=M&amp;gt; fi<lb break="no" n="5"/>lio suo Vale<lb break="no" n="6"/>rio Saturni<lb break="no" n="7"/>no <expan><abbr>mil</abbr><ex>iti</ex></expan> <expan><abbr>l</abbr><ex>egionis</ex></expan> M D <lb n="8"/>CONARIVS <lb n="9"/>annos vi&amp;lt;x=S&amp;gt;(it) </ab></div><div n="2" type="textpart"><ab><lb n="1"/> XXX 
+            </ab></div></div>
+            <div type="commentary">
+                <p>Inschriftfeld von Halbsäulen flankiert; Z. 10 befindet sich auf der Leiste darunter; oberhalb des Inschriftfeldes männliche Büste.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1901, 0208.</bibl><bibl>CIL 03, 14333, 1.</bibl><bibl>J. Brunšmid, VHAD 1, 1895, 156-157; sl. 99. - AE 1901.</bibl><bibl>J. Brunšmid, VHAD 9, 1906/07, 183, Nr. 339; Foto.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

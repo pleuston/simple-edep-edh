@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Roma &amp;ndash; Roma (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD030484</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD030484</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Roma, Mus. Naz. Rom.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>(61)</height><width>(84)</width><depth>6</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">13-9.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma</placeName></origPlace><origDate><origDate notBefore-custom="0117" notAfter-custom="0138" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">117 AD - 138 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma</placeName><placeName type="findspot">porta Pia, bei</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD030484_1"><persName><name type="praenomen">P.+?</name><name type="nomen">Cornelius+</name><name type="cognomen">Tacitus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2007-09-19" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F011132" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/edbba5a6-52d6-4ba6-a4b8-d7b877a861a0/file/id/770655/file_version/name/small"/><graphic xml:id="F011224" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/a5564694-6ccc-4195-834d-841bf7a2b2fa/file/id/770747/file_version/name/small"/><graphic xml:id="F032451" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/028d4aa5-15da-4a10-b9a1-0955d79ccc9d/file/id/793246/file_version/name/small"/><graphic xml:id="F032452" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/8a0a07ef-5547-4614-ab52-bfad548bad69/file/id/793247/file_version/name/small"/><graphic xml:id="F032453" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/1ccd3306-2a3e-4a0b-9a62-51ec72c2d292/file/id/793248/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>P</abbr><ex>ublio</ex></expan>? Cornelio <expan><abbr>P</abbr><ex>ubli</ex></expan>? <expan><abbr>f</abbr><ex>ilio</ex></expan> Ta</supplied>cito Ca<supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan></supplied> <lb n="2"/><supplied reason="lost">XVviro sacris faciundis X</supplied>viro stlitib<supplied reason="lost">us iudicandis <expan><abbr>trib</abbr><ex>uno</ex></expan></supplied> <lb n="3"/><supplied reason="lost"><expan><abbr>mil</abbr><ex>itum</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> quaesto</supplied>ri <expan><abbr>Aug</abbr><ex>usti</ex></expan> tribun<supplied reason="lost">o plebis praetori</supplied> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 06, 41106; fig. α; fig. β (Zeichnung).</bibl><bibl>CIL 06, 01574.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Ugod (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD039066</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD039066</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Pápa, Gróf Esterházy Károly Kastély- és Tájmúz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>227</height><width>89</width><depth>23</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">8.2-4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1868"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3053676">Ugod</placeName><placeName type="findspot">{Dióspuszta}, spätantikes Grab, sekundär verwendet</placeName><placeName type="region">Veszprém megye</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD039066_1" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Petronius+</name><name type="cognomen">Licco</name></persName></person><person xml:id="HD039066_2" sex="W"><persName><name type="cognomen">Galla</name></persName></person><person xml:id="HD039066_3" sex="M"><persName><name type="cognomen">Cnodavus</name></persName></person><person xml:id="HD039066_4" sex="M"><persName><name type="cognomen">Gallio</name></persName></person><person xml:id="HD039066_5" sex="M"><persName><name type="cognomen">Veruclo</name></persName></person><person xml:id="HD039066_6" sex="M"><persName><name type="cognomen">Rufus</name></persName></person><person xml:id="HD039066_7" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Petronius</name><name type="cognomen">Licco</name></persName></person><person xml:id="HD039066_8" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Petronius</name><name type="cognomen">Catomocus</name></persName></person><person xml:id="HD039066_9" sex="M"><persName><name type="cognomen">Catamocus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-06-24" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>L</abbr><ex>ucius</ex></expan> Petroni<supplied reason="lost">us</supplied> <lb n="2"/><expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>l</abbr><ex>ibertus</ex></expan> Licco <expan><abbr>an</abbr><ex>norum</ex></expan> XCV <lb n="3"/>Galla Cnodavi <expan><abbr>f</abbr><ex>ilia</ex></expan> <lb n="4"/><expan><abbr>an</abbr><ex>norum</ex></expan> XXCV Gallio <lb n="5"/>Veruclonis <expan><abbr>f</abbr><ex>ilius</ex></expan> nepos <lb n="6"/><expan><abbr>an</abbr><ex>norum</ex></expan> XIIX <expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>iti</ex></expan> <expan><abbr>s</abbr><ex>unt</ex></expan> Rufus <lb n="7"/><expan><abbr>L</abbr><ex>uci</ex></expan> Petroni Licconis <expan><abbr>f</abbr><ex>ilius</ex></expan> <lb n="8"/>et <expan><abbr>L</abbr><ex>ucius</ex></expan> Petronius Cato<lb break="no" n="9"/>mocus libertus paren<lb break="no" n="10"/>tibus suis posuerunt <lb n="11"/>et sororis filio <lb n="12"/>Catamocus <expan><abbr>v</abbr><ex>ivus</ex></expan> sibi fecit
+            </ab></div>
+            <div type="commentary">
+                <p>Oberhalb des Inschriftfeldes Fries mit Jagdszene; darüber weibliche Büste, flankiert von zwei männlichen Büsten. Über dem Bildfeld ein Giebelfeld mit Gorgoneion und Delphinen. Zeilenlinien für die Beschriftung. (B): CIL 03, 06480. 10954: Z. 1: Petroni mit TR-Ligatur; Tóth: Z. 7: Locconis; Z. 9/10: parentibus; Z. 11/12: filio Catamocus.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>RIU 0370; Abb. LX; Abb. 370 (Zeichnung).</bibl><bibl>CIL 03, 06480. (B)</bibl><bibl>CIL 03, 10954. (B)</bibl><bibl>I. Tóth, ActaMusPap 5, 1995, 160-162. 167, Nr. 2; kép. 2, 1; kép. 2, 2 (Zeichnung). (B)</bibl><bibl>C. Ertel - S. Palágyi - F. Redő, Die Skulpturen des Stadtgebietes von Salla und Mogetiana sowie des Balaton-(Plattensee-)Oberlandes in den Komitaten Zala und Veszprém, CSIR Ungarn 8 (Budapest 1999) 76, Nr. 94; Taf. 17, 3.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

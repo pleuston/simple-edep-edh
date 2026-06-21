@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Scarbantia, bei &amp;ndash; Sopronkőhida (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD040497</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD040497</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Sopron, Széchenyi tér 11 (Berzsenyi-Gymnasium), vermauert</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>177</height><width>78</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">8-4.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197501">Scarbantia, bei</placeName></origPlace><origDate><origDate notBefore-custom="0051" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1863"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3049576">Sopronkőhida</placeName><placeName type="findspot">{Gefängnis} (ehemalige Zuckerfabrik)</placeName><placeName type="region">Győr-Moson-Sopron megye</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD040497_1" sex="M"><persName ref="http://romans1by1.com/rpeople/18546"><name type="praenomen">L.</name><name type="nomen">Sempronius</name><name type="cognomen">Catumarus</name></persName></person><person xml:id="HD040497_2" sex="M"><persName ref="http://romans1by1.com/rpeople/18547"><name type="nomen">Sempronius</name><name type="cognomen">Iustus</name></persName></person><person xml:id="HD040497_3" sex="W"><persName ref="http://romans1by1.com/rpeople/18548"><name type="nomen">Sempronia</name><name type="cognomen">Catta</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-10-12" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>L</abbr><ex>ucius</ex></expan> Semproni<lb break="no" n="2"/>us Catuma<lb break="no" n="3"/>rus <expan><abbr>an</abbr><ex>norum</ex></expan> L Sem<lb break="no" n="4"/>pronius Iustus <lb n="5"/><expan><abbr>an</abbr><ex>norum</ex></expan> XX <expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>iti</ex></expan> <expan><abbr>s</abbr><ex>unt</ex></expan> Sem<lb break="no" n="6"/>pronia Catta <expan><abbr>v</abbr><ex cert="low">iva</ex></expan> <lb n="7"/>sibi et coniugi <lb n="8"/>filio pos<expan><ex>u</ex><abbr>it</abbr></expan> his opto <lb n="9"/>terram levem
+            </ab></div>
+            <div type="commentary">
+                <p>Oberhalb des Inschriftfeldes Bildfeld mit Girlande; darüber Giebel mit einem Gorgoneion zwischen Delphinen. Inschriftfeld von Halbsäulen eingefasst.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 04263.</bibl><bibl>RIU 0228; Abb. 228 (Zeichnung).</bibl><bibl>Z. Farkas - D. Gabler, Die Skulpturen des Stadtgebietes von Scarbantia und der Limesstrecke Ad Flexum - Arrabona, CSIR Ungarn 2 (Budapest 1994) 33-34, Nr. 10;</bibl></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

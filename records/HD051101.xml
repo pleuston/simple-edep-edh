@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Abthugnos (Africa Proconsularis)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD051101</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD051101</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>58</height><width>245</width><depth>28</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.9-4.2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Africa Proconsularis</placeName><placeName type="ancient" ref="#">Abthugnos</placeName></origPlace><origDate><origDate notBefore-custom="0376" notAfter-custom="0377" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">376 AD - 377 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2464461">Tunisia</placeName><placeName type="modern"/><placeName type="findspot">Basilika, sekundär verwendet</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2008-09-01" who="Platz">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Forum quod per annorum seriem turpi<supplied reason="lost" cert="low">ter iacebat ita ut pars quae frontem</supplied> <lb n="2"/>moenium aspiciebat tantummodo remansisse<supplied reason="lost">t restitutum est<certainty locus="name" match="preceding-sibling::text()" cert="low"/> beatissimo saeculo</supplied> <lb n="3"/><expan><abbr>d<am>dd</am></abbr><ex>ominorum</ex></expan> <expan><abbr>n<am>nn</am></abbr><ex>ostrorum</ex></expan> Valentis Gratiani et Valentiniani invic<supplied reason="lost" cert="low">tissimorum semper Auggg(ustorum) et status eius</supplied> <lb n="4"/>absertus <note>sic</note> est ac melior proconsulatu Decimi Hesperi <expan><abbr>v</abbr><ex>iri</ex></expan> <expan><abbr>c</abbr><ex>larissimi</ex></expan> apu<supplied reason="lost" cert="low">d oculos omnium pro splendore patriae</supplied> <lb n="5"/>esse cognoscitur adiuncto quoque statuarum ornatu una cuc<supplied reason="lost">hlia</supplied><gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1995, 1655.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

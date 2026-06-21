@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Iliberri Florentia &amp;ndash; Granada (Baetica)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD030482</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD030482</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Granada, Mus. Alhambra</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">block</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>45</height><width>(217)</width><depth>35</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Baetica</placeName><placeName type="ancient" ref="#">Iliberri Florentia</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1600"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern" ref="http://www.geonames.org/2517117">Granada</placeName><placeName type="findspot">Alhambra, sekundär verwendet</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD030482_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">Perseus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2012-09-11" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost" cert="low">--- lib(ertus)</supplied> <expan><abbr>Ser</abbr><ex>gia</ex></expan> Perseus ob honorem VIviratus fori et basilicae in<lb break="no" n="2"/><supplied reason="lost">tercolumnia<certainty locus="name" match="preceding-sibling::text()" cert="low"/> cum ca</supplied>ncellis et trabaec<expan><ex>u</ex><abbr>lis</abbr></expan> <note>sic</note> et postibus pecunia sua exornata &amp;lt;d&amp;gt;edit
+            </ab></div>
+            <div type="commentary">
+                <p>In 2 Teile gebrochen. (B): CIL 02, 02083; CIL 02, 05507; Leseabweichungen; HEp 06; HEp 12; Canto de Gregorio: Z. 1/2: he/[micyclia.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1995, 0844b.</bibl><bibl>CIL 02, 02083. (B)</bibl><bibl>CIL 02, 05507. (B)</bibl><bibl>HEp 03, 1993, 0182.</bibl><bibl>CIL 02 (2. Aufl.) 05, 00633; Foto.</bibl><bibl>CILA 4, 0017.</bibl><bibl>HEp 06, 1996, 0585. (B)</bibl><bibl>HEp 12, 2002, 0278. (B)</bibl><bibl>A. Canto de Gregorio, in: J. Bermúdez López (Hrsg.), Arte islámico en Granada (Granada 1995) 349-350, Nr. 123; Foto. (B) - AE 1995.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

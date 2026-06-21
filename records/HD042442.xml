@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph? from Iuvavum, bei &amp;ndash; Bad Reichenhall (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD042442</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD042442</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>München, Prähist. Staatsslg.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(35)</height><width>(80)</width><depth>60</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.5-3.0</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/187432">Iuvavum, bei</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1937"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2873055">Bad Reichenhall</placeName><placeName type="findspot">{Marzoll}, römische Villa</placeName><placeName type="region">Bayern</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph?</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD042442_1" sex="M"><persName><name type="cognomen">Asclepiades*</name></persName></person><person xml:id="HD042442_2"><persName><name type="cognomen">Verone(---)?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-04-18" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>S</abbr><ex cert="low"/>A</expan><certainty match="preceding-sibling::node()" locus="value"/><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>S</abbr><ex cert="low"/>I</expan><certainty match="preceding-sibling::node()" locus="value"/><gap reason="lost" extent="unknown" unit="character"/>RA Piren<lb break="no" n="3"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>AEI</abbr><ex cert="low"/>A</expan><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>S</abbr><ex cert="low"/></expan> garrulae munus <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>A <expan><abbr>puer</abbr><ex cert="low">---</ex></expan> <abbr>Asclepiad</abbr> in pectore consens <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>A</abbr><ex cert="low"/></expan> dedit lapidem inscripsit <expan><abbr>Verone</abbr><ex cert="low">---</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Vier aneinanderpassende Fragmente erhalten. Material: sogenannter Untersberger Marmor. Von S(?)A(?) in Z. 1, von S(?)I(?) in Z. 2 und von I(?) und S(?) in Z. 3 nur der unterste Teil erhalten. Z. 5 (Anfang): möglicherweise auch M. (B): Obermayr; Thüry; ILLPRON; AE 1999: Lesung abweichend / unvollständig. Z. 2-5: Lesungs- und Ergänzungsvorschlag Thüry: Piren/[ae? --]aeia[---] garrulae munus / [cui] a puer(itia) Asclepiad(es) in pectore consens/[u]m dedit.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1999, 1213. (B)</bibl><bibl>ILLPRON 1534. (B)</bibl><bibl>F. Wagner, BRGK 37/38, 1956/57, 216, Nr. 2; Taf. 8, 2. - AE 1999.</bibl><bibl>A. Obermayr, Römersteine zwischen Inn und Salzach (Freilassing 1974) 88. (B)</bibl><bibl>W. Hameter, Die norischen Inschriften Bayerns (Diss. Wien 1992) 120-121, Nr. 88; Foto.</bibl><bibl>G.E. Thüry, in: E.A. Feldinger (Hrsg.), Archäologie beiderseits der Salzach.</bibl><bibl>Bodenfunde aus dem Flachgau und Rupertiwinkel (Salzburg 1996) 104-106. (B) - AE 1996.</bibl><bibl>G.E. Thüry, in: M. Hainzmann (Hrsg.), Votis XX solutis. Jubiläumsschrift der Archäologengesellschaft Steiermark (Graz 2000) 300. (B) - AE 1999.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

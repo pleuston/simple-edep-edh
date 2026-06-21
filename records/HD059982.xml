@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph? from Ansium, bei &amp;ndash; Obrovac (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD059982</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD059982</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Zadar, Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197119">Ansium, bei</placeName></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1909"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3197071">Obrovac</placeName><placeName type="findspot">Kruševo, {S. Jure, alte Kirche}, sekundär verwendet</placeName><placeName type="region">Zadarska županija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph?</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD059982_1" sex="M"><persName><name type="praenomen">A.</name><name type="nomen">Saufeius</name><name type="cognomen">Maximus*?</name></persName></person><person xml:id="HD059982_2" sex="M"><persName><name type="nomen">Firmius</name><name type="cognomen">Tertullus+</name></persName></person><person xml:id="HD059982_3" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]nus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-09-22" who="Gräf">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>A</abbr><ex>ulus</ex></expan> Saufeius <expan><abbr>P</abbr><ex>ubli</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> Ca<supplied reason="lost"><expan><abbr>m</abbr><ex>ilia</ex></expan></supplied> <lb n="2"/><expan><abbr>Max</abbr><ex cert="low">imus</ex></expan> Ansio miles c<supplied reason="lost"><expan><abbr>oh</abbr><ex>ortis</ex></expan></supplied> <lb n="3"/>VIIII <expan><abbr>pr</abbr><ex>aetoriae</ex></expan> <expan><abbr><am><g type="centuria"/></am></abbr><ex>centuria</ex></expan> Firmi Ter<supplied reason="lost">tulli</supplied> <lb n="4"/>militavit annis <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">bene</supplied><lb break="no" n="5"/>ficiarius t<supplied reason="lost"><expan><abbr>rib</abbr><ex>uni</ex></expan> tes</supplied><lb break="no" n="6"/>serarius co<supplied reason="lost"><expan><abbr>rnicular</abbr><ex>ius</ex></expan></supplied> <lb n="7"/>donis do<supplied reason="lost">natus ab</supplied> <lb n="8"/>Imperat<supplied reason="lost">ore</supplied><gap reason="lost" extent="unknown" unit="character"/><lb break="no" n="9"/>no Cae<supplied reason="lost">sare <expan><abbr>Aug</abbr><ex>usto</ex></expan> tor</supplied><lb break="no" n="10"/>quib<supplied reason="lost">us</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Inschriftengattung: möglicherweise auch Bau-/Stifterinschrift.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 02887.</bibl><bibl>ILS 9067.</bibl><bibl>K. Stauner, Das offizielle Schriftwesen des römischen Heeres von Augustus bis Gallienus (27 v. Chr. - 268 n. Chr.) (Bonn 2004) 356, Nr. 272.</bibl><bibl>ILJug s. n. 2861.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

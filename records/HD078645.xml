@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Rigomagus &amp;ndash; Remagen (Germania inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD078645</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD078645</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bonn, Rhein. Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>49</height><width>69</width><depth>10</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109281">Rigomagus</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1915"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2848335">Remagen</placeName><placeName type="findspot">{S. Peter und Paul, Kirche}, Pfarrgarten, Lager</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD078645_1" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Cassius</name><name type="cognomen">Verecundus</name></persName></person><person xml:id="HD078645_2"><persName><name type="nomen">Annia</name><name type="cognomen">Avita</name></persName></person><person xml:id="HD078645_3" sex="M"><persName><name type="nomen">Cassius</name><name type="cognomen">Verecundinus Firmus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-04-01" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F004092" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/594e9e9c-7021-4577-b833-91f78c59a533/file/id/764854/file_version/name/small"/><graphic xml:id="F018088" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/008d5d65-9e5f-4e73-be51-d3687c7951b1/file/id/778160/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>M</abbr><ex>arco</ex></expan> Cassio Verecu<lb break="no" n="2"/>ndo <expan><abbr>veter</abbr><ex>ano</ex></expan> ex <expan><abbr>coh</abbr><ex>orte</ex></expan> I His<lb break="no" n="3"/><expan><abbr>pano</abbr><ex>rum</ex></expan> sibi et Anniae <lb n="4"/>Avitae uxori et Cassio <lb n="5"/>Verecundino Firmo <lb n="6"/><expan><abbr>fil</abbr><ex>io</ex></expan> suo vivos <note>sic</note> fecit
+            </ab></div>
+            <div type="commentary">
+                <p>Drei aneinander passende Fragmente erhalten.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 11982; Zeichnung.</bibl><bibl>H. Lehner, Die antiken Steindenkmäler des Provinzialmuseums in Bonn (Bonn 1918) 267, Nr. 662; Zeichnung.</bibl><bibl>G. Alföldy, Die Hilfstruppen in der römischen Provinz Germania inferior, EpStud 6 (Düsseldorf 1968) 205-206, Nr. 131.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Carnuntum, bei &amp;ndash; Bruck/Leitha, bei (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD073494</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD073494</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mosonmagyaróvár, Hansági Múz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>176</height><width>121</width><depth>24</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6.0</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/128376">Carnuntum, bei</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1899"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2781373">Bruck/Leitha, bei</placeName><placeName type="findspot">{obere Heidwiesen}, spätantikes Gräberfeld, sekundär verwendet</placeName><placeName type="region">Burgenland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD073494_1" sex="W"><persName><name type="nomen">Iunia</name><name type="cognomen">Cocceia</name></persName></person><person xml:id="HD073494_2" sex="M"><persName><name type="cognomen">Gallus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-07-27" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Iunia Cocceia pue&amp;lt;r=LL&amp;gt;ae <expan><abbr>sanc</abbr><ex>tissimae</ex></expan> <lb n="2"/><expan><abbr>an</abbr><ex>norum</ex></expan> XX hic sita e<supplied reason="lost">s</supplied>t Gallus <expan><abbr>pat</abbr><ex>er</ex></expan> <lb n="3"/>filiae pientis<supplied reason="lost">s</supplied>imae sibi et <lb n="4"/>coniugi vivi <supplied reason="lost">p</supplied>os&amp;lt;u=I&amp;gt;erunt 
+            </ab></div>
+            <div type="commentary">
+                <p>Vertikaler Bruch durch die Mitte des Inschriftfeldes. Sekundär verwendet als Teil eines spätantiken Kistengrabes zusammen mit HD028216 und HD028219. Zeile 1: E in Cocceia mit zwei parallelen Vertikalhasten wiedergegeben (sog. &amp;apos;gallisches E&amp;apos;), AN-Ligatur; Zeile 3: oberer Bogen des B fehlt. (B): Krüger: kleinere Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 14359, 20.</bibl><bibl>W. Kubitschek, JŒAI (Beibl.) 3, 1900, col. 15; Zeichnung.</bibl><bibl>M.-L. Krüger, Die Reliefs des Stadtgebietes von Carnuntum 1. Die figürlichen Reliefs, CSIR Österreich 1, 3 (Wien 1970) 51, Nr. 308; Taf. 59, 308. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

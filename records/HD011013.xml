@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Ostippo &amp;ndash; Estepa (Baetica)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD011013</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD011013</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>(63)</height><width>(62)</width><depth>7</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6-5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Baetica</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/256347">Ostippo</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern" ref="http://www.geonames.org/2517820">Estepa</placeName><placeName type="findspot">Straße nach Gilena, bei</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD011013_1"><persName><name type="praenomen">L.</name><name type="nomen">Aelius</name><name type="cognomen">C[---]?</name></persName></person><person xml:id="HD011013_2"><persName><name type="praenomen">[-]</name><name type="nomen">Aelius+</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD011013_3"><persName><name type="nomen">Ennia</name><name type="cognomen">A[---]?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2004-07-12" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>L</abbr><ex>ucius</ex></expan> Aelius <expan><abbr>C</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/>fieri iussit s<supplied reason="lost">uo et <gap reason="lost" quantity="1" unit="character"/> Aelii <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="3"/>patris sui et Enniae <expan><abbr>A</abbr><ex cert="low"/></expan><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> nomine <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="4"/>summa ab herede <expan><abbr>DED</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/>consummandum R<gap reason="lost" extent="unknown" unit="character"/> <lb n="6"/>item ordo decrevit <expan><abbr>IM</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/> <lb n="7"/>usum <gap reason="lost" extent="unknown" unit="character"><certainty match=".." locus="name"/></gap>
+            </ab></div>
+            <div type="commentary">
+                <p>Z. 1 (Ende): statt C auch G, O oder Q möglich. Z. 3 (Ende): statt A auch M möglich. Z. 6 (Ende): statt M auch A möglich. (B): Blanco Freijeiro, AE 1974: Z. 1 (Ende): L(uci) [f(ilius) ---]; Z. 2 (Ende), Z. 4 (Ende), Z. 6 (Ende): Buchstabenrest am Ende der Zeile nicht gelesen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1974, 0383. (B)</bibl><bibl>CIL 02 (2. Aufl.) 05, 00963; Foto.</bibl><bibl>A. Blanco Freijeiro, Habis 5, 1974, 237-239; Taf. 37. (B) - AE 1974.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mile-/leaguestone from Oslip (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD065741</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD065741</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Eisenstadt, Landesmus. Burgenland</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">mile-/leaguestone</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(30)</height><width>58</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">9.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0161" notAfter-custom="0169" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">161 AD - 169 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1910"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2769396">Oslip</placeName><placeName type="findspot">{Wulka, Fluss, westlich}, römische villa</placeName><placeName type="region">Burgenland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>mile-/leaguestone</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD065741_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD065741_2" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-02-15" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> divi Traiani</supplied> <lb n="2"/><supplied reason="lost">P</supplied>ar<supplied reason="lost"><expan><abbr>th</abbr><ex>ici</ex></expan> <expan><abbr>pronep</abbr><ex>otes</ex></expan> d</supplied>ivi <supplied reason="lost">Ner</supplied>v<supplied reason="lost">ae</supplied> <lb n="3"/>ab<supplied reason="lost"><expan><abbr>nep</abbr><ex>otes</ex></expan> a</supplied> Sca<supplied reason="lost"><expan><abbr>r</abbr><ex>bantia</ex></expan></supplied> <expan><abbr>m</abbr><ex>ilia</ex></expan> <expan><abbr>p</abbr><ex>assuum</ex></expan> <gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Fundjahr nur ungefähr. Die erhaltenen Buchstaben waren durch Vermauerung bis 2005 nicht vollständig zu lesen. Lesung und Ergänzung nach neuem Vorschlag von E. Weber. (B): Kubitschek; Hild; Weber; JŒAI; Kaus; Holzner - Weber: [---] / ab K(arnunto).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2006, 1084.</bibl><bibl>W. Kubitschek, Römerfunde von Eisenstadt (Wien 1926) 72-74, Nr. 11; Abb. 48 (Zeichnung). (B) - AE 2006.</bibl><bibl>F. Hild, Supplementum epigraphicum zu CIL III. Das pannonische Niederösterreich, Burgenland und Wien 1902-1968 (Diss. Wien 1968) 3, Nr. 3. (B)</bibl><bibl>E. Weber, JŒAI 49, 1968-1971, 136-137, Nr. 14; Abb. 15. (B)</bibl><bibl>K. Kaus, Burgenland. Archäologie und Landeskunde (Eisenstadt 2006) 136; Abb. 7. (B) - AE 2006.</bibl><bibl>M. Holzner - E. Weber, Tyche 23, 2008, 198, Nr. 142. (B) - AE 2006.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

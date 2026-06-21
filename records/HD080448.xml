@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Tenedo &amp;ndash; Bad Zurzach (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD080448</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD080448</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Zurzach, Pfarrkirche, vermauert</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(42)</height><width>(68)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7.5-4.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/177639">Tenedo</placeName></origPlace><origDate><origDate notBefore-custom="0016" notAfter-custom="0045" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">16 AD - 45 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1517"><placeName type="country" ref="https://www.geonames.org/2658434">Switzerland</placeName><placeName type="modern" ref="http://www.geonames.org/2657891">Bad Zurzach</placeName><placeName type="findspot">{Kirche}, sekundär verwendet</placeName><placeName type="region">Kanton Aargau</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD080448_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">Certus</name></persName></person><person xml:id="HD080448_2" sex="M"><persName><name type="cognomen">[---]us+</name></persName></person><person xml:id="HD080448_3" sex="M"><persName><name type="cognomen">Amianthus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-09-08" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> <expan><abbr>Volt</abbr><ex>inia</ex></expan> Certo <lb n="2"/><supplied reason="lost" cert="low">domo</supplied> <expan><abbr>Vien</abbr><ex>na</ex></expan> <expan><abbr>veteran</abbr><ex>o</ex></expan> <lb n="3"/><supplied reason="lost">legionis</supplied> XIII Geminae <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> et Amianthus <lb n="5"/><supplied reason="lost"><expan><abbr>lib</abbr><ex cert="low">erti</ex></expan> et h</supplied>eredes <expan><abbr>fecer</abbr><ex>unt</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): CIL 13, 05239; Walser: Z. 4 (Anfang): [---]s et; Z. 5: heredes.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 05239. (B)</bibl><bibl>R. Frei-Stolba, SZG 31, 1981, 49-54; Abb.1.</bibl><bibl>G. Walser, Römische Inschriften in der Schweiz 2 (Bern 1980) 162-163, Nr. 189; Foto. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

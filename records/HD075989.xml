@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Noviomagus (Civitas Nemetum) &amp;ndash; Speyer (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD075989</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD075989</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Speyer, Dom, vermauert</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">stele?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(75)</height><width>(40)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109224">Noviomagus (Civitas Nemetum)</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1968"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2830582">Speyer</placeName><placeName type="findspot">{Dom, Krypta}, sekundär verwendet</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD075989_1" sex="M"><persName><name type="cognomen">[---]erus</name></persName></person><person xml:id="HD075989_2" sex="W"><persName><name type="cognomen">[---]cia</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-08-19" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>D</abbr><ex>is</ex></expan></supplied> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>ero <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>cia <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>OR <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>p</abbr><ex cert="low">onendum</ex></expan> <expan><abbr>c</abbr><ex cert="low">uravit</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Bruchstück mit der rechten oberen Ecke und dem rechten Rand des Inschriftfeldes mit dem profilierten Rahmen, oben, links und unten abgebrochen. Stele oder Das Fragment befindet sich in Sekundärverwendung als Bodenplatte im Südquerarm der Krypta unter der nördlichen Pfeilerarkade. Abgetreten. Z. 4/5 vielleicht ux]or / [eius] p(onendum) c(uravit)? Fundjahr: Während der Restaurierung 1957-1968. (B): Kubach: Z. 2: [---]RO; Z. 5: [---]R.C.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2011, 0826.</bibl><bibl>H.E. Kubach, in: H.E. Kubach (Hrsg.), Der Dom zu Speyer. Textband (München 1972) 1095, Nr. 11; Abb. 624; Taf. 53 (Zeichnung). (B)</bibl><bibl>S. Ditsch, Dis Manibus. Die römischen Grabdenkmäler aus der Pfalz (Neustadt/Weinstraße 2011) 187-188, Nr. Speyer 09; Taf. 58, 1. - AE 2011.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

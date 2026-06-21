@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Singidunum &amp;ndash; Beograd, Stari Grad (Moesia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD042605</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD042605</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Beograd, Stadtbücherei</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><dimensions unit="cm"><height>72</height><width>37</width><depth>37</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207443">Singidunum</placeName></origPlace><origDate><origDate when-custom="0229" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">229 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/6290252">Serbia</placeName><placeName type="modern" ref="http://www.geonames.org/865971">Beograd, Stari Grad</placeName><placeName type="findspot">{Ulica Knez-Miletina/ Ulica Gundulićev venac, Kreuzung}</placeName><placeName type="region">Centralna Srbija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD042605_1"><persName ref="http://romans1by1.com/rpeople/14097"><name type="nomen">Antonius</name><name type="cognomen">Gaius</name></persName></person><person xml:id="HD042605_2"><persName ref="https://www.wikidata.org/wiki/Q1769"><name type="cognomen">Severus+++? Alexander+++?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2008-09-17" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan> <lb n="2"/><expan><abbr>Anton</abbr><ex>ius</ex></expan> <lb n="3"/>Gaius <lb n="4"/>pro se <lb n="5"/>et suis <expan><abbr>poni</abbr><ex>t</ex></expan> <lb n="6"/><expan><abbr>Imp</abbr><ex>eratore</ex></expan> <lb n="7"/><del rend="erasure"><supplied reason="lost">Se</supplied>ve<supplied reason="lost">ro Alexa</supplied>n</del><lb break="no" n="8"/><del rend="erasure">[dro</del>]<certainty match="preceding-sibling::node()" locus="value"/> III <expan><abbr>co</abbr><ex>nsule</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Z. 6/7: Mirković: möglicherweise auch CAESAR(e) ANT/ONINO eradiert.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1997, 1301.</bibl><bibl>M. Mirković, Singidunum 1, 1997, 57-59, Nr. 1; sl. 2. - AE 1997.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Tellenae &amp;ndash; Roma (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD014071</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD014071</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Roma, Via Appia</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>90</height><width>(75)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="#">Tellenae</placeName></origPlace><origDate><origDate notBefore-custom="0231" notAfter-custom="0270" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">231 AD - 270 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma</placeName><placeName type="findspot">Casale S. Paolo, bei</placeName><placeName type="region">Lazio</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD014071_1" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Caesellius</name><name type="cognomen">Laelianus+?</name></persName></person><person xml:id="HD014071_2" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Aurelius Papirius+</name><name type="cognomen">Socrates</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2010-04-01" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F010928" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/7b97a54b-2516-4772-8204-13dc9d4607da/file/id/770448/file_version/name/small"/><graphic xml:id="F040218" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/62d2539d-d4e8-48d8-bef9-4586c86e4bed/file/id/801100/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>M</abbr><ex>arco</ex></expan> Caesellio <expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> La<supplied reason="lost" cert="low">eliano</supplied> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> curator<supplied reason="lost">i</supplied> rei <expan><abbr>p</abbr><ex>ublicae</ex></expan> <supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> sodali Augustali</supplied> <lb n="2"/>Claudiali allec<supplied reason="lost">to inter quaestorius <expan><abbr>VIvir</abbr><ex>o</ex></expan> turmis</supplied> <lb n="3"/>ducendis <expan><abbr>eq</abbr><ex>uitum</ex></expan> <expan><abbr>R</abbr><ex>omanorum</ex></expan> <supplied reason="lost"><expan><abbr>trib</abbr><ex>uno</ex></expan> <expan><abbr>mil</abbr><ex>itum</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> <gap reason="lost" extent="unknown" unit="character"/>? <expan><abbr>IIIIvir</abbr><ex>o</ex></expan></supplied> <lb n="4"/>viis curandis <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">utriusque</supplied> <lb n="5"/>linguae facu<supplied reason="lost">ndissimo in causis incomparabili</supplied> <lb n="6"/>filio piissimo e<supplied reason="lost">t</supplied><gap reason="lost" extent="unknown" unit="character"/> </ab></div><div n="3" type="textpart"><ab><lb n="1"/> <expan><abbr>M</abbr><ex>arcus</ex></expan> Aurelius <expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> Papi<supplied reason="lost">rius Socrates <expan><abbr>v</abbr><ex>ir</ex></expan> <expan><abbr>p</abbr><ex>erfectissimus</ex></expan> pater filio fecit</supplied> </ab></div><div n="4" type="textpart"><ab><lb n="1"/> Vixit <lb n="2"/>annis <lb n="3"/>XXVII <lb n="4"/><expan><abbr>mens</abbr><ex>ibus</ex></expan> <lb n="5"/>VII <lb n="6"/><expan><abbr>d</abbr><ex>iebus</ex></expan> VIII
+            </ab></div></div>
+            <div type="commentary">
+                <p>(B): de Rossi, AE 1967: abweichende Textwiedergabe und Ergänzungen. Die Inschrift ist folgendermaßen angeordnet: Kopfzeile - Mittelteil bestehend aus zwei Kolumnen (linke: nach dem dritten Doppelstrich, rechte: nach dem ersten Doppelstrich) - Fußzeile (nach dem zweiten Doppelstrich).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1967, 0056. (B)</bibl><bibl>CIL 06, 41218.</bibl><bibl>G.M. de Rossi, Tellenae, Forma Italiae, Regio I 4 (Roma 1967) 104-105, Nr. 2; fig. 234. (B) - AE 1967.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

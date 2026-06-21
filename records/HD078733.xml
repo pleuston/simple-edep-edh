@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Antunnacum &amp;ndash; Andernach (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD078733</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD078733</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Andernach, Stadtmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/260">slab</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>30</height><width>23</width><depth>12</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/108746">Antunnacum</placeName></origPlace><origDate><origDate notBefore-custom="0601" notAfter-custom="0700" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">601 AD - 700 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1900"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2956206">Andernach</placeName><placeName type="findspot">{S. Peter, spätantike Nekropole}</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD078733_1" sex="M"><persName><name type="cognomen">Adelbertus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-08-19" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F027193" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/11644d96-e915-44c3-9baf-f4704b61d955/file/id/787950/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost">H</supplied>i<supplied reason="lost">c</supplied> re&amp;lt;q=C&amp;gt;uie<supplied reason="lost">sc</supplied><lb break="no" n="2"/><supplied reason="lost">i</supplied>t in pace Adel<lb break="no" n="3"/>bertus carus <lb n="4"/>parentebus <note>sic</note> <lb n="5"/>vixit in s<expan><ex>a</ex><abbr>eco</abbr></expan><lb break="no" n="6"/>lo <note>sic</note> annus <note>sic</note> XXX <lb n="7"/>depos&amp;lt;it=EC&amp;gt;io e<lb break="no" n="8"/>ius quod fa<lb break="no" n="9"/>cit <expan><abbr>men</abbr><ex>sis</ex></expan> Ma<lb break="no" n="10"/><surplus>d</surplus>ius d<supplied reason="lost">i</supplied><lb break="no" n="11"/>es duod<lb break="no" n="12"/><expan><abbr>et</abbr><ex>riginta</ex></expan> 
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Egger; Lehner; Terrien: Z. 1: [H]i[c]; Lehne: Z. 8-12: ius -- / - anno / ------ / pervi? / -- / et.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>H. Lehner, BJ 105, 1900, 132, Nr. 5; Taf. 15, 5. (B)</bibl><bibl>R. Egger, BJ 154, 1954, 149, Nr. 6; Taf. 4, 2; Abb. 3 (Zeichnung). (B)</bibl><bibl>M.-P. Terrien, La christianisation de la région rhénane du IVe au milieu du VIIIe siècle. Corpus (Besançon 2007) 23. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

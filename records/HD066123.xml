@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Celeia, bei &amp;ndash; Zreče (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD066123</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD066123</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Zreče, Stranice, Pfarrhaus, vermauert</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">tabula?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>49</height><width>51</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197206">Celeia, bei</placeName></origPlace><origDate><origDate notBefore-custom="0051" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1839"><placeName type="country" ref="https://www.geonames.org/3190538">Slovenia</placeName><placeName type="modern" ref="http://www.geonames.org/3189776">Zreče</placeName><placeName type="findspot">{Stranice}</placeName><placeName type="region">Savinjska statistična regija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD066123_1" sex="M"><persName><name type="cognomen">Trogimarus</name></persName></person><person xml:id="HD066123_10" sex="M"><persName><name type="cognomen">Firmus</name></persName></person><person xml:id="HD066123_2" sex="M"><persName><name type="cognomen">Maenus</name></persName></person><person xml:id="HD066123_3" sex="M"><persName><name type="cognomen">Quadratus</name></persName></person><person xml:id="HD066123_4" sex="M"><persName><name type="cognomen">Trogimarus</name></persName></person><person xml:id="HD066123_5" sex="M"><persName><name type="cognomen">Secundinus</name></persName></person><person xml:id="HD066123_6" sex="M"><persName><name type="cognomen">Sabianus</name></persName></person><person xml:id="HD066123_7" sex="W"><persName><name type="cognomen">Trogimara</name></persName></person><person xml:id="HD066123_8" sex="W"><persName><name type="cognomen">Severa</name></persName></person><person xml:id="HD066123_9" sex="M"><persName><name type="cognomen">Quartus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-09-03" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Trogimarus <lb n="2"/>Maeni <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>an</abbr><ex>norum</ex></expan> LX <lb n="3"/>Quadratus Trogim<lb break="no" n="4"/>ari <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>an</abbr><ex>norum</ex></expan> LXX et Secu<lb break="no" n="5"/>ndinus <expan><abbr>an</abbr><ex>norum</ex></expan> XX <lb n="6"/>Sabianus Trogimara <expan><abbr>C</abbr><ex>ai</ex></expan> <lb n="7"/>Severa Quarti <gap reason="lost" extent="unknown" unit="character"/> <lb n="8"/>Firmus <gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 05287.</bibl><bibl>ILLPRON 1918.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

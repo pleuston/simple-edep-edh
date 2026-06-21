@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Ovilava &amp;ndash; Wels (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD066519</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD066519</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Wels, Stadtmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/147">tile</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/131">Ton</material><dimensions unit="cm"><height>(15)</height><width>(20)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118901">Ovilava</placeName></origPlace><origDate><origDate notBefore-custom="0401" notAfter-custom="0600" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">401 AD - 600 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1944"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2761524">Wels</placeName><placeName type="findspot">{Alois-Auer-Straße 8}</placeName><placeName type="region">Oberösterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD066519_1" sex="M"><persName><name type="cognomen">Sirus</name></persName></person><person xml:id="HD066519_2" sex="M"><persName><name type="cognomen">Severus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-06-06" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost">Depositi</supplied>o Siri et Severi <expan><abbr>nep</abbr><ex>otum</ex></expan> <lb n="2"/><supplied reason="lost"><expan><abbr>defunct</abbr><ex>orum</ex></expan></supplied> <expan><abbr>No</abbr><ex>nis</ex></expan> D&amp;lt;e=I&amp;gt;<expan><abbr>c</abbr><ex>embribus</ex></expan> <expan><abbr>n<am>n</am></abbr><ex>orum</ex></expan> XXXII <expan><abbr>me</abbr><ex>nsium</ex></expan> IV 
+            </ab></div>
+            <div type="commentary">
+                <p>Plattenziegel; Inschrift nach dem Brand eingeritzt. Z. 2 (Ende): Buchstabe V steht auf dem Kopf. (B): Miglbauer: Z. 2: defunct(orum); Dec(embribus).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>S. Zabehlicky-Scheffenegger, in: K. Holter - W. Rieß - S. Zabehlicky-Scheffenegger, Stadtmuseum Wels. Katalog. Vorgeschichte, Römerzeit, Frühgeschichte, JbWels 22 (Wels 1981) 105, Nr. R 440; Foto.</bibl><bibl>R. Miglbauer, in: Instrumenta inscripta Latina. Das römische Leben im Spiegel der Kleininschriften. Ausstellungskatalog (Pécs 1991) 128-129, Nr. 185; Foto. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

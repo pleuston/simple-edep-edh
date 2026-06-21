@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Neviodunum &amp;ndash; Krško (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD068055</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD068055</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Ljubljana, Nar. Muz. Slov.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">tabula?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(32)</height><width>(35)</width><depth>12</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.7-5.3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197408">Neviodunum</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1885"><placeName type="country" ref="https://www.geonames.org/3190538">Slovenia</placeName><placeName type="modern" ref="http://www.geonames.org/3203475">Krško</placeName><placeName type="findspot">{Brege}, bei, östliche Nekropole</placeName><placeName type="region">Posavska statistična regija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD068055_1" sex="M"><persName ref="http://romans1by1.com/rpeople/18832"><name type="nomen">Mogetius*?</name><name type="cognomen">Ma[---]nus</name></persName></person><person xml:id="HD068055_2" sex="W"><persName ref="http://romans1by1.com/rpeople/18833"><name type="nomen">[---]r(---)</name><name type="cognomen">Suadra+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-12-02" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F008739" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/e9b31b91-cb1c-443a-8c7e-b51a29d69506/file/id/768506/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <supplied reason="lost" cert="low">s(acrum)</supplied> <lb n="2"/><expan><abbr>Mog</abbr><ex cert="low">etius</ex></expan> Ma<gap reason="lost" extent="unknown" unit="character"/><lb break="no" n="3"/>nus <expan><abbr>v</abbr><ex>ivus</ex></expan> <expan><abbr>f</abbr><ex>ecit</ex></expan> <expan><abbr>s</abbr><ex>ibi</ex></expan> <supplied reason="lost">et</supplied><gap reason="lost" extent="unknown" unit="character"/><lb break="no" n="4"/><abbr>r</abbr> Suadr<supplied reason="lost">ae <expan><abbr>con</abbr><ex>iugi</ex></expan> c</supplied><lb break="no" n="5"/>arissi<supplied reason="lost">mae</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Fragment einer Tafel oder Stele.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 10813.</bibl><bibl>ILSl 1, 037; Foto.</bibl><bibl>M. Šašel Kos, The Roman inscriptions in the National Museum of Slovenia (Ljubljana 1997) 380-381, Nr. 134; Foto.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

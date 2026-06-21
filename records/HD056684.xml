@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Salonae &amp;ndash; Solin (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD056684</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD056684</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Salonae, Stadtmauer</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">block</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197488">Salonae</placeName></origPlace><origDate><origDate notBefore-custom="0169" notAfter-custom="0170" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">169 AD - 170 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1872"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3190359">Solin</placeName><placeName type="findspot">Stadtmauer, {Porta Andetria}, bei, sekundär verwendet</placeName><placeName type="region">Splitsko-dalmatinska županija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD056684_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1430"><name type="praenomen">M.</name><name type="nomen">Aurelius*</name><name type="cognomen">Antoninus</name></persName></person><person xml:id="HD056684_2" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Annaeus</name><name type="cognomen">Servilianus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-08-06" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>eratore</ex></expan> <expan><abbr>Caes</abbr><ex>are</ex></expan> <expan><abbr>M</abbr><ex>arco</ex></expan> Au<lb break="no" n="2"/><expan><abbr>rel</abbr><ex>io</ex></expan> Antonino <lb n="3"/><expan><abbr>Aug</abbr><ex>usto</ex></expan> <expan><abbr>pont</abbr><ex>ifice</ex></expan> <expan><abbr>max</abbr><ex>imo</ex></expan> <expan><abbr>tr</abbr><ex>ibunicia</ex></expan> <lb n="4"/><expan><abbr>pot</abbr><ex>estate</ex></expan> XXIIII co<expan><ex>n</ex><abbr>s</abbr><ex>ule</ex></expan> III <expan><abbr>p</abbr><ex>atre</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <lb n="5"/><expan><abbr>coh</abbr><ex>ors</ex></expan> II |(milliaria) <expan><abbr>Del</abbr><ex>matarum</ex></expan> <expan><abbr>ped</abbr><ex>es</ex></expan> DCCC <lb n="6"/>in his turris I sub cura <lb n="7"/><expan><abbr>L</abbr><ex>uci</ex></expan> Annaei Serviliani <expan><abbr>trib</abbr><ex>uni</ex></expan> <lb n="8"/>vice tertia
+            </ab></div>
+            <div type="commentary">
+                <p>Inschriftfeld in Form einer tabula ansata. Hederae in Z. 8. (B): Jeličić-Radonić: Z. 7: Annei.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 06374.</bibl><bibl>CIL 03, 08655.</bibl><bibl>ILS 2617.</bibl><bibl>J. Jeličić-Radonić, BAHD 100, 2007, 54; sl. 3b. (B)</bibl><bibl>H. Kähler, BAHD 51, 1930-1934, 45; Taf. 9, 1.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

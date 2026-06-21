@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Iuenna &amp;ndash; Globasnitz (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD056980</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD056980</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Globasnitz, Hemmaberg, S. Hemma und Dorothea, Kirche, vemauert</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">tabula?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(63)</height><width>(60)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197330">Iuenna</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2778467">Globasnitz</placeName><placeName type="findspot">Hemmaberg, {S. Hemma und Dorothea, Kirche}, sekundär verwendet</placeName><placeName type="region">Kärnten</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD056980_1" sex="M"><persName><name type="nomen">Secundinius+</name><name type="cognomen">Secundus+</name></persName></person><person xml:id="HD056980_2" sex="W"><persName><name type="cognomen">Materna+</name></persName></person><person xml:id="HD056980_3" sex="M"><persName><name type="cognomen">Vibenus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-02-18" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <gap reason="lost" extent="unknown" unit="character"/>C<certainty match="preceding-sibling::node()" locus="value"/><gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><supplied reason="lost">S</supplied>ecundiniu<supplied reason="lost">s</supplied> <lb n="3"/><supplied reason="lost">S</supplied>ecundus ae<supplied reason="lost"><expan><abbr>d</abbr><ex>ilis</ex></expan> C</supplied><expan><abbr>el</abbr><ex>eiae</ex></expan> sibi et Matern<supplied reason="lost">ae</supplied> <lb n="4"/><supplied reason="lost">Vi</supplied>beni <expan><abbr>f</abbr><ex>iliae</ex></expan> <expan><abbr>con</abbr><ex>iugi</ex></expan> <expan><abbr>a</abbr><ex>nnorum</ex></expan> <gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): CIL: Z. 2: [S]ecundinu[s]; Z. 5: ---]CENI. Z. 1: statt C auch O möglich.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILLPRON 0158.</bibl><bibl>CIL 03, 05079. (B)</bibl><bibl>R. Wedenig, Epigraphische Quellen zur städtischen Administration in Noricum (Klagenfurt 1997) 109, Nr. C 1.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

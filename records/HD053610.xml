@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>List from Augusta Vindelicorum &amp;ndash; Augsburg (Raetia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD053610</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD053610</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Augsburg, Röm. Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor, weiß</material><dimensions unit="cm"><height>(12)</height><width>(14)</width><depth>2</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Raetia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118580">Augusta Vindelicorum</placeName></origPlace><origDate><origDate notBefore-custom="0171" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1979"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2954172">Augsburg</placeName><placeName type="findspot">{Fuchswinkel 3}</placeName><placeName type="region">Bayern</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/108">list</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD053610_1" sex="M"><persName><name type="praenomen">T.?</name><name type="nomen">Flavius*?</name><name type="cognomen">C[---]?</name></persName></person><person xml:id="HD053610_2" sex="M"><persName><name type="praenomen">T.</name><name type="nomen">Flavius*</name><name type="cognomen">Oc[---]</name></persName></person><person xml:id="HD053610_3" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Sen[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD053610_4" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Do[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD053610_5"><persName><name type="praenomen">[-]</name><name type="nomen">Do[---]</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-08-03" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F035425" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/54b104af-0c4f-4d57-a039-62c60fdf5463/file/id/796274/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><expan><abbr>T</abbr><ex cert="low"/></expan> <expan><abbr>Fl</abbr><ex>avius</ex></expan><certainty match="preceding-sibling::node()" locus="value"/> <expan><abbr>C</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/>strat<supplied reason="lost">or<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="3"/><expan><abbr>T</abbr><ex>itus</ex></expan> <expan><abbr>Fl</abbr><ex>avius</ex></expan> Oc<gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/><expan><abbr>C</abbr><ex>aius</ex></expan> Sen<gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/><expan><abbr>C</abbr><ex>aius</ex></expan> Do<gap reason="lost" extent="unknown" unit="character"/> <lb n="6"/><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied> Do<gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Fragment einer Marmortafel, oben, unten und rechts abgebrochen. In Z. 1 sind noch die unteren Ansätz dreier Vertikalhasten zu erkennen, die dritte mit unterer Querhaste, dahinter der untere Bogen eines C oder G. Z. 2: statt strat[or? auch strat[ores? denkbar. Z. 1, 3-5: oder jeweils anderer Kasus. (B): AE 1992: Z. 1: […]C[---]; Z. 6: nicht wiedergegeben; Bosch et al.: Z. 1: T(itus) Fl(avius) O[---]</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1992, 1305. (B)</bibl><bibl>G. Bosch - J. Heiligman - L. Weber, ZHistSchwab 74, 1980, 43-46; Abb. 14. (B) - AE 1992</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

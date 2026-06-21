@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph? from Andematunnum (Civitas Lingonum) &amp;ndash; Langres (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD081849</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD081849</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Langres, Mus. Art Hist. (Mus. Guy-Baillet)</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">grave monument?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(16)</height><width>(68)</width><depth>42</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">9-6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/177441">Andematunnum (Civitas Lingonum)</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1846"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/3007680">Langres</placeName><placeName type="findspot">{Stadtmauer, östlicher Teil}, S. Simeon und S. Jude, Kapelle, bei, sekundär verwendet</placeName><placeName type="region">Grand Est</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph?</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD081849_1" sex="W"><persName><name type="cognomen">Magunia</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-03-20" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F040363" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/56b8a924-a350-414f-9318-bd40d7b5f31b/file/id/801245/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>N</abbr><ex cert="low"/></expan> Magunia<supplied reason="lost">e</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>I ex tes<supplied reason="lost">ta</supplied><lb break="no" n="3"/><supplied reason="lost">me</supplied>nto II<gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>VIT <expan><abbr>I</abbr><ex cert="low"/></expan><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied>M<gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Zwei aneinanderpassende Bruchstücke, Block von einem größeren Grabmonument? Grabmonuments. Die Maßangabe bezieht sich auf Fragment a), Maße Fragment b): H. 20, B. 68, T. 42. (B): CIL 13, 05803: Z. 3: [me]nto G[---]; Z. 4: [cura]vit I[-]M[---; Le Bohec: Z. 1: N nicht gelesen; Z. Z. 2: I nicht gelesen; Z. 3: N nicht gelesen; Z. 4: I, M nicht gelesen; Joly; Z. 2: I nicht gelesen; Z. 3: [me]nto G[---]; Z. 4: I nicht gelesen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 05803. (B)</bibl><bibl>M. Joly, Langres, Carte archéologique de la Gaule 52, 2 (Paris 2001) 112. (B)</bibl><bibl>Y. Le Bohec, Inscriptions de la cité des Lingons (Paris 2003) 278, Nr. 493; Abb. 236. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

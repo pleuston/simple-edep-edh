@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription from Divio (Civitas Lingonum) &amp;ndash; Dijon (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD081381</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD081381</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Dijon, Mus. Arch.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/35">architectural member</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(66)</height><width>(48)</width><depth>55</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">12-11</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/177489">Divio (Civitas Lingonum)</placeName></origPlace><origDate><origDate notBefore-custom="0051" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1809"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/3021372">Dijon</placeName><placeName type="findspot">{Rue Charrue 11-15} - {Rue Amiral Roussin 23}, zwischen, spätantike Stadtmauer, Turm Nr. 20, sekundär verwendet</placeName><placeName type="region">Bourgogne-Franche-Comté</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/143" xml:lang="en">unknown</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-01-25" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F031567" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/cdee1f9f-02b8-41ba-97dc-07fa2b0b3fb7/file/id/792330/file_version/name/small"/><graphic xml:id="F031566" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/a5282b4c-2169-4872-ac4b-85fd4a8971ca/file/id/792329/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/>LLI <gap reason="lost" extent="unknown" unit="character"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>VS <gap reason="lost" extent="unknown" unit="character"/><certainty match="preceding-sibling::node()" locus="value"/> </ab></div><div n="2" type="textpart"><ab><lb n="0"/> <gap reason="lost" quantity="1" unit="line"/>IO N<gap reason="lost" extent="unknown" unit="character"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><certainty match="preceding-sibling::node()" locus="value"/> NV<gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Bruchstück eines Architravs, oben und an den Seiten zur Sekundärverwendung in der Stadtmauer abgearbeitet. Die Inschrift verteilt sich auf Vorder- und Rückseite. Text 1, Z. 2 ist links noch der Abschluss einer aufsteigenden Schräghaste an der Bruchkannte deutlich zu erkennen. (B): CIL 13, 05582; Le Bohec; Provost - Périchon: Text 1, Z. 2: V nicht gelesen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 05582. (B)</bibl><bibl>Y. Le Bohec, Inscriptions de la cité des Lingons (Paris 2003) 121, Nr. 181; Abb. 82. (B)</bibl><bibl>M. Provost - D. Périchon, in: M. Provost u. a. (Hrsg.), La Côte-d'Or d'Allerey à Normier, Carte archéologique de la Gaule 21, 2 (Paris 2009) 284. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Gardellaca &amp;ndash; Tokod (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD038306</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD038306</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Tokod, Bürgermeisteramt</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(161)</height><width>(73)</width><depth>23</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7.1-5.1</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197283">Gardellaca</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3043865">Tokod</placeName><placeName type="findspot">{spätantikes Lager}, Tor, sekundär verwendet</placeName><placeName type="region">Komárom-Esztergom megye</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD038306_1" sex="W"><persName><name type="nomen">[---]lnia*</name><name type="cognomen">Prima*</name></persName></person><person xml:id="HD038306_2" sex="M"><persName><name type="praenomen">T.</name><name type="nomen">Aelius*</name><name type="cognomen">[--]rmata</name></persName></person><person xml:id="HD038306_3" sex="M"><persName><name type="praenomen">T.</name><name type="nomen">Aelius+*</name><name type="cognomen">Dexter+</name></persName></person><person xml:id="HD038306_4" sex="M"><persName><name type="praenomen">T.</name><name type="nomen">Aelius*</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD038306_5" sex="W"><persName><name type="cognomen">Zilluta*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-11-02" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F004429" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/6d102daf-6e5c-4402-ac86-7d7416825efd/file/id/765191/file_version/name/small"/><graphic xml:id="F012709" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/d8110882-4506-42a1-bc4a-92850a01def4/file/id/772234/file_version/name/small"/><graphic xml:id="F033578" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/a3840279-5f68-41c2-a004-3e481b958692/file/id/794385/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <gap reason="lost" extent="unknown" unit="character"/>lni<expan><ex>a</ex><abbr>e</abbr></expan> Prim<expan><ex>a</ex><abbr>e</abbr></expan> <lb n="2"/><supplied reason="lost">vi</supplied>xsit <note>sic</note> <expan><abbr>an</abbr><ex>nos</ex></expan> XXXX <lb n="3"/><supplied reason="lost">co</supplied>niugi pien<lb break="no" n="4"/><expan><abbr><supplied reason="lost">tis</supplied>sim</abbr><ex>a</ex>e</expan> <surplus>E</surplus> <expan><abbr>T</abbr><ex>itus</ex></expan> <expan><abbr>Ae</abbr><ex>lius</ex></expan> <lb n="5"/><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied>rmata <expan><abbr>ve</abbr><ex cert="low">teranus</ex></expan> et <lb n="6"/><supplied reason="lost">si</supplied>bi <expan><abbr>vi</abbr><ex>vus</ex></expan> <expan><abbr>fe</abbr><ex>cit</ex></expan> et <expan><abbr>T</abbr><ex>ito</ex></expan> <lb n="7"/><supplied reason="lost"><expan><abbr>Ae</abbr><ex>lio</ex></expan> D</supplied>extro et <expan><abbr>T</abbr><ex>ito</ex></expan> <expan><abbr>Ae</abbr><ex>lio</ex></expan> <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/>ti <expan><abbr>v</abbr><ex>ivo</ex></expan> et Zillut<expan><ex>a</ex><abbr>e</abbr></expan> <supplied reason="lost">n</supplied>utrici <expan><abbr>f</abbr><ex>ecit</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Unterhalb des Inschriftfeldes Teil einer eingeritzten Darstellung erhalten: zwei Männer, zwei Frauen und zwei Kinder.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>RIU 0766; Abb. 766 (Foto u. Zeichnung).</bibl><bibl>J. Mander, Portraits of children on Roman funerary monuments (Cambridge 2013) 291, Nr. 624.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Poetovio &amp;ndash; Ptuj (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD055407</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD055407</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197446">Poetovio</placeName></origPlace><origDate><origDate notBefore-custom="0141" notAfter-custom="0146" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">141 AD - 146 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1857"><placeName type="country" ref="https://www.geonames.org/3190538">Slovenia</placeName><placeName type="modern" ref="http://www.geonames.org/3192241">Ptuj</placeName><placeName type="findspot">{Vičava}</placeName><placeName type="region">Podravska statistična regija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD055407_1" sex="M"><persName ref="http://romans1by1.com/rpeople/16608"><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD055407_2" sex="M"><persName><name type="nomen">Iulius</name><name type="cognomen">Bassus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-06-06" who="Gräf">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>b</abbr><ex>ene</ex><abbr>f</abbr><ex>iciarius</ex></expan></supplied> <lb n="2"/>Iulii Bas<supplied reason="lost">si</supplied> <lb n="3"/>co<expan><ex>n</ex><abbr>s</abbr><ex>ularis</ex></expan> <lb n="4"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): CIL 03, 04048: Z. 1: Sas[---]; AE 1991: [B]as[si]; Fitz: Z. 1/2: Zeilenfall nicht angegeben. Datierung: möglicher Zeitraum einer oberpannonischen Statthalterschaft des Caius Iulius Bassus; es könnte sich aber auch um einen bisher unbekannten Senator handeln.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1991, 1297. (B)</bibl><bibl>CIL 03, 04048. (B)</bibl><bibl>J. Fitz, Alba Regia 24, 1990, 165. (B) - AE 1991.</bibl><bibl>PIR (2. Aufl.) I 206.</bibl><bibl>J. Fitz, Die Verwaltung Pannoniens in der Römerzeit (Budapest 1993) 479-480, Nr. 285.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

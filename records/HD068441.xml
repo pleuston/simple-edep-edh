@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Neviodunum, bei &amp;ndash; Sevnica (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD068441</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD068441</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Novo Mesto, Dolenjski Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(40)</height><width>(55)</width><depth>15</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6-3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197408">Neviodunum, bei</placeName></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0270" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 270 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1953"><placeName type="country" ref="https://www.geonames.org/3190538">Slovenia</placeName><placeName type="modern" ref="http://www.geonames.org/8988440">Sevnica</placeName><placeName type="findspot">Kaplja Vas, Šenčurski hrib, Berg, {S. Jurij, Kirche}, bei, sekundär verwendet</placeName><placeName type="region">Posavska statistična regija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD068441_1" sex="M"><persName><name type="praenomen">[-]?</name><name type="nomen">0?</name><name type="cognomen">Vettonianus*</name></persName></person><person xml:id="HD068441_2" sex="M"><persName><name type="cognomen">Silvanus+?</name></persName></person><person xml:id="HD068441_3" sex="M"><persName ref="http://romans1by1.com/rpeople/18864"><name type="praenomen">C.</name><name type="nomen">Mullonius</name><name type="cognomen">Verus+</name></persName></person><person xml:id="HD068441_4" sex="M"><persName ref="http://romans1by1.com/rpeople/18865"><name type="praenomen">[-]</name><name type="nomen">Mullonius</name><name type="cognomen">Secundianus*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-12-02" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F012720" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/6d6b2c5b-1ede-426e-940a-ccbe60882efc/file/id/772245/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><expan><abbr>Vettonian</abbr><ex>o</ex></expan> et Silvan<supplied reason="lost" cert="low">o? co(n)s(ulibus)</supplied> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>C</abbr><ex>aius</ex></expan> Mullonius Ve<lb break="no" n="2"/><supplied reason="lost">r</supplied>us <expan><abbr>vet</abbr><ex>eranus</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> X <expan><abbr>g</abbr><ex>eminae</ex></expan> <expan><abbr>f</abbr><ex>ecit</ex></expan> <expan><abbr>s</abbr><ex>ibi</ex></expan> <expan><abbr>s</abbr><ex>uisque</ex></expan> vi<expan><ex>v</ex><abbr>us</abbr></expan> <lb n="3"/><supplied reason="lost">ad n</supplied>omen suum subiecit <lb n="4"/><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied> Mulloni <del rend="erasure">et</del> <expan><abbr>Secundian</abbr><ex>i</ex></expan> <lb n="5"/><supplied reason="lost"><expan><abbr>f</abbr><ex>ili</ex></expan> s</supplied>ui @(obiti) <expan><abbr>eq</abbr><ex>uitis</ex></expan> <expan><abbr>praet</abbr><ex>oriani</ex></expan> <expan><abbr>stip</abbr><ex>endiorum</ex></expan> VIII <lb n="6"/><expan><abbr>an</abbr><ex>norum</ex></expan> XXV
+            </ab></div></div>
+            <div type="commentary">
+                <p>Z. 1 stammt von einer älteren Inschrift; Buchstaben LVAN unsicher; nach ILSl möglicherweise die Namen der beiden Suffektkonsuln T. Pomponius Antistianus Funisulanus Vettonianus und L. Pomponius Silvanus (121 n. Chr.): PIR (2. Aufl.) P 696 und PIR (2. Aufl.) P 759. Datierung: bezieht sich auf die jüngere Inschrift (Z. 2-7). (B): ILJug: Z. 1 fehlt.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILJug 0332. (B)</bibl><bibl>ILSl 1, 065; Foto.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

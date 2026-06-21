@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Boundary inscription from Senia, bei &amp;ndash; Senj (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD034587</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD034587</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Senj, Gradski Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/85">cippus</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>100</height><width>40</width><depth>35</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197505">Senia, bei</placeName></origPlace><origDate><origDate notBefore-custom="0014" notAfter-custom="0050" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">14 AD - 50 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1962"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3199010">Senj</placeName><placeName type="findspot">{Jablanac}, bei, sekundär verwendet</placeName><placeName type="region">Ličko-senjska županija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/96">boundary inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD034587_1" sex="M"><persName ref="http://data.snapdrgn.net/person/1043"><name type="praenomen">P.</name><name type="nomen">Cornelius+</name><name type="cognomen">Dolabella*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-09-20" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Ex dec<supplied reason="lost"><expan><abbr>r</abbr><ex>eto</ex></expan></supplied> <lb n="2"/><expan><abbr>P</abbr><ex>ubli</ex></expan> Cornel<supplied reason="lost">i</supplied> <lb n="3"/>Do<del rend="erasure">l</del>label<expan><ex>l</ex><abbr>ae</abbr></expan> <lb n="4"/><expan><abbr>leg</abbr><ex>ati</ex></expan> <expan><abbr>pr</abbr><ex>o</ex></expan> <expan><abbr>pr</abbr><ex>aetore</ex></expan> A<supplied reason="lost"><expan><abbr>ug</abbr><ex>usti</ex></expan></supplied> <lb n="0"/>[<gap reason="lost" quantity="1" unit="line"/>] <lb n="5"/><expan><abbr>int</abbr><ex>er</ex></expan> Begos et Ortopli<supplied reason="lost"><expan><abbr>n</abbr><ex>os</ex></expan></supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Unregelmäßiger und nur grob bearbeiteter Block. Z. 3: Das erste L offenbar nachträglich eradiert.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILJug 0919.</bibl><bibl>J.J. Wilkes, AArchSlov 25, 1974, 258, Nr. 1; Taf. 1, 1.</bibl><bibl>D. Rendić-Miočevič, VjesAMuzZagreb 3, 1968, 63-73; t. 2 u. 3.</bibl><bibl>PIR (2. Aufl.) C 1348.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Augusta Vindelicorum &amp;ndash; Augsburg (Raetia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD058663</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD058663</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Augsburg, Röm. Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(60)</height><width>(60)</width><depth>(60)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Raetia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118580">Augusta Vindelicorum</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0170" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 170 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1874"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2954172">Augsburg</placeName><placeName type="findspot">{Kohlergasse / Alte Gasse, Kreuzung}</placeName><placeName type="region">Bayern</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD058663_1" sex="M"><persName><name type="nomen">Praecilius+?</name><name type="cognomen">Iulianus+?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-09-01" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F035513" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/759ababc-a290-4c51-8dcb-44e34b883af7/file/id/796362/file_version/name/small"/><graphic xml:id="F035514" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/d0a5a8de-c7ba-44e7-b64f-2941b19799cd/file/id/796363/file_version/name/small"/><graphic xml:id="F035515" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/1626ac6c-2b6d-4de0-9af9-52ad6c947c6d/file/id/796364/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Deo sancto Mar<lb break="no" n="2"/><supplied reason="lost">ti</supplied> et Victoriae temp<lb break="no" n="3"/><supplied reason="lost">l</supplied>um vetustate conla<supplied reason="lost">p</supplied><lb break="no" n="4"/><supplied reason="lost">su</supplied>m <expan><abbr>r</abbr><ex>es</ex></expan> <expan><abbr>p</abbr><ex>ublica</ex></expan> <expan><abbr>civit</abbr><ex>atis</ex></expan> Aeli<supplied reason="lost">ae <expan><abbr>Aug</abbr><ex>ustae</ex></expan></supplied> <lb n="5"/><supplied reason="lost">res</supplied>tituit Praec<supplied reason="lost" cert="low">ilio</supplied> <lb n="6"/><supplied reason="lost" cert="low">Iul</supplied>ia<supplied reason="lost" cert="low">no? curam? agente</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Fragment vom rechten oberen Teil eines Altars mit Teilen der Bekrönung. (B): CIL 03, 11889; IBR: Abweichungen in Lesung/Ergänzung.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IBR 173; tab. 23, 173. (B)</bibl><bibl>CIL 03, 11889. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

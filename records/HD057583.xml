@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from S. Georgen/Längsee (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD057583</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD057583</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>S. Georgen/Längsee, Stift, Jakobskapelle</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">altar?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor, weiß</material><dimensions unit="cm"><height>(114)</height><width>(69)</width><depth>(50)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">13.5-6.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1870"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/6692405">S. Georgen/Längsee</placeName><placeName type="findspot">{Stift}, Jakobskapelle, sekundär verwendet</placeName><placeName type="region">Kärnten</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD057583_1" sex="M"><persName><name type="praenomen">T.</name><name type="nomen">Clufennius</name><name type="cognomen">Demetrius</name></persName></person><person xml:id="HD057583_2" sex="W"><persName><name type="nomen">Masculinia</name><name type="cognomen">Verina</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-01-22" who="Krenn">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>T</abbr><ex>itus</ex></expan> <lb n="2"/>Clufennius <lb n="3"/>Demetrius <lb n="4"/><expan><abbr>viv</abbr><ex>us</ex></expan> <expan><abbr>fec</abbr><ex>it</ex></expan> sibi <lb n="5"/>et <lb n="6"/>Masculiniae <lb n="7"/>Verinae uxor<supplied reason="lost">i</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Maße beziehen sich nur auf den durch die Vermauerung heute noch sichtbaren Teil. Auf der linken Nebenseite Akanthusblattkelch mit Weinranke. Nach Kremer Schaftblock eines altar- oder pfeilerfömigen Grabbaus. Hederae in Z. 5. (B): CIL 03, 04897: Z. 2: Clufenniu[s]; Z. 6: Masculinia[e]; CIL 03, 11512; ILLPRON; Kremer; Piccottini: Z. 7: uxori.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILLPRON 0432. (B)</bibl><bibl>CIL 03, 04897. (B)</bibl><bibl>CIL 03, 11512. (B)</bibl><bibl>G. Kremer, Antike Grabbauten in Noricum (Wien 2001) 264, Nr. II 346. (B)</bibl><bibl>G. Piccottini, Grabstelen, Reiter- und Soldatendarstellungen sowie dekorative Reliefs des Stadtgebiets von Virunum und Nachträge zu CSIR-Österreich II/1-4, CSIR Österreich 2, 5 (Wien 1994) 37, Nr. 450; Taf. 17, 450.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

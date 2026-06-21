@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Greifenburg (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD056581</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD056581</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Greifenburg, S. Veit, Friedhofskirche, vermauert</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">tabula?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(58)</height><width>60</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0031" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">31 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2778048">Greifenburg</placeName><placeName type="findspot">{S. Veit, Friedhofskirche}, sekundär verwendet</placeName><placeName type="region">Kärnten</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD056581_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Antestius</name><name type="cognomen">Ambudsuilus</name></persName></person><person xml:id="HD056581_2" sex="M"><persName><name type="cognomen">Atestas</name></persName></person><person xml:id="HD056581_3" sex="M"><persName><name type="cognomen">Bricco</name></persName></person><person xml:id="HD056581_4" sex="W"><persName><name type="cognomen">Devva</name></persName></person><person xml:id="HD056581_5" sex="M"><persName><name type="cognomen">Atiougo</name></persName></person><person xml:id="HD056581_6" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Antestius*</name><name type="cognomen">Lutumarus</name></persName></person><person xml:id="HD056581_7" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Antestius*</name><name type="cognomen">Vogitoutus</name></persName></person><person xml:id="HD056581_8" sex="W"><persName><name type="nomen">Antestia</name><name type="cognomen">Banona</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-05-23" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>C</abbr><ex>aius</ex></expan> Antestius <lb n="2"/>Ambudsuilus <lb n="3"/><expan><abbr>aedil</abbr><ex>is</ex></expan> <expan><abbr><supplied reason="lost">T</supplied>eurn</abbr><ex>iae</ex></expan> <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>S <lb n="0"/><gap reason="lost" quantity="1" unit="line"/> <lb n="5"/><expan><abbr>v</abbr><ex>ivus</ex></expan> <expan><abbr>f</abbr><ex>ecit</ex></expan> <expan><abbr>s</abbr><ex>ibi</ex></expan> et <expan><abbr>s</abbr><ex>uis</ex></expan> et <lb n="6"/>Atestati Bricconis <expan><abbr>f</abbr><ex>ilio</ex></expan> patri <lb n="7"/>Devvae <expan><abbr>Atiougon</abbr><ex>is</ex></expan> <expan><abbr>f</abbr><ex>iliae</ex></expan> matri <lb n="8"/><expan><abbr>C</abbr><ex>aius</ex></expan> <expan><abbr>Antest</abbr><ex>ius</ex></expan> <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> Lutumarus <lb n="9"/><expan><abbr>M</abbr><ex>arcus</ex></expan> <expan><abbr>Antest</abbr><ex>ius</ex></expan> <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> Vogitoutus <lb n="10"/>Antestia <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>f</abbr><ex>ilia</ex></expan> Banona
+            </ab></div>
+            <div type="commentary">
+                <p>Zwei nicht aneinanderpassende Fragmente. Oberes Fragment (a): Oberfläche teilweise stark verschliffen; Z. 3 auf den Fotos außer dem Anfangsbuchstaben nicht zu erkennen. (B): CIL III 4724; Alföldy; Leber; ILLPRON: Lesung abweichend / unvollständig.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILLPRON 0117. (B)</bibl><bibl>CIL 03, 04724. (B)</bibl><bibl>G. Alföldy, in: EpStud 8 (Düsseldorf 1969) 28-29, Nr. 39. (B)</bibl><bibl>P.S. Leber, Die in Kärnten seit 1902 gefundenen römischen Steininschriften (Klagenfurt 1972) 165, Nr. 308a. (B)</bibl><bibl>R. Wedenig, Epigraphische Quellen zur städtischen Administration in Noricum (Klagenfurt 1997) 234-235, Nr. T 2; Taf. 5, T 2.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

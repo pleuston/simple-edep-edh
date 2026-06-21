@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Celeia &amp;ndash; Celje (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD067147</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD067147</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Celje, Glavni trg 11, vermauert</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197206">Celeia</placeName></origPlace><origDate><origDate notBefore-custom="0171" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3190538">Slovenia</placeName><placeName type="modern" ref="http://www.geonames.org/3202781">Celje</placeName><placeName type="findspot">{Glavni trg}</placeName><placeName type="region">Savinjska statistična regija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD067147_1" sex="M"><persName><name type="cognomen">Marcellinus*</name></persName></person><person xml:id="HD067147_2" sex="M"><persName><name type="cognomen">Avitus</name></persName></person><person xml:id="HD067147_3" sex="W"><persName><name type="nomen">Aurelia</name><name type="cognomen">Bassina*</name></persName></person><person xml:id="HD067147_4" sex="W"><persName><name type="nomen">Aurelia*</name><name type="cognomen">Pothentina</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-10-19" who="Cowey">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Marcellinu</abbr><ex>s</ex></expan> Aviti <expan><abbr>v</abbr><ex>ivus</ex></expan> <expan><abbr>f</abbr><ex>ecit</ex></expan> <lb n="2"/>sibi et suis <expan><abbr>Aur</abbr><ex>eliae</ex></expan> Bassin<expan><ex>a</ex><abbr>e</abbr></expan> <lb n="3"/><expan><abbr>con</abbr><ex>iugi</ex></expan> <expan><abbr>kar</abbr><ex>issimae!</ex></expan> <expan><abbr>o</abbr><ex>bitae</ex></expan> <expan><abbr>an</abbr><ex>norum</ex></expan> LXXX <expan><abbr>Aur</abbr><ex>eliae</ex></expan> Pothe<lb break="no" n="4"/>ntin<expan><ex>a</ex><abbr>e</abbr></expan> <expan><abbr>fil</abbr><ex>iae</ex></expan> <expan><abbr>kar</abbr><ex>issimae!</ex></expan> <expan><abbr>o</abbr><ex>bitae</ex></expan> <expan><abbr>an</abbr><ex>norum</ex></expan> XXX
+            </ab></div>
+            <div type="commentary">
+                <p>Famlienbild mit Ehepaar und Tochter.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 05256.</bibl><bibl>AIJ 053; Foto.</bibl><bibl>ILLPRON 1596.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

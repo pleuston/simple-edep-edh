@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Carnuntum, bei &amp;ndash; Sommerein? (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD013941</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD013941</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Hainburg/Donau, Kulturfabrik, Arch. Zentraldepot</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(101)</height><width>76</width><depth>28</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6.3-7.0</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/128376">Carnuntum, bei</placeName></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2764937">Sommerein?</placeName><placeName type="findspot"/><placeName type="region">Niederösterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD013941_1"><persName><name type="cognomen">[---]terina?</name></persName></person><person xml:id="HD013941_2" sex="M"><persName><name type="cognomen">Nertomarus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-07-08" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F018985" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/074bfadf-368e-46cd-97ec-010d2a10e9bb/file/id/779057/file_version/name/small"/><graphic xml:id="F018986" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/8deff0e3-1b90-4fa3-9e05-1d3dcc3af865/file/id/779058/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>terina</abbr><ex cert="low"/></expan> Ner<lb break="no" n="2"/>tomari <expan><abbr>fi</abbr><ex cert="low">lius</ex></expan> <expan><abbr>posu</abbr><ex>it</ex></expan> <lb n="3"/>co<expan><ex>n</ex><abbr>iugi</abbr></expan> su<expan><ex>a</ex><abbr>e</abbr></expan> <expan><abbr>car</abbr><ex cert="low">issimae</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Unterer Teil einer Stele mit den letzten drei Zeilen des Inschriftfeldes. Die Oberfläche ist stark beschädigt und die Inschrift nur noch schwer lesbar. In Zeile 1 links zu Beginn noch Reste nicht identifizierbarer Buchstaben, links neben der Vertikalhaste des T(?) unterer Teil eines Rundbuchstabens? Daneben noch unterer Teil einer Schräghaste von links oben nach rechts unten, R, A, M, N? [---]terina ist entweder der Name des Dedikanten mit keltischer Maskulinendung -a, der Name der Verstorbenen Ehefrau - dementsprechend fi(lius, -ilia) - oder die Dedikantin selber, dann sue für suo, car(issimo).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1978, 0598.</bibl><bibl>E. Weber, RŒ 5/6, 1977/78, 249-250, Nr. 1; Taf. 24, 1. - AE 1978.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

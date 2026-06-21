@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Augusta Treverorum &amp;ndash; Trier (Belgica)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD076686</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD076686</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Trier, Rhein. Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor, weiß</material><dimensions unit="cm"><height>36</height><width>37</width><depth>3</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">1.7</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Belgica</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/108894">Augusta Treverorum</placeName></origPlace><origDate><origDate notBefore-custom="0701" notAfter-custom="0800" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">701 AD - 800 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1917"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2821164">Trier</placeName><placeName type="findspot">{S. Maximin, Kirche, bei}</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD076686_1" sex="W"><persName><name type="cognomen">Agrecia</name></persName></person><person xml:id="HD076686_2" sex="M"><persName><name type="cognomen">Parrontius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-06-29" who="Cowey">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Recessit die octavo Id<lb break="no" n="2"/>us Maias die Solis puella A<lb break="no" n="3"/>grecia annorum quindeci<lb break="no" n="4"/>m et frater ipsius s<surplus>a</surplus>e<lb break="no" n="5"/>nior post tertio I&amp;lt;d=LI&amp;gt;<lb break="no" n="6"/>us Maias nomine <lb n="7"/>Parrontius vixit <lb n="8"/>annos XX et dies XX 
+            </ab></div>
+            <div type="commentary">
+                <p>Zwischen Z. 4 und Z. 5 der Inschrift Darstellung eines Christograms mit Alpha und Omega in einem Kreis mit flankiereden Tauben und Ölzweigen. (B): Z. 2-3: A/srecia statt Agrecia.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>H. Finke, BRGK 17, 1927, 17; Nr. 52. (B)</bibl><bibl>E. Gose, Katalog der frühchristlichen Inschriften in Trier (Berlin 1958) 52, Nr. 410; Foto. (B)</bibl><bibl>RICG 01, 097; Foto.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

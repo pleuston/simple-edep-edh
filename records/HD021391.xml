@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Roma &amp;ndash; Roma (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD021391</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD021391</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Roma, Mus. Naz. Alto Medio Evo</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>(20)</height><width>(83)</width><depth>5</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4-4.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma</placeName></origPlace><origDate><origDate notBefore-custom="0251" notAfter-custom="0350" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">251 AD - 350 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma</placeName><placeName type="findspot">Piazza di S. Pietro in Vincoli</placeName><placeName type="region">Lazio</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD021391_1"><persName><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD021391_2" sex="M"><persName><name type="nomen">[---]</name><name type="cognomen">[---]scus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-12-23" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F011097" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/6c9b6bf9-1928-4dc9-b207-61e6a90c7971/file/id/770620/file_version/name/small"/><graphic xml:id="F040522" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/f8be370d-4252-4dc4-afae-0be80f931ddb/file/id/801404/file_version/name/small"/><graphic xml:id="F040523" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/9a068dc8-17f1-432b-84a0-1d1ea57bd71e/file/id/801405/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>scus &amp;lt;e=I&amp;gt;x p<expan><ex>rae</ex><abbr>p</abbr><ex>osito</ex></expan> vir ducenarius coniugi<gap reason="lost" extent="unknown" unit="character"/> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> De donis D<expan><ex>e</ex><abbr>i</abbr></expan> et s<expan><ex>an</ex><abbr>c</abbr><ex>t</ex><abbr>i</abbr></expan> Petri 
+            </ab></div></div>
+            <div type="commentary">
+                <p>Der Stein wurde sekundär für die christliche Inschrift AE 1951, 196b = CIL VI 41430B verwendet; Angaben beziehen sich auf die frühere Inschrift AE 1951, 196a = CIL VI 41430A; Buchstabenhöhe der späteren Inschrift: 3 cm; ihre Datierung: 6. Jh. oder später. (B): Felletti Maj, AE 1951, 196a: Z. 1: coniug[i].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1951, 0196a. (B)</bibl><bibl>AE 1951, 0196b.</bibl><bibl>CIL 06, 41430; Foto.</bibl><bibl>B.M. Felletti Maj, NSA 73, 1948, 317. (B) - AE 1951.</bibl><bibl>PLRE 1 ...scus.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Antunnacum &amp;ndash; Andernach (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD078725</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD078725</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Andernach, Stadtmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/260">slab</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(16)</height><width>(10)</width><depth>4</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/108746">Antunnacum</placeName></origPlace><origDate><origDate notBefore-custom="0501" notAfter-custom="0700" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">501 AD - 700 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1954"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2956206">Andernach</placeName><placeName type="findspot"/><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD078725_1" sex="W"><persName><name type="cognomen">Garisindis</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-02-17" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F027190" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/52becf88-6cb2-45c6-bbaf-014203b991d6/file/id/787947/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Hic requi<lb break="no" n="2"/>iscit <note>sic</note> in pa<lb break="no" n="3"/>ce Garisin<lb break="no" n="4"/>dis vix<surplus>s</surplus>it <lb n="5"/>in s<expan><ex>a</ex><abbr>ecolo</abbr></expan> <note>sic</note> <lb n="6"/>an<expan><ex>n</ex><abbr>us</abbr></expan> <note>sic</note> II qua<lb break="no" n="7"/>rto &amp;lt;K=C&amp;gt;ale<lb break="no" n="8"/>ndas &amp;lt;Ia=GE&amp;gt;<expan><abbr>n</abbr><ex>uarias</ex></expan> <lb n="9"/>kara <expan><abbr>s</abbr><ex>uis</ex></expan> 
+            </ab></div>
+            <div type="commentary">
+                <p>Die Platte wurde sekundär aus einem früheren Monument gearbeitet. (B): Terrien: fehlender Zeilenfall Z. 8/9.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>R. Egger, BJ 154, 1954, 146-147, Nr. 1; Taf. 11, 2.</bibl><bibl>M.-P. Terrien, La christianisation de la région rhénane du IVe au milieu du VIIIe siècle. Corpus (Besançon 2007) 27. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

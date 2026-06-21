@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from (Civitas Iovia?) &amp;ndash; Alsóhetény, bei (Pannonia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD073515</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD073515</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Budapest, Magyar Nemzeti Múz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(127)</height><width>68</width><depth>(15)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.5-2.4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197327">(Civitas Iovia?)</placeName></origPlace><origDate><origDate notBefore-custom="0231" notAfter-custom="0270" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">231 AD - 270 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3056177">Alsóhetény, bei</placeName><placeName type="findspot">Alsóheténypuszta, römisches Lager, sekundär verwendet</placeName><placeName type="region">Tolna megye</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD073515_1" sex="M"><persName><name type="nomen">Claudius</name><name type="cognomen">Proculinus+</name></persName></person><person xml:id="HD073515_2" sex="W"><persName><name type="cognomen">Laurinia+*</name></persName></person><person xml:id="HD073515_3" sex="M"><persName><name type="cognomen">Secundinus+</name></persName></person><person xml:id="HD073515_4" sex="W"><persName><name type="nomen">Claudia*</name><name type="cognomen">Proculina+</name></persName></person><person xml:id="HD073515_5" sex="M"><persName><name type="nomen">Claudius*</name><name type="cognomen">Ursio</name></persName></person><person xml:id="HD073515_6" sex="M"><persName><name type="nomen">Claudius*</name><name type="cognomen">Ursus</name></persName></person><person xml:id="HD073515_7" sex="M"><persName><name type="nomen">Claudius*</name><name type="cognomen">Ursinianus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-07-07" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <supplied reason="lost"><expan><abbr>M</abbr><ex>anibus</ex></expan></supplied> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Claudio Pro<supplied reason="lost">culino cen</supplied><lb break="no" n="2"/>turioni <expan><abbr>leg</abbr><ex>ionis</ex></expan> <supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/>? adiutricis</supplied> <lb n="3"/>et L<surplus>l</surplus><expan><abbr>aurin</abbr><ex>a</ex></expan><supplied reason="lost">e <expan><abbr>co</abbr><ex>n</ex>iugi</expan> <expan><abbr>qu</abbr><ex>a</ex>e</expan> vixit a</supplied><lb break="no" n="4"/>nnis XLV <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">et</supplied> <lb n="5"/>Secund<supplied reason="lost">ino filio qui vixit ann</supplied><lb break="no" n="6"/>os XXV <expan><abbr>Cl</abbr><ex>audia</ex></expan> Proculi<supplied reason="lost">na</supplied> filia qu<expan><ex>a</ex><abbr>e</abbr></expan> vix<lb break="no" n="7"/>it annis XV <expan><abbr>Cl</abbr><ex>audii</ex></expan> Ursio et Ursus et <lb n="8"/>Ursinianus ex praecepto pa<lb break="no" n="9"/>troni posuerunt inpendi<expan><ex>i</ex><abbr>s</abbr></expan> <note>sic</note> <lb n="10"/>libertorum sit <lb n="11"/>tibi terra levis
+            </ab></div></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2009, 1096.</bibl><bibl>Z. Mráv, in: E. Tóth (Hrsg.), Studia Valeriana. Az alsóhetényi és ságvári keső római erődök kutatásának eredményei (Dombóvár 2009) 255-257, Nr. 7; 6. kép.; 7. kép. (Foto u. Zeichnung). - AE 2009.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

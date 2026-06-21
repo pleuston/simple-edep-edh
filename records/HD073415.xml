@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Carnuntum &amp;ndash; Hainburg/Donau (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD073415</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD073415</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">stele?</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/128376">Carnuntum</placeName></origPlace><origDate><origDate notBefore-custom="0039" notAfter-custom="0063" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">39 AD - 63 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1830"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2776988">Hainburg/Donau</placeName><placeName type="findspot">{Tabakfabrik}, sekundär verwendet</placeName><placeName type="region">Niederösterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD073415_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD073415_2" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Tenatius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-02-10" who="Osnabrügge">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>mil</abbr><ex>es</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> XV</supplied> <lb n="2"/><expan><abbr>Apol</abbr><ex>linaris</ex></expan> <expan><abbr>tub</abbr><ex cert="low">icen</ex></expan> a<supplied reason="lost"><expan><abbr>nn</abbr><ex>orum</ex></expan></supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/><expan><abbr>stip</abbr><ex>endiorum</ex></expan> XVII <lb n="4"/><expan><abbr>M</abbr><ex>arcus</ex></expan> Tenatius <expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>Pub</abbr><ex>lilia</ex></expan> <lb n="5"/>heres de suo <lb n="6"/>fecit
+            </ab></div>
+            <div type="commentary">
+                <p>Fragment, untere Hälfte des Inschriftfeldes. Lesung nach der Zeichnung von Kubitschek bei Mosser. Lesung Z. 2 unsicher. (B): Z. 2: CIL 03, 04482: APOL [---] A [---]; Vorbeck: m(iles) leg(ionis) XV] Apol(linaris) tub(icen) a(nnorum); Zeile 5/6: Vorbeck: kein Zeilenfall angegeben.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 04482. (B)</bibl><bibl>CIL 03, 04482 add. p. 1770.</bibl><bibl>CIL 03, 04482 add. p. 2328, 32.</bibl><bibl>E. Vorbeck, Militärinschriften aus Carnuntum (2. Aufl., Wien 1980) 60-61, Nr. 152. (B)</bibl><bibl>M. Mosser, Die Steindenkmäler der legio XV Apollinaris (Wien 2003) 257, Nr. 179; Taf. 26, 179 (Zeichnung).</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

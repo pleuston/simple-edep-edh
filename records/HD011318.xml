@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mile-/leaguestone from Nikšić (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD011318</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD011318</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Nikšić, Zav. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">mile-/leaguestone</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(100)</height><width>34</width><depth>28</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.5-3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate when-custom="0236" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">236 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1953"><placeName type="country" ref="https://www.geonames.org/3194884">Montenegro</placeName><placeName type="modern" ref="http://www.geonames.org/3196885">Nikšić</placeName><placeName type="findspot">{Kuside}, östlich, römische Straße, bei</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>mile-/leaguestone</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD011318_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Iulius*</name><name type="cognomen">Verus+ Maximinus+</name></persName></person><person xml:id="HD011318_2" sex="M"><persName ref="https://www.wikidata.org/wiki/Q518890"><name type="praenomen">C.</name><name type="nomen">Iulius*</name><name type="cognomen">Verus+ Maximus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-09-25" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>erator</ex></expan> <expan><abbr>Caes</abbr><ex>ar</ex></expan> <lb n="2"/><expan><abbr>C</abbr><ex>aius</ex></expan> <expan><abbr>Iul</abbr><ex>ius</ex></expan> Ve<supplied reason="lost">rus Ma</supplied><lb break="no" n="3"/>ximinus <supplied reason="lost"><expan><abbr>P</abbr><ex>ius</ex></expan> Fe</supplied><lb break="no" n="4"/>lix po<supplied reason="lost"><expan><abbr>nt</abbr><ex>ifex</ex></expan> maxi</supplied><lb break="no" n="5"/>mus <expan><abbr>tr</abbr><ex>ibunicia</ex></expan> <supplied reason="lost"><expan><abbr>pot</abbr><ex>estate</ex></expan></supplied> <lb n="6"/>II <expan><abbr>imp</abbr><ex>erator</ex></expan> III <supplied reason="lost"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan></supplied> <lb n="7"/><expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> et <expan><abbr>C</abbr><ex>aius</ex></expan> <expan><abbr>Iul</abbr><ex>ius</ex></expan> <supplied reason="lost">Verus</supplied> <lb n="8"/>Maximus <supplied reason="lost">nobi</supplied><lb break="no" n="9"/>lissimus <supplied reason="lost">Caesar</supplied> <lb n="10"/>A I<gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Meilenstein mit ovalem Grundriss. (B): Sergejevski; ILJug; AE 1973: Lesung abweichend / unvollständig.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1973, 0415. (B)</bibl><bibl>ILJug 1012. (B)</bibl><bibl>D. Sergejevski, GlasSarajevo 17, 1962, 90; t. 14, 1. (B) - AE 1973.</bibl><bibl>CIL 17, 04, 00529; Foto.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

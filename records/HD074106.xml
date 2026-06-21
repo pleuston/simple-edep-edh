@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Vindobona, bei &amp;ndash; Vösendorf (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD074106</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD074106</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Wien, Kunsthist. Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>178</height><width>58</width><depth>18</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7-4.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/128537">Vindobona, bei</placeName></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1600"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2762150">Vösendorf</placeName><placeName type="findspot">{S. Simon und Judas Thaddäus, Kirche}</placeName><placeName type="region">Niederösterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD074106_1" sex="M"><persName><name type="cognomen">Cateius</name></persName></person><person xml:id="HD074106_2" sex="M"><persName><name type="cognomen">Scalus</name></persName></person><person xml:id="HD074106_3" sex="M"><persName><name type="cognomen">Verecundus</name></persName></person><person xml:id="HD074106_4" sex="W"><persName><name type="nomen">Apia</name><name type="cognomen">Cuma</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-11-30" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Cateius <lb n="2"/>Scali <expan><abbr>f</abbr><ex>ilius</ex></expan> et <lb n="3"/>Verecund<lb break="no" n="4"/>us Catei <expan><abbr>f</abbr><ex>ilius</ex></expan> <lb n="5"/><expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>iti</ex></expan> <expan><abbr>s</abbr><ex>unt</ex></expan> <lb n="6"/>Apia Cuma <lb n="7"/>patri suo et <lb n="8"/>fratri <expan><abbr>posui</abbr><ex>t</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Oberhalb des Inschriftfeldes zwei männliche Büsten.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 04582.</bibl><bibl>A. Neumann, Die Skulpturen des Stadtgebietes von Vindobona, CSIR Österreich 1, 1 (Wien 1967) 29, Nr. 38; Taf. 38.</bibl><bibl>C. Farka u. a., in: Vindobona - die Römer im Wiener Raum. 52. Sonderausstellung des Historischen Museums der Stadt Wien, Karlsplatz (Wien 1977) 203, Nr. S 107.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

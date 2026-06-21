@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Roma &amp;ndash; Roma (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD030406</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD030406</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma</placeName></origPlace><origDate><origDate notBefore-custom="0048" notAfter-custom="0054" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">48 AD - 54 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma</placeName><placeName type="findspot">Marcellus-Theater</placeName><placeName type="region">Lazio</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD030406_1" sex="M"><persName><name type="praenomen">T.+</name><name type="nomen">Mussidius+</name><name type="cognomen">Pollianus+</name></persName></person><person xml:id="HD030406_2" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1411"><name type="praenomen">Ti.+</name><name type="nomen">Claudius+ Caesar+</name><name type="cognomen">Augustus+*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-04-26" who="Feraudi">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>T</abbr><ex>itus</ex></expan> Mussi</supplied>dius <expan><abbr>T</abbr><ex>iti</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> Ar<supplied reason="lost"><expan><abbr>n</abbr><ex>ensis</ex></expan></supplied> <lb n="2"/><supplied reason="lost">Pollianus <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan></supplied> proco<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> pro<supplied reason="lost"><expan><abbr>vinc</abbr><ex>iae</ex></expan></supplied> <lb n="3"/><supplied reason="lost">Galliae Narbo</supplied>nensis <supplied reason="lost">praefectus</supplied> <lb n="4"/><supplied reason="lost">frumenti dandi ex <expan><abbr>s</abbr><ex>enatus</ex></expan> <expan><abbr>c</abbr><ex>onsulto</ex></expan></supplied> <lb n="5"/><expan><abbr>cur</abbr><ex>ator</ex></expan> viar<supplied reason="lost">um <expan><abbr>pr</abbr><ex>aetor</ex></expan> <expan><abbr>tr</abbr><ex>ibunus</ex></expan> <expan><abbr>pl</abbr><ex>ebis</ex></expan> <expan><abbr>q</abbr><ex>uaestor</ex></expan> Xvir <expan><abbr>stl</abbr><ex>itibus</ex></expan> <expan><abbr>iud</abbr><ex>icandis</ex></expan></supplied> <lb n="6"/>adlectus <supplied reason="lost">a <expan><abbr>Ti</abbr><ex>berio</ex></expan> Claudio Caesare <expan><abbr>Aug</abbr><ex>usto</ex></expan></supplied> <lb n="7"/>Germanic<supplied reason="lost" cert="low">o inter patricios ---</supplied> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Zwei nicht aneinanderpassende Fragmente bekannt.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 06, 41072.</bibl><bibl>CIL 06, 01558.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription from Thebes &amp;ndash; Luxor (Aegyptus)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD030411</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD030411</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Aegyptus</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/786017">Thebes</placeName></origPlace><origDate><origDate notBefore-custom="0122" notAfter-custom="0123" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">122 AD - 123 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/357994">Egypt</placeName><placeName type="modern">Luxor</placeName><placeName type="findspot"/></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/143" xml:lang="en">unknown</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD030411_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1427"><name type="cognomen">Traianus Hadrianus / Τραιανὸς Ἁδριανός</name></persName></person><person xml:id="HD030411_2" sex="M"><persName><name type="nomen">Sulpicius* / Σουλπίκιος</name><name type="cognomen">Serenus / Σερηνός</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-12-21" who="Cowey">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Pro salute <expan><abbr>Imp</abbr><ex>eratoris</ex></expan> Caesaris <lb n="2"/>Traiani Hadriani <expan><abbr>Aug</abbr><ex>usti</ex></expan> <lb n="3"/>domini <expan><abbr>n</abbr><ex>ostri</ex></expan> <expan><abbr>Sulpic</abbr><ex>ius</ex></expan> Serenus <lb n="4"/>ara<supplied reason="lost">m co</supplied>nsti<supplied reason="lost">tuit</supplied><gap reason="lost" extent="unknown" unit="character"/>I<gap reason="lost" extent="unknown" unit="character"/>I qui biduo <lb n="5"/>secutus Agriophagos nequ<lb break="no" n="6"/>issimos quorum fere pars mai<lb break="no" n="7"/>or in pugna perit neque vulnera <lb n="8"/><supplied reason="lost">n</supplied>eque C<supplied reason="lost" cert="low">--</supplied>R<gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">acce</supplied><expan><abbr>pit</abbr><ex cert="low"/></expan> praedam<lb break="no" n="9"/>que totam cum camelis apstulit <note>sic</note> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> ὑπὲρ σωτηρίας Αὐτοκράτορος Καίσαρος <lb n="2"/>Τραιανοῦ Ἁδριανοῦ Σεβαστοῦ τοῦ κυρίου <lb n="3"/>Σουλπίκιος υἱὸς Γναίου Κουιρίνα <lb n="4"/>Σερηνὸς Ἀγριοφάγους δει<supplied reason="lost">νοτά</supplied><lb break="no" n="5"/><supplied reason="lost">τους νικήσας τὸν βωμόν</supplied>
+            </ab></div></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1905, 0131.</bibl><bibl>AE 1902, 0162.</bibl><bibl>AE 1906, p. 8 s. n. 26.</bibl><bibl>AE 1906, p. 40 s. n. 133.</bibl><bibl>IGR 1, 1207.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Carthago Nova &amp;ndash; Cartagena (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD037803</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD037803</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Cartagena, Mus. Arq. Mun.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>28</height><width>(50)</width><depth>26</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6-3.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Hispania citerior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/265849">Carthago Nova</placeName></origPlace><origDate><origDate notBefore-custom="-0030" notAfter-custom="-0001" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">30 BC - 1 BC</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern" ref="http://www.geonames.org/2520058">Cartagena</placeName><placeName type="findspot">monte de la Concepción</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD037803_1" sex="W"><persName><name type="nomen">Septumia</name><name type="cognomen">Scutia+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-04-14" who="Garcia">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F012346" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/4699ebe3-30bb-4705-9023-e1d9823d5ef7/file/id/771869/file_version/name/small"/><graphic xml:id="F012508" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/d1d451fd-a3d3-4c34-8b5d-16ae830a914a/file/id/772031/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Septumia <lb n="2"/><expan><abbr><am><g type="mulieris"/></am></abbr><ex>mulieris</ex></expan> <expan><abbr>l</abbr><ex>iberta</ex></expan> Scuti<supplied reason="lost">a</supplied> <lb n="3"/>heic sitas vi<supplied reason="lost">va</supplied> <lb n="4"/>plaquit salv<supplied reason="lost">e</supplied> <lb n="5"/>et vale
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>J.M. Abascal Palazón - S.F. Ramallo Asensio, La ciudad de Carthago Nova: La documentación epigráfica (Murcia 1997) 403-405, Nr. 174; lám. 155.</bibl><bibl>CIL 01 (2. Aufl.) 02, 03449i.</bibl><bibl>HAE 0121.</bibl><bibl>ILER 6478.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

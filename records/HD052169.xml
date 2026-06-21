@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Mogontiacum &amp;ndash; Mainz (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD052169</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD052169</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mainz, Römerpassage 1</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/35">architectural member</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(38)</height><width>(91)</width><depth>17</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109169">Mogontiacum</placeName></origPlace><origDate><origDate notBefore-custom="0069" notAfter-custom="0079" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">69 AD - 79 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1999"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2874225">Mainz</placeName><placeName type="findspot">{Heiligtum der Isis und der Magna Mater}</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD052169_1" sex="M"><persName><name type="cognomen">Primigenius+</name></persName></person><person xml:id="HD052169_2" sex="M"><persName><name type="cognomen">[---]</name></persName></person><person xml:id="HD052169_3" sex="M"><persName><name type="cognomen">Vespasianus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2018-02-07" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F020312" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/c576f373-0c55-4420-8f3e-635586f3e1a2/file/id/780385/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost">Primi</supplied>genius <del rend="erasure">[<gap reason="lost" extent="unknown" unit="character"/></del>] <lb n="2"/><supplied reason="lost"><expan><abbr>Imp</abbr><ex>eratoris</ex></expan> Ve</supplied>spasiani <expan><abbr>Aug</abbr><ex>usti</ex></expan> <lb n="3"/><supplied reason="lost">procur</supplied>atoris a<supplied reason="lost">r</supplied>carius <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">Matri</supplied> Deum ex im<supplied reason="lost">p</supplied>erio <lb n="5"/><supplied reason="lost">eius</supplied> posuit
+            </ab></div>
+            <div type="commentary">
+                <p>Mehrere aneinanderpassende Fragmente wohl eines Decksteins einer Mauer mit halbtonnenförmigem oberen Abschluss. Inschriftfeld in Form einer tabula ansata. Fundjahr: 1999-2001. Lesung und Ergänzung nach G. Alföldy - G. Rupprecht.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2004, 1014.</bibl><bibl>M. Witteyer, Das Heiligtum für Isis und Mater Magna. Texte und Bilder (Mainz 2005) 15, Nr. 1; Foto. - AE 2004.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

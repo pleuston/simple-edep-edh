@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>List? from Samothracia, insula &amp;ndash; Samothráki, Insel (Thracia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD068247</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD068247</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Thracia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/501597">Samothracia, insula</placeName></origPlace><origDate><origDate notBefore-custom="-0200" notAfter-custom="-0051" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">200 BC - 51 BC</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/390903">Greece</placeName><placeName type="modern" ref="http://www.geonames.org/734358">Samothráki, Insel</placeName><placeName type="findspot"/><placeName type="region">Anatolikí Makedonía, Thráki</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/108">list?</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD068247_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Luccius</name></persName></person><person xml:id="HD068247_2" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Luccius</name></persName></person><person xml:id="HD068247_3" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Mispius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-10-14" who="Gräf">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/> <lb n="1"/><expan><abbr>C</abbr><ex>aius</ex></expan> <expan><abbr>L</abbr><ex>ucius</ex></expan> Lucci <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>f</abbr><ex>ilii</ex></expan> <expan><abbr>eq</abbr><ex>uites</ex></expan> <lb n="2"/><expan><abbr>C</abbr><ex>aius</ex></expan> Mispius <expan><abbr>muste</abbr><ex>s</ex></expan> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/>
+            </ab></div>
+            <div type="commentary">
+                <p>CIL 03, 00714; CIL 01 (2. Aufl.) 02, 00664: Z. 1 (Ende): möglicherweise &amp;lt;L=E&amp;gt;(ucius) Q[uinctus].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 00714.</bibl><bibl>CIL 01 (2. Aufl.) 02, 00664.</bibl><bibl>IG 12, 08, p. 39.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Barcino &amp;ndash; Barcelona (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD057044</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD057044</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Barcelona, Mus. d'Arq. Catalunya</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">block</objectType><dimensions unit="cm"><height>43</height><width>76</width><depth>34</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6.1-3.8</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Hispania citerior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/246343">Barcino</placeName></origPlace><origDate><origDate notBefore-custom="-0030" notAfter-custom="0030" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">30 BC - 30 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern" ref="http://www.geonames.org/3128760">Barcelona</placeName><placeName type="findspot">Calle Avinyó - calle de la Baixada de S. Miquel, Ecke, Stadtmauer</placeName><placeName type="region">Cataluña</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD057044_1" sex="W"><persName><name type="nomen">Quintia</name><name type="cognomen">Privata</name></persName></person><person xml:id="HD057044_2" sex="M"><persName><name type="praenomen">Q.</name><name type="nomen">Marcius</name><name type="cognomen">Modestus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2018-08-24" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>V</abbr><ex>iva</ex></expan> <lb n="2"/>Quintia <expan><abbr><am><g type="mulieris"/></am></abbr><ex>mulieris</ex></expan> <expan><abbr>l</abbr><ex>iberta</ex></expan> Privata <lb n="3"/>sibi et <lb n="4"/>@(obito) <expan><abbr>Q</abbr><ex>uinto</ex></expan> Marcio <expan><abbr>Q</abbr><ex>uinti</ex></expan> <expan><abbr>l</abbr><ex>iberto</ex></expan> <lb n="5"/>Modesto contubernali
+            </ab></div>
+            <div type="commentary">
+                <p>Block eines Grabmonuments. Z. 2: Spuren von roter Farbe in den Buchstaben.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IRC 4, 207; pl. 98, 207.</bibl><bibl>IRC 5, p. 114.</bibl><bibl>ILER 6849; Foto.</bibl><bibl>S. Mariner Bigorra, Inscripciones romanas de Barcelona (Barcelona 1973) 176, Nr. 202.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Hadžići (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD051053</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD051053</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Sarajevo, Zem. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>175</height><width>67</width><depth>16</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.9-4.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0171" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1885"><placeName type="country" ref="https://www.geonames.org/3277605">Bosnia and Herzegovina</placeName><placeName type="modern" ref="http://www.geonames.org/3212604">Hadžići</placeName><placeName type="findspot">{Gradac}</placeName><placeName type="region">Sarajevski kanton</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD051053_1" sex="M"><persName><name type="nomen">Aurelius*</name><name type="cognomen">Super</name></persName></person><person xml:id="HD051053_2" sex="W"><persName><name type="cognomen">Vera*</name></persName></person><person xml:id="HD051053_3"><persName><name type="cognomen">Maximina</name></persName></person><person xml:id="HD051053_4"><persName><name type="cognomen">Victorinus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-05-24" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>Aurel</abbr><ex>ius</ex></expan> Super vete</ab></div><div n="3" type="textpart"><ab><lb n="1"/>ranus ex <expan><abbr>leg</abbr><ex>ione</ex></expan> VIII <expan><abbr>Aug</abbr><ex>usta</ex></expan> <lb n="2"/>memoriam sibi <lb n="3"/>viv<expan><ex>u</ex><abbr>s</abbr></expan> et Ver<expan><ex>a</ex><abbr>e</abbr></expan> con<lb break="no" n="4"/>iugi Maximinae <lb n="5"/>et Victorino fili<expan><ex>i</ex><abbr>s</abbr></expan> <lb n="6"/>nostris filiam <note>sic</note> <lb n="7"/>diffunctam <note>sic</note> vi<lb break="no" n="8"/>xit annos XXVIII
+            </ab></div></div>
+            <div type="commentary">
+                <p>Oberhalb des Inschriftfeldes aedicula mit den Büsten eines Mannes und eines Knaben sowie einer Frau und eines Mädchens(?). Z. 1: Buchstaben D und M in den Zwickeln über der aedicula. Z. 2 steht auf dem oberen Rahmen des Inschriftfeldes. Z. 3: ehemals LE-Ligatur, von der jetzt die langgezogene untere Querhaste fehlt. Z. 5 (Ende) u. Z. 8 (Ende): Buchstaben N bzw. IAM stehen auf dem Rahmen. (B): CIL 03, 12749; Patsch: Z.4: sibe.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 08375.</bibl><bibl>CIL 03, 12749. (B)</bibl><bibl>K. Patsch, AEM 16, 1893, 81-82. (B)</bibl><bibl>G. Alföldy, BAHD 82, 1989, 203-204.</bibl><bibl>R. Cubaynes, Les hommes de la VIIIe légion Auguste (Autun 2018) 175-177, Nr. 8; Fotos.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

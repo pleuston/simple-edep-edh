@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Siscia &amp;ndash; Sisak (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD074868</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD074868</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197504">Siscia</placeName></origPlace><origDate><origDate notBefore-custom="0301" notAfter-custom="0500" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">301 AD - 500 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3190813">Sisak</placeName><placeName type="findspot">{Stari Sisak}, Pfarrhof</placeName><placeName type="region">Sisačko-moslavačka županija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD074868_1" sex="M"><persName><name type="cognomen">Victorinus</name></persName></person><person xml:id="HD074868_2" sex="W"><persName><name type="cognomen">Felicissima</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-03-09" who="Gräf">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Felicissimae et SACMENEVNO coniugi <lb n="2"/>dominus Victorinus maritus sepulcrum <lb n="3"/>eorum collocavit Felicissima qu<expan><ex>a</ex><abbr>e</abbr></expan> vixit <lb n="4"/>cum eo annis XIII anno urbis DXVII SAR<supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied>VNAM <lb n="5"/><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied>VIISI<supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied>C<supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied>DX<gap reason="lost" extent="unknown" unit="character"/>PHY<supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied> Deo
+            </ab></div>
+            <div type="commentary">
+                <p>Oberhalb der Inschrift zwei Christusmonogramme mit A und Ω. Nach Gračanin möglicherweise eine &amp;lt;span style=&amp;apos;color:red&amp;apos;&amp;gt;Fälschung&amp;lt;/span&amp;gt;. Z. 1: oberhalb von NO mit kleinerer Buchstabenhöhe SS eingefügt. Z. 4 (Ende): zwischen SAR und VNAM eine aufsteigende Schräghaste. Datierung: Die Angabe in Z. 4, würde, bezogen auf Rom, das Jahr 236 v. Chr. bedeuten.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 03996a.</bibl><bibl>ILCV 1686.</bibl><bibl>H. Gračanin, ScrinSlav 4, 2004, 33, Nr. 25.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Municipium Claudium Virunum &amp;ndash; Maria Saal (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD011247</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD011247</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Maria Saal, Zollfeld, Zollfeld 3 (Gasthof Fleissner), Privatbesitz?</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">statue base</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor, weiß</material><dimensions unit="cm"><height>(40)</height><width>(50)</width><depth>(39)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">9-5.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197583">Municipium Claudium Virunum</placeName></origPlace><origDate><origDate notBefore-custom="0138" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">138 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1973"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2760473">Maria Saal</placeName><placeName type="findspot">Zollfeld, {Parzelle Nr. 63}</placeName><placeName type="region">Kärnten</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD011247_1" sex="M"><persName><name type="praenomen">L.+</name><name type="nomen">Aelius+</name><name type="cognomen">Caesar+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-06-20" who="Cowey">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>L</abbr><ex>ucio</ex></expan> A</supplied>elio <lb n="2"/><supplied reason="lost">C</supplied>aesari <lb n="3"/>divi [Hadriani ------
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Z. 3-7 wurden ergänzt: [Hadriani | Aug(usti) f(ilio) cos(uli) II | Virunenses | d(ecreto) d(ecruionum) p(ublice)].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1974, 0468. (B)</bibl><bibl>G. Piccottini, RŒ 2, 1974, 39-43, Nr. 1; Taf. 5, 2; Abb. 1 u. 2 (Zeichnungen). (B) - AE 1974.</bibl><bibl>G. Piccottini, AustrRom 23, 1973, 35, Nr. 1.</bibl><bibl>ILLPRON 0754.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

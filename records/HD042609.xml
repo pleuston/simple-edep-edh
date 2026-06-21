@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Military diploma from Viminacium &amp;ndash; Kostolac, bei (Moesia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD042609</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD042609</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Požarevac, Narod. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material><dimensions unit="cm"><height>(2)</height><width>(2)</width><depth>0</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207549">Viminacium</placeName></origPlace><origDate><origDate notBefore-custom="0131" notAfter-custom="0140" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">131 AD - 140 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/6290252">Serbia</placeName><placeName type="modern" ref="http://www.geonames.org/789210">Kostolac, bei</placeName><placeName type="findspot">{"Čair"}</placeName><placeName type="region">Centralna Srbija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/91">military diploma</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD042609_1"><persName><name type="praenomen">[-]</name><name type="nomen">Aurelius+</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2010-05-06" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> qu<supplied reason="lost">inis et vicenis pluribusve</supplied> <lb n="1"/><supplied reason="lost"><expan><abbr>stipend</abbr><ex>iis</ex></expan></supplied> emeritis <supplied reason="lost"><expan><abbr>dimiss</abbr><ex>is</ex></expan> <expan><abbr>honest</abbr><ex>a</ex></expan> <expan><abbr>mission</abbr><ex>e</ex></expan></supplied> <lb n="2"/><supplied reason="lost">quorum</supplied> nomin<supplied reason="lost">a <expan><abbr>subscript</abbr><ex>a</ex></expan> sunt ipsis <expan><abbr>liber</abbr><ex>is</ex></expan></supplied> <lb n="3"/><expan><abbr><supplied reason="lost">posteris</supplied>q</abbr><ex>ue</ex></expan> eoru<supplied reason="lost">m civitatem dedit et conu</supplied><lb break="no" n="4"/><supplied reason="lost">bium cum u</supplied>xor[ibus ------ </ab></div><div n="2" type="textpart"><ab><lb n="0"/> <gap reason="lost" quantity="1" unit="line"/>IVI<gap reason="lost" extent="unknown" unit="character"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> Aureli<supplied reason="lost">o</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr><supplied reason="lost">stipe</supplied>nd</abbr><ex>iis</ex></expan> [emeritis ------
+            </ab></div></div>
+            <div type="commentary">
+                <p>Erhalten ist ein Fragment der tab. I.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1997, 1299.</bibl><bibl>RMD 259.</bibl><bibl>S. Dušanić, Starinar 48, 1997, 68-69, Nr. 2; fig. 2a u. 2b. - AE 1997.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

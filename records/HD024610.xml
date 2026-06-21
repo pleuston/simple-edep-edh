@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Carnuntum &amp;ndash; Petronell-Carnuntum (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD024610</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD024610</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Hainburg/Donau, Kulturfabrik, Arch. Zentraldepot</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(109)</height><width>58</width><depth>25</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6.5-5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/128376">Carnuntum</placeName></origPlace><origDate><origDate notBefore-custom="0063" notAfter-custom="0068" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">63 AD - 68 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1913"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2769013">Petronell-Carnuntum</placeName><placeName type="findspot">Gräberstraße, {Parzelle Nr. 310}</placeName><placeName type="region">Niederösterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD024610_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Iulius</name><name type="cognomen">Verecundus</name></persName></person><person xml:id="HD024610_2" sex="M"><persName><name type="cognomen">Campanus</name></persName></person><person xml:id="HD024610_3" sex="M"><persName><name type="nomen">Iulius</name><name type="cognomen">[--]rinus</name></persName></person><person xml:id="HD024610_4" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Aemilius+</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-05-11" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F019222" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/016468f9-ff35-40f6-b589-546636df905d/file/id/779294/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>C</abbr><ex>aius</ex></expan> Iulius <lb n="2"/><expan><abbr>G</abbr><ex>ai</ex></expan> <expan><abbr>Vol</abbr><ex>tinia</ex></expan> Vere<lb break="no" n="3"/>cundus <lb n="4"/><expan><abbr>Tol</abbr><ex>osa</ex></expan> <expan><abbr>an</abbr><ex>norum</ex></expan> XXV <lb n="5"/><expan><abbr>aer</abbr><ex>um</ex></expan> V <expan><abbr>mil</abbr><ex>es</ex></expan> <lb n="6"/><expan><abbr>l</abbr><ex>egionis</ex></expan> X <expan><abbr>g</abbr><ex>eminae</ex></expan> <expan><abbr><am><g type="centuria"/></am></abbr><ex>centuria</ex></expan> Camp<lb break="no" n="7"/>ani <expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>itus</ex></expan> <expan><abbr>e</abbr><ex>st</ex></expan> <lb n="8"/><expan><abbr>s</abbr><ex>it</ex></expan> <expan><abbr>t</abbr><ex>ibi</ex></expan> <expan><abbr>t</abbr><ex>erra</ex></expan> <expan><abbr>l</abbr><ex>evis</ex></expan> <lb n="9"/>Iulius <supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied><lb break="no" n="10"/>rinus <supplied reason="lost">et</supplied> <lb n="11"/><expan><abbr>L</abbr><ex>ucius</ex></expan> Aem<supplied reason="lost">ilius</supplied> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Ein weiterer Soldat gleichen Namens und gleicher origo diente in Rom in der cohors I praetoria: http://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD001554. (B): Hild; Vorbeck; Beszedés 2004, 2014; Fitz: Z. 2: C(ai). Datierung: Zeitraum der Stationierung der legio X gemina in Carnuntum.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1929, 0188.</bibl><bibl>AE 2006, 1056.</bibl><bibl>J. Bortlik, RLŒ 16, 1926, 9-10, Nr. 4. - AE 1929.</bibl><bibl>F. Hild, Supplementum epigraphicum zu CIL III. Das pannonische Niederösterreich, Burgenland und Wien 1902-1968 (Diss. Wien 1968) 133, Nr. 195. (B)</bibl><bibl>E. Vorbeck, Militärinschriften aus Carnuntum (2. Aufl. Wien 1980) 21, Nr. 20. (B)</bibl><bibl>M.-L. Krüger, Die Reliefs des Stadtgebietes von Carnuntum 2. Die dekorativen Reliefs, CSIR Österreich 1, 4 (Wien 1972) 48, Nr. 544; Taf. 47, 544.</bibl><bibl>J. Fitz, Die Verwaltung Pannoniens in der Römerzeit (Budapest 1993) 312, Nr. 190.</bibl><bibl>J. Beszédes, AArchHung 55, 2004, 329, Nr. 8; Abb. 6. (B) - AE 2006.</bibl><bibl>J. Beszédes, in: F. Humer - G. Kremer - E. Pollhammer - A. Pülz (Hrsg.), Akten der 3. Österreichischen Römersteintagung, Hainburg a. d. Donau 2014 (Wien 2014) 17, Nr. 8; Abb. 6. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

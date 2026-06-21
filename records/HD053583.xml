@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription? from Argyruntum &amp;ndash; Starigrad (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD053583</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD053583</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Zadar, S. Donat, Museum</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><dimensions unit="cm"><height>66</height><width>84</width><depth>102</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197139">Argyruntum</placeName></origPlace><origDate><origDate notBefore-custom="0034" notAfter-custom="0035" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">34 AD - 35 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1895"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3189964">Starigrad</placeName><placeName type="findspot">{S. Juraj, ehemalige Grabkapelle}, bei</placeName><placeName type="region">Zadarska županija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription?</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD053583_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1407"><name type="praenomen">Ti.</name><name type="nomen">Caesar</name><name type="cognomen">Augustus</name></persName></person><person xml:id="HD053583_2" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Volusius</name><name type="cognomen">Saturninus*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2010-02-17" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F034459" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/30bdd196-19de-47c0-963b-0b6b05445756/file/id/795295/file_version/name/small"/><graphic xml:id="F009241" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/35342686-7172-4b8e-9f5e-f1dcf0f26f79/file/id/769007/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Ti</abbr><ex>berius</ex></expan> Caesar <lb n="2"/>divi <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <lb n="3"/>Augustus <lb n="4"/><expan><abbr>imp</abbr><ex>erator</ex></expan> <expan><abbr>pontif</abbr><ex>ex</ex></expan> <expan><abbr>max</abbr><ex>imus</ex></expan> <expan><abbr>trib</abbr><ex>unicia</ex></expan> <lb n="5"/><expan><abbr>pot</abbr><ex>estate</ex></expan> XXXVI <expan><abbr>ded</abbr><ex>icavit</ex></expan> <lb n="6"/><expan><abbr>L</abbr><ex>ucio</ex></expan> Volusio <expan><abbr>Saturnin</abbr><ex>o</ex></expan> <lb n="7"/><expan><abbr>leg</abbr><ex>ato</ex></expan> pro <expan><abbr>pr</abbr><ex>aetore</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Dublonić: geringfügig abweichende Textwiedergabe.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 14322.</bibl><bibl>A. Jagenteufel, Die Statthalter der römischen Provinz Dalmatia von Augustus bis Diokletian (Wien 1958) 17, Nr. 4, 10.</bibl><bibl>M. Dubolnić, RadAkZadar 49, 2007, 19; sl. 10. (B)</bibl><bibl>M. Abramić - A. Colnago, JŒAI (Beibl.) 12, 1909, 49-50.</bibl><bibl>PIR V 661.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

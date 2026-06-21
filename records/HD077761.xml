@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Iuliacum &amp;ndash; Jülich (Germania inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD077761</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD077761</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mannheim, Reiss-Engelhorn-Mus., Depot</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>86</height><width>112</width><depth>41</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109068">Iuliacum</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1756"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2894553">Jülich</placeName><placeName type="findspot">{Marktplatz/Kleine Rurstraße, Ecke}, ehemalige Jesuitenresidenz, Garten</placeName><placeName type="region">Nordrhein-Westfalen</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD077761_1" sex="W"><persName><name type="nomen">Flavia+*</name><name type="cognomen">Materna+</name></persName></person><person xml:id="HD077761_2" sex="M"><persName><name type="praenomen">Q.+</name><name type="nomen">Romanius+</name><name type="cognomen">Probus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2018-11-02" who="Osnabrügge">checked through autopsy</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Fl</abbr><ex>aviae</ex></expan> Maternae</supplied> <lb n="2"/><supplied reason="lost"><expan><abbr>Q</abbr><ex>uintus</ex></expan> Romani</supplied>us <lb n="3"/><supplied reason="lost">Probus uxo</supplied>ri <lb n="4"/><supplied reason="lost">rarissimae</supplied> <lb n="5"/><supplied reason="lost">femina</supplied>e <expan><abbr>fec</abbr><ex>it</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Stele. Im Zweiten Weltkrieg beim Brand des Mannheimer Schlosses stark zerstört, erhalten sind heute noch zwölf teils aneinanderpassende Fragmente mit dem rechten unteren Rand des Inschriftfeldes. Die Maßangabe bezieht sich auf den Vorkriegszustand.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 07875.</bibl><bibl>W. Brambach, Corpus inscriptionum Rhenanarum (Elberfeld 1867) 132, Nr. 600.</bibl><bibl>F. Haug, Die römischen Denksteine des Grossherzoglichen Antiquariums in Mannheim (Konstanz 1877) 49, Nr. 69.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

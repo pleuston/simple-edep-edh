@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Emporiae &amp;ndash; Empúries (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD017580</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD017580</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Empúries, Mus. Arq.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>(26)</height><width>(34)</width><depth>(3)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.8-4.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Hispania citerior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/246382">Emporiae</placeName></origPlace><origDate><origDate notBefore-custom="-0040" notAfter-custom="-0031" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">40 BC - 31 BC</origDate></origDate></origin>
+                        <provenance type="found" when="1968"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern">Empúries</placeName><placeName type="findspot">Ampurias, Forum</placeName><placeName type="region">Cataluña</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD017580_1"><persName><name type="praenomen">Cn.+</name><name type="nomen">Domitius</name><name type="cognomen">Calvinus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2012-02-02" who="Marchesini">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Cn</abbr><ex>aeo</ex></expan></supplied> Domitio <lb n="2"/><supplied reason="lost"><expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan></supplied> Calvino <lb n="3"/><supplied reason="lost">pat</supplied>rono
+            </ab></div>
+            <div type="commentary">
+                <p>(B): AE 1977: Z. 1: Cn(aeo) Domitio; Z. 2: M(arci) f(ilio); Z. 3: patrono. Datierung: probabilmente subito dopo il proconsolato di Calvino (39-36 a.C.).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1990, 0658.</bibl><bibl>AE 1977, 0468. (B)</bibl><bibl>IRC 3, 026; pl. 15, 26.</bibl><bibl>IRC 5, p. 84.</bibl><bibl>J.-N. Bonneville, REA 88, 1986, 185-186; fig. 33B (Zeichnung). - AE 1990.</bibl><bibl>E. Sanmartí Grego, in: XIII Congreso Nacional de Arqueología, Huelva 1973 (Zaragoza 1975) 963-966; fig. 1 u. 2. - AE 1977.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

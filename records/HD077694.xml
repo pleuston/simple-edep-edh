@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Nideggen (Germania inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD077694</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD077694</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bonn, Rhein. Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>73</height><width>48</width><depth>18</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania inferior</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1841"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2959851">Nideggen</placeName><placeName type="findspot">Wollersheim, {Burg Gödersheim}, Gräberfeld, sekundär verwendet</placeName><placeName type="region">Nordrhein-Westfalen</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD077694_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">Tertinius</name><name type="cognomen">Firmanus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-11-18" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F019370" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/b7b9c089-01da-42b6-aa77-22fa34aff338/file/id/779442/file_version/name/small"/><graphic xml:id="F019371" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/d8c69fdc-9608-4fe5-b886-2e8444a59784/file/id/779443/file_version/name/small"/><graphic xml:id="F019369" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/a68a07d7-1324-44c7-acc1-6e4382775ef6/file/id/779441/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Matronis <lb n="2"/><supplied reason="lost">V</supplied>eteranehis <lb n="3"/><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied> Tertinius <lb n="4"/><supplied reason="lost">F</supplied>irmanus pr<supplied reason="lost">o</supplied> <lb n="5"/><supplied reason="lost">s</supplied>e et suis <expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 07909; Zeichnung.</bibl><bibl>H. Lehner, Die antiken Steindenkmäler des Provinzialmuseums in Bonn (Bonn 1918) 195, Nr. 515; Zeichnung.</bibl><bibl>F. Biller, Kultische Zentren und Matronenverehrung in der südlichen Germania inferior (Rahden 2010) 150, Nr. IV.2.1.3.m.</bibl><bibl>A.G. Garman, The cult of the matronae in the Roman Rhineland. An historical evaluation of the archaeological evidence (Lewiston 2008) 140, Nr. 257.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

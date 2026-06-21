@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Siscia &amp;ndash; Sisak (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD071823</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD071823</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Zagreb, Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>80</height><width>40</width><depth>30</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.5-3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197504">Siscia</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1900"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3190813">Sisak</placeName><placeName type="findspot">{Gasthaus Mali Kaptol} (Fragment a); Haus Gorički (Fragment b)</placeName><placeName type="region">Sisačko-moslavačka županija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD071823_1" sex="M"><persName ref="http://romans1by1.com/rpeople/18310"><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]us</name></persName></person><person xml:id="HD071823_2" sex="M"><persName ref="http://romans1by1.com/rpeople/18311"><name type="nomen">Aelius*</name><name type="cognomen">Valerius</name></persName></person><person xml:id="HD071823_3" sex="M"><persName ref="http://romans1by1.com/rpeople/18312"><name type="nomen">Aelius*</name><name type="cognomen">Secundinus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-07-14" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan> et <lb n="2"/>Iunoni <expan><abbr>sac</abbr><ex>rum</ex></expan> <lb n="3"/>pro salute sua <lb n="4"/>et collatorum <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/>us <expan><abbr>et</abbr><ex cert="low"/></expan> <lb n="6"/><expan><abbr>Ael</abbr><ex>ius</ex></expan> Valerius <lb n="7"/><expan><abbr>et</abbr><ex cert="low"/></expan> <expan><abbr>Ael</abbr><ex>ius</ex></expan> Secundinus <lb n="8"/><expan><abbr>mag</abbr><ex>istri</ex></expan> <expan><abbr>d</abbr><ex>onum</ex></expan> <expan><abbr>d</abbr><ex>ederunt</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>In zwei Teile gebrochen. Fundjahr bezieht sich auf das obere Fragment (a); Fundjahr Fragment b: Ende der 1970er Jahre. CIL 03, 10845: nur der untere Teil. CIL 03, 15179: nur der obere Teil. Zahlreiche Ligaturen. (B): CIL 03, 10845: Z. 6/7: Valerius / Ael(ius).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 10845. (B)</bibl><bibl>CIL 03, 15179.</bibl><bibl>AIJ 539; Foto.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

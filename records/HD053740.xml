@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Salonae &amp;ndash; Solin (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD053740</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD053740</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Knin, Muz. Kninske krajine?</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197488">Salonae</placeName></origPlace><origDate><origDate notBefore-custom="0102" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">102 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1850"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3190359">Solin</placeName><placeName type="findspot">{Theater}, Eingang, bei</placeName><placeName type="region">Splitsko-dalmatinska županija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD053740_1" sex="M"><persName><name type="praenomen">Sex.+</name><name type="nomen">Aquillius+</name><name type="cognomen">Severus</name></persName></person><person xml:id="HD053740_2" sex="M"><persName><name type="cognomen">Traianus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-11-20" who="Gräf">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost">H</supplied>erculi <gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><expan><abbr><supplied reason="lost">S</supplied>ex</abbr><ex>tus</ex></expan> Aquilli<supplied reason="lost">us</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/>Severus |(centurio) <expan><abbr>coh</abbr><ex>ortis</ex></expan> V<gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/>donis donatus ab <supplied reason="lost"><expan><abbr>Imp</abbr><ex>eratore</ex></expan> Traiano bello</supplied> <lb n="5"/>Dacico <expan><abbr>dec</abbr><ex>urio</ex></expan> Salonis et Flano<supplied reason="lost">nae</supplied> <lb n="6"/><expan><abbr>l</abbr><ex>ocus</ex></expan> <expan><abbr>d</abbr><ex>atus</ex></expan> <expan><abbr>d</abbr><ex>ecreto</ex></expan> <expan><abbr>d</abbr><ex>ecurionum</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): IDRE: Leseabweichungen. Datierung: nicht vor Ende des ersten Dakerkrieges Trajans.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 01940.</bibl><bibl>IDRE 301. (B)</bibl><bibl>M. Sanader, OpuscArchZagreb 18, 1994, 100, Nr. 21.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

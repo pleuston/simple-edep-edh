@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Boundary inscription from Passy (Alpes Graiae)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD065257</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD065257</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Chamonix</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/85">cippus</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/52">Schiefer</material><dimensions unit="cm"><height>(110)</height><width>65</width><depth>20</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Alpes Graiae</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate when-custom="0074" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">74 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1853"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/2988393">Passy</placeName><placeName type="findspot">{Larioz}</placeName><placeName type="region">Auvergne-Rhône-Alpes</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/96">boundary inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD065257_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1419"><name type="cognomen">Vespasianus+</name></persName></person><person xml:id="HD065257_2" sex="M"><persName><name type="praenomen">Cn.</name><name type="nomen">Pinarius Cornelius*</name><name type="cognomen">Clemens</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-07-17" who="Masci">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Ex auctoritat<supplied reason="lost">e</supplied> <lb n="2"/><expan><abbr>Imp</abbr><ex>eratoris</ex></expan> <expan><abbr>Caes</abbr><ex>aris</ex></expan> Vespasia<supplied reason="lost">ni</supplied> <lb n="3"/><expan><abbr>Aug</abbr><ex>usti</ex></expan> pontificis <expan><abbr>max</abbr><ex>imi</ex></expan> <lb n="4"/><expan><abbr>trib</abbr><ex>unicia</ex></expan> <expan><abbr>potest</abbr><ex>ate</ex></expan> V co<expan><ex>n</ex><abbr>s</abbr><ex>ulis</ex></expan> V <lb n="5"/><expan><abbr>design</abbr><ex>nati</ex></expan> VI <supplied reason="lost"><expan><abbr>p</abbr><ex>atris</ex></expan></supplied> <expan><abbr>p</abbr><ex>atriae</ex></expan> <lb n="6"/><expan><abbr>Cn</abbr><ex>aeus</ex></expan> Pinarius <expan><abbr>Cornel</abbr><ex>ius</ex></expan> <lb n="7"/>Clemens <expan><abbr>leg</abbr><ex>atus</ex></expan> eius pro <expan><abbr>pr</abbr><ex>aetore</ex></expan> <lb n="8"/>exercitus Germanici <lb n="9"/>superioris inter <lb n="10"/>Vi<supplied reason="lost">enn</supplied>enses et Ceutrona<supplied reason="lost">s</supplied> <lb n="11"/>terminavit
+            </ab></div>
+            <div type="commentary">
+                <p>Einige verlorene Buchstaben waren bei der Auffindung noch vorhanden.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 12, 00113.</bibl><bibl>R. Scuderi, in: S. Giorcelli Bersani (Hrsg.), Gli antichi e la montagna (Torino 2001) 167. 174 Anm. 3.</bibl><bibl>PIR (2. Aufl.) C 1341.</bibl><bibl>ILS 5957.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

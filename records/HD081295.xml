@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Divio (Civitas Lingonum) &amp;ndash; Dijon (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD081295</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD081295</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Dijon, Rue Philippe Pot 3, Hoffassade, vermauert</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>145</height><width>50</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/177489">Divio (Civitas Lingonum)</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1830"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/3021372">Dijon</placeName><placeName type="findspot">{S.-Etienne, Kirche}, ehemaliger tour Baudoin, Fundament der spätantiken Stadtmauer, sekundär verwendet</placeName><placeName type="region">Bourgogne-Franche-Comté</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD081295_1" sex="W"><persName><name type="cognomen">Vebronis</name></persName></person><person xml:id="HD081295_2" sex="M"><persName><name type="cognomen">Brigus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-01-25" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F031562" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/6fecc612-5485-48b1-9d20-71b3fc90555f/file/id/792325/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <expan><abbr>m</abbr><ex>onumentum</ex></expan> <lb n="2"/>Vebronis Brigi fi<supplied reason="lost"><expan><abbr>l</abbr><ex>ae</ex></expan></supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Rechteckstele mit Rundbogennische, darin stehende Ganzfigur einer Frau in knöchellangem Umhang. In dextrarum iunctio verbunden mit einem Mann, der in einer eigenen, verlorenen Nische zur Linken der Figur gestanden haben muss. Z. 1 befindet sich in den Bogenzwickel, Z. 2 dem Verlauf des Rundbogens folgend über der Bildnische. (B): Espérandieu: Z. 2: fil[i(ae)].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 05576.</bibl><bibl>É. Espérandieu, Recueil général des bas-reliefs, statues et bustes de la Gaule romaine 4 (Paris 1911) 405, Nr. 3509; Foto. (B)</bibl><bibl>Y. Le Bohec, Inscriptions de la cité des Lingons (Paris 2003) 115, Nr. 164.</bibl><bibl>M. Provost - D. Périchon, in: M. Provost u. a. (Hrsg.), La Côte-d'Or d'Allerey à Normier, Carte archéologique de la Gaule 21, 2 (Paris 2009) 274.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

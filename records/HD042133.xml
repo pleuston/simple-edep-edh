@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Santanyí (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD042133</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD042133</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Artá, Mus. Reg.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>107</height><width>40</width><depth>9</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.4-2.2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Hispania citerior</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="-0030" notAfter-custom="0050" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">30 BC - 50 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern" ref="http://www.geonames.org/2511106">Santanyí</placeName><placeName type="findspot">Carrotja, römische Nekropole</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD042133_1" sex="M"><persName><name type="praenomen">Q.</name><name type="nomen">Caecilius</name><name type="cognomen">Paditu</name></persName></person><person xml:id="HD042133_2" sex="W"><persName><name type="nomen">Sergia</name><name type="cognomen">Cuduniu</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-05-07" who="Garcia">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>Q</abbr><ex>uintus</ex></expan> Caecilius <lb n="2"/>Paditu <lb n="3"/>ave <expan><abbr>val</abbr><ex>e</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Sergia <expan><abbr>Sp</abbr><ex>uri</ex></expan> <expan><abbr>f</abbr><ex>ilia</ex></expan> <lb n="2"/>Cuduniu <lb n="3"/><expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>ita</ex></expan> <expan><abbr>e</abbr><ex>st</ex></expan>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Giebelstele; unter dem Giebelfeld zwei untereinanderliegende Inschriftfelder in Form von tabulae ansatae; darunter Darstellung einer Tür mit zwei Rosetten.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>C. Veny, Corpus de las inscripciones baleáricas hasta la dominación árabe (Madrid 1965) 95-96, Nr. 81; lám. 25, 64.</bibl><bibl>R. Zucca, Insulae Baliares. Le isole Baleari sotto il dominio romano (Roma 1998) 253-254, Nr. 33; Foto.</bibl><bibl>HEpOl 07967; Foto.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

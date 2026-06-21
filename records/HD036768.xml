@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Aquae (Civitas Aurelia Aquensis) &amp;ndash; Baden-Baden (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD036768</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD036768</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Baden-Baden, Stadtmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>50</height><width>61</width><depth>58</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/108748">Aquae (Civitas Aurelia Aquensis)</placeName></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1901"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2953504">Baden-Baden</placeName><placeName type="findspot">{Vincentistraße 6}</placeName><placeName type="region">Baden-Württemberg</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD036768_1" sex="M"><persName><name type="cognomen">Iuco</name></persName></person><person xml:id="HD036768_2" sex="M"><persName><name type="cognomen">Iunianus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-04-17" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F021853" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/3b25ae07-7307-4607-9920-aa4fe73eb8d7/file/id/781932/file_version/name/small"/><graphic xml:id="F021854" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/4dcdedc6-6a30-4402-aca0-f9a151ac740d/file/id/781933/file_version/name/small"/><graphic xml:id="F028054" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/76b15ac9-71f5-414c-b24c-146f0586e2ac/file/id/788811/file_version/name/small"/><graphic xml:id="F028055" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/d70865e4-1c4e-4a80-9409-ec51a58cd289/file/id/788812/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/>Iuco Iuni<lb break="no" n="3"/>ani sibi et <lb n="4"/>matri su<expan><ex>a</ex><abbr>e</abbr></expan>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 11718.</bibl><bibl>E. Wagner, Fundstätten und Funde aus vorgeschichtlicher, römischer und alamannisch-fränkischer Zeit im Grossherzogtum Baden 2. Das Badische Unterland (Tübingen 1911) 32; Zeichnung.</bibl><bibl>AE 1907, 0112.</bibl><bibl>F. Haug, KWDZ 26, 1907, 8, Nr. 6. - AE 1907.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

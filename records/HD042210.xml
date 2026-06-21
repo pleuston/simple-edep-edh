@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>List? from Cales-Coves, Menorca (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD042210</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD042210</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Höhle von Sala dels Jurats i Esglesia</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/210">cliff</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Hispania citerior</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate when-custom="0151" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern">Cales-Coves, Menorca</placeName><placeName type="findspot">Höhle von Sala dels Jurats i Esglesia</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/108">list?</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD042210_1"><persName><name type="praenomen">Sex.+</name><name type="nomen">Quintilius+</name><name type="cognomen">Condianus+</name></persName></person><person xml:id="HD042210_2"><persName><name type="praenomen">Sex.+</name><name type="nomen">Quintilius+</name><name type="cognomen">Valerius+</name></persName></person><person xml:id="HD042210_3"><persName><name type="praenomen">P.</name><name type="cognomen">Rufinus</name></persName></person><person xml:id="HD042210_4"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">Numerius</name></persName></person><person xml:id="HD042210_5"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">Victor+ Sextus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2006-04-03" who="Garcia">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Sex</abbr><ex>to</ex></expan> Quintilio C</supplied>ondiano et Virio <lb n="2"/><expan><abbr><supplied reason="lost">c</supplied>o</abbr><ex>nsulibu</ex>s</expan> XVII <expan><abbr>Kal</abbr><ex>endas</ex></expan> Maias <lb n="3"/><supplied reason="lost">s</supplied>aedine I <expan><abbr>P</abbr><ex>ublio</ex></expan> Rufino <lb n="4"/>V Numerio <lb n="5"/><gap reason="lost" extent="unknown" unit="character"><certainty match=".." locus="name"/></gap>oni <supplied reason="lost" cert="low">Vi</supplied>ctore <supplied reason="lost" cert="low">Sex</supplied><lb break="no" n="6"/>to NVAS PHAL
+            </ab></div>
+            <div type="commentary">
+                <p>Maße (Inschriftfeld): 22 x 39 cm.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>C. Veny, Corpus de las inscripciones baleáricas hasta la dominación árabe (Madrid 1965), 166-167, Nr. 144; lám. 39, 94 (Foto).</bibl><bibl>G. Alföldy, BJ 168, 1968, 552.</bibl><bibl>CIL 02, 03720.</bibl><bibl>CIL 02, 05994.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

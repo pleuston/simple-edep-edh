@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Brigetio &amp;ndash; Komárom (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD074761</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD074761</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Tata, Kuny Domokos Múz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">stele?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(35)</height><width>(42)</width><depth>20</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197180">Brigetio</placeName></origPlace><origDate><origDate notBefore-custom="0271" notAfter-custom="0400" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">271 AD - 400 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3049519">Komárom</placeName><placeName type="findspot"/><placeName type="region">Komárom-Esztergom megye</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD074761_1" sex="M"><persName ref="http://romans1by1.com/rpeople/18269"><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD074761_2" sex="W"><persName ref="http://romans1by1.com/rpeople/18270"><name type="nomen">[---]</name><name type="cognomen">Vitula</name></persName></person><person xml:id="HD074761_3" sex="M"><persName ref="http://romans1by1.com/rpeople/18271"><name type="nomen">[---]</name><name type="cognomen">Sabinianus+</name></persName></person><person xml:id="HD074761_4" sex="W"><persName ref="http://romans1by1.com/rpeople/18272"><name type="nomen">Aurelia+</name><name type="cognomen">Lucillla</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-05-11" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> sacro c</supplied>omitatu <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> Vitula filia <lb n="3"/><supplied reason="lost">et <gap reason="lost" extent="unknown" unit="character"/> Sa</supplied>binianus nep<supplied reason="lost"><expan><abbr>o</abbr><ex>te</ex>s</expan></supplied> <lb n="4"/><supplied reason="lost" cert="low">et</supplied><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">et Au</supplied>relia Lucilla v<supplied reason="lost" cert="low">ivi</supplied> <lb n="5"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> faciendum curave</supplied>run<supplied reason="lost">t</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Die Inschrift wurde sekundär auf einer abgearbeiteten früheren Inschrift eingehauen, von dieser haben sich zwischen den Zeilen noch einzelne Hasten erhalten. Die Oberfläche wurde sehr ungleichmäßig abgearbeitet. Z. 2: [militavit (in) sacro c]omitatu oder [lectus in sacro c]omitatu vel sim. Der Verstorbene war wohl Angehöriger einer comitatensis-Einheit.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>P. Kovács, ZPE 201, 2017, 265-266, Nr. 4; Abb. 4.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

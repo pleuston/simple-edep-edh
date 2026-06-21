@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Barcino &amp;ndash; Barcelona (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD057016</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD057016</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Barcelona, Mus. Hist. Ciudad</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>26</height><width>39</width><depth>3</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">1.5-1.9</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Hispania citerior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/246343">Barcino</placeName></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern" ref="http://www.geonames.org/3128760">Barcelona</placeName><placeName type="findspot">Plaza de la Vila de Madrid, Nekropole, Grab 56, sekundär verwendet</placeName><placeName type="region">Cataluña</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD057016_1" sex="M"><persName><name type="praenomen">Q.</name><name type="nomen">Iulius</name><name type="cognomen">Repostus</name></persName></person><person xml:id="HD057016_2" sex="M"><persName><name type="praenomen">Q.</name><name type="nomen">Iulio</name><name type="cognomen">Primigenius Repostus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-08-12" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F020904" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/4571aae7-5c49-4fe2-a1ba-e56d40c28225/file/id/780978/file_version/name/small"/><graphic xml:id="F035657" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/b93232eb-3c3a-40a6-bf19-0b0729f2c01c/file/id/796507/file_version/name/small"/><graphic xml:id="F035658" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/db68b2ea-3585-403d-883f-d57176981762/file/id/796508/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/>Quintus Iulius Repostus <lb n="3"/>Quinto Iulio Primigeni<lb break="no" n="4"/>o Reposto fratri bene me<lb break="no" n="5"/>renti fecit quo vi<expan><ex>v</ex><abbr>us</abbr></expan> <lb n="6"/>postulavit locum
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IRC 4, 178; pl. 85, 178.</bibl><bibl>HAE 1958.</bibl><bibl>ILER 6854; Foto.</bibl><bibl>S. Mariner Bigorra, Inscripciones romanas de Barcelona (Barcelona 1973) 158, Nr. 174.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

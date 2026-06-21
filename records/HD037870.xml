@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Mogetiana, bei &amp;ndash; Zánka (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD037870</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD037870</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Keszthely, Balatoni Múz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">stele?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(68)</height><width>(76)</width><depth>13</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7-4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197381">Mogetiana, bei</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1967"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3042569">Zánka</placeName><placeName type="findspot">{Fő utca 40}, spätantikes Grab</placeName><placeName type="region">Veszprém megye</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD037870_1" sex="M"><persName><name type="nomen">Canius+*</name><name type="cognomen">Potentinus+</name></persName></person><person xml:id="HD037870_2" sex="W"><persName><name type="nomen">Cania*</name><name type="cognomen">Aquilina+*</name></persName></person><person xml:id="HD037870_3" sex="W"><persName><name type="nomen">Cania+*</name><name type="cognomen">Marcella+*</name></persName></person><person xml:id="HD037870_4" sex="M"><persName><name type="nomen">Canius+</name><name type="cognomen">Potens+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-05-05" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Can</abbr><ex>ius</ex></expan></supplied> Potent<supplied reason="lost">in</supplied><lb break="no" n="2"/><supplied reason="lost">us <expan><abbr>v</abbr><ex>ivus</ex></expan></supplied> <expan><abbr>f</abbr><ex>ecit</ex></expan> <expan><abbr>Can</abbr><ex>iae</ex></expan> Aqu<supplied reason="lost">i</supplied><lb break="no" n="3"/><supplied reason="lost"><expan><abbr>lin</abbr><ex>a</ex>e</expan> m</supplied>atri <expan><abbr>an</abbr><ex>norum</ex></expan> LX<gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/><supplied reason="lost">et C</supplied>ani<expan><ex>a</ex><abbr>e</abbr></expan> Marce<supplied reason="lost">l</supplied><lb break="no" n="5"/><supplied reason="lost"><expan><abbr>l</abbr><ex>a</ex>e</expan> sorori</supplied> <expan><abbr>an</abbr><ex>norum</ex></expan> L et Cani<supplied reason="lost">o</supplied> <lb n="6"/><supplied reason="lost">Potent</supplied>i <expan><abbr>lib</abbr><ex>erto</ex></expan> patri a<supplied reason="lost"><expan><abbr>n</abbr><ex>norum</ex></expan></supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="7"/><supplied reason="lost">et libertis p</supplied>oster<supplied reason="lost"><expan><abbr>isq</abbr><ex>ue</ex></expan></supplied> <lb n="8"/><supplied reason="lost">eorum</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Allseitig abgebrochenes Fragment.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>TRHR (Suppl.) 071; Abb. 71 (Foto u. Zeichnung).</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

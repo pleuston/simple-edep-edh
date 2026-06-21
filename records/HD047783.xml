@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Castrum Rauracense &amp;ndash; Kaiseraugst (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD047783</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD047783</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Liestal, Museum</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">tabula?</objectType><dimensions unit="cm"><height>(18)</height><width>(16)</width><depth>8</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/81716458">Castrum Rauracense</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 230 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1848"><placeName type="country" ref="https://www.geonames.org/2658434">Switzerland</placeName><placeName type="modern" ref="http://www.geonames.org/2660204">Kaiseraugst</placeName><placeName type="findspot">{Lager}, Mauer, sekundär verwendet</placeName><placeName type="region">Kanton Aargau</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD047783_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-08-24" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F039049" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/8435cb88-a769-4c7f-9fd7-68ff42483ff2/file/id/799925/file_version/name/small"/><graphic xml:id="F027239" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/00854d46-2d67-4c4d-bc15-eb2937b18440/file/id/787996/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>no <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr><supplied reason="lost">tri</supplied>b</abbr><ex>uno</ex></expan> <expan><abbr>mil</abbr><ex>itum</ex></expan> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr><supplied reason="lost">coh</supplied>ort</abbr><ex>is</ex></expan> I <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">h</supplied>astis II <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>IM</abbr><ex cert="low"/></expan> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Am Ende von Z. 5 noch die oberen Ansätze einer Vertikalhaste und einem oberen Winkel zweier Hasten zu sehen, aufgrund des Ansatzwinkels der linken Haste eher ein M als ein N. (B): AE 2000; Haensch: Z. 5: IN; CIL 13, 05271: Z. 3: B nicht gelesen; Z. 5: nicht gelesen; CIL 13, 11545: Z. 3: B nicht.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2000, 1037. (B)</bibl><bibl>CIL 13, 05271. (B)</bibl><bibl>CIL 13, 11545. (B)</bibl><bibl>R. Haensch, in: P.-A. Schwarz - L. Berger (Hrsg.), Tituli Rauracenses 1.</bibl><bibl>Testimonien und Aufsätze zu den Namen und ausgewählten Inschriften von Augst und und Kaiseraugst (Augst 2000) 124-125; Abb. 95. (B) - AE 2000.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

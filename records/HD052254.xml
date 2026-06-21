@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Dyrrachium &amp;ndash; Durrës (Macedonia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD052254</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD052254</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Durrës, Ark. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor, weiß</material><dimensions unit="cm"><height>(26)</height><width>(38)</width><depth>3</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Macedonia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/481818">Dyrrachium</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/783754">Albania</placeName><placeName type="modern">Durrës</placeName><placeName type="findspot">Nekropole</placeName><placeName type="region">Qarku i Durrësit</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD052254_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD052254_2" sex="M"><persName><name type="nomen">Marcius*?</name><name type="cognomen">O[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-02-09" who="Ehmig">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F024511" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/d741f76f-7813-40b9-b0e1-75204f2871aa/file/id/785177/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/>honor<supplied reason="lost">ato</supplied> <lb n="2"/><expan><abbr>p</abbr><ex>atrono</ex></expan> <expan><abbr>o</abbr><ex>ptimo</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/><expan><abbr>aed</abbr><ex>ili</ex></expan> <expan><abbr>v</abbr><ex>iro</ex></expan> <expan><abbr>b</abbr><ex>ono</ex></expan> <expan><abbr>Marc</abbr><ex cert="low">ius</ex></expan> O<gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/>cliens <gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Zwei aneinanderpassende Fragmente erhalten.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>H. Myrto, Monumentet 27, 2, 1984, 149-150; 149, Fig. 12.</bibl><bibl>F. Tartari, La nécropole du Ier-IVe s. de notre ère à Durrachium (Durrës 2004) 46; tab. 31, 7. - AE 2004.</bibl><bibl>AE 2004, 1323.</bibl><bibl>S. Anamali - H. Ceka - É. Deniaux, Corpus des inscriptions latines d’Albanie (Rome 2009) 97-98, Nr. 112; Foto. - AE 2011.</bibl><bibl>U. Ehmig - R. Haensch, Die lateinischen Inschriften aus Albanien (LIA) (Bonn 2012) 120-122, Nr. 43; Foto. - AE 2011.</bibl><bibl>U. Ehmig - R. Haensch, Tyche 26, 2011, 82-83; Taf. 11, 6. - AE 2011.</bibl><bibl>AE 2011, 1176.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

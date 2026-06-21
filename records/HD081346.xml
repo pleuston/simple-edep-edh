@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Divio (Civitas Lingonum) &amp;ndash; Dijon (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD081346</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD081346</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><dimensions unit="cm"><width>96</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/177489">Divio (Civitas Lingonum)</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1660"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/3021372">Dijon</placeName><placeName type="findspot">{Rue Chabot-Charny 34-36}, sekundär verwendet</placeName><placeName type="region">Bourgogne-Franche-Comté</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD081346_1" sex="M"><persName><name type="cognomen">Sentrus</name></persName></person><person xml:id="HD081346_2"><persName><name type="cognomen">Secularis</name></persName></person><person xml:id="HD081346_3" sex="W"><persName><name type="cognomen">Cassiope</name></persName></person><person xml:id="HD081346_4" sex="M"><persName><name type="cognomen">Carantillus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-01-25" who="Osnabrügge">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Sentrus Secu<lb break="no" n="2"/>laris filius sibi <lb n="3"/>viv<expan><ex>u</ex><abbr>s</abbr></expan> fecit monime<lb break="no" n="4"/>ntum et Cassiope <lb n="5"/>uxori Carantillo <lb n="6"/><supplied reason="lost">fil</supplied>io
+            </ab></div>
+            <div type="commentary">
+                <p>Nischenstele. Die Inschrift befand sich in einer Bogennische. Der rechte Teil war im 19. Jh. noch erhalten.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 05570.</bibl><bibl>B. Le Gouz de Gerland, Dissertations sur l'origine de la ville de Dijon et sur les antiquités découvertes sous les murs bâtis par Aurélien (Dijon 1771) 109-110; pl. 13, 3 (Zeichnung).</bibl><bibl>É. Espérandieu, Recueil général des bas-reliefs, statues et bustes de la Gaule romaine 4 (Paris 1911) 421, Nr. 3552.</bibl><bibl>Y. Le Bohec, Inscriptions de la cité des Lingons (Paris 2003) 111, Nr. 156.</bibl><bibl>M. Provost - D. Périchon, in: M. Provost u. a. (Hrsg.), La Côte-d'Or d'Allerey à Normier, Carte archéologique de la Gaule 21, 2 (Paris 2009) 280.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

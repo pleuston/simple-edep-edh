@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Viminacium &amp;ndash; Kostolac (Moesia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD035815</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD035815</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Požarevac, Narod. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>216</height><width>90</width><depth>32</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7.5-6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207549">Viminacium</placeName></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/6290252">Serbia</placeName><placeName type="modern" ref="http://www.geonames.org/789210">Kostolac</placeName><placeName type="findspot"/><placeName type="region">Centralna Srbija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD035815_1" sex="M"><persName ref="http://romans1by1.com/rpeople/12261"><name type="praenomen">M.</name><name type="nomen">Aurelius*</name><name type="cognomen">Rufus</name></persName></person><person xml:id="HD035815_2" sex="M"><persName ref="http://romans1by1.com/rpeople/12262"><name type="nomen">Aurelius*</name><name type="cognomen">Longinus</name></persName></person><person xml:id="HD035815_3" sex="M"><persName ref="http://romans1by1.com/rpeople/12263"><name type="nomen">Aurelius*</name><name type="cognomen">Aulutralis+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-03-25" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F016119" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/86eac2eb-172f-4cb1-b9f3-10c5e010bdeb/file/id/775697/file_version/name/small"/><graphic xml:id="F024658" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/bc1d007b-a308-46a2-9367-d241f8e65686/file/id/785325/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/><expan><abbr>M</abbr><ex>arcus</ex></expan> <expan><abbr>Aurel</abbr><ex>ius</ex></expan> Rufus <lb n="3"/><expan><abbr>tess</abbr><ex>erarius</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> VII <expan><abbr>Cl</abbr><ex>audiae</ex></expan> <lb n="4"/><expan><abbr>vix</abbr><ex>it</ex></expan> <expan><abbr>n<am>n</am></abbr><ex>os</ex></expan> XL <expan><abbr>milit</abbr><ex>avit</ex></expan> <lb n="5"/><expan><abbr>n<am>n</am></abbr><ex>os</ex></expan> XX <expan><abbr>Aurel</abbr><ex>ius</ex></expan> <lb n="6"/>Longinus et Au<lb break="no" n="7"/><expan><abbr>rel</abbr><ex>ius</ex></expan> Aulutral<supplied reason="lost">i</supplied>s <lb n="8"/>milites <expan><abbr>leg</abbr><ex>ionis</ex></expan> ei<lb break="no" n="9"/>ustem <note>sic</note> conh<lb break="no" n="10"/>eredes <expan><abbr>b</abbr><ex>ene</ex></expan> <expan><abbr>m</abbr><ex>erenti</ex></expan> <expan><abbr>p</abbr><ex>osuerunt</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>In drei Fragmente gebrochen, von denen inzwischen nur noch das mittlere (Z. 3-8) erhalten ist. (B): CIL III: Z. 1: nicht gelesen; Z. 4: m[il.]; Z. 5: Au[rel.]; Z. 6/7: A[u]/[r]el. AVLVTRAC; Z. 8:m[i]lites; Z. 9/10: [ei]/ustem; Z. 10: e[i]u[s]; Milovanović: Z. 9/10: coh/eredes.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2013, 1319.</bibl><bibl>CIL 03, 08118. (B)</bibl><bibl>IMS 2, 123; Foto.</bibl><bibl>B. Milovanović, VjesAMuzZagreb 46, 2013, 171-173, Nr. 6; sl. 4. (B) - AE 2013.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

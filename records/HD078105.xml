@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Mogontiacum &amp;ndash; Mainz (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD078105</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD078105</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mainz, Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/260">slab</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>44</height><width>(37)</width><depth>9</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109169">Mogontiacum</placeName></origPlace><origDate><origDate notBefore-custom="0301" notAfter-custom="0400" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">301 AD - 400 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1907"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2874225">Mainz</placeName><placeName type="findspot">{S. Alban, Stift, ehemalige Kirche}, nördliche Seitenapsis, sekundär verwendet</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD078105_1" sex="M"><persName><name type="cognomen">Rusticus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-05-10" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F015766" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/844eb643-855a-4426-af94-fd3971b6a90b/file/id/775344/file_version/name/small"/><graphic xml:id="F016142" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/9175f9cc-4978-49d9-ac29-d776693881db/file/id/775720/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Rusticu<supplied reason="lost" cert="low">s puer fidel</supplied>es <note>sic</note> <lb n="2"/>qui vicsi<supplied reason="lost">t! anno</supplied>s II <lb n="3"/>menses II di<supplied reason="lost">es</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/>dulcis pare<supplied reason="lost">nti</supplied>b<supplied reason="lost">u</supplied>s
+            </ab></div>
+            <div type="commentary">
+                <p>Drei Fragmente erhalten, davon die beiden rechten aneinanderpassend Zusammengehörigkeit von Kessel bezweifelt. Maße: Maße beziehen sich auf das linke Fragment (a); Maße des rechten Teils (Fragmente b, c): (28) (22) x 8, 5 cm. Oberhalb der Inschrift auf dem linken Fragment noch die Darstellung einer Taube und eines Palmzweiges erhalten sowie der Rest eines Christogramms, welches mittig oberhalb der Inschrift platziert gewesen sein muss. Paläographie: Vorkarolingische Kapitalis I. Z. 2: hinter VICS noch ein Rest vom unteren Ende der Haste des folgenden I erkennbar. (B): Kessel: Fragment a: Z. 2: vics[it; Z. 4: d[u]lcis [p]ar[entibus]; Fragment c: Z. 4[---]S.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 11921.</bibl><bibl>W. Boppert, Die frühchristlichen Inschriften des Mittelrheingebietes (Mainz 1971) 83-85; Zeichnung.</bibl><bibl>K. Körber, MZ 3, 1908, 10, Nr. 31c; Abb. 20c (Zeichnung).</bibl><bibl>C. Kessel, MZ 113, 2018, 48-50, Nr. 22 u. 23; Abb. 31; Abb. 32 (Zeichnung). (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

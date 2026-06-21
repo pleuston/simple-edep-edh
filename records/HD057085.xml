@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Barcino &amp;ndash; Barcelona (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD057085</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD057085</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Barcelona, Mus. d'Arq. Catalunya</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/112">cupa</objectType><dimensions unit="cm"><height>57</height><width>69</width><depth>49</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.9-3.7</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Hispania citerior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/246343">Barcino</placeName></origPlace><origDate><origDate notBefore-custom="0130" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">130 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1889"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern" ref="http://www.geonames.org/3128760">Barcelona</placeName><placeName type="findspot">Calle dels Gegants</placeName><placeName type="region">Cataluña</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD057085_1" sex="M"><persName><name type="cognomen">Peregrinus</name></persName></person><person xml:id="HD057085_2" sex="W"><persName><name type="cognomen">Festiva</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-12-01" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F020815" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/bdc6c340-f14b-4e73-bac6-5082decb9826/file/id/780889/file_version/name/small"/><graphic xml:id="F020816" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/b01f2f26-d129-41aa-b237-67d306f2814f/file/id/780890/file_version/name/small"/><graphic xml:id="F035573" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/0488db42-9d0e-48d3-b9e9-901ce172dad4/file/id/796422/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/>Peregrin<lb break="no" n="3"/>o Festiva co<lb break="no" n="4"/><expan><abbr>ns</abbr><ex>ervo</ex></expan> <expan><abbr>pient</abbr><ex>issimo</ex></expan> <expan><abbr>b</abbr><ex>ene</ex></expan> <expan><abbr>m</abbr><ex>erenti</ex></expan> <lb n="5"/>et sibi
+            </ab></div>
+            <div type="commentary">
+                <p>Cupa ohne Libationsöffnung. Inschriftfeld innerhalb einer aedicula. Ascia rechts neben dem Inschriftenfeld.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IRC 4, 259; pl. 118, 259.</bibl><bibl>CIL 02, 06173.</bibl><bibl>ILER 5101.</bibl><bibl>S. Mariner Bigorra, Inscripciones romanas de Barcelona (Barcelona 1973) 170, Nr. 193.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Táp? (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD040571</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD040571</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Pannonhalma, Erzabtei Martinsberg</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(73)</height><width>45</width><depth>17</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0051" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3044163">Táp?</placeName><placeName type="findspot"/><placeName type="region">Győr-Moson-Sopron megye</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD040571_1" sex="M"><persName><name type="nomen">Iulius*</name><name type="cognomen">Crescens</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-10-20" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F002707" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/0b6b5293-9619-4f37-847e-8f61c64bb629/file/id/763780/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan> <lb n="2"/><expan><abbr>Iul</abbr><ex>ius</ex></expan> Cresc<lb break="no" n="3"/><supplied reason="lost">e</supplied>ns <gap reason="lost" extent="unknown" unit="character"/>OSE <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>I</abbr><ex cert="low"/>S</expan> <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/>M
+            </ab></div>
+            <div type="commentary">
+                <p>Inschriftfeld seitlich von tordierten Halbsäulen, oben von einem tordierten Wulst und unten von einer Doppelleiste eingefasst. Oberfläche teilweise stark verrieben. (B): RIU 0276: Z. 2/3: Cresc/ens; Z. 4: vor S noch die obere Spitze eines A oder M; RIU 0276; Farkas - Gabler: Z. 5: vor M noch ein C oder G.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>RIU 0276; Abb. 276 (Foto u. Zeichnung). (B)</bibl><bibl>Z. Farkas - D. Gabler, Die Skulpturen des Stadtgebietes von Scarbantia und der Limesstrecke Ad Flexum - Arrabona, CSIR Ungarn 2 (Budapest 1994) 82-83, Nr. 103; Taf. 38, 1. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

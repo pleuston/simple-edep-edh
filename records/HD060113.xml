@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Saal/Donau (Raetia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD060113</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD060113</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>München, Arch. Staatsslg.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(54)</height><width>(80)</width><depth>27</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Raetia</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1509"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2818807">Saal/Donau</placeName><placeName type="findspot">Untersaal, {spätantikes Lager}, sekundär verwendet</placeName><placeName type="region">Bayern</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD060113_1" sex="W"><persName><name type="nomen">Claudia*</name><name type="cognomen">Maternina</name></persName></person><person xml:id="HD060113_2" sex="W"><persName><name type="cognomen">Hilarina* SammoI[---]</name></persName></person><person xml:id="HD060113_3" sex="M"><persName><name type="nomen">C[---]?</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-10-05" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/><expan><abbr>Cl</abbr><ex>audiae</ex></expan> Maternina<supplied reason="lost">e</supplied> <lb n="3"/>matri <expan><abbr>vix</abbr><ex>it</ex></expan> <expan><abbr>an</abbr><ex>nos</ex></expan> LX<gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/><expan><abbr>Hilarin</abbr><ex>ae</ex></expan> SammoI<gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/>coniugi vivae <expan><abbr>C</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Zwei verbundene hederae in Z. 1 zwischen D und M. Z. 5: vom C(?) ist der obere linke Teil erhalten; auch O(?) oder Q(?) möglich. Am Ende von Z. 4 noch eine senkrechte Haste, heute nicht mehr zu erkennen, N oder L. Etwa Sammon[is f(iliae)] oder ähnliches cognomen. CIL 03, 05939: Sammol[ae].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IBR 355; tab. 51, 355.</bibl><bibl>CIL 03, 05939.</bibl><bibl>CIL 03, 05939 add. p. 1050.</bibl><bibl>CIL 03, 05939 add. p. 1859.</bibl><bibl>CIL 03, 05939 add. p. 2328, 201.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

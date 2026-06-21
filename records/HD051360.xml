@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription from Tude &amp;ndash; Tui (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD051360</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD051360</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">block?</objectType><dimensions unit="cm"><height>(186)</height><width>(64)</width><depth>(30)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4-7</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Hispania citerior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/236692">Tude</placeName></origPlace><origDate><origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar"/></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern" ref="http://www.geonames.org/3107364">Tui</placeName><placeName type="findspot">S. Bartolomé de Rebordáns, Kirche</placeName><placeName type="region">Pontevedra</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/143" xml:lang="en">unknown</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2010-09-24" who="Platz">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F018063" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/8c3a7918-5808-406f-80d4-cdf050dc17f1/file/id/778136/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <gap reason="lost" extent="unknown" unit="character"/>CAEPOL<supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> et Genio</supplied> <lb n="2"/>conv<supplied reason="lost">entus <expan><abbr>Bracaraug</abbr><ex>ustanorum</ex></expan></supplied> <lb n="3"/><expan><abbr>Ti</abbr><ex>berius</ex></expan> Claud<supplied reason="lost">ius Claudianus<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <expan><abbr>praef</abbr><ex>ectus</ex></expan></supplied> <lb n="4"/>c<expan><ex>o</ex><abbr>ho</abbr><ex>rtis</ex></expan> Bra<supplied reason="lost"><expan><abbr>caraugust</abbr><ex>anorum</ex></expan> statuam</supplied> <lb n="5"/>aurea<supplied reason="lost">m dedit dedicavitque</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1994, 0957.</bibl><bibl>CIL 02, 05613.</bibl><bibl>IRG 3, 030.</bibl><bibl>CIRG 2, 116.</bibl><bibl>HEp 06, 1996, 0774.</bibl><bibl>AE 1994, 0799.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

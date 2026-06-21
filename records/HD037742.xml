@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Savaria &amp;ndash; Szombathely (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD037742</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD037742</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Szombathely, Savaria Múz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>50</height><width>(105)</width><depth>7</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4-5.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197498">Savaria</placeName></origPlace><origDate><origDate notBefore-custom="0301" notAfter-custom="0400" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">301 AD - 400 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1997"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3044310">Szombathely</placeName><placeName type="findspot">{S. István utca 57-63}, spätantike Nekropole, Grab 77</placeName><placeName type="region">Vas megye</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD037742_1" sex="M"><persName ref="http://romans1by1.com/rpeople/17393"><name type="cognomen">Stercorinus</name></persName></person><person xml:id="HD037742_2" sex="M"><persName ref="http://romans1by1.com/rpeople/17394"><name type="nomen">Flavius*</name><name type="cognomen">Flavianus</name></persName></person><person xml:id="HD037742_3" sex="W"><persName ref="http://romans1by1.com/rpeople/17395"><name type="nomen">Valeria*</name><name type="cognomen">Iustina</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-03-23" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Bonae <expan><abbr>memo</abbr><ex>riae</ex></expan> &amp;lt;f=E&amp;gt;ilio dulcissi<supplied reason="lost">mo</supplied> <lb n="2"/><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied><expan><abbr>I</abbr><ex cert="low"/></expan><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied><expan><abbr>I</abbr><ex cert="low"/>E</expan> Stercorino &amp;lt;i=L&amp;gt;nnocen<supplied reason="lost">ti</supplied> <lb n="3"/><expan><abbr>n<am>n</am></abbr><ex>orum</ex></expan> XIII &amp;lt;m=N&amp;gt;(ensium) IIII &amp;lt;F=E&amp;gt;<expan><abbr>l</abbr><ex>avius</ex></expan> &amp;lt;F=E&amp;gt;lavianus <lb n="4"/>e&amp;lt;t=I&amp;gt; <expan><abbr>Val</abbr><ex>eria</ex></expan> Ius&amp;lt;t=I&amp;gt;ina paren&amp;lt;t=I&amp;gt;es <expan><abbr>v</abbr><ex>ivi</ex></expan> <expan><abbr>f</abbr><ex>ecerunt</ex></expan> 
+            </ab></div>
+            <div type="commentary">
+                <p>Drei aneinanderpassende Fragmente erhalten. (B): TRHR: Z. 3: Fl. Flavinus (aber in der Zeichnung richtig); Z. 4: parentes (aber in der Zeichnung richtig); Tóth: Z. 2: innocen[ti]; Z. 3: Fl. Flavinus; Z. 4: parentes.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>TRHR (Suppl.) 026; Abb. 26 (Foto u. Zeichnung).</bibl><bibl>E. Tóth, Lapidarium Savariense. Savaria római feliratos kőemlékei (Szombathely 2011) 198, Nr. 151; Foto. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

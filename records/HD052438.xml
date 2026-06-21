@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Municipium Malvesiatium, bei &amp;ndash; Srebrenica (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD052438</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD052438</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Skelani, Liješće</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><dimensions unit="cm"><height>103</height><width>52</width><depth>39</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207263">Municipium Malvesiatium, bei</placeName></origPlace><origDate><origDate notBefore-custom="0171" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1896"><placeName type="country" ref="https://www.geonames.org/3277605">Bosnia and Herzegovina</placeName><placeName type="modern" ref="http://www.geonames.org/3196585">Srebrenica</placeName><placeName type="findspot">Liješće, {mittelalterlicher Friedhof}</placeName><placeName type="region">Republika Srpska</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD052438_1" sex="M"><persName><name type="nomen">Flavius*</name><name type="cognomen">M[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-10-28" who="Gräf">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <supplied reason="lost"><expan><abbr>M</abbr><ex>aximo</ex></expan></supplied> <lb n="2"/><expan><abbr>I</abbr><ex>unoni</ex></expan> <expan><abbr>M</abbr><ex>inervae</ex></expan> <expan><abbr>Fl</abbr><ex>avius</ex></expan> M<gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied>AV<supplied reason="lost" cert="low">--- b(ene)f(iciarius)? co(n)s(ularis)</supplied> <lb n="4"/><expan><abbr><supplied reason="lost">l</supplied>eg</abbr><ex>ionis</ex></expan> X<gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied> |(centurio)<certainty match="preceding-sibling::node()" locus="value"/> <expan><abbr>leg</abbr><ex>ionis</ex></expan> XI<gap reason="lost" extent="unknown" unit="character"/> <lb n="6"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <supplied reason="lost"><expan><abbr>m</abbr><ex>erito</ex></expan></supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Mittelteil eines Altars oder einer Statuenbasis. Z. 3: in der Lücke hinter AV noch der Rest einer senkrechten Haste erkennbar. Z. 5 (Anfang): Zeichen für centurio oder Teil eines X. (B): Imamović: Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 14219, 15.</bibl><bibl>E. Imamović, Antički kultni i votivni spomenici na području Bosne i Hercegovine (Sarajevo 1977) 380, Nr. 124; Zeichnung. (B)</bibl><bibl>E. Schallmayer - K. Eibl - J. Ott - G. Preuß - E. Wittkopf, Der römische Weihebezirk von Osterburken 1 (Stuttgart 1990) 362, Nr. 457; Zeichnung.</bibl><bibl>A. Škegro, OpuscArchZagreb 21, 1997, 105, Nr. 140.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

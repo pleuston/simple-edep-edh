@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Sectib es-Sedd (Africa Proconsularis)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD017459</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD017459</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Ţarābulus (Tripoli), Festung</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">block</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(38)</height><width>58</width><depth>58</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.5-4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Africa Proconsularis</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar"/></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2215636">Libya</placeName><placeName type="modern">Sectib es-Sedd</placeName><placeName type="findspot"/></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD017459_1" sex="W"><persName><name type="cognomen">Balyna*</name></persName></person><person xml:id="HD017459_2" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Caecilius</name><name type="cognomen">Lupus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-04-12" who="Feraudi">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Diis Mani<supplied reason="lost">bus <expan><abbr>sac</abbr><ex>rum</ex></expan></supplied> <lb n="2"/>Balyn<expan><ex>a</ex><abbr>e</abbr></expan> vixsit <note>sic</note> <expan><abbr>an</abbr><ex>n</ex></expan><lb break="no" n="3"/>orum <note>sic</note> XXXVIII <expan><abbr>C</abbr><ex>aius</ex></expan> Cae<lb break="no" n="4"/>cilius Lupus uxori <lb n="5"/>suae obsequenti<expan><ex>s</ex><abbr>si</abbr></expan><lb break="no" n="6"/>m<expan><ex>a</ex><abbr>e</abbr></expan> feccit <note>sic</note> structoriq<expan><ex>u</ex><abbr>e</abbr></expan> <note>sic</note>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1957, 0242.</bibl><bibl>IRT 990.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Teurnia, bei &amp;ndash; Baldramsdorf (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD057423</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD057423</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Baldramsdorf, Rosenheim, S. Anna, Kirche, vermauert</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/35">architectural member</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor, weiß</material><dimensions unit="cm"><height>43</height><width>(122)</width><depth>30</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/187583">Teurnia, bei</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1968"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2782023">Baldramsdorf</placeName><placeName type="findspot">Rosenheim, {S. Anna, Kirche}, sekundär verwendet</placeName><placeName type="region">Kärnten</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD057423_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD057423_2" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD057423_3" sex="W"><persName><name type="nomen">[---]</name><name type="cognomen">Litulla</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2012-11-26" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F022765" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/eedc7547-9cfc-4185-a6ef-f5bf8e407794/file/id/782931/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">IIvi</supplied>r et <expan><abbr>praef</abbr><ex>ectus</ex></expan> <expan><abbr>i</abbr><ex>ure</ex></expan> <expan><abbr>d</abbr><ex>icundo</ex></expan> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> Litullae <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">paren</supplied>tibus optimis fecit
+            </ab></div>
+            <div type="commentary">
+                <p>Zwei aneinanderpassende Fragmente eines Architravs; zusammen mit weiteren Architekturteilen wohl zu einem Aedicula-Grab gehörig. Inschriftfeld von lesbischem Kyma gerahmt; auf der Unterseite Darstellung von Delphinpaaren und Dreizacken. (B): ILLPRON: Z. 1: ------] / [IIvi]r; Leber, ILLPRON: Z. 3: [parent]ibus.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILLPRON 0404. (B)</bibl><bibl>P.S. Leber, Die in Kärnten seit 1902 gefundenen römischen Steininschriften (Klagenfurt 1972) 161-162, Nr. 304. (B)</bibl><bibl>R. Wedenig, Epigraphische Quellen zur städtischen Administration in Noricum (Klagenfurt 1997) 243-244, Nr. T 10.</bibl><bibl>G. Kremer, Antike Grabbauten in Noricum (Wien 2001) 99-100, Nr. I 32a; Taf. 10, I 32a; Abb.64 u. 66 (Zeichnungen).</bibl><bibl>F. Glaser, Die Skulpturen des Stadtgebietes von Teurnia, CSIR Österreich 2, 6 (Wien 1997) 76-77, Nr. 76; Taf. 41, 76 u. 42, 76.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

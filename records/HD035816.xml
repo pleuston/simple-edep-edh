@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Viminacium, bei &amp;ndash; Smederevo (Moesia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD035816</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD035816</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Smederevo, Festung, vermauert</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><dimensions unit="cm"><height>(90)</height><width>81</width><depth>27</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.5-3.2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207549">Viminacium, bei</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/6290252">Serbia</placeName><placeName type="modern" ref="http://www.geonames.org/785756">Smederevo</placeName><placeName type="findspot">Festung, {Turm 9}, sekundär verwendet</placeName><placeName type="region">Centralna Srbija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD035816_1" sex="M"><persName ref="http://romans1by1.com/rpeople/12264"><name type="praenomen">C.+?</name><name type="nomen">Domitius+?</name><name type="cognomen">[---]riculus?</name></persName></person><person xml:id="HD035816_2"><persName ref="http://romans1by1.com/rpeople/12265"><name type="nomen">Neria?</name><name type="cognomen">Claudia?</name></persName></person><person xml:id="HD035816_3"><persName ref="http://romans1by1.com/rpeople/12266"><name type="nomen">Domitia</name><name type="cognomen">Anthusa</name></persName></person><person xml:id="HD035816_4"><persName ref="http://romans1by1.com/rpeople/12267"><name type="nomen">Domitia</name><name type="cognomen">Digna</name></persName></person><person xml:id="HD035816_5"><persName ref="http://romans1by1.com/rpeople/12268"><name type="nomen">Domitius</name><name type="cognomen">Potentinus</name></persName></person><person xml:id="HD035816_6"><persName ref="http://romans1by1.com/rpeople/12269"><name type="nomen">Domitia</name><name type="cognomen">Ingenua</name></persName></person><person xml:id="HD035816_7"><persName ref="http://romans1by1.com/rpeople/12270"><name type="nomen">Domitia</name><name type="cognomen">Potentina</name></persName></person><person xml:id="HD035816_8"><persName ref="http://romans1by1.com/rpeople/12271"><name type="nomen">Domitius</name><name type="cognomen">Surrentus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-07-21" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><supplied reason="lost" cert="low">C(aio)? Domitio</supplied> <lb n="2"/><expan><abbr>C</abbr><ex>ai</ex></expan> <supplied reason="lost"><expan><abbr>f</abbr><ex>ilio</ex></expan> <gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied><expan><abbr>riculo</abbr><ex cert="low"/></expan> <supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied> <expan><abbr>c</abbr><ex cert="low">ustodi</ex></expan> <expan><abbr>a</abbr><ex cert="low">rmorum</ex></expan> <lb n="3"/><expan><abbr>leg</abbr><ex>ionis</ex></expan> VII <expan><abbr><supplied reason="lost">C</supplied>l</abbr><ex>audiae</ex></expan> vixit <lb n="4"/>annis XXXXII <lb n="5"/>et <expan><abbr>Neriae</abbr><ex cert="low"/></expan> <expan><abbr>Claudiae</abbr><ex cert="low"/></expan> vi<lb break="no" n="6"/>xit annis <supplied reason="lost">X</supplied>XVII <lb n="7"/>coniugi eius <lb n="8"/>Domitia Anthusa <lb n="9"/>mater et <lb n="10"/>Domitii Digna Po<lb break="no" n="11"/>tentinus Ingenua <lb n="12"/>Potentina Surren<lb break="no" n="13"/>tus <supplied reason="lost">fil</supplied>ii et <expan><abbr>Domit</abbr><ex>ius</ex></expan> Iuli<lb break="no" n="14"/>us ne<supplied reason="lost">pos</supplied> bene meren<lb break="no" n="15"/><expan><abbr>ti</abbr><ex>bus</ex></expan> posuerunt
+            </ab></div>
+            <div type="commentary">
+                <p>Inschrift sehr verrieben und besonders im oberen Teil nur noch schwer lesbar. (B): CIL III: Z. 1-2: [Domiti C. f. Au?]riculi c. a.; Z. 5: Neria C[l]audia.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IMS 2, 124; Foto.</bibl><bibl>CIL 03, 08119. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

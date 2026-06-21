@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Majdanpek (Moesia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD029940</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD029940</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/210">cliff</objectType><dimensions unit="cm"><height>90</height><width>155</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia superior</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0033" notAfter-custom="0034" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">33 AD - 34 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1900"><placeName type="country" ref="https://www.geonames.org/6290252">Serbia</placeName><placeName type="modern" ref="http://www.geonames.org/792473">Majdanpek</placeName><placeName type="findspot">Boljetin, bei, {Mündung der Boljetinska Reka in die Donau}, westlich, "Lepenska Stena"</placeName><placeName type="region">Centralna Srbija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD029940_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1407"><name type="praenomen">Ti.</name><name type="nomen">Caesar</name><name type="cognomen">Augustus</name></persName></person><person xml:id="HD029940_2" sex="M"><persName><name type="cognomen">Augustus*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-02-09" who="Gräf">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr><supplied reason="lost">T</supplied>i</abbr><ex>berio</ex></expan> Caesare <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> <lb n="2"/>Augusto imperatore <lb n="3"/><expan><abbr>pont</abbr><ex>ifice</ex></expan> <expan><abbr>max</abbr><ex>imo</ex></expan> <expan><abbr>tr</abbr><ex>ibunicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> XXXV <lb n="4"/><expan><abbr>leg</abbr><ex>io</ex></expan> IIII <expan><abbr>Scyt</abbr><ex>hica</ex></expan> <expan><abbr>leg</abbr><ex>io</ex></expan> V <expan><abbr>Maced</abbr><ex>onica</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Die Inschrift ist heute nicht mehr erhalten. Datierung: 26.6.33-25.6.34 n.Chr. (B): AE 1910: Z. 1: T.; CIL III 1698, ILS, ILJug: Z. 1: Ti.; CIL III 1698, ILS: Z. 2: imperator.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1910, 0176. (B)</bibl><bibl>ILJug 0060. (B)</bibl><bibl>CIL 03, 01698 add. p. 4307.</bibl><bibl>ILS 2281. (B)</bibl><bibl>N. Vulić, Spomenik 39, 1909, 164; Zeichnung. - AE 1910.</bibl><bibl>CIL 03, 01698. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

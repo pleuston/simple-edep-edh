@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Isca Silurum &amp;ndash; Caerleon (Britannia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD025794</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD025794</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Caerleon, Nat. Rom. Leg. Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor, weiß</material><dimensions unit="cm"><height>119</height><width>147</width><depth>10</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">9-6.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Britannia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/79532">Isca Silurum</placeName></origPlace><origDate><origDate notBefore-custom="0099" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">99 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1928"><placeName type="country" ref="https://www.geonames.org/2635167">United Kingdom</placeName><placeName type="modern" ref="http://www.geonames.org/2654093">Caerleon</placeName><placeName type="findspot">{Comprehensive School}, bei</placeName><placeName type="region">Gwent</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD025794_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1425"><name type="cognomen">Nerva Traianus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2018-04-09" who="Cowey">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F009151" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/99ecb402-05a7-494a-a76a-7a8821b723c5/file/id/768917/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>eratori</ex></expan> <expan><abbr>Caes</abbr><ex>ari</ex></expan> div<supplied reason="lost">i Nervae <expan><abbr>f</abbr><ex>ilio</ex></expan></supplied> <lb n="2"/>Nervae Traia<supplied reason="lost">no <expan><abbr>Aug</abbr><ex>usto</ex></expan></supplied> <lb n="3"/><expan><abbr>Ger</abbr><ex>manico</ex></expan> <expan><abbr>pontif</abbr><ex>ici</ex></expan> maxim<supplied reason="lost">o <expan><abbr>trib</abbr><ex>unicia</ex></expan></supplied> <lb n="4"/><expan><abbr>potest</abbr><ex>ate</ex></expan> <expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <lb n="5"/>co<expan><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> III <lb n="6"/><expan><abbr>leg</abbr><ex>io</ex></expan> II <expan><abbr>Aug</abbr><ex>usta</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Tabula ansata. (B): In Z. 1 divi statt div[i]. In Z. 2 bei Collingwood - Taylor Maximo statt Maxim[o]. Material: Tuskischer Marmor.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1930, 0110. (B)</bibl><bibl>R.G. Collingwood - M.V. Taylor, JRS 18, 1928, 210-211, Nr. 1; fig. 71. - AE 1930. (B)</bibl><bibl>RIB 0330; Zeichnungen.</bibl><bibl>R.J. Brewer, Wales, CSIR Great Britain 1, 5 (Oxford 1986) 25, Nr. 31; Pl. 13, 31.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

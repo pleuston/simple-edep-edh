@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Ovilava &amp;ndash; Wels (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD034880</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD034880</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Wels, Stadtmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/24">relief</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor, weiß</material><dimensions unit="cm"><height>(42)</height><width>42</width><depth>6</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">2.4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118901">Ovilava</placeName></origPlace><origDate><origDate notBefore-custom="0131" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">131 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1899"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2761524">Wels</placeName><placeName type="findspot">{Stadtplatz 40}, sekundär verwendet</placeName><placeName type="region">Oberösterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD034880_1" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Ulpius*</name><name type="cognomen">Romulus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-04-10" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>M</abbr><ex>arcus</ex></expan> <expan><abbr>Ulp</abbr><ex>ius</ex></expan> Romulus <expan><abbr>CO</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Unterer Teil eines Reliefs der Nemesis mit Speer und Schild, die ihren rechten Fuß auf ein Rad aufstellt; rechts unten ein Greif; die Inschrift befindet sich auf dem unteren Rahmen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 05633.</bibl><bibl>G. Trathnigg, JŒAI (Beibl.) 48, 1966/67, 162; Abb. 67.</bibl><bibl>L. Eckhart, Die Skulpturen des Stadtgebietes von Ovilava, CSIR Österreich 3, 3 (Wien 1981) 62, Nr. 82; Taf. 44, 82.</bibl><bibl>ILLPRON 1023.</bibl><bibl>S. Zabehlicky-Scheffenegger, in: K. Holter - W. Rieß - S. Zabehlicky-Scheffenegger, Stadtmuseum Wels. Katalog. Vorgeschichte, Römerzeit, Frühgeschichte, JbWels 22 (Wels 1981) 52, Nr. R 8; Foto.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

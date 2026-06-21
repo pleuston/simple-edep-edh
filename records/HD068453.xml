@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Neviodunum, bei &amp;ndash; Krško (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD068453</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD068453</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>41</height><width>45</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6.5-5.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197408">Neviodunum, bei</placeName></origPlace><origDate><origDate notBefore-custom="0131" notAfter-custom="0170" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">131 AD - 170 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1890"><placeName type="country" ref="https://www.geonames.org/3190538">Slovenia</placeName><placeName type="modern" ref="http://www.geonames.org/3192749">Krško</placeName><placeName type="findspot">{Ponikva}, Križnica</placeName><placeName type="region">Posavska statistična regija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD068453_1" sex="M"><persName ref="http://romans1by1.com/rpeople/18882"><name type="cognomen">Severinus+</name></persName></person><person xml:id="HD068453_2" sex="M"><persName><name type="cognomen">Maro</name></persName></person><person xml:id="HD068453_3" sex="W"><persName ref="http://romans1by1.com/rpeople/18883"><name type="cognomen">Maximina+</name></persName></person><person xml:id="HD068453_4" sex="W"><persName ref="http://romans1by1.com/rpeople/18884"><name type="cognomen">Ausca+?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-05-04" who="Gräf">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/>Severin<supplied reason="lost">us</supplied> <lb n="3"/>Maron<supplied reason="lost">is</supplied> <lb n="4"/>et Maximi<supplied reason="lost">na</supplied> <lb n="5"/><expan><abbr>co</abbr><ex>niux</ex></expan> <expan><abbr>v</abbr><ex>ivi</ex></expan> <expan><abbr>f</abbr><ex>ecerunt</ex></expan> <expan><abbr>s</abbr><ex>ibi</ex></expan> et Ausc<supplied reason="lost" cert="low">a</supplied><lb break="no" n="6"/>e <expan><abbr>f</abbr><ex>iliae</ex></expan> <expan><abbr>an</abbr><ex>norum</ex></expan> XII
+            </ab></div>
+            <div type="commentary">
+                <p>Z. 5: nach ILSl möglicherweise auch Ausc[couta]/e.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 10815.</bibl><bibl>ILSl 1, 088; Zeichnungen.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

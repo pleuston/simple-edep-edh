@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Aquincum &amp;ndash; Budapest (Pannonia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD068735</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD068735</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">stele?</objectType><material>Gesteine</material><dimensions unit="cm"><height>(90)</height><width>90</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197130">Aquincum</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1700"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/7284844">Budapest</placeName><placeName type="findspot">Várkerület, {Tabán}, serbischer Friedhof</placeName><placeName type="region">Budapest</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD068735_1" sex="W"><persName><name type="nomen">Aelia+*</name><name type="cognomen">Higia (= Hygia)</name></persName></person><person xml:id="HD068735_2" sex="W"><persName><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD068735_3" sex="W"><persName><name type="cognomen">Lalea</name></persName></person><person xml:id="HD068735_4" sex="W"><persName><name type="nomen">0?</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-05-10" who="Feraudi">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                M GAV<supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied>AL<supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied>I Ae<lb break="no" n="2"/><supplied reason="lost"><expan><abbr>l</abbr><ex cert="low">ia</ex></expan></supplied> Higia <note>sic</note> &amp;lt;p=E&amp;gt;ie<expan><ex>n</ex><abbr>t</abbr><ex>issima</ex></expan> coni<supplied reason="lost">ux</supplied> <lb n="3"/><supplied reason="lost">et <gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>fil</abbr><ex cert="low">iae</ex></expan></supplied> <lb n="4"/>suae <expan><abbr>an</abbr><ex>norum</ex></expan> <expan><abbr>XXX</abbr><ex cert="low"/></expan> Laleae <lb n="5"/><supplied reason="lost">ma</supplied>tri &amp;lt;p=R&amp;gt;i<surplus>a</surplus><expan><abbr>en</abbr><ex>tissimae</ex></expan> ac &amp;lt;f=L&amp;gt;il<lb break="no" n="6"/><supplied reason="lost">iae</supplied> suae <gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>an</abbr><ex>norum</ex></expan> X 
+            </ab></div>
+            <div type="commentary">
+                <p>Inschriftträger: (TitAq) unklar ob Tafel oder Stele.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 03609.</bibl><bibl>TitAq 0765; Zeichnung.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

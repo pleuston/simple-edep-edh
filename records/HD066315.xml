@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Vintium, bei &amp;ndash; Coursegoules (Alpes Maritimae)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD066315</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD066315</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Coursegoules, S. Michel, Kapelle</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>104</height><width>81</width><depth>25</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">9-5.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Alpes Maritimae</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/167973">Vintium, bei</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1800"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/3022950">Coursegoules</placeName><placeName type="findspot"/><placeName type="region">Provence-Alpes-Côte d’Azur</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD066315_1" sex="M"><persName><name type="cognomen">Fuscus</name></persName></person><person xml:id="HD066315_2" sex="M"><persName><name type="cognomen">Secundus</name></persName></person><person xml:id="HD066315_3" sex="M"><persName><name type="cognomen">Favor</name></persName></person><person xml:id="HD066315_4" sex="M"><persName><name type="cognomen">Secundus+</name></persName></person><person xml:id="HD066315_5" sex="M"><persName><name type="cognomen">Enigenus+</name></persName></person><person xml:id="HD066315_6" sex="W"><persName><name type="cognomen">Velia</name></persName></person><person xml:id="HD066315_7" sex="M"><persName><name type="cognomen">Favor</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-07-19" who="Cimarosti">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Fusco Secun<lb break="no" n="2"/>di <expan><abbr>f</abbr><ex>ilio</ex></expan> annorum <lb n="3"/>XIX et Favori Sec<lb break="no" n="4"/>undi <expan><abbr>f</abbr><ex>ilio</ex></expan> annorum <lb n="5"/>XIII defunctis Secund<lb break="no" n="6"/><supplied reason="lost">u</supplied>s <supplied reason="lost">E</supplied>nigeni <expan><abbr>f</abbr><ex>ilius</ex></expan> et Velia <lb n="7"/>Favoris <expan><abbr>f</abbr><ex>ilia</ex></expan> parente<supplied reason="lost">s</supplied> <expan><abbr>f</abbr><ex>ecerunt</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): CIL: Z. 5-6: Secun/[du]s. Eingemeißelt (capitalis rustica). Ascia. Bearbeiterin: V. Pettirossi.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 12, 00033. (B)</bibl><bibl>S. Morabito, Inscriptions latines des Alpes Maritimes (Nice - Montpellier 2010) 243-245, Nr. 139; Foto.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

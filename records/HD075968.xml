@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Colonia Claudia Augusta? Agrippinensium &amp;ndash; Köln (Germania inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD075968</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD075968</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Köln, Röm.-Germ. Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/214">sarcophagus</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>86</height><width>234</width><depth>89</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/108751">Colonia Claudia Augusta? Agrippinensium</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1902"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2886242">Köln</placeName><placeName type="findspot">{Luxemburger Straße}, Güterbahnhof, bei, römischer Friedhof</placeName><placeName type="region">Nordrhein-Westfalen</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD075968_1" sex="W"><persName><name type="nomen">Traiania</name><name type="cognomen">Herodiana</name></persName></person><person xml:id="HD075968_2" sex="M"><persName><name type="nomen">Aurelius* Turius</name><name type="cognomen">Seneca</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-11-13" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F037046" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/f70be5c5-e4a2-4cea-a281-735e48b99282/file/id/797911/file_version/name/small"/><graphic xml:id="F037047" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/ee2b6132-eb24-4826-b785-240c341ad892/file/id/797912/file_version/name/small"/><graphic xml:id="F037048" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/58064194-884a-451e-b2b4-6b572c8529e2/file/id/797913/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>M</abbr><ex>anibus</ex></expan> </ab></div><div n="3" type="textpart"><ab><lb n="1"/> Traianiae Herodianae <lb n="2"/>coniugi incomparab<expan><ex>i</ex><abbr>li</abbr></expan> <lb n="3"/><expan><abbr>Aur</abbr><ex>elius</ex></expan> Turius Seneca <lb n="4"/>bene de se meritae
+            </ab></div></div>
+            <div type="commentary">
+                <p>Angegebene Abmessungen: Sarkophag ohne Deckel.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 08426.</bibl><bibl>B. Galsterer - H. Galsterer, Die römischen Steininschriften aus Köln, IKöln (2.</bibl><bibl>Aufl.) (Mainz 2010) 382-383, Nr. 462; Foto.</bibl><bibl>B. Galsterer - H. Galsterer, Die römischen Steininschriften aus Köln (Köln 1975) 84, Nr. 364; Taf. 81, 364.</bibl><bibl>A. Kakoschke, Ortsfremde in den römischen Provinzen Germania inferior und Germania superior (Möhnesee 2002), Nr. 2.8.</bibl><bibl>P. Noelke, KJ 40, 2007, 193-195; Abb. 38.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

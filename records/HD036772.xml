@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Aquae (Civitas Aurelia Aquensis), bei &amp;ndash; Baden-Baden (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD036772</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD036772</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Karlsruhe, Bad. Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(35)</height><width>60</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/108748">Aquae (Civitas Aurelia Aquensis), bei</placeName></origPlace><origDate><origDate notBefore-custom="0171" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1762"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2953504">Baden-Baden</placeName><placeName type="findspot">{Merkurberg}</placeName><placeName type="region">Baden-Württemberg</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD036772_1" sex="M"><persName><name type="cognomen">Pruso</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-04-09" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F027367" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/27c58afe-b49a-4a1e-83f3-3fee14c6dd89/file/id/788124/file_version/name/small"/><graphic xml:id="F027368" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/14bb5e8d-1c57-4b18-8bc9-86b0deed043d/file/id/788125/file_version/name/small"/><graphic xml:id="F027369" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/f1736b56-b96a-4b5a-bf95-8babcaebca48/file/id/788126/file_version/name/small"/><graphic xml:id="F038071" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/e09f73f6-7bcc-4e9e-afa4-e1d3b770a800/file/id/798943/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                In <expan><abbr>h</abbr><ex>onorem</ex></expan> <expan><abbr>d</abbr><ex>omus</ex></expan> <expan><abbr>d</abbr><ex>ivinae</ex></expan> <lb n="2"/>deo <expan><abbr>Mercur</abbr><ex>io</ex></expan> <lb n="3"/><expan><abbr><supplied reason="lost">M</supplied>erc</abbr><ex>atori</ex></expan><certainty match="preceding-sibling::node()" locus="value"/> Pruso <lb n="0"/><gap reason="lost" quantity="1" unit="line"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 06294.</bibl><bibl>E. Wagner, Fundstätten und Funde aus vorgeschichtlicher, römischer und alamannisch-fränkischer Zeit im Grossherzogtum Baden 2. Das Badische Unterland (Tübingen 1911) 36-37; Abb. 44.</bibl><bibl>É. Espérandieu, Recueil général des bas-reliefs, statues et bustes de la Germanie romaine (Paris - Bruxelles 1931) 303, Nr. 468; Foto.</bibl><bibl>CIL 13, 04, 06294 add. p. 92.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

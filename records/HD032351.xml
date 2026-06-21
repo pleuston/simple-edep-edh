@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription? from Roma &amp;ndash; Roma (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD032351</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD032351</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen?</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">statue base?</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma</placeName></origPlace><origDate><origDate notBefore-custom="0218" notAfter-custom="0235" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">218 AD - 235 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma</placeName><placeName type="findspot">via Buonarotti / via Merulana, Kreuzung, bei</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription?</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD032351_1"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]us</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2000-05-17" who="Gräf">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F040206" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/f04c3463-99b5-49d7-b5be-ee981df14cef/file/id/801088/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                ------<certainty match="preceding-sibling::node()" locus="value"/>] <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>o co<expan><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> <lb n="3"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/>? sodali Aureliano<certainty locus="name" match="preceding-sibling::text()" cert="low"/> A</supplied>ntoniniano <lb n="4"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/>? <expan><abbr>praef</abbr><ex>ecto</ex></expan> alimentorum</supplied> per Appiam <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/>i vice Caesaris <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/>corum <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>B</abbr><ex cert="low"/></expan>(---<certainty match="preceding-sibling::node()" locus="value"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Das Stück scheint verschollen zu sein. Z. 6: statt B auch P oder R möglich.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 06, 41199.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

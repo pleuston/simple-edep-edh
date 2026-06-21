@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Savaria? &amp;ndash; Szombathely? (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD018505</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD018505</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Szombathely, Savaria Múz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(113)</height><width>(79)</width><depth>12</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6-4.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197498">Savaria?</placeName></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3044310">Szombathely?</placeName><placeName type="findspot"/><placeName type="region">Vas megye?</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-03-23" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F004416" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/0fba2f33-6852-4299-bd9f-97abfdc629a5/file/id/765178/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/>ex <gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><expan><abbr>DEI</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/>collegi<gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/>fabrorum <supplied reason="lost">et</supplied> <lb n="5"/><expan><abbr>centonar<supplied reason="lost">i</supplied>or</abbr><ex>um</ex></expan> <lb n="6"/>faciendum <expan><abbr>cur</abbr><ex>avit</ex></expan> <lb n="7"/>ex <expan><abbr>s</abbr><ex>estertiis</ex></expan> <expan><abbr>n</abbr><ex>ummis</ex></expan> |(mille)
+            </ab></div>
+            <div type="commentary">
+                <p>Links des Inschriftfeldes eine tordierte Halbsäule. Z. 3: von I(?) nur das untere Ende erhalten. (B): Balla - Buocz - Kádár - Mócsy - Szentléleky; Tóth: Z. 6: centonar[io]r.; Tóth: Z. 7: [cur.].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1965, 0296.</bibl><bibl>RIU 0118; Abb. 118 (Zeichnung).</bibl><bibl>T. Buócz, Vasi Szemle 1, 1962, 100; Foto. - AE 1965.</bibl><bibl>L. Balla - T.P. Buocz - Z. Kádár - A. Mócsy - T. Szentléleky, Die römischen Steindenkmäler von Savaria (Amsterdam 1971) 109, Nr. 124; Bild 107. (B)</bibl><bibl>E. Tóth, Lapidarium Savariense. Savaria római feliratos kőemlékei (Szombathely 2011) 180-181, Nr. 131; Foto. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

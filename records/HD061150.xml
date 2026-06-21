@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Salonae, bei &amp;ndash; Solin (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD061150</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD061150</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/214">sarcophagus</objectType><material>Gesteine</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197488">Salonae, bei</placeName></origPlace><origDate><origDate notBefore-custom="0301" notAfter-custom="0400" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">301 AD - 400 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1824"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3190359">Solin</placeName><placeName type="findspot">westliche Nekropole, {Hortus Metrodori}</placeName><placeName type="region">Splitsko-dalmatinska županija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD061150_1" sex="M"><persName><name type="nomen">Aurelius*</name><name type="cognomen">Aprilianus</name></persName></person><person xml:id="HD061150_2" sex="M"><persName><name type="nomen">Aurelius*</name><name type="cognomen">Amurus</name></persName></person><person xml:id="HD061150_3" sex="W"><persName><name type="nomen">Aurelia*</name><name type="cognomen">Quinta*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-10-01" who="Feraudi">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Aur</abbr><ex>elius</ex></expan> Aprilianus se vivo donavet <note>sic</note> <lb n="2"/>arcam <expan><abbr>Aur</abbr><ex>elio</ex></expan> Amuro et <expan><abbr>Aur</abbr><ex>eliae</ex></expan> Quint<expan><ex>a</ex><abbr>e</abbr></expan> qu<expan><ex>a</ex><abbr>e</abbr></expan> <lb n="3"/>est in <expan><ex>h</ex><abbr>orto</abbr></expan> Metrodori vivi sibi p<lb break="no" n="4"/>osuerunt II<gap reason="lost" extent="unknown" unit="character"/>arnum <lb n="5"/>quod si <supplied reason="lost">quis p</supplied>ost morte<supplied reason="lost">m eorum s</supplied>up<supplied reason="lost">er</supplied> <lb n="6"/><supplied reason="lost">eos alia corp</supplied>ora velet <note>sic</note> <supplied reason="lost">in</supplied>po<supplied reason="lost">nere</supplied> <lb n="7"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> inferet!</supplied> sol<supplied reason="lost">idos</supplied><gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 02207.</bibl><bibl>N. Cambi, in: H. v. Hesberg - P. Zanker (Hrsg.), Römische Gräberstraßen.</bibl><bibl>Selbstdarstellung - Status - Standard. Kolloquium München Oktober 1985 (München 1987) 253.</bibl><bibl>E. Marin u. a., Salona 4. Inscriptions de Salone chrétienne, IVe-VIIe siècles (Rome - Split 2010) 699-700, Nr. 386; Zeichnung.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

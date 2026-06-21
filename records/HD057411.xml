@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Municipium Claudium Virunum, bei &amp;ndash; Rosegg (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD057411</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD057411</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Rosegg, Schloß Rosegg, Garten, vermauert</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>63</height><width>69</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197583">Municipium Claudium Virunum, bei</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2767220">Rosegg</placeName><placeName type="findspot">{Burg Rosegg}</placeName><placeName type="region">Kärnten</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD057411_1" sex="M"><persName><name type="praenomen">T.</name><name type="nomen">Valentinius</name><name type="cognomen">Firmus</name></persName></person><person xml:id="HD057411_2" sex="W"><persName><name type="nomen">Valentinia</name><name type="cognomen">Sucela</name></persName></person><person xml:id="HD057411_3" sex="M"><persName><name type="cognomen">Priscus</name></persName></person><person xml:id="HD057411_4" sex="M"><persName><name type="cognomen">Firminus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-05-13" who="Krenn">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>T</abbr><ex>itus</ex></expan> Valentinius <lb n="2"/><expan><abbr>T</abbr><ex>iti</ex></expan> <expan><abbr>lib</abbr><ex>ertus</ex></expan> Firmus et <lb n="3"/>Valentinia Pris<lb break="no" n="4"/>ci <expan><abbr>lib</abbr><ex>erta</ex></expan> Sucela <expan><abbr>v</abbr><ex>ivi</ex></expan> <expan><abbr>f</abbr><ex>ecerunt</ex></expan> <lb n="5"/><expan><abbr>sib</abbr><ex>i</ex></expan> et Firmino <lb n="6"/>Prisci <expan><abbr>ser</abbr><ex>vo</ex></expan> <expan><abbr>fil</abbr><ex>io</ex></expan> <lb n="7"/><expan><abbr>an</abbr><ex>norum</ex></expan> XVIII
+            </ab></div>
+            <div type="commentary">
+                <p>Hederae in Z. 1-2 und 4-7. (B): CIL 03, 04770: Z. 2: [l]ib; Z. 4: [l]ib.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILLPRON 0394.</bibl><bibl>CIL 03, 04770. (B)</bibl><bibl>CIL 03, 04770 add. p. 1812.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

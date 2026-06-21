@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Lauriacum &amp;ndash; Enns (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD065788</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD065788</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Leonding, Depot Oberösterr. Landesmus.?</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">tabula?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(23)</height><width>(48)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118802">Lauriacum</placeName></origPlace><origDate><origDate notBefore-custom="0171" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2780048">Enns</placeName><placeName type="findspot"/><placeName type="region">Oberösterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD065788_1" sex="M"><persName><name type="nomen">Iulius*</name><name type="cognomen">P[---]tanus+</name></persName></person><person xml:id="HD065788_2" sex="M"><persName><name type="nomen">Rufinius+?</name><name type="cognomen">[---]sta[---]?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-08-27" who="Gräf">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Iul</abbr><ex>io</ex></expan> P<gap reason="lost" extent="unknown" unit="character"/>tan<supplied reason="lost">o</supplied> opt<supplied reason="lost">i</supplied><lb break="no" n="2"/>oni l<supplied reason="lost"><expan><abbr>eg</abbr><ex>ionis</ex></expan> II It</supplied><expan><abbr>al</abbr><ex>icae</ex></expan> @(obito) <expan><abbr>an</abbr><ex>norum</ex></expan> XL <lb n="3"/><expan><abbr>stip</abbr><ex>endiorum</ex></expan> XX<gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">mar</supplied>ito et <supplied reason="lost" cert="low">R</supplied>ufi<lb break="no" n="4"/><supplied reason="lost" cert="low">ni</supplied>o <gap reason="lost" extent="unknown" unit="character"/><expan><abbr>S</abbr><ex cert="low"/>ta</expan><gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Drei nicht aneianderpassende Fragmente erhalten. Z. 4: von S(?) nur ein kleiner Rest des rechten oberen Endes erhalten. (B): CIL III 5681 a; CIL III 6585; CIL III 11823; ILLPRON: Lesung unvollständig / abweichend.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 05681 a. (B)</bibl><bibl>CIL 03, 05685. (B)</bibl><bibl>CIL 03, 11823. (B)</bibl><bibl>ILLPRON 0931. (B)</bibl><bibl>H. Petrovitsch, Legio II Italica (Linz 2006) 58-59, Nr. L.22; Zeichnung.</bibl><bibl>S. Traxler, Die römischen Grabdenkmäler von Lauriacum und Lentia.</bibl><bibl>Stein - Relief - Inschrift (Linz 2009) 99, Nr. ENNS G41; Zeichnung.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

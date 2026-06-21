@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Rusellae &amp;ndash; Roselle (Etruria (Regio VII))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD032320</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD032320</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Grosseto, Mus. Arch.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material>Marmor, geädert / farbig</material><dimensions unit="cm"><height>(30)</height><width>(32)</width><depth>2</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.1-3.7</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Etruria (Regio VII)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/413288">Rusellae</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0050" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 50 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1979"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roselle</placeName><placeName type="findspot">Domus dei Mosaici</placeName><placeName type="region">Toscana</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD032320_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">Niger</name></persName></person><person xml:id="HD032320_2" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">Hylas*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2010-06-17" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                ------<certainty match="preceding-sibling::node()" locus="value"/>] <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr><supplied reason="lost">Se</supplied>x</abbr><ex>ti</ex></expan> <expan><abbr>l</abbr><ex>ibertus</ex></expan> Niger <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>l</abbr><ex>ibertus</ex></expan> <expan><abbr>Hyla</abbr><ex>s</ex></expan> <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost" cert="low"> cu</supplied><expan><abbr>rat</abbr><ex cert="low">ores</ex></expan> <lb n="5"/><supplied reason="lost">seviri Augus</supplied>tales <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>6 aneinanderpassende Fragmente. Material: grau geäderter weißer Marmor. (B): AE 1998: Z. 3: [--- cu]ratores?. Solin: aufgrund der relativ weiten Verbreitung für die Schreibweise Hyla statt Hyla(s).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1998, 0471. (B)</bibl><bibl>S. Conti, SupplIt 16 (Roma 1998) 147-148, Nr. 55; Foto. - AE 1998.</bibl><bibl>AE 2000, 0559.</bibl><bibl>H. Solin, Arctos 34, 2000, 154, Nr. 55. - AE 2000.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

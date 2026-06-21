@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Solva, bei &amp;ndash; Esztergom (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD038329</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD038329</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Budapest, Magyar Nemzeti Múz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>208</height><width>98</width><depth>24</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6-4.8</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197519">Solva, bei</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1854"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3053163">Esztergom</placeName><placeName type="findspot">{Kórházhegy (Ispitahegy)}</placeName><placeName type="region">Komárom-Esztergom megye</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD038329_1" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Caesernius*</name><name type="cognomen">Sabinus</name></persName></person><person xml:id="HD038329_2" sex="M"><persName><name type="nomen">Caesernius*</name><name type="cognomen">Paulinus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-03-31" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> perpetu<expan><ex>a</ex><abbr>e</abbr></expan> securi<lb break="no" n="2"/>tati <expan><abbr>Lu</abbr><ex>cio</ex></expan> C<expan><ex>a</ex><abbr>esern</abbr><ex>io</ex></expan> Sabino <lb n="3"/>qui vixit annis XXXVIII <lb n="4"/>me<expan><ex>n</ex><abbr>ses</abbr></expan> VII <expan><abbr>Caeserni</abbr><ex>us</ex></expan> <lb n="5"/>Paulinus strator <lb n="6"/>co<expan><ex>n</ex><abbr>s</abbr><ex>ularis</ex></expan> fratri pientissimo <lb n="7"/><expan><abbr>f</abbr><ex>aciendum</ex></expan> <expan><abbr>c</abbr><ex>uravit</ex></expan>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Oberhalb des Inschriftfeldes Opferszene; darüber männliche Halbfigur. Z. 1: D und M stehen links und rechts des Inschriftfeldes auf dem Rahmen. Z. 2-4 u. 7: die letzten Buchstaben ganz oder teilweise auf dem Rahmen. Z. 2: VR-Ligatur; Z. 3: TI-, AB-, IN-Ligatur; Z. 4: AN-Ligatur; Z. 5: ME-, AE-Ligatur; Z. 6: VL-, VS-Ligatur; Z. 7: TR-Ligatur. (B): CIL III: Abweichungen in der Lesung.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>RIU 0784; Abb. 784 (Foto u. Zeichnung).</bibl><bibl>CIL 03, 03654. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

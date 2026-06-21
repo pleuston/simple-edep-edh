@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Augusta Treverorum &amp;ndash; Trier (Belgica)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD076881</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD076881</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Trier, Rhein. Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor, weiß</material><dimensions unit="cm"><height>27</height><width>41</width><depth>4</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">1.5-2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Belgica</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/108894">Augusta Treverorum</placeName></origPlace><origDate><origDate notBefore-custom="0631" notAfter-custom="0730" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">631 AD - 730 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1936"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2821164">Trier</placeName><placeName type="findspot">{S. Maximin, Kirche}</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD076881_1" sex="M"><persName><name type="cognomen">Modoaldus*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-06-15" who="Cowey">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Hic requiescit vir venera<lb break="no" n="2"/>belis <note>sic</note> adol&amp;lt;e=I&amp;gt;scens <expan><abbr>nu</abbr><ex>mine</ex></expan> <expan><abbr>Modoal</abbr><ex>dus</ex></expan> <lb n="3"/>qui vixit plus mi<expan><ex>nu</ex><abbr>s</abbr></expan> <expan><abbr>an</abbr><ex>nos</ex></expan> XVI obiit <lb n="4"/>in pace quod f&amp;lt;e=I&amp;gt;cit m<expan><ex>e</ex><abbr>ns</abbr></expan><supplied reason="lost">is</supplied> <lb n="5"/>F<expan><ex>e</ex><abbr>br</abbr><ex>uariu</ex><abbr>s</abbr></expan> dies VIII cuius pater et <expan><abbr>mat</abbr><ex>er</ex></expan> <lb n="6"/>in am&amp;lt;o=V&amp;gt;re ipsius <expan><abbr>titul</abbr><ex>um</ex></expan> posu&amp;lt;e=I&amp;gt;<lb break="no" n="7"/>runt in pace 
+            </ab></div>
+            <div type="commentary">
+                <p>Unterhalb der Inschrift Darstellung eines Christograms mit Alpha und Omega und symmetrisch flankierenden Tauben. (B): Z. 2 Numodoal statt nu(mine) Modoal(dus).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>H. Nesselhauf, BRGK 27, 1937, 59, Nr. 31. (B)</bibl><bibl>E. Gose, Katalog der frühchristlichen Inschriften in Trier (Berlin 1958) 64, Nr. 450; Foto. (B)</bibl><bibl>RICG 01, 147; Foto.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Vindonissa, bei &amp;ndash; Brugg (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD080375</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD080375</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Brugg, Vindonissa-Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/35">architectural member</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(51)</height><width>(85)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/177661">Vindonissa, bei</placeName></origPlace><origDate><origDate when-custom="0079" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">79 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1550"><placeName type="country" ref="https://www.geonames.org/2658434">Switzerland</placeName><placeName type="modern" ref="http://www.geonames.org/2661374">Brugg</placeName><placeName type="findspot">{ehemaliger Effingerhof}</placeName><placeName type="region">Kanton Aargau</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD080375_1" sex="M"><persName><name type="praenomen">T.</name><name type="cognomen">Vespasianus</name></persName></person><person xml:id="HD080375_2" sex="M"><persName><name type="praenomen">T.</name><name type="nomen">Urbanius</name><name type="cognomen">Matto</name></persName></person><person xml:id="HD080375_3" sex="M"><persName><name type="praenomen">T.</name><name type="nomen">Valerius*</name><name type="cognomen">Albanus</name></persName></person><person xml:id="HD080375_4" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Veturius</name><name type="cognomen">Melus</name></persName></person><person xml:id="HD080375_5" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Cottius</name><name type="cognomen">Rufus+</name></persName></person><person xml:id="HD080375_6" sex="M"><persName><name type="praenomen">Q.</name><name type="nomen">Sextius</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-09-08" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F028798" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/8961c34b-79c3-41dd-88c7-7ed3c397330b/file/id/789555/file_version/name/small"/><graphic xml:id="F028797" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/652e32c4-a032-440e-8b82-dba5a021b1fb/file/id/789553/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>eratore</ex></expan> <expan><abbr>T</abbr><ex>ito</ex></expan> Vespasiano <lb n="2"/><expan><abbr>Caesar</abbr><ex>e</ex></expan> <expan><abbr>Aug</abbr><ex>usto</ex></expan> VII co<expan><ex>n</ex><abbr>s</abbr><ex>ule</ex></expan> <lb n="3"/>Marti Apollini Minervae <lb n="4"/>arcum <lb n="5"/>vicani Vindonissenses <lb n="6"/><expan><abbr>cur</abbr><ex>antibus</ex></expan> <expan><abbr>T</abbr><ex>ito</ex></expan> Urbanio Mattoni <expan><abbr>T</abbr><ex>ito</ex></expan> <lb n="7"/><expan><abbr>Valer</abbr><ex>io</ex></expan> Albano <expan><abbr>L</abbr><ex>ucio</ex></expan> Veturio Melo <expan><abbr>C</abbr><ex>aio</ex></expan> Cottio <lb n="8"/>Ru<supplied reason="lost">f</supplied>o <expan><abbr>Q</abbr><ex>uinto</ex></expan> Sextio <gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Block aus einem Ehrenbogen, Teile der Z. 3 modern ergänzt.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 05195.</bibl><bibl>G. Walser, Römische Inschriften in der Schweiz 2 (Bern 1980) 82-83, Nr. 149; Foto.</bibl><bibl>M. Hartmann, Vindonissa. Oppidum - Legionslager - Castrum (Windisch 1986) 109; Abb. 97.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

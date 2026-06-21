@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Semerovo (Barbaricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD033417</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD033417</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Semerovo, römisch-katholische Kirche, vermauert; Komárno, Festung, Bastion 6, Lapidarium (Kopie)</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">tabula?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(47)</height><width>98</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Barbaricum</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate when-custom="0229" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">229 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3057568">Slovakia</placeName><placeName type="modern">Semerovo</placeName><placeName type="findspot">römisch-katholische Kirche, sekundär verwendet</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD033417_1" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Aurelius*</name><name type="cognomen">Severus Alexander+++</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-06-08" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>erator</ex></expan> <expan><abbr>Caes</abbr><ex>ar</ex></expan> <expan><abbr>M</abbr><ex>arcus</ex></expan> <expan><abbr>Aur</abbr><ex>elius</ex></expan> Seve<lb break="no" n="2"/>rus <del rend="erasure"><supplied reason="lost">Al</supplied>e[xander</del>] Pi<supplied reason="lost">us Fe</supplied><lb break="no" n="3"/>lix <expan><abbr>Aug</abbr><ex>ustus</ex></expan> <expan><abbr>pont</abbr><ex>ifex</ex></expan> m<supplied reason="lost"><expan><abbr>ax</abbr><ex>imus</ex></expan> <expan><abbr>trib</abbr><ex>unicia</ex></expan></supplied> <lb n="4"/><expan><abbr>pot</abbr><ex>estate</ex></expan> VIII <supplied reason="lost">c</supplied>on<supplied reason="lost"><expan><abbr>s</abbr><ex>ul</ex></expan> III <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan></supplied> <lb n="5"/><expan><abbr>I</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"><certainty match=".." locus="name"/></gap>
+            </ab></div>
+            <div type="commentary">
+                <p>Inschriftträger: Tafel oder Block. Das Inschriftfeld wird seitlich von Pelten eingefasst. Oberfläche zum großen Teil stark verrieben und verwittert; Buchstaben teilweise schwer lesbar. (B): von Finály; AE 1904: geringfügige Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1904, 0154. (B)</bibl><bibl>RIU 0745; Abb. 745 (Foto u. Zeichnung).</bibl><bibl>G. von Finály, AErt 23, 1903, 404. (B) - AE 1904.</bibl><bibl>F. Harl - B. Lőrincz, Führer zum römischen Lapidarium in Bastion VI der Festung Komárno (Komárno – Wien 2002) 57-58, Nr. 65; Foto.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Santicum, bei &amp;ndash; Villach (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD057527</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD057527</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Villach, Mus. der Stadt Villach</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(52)</height><width>84</width><depth>15</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6.5-5.0</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/187537">Santicum, bei</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1962"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2762372">Villach</placeName><placeName type="findspot">S. Martin, {S. Martin, Kirche}, sekundär verwendet</placeName><placeName type="region">Kärnten</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD057527_1" sex="M"><persName><name type="cognomen">Mansuetus*</name></persName></person><person xml:id="HD057527_2" sex="W"><persName><name type="cognomen">Cogitata*</name></persName></person><person xml:id="HD057527_3" sex="M"><persName><name type="cognomen">Fabianus</name></persName></person><person xml:id="HD057527_4"><persName><name type="cognomen">[---]</name></persName></person><person xml:id="HD057527_5" sex="W"><persName><name type="cognomen">Samtu</name></persName></person><person xml:id="HD057527_6" sex="M"><persName><name type="cognomen">Mandatius</name></persName></person><person xml:id="HD057527_7" sex="M"><persName><name type="cognomen">Secundius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-05-12" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Ma<expan><ex>n</ex><abbr>sueto</abbr></expan> et Cogitat<expan><ex>a</ex><abbr>e</abbr></expan> <lb n="2"/>Fabiani servis <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> et Samtuni <lb n="4"/>Mandatius Secun<lb break="no" n="5"/>dio fratri optimo
+            </ab></div>
+            <div type="commentary">
+                <p>Zwei nicht aneinanderpassende Fragmente. Fundumstände: oberes Fragment (Leber Nr. 8): 1950 an der Außenseite der Kirche; unteres Fragment (Leber Nr. 21) 1962 beim Einsturz des Kirchturms. (B): ILLPRON 0690; Leber 1972, 21, Nr. 21: Z. 1-4 fehlen; Leber 1972, 16-17, Nr. 8: Z. 4: [---]nio et Samtuni; ILLPRON 0693; Gerstl; Leber 1972, 16-17, Nr. 8: Z. 5-6 fehlen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILLPRON 0690. (B)</bibl><bibl>ILLPRON 0693. (B)</bibl><bibl>P.S. Leber, Die in Kärnten seit 1902 gefundenen römischen Steininschriften (Klagenfurt 1972) 16-17, Nr. 8. (B)</bibl><bibl>P.S. Leber, Die in Kärnten seit 1902 gefundenen römischen Steininschriften (Klagenfurt 1972) 21, Nr. 21. (B)</bibl><bibl>A. Gerstl, Supplementum epigraphicum zu CIL III für Kärnten und Osttirol 1902-1961 (Diss. Wien 1961) 56-57, Nr. 130. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

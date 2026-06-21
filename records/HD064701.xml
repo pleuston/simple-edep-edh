@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Pecë (Epirus)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD064701</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD064701</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Tirana, Muz. Ark. Komb.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/85">cippus</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>66</height><width>27</width><depth>27</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Epirus</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0305" notAfter-custom="0306" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">305 AD - 306 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/783754">Albania</placeName><placeName type="modern" ref="http://www.geonames.org/363264">Pecë</placeName><placeName type="findspot"/><placeName type="region">Qarku i Vlorës</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD064701_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q43107"><name type="cognomen">Diocletianus</name></persName></person><person xml:id="HD064701_2" sex="M"><persName><name type="cognomen">Maximianus++</name></persName></person><person xml:id="HD064701_3" sex="M"><persName><name type="cognomen">Constantius</name></persName></person><person xml:id="HD064701_4" sex="M"><persName><name type="cognomen">Maximianus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-01-22" who="Ehmig">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F024739" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/84e3eb63-97f2-46a1-9f76-f142f49478b9/file/id/785406/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Diis Genitis <lb n="2"/><expan><abbr>d<am>d</am></abbr><ex>ominis</ex></expan> <expan><abbr>n<am>n</am></abbr><ex>ostris</ex></expan> <lb n="3"/>Diocletiano et <lb n="4"/><del rend="erasure">Maximiano</del> <lb n="5"/>beatis <lb n="6"/>felicibusque <lb n="7"/>patribus <lb n="8"/><expan><abbr>d<am>d</am></abbr><ex>ominorum</ex></expan> <expan><abbr>n<am>n</am></abbr><ex>ostrorum</ex></expan> <lb n="9"/>Constantio et <lb n="10"/>Maximiano <lb n="11"/><supplied reason="lost"><expan><abbr>Augg</abbr><ex>ustorum</ex></expan></supplied>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>S. Anamali - H. Ceka - É. Deniaux, Corpus des inscriptions latines d’Albanie (Rome 2009) 202, Nr. 281; Foto.</bibl><bibl>U. Ehmig - R. Haensch, Die lateinischen Inschriften aus Albanien (LIA) (Bonn 2012) 697-698, Nr. 301; Foto.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

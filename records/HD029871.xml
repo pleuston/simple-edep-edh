@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Intercisa &amp;ndash; Dunaújváros (Pannonia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD029871</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD029871</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Budapest, Magyar Nemzeti Múz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>58</height><width>226</width><depth>14</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.1</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197323">Intercisa</placeName></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3053438">Dunaújváros</placeName><placeName type="findspot">Weingarten des Ferenc Hauser</placeName><placeName type="region">Fejér megye</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD029871_1" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Aurelius*</name><name type="cognomen">Alexander</name></persName></person><person xml:id="HD029871_2" sex="W"><persName><name type="nomen">Aurelia</name><name type="cognomen">Rufina</name></persName></person><person xml:id="HD029871_3" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Aurelius*</name><name type="cognomen">Valerianus</name></persName></person><person xml:id="HD029871_4" sex="W"><persName><name type="nomen">Aurelia</name><name type="cognomen">Valeriana?</name></persName></person><person xml:id="HD029871_5" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Aurelius*</name><name type="cognomen">Aurelianus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-12-05" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>M</abbr><ex>arco</ex></expan> <expan><abbr>Aur</abbr><ex>elio</ex></expan> Alexandro <expan><abbr>vet</abbr><ex>erano</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> II <expan><abbr>adi</abbr><ex>utricis</ex></expan> <expan><abbr>q</abbr><ex>ui</ex></expan> <expan><abbr>v</abbr><ex>ixit</ex></expan> <expan><abbr>n<am>n</am></abbr><ex>os</ex></expan> LXX et <lb n="2"/>Aureliae Rufinae eius <expan><abbr>q</abbr><ex>uae</ex></expan> <expan><abbr>v</abbr><ex>ixit</ex></expan> <expan><abbr>n<am>n</am></abbr><ex>os</ex></expan> LXI et <expan><abbr>M</abbr><ex>arco</ex></expan> <expan><abbr>Aur</abbr><ex>elio</ex></expan> <lb n="3"/>Valeriano <expan><abbr>mil</abbr><ex>iti</ex></expan> <expan><abbr>coh</abbr><ex>ortis</ex></expan> |(miliariae) <expan><abbr>Hem</abbr><ex>esenorum</ex></expan> <expan><abbr>q</abbr><ex>ui</ex></expan> <expan><abbr>v</abbr><ex>ixit</ex></expan> <expan><abbr>n<am>n</am></abbr><ex>os</ex></expan> XXV <expan><abbr>fil</abbr><ex>io</ex></expan> et <lb n="4"/>Aureliae Valeri&amp;lt;a<certainty match="preceding-sibling::node()" locus="value"/>&amp;gt;nae <expan><abbr>q</abbr><ex>uae</ex></expan> <expan><abbr>v</abbr><ex>ixit</ex></expan> <expan><abbr>n<am>n</am></abbr><ex>os</ex></expan> XVIII <expan><abbr>fil</abbr><ex>iae</ex></expan> eorum <lb n="5"/><expan><abbr>M</abbr><ex>arcus</ex></expan> <expan><abbr>Aur</abbr><ex>elius</ex></expan> Aurelianus <expan><abbr>vet</abbr><ex>eranus</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> <expan><abbr>s</abbr><ex>upra</ex></expan> <expan><abbr>s</abbr><ex>criptae</ex></expan> ex <expan><abbr>strat</abbr><ex>ore</ex></expan> co<expan><ex>n</ex><abbr>s</abbr><ex>ularis</ex></expan> <lb n="6"/>co&amp;lt;g=C&amp;gt;natis dignissimis 
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Mahler, AE 1910: Z. 1 (Ende): et M.; Z. 2: ann. [---] et; Z. 3: XXIV; Z. 3 (Ende): et M.; Z. 4: eorum; Z. 5: M. Aurelianus; ss(ociorum).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1910, 0144. (B)</bibl><bibl>RIU 1176; Abb. 1176 (Zeichnung).</bibl><bibl>E. Mahler, AErt 29, 1909, 330-331, Nr. 4. (B) - AE 1910.</bibl><bibl>G. Erdélyi - F. Fülep, in: L. Barkóczi u. a., Intercisa I. (Dunapentele - Sztálinváros). Geschichte der Stadt in der Römerzeit (Budapest 1954) 296, Nr. 117; Taf. 50, 4.</bibl><bibl>B. Lőrincz, Die römischen Hilfstruppen in Pannonien während der Prinzipatszeit 1. Die Inschriften (Wien 2001) 263, Nr. 354.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

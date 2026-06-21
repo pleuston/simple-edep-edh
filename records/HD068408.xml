@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Neviodunum, bei &amp;ndash; Krško (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD068408</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD068408</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Ljubljana, Nar. Muz. Slov.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(74)</height><width>(24)</width><depth>21</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.5-5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197408">Neviodunum, bei</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1891"><placeName type="country" ref="https://www.geonames.org/3190538">Slovenia</placeName><placeName type="modern" ref="http://www.geonames.org/8989371">Krško</placeName><placeName type="findspot">{Stari Grad v Podbočju}</placeName><placeName type="region">Posavska statistična regija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD068408_1" sex="M"><persName ref="http://romans1by1.com/rpeople/18839"><name type="nomen">Claudius*</name><name type="cognomen">Ci[---]?</name></persName></person><person xml:id="HD068408_2" sex="W"><persName ref="http://romans1by1.com/rpeople/18840"><name type="nomen">[---]</name><name type="cognomen">Secund[---]+</name></persName></person><person xml:id="HD068408_3"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">Pater[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-12-03" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F008736" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/2635b076-e119-44bb-872f-864713e37156/file/id/768503/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <supplied reason="lost"><expan><abbr>M</abbr><ex>anibus</ex></expan></supplied> <lb n="2"/><expan><abbr>Cl</abbr><ex>audius</ex></expan> <expan><abbr>CI</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/>vivu<supplied reason="lost">s fecit</supplied> <lb n="4"/>sibi et <gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/>Secun<supplied reason="lost">d</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="6"/>coniu<supplied reason="lost">gi</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="7"/>Pater<gap reason="lost" extent="unknown" unit="character"/> <lb n="8"/>anno<gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): CIL 03, 10806: Z. 3: VIVVS; Z. 8: ANN.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 10806. (B)</bibl><bibl>CIL 03, 10806 add. p. 2187.</bibl><bibl>CIL 03, 10806 add. p. 2328, 26.</bibl><bibl>ILSl 1, 073; Foto.</bibl><bibl>M. Šašel Kos, The Roman inscriptions in the National Museum of Slovenia (Ljubljana 1997) 397-399, Nr. 140; Foto.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

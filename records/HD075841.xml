@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from (Civitas Auderiensium) &amp;ndash; Obernburg/Main (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD075841</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD075841</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Obernburg/Main, Römermus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>90</height><width>40</width><depth>22</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118889">(Civitas Auderiensium)</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1954"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2859675">Obernburg/Main</placeName><placeName type="findspot">{nördliche Nekropole}</placeName><placeName type="region">Bayern</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD075841_1" sex="M"><persName><name type="cognomen">Honoratianus</name></persName></person><person xml:id="HD075841_2" sex="M"><persName><name type="nomen">Flavius*</name><name type="cognomen">Florentinus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-01-15" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F023380" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/bf7b3ee6-c135-4139-905f-c167fc186917/file/id/784039/file_version/name/small"/><graphic xml:id="F023379" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/8fdadf45-8ffc-4769-a3e3-b4b20d7e5fde/file/id/784038/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/>Honoratia<lb break="no" n="3"/>no filio <lb n="4"/>hic iacet exa<lb break="no" n="5"/>nimis fatis pro<lb break="no" n="6"/>perantibus i<expan><ex>n</ex><abbr>fans</abbr></expan> <lb n="7"/>bis quinis tantum <lb n="8"/>qui vixit mensib<expan><ex>u</ex><abbr>s</abbr></expan> <lb n="9"/>idem con<expan><ex>g</ex><abbr>esta</abbr></expan> <lb n="10"/>tegitur nunc hic <lb n="11"/>tellure sepultus <lb n="12"/>huic pater aetern<lb break="no" n="13"/>um ti<expan><ex>t</ex><abbr>u</abbr></expan><supplied reason="lost">lo</supplied> conscri&amp;lt;p=B&amp;gt;<expan><abbr>s</abbr><ex>it</ex></expan> <lb n="14"/>honorem <expan><abbr>Fl</abbr><ex>avius</ex></expan> Floren<lb break="no" n="15"/>tinus pater <expan><abbr>f</abbr><ex>aciundum</ex></expan> <expan><abbr>c</abbr><ex>uravit</ex></expan> 
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Hermann 1972: Z. 8: concesta; Z. 13: conscribsit; Z. 14: honor[em].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>RSO 198; Taf. 8, 198.</bibl><bibl>F.X. Hermann, Gymnasium 66, 1959, 137-140; Taf. 9.</bibl><bibl>F.X. Hermann, Aschaffenburger Jahrbuch 5, 1972, 17-49. (B)</bibl><bibl>H. Nesselhauf - H. Lieb, BRGK 40, 1959, 179, Nr. 152.</bibl><bibl>M. Mattern, Römische Steindenkmäler aus Hessen südlich des Mains sowie vom bayerischen Teil des Mainlimes, CSIR Deutschland 2, 13 (Mainz 2005) 101-102, Nr. 156; Taf. 53, 156.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

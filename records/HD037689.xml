@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Carthago Nova &amp;ndash; Cartagena (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD037689</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD037689</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Cartagena, Mus. Arq. Mun.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>38</height><width>45</width><depth>3</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-3.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Hispania citerior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/265849">Carthago Nova</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern" ref="http://www.geonames.org/2520058">Cartagena</placeName><placeName type="findspot"/><placeName type="region">Comunidad Autónoma de la Región de Murcia</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD037689_1"><persName><name type="nomen">Caesius</name><name type="cognomen">Cosmus</name></persName></person><person xml:id="HD037689_2"><persName><name type="nomen">Caesia</name><name type="cognomen">Iucunda</name></persName></person><person xml:id="HD037689_3"><persName><name type="praenomen">M.</name><name type="nomen">Caesius</name><name type="cognomen">Cosmio</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2005-07-27" who="Garcia">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F012400" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/80ee2462-e6ec-4d94-bfe4-f1d3edad0308/file/id/771923/file_version/name/small"/><graphic xml:id="F012544" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/ef7fb633-f4ac-459a-9fbd-70aeea3d224a/file/id/772067/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Caesii Cos<lb break="no" n="2"/>mus et Iucun<lb break="no" n="3"/>da <expan><abbr>M</abbr><ex>arco</ex></expan> Caesio <lb n="4"/>Cosmioni pio <lb n="5"/>filio <expan><abbr>n<am>n</am></abbr><ex>orum</ex></expan> XX
+            </ab></div>
+            <div type="commentary">
+                <p>Tafel in drei Fragmente gebrochen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>J.M. Abascal palazón - S.F. Ramallo Asensio, La ciudad de Carthago Nova: La documentación epigráfica (Murcia 1997) 334-335, Nr. 129; lám. 119.</bibl><bibl>CIL 02, 03456.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

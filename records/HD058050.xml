@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Asseria, bei &amp;ndash; Benkovac (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD058050</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD058050</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">tabula?</objectType><dimensions unit="cm"><height>56</height><width>38</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197145">Asseria, bei</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1890"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3201449">Benkovac</placeName><placeName type="findspot">{Donji Lepuri}, sekundär verwendet</placeName><placeName type="region">Zadarska županija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD058050_1" sex="M"><persName><name type="nomen">Vatinius?</name><name type="cognomen">Valens?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-11-16" who="Gräf">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/><expan><abbr>Valenti</abbr><ex cert="low"/></expan> <lb n="3"/><expan><abbr>Vatinio</abbr><ex cert="low"/></expan> <lb n="4"/>pientissi<lb break="no" n="5"/>mo puer<supplied reason="lost">o</supplied> <lb n="6"/><expan><abbr>an</abbr><ex>norum</ex></expan> XVI <lb n="7"/><expan><abbr>d</abbr><ex>ierum</ex></expan> XVII
+            </ab></div>
+            <div type="commentary">
+                <p>Blattornament auf dem Rahmen des Inschriftfeldes. Unterhalb der Inschrift eine ascia. Z. 5 (Ende): O war bei der Auffindung noch lesbar und stand auf dem Rahmen. (B): CIL III 9950; Sticotti: Z. 2/3: Valentil/la filio; CIL III 13256: Z. 2: Vale[rio?].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 09950. (B)</bibl><bibl>CIL 03, 09950 add. p. 2168.</bibl><bibl>CIL 03, 13256. (B)</bibl><bibl>P. Sticotti, AEM 16, 1893, 48.</bibl><bibl>A. Vukičević, BAHD 14, 1891, 18-19, Nr. 14.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Colonia Claudia Augusta? Agrippinensium &amp;ndash; Köln (Germania inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD075854</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD075854</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bonn, Rhein. Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">architectural member?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>60</height><width>146</width><depth>42</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/108751">Colonia Claudia Augusta? Agrippinensium</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1886"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/6324464">Köln</placeName><placeName type="findspot">{Trankgasse}, Eisenbahnviadukt, Pfeiler VI, sekundär verwendet</placeName><placeName type="region">Nordrhein-Westfalen</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD075854_1" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Marius</name><name type="cognomen">Valnes+</name></persName></person><person xml:id="HD075854_2" sex="W"><persName><name type="nomen">Petronia+?</name><name type="cognomen">Severa</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-10-07" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F019986" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/1eb8a7a6-1894-498a-8811-5cef3321c3c0/file/id/780058/file_version/name/small"/><graphic xml:id="F019988" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/77040202-8fb3-458a-904a-9303b43ca559/file/id/780060/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>M</abbr><ex>arcus</ex></expan> Marius Valen<supplied reason="lost">s</supplied> Galata <lb n="2"/><expan><abbr>veter</abbr><ex>anus</ex></expan> <supplied reason="lost">ex</supplied> <expan><abbr>dec</abbr><ex>urione</ex></expan> alae Classianae <lb n="3"/>sib<supplied reason="lost" cert="low">i et Petr</supplied>oniae Severae uxo<lb break="no" n="4"/><supplied reason="lost">ri obit</supplied>ae fecit
+            </ab></div>
+            <div type="commentary">
+                <p>Vermutlich Bestandteil eines größeren Grabbaus (Willer).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 08306; Zeichnung.</bibl><bibl>ILS 2534.</bibl><bibl>B. Galsterer - H. Galsterer, Die römischen Steininschriften aus Köln, IKöln (2.</bibl><bibl>Aufl.) (Mainz 2010) 297-298, Nr. 358; Foto.</bibl><bibl>H. Lehner, Die antiken Steindenkmäler des Provinzialmuseums in Bonn (Bonn 1918) 256, Nr. 648; Zeichnung.</bibl><bibl>G. Alföldy, Die Hilfstruppen der römischen Provinz Germania Inferior, EpStud 6 (Düsseldorf 1968) 175-176, Nr. 30.</bibl><bibl>S. Willer, Römische Grabbauten des 2. und 3. Jahrhunderts nach Christus im Rheingebiet (Mainz 2005) 171, Nr. 138.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

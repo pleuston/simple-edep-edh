@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Sirmium &amp;ndash; Sremska Mitrovica (Pannonia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD047148</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD047148</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Sremska Mitrovica, Muz. Srema</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(95)</height><width>(48)</width><depth>(39)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7-2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207447">Sirmium</placeName></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1992"><placeName type="country" ref="https://www.geonames.org/6290252">Serbia</placeName><placeName type="modern" ref="http://www.geonames.org/3190103">Sremska Mitrovica</placeName><placeName type="findspot">{Kralja Petra I 59}</placeName><placeName type="region">Vojvodina</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD047148_1" sex="M"><persName ref="http://romans1by1.com/rpeople/162"><name type="nomen">Flavius*</name><name type="cognomen">Constantius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-04-18" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> Bono <lb n="1"/>Evento <lb n="2"/>renovavi <lb n="3"/>ex voto pro <lb n="4"/>salute <expan><abbr>ord</abbr><ex>inis</ex></expan> <lb n="5"/><expan><abbr>Sirm</abbr><ex>iensium</ex></expan> <expan><abbr>patr</abbr><ex>onorum</ex></expan> <expan><abbr>viror</abbr><ex>um</ex></expan> <lb n="6"/>em&amp;lt;i=E&amp;gt;nentissimo<lb break="no" n="7"/>rum <expan><abbr>Flav</abbr><ex>ius</ex></expan> <lb n="8"/>Constantius custo&amp;lt;s=R&amp;gt; <lb n="9"/>Matris deae libertus 
+            </ab></div>
+            <div type="commentary">
+                <p>Lesung nach Ricl. (B): Mirković, AE 1998: abweichende Textwiedergabe.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1998, 1051. (B)</bibl><bibl>AE 2001, 1661.</bibl><bibl>M. Ricl, ZPE 134, 2001, 287-296; Fotos. - AE 2001.</bibl><bibl>M. Mirković, Starinar 49, 1998, 93-97, Nr. 1; fig. 1. (B) - AE 1998.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

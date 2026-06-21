@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Venta Silurum &amp;ndash; Caerwent (Britannia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD031305</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD031305</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Caerwent, S. Stephen und S. Tathan, Kirche</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">statue base</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/70">Oolith</material><dimensions unit="cm"><height>(119)</height><width>67</width><depth>53</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Britannia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/79733">Venta Silurum</placeName></origPlace><origDate><origDate when-custom="0220" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">220 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1903"><placeName type="country" ref="https://www.geonames.org/2635167">United Kingdom</placeName><placeName type="modern" ref="http://www.geonames.org/2654087">Caerwent</placeName><placeName type="findspot">{Village Green}</placeName><placeName type="region">Gwent</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD031305_1" sex="M"><persName><name type="praenomen">Ti.+</name><name type="nomen">Claudius+</name><name type="cognomen">Paulinus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-11-24" who="Cowey">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F009144" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/c10b2783-14ee-46a6-83c0-326296042ce7/file/id/768910/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><expan><abbr>leg</abbr><ex>ato</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> <supplied reason="lost">I</supplied>I <lb n="2"/><expan><abbr>Aug</abbr><ex>ustae</ex></expan> <expan><abbr>proconsu</abbr><ex>li</ex></expan> <lb n="3"/><expan><abbr>provinc</abbr><ex>iae</ex></expan> Nar<lb break="no" n="4"/>bonensis <lb n="5"/><expan><abbr>leg</abbr><ex>ato</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>pr</abbr><ex>o</ex></expan> <expan><abbr>pr</abbr><ex>aetore</ex></expan> <expan><abbr>prov</abbr><ex>inciae</ex></expan> <lb n="6"/><expan><abbr>Lugdunen</abbr><ex>sis</ex></expan> <lb n="7"/>ex decreto <lb n="8"/>ordinis res <lb n="9"/><expan><abbr>publ</abbr><ex>ica</ex></expan> <expan><abbr>civit</abbr><ex>atis</ex></expan> Silurum
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1903, 0232.</bibl><bibl>F. Haverfield, The Athenaeum 1903, 420; (Zeichnung). - AE 1903.</bibl><bibl>AE 1904, p. 7 s. n. 31.</bibl><bibl>EphEp 9, p. 525 n. 1012.</bibl><bibl>RIB 0311; Zeichnung.</bibl><bibl>PIR (2. Aufl.) C 955.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

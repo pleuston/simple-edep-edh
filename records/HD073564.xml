@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Carnuntum, bei &amp;ndash; Müllendorf (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD073564</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD073564</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Eisenstadt, Landesmus. Burgenland</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(31)</height><width>(18)</width><depth>13</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">2-2.8</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/128376">Carnuntum, bei</placeName></origPlace><origDate><origDate notBefore-custom="0124" notAfter-custom="0194" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">124 AD - 194 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1904"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2771049">Müllendorf</placeName><placeName type="findspot"/><placeName type="region">Burgenland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-08-24" who="Osnabrügge">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr><supplied reason="lost">Silv</supplied>an</abbr><ex>o</ex></expan> <lb n="2"/>C<supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied>LL<supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied> A<supplied reason="lost">e</supplied><expan><abbr>l</abbr><ex cert="low">i</ex></expan> <expan><abbr>K</abbr><ex cert="low">arnunti</ex></expan> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>IVAL <lb n="4"/><expan><abbr>Non</abbr><ex cert="low">is</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/><supplied reason="lost">c</supplied><expan><abbr>oll</abbr><ex cert="low">eg---</ex></expan> <gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Datierung: Carnuntum als &amp;apos;municipium Aelium Karnuntum&amp;apos;. Zeile 1: AN-Ligatur. Mögliche Ergänzung Z. 2: &amp;apos;c[o]l(legium) l(ibertinorum?) [m(unicipi)] A[e]l(i) K(arnunti)&amp;apos;?</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>W. Kubitschek, Römerfunde von Eisenstadt (Wien 1926) 85, Nr. 26.</bibl><bibl>F. Hild, Supplementum epigraphicum zu CIL III. Das pannonische Niederösterreich, Burgenland und Wien 1902-1968 (Diss. Wien 1968) 47, Nr. 73.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

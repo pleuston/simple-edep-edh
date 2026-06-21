@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Photike &amp;ndash; Paramythía (Epirus)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD015028</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD015028</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Philoproodos Omilos Paramythias</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><dimensions unit="cm"><height>139</height><width>(70)</width><depth>15</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">11.5-6.8</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Epirus</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/531064">Photike</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1963"><placeName type="country" ref="https://www.geonames.org/390903">Greece</placeName><placeName type="modern">Paramythía</placeName><placeName type="findspot"/><placeName type="region">Ípeiros</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD015028_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">Memmius+?</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD015028_2"><persName><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD015028_3" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">Phronimus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-09-16" who="Cowey">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> Memmi <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>NA<gap reason="lost" extent="unknown" unit="character"/>onis et <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> Ill<supplied reason="lost">aria</supplied>e Nicomedeae <lb n="3"/><supplied reason="lost"><expan><abbr>f</abbr><ex cert="low">ilia</ex></expan> <gap reason="lost" extent="unknown" unit="character"/></supplied>A <lb n="4"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>vix</abbr><ex cert="low">it</ex></expan> a</supplied><expan><abbr>n<am>n</am></abbr><ex>os</ex></expan> XXXX <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/> Trophimus <lb n="6"/><supplied reason="lost" cert="low">uxori</supplied><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">be</supplied>ne meritae <lb n="7"/><supplied reason="lost"><expan><abbr>v</abbr><ex>ivus</ex></expan> <expan><abbr>f</abbr><ex>ecit</ex></expan></supplied> et sibi
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Abweichende Textwiedergabe. Neues Fragment, das Z. 2-3 erweitert, von Sironen gefunden.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>G. Daux, BCH 91, 1967, 688, fig. 4 (Zeichnung). - AE 1967. (B)</bibl><bibl>AE 1967, 0445. (B)</bibl><bibl>M. Šašel Kos, Inscriptiones Latinae in Graecia repertae. Additamenta ad CIL III (Faenza 1979) 72, Nr. 166. (B)</bibl><bibl>D.K. Samsari, I romaiki apoikia tis Photikis sti Thesprotia tis Ipeirou (Ioannina 1994) 123-124, Nr. 8. (B)</bibl><bibl>AE 2009, 1289.</bibl><bibl>E. Sironen, in: B. Forsén (Hrsg.), Thesprotia Expedition 1.</bibl><bibl>Towards a regional history (Helsinki 2009) 188-189, Nr. 4; Foto. - AE 2009.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

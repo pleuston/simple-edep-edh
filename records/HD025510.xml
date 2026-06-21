@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Owner/artist inscription from Bern (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD025510</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD025510</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/140">instrumentum domesticum</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/41">Speckstein</material><dimensions unit="cm"><height>0</height><width>4</width><depth>0</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">0.2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/177471"/></origPlace><origDate><origDate notBefore-custom="0051" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1923"><placeName type="country" ref="https://www.geonames.org/2658434">Switzerland</placeName><placeName type="modern" ref="http://www.geonames.org/2661552">Bern</placeName><placeName type="findspot">{Engehalbinsel}, Töpfereien, bei</placeName><placeName type="region">Kanton Bern</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>owner/artist inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD025510_1" sex="M"><persName><name type="praenomen">Ti.</name><name type="nomen">Claudius*</name><name type="cognomen">Peregrinus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-11-30" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>Ti</abbr><ex>beri</ex></expan> <expan><abbr>Cl</abbr><ex>audi</ex></expan> Peregrini ani<lb break="no" n="2"/>ceton ad <expan><abbr>aspri</abbr><ex>tudines</ex></expan> et <expan><abbr>cl</abbr><ex>aritatem</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>Ti</abbr><ex>beri</ex></expan> <expan><abbr>Cl</abbr><ex>audi</ex></expan> Peregrini cin<lb break="no" n="2"/>naminum ad sup<expan><ex>p</ex><abbr>u</abbr><ex>rationem</ex></expan><certainty match="preceding-sibling::node()" locus="value"/> </ab></div><div n="3" type="textpart"><ab><lb n="1"/> <expan><abbr>Ti</abbr><ex>beri</ex></expan> <expan><abbr>Cl</abbr><ex>audi</ex></expan> Peregrini dia<lb break="no" n="2"/>misus ad <expan><abbr>aspritudi</abbr><ex>nes</ex></expan> </ab></div><div n="4" type="textpart"><ab><lb n="1"/> <expan><abbr>Ti</abbr><ex>beri</ex></expan> <expan><abbr>Cl</abbr><ex>audi</ex></expan> Peregrini dias<lb break="no" n="2"/>myrnes ad sedata
+            </ab></div></div>
+            <div type="commentary">
+                <p>Augenarztstempel. Material: grünlich-grauer Speckstein. Die beiden Inschriften verteilen sich auf die vier Langseiten. Schreibtechnik: eingraviert. Inschrift spiegelverkehrt. Am Ende der Z. 2 u. 7 je ein Zeichen / Symbol, das keinem Buchstaben entspricht. Z. 4 (Ende): zwischen SV und V noch die senkrechte Haste eines Buchstabens erkennbar; auch suf(f)u(siones) denkbar. AE 1926: Lesung verkürzt wiedergegeben. (B): AE 1926: Z. 4: su(pp)u(rationem) oder su(ff)u(siones).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1926, 0153. (B)</bibl><bibl>O. Tschumi, VGJ 1, 1926, 56, Nr. 2. - AE 1926.</bibl><bibl>O. Schultheß, JBM 3, 1923, 86-87, Nr. 2; Fotos u. Zeichnung.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

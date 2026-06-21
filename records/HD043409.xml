@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Ulpiana, bei &amp;ndash; Lipjan / Lipljan (Moesia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD043409</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD043409</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Lipjan / Lipljan, Janjeva / Janjevo, Pfarrhaus</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/482027">Ulpiana, bei</placeName></origPlace><origDate><origDate notBefore-custom="0131" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">131 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/831053">Kosovo</placeName><placeName type="modern" ref="http://www.geonames.org/789895">Lipjan / Lipljan</placeName><placeName type="findspot">{Janjevë / Janjevo}, Kirche</placeName><placeName type="region">Prishtinë / Priština</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD043409_1" sex="M"><persName><name type="praenomen">P.</name><name type="nomen">N(---)</name><name type="cognomen">Severus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-04-07" who="Gräf">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F029316" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/03aebdcf-b355-4c08-85b7-2e24e5fc026e/file/id/790073/file_version/name/small"/><graphic xml:id="F029317" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/bfc77606-767a-4362-99df-37ce2084e535/file/id/790074/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/>Publius <abbr>N</abbr> <lb n="3"/>Severus <expan><abbr>vix</abbr><ex>it</ex></expan> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): CIL III 1691: Z. 3 (Ende): VI.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 08179.</bibl><bibl>CIL 03, 01691. (B)</bibl><bibl>ILJug 1425.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

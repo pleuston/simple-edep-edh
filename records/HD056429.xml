@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Municipium Claudium Virunum, bei &amp;ndash; Eberndorf (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD056429</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD056429</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Eberndorf, Edling, S. Veit, Pfarrkirche?</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material>Gesteine</material><dimensions unit="cm"><height>35</height><width>40</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197583">Municipium Claudium Virunum, bei</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2780416">Eberndorf</placeName><placeName type="findspot">Edling, {S. Veit, Pfarrkirche}, sekundär verwendet</placeName><placeName type="region">Kärnten</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD056429_1"><persName><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD056429_2" sex="M"><persName><name type="cognomen">Triccus+?</name></persName></person><person xml:id="HD056429_3" sex="W"><persName><name type="cognomen">Maria+</name></persName></person><person xml:id="HD056429_4" sex="M"><persName><name type="cognomen">Venimarus+?</name></persName></person><person xml:id="HD056429_5" sex="M"><persName><name type="cognomen">Marius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-05-26" who="Siegl">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <gap reason="lost" extent="unknown" unit="character"/> Tricc<supplied reason="lost">i<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <expan><abbr>f</abbr><ex>ili--</ex></expan> et Ma</supplied>ria Ve<supplied reason="lost">nimari<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <expan><abbr>f</abbr><ex>ilia</ex></expan></supplied> <lb n="2"/>Mariae <gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/><expan><abbr>f</abbr><ex>iliae</ex></expan> et sibi <supplied reason="lost"><expan><abbr>fec</abbr><ex>erunt</ex></expan> et</supplied> <lb n="4"/>Mario T<supplied reason="lost">ricci<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <expan><abbr>f</abbr><ex>ilio</ex></expan></supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Gerstl: Z. 1: Tricc[--- ; Leber: Z. 1: [---] / Tricc[i. Aufbewahrung: nach www.ubi-erat-lupa.org Nr. 2440 im Jahre 2002 in der Kirche von Edling nicht auffindbar.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILLPRON 0066.</bibl><bibl>P.S. Leber, Die in Kärnten seit 1902 gefundenen römischen Steininschriften (Klagenfurt 1972) 124, Nr. 232. (B)</bibl><bibl>A. Gerstl, Supplementum epigraphicum zu CIL III für Kärnten und Osttirol 1902-1961 (Diss. Wien 1961) 40, Nr. 86. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

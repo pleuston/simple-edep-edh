@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Municipium Claudium Virunum, bei &amp;ndash; Maria Saal (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD053640</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD053640</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Maria Saal, Zollfeld, Zollfeld 1, Privatbesitz</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>53</height><width>84</width><depth>13</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.5-3.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197583">Municipium Claudium Virunum, bei</placeName></origPlace><origDate><origDate notBefore-custom="0051" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1985"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2771910">Maria Saal</placeName><placeName type="findspot">Kading, {Parzelle Nr. 139/1}</placeName><placeName type="region">Kärnten</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD053640_1" sex="M"><persName><name type="cognomen">Vervicius+</name></persName></person><person xml:id="HD053640_2" sex="M"><persName><name type="cognomen">Nemetillus</name></persName></person><person xml:id="HD053640_3" sex="W"><persName><name type="cognomen">[-]nicia</name></persName></person><person xml:id="HD053640_4" sex="M"><persName><name type="cognomen">Varco</name></persName></person><person xml:id="HD053640_5" sex="W"><persName><name type="cognomen">[--]vera</name></persName></person><person xml:id="HD053640_6" sex="M"><persName><name type="cognomen">[---]tus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-07-15" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Ve<supplied reason="lost">rv</supplied>icio Nemetilli <expan><abbr>f</abbr><ex>ilio</ex></expan> <lb n="2"/>et <supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied>niciae Varconis <expan><abbr>f</abbr><ex>iliae</ex></expan> <lb n="3"/>e<supplied reason="lost">t <gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied>verae Vervici <expan><abbr>f</abbr><ex>iliae</ex></expan> <lb n="4"/><supplied reason="lost">p</supplied>ater <expan><abbr>v</abbr><ex>ivus</ex></expan> <expan><abbr>f</abbr><ex>ecit</ex></expan> <lb n="5"/>e<supplied reason="lost">t</supplied><gap reason="lost" extent="unknown" unit="character"/>to Vervici <expan><abbr>fil</abbr><ex>io</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1992, 1347.</bibl><bibl>E. Weber - R. Selinger, RŒ 19/20, 1991/92, 238, Nr. 361. - AE 1992.</bibl><bibl>G. Piccottini, AustrRom 35, 1985, 12-13. - AE 1992.</bibl><bibl>G. Piccottini, Carinthia I 180, 1990, 33-34, Nr. 1; Abb. 18; Abb. 19 (Zeichnung). - AE 1992.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

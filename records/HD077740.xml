@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Titz (Germania inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD077740</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD077740</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mannheim, Reiss-Engelhorn-Mus., Depot?</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>96</height><width>65</width><depth>27</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania inferior</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 230 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1785"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2845923">Titz</placeName><placeName type="findspot">Rödingen, bei, {Sandgrube}</placeName><placeName type="region">Nordrhein-Westfalen</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD077740_1" sex="M"><persName><name type="praenomen">Q.</name><name type="nomen">Iulius+*</name><name type="cognomen">Severinus</name></persName></person><person xml:id="HD077740_2" sex="W"><persName><name type="nomen">Secundinia+</name><name type="cognomen">Iustinas</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2018-10-31" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost">M</supplied>atronis <lb n="2"/>Gavadiabus <expan><abbr>Q</abbr><ex>uintus</ex></expan> Iu<supplied reason="lost"><expan><abbr>l</abbr><ex cert="low">ius</ex></expan></supplied> <lb n="3"/>Severinus et Secu<supplied reason="lost">n</supplied><lb break="no" n="4"/>dinia Iustina pro <lb n="5"/>se et suis ex im<supplied reason="lost"><expan><abbr>p</abbr><ex>erio</ex></expan></supplied> <lb n="6"/><expan><abbr>ips</abbr><ex>arum</ex></expan> <expan><abbr>l</abbr><ex>ibentes</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Altar mit Büsten der drei Matronen auf der Vorderseite im Inschriftfeld, die aus Blattkelchen hervorwachsen. Z. 1 befindet sich oberhalb der Büsten. Das Monument ist im Zweiten Weltkrieg nahezu vollständig zerstört worden, möglicherweise ist noch ein Fragment mit dem O der Z. 4 erhalten.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 07886.</bibl><bibl>W. Brambach, Corpus inscriptionum Rhenanarum (Elberfeld 1867) 134, Nr. 608.</bibl><bibl>F. Haug, Die römischen Denksteine des Grossherzoglichen Antiquariums in Mannheim (Konstanz 1877) 28, Nr. 26.</bibl><bibl>M. Ihm, BJ 83, 1887, 149, Nr. 295.</bibl><bibl>É. Espérandieu, Recueil général des bas-reliefs, statues et bustes de la Gaule romaine 8 (Paris 1922) 287-288, Nt. 6342; Foto.</bibl><bibl>W. Spickermann, Mulieres ex voto. Untersuchungen zur Götterverehrung von Frauen im römischen Gallien, Germanien und Rätien (1.-3. Jahrhundert n. Chr.) 346, Nr. 1.</bibl><bibl>A.G. Garman, The Cult of the Matronae in the Roman Rhineland. An Historical Evaluation of the Archaeological Evidence (Lewiston - Queenston - Lampeter 2008) 151, Nr. 310.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

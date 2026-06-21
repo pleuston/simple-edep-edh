@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Military diploma from Asturis? &amp;ndash; Zwentendorf/Donau (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD072630</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD072630</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material><dimensions unit="cm"><height>(7)</height><width>(3)</width><depth>0</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">0.5-0.4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118577">Asturis?</placeName></origPlace><origDate><origDate datingMethod="http://en.wikipedia.org/wiki/Julian_calendar"/></origDate></origin>
+                        <provenance type="found" when="2008"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2760430">Zwentendorf/Donau</placeName><placeName type="findspot"/><placeName type="region">Niederösterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/91">military diploma</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-09-28" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Imp</abbr><ex>erator</ex></expan> divi Hadrian</supplied>i <expan><abbr>f</abbr><ex>ilius</ex></expan> divi Tra<supplied reason="lost">iani <expan><abbr>Parthic</abbr><ex>i</ex></expan> <expan><abbr>nep</abbr><ex>os</ex></expan> divi</supplied> Nervae <expan><abbr>propnep</abbr><ex>os</ex></expan> <supplied reason="lost"><expan><abbr>T</abbr><ex>itus</ex></expan> Aelius Hadrianus Anto</supplied>ninus <expan><abbr>Aug</abbr><ex>ustus</ex></expan> Pius <supplied reason="lost"><expan><abbr>pon</abbr><ex>tifex</ex></expan> <expan><abbr>max</abbr><ex>imus</ex></expan> <expan><abbr>tri</abbr><ex>ibunicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>imp</abbr><ex>erator</ex></expan> II</supplied> co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> IV <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <lb n="2"/><supplied reason="lost"><expan><abbr>equitib</abbr><ex>us</ex></expan> et <expan><abbr>ped</abbr><ex>ititbus</ex></expan> qui</supplied> <expan><abbr>milit</abbr><ex>averunt</ex></expan> in alis III <supplied reason="lost">quae <expan><abbr>appell</abbr><ex>antur</ex></expan> I <expan><abbr>Commagenor</abbr><ex>um</ex></expan></supplied> |(milliaria) <expan><abbr>sag</abbr><ex>ittariorum</ex></expan> et <expan><abbr>Aug</abbr><ex>usta</ex></expan> <lb n="3"/><supplied reason="lost">I<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <expan><abbr>Thrac</abbr><ex>um</ex></expan> et I <expan><abbr>Pannonior</abbr><ex>um</ex></expan></supplied> <expan><abbr>Tampian</abbr><ex>a</ex></expan> et <lb n="4"/><supplied reason="lost">in <expan><abbr>coh</abbr><ex>ortibus</ex></expan> VII<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <gap reason="lost" extent="unknown" unit="character"/></supplied><expan><abbr>or</abbr><ex>um</ex></expan> et I <expan><abbr>Flav</abbr><ex>ia</ex></expan> <supplied reason="lost" cert="low">Britton(um) et --</supplied>I <expan><abbr>Batav</abbr><ex>orum</ex></expan> |(milliaria) <expan><abbr>vex</abbr><ex>illatio</ex></expan> <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/> II <expan><abbr>Thrac</abbr><ex>um</ex></expan> et II Ba<supplied reason="lost"><expan><abbr>tav</abbr><ex>orum</ex></expan> |(milliaria) et I Ae</supplied>lia <expan><abbr>Britton</abbr><ex>um</ex></expan> <lb n="6"/><supplied reason="lost">|(milliaria) et sunt in Norico sub</supplied> Usenio Secun<supplied reason="lost">do <expan><abbr>proc</abbr><ex>uratore</ex></expan> <expan><abbr>quinqu</abbr><ex>e</ex></expan> et vigi</supplied><expan><abbr>nt</abbr><ex>i</ex></expan> <expan><abbr>stipend</abbr><ex>iis</ex></expan> <lb n="7"/><supplied reason="lost"><expan><abbr>emer</abbr><ex>itis</ex></expan> <expan><abbr>dimis</abbr><ex>sis</ex></expan> ho</supplied><expan><abbr>nest</abbr><ex>a</ex></expan> <expan><abbr>mission</abbr><ex>e</ex></expan> <lb n="8"/><supplied reason="lost">quorum <expan><abbr>nomin</abbr><ex>a</ex></expan> su</supplied><expan><abbr>bscript</abbr><ex>a</ex></expan> sunt <supplied reason="lost"><expan><abbr>civit</abbr><ex>atem</ex></expan> <expan><abbr>Rom</abbr><ex>anam</ex></expan> qui eor</supplied>um non <expan><abbr>haber</abbr><ex>ent</ex></expan> <lb n="9"/><supplied reason="lost">dedit</supplied> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> ------ <expan><abbr>civitat</abbr><ex>em</ex></expan>] <lb n="2"/><expan><abbr>Roman</abbr><ex>am</ex></expan> qui eorum non ha<supplied reason="lost"><expan><abbr>ber</abbr><ex>ent</ex></expan> dedit et <expan><abbr>conub</abbr><ex>ium</ex></expan></supplied> <lb n="3"/>cum <expan><abbr>uxor</abbr><ex>ibus</ex></expan> quas tunc hab<supplied reason="lost"><expan><abbr>uiss</abbr><ex>ent</ex></expan> cum est <expan><abbr>civit</abbr><ex>as</ex></expan></supplied> <lb n="4"/>iis data aut cum i<expan><ex>i</ex><abbr>s</abbr></expan> quas p<supplied reason="lost"><expan><abbr>ost</abbr><ex>ea</ex></expan> <expan><abbr>duxiss</abbr><ex>ent</ex></expan> dum</supplied>taxat singulis
+            </ab></div></div>
+            <div type="commentary">
+                <p>Fragment der tab. I.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2012, 1080.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

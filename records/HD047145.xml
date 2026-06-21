@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Carnuntum, bei &amp;ndash; Mannersdorf/Leithagebirge (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD047145</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD047145</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mannersdorf/Leithagebirge, Stadtmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">stele?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(105)</height><width>(43)</width><depth>(30)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/128376">Carnuntum, bei</placeName></origPlace><origDate><origDate notBefore-custom="0290" notAfter-custom="0430" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">290 AD - 430 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1969"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2772003">Mannersdorf/Leithagebirge</placeName><placeName type="findspot">Gräberfeld, sekundär verwendet</placeName><placeName type="region">Niederösterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD047145_1" sex="M"><persName><name type="nomen">Flavius+*</name><name type="cognomen">[---]us</name></persName></person><person xml:id="HD047145_2" sex="M"><persName><name type="cognomen">Besus</name></persName></person><person xml:id="HD047145_3" sex="W"><persName><name type="nomen">Flavia*</name><name type="cognomen">Lucia+</name></persName></person><person xml:id="HD047145_4" sex="W"><persName><name type="nomen">Flavia+*</name><name type="cognomen">[---]a</name></persName></person><person xml:id="HD047145_5" sex="M"><persName><name type="nomen">Flavius*</name><name type="cognomen">Terentius+</name></persName></person><person xml:id="HD047145_6" sex="W"><persName><name type="nomen">Flavia+*</name><name type="cognomen">Centina</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-06-08" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>D</abbr><ex>is</ex></expan></supplied> <expan><abbr>M</abbr><ex>anibus</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>Fl</abbr><ex>avius</ex></expan> <gap reason="lost" extent="unknown" unit="character"/></supplied>us ex p<expan><ex>rae</ex><abbr>p</abbr><ex>osito</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> <supplied reason="lost"><expan><abbr>pri</abbr><ex>mae</ex></expan></supplied> <expan><abbr>Nor</abbr><ex>icorum</ex></expan> <lb n="2"/><supplied reason="lost"><expan><abbr>an</abbr><ex>norum</ex></expan></supplied><gap reason="lost" extent="unknown" unit="character"/> Besus et <expan><abbr>Fl</abbr><ex>avia</ex></expan> Lu<supplied reason="lost">cia</supplied> <expan><abbr>co</abbr><ex>niux</ex></expan> <expan><abbr>an</abbr><ex>norum</ex></expan> L <lb n="3"/><supplied reason="lost"><expan><abbr>Fl</abbr><ex>avia</ex></expan></supplied><gap reason="lost" extent="unknown" unit="character"/>a <expan><abbr>Fl</abbr><ex>avius</ex></expan> Terentiu<supplied reason="lost">s <expan><abbr>Fl</abbr><ex>avia</ex></expan></supplied> Centina <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr><supplied reason="lost">fi</supplied>li</abbr><ex>i</ex></expan> parentibu<supplied reason="lost">s c</supplied>arissimis <lb n="5"/><supplied reason="lost"><expan><abbr>f</abbr><ex>aciendum</ex></expan></supplied> <expan><abbr>c</abbr><ex>uraverunt</ex></expan>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Zwei nicht aneinanderpassende Bruchstücke einer Grabinschrift. Die Maßangabe bezieht sich auf die wieder zusammengesetzten (Bruch mit Zement ergänzt) Fragmente. Zeile 1: [D(is)] M(anibus) jeweils am linken und rechten Rand der obersten Zeile Zeile 3: AN-Ligatur. (B): Z. 1: AE 2001: pr(ae)p(osito).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2001, 1655. (B)</bibl><bibl>E. Weber - M. Pesditschek, Tyche 16, 2001, 247, Nr. 174. - AE 2001.</bibl><bibl>H. Ubl, in: D.M. Pippidi (Hrsg.), Actes du IXe Congrès International d'Etudes sur les Frontières Romaines, Mamaïa 1972 (Bucuresti-Köln-Wien 1974) 419.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

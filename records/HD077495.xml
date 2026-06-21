@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Augusta Treverorum &amp;ndash; Trier (Belgica)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD077495</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD077495</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Trier, Dom- u. Diözesanmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor, weiß</material><dimensions unit="cm"><height>14</height><width>24</width><depth>2</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">1.2-1.4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Belgica</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/108894">Augusta Treverorum</placeName></origPlace><origDate><origDate notBefore-custom="0551" notAfter-custom="0630" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">551 AD - 630 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1878"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2821164">Trier</placeName><placeName type="findspot">{S. Paulin, Kirche}</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD077495_1" sex="M"><persName><name type="cognomen">Babbo</name></persName></person><person xml:id="HD077495_2" sex="M"><persName><name type="cognomen">Gerontius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-06-23" who="Cowey">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost">Hic q</supplied>uiescit in pace Babbo qui <lb n="2"/><supplied reason="lost">vix</supplied>it ann&amp;lt;o=U&amp;gt;s VII et <expan><abbr>me</abbr><ex>nses</ex></expan> VII et dies <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> Gerontius tr&amp;lt;i=E&amp;gt;bunus <lb n="4"/><supplied reason="lost">filio</supplied> suo et t&amp;lt;i=E&amp;gt;tolum posuit 
+            </ab></div>
+            <div type="commentary">
+                <p>Unterhalb der Inschrift Darstellung einer Tempelfassade und eines Kreuzes.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 03680.</bibl><bibl>ILCV 0437.</bibl><bibl>E. Gose, Katalog der frühchristlichen Inschriften in Trier (Berlin 1958) 52, Nr. 411.</bibl><bibl>RICG 01, 107; Fotos.</bibl><bibl>H. Merten, Katalog der frühchristlichen Inschriften des bischöflichen Dom- und Diözesanmuseums Trier (Trier 1990) 25-27, Nr. 4; Foto.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

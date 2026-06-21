@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Celeia &amp;ndash; Celje (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD067332</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD067332</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/35">architectural member</objectType><material>Gesteine</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197206">Celeia</placeName></origPlace><origDate><origDate notBefore-custom="0351" notAfter-custom="0500" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">351 AD - 500 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1897"><placeName type="country" ref="https://www.geonames.org/3190538">Slovenia</placeName><placeName type="modern" ref="http://www.geonames.org/3202781">Celje</placeName><placeName type="findspot">{Frühchristliche Basilika}, Mittelschiff</placeName><placeName type="region">Savinjska statistična regija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD067332_1" sex="M"><persName><name type="cognomen">Marcellinus</name></persName></person><person xml:id="HD067332_2" sex="W"><persName><name type="cognomen">Amantia+</name></persName></person><person xml:id="HD067332_3" sex="M"><persName><name type="cognomen">Ursus+?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-02-03" who="Gräf">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Marcellin<lb break="no" n="2"/>us <expan><abbr>v</abbr><ex>ir</ex></expan> <expan><abbr>c</abbr><ex>larissimus</ex></expan> et <lb n="3"/><supplied reason="lost">A</supplied>mantia <expan><abbr>f</abbr><ex>emina</ex></expan><certainty match="preceding-sibling::node()" locus="value"/> <supplied reason="lost" cert="low">c(larissima)</supplied> <lb n="4"/><supplied reason="lost" cert="low">et U</supplied>rsu<supplied reason="lost">s<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>S</abbr><ex cert="low"/>A</expan><certainty match="preceding-sibling::node()" locus="value"/><gap reason="lost" extent="unknown" unit="character"/> <lb n="6"/><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied><expan><abbr>RO</abbr><ex cert="low"/>I</expan><certainty match="preceding-sibling::node()" locus="value"/><expan><abbr>I</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/> <lb n="7"/><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied>oria<gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">cu</supplied><lb break="no" n="8"/><supplied reason="lost">m</supplied> suis <expan><abbr>f</abbr><ex>ecerunt</ex></expan> <supplied reason="lost"><expan><abbr>p</abbr><ex>edes</ex></expan></supplied><gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Fußbodenmosaik im Zentrum des Mittelschiffs. Inschriftfeld: rechteckig; doppelter Rahmen aus Ranken (innen) und Flechtband (außen); Maße mit Rahmen: circa 250 x 250 cm. Z. 3 (Ende): möglicherweise auch c(larissima) [f(emina)]. Z. 4-7: Lesung und Ergänzungen unsicher. (B): Schön: Z. 3: [Am]antia [f(emina) (in der Zeichnung richtig); AIJ: Z. 3: [A]mantia [f(emina) (in der Zeichnung richtig).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>G. Schön, JŒAI (Beibl.) 1, 1898, 34, Nr. 12; Zeichnung. (B)</bibl><bibl>CIL 03, 14368, 19. (B)</bibl><bibl>AIJ 070; Zeichnung.</bibl><bibl>ILCV 0152.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

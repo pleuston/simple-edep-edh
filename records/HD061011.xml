@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Carnuntum &amp;ndash; Petronell-Carnuntum (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD061011</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD061011</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Hainburg/Donau, Kulturfabrik, Arch. Zentraldepot?</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(76)</height><width>(72)</width><depth>15</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7.0-5.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/128376">Carnuntum</placeName></origPlace><origDate><origDate notBefore-custom="0051" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1869"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2769013">Petronell-Carnuntum</placeName><placeName type="findspot">{Gräberstraße}</placeName><placeName type="region">Niederösterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD061011_1" sex="M"><persName><name type="praenomen">Q.</name><name type="nomen">Cerfonius</name><name type="cognomen">Celer*</name></persName></person><person xml:id="HD061011_2" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">Ailius* (= Aelius)</name><name type="cognomen">Saturninus</name></persName></person><person xml:id="HD061011_3"><persName><name type="praenomen">[-]?</name><name type="nomen">Prim[---]?</name><name type="cognomen">Prim[---]?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-05-31" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F019012" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/8bbdab79-fa90-49f0-8177-6799c520858b/file/id/779083/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Q</abbr><ex>uintus</ex></expan> Cerfonius <lb n="2"/><expan><abbr>Q</abbr><ex>uinti</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>Scap</abbr><ex>tia tribu</ex></expan> <expan><abbr>Cele</abbr><ex>r</ex></expan> <lb n="3"/><expan><abbr>Flo</abbr><ex>rentia</ex></expan> <expan><abbr>m</abbr><ex>iles</ex></expan> <expan><abbr>l</abbr><ex>egionis</ex></expan> X <expan><abbr>g</abbr><ex>eminae</ex></expan> <expan><abbr><am><g type="centuria"/></am></abbr><ex>centuria</ex></expan> <lb n="4"/><supplied reason="lost" cert="low">-</supplied> Aili <note>sic</note> Saturnini <lb n="5"/><expan><abbr><supplied reason="lost">a</supplied>nn</abbr><ex>orum</ex></expan> XLVII <expan><abbr>ae</abbr><ex>rum</ex></expan> <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/> Prim<lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Zeile 4: irrtümliches M verbessert zu AI, I am Zeilenende auf Rahmung stehend. (B): CIL 03, 04463a; CIL 03, 04463 p. 1770: Z.4: SATVRNIN. (B): Vorbeck 1980, 19 Nr. 15: Z.2: Celer.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 04463a. (B)</bibl><bibl>CIL 03, 04463a add. p. 1770. (B)</bibl><bibl>M.-L. Krüger, Die Reliefs des Stadtgebietes von Carnuntum 2. Die dekorativen Reliefs, CSIR Österreich 1, 4 (Wien 1972) 46, Nr. 535; Taf. 44, 535.</bibl><bibl>E. Vorbeck, Militärinschriften aus Carnuntum (Wien 1980) 19, Nr. 15. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

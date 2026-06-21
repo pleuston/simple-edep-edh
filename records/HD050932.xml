@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Teurnia &amp;ndash; Lendorf (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD050932</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD050932</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Lendorf, S. Peter in Holz, Römermus. Teurnia</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">statue base</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(84)</height><width>65</width><depth>46</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6.3-4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/187583">Teurnia</placeName></origPlace><origDate><origDate notBefore-custom="0286" notAfter-custom="0305" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">286 AD - 305 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2766434">Lendorf</placeName><placeName type="findspot">S. Peter in Holz, Teurnia, {Bischofskirche}, sekundär verwendet</placeName><placeName type="region">Kärnten</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD050932_1" sex="M"><persName><name type="cognomen">Maximianus+++</name></persName></person><person xml:id="HD050932_2" sex="M"><persName><name type="nomen">Septimius+</name><name type="cognomen">[---]s</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-01-15" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F022806" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/1f06a7ab-fc59-4364-ba19-6577f280f4d4/file/id/782972/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Piissimo ac <lb n="2"/>retro temporis <lb n="3"/>principum <lb n="4"/>fortissimo <lb n="5"/><del rend="erasure"><expan><abbr>Imp</abbr><ex>eratori</ex></expan> Ma<supplied reason="lost">ximia</supplied>no</del> <lb n="6"/><expan><abbr>P</abbr><ex>io</ex></expan> <expan><abbr>F</abbr><ex>elici</ex></expan> I<supplied reason="lost">nvicto A</supplied><expan><abbr>ug</abbr><ex>usto</ex></expan> <lb n="7"/>Sep<supplied reason="lost">timius</supplied><gap reason="lost" extent="unknown" unit="character"/>s <lb n="8"/><expan><abbr>v</abbr><ex>ir</ex></expan> <supplied reason="lost"><expan><abbr>p</abbr><ex>erfectissimus</ex></expan> <expan><abbr>p</abbr><ex>raeses</ex></expan> <expan><abbr>N</abbr><ex>orici</ex></expan> <expan><abbr>m</abbr><ex>editerranei</ex></expan></supplied> <expan><abbr>n</abbr><ex>umini</ex></expan> <lb n="9"/><expan><abbr>m</abbr><ex>aiestati</ex></expan><supplied reason="lost">que eius</supplied> <lb n="10"/>di<supplied reason="lost">catissimus</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Mittelteil einer Statuenbasis. (B): Weber - Selinger; AE 1992: Z. 7: Se[---]s; Glaser; Weber - Selinger; AE 1992: Z. 9: I[---]. Datierung: nach Piso nicht lange vor 305 n. Chr.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1992, 1359. (B)</bibl><bibl>AE 1995, 1191.</bibl><bibl>F. Glaser, Carinthia 1, 177, 1987, 79-81; Abb. 12. (B) - AE 1992.</bibl><bibl>E. Weber - R. Selinger, RŒ 19/20, 1991/92, 245, Nr. 392. (B) - AE 1992.</bibl><bibl>I. Piso, ZPE 107, 1995, 299-304; Zeichnung. - AE 1995.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

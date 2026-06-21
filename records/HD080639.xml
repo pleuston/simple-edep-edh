@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Vesontio (Civitas Sequanorum) &amp;ndash; Besançon (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD080639</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD080639</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/214">sarcophagus</objectType><dimensions unit="cm"><height>81</height><width>243</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/177657">Vesontio (Civitas Sequanorum)</placeName></origPlace><origDate><origDate notBefore-custom="0171" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1694"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/3033123">Besançon</placeName><placeName type="findspot">S.-Ferjeux, {Basilique S.-Ferjeux}, bei</placeName><placeName type="region">Bourgogne-Franche-Comté</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD080639_1" sex="W"><persName><name type="nomen">Caesonia</name><name type="cognomen">Donata</name></persName></person><person xml:id="HD080639_2" sex="M"><persName><name type="cognomen">Candidus</name></persName></person><person xml:id="HD080639_3" sex="M"><persName><name type="cognomen">Eusebius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-09-18" who="Osnabrügge">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Caesoniae Donatae quae vix<surplus>s</surplus>it annis <lb n="2"/>XXXXVII <expan><abbr>m</abbr><ex>ensibus</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>d</abbr><ex>iebus</ex></expan> XI horis IIII Candidus <expan><abbr>Aug</abbr><ex>usti</ex></expan> <lb n="3"/><expan><abbr>n</abbr><ex>ostri</ex></expan> verna ex <expan><abbr>test</abbr><ex>amento</ex></expan> coniugi bene merenti <lb n="4"/>posuit Eusebi <surplus>h</surplus>ave et vale <lb n="5"/><expan><abbr>loc</abbr><ex>o</ex></expan> <expan><abbr>lib</abbr><ex>ero</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Vale <lb n="2"/>Euse<lb break="no" n="3"/>bi </ab></div><div n="3" type="textpart"><ab><lb n="1"/> Ave <lb n="2"/>Euse<lb break="no" n="3"/>bi
+            </ab></div></div>
+            <div type="commentary">
+                <p>Sarkophag mit Deckel. Auf dem Deckel Tierfiguren und menschliche Figur. Text 1 befindet sich auf der Frontseite, links und rechts davon je eine ascia. Text 2 und 3 befinden sich auf den Nebenseiten, auf der linken Nebenseite ascia.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 05386.</bibl><bibl>ILS 8143.</bibl><bibl>H. Walter, La sculpture funéraire gallo-romaine en Franche-Comté (Paris 1974) 26, Nr. 9.</bibl><bibl>A. Kakoschke, Ortsfremde in den römischen Provinzen Germania inferior und Germania superior: Eine Untersuchung zur Mobilität in den germanischen Provinzen anhand der Inschriften des 1. bis 3. Jahrhunderts n. Chr. (Möhnesee 2002) 486-487, Nr. 10.15.</bibl><bibl>L. Joan, Le Doubs et le territoire de Belfort, Carte archéologique de la Gaule 25 et 90 (Paris 2003) 248; fig. 229 (Zeichnung).</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

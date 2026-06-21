@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Salonae, bei &amp;ndash; Kaštela (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD052772</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD052772</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Split, Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/214">sarcophagus</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197488">Salonae, bei</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3198210">Kaštela</placeName><placeName type="findspot">{Kaštel Sućurac}</placeName><placeName type="region">Splitsko-dalmatinska županija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD052772_1" sex="W"><persName><name type="nomen">Valeria</name><name type="cognomen">Quintiana*</name></persName></person><person xml:id="HD052772_2" sex="M"><persName><name type="nomen">Rutilius</name><name type="cognomen">Marinianus</name></persName></person><person xml:id="HD052772_3" sex="W"><persName><name type="nomen">Valeria</name><name type="cognomen">Felicula*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2010-02-12" who="Feraudi">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Valeriae Quin<lb break="no" n="2"/>tian<expan><ex>a</ex><abbr>e</abbr></expan> de&amp;lt;f=E&amp;gt;unc<lb break="no" n="3"/>tae <expan><abbr>n<am>n</am></abbr><ex>orum</ex></expan> III m&amp;lt;e=F&amp;gt;<expan><abbr>ns</abbr><ex>ium</ex></expan> <lb n="4"/>X dierum XX <expan><abbr>nep</abbr><ex>o</ex></expan><lb break="no" n="5"/>ti Rutilius Marinianus MA <lb n="6"/>Valeria Felic<expan><ex>u</ex><abbr>la</abbr></expan> <expan><abbr>avi</abbr><ex>a</ex></expan> infanti <lb n="7"/>infelicissima&amp;lt;e=F&amp;gt; 
+            </ab></div>
+            <div type="commentary">
+                <p>(B): CIL: Z. 5: Marintanus.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 14869. (B)</bibl><bibl>B. Nedved, in: Z. Gunjača (Hrsg.), Znanstveni skup. Kaštel Sućurac od prapovijesti do XX. stoljeća, zbornik (Split 1992) 15, Nr. 38.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

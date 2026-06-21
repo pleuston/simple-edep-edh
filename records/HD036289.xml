@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Iuenna &amp;ndash; Globasnitz (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD036289</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD036289</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Klagenfurt/Wörthersee, Landesmus. Kärnten</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">altar?</objectType><material>Gesteine</material><dimensions unit="cm"><height>(44)</height><width>21</width><depth>14</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.5-2.2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197330">Iuenna</placeName></origPlace><origDate><origDate notBefore-custom="0171" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD - 230 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1968"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2778467">Globasnitz</placeName><placeName type="findspot">{Mariä Himmelfahrt, Pfarrkirche}</placeName><placeName type="region">Kärnten</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD036289_1" sex="M"><persName><name type="nomen">Volcacius</name><name type="cognomen">Martialis</name></persName></person><person xml:id="HD036289_2" sex="W"><persName><name type="nomen">Valeria+*</name><name type="cognomen">Sulpiciana+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-05-26" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F022713" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/cb5829b6-c240-42d7-9f16-f4fee06f46c6/file/id/782878/file_version/name/small"/><graphic xml:id="F022714" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/ccd65262-7b0f-4bf5-a2ac-c1c2811c41f3/file/id/782880/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan> <lb n="2"/>Volca<lb break="no" n="3"/>cius Ma<lb break="no" n="4"/>rtialis <lb n="5"/>b<expan><ex>ene</ex><abbr>f</abbr><ex>iciarius</ex></expan> co<expan><ex>n</ex><abbr>s</abbr><ex>ularis</ex></expan> Va<supplied reason="lost"><expan><abbr>l</abbr><ex>eria</ex></expan></supplied> <lb n="6"/>Sulpician<supplied reason="lost">a</supplied> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): CIL: Z. 5/6: BF COSVI / SVLPICIAN; Cuntz: Z. 5/6: BF COSVL / SVLPICIAN. Nach Alföldy sollte auf den Namen des Benefiziars der Name des senatorischen Statthalters gefolgt sein, der Valerius oder Varius gelautet haben könnte.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>G. Alföldy, in: EpStud 8 (Düsseldorf 1969) 16-17, Nr. 24.</bibl><bibl>CIL 03, 05072. (B)</bibl><bibl>O. Cuntz, MZK 1904, 166. (B)</bibl><bibl>G. Winkler, Die Reichsbeamten von Noricum und ihr Personal (Wien 1969) 129, Nr. 23.</bibl><bibl>H. Petrovitsch, Legio II Italica (Linz 2006) 134-135, Nr. Nk.16; Foto u. Zeichnung.</bibl><bibl>ILLPRON 0095.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

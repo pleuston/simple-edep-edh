@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Burnum &amp;ndash; Kistanje (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD058137</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD058137</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">altar?</objectType><dimensions unit="cm"><height>(89)</height><width>(88)</width><depth>(29)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197184">Burnum</placeName></origPlace><origDate><origDate notBefore-custom="0042" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">42 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3199030">Kistanje</placeName><placeName type="findspot">Ivoševci, bei, {Šuplja Crkva (Archi Romani)}</placeName><placeName type="region">Šibensko-kninska županija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD058137_1" sex="M"><persName><name type="praenomen">A.+?</name><name type="nomen">[---]ubius+</name><name type="cognomen">Celer+</name></persName></person><person xml:id="HD058137_2" sex="M"><persName><name type="cognomen">Panthagatus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2010-08-23" who="Feraudi">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost" cert="low">D(is) M(anibus)</supplied> <lb n="2"/><supplied reason="lost"><expan><abbr>A</abbr><ex>ulus</ex></expan>? <gap reason="lost" extent="unknown" unit="character"/></supplied>ubiu<supplied reason="lost">s</supplied> <expan><abbr>A</abbr><ex>uli</ex></expan> <supplied reason="lost" cert="low">f(ilius)</supplied> <lb n="3"/><supplied reason="lost">Cel</supplied>er |(centurio) <expan><abbr>leg</abbr><ex>ionis</ex></expan> XI <expan><abbr>C</abbr><ex>laudiae</ex></expan> <lb n="4"/><expan><abbr>p</abbr><ex>iae</ex></expan> <expan><abbr>f</abbr><ex>idelis</ex></expan> domo Vero<lb break="no" n="5"/>na <expan><abbr>n<am>n</am></abbr><ex>orum</ex></expan> LXIII <expan><abbr>stip</abbr><ex>endiorum</ex></expan> <lb n="6"/>XXXXIII <expan><abbr>t</abbr><ex>itulum</ex></expan> <expan><abbr>f</abbr><ex>ieri</ex></expan> iussit <lb n="7"/>Panthagathus <lb n="8"/><expan><abbr>lib</abbr><ex>ertus</ex></expan> <expan><abbr>f</abbr><ex>aciendum</ex></expan> <expan><abbr>c</abbr><ex>uravit</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Textwiedergabe nach Patsch.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 02834.</bibl><bibl>CIL 03, 02834 add. p. 1036.</bibl><bibl>CIL 03, 09893.</bibl><bibl>C. Patsch, WMBH 5, 1897, 179-180, Nr. 4; Fig. 4 (Zeichnung).</bibl><bibl>CIL 03, 02834 add. p. 2328, 12.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

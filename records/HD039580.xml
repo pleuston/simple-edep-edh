@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Brigetio &amp;ndash; Komárom (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD039580</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD039580</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Wien, Kunsthist. Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>227</height><width>107</width><depth>22</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">8-3.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197180">Brigetio</placeName></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1873"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3044294">Komárom</placeName><placeName type="findspot">{Szőny}</placeName><placeName type="region">Komárom-Esztergom megye</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD039580_1" sex="M"><persName ref="http://romans1by1.com/rpeople/18225"><name type="nomen">Valerius*</name><name type="cognomen">Ursinus</name></persName></person><person xml:id="HD039580_2" sex="W"><persName ref="http://romans1by1.com/rpeople/18226"><name type="nomen">Aurelia+*</name><name type="cognomen">Firmilla</name></persName></person><person xml:id="HD039580_3" sex="M"><persName ref="http://romans1by1.com/rpeople/18227"><name type="nomen">Flavius*</name><name type="cognomen">Firmus</name></persName></person><person xml:id="HD039580_4" sex="W"><persName ref="http://romans1by1.com/rpeople/18228"><name type="nomen">Aurelia*</name><name type="cognomen">Ursicina</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-03-16" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>Val</abbr><ex>erius</ex></expan> Ursinus ducenarius q<lb break="no" n="2"/>ui vixit <expan><abbr>n<am>n</am></abbr><ex>os</ex></expan> XXV <expan><abbr>m</abbr><ex>enses</ex></expan> III dies V Aure<lb break="no" n="3"/><supplied reason="lost"><expan><abbr>l</abbr><ex>ia</ex></expan></supplied> Firmilla filia quae vixit <expan><abbr>n<am>n</am></abbr><ex>os</ex></expan> <lb n="4"/>VIIII <expan><abbr>m</abbr><ex>enses</ex></expan> III dies V &amp;lt;e=I&amp;gt;t <expan><abbr>Fl</abbr><ex>avius</ex></expan> Firmus <expan><abbr>mil</abbr><ex>es</ex></expan> l<lb break="no" n="5"/><expan><abbr>eg</abbr><ex>ionis</ex></expan> I <expan><abbr>ad</abbr><ex>iutricis</ex></expan> qui vixit &amp;lt;a=V&amp;gt;<expan><abbr>n<am>n</am></abbr><ex>os</ex></expan> XLV <expan><abbr>m</abbr><ex>enses</ex></expan> V d<lb break="no" n="6"/>ies VII <expan><abbr>Aurel</abbr><ex>ia</ex></expan> Ursicina fratr<lb break="no" n="7"/>i et filiae et coniugi suo ben<lb break="no" n="8"/>e merentibus sepulcrum <lb n="9"/>faciendum <supplied reason="lost">c</supplied>uravit vivit<lb break="no" n="10"/>e felices qui&amp;lt;b=R&amp;gt;u&amp;lt;s=R&amp;gt; est fortu<lb break="no" n="11"/>na beata 
+            </ab></div></div>
+            <div type="commentary">
+                <p>Versmaß: daktylischer Hexameter. Oberhalb des Inschriftfeldes Frieszone mit Soldat und Pferd; darüber die Büsten einer Frau, zweier Männer und eines Kindes. Materialangabe nach Mander und lupa 3493; RIU: Kalkstein. Z. 1: Buchstaben D und M zu Seiten der Darstellung auf dem Fries. Z. 12 befindet sich auf dem unteren Rahmen des Inschriftfeldes. (B): CIL 03, 11036; CLEPann; Ubl: kleinere Leseabweichungen. CLE: Nur Wiedergabe des metrischen Teils.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 11036. (B)</bibl><bibl>RIU 0600; Abb. 600 (Foto u. Zeichnung).</bibl><bibl>CLE 0805.</bibl><bibl>CLEPann 029. (B)</bibl><bibl>J. Mander, Portraits of children on Roman funerary monuments (Cambridge 2013) 280-281, Nr. 579.</bibl><bibl>H. Ubl, Waffen und Uniform des römischen Heeres der Prinzipatsepoche nach den Grabreliefs Noricums und Pannoniens (Wien 2013) XXI-XXII; Taf. 2, 8 u. 2, 9; Abb. 336 (Zeichnung). (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

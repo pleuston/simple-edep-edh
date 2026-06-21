@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Castellum Mattiacorum (Civitas Mattiacorum) &amp;ndash; Wiesbaden (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD078472</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD078472</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Wiesbaden, Mus. Wiesbaden</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">statue base</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze</material><dimensions unit="cm"><height>8</height></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/108864">Castellum Mattiacorum (Civitas Mattiacorum)</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1820"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2892488">Wiesbaden</placeName><placeName type="findspot">Mainz-Kastel, {ehemaliges Frankfurter Tor}, bei</placeName><placeName type="region">Hessen</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD078472_1" sex="M"><persName><name type="praenomen">T.</name><name type="nomen">Veterius*</name><name type="cognomen">Atessas</name></persName></person><person xml:id="HD078472_2" sex="M"><persName><name type="praenomen">Sex.</name><name type="nomen">Masc(---)</name><name type="cognomen">Concessus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-10-06" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Iun</abbr><ex>oni</ex></expan> <expan><abbr>Reg</abbr><ex>inae</ex></expan> <lb n="2"/><expan><abbr>plat</abbr><ex>ea</ex></expan> <expan><abbr>dex</abbr><ex>tra</ex></expan> <lb n="3"/><expan><abbr>eunt</abbr><ex>ibus</ex></expan> <expan><abbr>Nid</abbr><ex>am</ex></expan> <lb n="4"/><expan><abbr>T</abbr><ex>itus</ex></expan> <expan><abbr>Veter</abbr><ex>ius</ex></expan> A<lb break="no" n="5"/>tessas et <lb n="6"/><expan><abbr>S</abbr><ex>extus</ex></expan> <abbr>Masc</abbr> Co<lb break="no" n="7"/>ncessus <lb n="8"/><expan><abbr>d</abbr><ex cert="low">e</ex></expan> &amp;lt;<expan><abbr>s</abbr><ex>uo</ex></expan>&amp;gt;<certainty match="preceding-sibling::node()" locus="value"/> <expan><abbr>fecer</abbr><ex>unt</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Basis einer Bronzestatuette der Juno; Höhe der Statuette: 21 cm. Schreibtechnik: eingraviert. (B): Schmidt: Z. 8: fecerunt.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 07263.</bibl><bibl>ILS 7089a.</bibl><bibl>K. Körber, MZ 7, 1912, 20-21, Nr. 38; Foto u. Zeichnung.</bibl><bibl>E. Schmidt, in: Der obergermanisch-rätische Limes des Römerreiches B, II, 3, 30 (Lieferung 37) (Heidelberg 1915) 9-10; Taf. 3, 5. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Verteris &amp;ndash; Brough-under-Stainmore (Britannia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD070010</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD070010</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Brough-under-Stainmore, Kirche, sekundär verwendet</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/260">slab</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>61</height><width>81</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Britannia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/89312">Verteris</placeName></origPlace><origDate><origDate when-custom="0197" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">197 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1879"><placeName type="country" ref="https://www.geonames.org/2635167">United Kingdom</placeName><placeName type="modern" ref="http://www.geonames.org/2654531">Brough-under-Stainmore</placeName><placeName type="findspot">{Kirche}</placeName><placeName type="region">Cumbria</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD070010_1" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Septimius*</name><name type="cognomen">Severus Pertinax+</name></persName></person><person xml:id="HD070010_2" sex="M"><persName><name type="praenomen">M.+</name><name type="nomen">Aurelius+*</name><name type="cognomen">Antoninus+</name></persName></person><person xml:id="HD070010_3" sex="M"><persName><name type="cognomen">Lateranus+*</name></persName></person><person xml:id="HD070010_4" sex="M"><persName><name type="cognomen">Rufinus+*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-08-22" who="Cowey">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>eratori</ex></expan> Caesa<lb break="no" n="2"/><supplied reason="lost">r</supplied>i <expan><abbr>L</abbr><ex>ucio</ex></expan> <expan><abbr>Sep</abbr><ex>timio</ex></expan> Severo <expan><abbr>P</abbr><ex>io</ex></expan> P<lb break="no" n="3"/><supplied reason="lost">ertin</supplied>aci <expan><abbr>Aug</abbr><ex>usto</ex></expan> et <lb n="4"/><supplied reason="lost"><expan><abbr>M</abbr><ex>arco</ex></expan> <expan><abbr>Aur</abbr><ex>elio</ex></expan> Anto</supplied>nino <expan><abbr>Caes</abbr><ex>ari</ex></expan> <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/> <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr><supplied reason="lost">Later</supplied>a<supplied reason="lost">n</supplied></abbr><supplied reason="lost"><ex>o</ex></supplied></expan> <supplied reason="lost"/> et <expan><abbr>R<supplied reason="lost">uf</supplied>in</abbr><ex>o</ex></expan> co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Tabula ansata (gebrochen). (B): Zu den Leseabweichungen s. RIB 0757.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>EphEp 7, p. 305 n. 951. (B)</bibl><bibl>RIB 0757; Zeichnung.</bibl><bibl>PIR (2. Aufl.) S 669.</bibl><bibl>PIR (2. Aufl.) C 1638.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

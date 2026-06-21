@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Teurnia, bei &amp;ndash; Dellach/Gailtal (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD057285</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD057285</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Dellach/Gaital, S. Daniel, S. Daniel, Kirche, vermauert</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(41)</height><width>(72)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/187583">Teurnia, bei</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2766738">Dellach/Gailtal</placeName><placeName type="findspot">S. Daniel, {S. Daniel, Pfarrkirche}, sekundär verwendet</placeName><placeName type="region">Kärnten</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD057285_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">Acutus</name></persName></person><person xml:id="HD057285_2" sex="M"><persName><name type="praenomen">Q.</name><name type="nomen">C(---)</name><name type="cognomen">Lupus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-03-27" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/>Acuto IIII <expan><abbr>aed</abbr><ex>ilicia</ex></expan> <lb n="2"/><expan><abbr>pot</abbr><ex>estate</ex></expan> IIII <expan><abbr>iur</abbr><ex>e</ex></expan> <expan><abbr>di</abbr><ex>cundo</ex></expan> <lb n="3"/>pr&amp;lt;ae=NI&amp;gt;<expan><abbr>f</abbr><ex>ecto</ex></expan> <expan><abbr>iur</abbr><ex>e</ex></expan> <expan><abbr>dic</abbr><ex>undo</ex></expan> <lb n="4"/><expan><abbr>Q</abbr><ex>uintus</ex></expan> <abbr>C</abbr> Lupus fra<lb break="no" n="5"/>tri pientissimo 
+            </ab></div>
+            <div type="commentary">
+                <p>Inschriftfeld in Form einer tabula ansata. Maße nach lupa 2053. (B): CIL 03, 04719; ILLPRON 0411: Z. 2: di[c.].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILLPRON 0411. (B)</bibl><bibl>CIL 03, 04719. (B)</bibl><bibl>CIL 03, 11483.</bibl><bibl>R. Wedenig, Epigraphische Quellen zur städtischen Administation in Noricum (Klagenfurt 1997) 233-234, Nr. T 1.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

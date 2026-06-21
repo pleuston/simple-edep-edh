@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Celeia, bei &amp;ndash; Oplotnica (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD065745</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD065745</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor, weiß</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197206">Celeia, bei</placeName></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3190538">Slovenia</placeName><placeName type="modern" ref="http://www.geonames.org/3197668">Oplotnica</placeName><placeName type="findspot">Koritno, {S. Miklavž, Pfarrkirche}, sekundär verwendet</placeName><placeName type="region">Podravska statistična regija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD065745_1" sex="M"><persName><name type="cognomen">Ingenuus*</name></persName></person><person xml:id="HD065745_2" sex="M"><persName><name type="cognomen">Assedomarus</name></persName></person><person xml:id="HD065745_3" sex="W"><persName><name type="cognomen">Quinta</name></persName></person><person xml:id="HD065745_4" sex="M"><persName><name type="cognomen">Camuinuus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-07-03" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Ingenu<expan><ex>u</ex><abbr>s</abbr></expan> <lb n="2"/>Assedomari <lb n="3"/><supplied reason="lost" cert="low">f(ilius)</supplied> <expan><abbr>an</abbr><ex>norum</ex></expan> LII Quinta <lb n="4"/>Camuinui <expan><abbr>an</abbr><ex>norum</ex></expan> <lb n="0"/><gap reason="lost" quantity="1" unit="line"><certainty match=".." locus="name"/></gap>
+            </ab></div>
+            <div type="commentary">
+                <p>Z. 1: Buchstabe E in Form von II. Z. 4: teilweise stark verrieben.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1991, 1284.</bibl><bibl>ILLPRON 1797.</bibl><bibl>ILJug 0407.</bibl><bibl>CIL 03, 05291.</bibl><bibl>S. Pahič, VarSpom 33, 1991, 212; sl. 41. - AE 1991.</bibl><bibl>B. Saria, JŒAI (Beibl.) 36, 1946, 56; Abb. 28.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

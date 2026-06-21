@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Public legal inscription from Beroia &amp;ndash; Véroia (Macedonia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD019541</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD019541</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Véroia, Arch. Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/260">slab</objectType><dimensions unit="cm"><height>(92)</height><width>(72)</width><depth>7</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">2.3-3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Macedonia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/658409">Beroia</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/390903">Greece</placeName><placeName type="modern" ref="http://www.geonames.org/733905">Véroia</placeName><placeName type="findspot"/><placeName type="region">Kentrikí Makedonía</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/5">public legal inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD019541_1"><persName><name type="nomen">Αἴλιος</name><name type="cognomen">Κυῆτος</name></persName></person><person xml:id="HD019541_2"><persName><name type="nomen">Τυρράννιος</name><name type="cognomen">Αἰλιανός</name></persName></person><person xml:id="HD019541_3"><persName><name type="cognomen">Ἰσίδωρος+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-02-09" who="Cowey">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>DRITAM<supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied>V<gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">volunta</supplied><expan><abbr>tem</abbr><ex cert="low"/></expan> corroboraremus quod <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">pr</supplied>aecidere debuimus ne quis <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>quam quaestionem nam <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/>it denotatus provocabit <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/>atem nostram <gap reason="lost" extent="unknown" unit="character"/> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <gap reason="lost" extent="unknown" unit="character"/> Αἴλ(ιος) Κυῆτος ὁ ἀξιολογώτατος <lb n="2"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> μακεδονιάρχ</supplied>ης καὶ Τυρράννιος Αἰλιανὸς <lb n="3"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> ὁ ἀξι</supplied>ολογώτατος μακεδονιάρχης <lb n="4"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> Ἰ</supplied>σίδωρος
+            </ab></div></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1947, 0118.</bibl><bibl>J.M.R. Cormack, JRS 33, 1943, 40-44; fig.7. - AE 1947.</bibl><bibl>SEG 12, 0313.</bibl><bibl>M. Šašel Kos, Inscriptiones Latinae in Graecia repertae. Additamenta ad CIL III (Faenza 1979) 86, Nr. 197.</bibl><bibl>EKM 1, 488; Foto.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

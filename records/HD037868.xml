@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Ősi? (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD037868</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD037868</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Veszprém, Laczkó Dezső Múz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">block</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(92)</height><width>(40)</width><depth>26</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.5-5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3046856">Ősi?</placeName><placeName type="findspot"/><placeName type="region">Veszprém megye</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD037868_1"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD037868_2" sex="W"><persName><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD037868_3" sex="M"><persName><name type="praenomen">Q.</name><name type="nomen">Virius+</name><name type="cognomen">Annianus+?</name></persName></person><person xml:id="HD037868_4" sex="M"><persName><name type="praenomen">T.</name><name type="nomen">Virius+</name><name type="cognomen">Victorinus+</name></persName></person><person xml:id="HD037868_5" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Virius+*</name><name type="cognomen">Mercator+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-06-08" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F035881" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/3a876bf9-8506-4d67-bbd1-0eea4268eef9/file/id/796731/file_version/name/small"/><graphic xml:id="F041681" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/c8579eaf-2c70-49ce-85a7-8f5cba10f948/file/id/802783/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><supplied reason="lost">e</supplied>t <expan><abbr>Q</abbr><ex>uinto</ex></expan> Vi<supplied reason="lost" cert="low">rio L(uci) f(ilio) An</supplied><lb break="no" n="2"/>niano <supplied reason="lost">aedili</supplied> <lb n="3"/><expan><abbr>col</abbr><ex>oniae</ex></expan> <expan><abbr>Sep</abbr><ex>timiae</ex></expan> <supplied reason="lost"><expan><abbr>Aq</abbr><ex>uincensium</ex></expan> <expan><abbr>dec</abbr><ex>urioni</ex></expan></supplied> <lb n="4"/><expan><abbr>col</abbr><ex>oniae</ex></expan> <expan><abbr>T</abbr><ex>ito</ex></expan> Vi<supplied reason="lost">rio <expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan></supplied> <lb n="5"/>Victori<supplied reason="lost">no fi</supplied><lb break="no" n="6"/><expan><abbr><supplied reason="lost">l</supplied>i</abbr><ex>i</ex>s</expan> eius <expan><abbr>L</abbr><ex>ucius</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <lb n="7"/><expan><abbr><supplied reason="lost">V</supplied>ir</abbr><ex>ius</ex></expan> Merc<supplied reason="lost">ator</supplied> <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/>S<gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Rekonstruierte Maße nach Alföldy: ca. 150 x 80 cm; ursprünglich wohl in einen Grabbau eingemauert. (B): Kovács; AE 2002; TRHR: Abweichungen in Lesung und Ergänzung.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2002, 1210. (B)</bibl><bibl>P. Kovács, BalácaiKözl 7, 2002, 213-216. (B) - AE 2002.</bibl><bibl>TRHR (Suppl.) 070; Abb. 70 (Foto u. Zeichnung). (B)</bibl><bibl>AE 2011, 1018.</bibl><bibl>G. Alföldy, ZPE 179, 2011, 271-278; Abb. 1; Abb. 2 (Zeichnung). - AE 2011.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Nedinum, bei &amp;ndash; Benkovac (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD058157</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD058157</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Zadar, Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><dimensions unit="cm"><height>124</height><width>52</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-3.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197404">Nedinum, bei</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1879"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3194604">Benkovac</placeName><placeName type="findspot">{Nadin}, bei</placeName><placeName type="region">Zadarska županija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD058157_1" sex="W"><persName><name type="nomen">Claudia*</name><name type="cognomen">Gratilla</name></persName></person><person xml:id="HD058157_2" sex="W"><persName><name type="nomen">Claudia*</name><name type="cognomen">Eutychia*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2018-10-17" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/><expan><abbr>Cl</abbr><ex>audiae</ex></expan> Grati<lb break="no" n="3"/>llae <expan><abbr>an</abbr><ex>norum</ex></expan> XX<lb break="no" n="4"/>VIII <expan><abbr>Cl</abbr><ex>audia</ex></expan> Euty<lb break="no" n="5"/>c<expan><ex>h</ex><abbr>ia</abbr></expan> mater <lb n="6"/><expan><abbr>po</abbr><ex>suit</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Inschriftträger: sogenannter Liburnischer Cippus. Z. 4 (Ende) u. Z. 5 (Ende): Buchstabe Y bzw. R stehen auf dem rechten Rahmen. Z. 6: Buchstaben stehen zur Hälfte auf dem unteren Rahmen. (B): CIL III 9964: Z. 2/3: Crati/llae.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 09964. (B)</bibl><bibl>CIL 03, 09964 add. p. 2272.</bibl><bibl>I. Fadić, Diadora 12, 1990, 267-268, Nr. 34; t. 11, 2.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

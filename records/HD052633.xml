@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription? from Doboj (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD052633</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD052633</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Sarajevo, Zem. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/76">Kalkmergel / Mergel</material><dimensions unit="cm"><height>(26)</height><width>(23)</width><depth>(10)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.1-2.4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1890"><placeName type="country" ref="https://www.geonames.org/3277605">Bosnia and Herzegovina</placeName><placeName type="modern" ref="http://www.geonames.org/3195887">Doboj</placeName><placeName type="findspot">Makljenovac, {Crkvina, römische Befestigung}, Vorburg</placeName><placeName type="region">Zeničko-dobojski kanton</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription?</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD052633_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2012-06-06" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>m<supplied reason="lost">u</supplied><expan><abbr>s</abbr><ex cert="low"/></expan> <expan><abbr>tr<supplied reason="lost">i</supplied>b</abbr><ex>unus</ex></expan><certainty match="preceding-sibling::node()" locus="value"/> <lb n="2"/><expan><abbr><supplied reason="lost">c</supplied>oh</abbr><ex>ortis</ex></expan> eius<supplied reason="lost">d</supplied>em <lb n="3"/><expan><abbr><supplied reason="lost">p</supplied>raef</abbr><ex>ectus</ex></expan> <expan><abbr>coh</abbr><ex>ortis</ex></expan> I <expan><abbr>Fl</abbr><ex>aviae</ex></expan> <lb n="4"/><supplied reason="lost">Hi</supplied>spano<supplied reason="lost">r</supplied>um
+            </ab></div>
+            <div type="commentary">
+                <p>2 aneinanderpassende Fragmente; linkes Fragment (a) 1897 gefunden; Maße beziehen sich auf Fragment a. CIL III 12759: nur Fragment b. Teilweise Zeilenlinien für die Beschriftung. (B): CIL III 12759. 14619; Patsch; Imamović: Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 12759. (B)</bibl><bibl>CIL 03, 14619. (B)</bibl><bibl>E. Imamović, Antički kultni i votivni spomenici na području Bosne i Hercegovine (Sarajevo 1977) 410, Nr. 173; Foto. (B)</bibl><bibl>K. Patsch, AEM 16, 1893, 78, Nr. 3. (B)</bibl><bibl>C. Patsch, WMBH 6, 1899, 256-257, Nr. 2; Fig. 75. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

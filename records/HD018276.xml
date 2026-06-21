@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Ala &amp;ndash; Aalen (Raetia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD018276</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD018276</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Aalen, Limesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(35)</height><width>(26)</width><depth>13</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.5-4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Raetia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118537">Ala</placeName></origPlace><origDate><origDate notBefore-custom="0171" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD - 230 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1982"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2959927">Aalen</placeName><placeName type="findspot">Lager, {Principia, Fahnenheiligtum, Eingang}, bei</placeName><placeName type="region">Baden-Württemberg</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD018276_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD018276_2" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Vi[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD018276_3" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-12-14" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F017956" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/1e5734f4-9da8-48b9-bd14-9d378828c11a/file/id/777567/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><supplied reason="lost"><expan><abbr>al</abbr><ex>a</ex></expan> II <expan><abbr>Fl</abbr><ex>avia</ex></expan> |(miliaria) <expan><abbr>p</abbr><ex>ia</ex></expan> <expan><abbr>f</abbr><ex>idelis</ex></expan> cui praeest</supplied> <lb n="2"/><expan><abbr>L</abbr><ex>ucius</ex></expan> <expan><abbr>Vi</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/>sub <supplied reason="lost">cura <gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>leg</abbr><ex>ati</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan></supplied> <lb n="4"/><expan><abbr>pr</abbr><ex>o</ex></expan> <supplied reason="lost"><expan><abbr>pr</abbr><ex>aetore</ex></expan> provinciae Raetiae <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost" cert="low"> fecit</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Fragment vom linken unteren Rand einer Tafel. Inschriftfeld in Form einer tabula ansata. In Z. 3 ist zu Beginn hinter dem L ein Worttrenner sichtbar, hinter dem V noch eine senkrechte Haste, die zu einem M oder I gehören dürfte. (B): Dietz: [[[P(ublio) Sept(imio) Getae Caes(ari)]] ala Flavia (milliaria) p(ia) f(idelis) val]/lum [cum portis et turribus restituit] / sub [Scribonio Acutiano leg(ato) Augusto(rum)] / pr(o) [pr(aetore) et oder cur(ante) -- praef(ecto)] / (vacat) [alae milliariae eiusdem (vacat)].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1989, 0584.</bibl><bibl>G. Alföldy, FBW 14, 1989, 323-324, Nr. 6; Abb. 12; Abb. 13 (Zeichnung). - AE 1989.</bibl><bibl>AE 1995, 0045.</bibl><bibl>AE 2001, 1566.</bibl><bibl>M. Reuter, SJ 48, 1995, 34, Nr. 68. - AE 1995.</bibl><bibl>G. Alföldy, in: P. Barceló - V. Rosenberger (Hrsg.), Humanitas - Beiträge zur antiken Kulturgeschichte. Festschrift für Gunther Gottlieb zum 65. Geburtstag (München 2001) 27-44, Nr. 2. - AE 2001.</bibl><bibl>K. Dietz, ActaPraehistA 25, 1993, 243-251; Abb. 1 (Zeichnung); Abb. 2; Abb. 3 u. 4 (Zeichnungen). (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

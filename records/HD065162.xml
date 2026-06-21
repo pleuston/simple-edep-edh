@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Topeiros &amp;ndash; Nestos (Thracia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD065162</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD065162</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Kaválla, Arch. Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(91)</height><width>(50)</width><depth>15</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">2.5-2.8</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Thracia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/668393">Topeiros</placeName></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/390903">Greece</placeName><placeName type="modern" ref="http://www.geonames.org/734758">Nestos</placeName><placeName type="findspot">{Paradeisos}, sekundär verwendet</placeName><placeName type="region">Anatolikí Makedonía, Thráki</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD065162_1" sex="W"><persName><name type="nomen">Αὐρηλία*</name><name type="cognomen">Βαλεριανή</name></persName></person><person xml:id="HD065162_2" sex="M"><persName><name type="cognomen">Δύδης</name><name type="supernomen">ὁ καὶ Εὐάγριoς</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2012-02-17" who="Cowey">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>ΑΚΩΝΟΙ <lb n="2"/>Ε δρόμος ἐσθλὸς ἐπ<supplied reason="lost">ῆ</supplied><lb break="no" n="3"/>γεν Αὐρ(ηλία) Βαλεριανὴ <lb n="4"/><supplied reason="lost">τ</supplied>ῷ ἀνδρὶ εὐνόως καὶ φ<supplied reason="lost">ιλο</supplied><lb break="no" n="5"/>στόργως σ&amp;lt;υ&amp;gt;ζήσαντι Δύδῃ <lb n="6"/><supplied reason="lost">τ</supplied>ῷ καὶ Εὐαγρίῳ ζήσαντι ἔτ<supplied reason="lost">η</supplied> <lb n="7"/>τεσσεράκοντα, ἐκ τῶν ἰδίων τὸν <lb n="8"/><supplied reason="lost">β</supplied>ωμὸν κατεσκεύασα πα<lb break="no" n="9"/>ραγγέλω δὲ μηδένα ἕ<lb break="no" n="10"/>τερον τεθῆναι χωρὶς ἐ<lb break="no" n="11"/>μοῦ ὃς ἂν δὲ τολμήσει <lb n="12"/>δώσ&amp;lt;ει=Ι&amp;gt; τῷ ταμείῳ δηνά<lb break="no" n="13"/>ρια χείλια πεντακό<lb break="no" n="14"/>σια 
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2005, 1346.</bibl><bibl>L.D. Loukopoulou - A. Zournatzi - M.G. Parissaki - S. Psoma (Hrsg.), Epigraphes tis Thrakis tou Aigaiou metaxy ton potamon Nestou kai Ebrou (Nomoi Xanthis, Rodopis kai Ebrou). (Athinai 2005) 271-272, Nr. E 88; pín. 23, E88. - AE 2005.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

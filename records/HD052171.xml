@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Mogontiacum &amp;ndash; Mainz (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD052171</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD052171</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mainz, Römerpassage 1</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>26</height><width>111</width><depth>10</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109169">Mogontiacum</placeName></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1999"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2874225">Mainz</placeName><placeName type="findspot">{Heiligtum der Isis und der Magna Mater}, sekundär verwendet</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD052171_1" sex="W"><persName><name type="nomen">Claudia</name><name type="cognomen">Icmas</name></persName></person><person xml:id="HD052171_2" sex="M"><persName><name type="cognomen">Vitulus</name></persName></person><person xml:id="HD052171_3" sex="M"><persName><name type="nomen">Claudius*</name><name type="cognomen">Atticus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2018-02-07" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F020316" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/bc6e197a-2d05-4f4e-905b-988a50bae847/file/id/780389/file_version/name/small"/><graphic xml:id="F020317" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/77898bc6-e0a2-4c7d-806a-3687081d4d08/file/id/780390/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Pro salute Augustorum et <lb n="2"/><expan><abbr>s</abbr><ex>enatus</ex></expan> p<expan><ex>opuli</ex><abbr>q</abbr><ex>ue</ex></expan> <expan><abbr>R</abbr><ex>omani</ex></expan> et exercitus <lb n="3"/>Isidi Pantheae Claudia <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>l</abbr><ex>iberta</ex></expan> Icmas <lb n="4"/>et Vitulus <expan><abbr>Caes</abbr><ex>aris</ex></expan> <expan><abbr>sacer</abbr><ex>dote</ex></expan> <expan><abbr>Claud</abbr><ex>io</ex></expan> Attico <expan><abbr>lib</abbr><ex>erto</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Tabula ansata; in mehrere Fragmente gebrochen. Fundjahr: 1999-2001. Datierung: möglicherweise aus Anlass der Niederschlagung des Saturninus-Aufstandes 89 n. Chr. gesetzt.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2004, 1016.</bibl><bibl>M. Witteyer, Das Heiligtum für Isis und Mater Magna. Texte und Bilder (Mainz 2005) 17, Nr. 3; Foto. - AE 2004.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

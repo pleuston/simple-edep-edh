@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Saal/Donau (Raetia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD060111</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD060111</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>München, Arch. Staatsslg.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>105</height><width>61</width><depth>35</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Raetia</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0181" notAfter-custom="0182" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">181 AD - 182 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1509"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2818807">Saal/Donau</placeName><placeName type="findspot">Untersaal, {spätantikes Lager}, sekundär verwendet</placeName><placeName type="region">Bayern</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD060111_1" sex="M"><persName><name type="nomen">Flavius*</name><name type="cognomen">Vetulenus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-10-05" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F003378" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/296b2372-584c-466e-97ee-6be8c326b3b6/file/id/764218/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>I</abbr><ex>ovi</ex></expan> <expan><abbr>O</abbr><ex>ptimo</ex></expan> <expan><abbr>M</abbr><ex>aximo</ex></expan> Statori <lb n="2"/><expan><abbr>Fl</abbr><ex>avius</ex></expan> Vetulenus |(centurio) <lb n="3"/><expan><abbr>leg</abbr><ex>ionis</ex></expan> III <expan><abbr>Ital</abbr><ex>icae</ex></expan> rever<lb break="no" n="4"/>sus ab exped<lb break="no" n="5"/><expan><abbr>it</abbr><ex>ione</ex></expan> Burica <lb n="6"/>ex voto <lb n="7"/>posuit
+            </ab></div>
+            <div type="commentary">
+                <p>Datierung: expeditio Burica unter Commodus die zur Annahme des Siegertitels Germanicus Maximus spätestens 182 führte.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IBR 353; tab. 48, 353.</bibl><bibl>CIL 03, 05937.</bibl><bibl>CIL 03, 05937 add. p. 2328,201.</bibl><bibl>K. Dietz - T. Fischer, Die Römer in Regensburg (Regensburg 1996) 170.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

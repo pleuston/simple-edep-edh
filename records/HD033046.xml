@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Timacum Minus &amp;ndash; Knjaževac (Moesia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD033046</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD033046</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(70)</height><width>(77)</width><depth>23</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-4.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207501">Timacum Minus</placeName></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/6290252">Serbia</placeName><placeName type="modern" ref="http://www.geonames.org/786413">Knjaževac</placeName><placeName type="findspot">Ravna, bei, {"Kuline", spätantike Festung}</placeName><placeName type="region">Centralna Srbija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD033046_1" sex="M"><persName ref="http://romans1by1.com/rpeople/13801"><name type="cognomen">Heraclius+</name></persName></person><person xml:id="HD033046_2" sex="M"><persName ref="http://romans1by1.com/rpeople/13802"><name type="cognomen">Exsuperatus</name></persName></person><person xml:id="HD033046_3" sex="M"><persName ref="http://romans1by1.com/rpeople/13803"><name type="nomen">Septimius*</name><name type="cognomen">Herculanus</name></persName></person><person xml:id="HD033046_4" sex="W"><persName ref="http://romans1by1.com/rpeople/13804"><name type="nomen">Aurelia*</name><name type="cognomen">Dinentilla</name></persName></person><person xml:id="HD033046_5"><persName ref="http://romans1by1.com/rpeople/13800"><name type="nomen">0?</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-07-07" who="Feraudi">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><expan><abbr><supplied reason="lost">vi</supplied>x</abbr><ex>it</ex></expan> an<supplied reason="lost"><expan><abbr>n</abbr><ex>os</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> Hera</supplied><lb break="no" n="2"/>clius <expan><abbr>vix</abbr><ex>it</ex></expan> <expan><abbr>n<am>n</am></abbr><ex>os</ex></expan> V <lb n="3"/>et Exsuperatus <expan><abbr>v</abbr><ex>ixit</ex></expan> <expan><abbr>a</abbr><ex>nnos</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> III </ab></div><div n="3" type="textpart"><ab><lb n="1"/> <expan><abbr>Sept</abbr><ex>imius</ex></expan> Herculanus <lb n="2"/>pater et <expan><abbr>Aur</abbr><ex>elia</ex></expan> Dinen<lb break="no" n="3"/>tilla mat<supplied reason="lost">e</supplied>r fili<expan><ex>i</ex><abbr>s</abbr></expan> <lb n="4"/>dulcis<supplied reason="lost">s</supplied>imis et <lb n="5"/>sibi se viventibus <lb n="6"/><expan><abbr>pos</abbr><ex>uerunt</ex></expan>
+            </ab></div></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILJug 1341.</bibl><bibl>IMS 3, 2, 083.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

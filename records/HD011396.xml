@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mile-/leaguestone from Bosanska Gradiška (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD011396</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD011396</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Banja Luka, Mus. Rép. Serbe</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">mile-/leaguestone</objectType><material>Gesteine</material><dimensions unit="cm"><height>(120)</height><width>32</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0219" notAfter-custom="0220" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">219 AD - 220 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1946"><placeName type="country" ref="https://www.geonames.org/3277605">Bosnia and Herzegovina</placeName><placeName type="modern">Bosanska Gradiška</placeName><placeName type="findspot">Jablanica</placeName><placeName type="region">Republika Srpska</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>mile-/leaguestone</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD011396_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1762"><name type="praenomen">M.+</name><name type="nomen">Aurelius+*</name><name type="cognomen">Antoninus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-05-25" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Imp</abbr><ex>erator</ex></expan> <expan><abbr>Caes</abbr><ex>ar</ex></expan> divi Anto</supplied>ni<supplied reason="lost">ni</supplied> Magni <expan><abbr>fil</abbr><ex>ius</ex></expan> <lb n="2"/><supplied reason="lost">divi Sever</supplied>i Pii nepo<supplied reason="lost">s</supplied> <lb n="3"/><supplied reason="lost"><expan><abbr>M</abbr><ex>arcus</ex></expan> <expan><abbr>Aur</abbr><ex>elius</ex></expan> A</supplied><expan><abbr>n<supplied reason="lost">to</supplied>nin</abbr><ex>us</ex></expan> <expan><abbr>P</abbr><ex>ius</ex></expan> <expan><abbr>F</abbr><ex>elix</ex></expan> <lb n="4"/><supplied reason="lost"><expan><abbr>Aug</abbr><ex>ustus</ex></expan> <expan><abbr>p</abbr><ex>ontifex</ex></expan> <expan><abbr>m</abbr><ex>aximus</ex></expan> <expan><abbr>tr</abbr><ex>ibunicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan></supplied> III <supplied reason="lost"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> II<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <expan><abbr>p</abbr><ex>ater</ex></expan></supplied> <expan><abbr>p</abbr><ex>atriae</ex></expan> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1973, 0441.</bibl><bibl>I. Bojanovski, BAHD 6/7, 1972/73, 163-176; sl. 1; tabla 1. - AE 1973.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

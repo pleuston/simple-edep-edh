@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Trimontium &amp;ndash; Newstead (Britannia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD028803</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD028803</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Edinburgh, Nat. Mus. of Scotland</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>84</height><width>37</width><depth>31</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.5-3.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Britannia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/89304">Trimontium</placeName></origPlace><origDate><origDate notBefore-custom="0142" notAfter-custom="0158" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">142 AD - 158 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1910"><placeName type="country" ref="https://www.geonames.org/2635167">United Kingdom</placeName><placeName type="modern" ref="http://www.geonames.org/6942440">Newstead</placeName><placeName type="findspot">{Lager, südlicher Annex}</placeName><placeName type="region">Roxburgh, Ettrick and Lauderdale</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD028803_1" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Maximius</name><name type="cognomen">Gaetulicus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-03-03" who="Cowey">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Deo <lb n="2"/>Apollini <lb n="3"/><expan><abbr>L</abbr><ex>ucius</ex></expan> Maximius <lb n="4"/>Gaetulicus |(centurio) <lb n="5"/>legionis
+            </ab></div>
+            <div type="commentary">
+                <p>Auf der linken Seite möglicherweise ein Köcher Auf der rechten Seite ein Bogen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>EphEp 9, p. 618 n. 1233.</bibl><bibl>AE 1911, 0083.</bibl><bibl>J. Curle, A Roman frontier post and its people: the fort at Newstead (Glasgow 1911) 143; pl. 17. - AE 1911.</bibl><bibl>RIB 2120; Zeichnung.</bibl><bibl>L.J.F. Keppie - B.J. Arnold, Scotland, CSIR Great Britain 1, 4 (Oxford 1984) 17, Nr. 46; Pl. 15, 46.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

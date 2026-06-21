@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Colonia Claudia Augusta? Agrippinensium, bei &amp;ndash; Köln (Germania inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD031656</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD031656</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Köln, Röm.-Germ. Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(29)</height><width>(59)</width><depth>7</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/108751">Colonia Claudia Augusta? Agrippinensium, bei</placeName></origPlace><origDate><origDate when-custom="0190" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">190 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1902"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2873613">Köln</placeName><placeName type="findspot">Marienburg, {Flottenlager Alteburg}</placeName><placeName type="region">Nordrhein-Westfalen</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD031656_1" sex="M"><persName><name type="cognomen">Commodus+</name></persName></person><person xml:id="HD031656_2" sex="M"><persName><name type="cognomen">Septimianus+</name></persName></person><person xml:id="HD031656_3" sex="M"><persName><name type="nomen">0?</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-03-23" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/>ELA<gap reason="lost" quantity="1" unit="line"/> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> ------ <expan><abbr>pleroma</abbr><ex>te</ex></expan> --- et] <lb n="2"/>milites ple<supplied reason="lost"><expan><abbr>roma</abbr><ex>tis</ex></expan> eius</supplied><lb break="no" n="3"/>dem aedem <gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/>aere collat<supplied reason="lost" cert="low">o fecerunt</supplied> <lb n="5"/><del rend="erasure">I<supplied reason="lost">m</supplied><expan><abbr>p</abbr><ex>eratore</ex></expan> [Commodo V</del>]I et Septim<supplied reason="lost">iano</supplied> <lb n="6"/>co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Drei teilweilse aneinander passende (Frg. b u. c) Fragmente bekannt. Frg. b nach Galsterer heute verloren. Abmessungen (Galsterer): Frg. b: s.o., Frg. a: (8) x (9.5) x 10, Frg. c: keine Angabe. Textwiedergabe / Ergänzungen nach Eck.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1903, 0369.</bibl><bibl>CIL 13, 08250.</bibl><bibl>B. Galsterer - H. Galsterer, Die römischen Steininschriften aus Köln, IKöln (2.</bibl><bibl>Aufl.) (Mainz 2010) 326-327, Nr. 392; Foto.</bibl><bibl>PIR (2. Aufl.) P 312.</bibl><bibl>J. Poppelreuter, WDZ 21, 1902, 448. - AE 1903.</bibl><bibl>W. Eck, ZPE 204, 2017, 233-235, Nr. 5. - AE 2017 AE 2017, 1004.</bibl><bibl>H. Gregarek, KJ 34, 2001, 580-581, Nr. 40; Abb. 57. - AE 2017.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

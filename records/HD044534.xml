@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Perinthus &amp;ndash; Marmara Ereğlisi (Thracia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD044534</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD044534</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>104</height><width>65</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Thracia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/511357">Perinthus</placeName></origPlace><origDate><origDate notBefore-custom="0193" notAfter-custom="0214" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">193 AD - 214 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/298795">Turkey</placeName><placeName type="modern" ref="http://www.geonames.org/741725">Marmara Ereğlisi</placeName><placeName type="findspot"/><placeName type="region">Tekirdağ</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD044534_1" sex="M"><persName><name type="nomen">Aurelius*</name><name type="cognomen">Marcellus</name></persName></person><person xml:id="HD044534_2" sex="M"><persName><name type="nomen">Aelius*</name><name type="cognomen">Iustinus</name></persName></person><person xml:id="HD044534_3" sex="M"><persName><name type="nomen">Aurelius*</name><name type="cognomen">Taurus</name></persName></person><person xml:id="HD044534_4" sex="M"><persName><name type="nomen">Septimius*</name><name type="cognomen">Sabinianus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-10-06" who="Gräf">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/><expan><abbr>Aur</abbr><ex>elius</ex></expan> Marcellus <expan><abbr>mil</abbr><ex>es</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> I <lb n="3"/><expan><abbr>adiutri</abbr><ex>cis</ex></expan> <expan><abbr>coh</abbr><ex>ortis</ex></expan> VI ST <expan><abbr>v</abbr><ex>ixit</ex></expan> <expan><abbr>n<am>n</am></abbr><ex>os</ex></expan> <lb n="4"/>XXX militavit <expan><abbr>n<am>n</am></abbr><ex>os</ex></expan> VI <expan><abbr>Ael</abbr><ex>ius</ex></expan> <lb n="5"/>Iustinus et <expan><abbr>Aur</abbr><ex>elius</ex></expan> Taurus et <lb n="6"/><expan><abbr>Sep</abbr><ex>timius</ex></expan> Sabinianus heredes pos<lb break="no" n="7"/>uerunt bene merenti <expan><abbr>m</abbr><ex>onumentum</ex></expan> <expan><abbr>ex</abbr><ex>ternum</ex></expan> <lb n="8"/><supplied reason="lost" cert="low">h(eredem) n(on) s(equetur)</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Sayar: Z. 2: miles. Datierung: Sayar: nach den Namen kaum vor Septimius Severus; nicht nach dem Aufbruch Caracallas in den Osten im Jahr 214 n. Chr.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 07396.</bibl><bibl>M.H. Sayar, Perinthos-Herakleia (Marmara Ereğlisi) und Umgebung.</bibl><bibl>Geschichte, Testimonien, griechische und lateinische Inschriften (Wien 1998) 262-263, Nr. 76. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

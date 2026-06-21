@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Municipium Claudium Virunum, aus &amp;ndash; Maria Saal (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD012139</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD012139</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Klagenfurt/Wörthersee, Landesmus. Kärnten</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>47</height><width>54</width><depth>12</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197583">Municipium Claudium Virunum, aus</placeName></origPlace><origDate><origDate notBefore-custom="0131" notAfter-custom="0170" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">131 AD - 170 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1962"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2761174">Maria Saal</placeName><placeName type="findspot">{Willersdorf}</placeName><placeName type="region">Kärnten</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD012139_1" sex="M"><persName><name type="nomen">Aelius*</name><name type="cognomen">Bellicianus</name></persName></person><person xml:id="HD012139_2" sex="W"><persName><name type="nomen">Postumia</name><name type="cognomen">Septumina</name></persName></person><person xml:id="HD012139_3" sex="M"><persName><name type="nomen">Aelius*</name><name type="cognomen">Ursus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-10-24" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/><expan><ex>A</ex><abbr>el</abbr><ex>ius</ex></expan> Bellicianus <lb n="3"/>et Postumia <lb n="4"/>Septumina <expan><abbr>v</abbr><ex>ivi</ex></expan> <expan><abbr>f</abbr><ex>ecerunt</ex></expan> <lb n="5"/>sibi et <expan><ex>A</ex><abbr>elio</abbr></expan> <lb n="6"/>Urso <expan><abbr>fil</abbr><ex>io</ex></expan> <expan><abbr>ob</abbr><ex>ito</ex></expan> <expan><abbr>an</abbr><ex>norum</ex></expan> VIIII
+            </ab></div>
+            <div type="commentary">
+                <p>(B): AE 1969/70: Z. 1/2: keine Angabe des Zeilenfalls; Z. 2: Elius.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1969/70, 0504. (B)</bibl><bibl>ILLPRON 0727.</bibl><bibl>P.S. Leber, Die in Kärnten seit 1902 gefundenen römischen Steininschriften (Klagenfurt 1972) 62-63, Nr. 100.</bibl><bibl>G. Piccottini, Die Römersteinsammlung des Landesmuseums für Kärnten (Klagenfurt 1996) 89-90, Nr. 42; Foto.</bibl><bibl>H. Dolenz, AustrRom 12, 1962, 27, Nr. 1. - AE 1969/70.</bibl><bibl>G. Kremer, Antike Grabbauten in Noricum (Wien 2001) 156, Nr. 155.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

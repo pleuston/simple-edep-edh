@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Lepcis Magna &amp;ndash; Al Khums (Africa Proconsularis)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD059261</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD059261</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Al Khums, Lepcis Magna Museum (Depot)</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(41)</height><width>(39)</width><depth>3</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">8</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Africa Proconsularis</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/344448">Lepcis Magna</placeName></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0400" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 400 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2215636">Libya</placeName><placeName type="modern" ref="http://www.geonames.org/2219905">Al Khums</placeName><placeName type="findspot">{Serapistempel}</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD059261_1" sex="M"><persName><name type="nomen">Αὑρήλιος+</name><name type="cognomen">Ἁφροδείσιος</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-05-23" who="Bigi">checked through autopsy</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F033137" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/ed09dec2-4e62-4f90-96bf-f262c34e2c95/file/id/793944/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/>? Αὑρή</supplied>λιος Ἁφροδείσιος <lb n="2"/><supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> Σ</supplied>αράπιδος <gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> της βουλ<supplied reason="lost">ῆς <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>Ο<supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied>Ο<gap reason="lost" quantity="1" unit="line"/> </ab></div><div n="2" type="textpart"><ab><lb n="0"/> <gap reason="lost" quantity="1" unit="line"/>ΡΟ<gap reason="lost" quantity="1" unit="line"/>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Fundstelle: IRT 311: found on the road west of the Macellum. Sieben Fragmente erhalten. SEG 53, 1177 = AE 2003, 1912. (B): fragments not recognized as part of the same text.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IRT 311.</bibl><bibl>SEG 53, 1177. (B)</bibl><bibl>SEG 53, 1179. (B)</bibl><bibl>AE 2003, 1912. (B)</bibl><bibl>A. Di Vita u. a., QAL 18, 2003, 74, Nr. 9 u. 11; fig. 11. - SEG 53 - AE 2003.</bibl><bibl>I. Tantillo - F. Bigi (Hrsg.), Leptis Magna. Una città e le sue iscrizioni in epoca tardoromana (Cassino 2010) 477 u. 478, Nr. 85; fig. 10.101.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

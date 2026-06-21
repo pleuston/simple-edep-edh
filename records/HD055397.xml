@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Castrum Rauracense &amp;ndash; Kaiseraugst (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD055397</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD055397</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Augst, Mus. Augusta Raurica, Großsteindepot</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>163</height><width>80</width><depth>23</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7.4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/81716458">Castrum Rauracense</placeName></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0270" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 270 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1976"><placeName type="country" ref="https://www.geonames.org/2658434">Switzerland</placeName><placeName type="modern" ref="http://www.geonames.org/2660204">Kaiseraugst</placeName><placeName type="findspot">{Kastellstraße / Dorfstraße, Einmündung}, Lager, spätantiker Abwasserkanal, sekundär verwendet</placeName><placeName type="region">Kanton Aargau</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD055397_1" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Attius</name><name type="cognomen">Severus</name></persName></person><person xml:id="HD055397_2" sex="M"><persName><name type="cognomen">Severianus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2018-04-18" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F012441" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/1dd1c022-7ff6-4925-9619-847d48294d47/file/id/771964/file_version/name/small"/><graphic xml:id="F008862" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/ee5136ec-9958-4858-a960-bc6a8ac3b66e/file/id/768629/file_version/name/small"/><graphic xml:id="F040719" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/35e0b09d-a02e-446e-a960-9385abbd691f/file/id/801599/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/><expan><abbr>M</abbr><ex>arco</ex></expan> Attio <lb n="3"/>Severo <lb n="4"/>Severia<lb break="no" n="5"/>nus <expan><abbr>fil</abbr><ex>ius</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): AE 1991: Z. 1/2: Zeilenfall nicht angegeben.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1991, 1266. (B)</bibl><bibl>W. Faust, Die Grabstelen des 2. und 3. Jahrhunderts im Rheingebiet (Köln 1998) 114, Nr. 69.</bibl><bibl>T. Tomasevic-Buck, JberAugst 2, 1982, 28; Abb. 23 u. 24. - AE 1991.</bibl><bibl>T. Tomasevic-Buck, JberAugst 9, 1988, 261-263, Nr. 2; Abb. 3 (Foto u. Zeichnung). - AE 1991.</bibl><bibl>P.-A. Schwarz, Inscriptiones selectae Coloniae Augustae Rauricorum. Ausgewählte Inschriften aus Augst und Kaiseraugst (Augst 1988) 6; Abb. 2. - AE 1991.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

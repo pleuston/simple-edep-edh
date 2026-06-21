@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Aquae Sulis &amp;ndash; Bath (Britannia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD026413</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD026413</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bath, Roman Baths Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/70">Oolith</material><dimensions unit="cm"><height>122</height><width>63</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Britannia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/79299">Aquae Sulis</placeName></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1922"><placeName type="country" ref="https://www.geonames.org/2635167">United Kingdom</placeName><placeName type="modern" ref="http://www.geonames.org/2656173">Bath</placeName><placeName type="findspot">{Stall Street}</placeName><placeName type="region">Somerset</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD026413_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Iavolenus+</name><name type="cognomen">Saturnalis+</name></persName></person><person xml:id="HD026413_2" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Manius</name><name type="cognomen">Dionysias</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-02-07" who="Cowey">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Dea<supplied reason="lost">e</supplied> Suli <lb n="2"/><supplied reason="lost">o</supplied>b s<supplied reason="lost">alutem</supplied> <expan><abbr>sac</abbr><ex>rum</ex></expan> <lb n="3"/><expan><abbr>G</abbr><ex>ai</ex></expan> Iav<supplied reason="lost">oleni Sa</supplied>tur<supplied reason="lost">n</supplied><lb break="no" n="4"/><supplied reason="lost">al</supplied>is <gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/><supplied reason="lost">i</supplied>m<supplied reason="lost">a</supplied><expan><abbr>g<supplied reason="lost">i</supplied>n</abbr><ex>iferi</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> II <lb n="6"/><expan><abbr>Aug</abbr><ex>ustae</ex></expan> <expan><abbr>L</abbr><ex>ucius</ex></expan> Manius <lb n="7"/>Dionisias <note>sic</note> libe<expan><ex>r</ex><abbr>t</abbr><ex>us</ex></expan> <lb n="8"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1924, 0092.</bibl><bibl>M.V. Taylor - R.G. Collingwood, JRS 11, 1921, 233-234, Nr. 1. - AE 1924.</bibl><bibl>RIB 0147; Zeichnung.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

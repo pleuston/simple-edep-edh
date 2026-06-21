@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription (Belgica)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD065355</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD065355</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Leiden, Nat. Mus. Arch. (Rijksmus.)</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><dimensions unit="cm"><height>97</height><width>89</width><depth>28</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Belgica</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1622"><placeName type="country" ref="https://www.geonames.org/2750405">Netherlands</placeName><placeName type="modern"/><placeName type="findspot"/><placeName type="region">Zeeland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD065355_1" sex="M"><persName><name type="cognomen">Dacinus</name></persName></person><person xml:id="HD065355_2" sex="M"><persName><name type="cognomen">Liffio</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-03-28" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F025307" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/d7114d6e-b32a-4b4c-9f3d-14e48b8cad06/file/id/786059/file_version/name/small"/><graphic xml:id="F025308" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/73bc4e25-3aeb-4a3b-9188-c1b4d386763b/file/id/786060/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Deae </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Nehalenniae <lb n="2"/>Dacinus Liffionis <lb n="3"/>filius <expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Kopien befinden sich in Middelburg, Brüssel und Mainz. Mit freundlichem Hinweis von Marie-Thérèse Raepsaet-Charlier.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>L.J.F. Janssen, De Romeinsche beelden en gedenksteenen van Zeeland (Middelburg 1845) 72-73, Nr. 29; pl. 29 a-e (Zeichnungen).</bibl><bibl>A. Hondius-Crone, The Temple of Nehalennia at Domburg (Amsterdam 1955) 32-33, Nr. 5; Fotos.</bibl><bibl>CIL 13, 08783.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

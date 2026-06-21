@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Salodurum &amp;ndash; Solothurn (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD080345</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD080345</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Solothurn, Jesuitenkirche, Lapidarium</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>60</height><width>73</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/177624">Salodurum</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1762"><placeName type="country" ref="https://www.geonames.org/2658434">Switzerland</placeName><placeName type="modern" ref="http://www.geonames.org/2658564">Solothurn</placeName><placeName type="findspot">{S. Urs und Viktor, Kathedrale}, Schmieden-Kapelle, sekundär verwendet</placeName><placeName type="region">Kanton Solothurn</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD080345_1" sex="M"><persName><name type="praenomen">T.</name><name type="nomen">Crassicius*?</name><name type="cognomen">Pattusius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-07-31" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F036976" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/a3cb9915-4d33-4066-9e9c-4fa31bbd90bc/file/id/797837/file_version/name/small"/><graphic xml:id="F038814" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/719dc67f-1ec6-4704-8d18-98b03fd59f37/file/id/799687/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                In <expan><abbr>honor</abbr><ex>em</ex></expan> <expan><abbr>dom</abbr><ex>us</ex></expan> <lb n="2"/><expan><abbr>divin</abbr><ex>ae</ex></expan> Apollini <lb n="3"/><expan><abbr>Aug</abbr><ex>usto</ex></expan> <expan><abbr>T</abbr><ex>itus</ex></expan> <expan><abbr>Cr</abbr><ex cert="low">assicius</ex></expan> Pattu<lb break="no" n="4"/>sius templum <lb n="5"/><expan><abbr>d</abbr><ex>e</ex></expan> <expan><abbr>s</abbr><ex>uo</ex></expan> <expan><abbr>d</abbr><ex>onum</ex></expan> dedit
+            </ab></div>
+            <div type="commentary">
+                <p>Zur Auflösung des in Salodurum häufiger belegten Gentiles vgl. https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD050400, CIL 13, 05178; CIL 13, 05179.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 05169.</bibl><bibl>G. Walser, Römische Inschriften in der Schweiz 2 (Bern 1980) 42-43, Nr. 129; Foto.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

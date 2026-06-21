@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Lepcis Magna &amp;ndash; Al Khums (Africa Proconsularis)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD059344</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD059344</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>44</height><width>(62)</width><depth>15</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4-5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Africa Proconsularis</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/344448">Lepcis Magna</placeName></origPlace><origDate><origDate when-custom="0209" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">209 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2215636">Libya</placeName><placeName type="modern" ref="http://www.geonames.org/2219905">Al Khums</placeName><placeName type="findspot">{Forum Severianum, Südseite}</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD059344_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q183089"><name type="praenomen">P.++</name><name type="nomen">Septimius++</name><name type="cognomen">Geta++</name></persName></person><person xml:id="HD059344_2" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1442"><name type="cognomen">Severus+</name></persName></person><person xml:id="HD059344_3" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1446"><name type="cognomen">Antoninus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-09-01" who="Cowey">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <del rend="erasure"><expan><abbr>P</abbr><ex>ublio</ex></expan> Septimio Getae [nobilis</del>]<lb break="no" n="2"/><del rend="erasure">simo <expan><abbr>Caes</abbr><ex>ari</ex></expan></del> co<expan><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> II Im<supplied reason="lost"><expan><abbr>p</abbr><ex>eratoris</ex></expan> Severi</supplied> <lb n="3"/><expan><abbr>Aug</abbr><ex>usti</ex></expan> filio Antonini <supplied reason="lost">Augusti Pii</supplied> <lb n="4"/>fratri <expan><abbr>Lepc</abbr><ex>itani</ex></expan> Septimian<supplied reason="lost">i <gap reason="lost" extent="unknown" unit="character"/> ob</supplied> <lb n="5"/>eximiam ac divinam in s<supplied reason="lost">e indulgentiam</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IRT 441.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

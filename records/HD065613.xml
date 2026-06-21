@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Axima (Forum Claudii Ceutronum) &amp;ndash; Aime en Tarentaise (Alpes Graiae)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD065613</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD065613</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Aime en Tarentaise, Mus. S. Martin</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/214">sarcophagus</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>84</height><width>128</width><depth>26</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7.3-3.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Alpes Graiae</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/167663">Axima (Forum Claudii Ceutronum)</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1833"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/2968267">Aime en Tarentaise</placeName><placeName type="findspot">{Villette, Kirke}</placeName><placeName type="region">Auvergne-Rhône-Alpes</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD065613_1" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Exomnius</name><name type="cognomen">Macrinus</name></persName></person><person xml:id="HD065613_2" sex="M"><persName><name type="cognomen">Rusticus</name></persName></person><person xml:id="HD065613_3" sex="W"><persName><name type="nomen">Nigria</name><name type="cognomen">Marca</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-09-22" who="Masci">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/><expan><abbr>L</abbr><ex>uci</ex></expan> Exomni Macrini Rustici fili hic Bri<lb break="no" n="3"/>gantione geniti annorum XVI in studi<expan><ex>i</ex><abbr>s</abbr></expan> <lb n="4"/>valle Poenina vita functi reliquis eiu<supplied reason="lost">s</supplied> <lb n="5"/><supplied reason="lost">huc</supplied> delatis Nigria Marca mater fili<supplied reason="lost">o</supplied> <lb n="6"/><supplied reason="lost">pient</supplied>issimo et sibi viva faciendum <lb n="7"/>curavit
+            </ab></div>
+            <div type="commentary">
+                <p>Brigantio named here is not Briançon, in Cottian Alps, but another place in Tarentaise with the same name. (B): Howald - Meyer: Z. 6: [kar]issimo.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>B. Rémy, Inscriptions latines des Alpes (I.L.Alpes) 1. Alpes Graies (Chambéry - Grenoble 1998) 88-90, Nr. 36; Foto.</bibl><bibl>CIL 12, 00118.</bibl><bibl>(o. Autor), in: B. Rémy u. a., La Savoie, Carte archéologique de la Gaule 73 (Paris 1996) 100, Nr. 53; Foto.</bibl><bibl>E. Howald - E. Mayer, Die römische Schweiz (Zürich 1940) 213, Nr. 71. (B)</bibl><bibl>F. Wiblé, Martigny la Romaine (Lausanne 2008) 112, Nr. 121; Foto.</bibl><bibl>G. Walser, Via per Alpes Graias (Stuttgart 1986) 53; Taf. 24, 28.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

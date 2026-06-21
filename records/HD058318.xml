@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Municipium Claudium Virunum, bei &amp;ndash; Steindorf/Ossiacher See (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD058318</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD058318</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Steindorf/Ossiacher See, Tiffen, Pfarrhof?</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(51)</height><width>(41)</width><depth>24</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4-3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197583">Municipium Claudium Virunum, bei</placeName></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0130" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 130 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1865"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2763607">Steindorf/Ossiacher See</placeName><placeName type="findspot">Tiffen, {S. Jakobus der Ältere, Pfarrkirche}, sekundär verwendet</placeName><placeName type="region">Kärnten</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD058318_1" sex="M"><persName><name type="praenomen">[-]</name><name type="cognomen">[---]ius</name></persName></person><person xml:id="HD058318_2" sex="M"><persName><name type="cognomen">Hermia+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-02-24" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><expan><abbr>Aug</abbr><ex>ust-</ex></expan> <supplied reason="lost"><expan><abbr>sac</abbr><ex>rum</ex></expan></supplied><gap reason="lost" extent="unknown" unit="character"/><lb break="no" n="2"/>ius Ca<supplied reason="lost"><expan><abbr>es</abbr><ex>arsi</ex></expan> <expan><abbr>n</abbr><ex>ostri</ex></expan> et He</supplied><lb break="no" n="3"/>rmia <supplied reason="lost" cert="low">sacellu</supplied><lb break="no" n="4"/>m ex vot<supplied reason="lost">o</supplied><gap reason="lost" extent="unknown" unit="character"/><lb break="no" n="5"/><abbr>s</abbr> <expan><abbr>imp</abbr><ex>endio</ex></expan> suo <supplied reason="lost">restit</supplied><lb break="no" n="6"/>uerunt
+            </ab></div>
+            <div type="commentary">
+                <p>Fundjahr: zwischenzeitlich verschollen und 1952 wiedergefunden. Ergänzungsvorschlag nach G. Alföldy. (B): CIL III 4822; ILLPRON: Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1956, p. 18 s. n. 43.</bibl><bibl>CIL 03, 04822. (B)</bibl><bibl>CIL 03, 11505.</bibl><bibl>ILLPRON 0602. (B)</bibl><bibl>P. Leber, Carinthia I 145, 1955, 191; Foto. - AE 1956.</bibl><bibl>G. Alföldy, in: EpStud 8 (Düsseldorf 1969) 25, s. n. 34.</bibl><bibl>P.S. Leber, Die in Kärnten seit 1902 gefundenen römischen Steininschriften (Klagenfurt 1972) 101-102, Nr. 187.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

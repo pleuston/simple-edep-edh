@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Novaesium &amp;ndash; Neuss (Germania inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD078712</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD078712</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Köln, ehem. Jesuitengymnasium (heute Dreikönigsgymnasium)</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material>Gesteine</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109215">Novaesium</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0070" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 70 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2917328">Neuss</placeName><placeName type="findspot">{Grimlinghausen}, Rhein, Fluss, Ufer</placeName><placeName type="region">Nordrhein-Westfalen</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD078712_1" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Lucilius</name><name type="cognomen">Secundus</name></persName></person><person xml:id="HD078712_2" sex="W"><persName><name type="nomen">Lucilia</name><name type="cognomen">Pallas</name></persName></person><person xml:id="HD078712_3" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Lucilius</name><name type="cognomen">Blandus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-01-31" who="Feraudi">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>M</abbr><ex>arcus</ex></expan> Lucilius Secu<lb break="no" n="2"/>ndus decurio <lb n="3"/><expan><abbr>mis</abbr><ex>sicius</ex></expan> ex ala <expan><abbr>Front</abbr><ex>oniana</ex></expan> <lb n="4"/>domo Camppili <lb n="5"/>Luciliae <expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>l</abbr><ex>ibertae</ex></expan> Pal<lb break="no" n="6"/>ladi <expan><abbr>M</abbr><ex>arco</ex></expan> Lucilio <lb n="7"/>Blando <expan><abbr>lib</abbr><ex>erto</ex></expan> <expan><abbr>h</abbr><ex>eredes</ex></expan> <expan><abbr>e</abbr><ex>x</ex></expan> <expan><abbr>t</abbr><ex>estamento</ex></expan> <expan><abbr>f</abbr><ex>aciendum</ex></expan> <expan><abbr>c</abbr><ex>uraverunt</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Aufbewahrungsort nach CIL.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 08558; Zeichnung.</bibl><bibl>G. Alföldy, Die Hilfstruppen in der römischen Provinz Germania inferior EpStud 6 (Düsseldorf 1968) 189, Nr. 72.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

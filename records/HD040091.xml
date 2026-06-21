@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Asseria &amp;ndash; Benkovac (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD040091</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD040091</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Zadar, Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><dimensions unit="cm"><height>65</height><width>21</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4-2.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197145">Asseria</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0151" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 151 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1911"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3215219">Benkovac</placeName><placeName type="findspot">{Podgrađe, bei}</placeName><placeName type="region">Zadarska županija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD040091_1" sex="W"><persName><name type="nomen">Vesia</name><name type="cognomen">Moderata</name></persName></person><person xml:id="HD040091_2" sex="M"><persName><name type="nomen">Gellius</name><name type="cognomen">Chrysogonus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-09-28" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Vesiae <lb n="2"/>Modera<lb break="no" n="3"/>tae Gel<lb break="no" n="4"/>lius Chry<lb break="no" n="5"/>sogonus uxo<lb break="no" n="6"/>ri karissi<lb break="no" n="7"/>mae
+            </ab></div>
+            <div type="commentary">
+                <p>Denkmalform: sog. Liburnischer Cippus.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1993, 1262.</bibl><bibl>I. Fadić, Diadora 12, 1990, 255, Nr. 8; t. 3, 1. - AE 1993.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

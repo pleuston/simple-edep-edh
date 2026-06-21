@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Póvoa de Midões (Lusitania)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD010862</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD010862</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">block</objectType><dimensions unit="cm"><height>35</height><width>150</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.5-6.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Lusitania</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate when-custom="0080" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">80 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2264397">Portugal</placeName><placeName type="modern" ref="http://www.geonames.org/2735798">Póvoa de Midões</placeName><placeName type="findspot"/><placeName type="region">Região do Centro</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD010862_1" sex="M"><persName><name type="cognomen">Titus</name></persName></person><person xml:id="HD010862_2" sex="M"><persName><name type="cognomen">Severus</name></persName></person><person xml:id="HD010862_3" sex="M"><persName><name type="cognomen">Vitulus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2018-11-30" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>eratore</ex></expan> Tito VIII co<expan><ex>n</ex><abbr>s</abbr><ex>ule</ex></expan> <lb n="2"/>fontem aedificavit <lb n="3"/>Severus Vituli <expan><abbr>f</abbr><ex>ilius</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Mit freundlichem Hinweis zum Fundort seitens António Faria (23.2.2000).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1938, 0128.</bibl><bibl>A. De Mattos RArqueol 3, 1936, 175-176; Foto. - AE 1938.</bibl><bibl>AE 1987, 0478c.</bibl><bibl>J. Cardim Ribeiro, Sintria 1/2, 1982/83, 1911-195. 198-199; fig. 19-21. 23a-f. - AE 1987.</bibl><bibl>CIL 02, 00050*.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

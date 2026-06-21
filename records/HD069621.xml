@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Isca Silurum &amp;ndash; Caerleon (Britannia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD069621</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD069621</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Caerleon, Nat. Rom. Leg. Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/35">architectural member</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>274</height><width>48</width><depth>38</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Britannia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/79532">Isca Silurum</placeName></origPlace><origDate><origDate when-custom="0244" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">244 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1800"><placeName type="country" ref="https://www.geonames.org/2635167">United Kingdom</placeName><placeName type="modern" ref="http://www.geonames.org/2654093">Caerleon</placeName><placeName type="findspot">{S. Cadoc's Kirche, Kirchhof}</placeName><placeName type="region">Gwent</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD069621_1" sex="M"><persName><name type="cognomen">Peregrinus+*</name></persName></person><person xml:id="HD069621_2" sex="M"><persName><name type="cognomen">Aemilianus+*</name></persName></person><person xml:id="HD069621_3" sex="M"><persName><name type="cognomen">Ursus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-02-26" who="Cowey">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>N</abbr><ex>uminibus</ex></expan> <lb n="2"/><expan><abbr>Aug</abbr><ex>ustorum</ex></expan> <lb n="3"/>Genio <lb n="4"/><expan><abbr>leg</abbr><ex>ionis</ex></expan> <lb n="5"/>II <expan><abbr>Aug</abbr><ex>ustae</ex></expan> <lb n="6"/>in hono<lb break="no" n="7"/>rem <supplied reason="lost">aquilae<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/> <lb n="9"/><gap reason="lost" extent="unknown" unit="character"/> <lb n="10"/><gap reason="lost" extent="unknown" unit="character"/> <lb n="11"/><gap reason="lost" extent="unknown" unit="character"/> <lb n="12"/><gap reason="lost" extent="unknown" unit="character"/> <lb n="13"/><expan><abbr>p</abbr><ex>rimus</ex></expan> <expan><abbr>p</abbr><ex>ilus</ex></expan> <lb n="14"/><expan><abbr>d</abbr><ex>ono</ex></expan> <expan><abbr>d</abbr><ex>edit</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> d<expan><ex>e</ex><abbr>d</abbr><ex>icatum</ex></expan> <lb n="2"/>VIIII <lb n="3"/><expan><abbr>Kal</abbr><ex>endas</ex></expan> <expan><abbr>Oc<supplied reason="lost">t</supplied>ob</abbr><ex>res</ex></expan> <lb n="4"/>P<supplied reason="lost">e</supplied><expan><abbr>r<supplied reason="lost">e</supplied>gr</abbr><ex>ino</ex></expan> <lb n="5"/>e<supplied reason="lost">t Ae</supplied><expan><abbr>m<supplied reason="lost">i</supplied>l</abbr><ex>iano</ex></expan> <lb n="6"/>co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> <lb n="7"/><expan><abbr>cur</abbr><ex>ante</ex></expan> Urso <lb n="8"/><expan><abbr>actar</abbr><ex>io</ex></expan> <lb n="9"/><expan><abbr><supplied reason="lost">l</supplied>e<supplied reason="lost">g</supplied></abbr><supplied reason="lost"><ex>ionis</ex></supplied></expan> <supplied reason="lost">e</supplied>ius<lb break="no" n="10"/><supplied reason="lost">dem</supplied>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Die Inschrift besteht aus 3 nicht aneinanderpassenden Fragmenten. Die Maße des Fragments (a) sind: Höhe: -61; Breite: -48.3; Tiefe: 38.1. Die Maße des Fragments (b) sind: Höhe: -28; Breite: -45.7; Tiefe: 17.8. Die Maße des Fragments (c) sind: Höhe: -25.4; Breite: -48.3; Tiefe: 17.8. (B): Zu den leichten Leseabweichungen s. RIB 0327.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 07, 00103. (B)</bibl><bibl>CIL 07, 00103, add. p. 306.</bibl><bibl>RIB 0327; Zeichnung.</bibl><bibl>PIR (2. Aufl.) P 536.</bibl><bibl>PIR (2. Aufl.) F 529.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

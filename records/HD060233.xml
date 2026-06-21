@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Castra Regina &amp;ndash; Regensburg (Raetia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD060233</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD060233</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen?</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/214">sarcophagus</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Raetia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118929">Castra Regina</placeName></origPlace><origDate><origDate notBefore-custom="0171" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1678"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2849483">Regensburg</placeName><placeName type="findspot">{S. Peter, Dom, Kreuzgang}</placeName><placeName type="region">Bayern</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD060233_1" sex="M"><persName><name type="nomen">Flavius*</name><name type="cognomen">Marcellinus</name></persName></person><person xml:id="HD060233_2" sex="W"><persName><name type="nomen">Iulia*</name><name type="cognomen">Ursa</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-10-06" who="Osnabrügge">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Perpetu<expan><ex>a</ex><abbr>e</abbr></expan> securitati <expan><abbr>Fl</abbr><ex>avius</ex></expan> <lb n="2"/>Marcellinus <expan><abbr>mil</abbr><ex>es</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> III <expan><abbr>Ital</abbr><ex>icae</ex></expan> <lb n="3"/><expan><abbr>st</abbr><ex>ipendiorum</ex></expan> XXIII vixit <expan><abbr>n<am>n</am></abbr><ex>os</ex></expan> XLV <expan><abbr>Iul</abbr><ex>ia</ex></expan> <lb n="4"/>Ursa <expan><abbr>coniux</abbr><ex cert="low"/></expan> <expan><abbr>incomparabilis</abbr><ex cert="low"/></expan> <lb n="5"/><expan><abbr>f</abbr><ex>aciendum</ex></expan> <expan><abbr>c</abbr><ex>uravit</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Neben dem Inschriftenfeld Genien. Vor Z. 1 wohl noch [D(is) M(anibus) et] zu ergänzen, auf dem Deckel? Z. 4 nach der Zeichnung und den älteren Abschriften wiedergegeben, Vollmer (IBR) und Mommsen (CIL) haben das Monument selbst nicht mehr gesehen. (B): IBR: Z. 4: coni(ugi) incomparabil(i); CIL 03, 05950: Z. 4: con[i(ugi)] incompara[b(ili)].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IBR 394. (B)</bibl><bibl>CIL 03, 05950.</bibl><bibl>J. v. Hefner, VHVO 13, 1849, 46-47.</bibl><bibl>G. Gamer - A. Rüsch, Raetia (Bayern südlich des Limes) und Noricum (Chiemseegebiet), CSIR Deutschland 1, 1 (Bonn 1973) 99, Nr. 418.</bibl><bibl>A. Spieß, KJ 21, 1988, 302-303, Nr. 22; Abb. 50 (Zeichnung). (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

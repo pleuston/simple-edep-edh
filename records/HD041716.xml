@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mile-/leaguestone from Agoncillo (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD041716</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD041716</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">mile-/leaguestone</objectType><dimensions unit="cm"><height>170</height><width>31</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Hispania citerior</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0251" notAfter-custom="0330" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">251 AD - 330 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern" ref="http://www.geonames.org/3130916">Agoncillo</placeName><placeName type="findspot">Barranco del Obispo</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>mile-/leaguestone</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2006-05-10" who="Garcia">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/>IVV<gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/>TVT<gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/>COS<gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/>RON<gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">Pi</supplied><lb break="no" n="5"/>o Fe<supplied reason="lost">lici Invic</supplied>to Au<supplied reason="lost">gusto pon</supplied><lb break="no" n="6"/>tifi<supplied reason="lost">ci max</supplied><lb break="no" n="7"/>simo <note>sic</note> tribuni<lb break="no" n="8"/>ci<expan><ex>a</ex><abbr>e</abbr></expan> potestatis <lb n="9"/><expan><abbr>con</abbr><ex>suli</ex></expan> procon<lb break="no" n="10"/>suli
+            </ab></div>
+            <div type="commentary">
+                <p>Verschollen?</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>J. Lostal Pros, Los miliarios de la provincia tarraconense (conventos tarraconense, cesaraugustano, cluniense y cartaginense) (Zaragoza 1992), 196-197, Nr. 191; fig. 109 (Zeichnung).</bibl><bibl>CIL 02, 04880.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

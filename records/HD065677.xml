@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Viviscus &amp;ndash; Vevey (Alpes Poeninae)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD065677</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD065677</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Vevey, Rathaus</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material>Gesteine</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Alpes Poeninae</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/177663">Viviscus</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0400" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 400 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1777"><placeName type="country" ref="https://www.geonames.org/2658434">Switzerland</placeName><placeName type="modern" ref="http://www.geonames.org/2658145">Vevey</placeName><placeName type="findspot">{S.-Claire, Kirche}, bei</placeName><placeName type="region">Canton de Vaud</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD065677_1" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Speratius*</name><name type="cognomen">Ursulus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-07-17" who="Masci">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Deo Silvano <lb n="2"/><expan><abbr>L</abbr><ex>ucius</ex></expan> <expan><abbr>Sper</abbr><ex>atius</ex></expan> Ursulus <lb n="3"/><expan><abbr>benefic</abbr><ex>iarius</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> XX<lb break="no" n="4"/><supplied reason="lost">II <expan><abbr>Pr</abbr><ex>imigeniae</ex></expan>? <gap reason="lost" extent="unknown" unit="character"/></supplied> ded<supplied reason="lost">icavit</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Schallmayer - Eibl - Ott - Preuß - Wittkopf: Z. 3: le[g(ionis) XXII]; Z. 4: [pr(imigeniae) p(iae) f(idelis) ---] IV [ded(it)]; Walser: Z. 4: nicht gelesen; Howald - Mayer: Z. 4: [do]n(um) ded[it].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 12, 00164.</bibl><bibl>G. Walser, Römische Inschriften in der Schweiz 1 (Bern 1979) 126-127, Nr. 59; Foto. (B)</bibl><bibl>E. Howald - E. Mayer, Die römische Schweiz (Zürich 1940) 210, Nr. 59. (B)</bibl><bibl>F. Wiblé, Vallesia 33, 1978, 33, Nr. 32.</bibl><bibl>E. Schallmayer - K. Eibl - J. Ott - G. Preuß - E. Wittkopf, Der römische Weihebezirk von Osterburken 1 (Stuttgart 1990) 47, Nr. 43; Foto. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

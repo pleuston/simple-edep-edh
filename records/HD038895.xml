@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Flavia Solva, bei &amp;ndash; Geistthal (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD038895</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD038895</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Geistthal, S. Jakob, Pfarrkirche, vermauert</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">tabula?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>34</height><width>206</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7.5-4.0</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197273">Flavia Solva, bei</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2778718">Geistthal</placeName><placeName type="findspot">{S. Jakob, Pfarrkirche}, sekundär verwendet</placeName><placeName type="region">Steiermark</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD038895_1" sex="M"><persName><name type="cognomen">Avitus</name></persName></person><person xml:id="HD038895_2" sex="M"><persName><name type="cognomen">Optatus</name></persName></person><person xml:id="HD038895_3" sex="W"><persName><name type="cognomen">Covruna*</name></persName></person><person xml:id="HD038895_4" sex="M"><persName><name type="cognomen">Ianuarius</name></persName></person><person xml:id="HD038895_5" sex="M"><persName><name type="praenomen">M.?</name><name type="nomen">Ulpius*?</name><name type="cognomen">Ia[---]?</name></persName></person><person xml:id="HD038895_6" sex="W"><persName><name type="cognomen">Dicmaeesa?</name></persName></person><person xml:id="HD038895_7" sex="W"><persName><name type="nomen">Hostilia</name><name type="cognomen">[-]veneina?</name></persName></person><person xml:id="HD038895_8" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Ulpius*</name><name type="cognomen">Acilius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-12-10" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Avitus Optati <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>d</abbr><ex>efunctus</ex></expan> <expan><abbr>an</abbr><ex>norum</ex></expan> LV et <lb n="2"/>Covrun<expan><ex>a</ex><abbr>e</abbr></expan> Ianuari <expan><abbr>f</abbr><ex>iliae</ex></expan> <expan><abbr>con</abbr><ex>iugi</ex></expan> <expan><abbr>op</abbr><ex>timae</ex></expan> <lb n="3"/>e<supplied reason="lost" cert="low">t</supplied> <expan><abbr>M</abbr><ex cert="low">arco</ex></expan> <expan><abbr>Ulp</abbr><ex>io</ex></expan><certainty match="preceding-sibling::node()" locus="value"/> <expan><abbr>I</abbr><ex cert="low"/>A</expan><certainty match="preceding-sibling::node()" locus="value"/><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied><expan><abbr>I</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/>I e<supplied reason="lost" cert="low">t</supplied> <expan><abbr>DiC</abbr><ex cert="low"/>maE</expan><certainty match="preceding-sibling::node()" locus="value"/><expan><abbr>E</abbr><ex cert="low"/>sae</expan> <expan><abbr>an</abbr><ex>norum</ex></expan> XI et Hostili<surplus>i</surplus>a <lb n="4"/><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied><expan><abbr>VE</abbr><ex cert="low"/>NE</expan><certainty match="preceding-sibling::node()" locus="value"/><expan><abbr>I</abbr><ex cert="low"/>NA</expan> <expan><abbr>con</abbr><ex>iux</ex></expan> <supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied><expan><abbr>I</abbr><ex cert="low"/>I</expan><certainty match="preceding-sibling::node()" locus="value"/> e<supplied reason="lost" cert="low">t</supplied> <expan><abbr>M</abbr><ex>arco</ex></expan> <expan><abbr>Ulp</abbr><ex>io</ex></expan> <expan><abbr>Acili</abbr><ex>o</ex></expan> <expan><abbr>fil</abbr><ex>io</ex></expan> <expan><abbr>an</abbr><ex>norum</ex></expan> XXII
+            </ab></div>
+            <div type="commentary">
+                <p>Die Lesung der Zeilen 3 und 4 fraglich. Z. 2: kein I-longa in Ianuarii, sondern eine Ligatur II. (B): CIL 03, 05422 a; Weber; ILLPRON: Lesung abweichend/unvollständig.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>E. Weber, Die römerzeitlichen Inschriften der Steiermark (Graz 1969) 357-358, Nr. 301; Foto. (B)</bibl><bibl>CIL 03, 05422 a. (B)</bibl><bibl>ILLPRON 1195. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

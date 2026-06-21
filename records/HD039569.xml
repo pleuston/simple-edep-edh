@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Brigetio &amp;ndash; Komárom (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD039569</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD039569</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Komárom, Klapka György Múz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><dimensions unit="cm"><height>227</height><width>90</width><depth>31</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6.2-3.1</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197180">Brigetio</placeName></origPlace><origDate><origDate notBefore-custom="0131" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">131 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3044294">Komárom</placeName><placeName type="findspot">{Szőny}</placeName><placeName type="region">Komárom-Esztergom megye</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD039569_1" sex="M"><persName ref="http://romans1by1.com/rpeople/18213"><name type="praenomen">L.</name><name type="nomen">Valerius*</name><name type="cognomen">Rufus</name></persName></person><person xml:id="HD039569_2" sex="W"><persName ref="http://romans1by1.com/rpeople/18214"><name type="cognomen">An[-]ma</name></persName></person><person xml:id="HD039569_3" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Valerius*</name><name type="cognomen">Lu[---]?</name></persName></person><person xml:id="HD039569_4" sex="M"><persName><name type="praenomen">L.?</name><name type="nomen">Valerius*?</name><name type="cognomen">[---]anus?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-03-31" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/><expan><abbr>L</abbr><ex>ucio</ex></expan> <expan><abbr>Val</abbr><ex>erio</ex></expan> <expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>fil</abbr><ex>io</ex></expan> <lb n="3"/><expan><abbr>Palat</abbr><ex>ina</ex></expan> Ru&amp;lt;f=E&amp;gt;o <lb n="4"/><expan><abbr>vet</abbr><ex>erano</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> I <expan><abbr>dec</abbr><ex>urio</ex></expan> <expan><abbr>Br</abbr><ex>igetionensium</ex></expan> <lb n="5"/><expan><abbr>quaes</abbr><ex>tori</ex></expan> et <expan><abbr>mag</abbr><ex>istro</ex></expan> <expan><abbr>n<am>n</am></abbr><ex>orum</ex></expan> <lb n="6"/>LXX et An<supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied><expan><abbr>mae</abbr><ex cert="low"/></expan> <expan><abbr>coniug</abbr><ex>i</ex></expan> ei<surplus>i</surplus><expan><abbr>u</abbr><ex>s</ex></expan> <lb n="7"/><expan><abbr>L</abbr><ex cert="low">ucii</ex></expan> <expan><abbr>Val</abbr><ex cert="low">erii</ex></expan> Lu<supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> et<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <gap reason="lost" extent="unknown" unit="character"/></supplied>anus <lb n="8"/>hered<supplied reason="lost">es</supplied><gap reason="lost" extent="unknown" unit="character"/>IT<gap reason="lost" extent="unknown" unit="character"/> <lb n="9"/><expan><abbr>f</abbr><ex>aciendum</ex></expan> <supplied reason="lost"><expan><abbr>c</abbr><ex>uraverunt</ex></expan></supplied> 
+            </ab></div>
+            <div type="commentary">
+                <p>Westlich des Legionslagers in Wiederverwendung für ein spätantikes gefunden. Oberhalb des Inschriftfeldes Kranz mit Rosette. Z. 6 (Anfang): hinter A auch M statt N möglich.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>RIU 0596; Abb. 596 (Foto u. Zeichnung).</bibl><bibl>L. Borhy, Vezető Komárom város római kori kőemlékeihez (Komárom 2006) 83-84, Nr. 54; Fotos. (X)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

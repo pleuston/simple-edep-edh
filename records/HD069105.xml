@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Aquincum &amp;ndash; Budapest (Pannonia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD069105</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD069105</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Budapest, Magyar Nemzeti Múz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">stele?</objectType><dimensions unit="cm"><height>(92)</height><width>(81)</width><depth>12</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.5-5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197130">Aquincum</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1882"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/7284842">Budapest</placeName><placeName type="findspot">Óbuda, {Filatorigát}</placeName><placeName type="region">Budapest</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD069105_1" sex="M"><persName><name type="nomen">0?</name><name type="cognomen">[---]nus</name></persName></person><person xml:id="HD069105_2" sex="M"><persName><name type="cognomen">Genialis*</name></persName></person><person xml:id="HD069105_3" sex="W"><persName><name type="nomen">Iulia*</name><name type="cognomen">Quintina*</name></persName></person><person xml:id="HD069105_4" sex="W"><persName><name type="cognomen">Secundina*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-02-11" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><lb break="no" n="2"/>no av<expan><ex>un</ex><abbr>culo</abbr></expan> et Gen<expan><ex>i</ex><abbr>ali</abbr></expan> <gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/>genero item <expan><ex>a</ex><abbr>etatis</abbr></expan> <gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/><expan><abbr>Iul</abbr><ex>iae</ex></expan> Quin<expan><ex>t</ex><abbr>in</abbr><ex>a</ex><abbr>e</abbr></expan> soro<supplied reason="lost">ri</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/>et Secundin<expan><ex>a</ex><abbr>e</abbr></expan> ne<supplied reason="lost">poti<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <gap reason="lost" extent="unknown" unit="character"/></supplied><lb break="no" n="6"/>em<expan><ex>a</ex><abbr>e</abbr></expan> pi<expan><ex>e</ex><abbr>n</abbr><ex>t</ex><abbr>iss</abbr></expan><supplied reason="lost">imae</supplied><gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Abmessungen (hier nach TitAq) aus Gründen der Proportionen anzuzweifeln.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 10549.</bibl><bibl>TitAq 0779; Foto.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

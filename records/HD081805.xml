@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Andematunnum (Civitas Lingonum) &amp;ndash; Langres (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD081805</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD081805</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Langres, Mus. Art Hist. (Mus. Guy-Baillet)</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(65)</height><width>24</width><depth>13</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/177441">Andematunnum (Civitas Lingonum)</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1846"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/3007680">Langres</placeName><placeName type="findspot">{Rue Barbier d'Aucourt}</placeName><placeName type="region">Grand Est</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD081805_1" sex="M"><persName><name type="nomen">Vatinius*</name><name type="cognomen">Magninus</name></persName></person><person xml:id="HD081805_2" sex="W"><persName><name type="cognomen">Lupercilla*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-03-05" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F028513" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/2ae37293-95d2-4e36-80cf-cc60ee279ffd/file/id/789270/file_version/name/small"/><graphic xml:id="F013136" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/9cc6c14d-73a2-4e51-b389-242be240d2bc/file/id/772664/file_version/name/small"/><graphic xml:id="F040169" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/70935430-6605-419a-bf75-7836d16914d8/file/id/801051/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost">Ma</supplied><lb break="no" n="2"/><expan><abbr>trab</abbr><ex>us</ex></expan> <lb n="3"/><expan><abbr>Vatin</abbr><ex>ius</ex></expan> <lb n="4"/>Magni<lb break="no" n="5"/>nus <lb n="6"/>pro Lu<lb break="no" n="7"/>perc<expan><ex>i</ex><abbr>l</abbr></expan><lb break="no" n="8"/>la <expan><abbr>fil</abbr><ex>ia</ex></expan> <lb n="9"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Altar, oben abgebrochen. Z. 2: VA-Ligatur; Z. 3: MA-Ligatur.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 05673.</bibl><bibl>M. Joly, Langres, Carte archéologique de la Gaule 52, 2 (Paris 2001) 70.</bibl><bibl>Y. Le Bohec, Inscriptions de la cité des Lingons (Paris 2003) 197, Nr. 342; Abb. 154.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

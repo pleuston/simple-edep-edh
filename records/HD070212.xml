@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription? from Castra Exploratorum &amp;ndash; Netherby (Britannia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD070212</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD070212</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/35">architectural member</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Britannia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/89142">Castra Exploratorum</placeName></origPlace><origDate><origDate when-custom="0213" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">213 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1609"><placeName type="country" ref="https://www.geonames.org/2635167">United Kingdom</placeName><placeName type="modern">Netherby</placeName><placeName type="findspot">{Arthuret Kirche}</placeName><placeName type="region">Cumbria</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription?</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD070212_1" sex="W"><persName><name type="nomen">Iulia</name><name type="cognomen">Augusta+*</name></persName></person><person xml:id="HD070212_2" sex="M"><persName><name type="praenomen">M.+</name><name type="nomen">Aurelius+</name><name type="cognomen">Antoninus+</name></persName></person><person xml:id="HD070212_3" sex="M"><persName><name type="praenomen">C.+</name><name type="nomen">Iulius+*</name><name type="cognomen">Marcus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-11-22" who="Cowey">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <gap reason="lost" extent="unknown" unit="character"/> Iuliae Au<supplied reason="lost"><expan><abbr>g</abbr><ex>ustae</ex></expan></supplied> <lb n="2"/><surplus>M</surplus> matri Au<supplied reason="lost"><expan><abbr>g</abbr><ex>usti</ex></expan></supplied> <lb n="3"/><supplied reason="lost">nostri <expan><abbr>M</abbr><ex>arci</ex></expan> Aur</supplied><lb break="no" n="4"/>eli<surplus>i</surplus> Anton<supplied reason="lost">ini</supplied> <lb n="5"/>et <expan><abbr>castr</abbr><ex>orum</ex></expan> <supplied reason="lost">et</supplied> <lb n="6"/>senatus et <lb n="7"/>patriae pro <lb n="8"/><supplied reason="lost">pietate ac</supplied> <lb n="9"/>devotione <lb n="10"/><supplied reason="lost">communi</supplied> <lb n="11"/><expan><abbr>num</abbr><ex>ini</ex></expan> eius <lb n="12"/><supplied reason="lost">curante <expan><abbr>G</abbr><ex>aio</ex></expan> <expan><abbr>Iul</abbr><ex>io</ex></expan></supplied> <lb n="13"/>Marc<supplied reason="lost">o</supplied> l<supplied reason="lost"><expan><abbr>eg</abbr><ex>ato</ex></expan> <expan><abbr>Aug</abbr><ex>ustorum</ex></expan></supplied> <lb n="14"/><expan><abbr>pr</abbr><ex>o</ex></expan> <expan><abbr>pr</abbr><ex>aetore</ex></expan> <expan><abbr>coh</abbr><ex>ors</ex></expan> <supplied reason="lost">I</supplied> <expan><abbr>Ael</abbr><ex>ia</ex></expan> <lb n="15"/><supplied reason="lost"><expan><abbr>Hisp</abbr><ex>anorum</ex></expan> <expan><abbr>eq</abbr><ex>uitata</ex></expan></supplied> <lb n="16"/>posuit
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Zu den Leseabweichungen s. RIB 0976.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 07, 00963. (B)</bibl><bibl>RIB 0976; Zeichnung.</bibl><bibl>PIR (2. Aufl.) I 405.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

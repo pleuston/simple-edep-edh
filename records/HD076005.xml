@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph? from (Civitas Vangionum?) &amp;ndash; Breitenbach (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD076005</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD076005</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Breitenbach, Protestantische Pfarrkirche, Turm, vermauert</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">block</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(39)</height><width>(112)</width><depth>61</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">8</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="#">(Civitas Vangionum?)</placeName></origPlace><origDate><origDate notBefore-custom="0051" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1900"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2944716">Breitenbach</placeName><placeName type="findspot">{Protestantische Pfarrkirche, Turm}, sekundär verwendet</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph?</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD076005_1" sex="M"><persName><name type="nomen">[---]?</name><name type="cognomen">Catullinus</name></persName></person><person xml:id="HD076005_2"><persName><name type="cognomen">Iu[---]</name></persName></person><person xml:id="HD076005_3" sex="M"><persName><name type="cognomen">Luppilus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-02-18" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F028687" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/75dae4d8-b7ff-457a-a4d5-83fbffabd801/file/id/789444/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <gap reason="lost" extent="unknown" unit="character"/> Catullini Iu<gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>ST Luppili fili <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>is sanctissimi C<gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Bruchstück mit dem oberen Rand des Inschriftfeldes. (B): CIL 13, 06198: Vor Z. 1 noch eine weitere verlorene Zeile; Z. 2: STI VPPILII FILI; Ditsch geht davon aus, dass links und rechts kein weiterer Teil der Inschrift zu ergänzen ist. Der Worttrenner in Z. 2 hinter fili sowie das C am Ende von Z. 3 legen jedoch nahe, dass mindestens nach rechts noch Teile der Inschrift zu ergänzen sind und so auch nicht 1/2 Iu/st(i) gelesen werden kann.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 06198. (B)</bibl><bibl>S. Ditsch, Dis Manibus. Die römischen Grabdenkmäler aus der Pfalz (Neustadt/Weinstraße 2011) Taf. 10, 4. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

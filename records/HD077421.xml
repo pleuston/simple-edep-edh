@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Augusta Treverorum &amp;ndash; Trier (Belgica)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD077421</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD077421</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Trier, Rhein. Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material>Marmor, geädert / farbig</material><dimensions unit="cm"><height>26</height><width>70</width><depth>4</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">2.3-2.9</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Belgica</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/108894">Augusta Treverorum</placeName></origPlace><origDate><origDate notBefore-custom="0701" notAfter-custom="0730" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">701 AD - 730 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1824"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2821164">Trier</placeName><placeName type="findspot">{S. Paulin, Friedhof}</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD077421_1" sex="M"><persName><name type="cognomen">Ursinianus</name></persName></person><person xml:id="HD077421_2" sex="W"><persName><name type="cognomen">Ludula</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-06-26" who="Cowey">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F031249" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/a41999d7-3fc5-4670-bb9a-8643ef1b5d8c/file/id/792010/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Ursiniano subdiacono sub hoc tumulo ossa <lb n="2"/>quiescunt qui merui<lb break="no" n="3"/>t <lb n="4"/>sanctorum sociari sepulcra <lb n="5"/>quem nec Tartarus furens nec poena saeva nocebi<supplied reason="lost">t</supplied> <lb n="6"/>hunc titulum posuit <lb n="7"/>Ludu<lb break="no" n="8"/>la dulcissima coniux <lb n="9"/><expan><abbr>r</abbr><ex>ecessit</ex></expan> V <expan><abbr>K</abbr><ex>alendas</ex></expan> <expan><abbr>D</abbr><ex>ecembres</ex></expan> vixit annis XXXIII
+            </ab></div>
+            <div type="commentary">
+                <p>Elemente von Hexametern, aber ohne daß ein kompletes Hexameter vorhanden ist. Wohl unterhalb der Inschrift Darstellung einer Vase und symmetrisch flankierenden Tauben.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 03787.</bibl><bibl>ILCV 3453.</bibl><bibl>RICG 01, 170; Foto.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

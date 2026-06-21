@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Seleucia ad Calycadnum &amp;ndash; Silifke (Cilicia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD060030</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD060030</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Silifke, Ark. Müz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/53">base</objectType><dimensions unit="cm"><height>124</height><width>50</width><depth>50</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3-4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Cilicia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/648771">Seleucia ad Calycadnum</placeName></origPlace><origDate><origDate notBefore-custom="0202" notAfter-custom="0205" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">202 AD - 205 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1974"><placeName type="country" ref="https://www.geonames.org/298795">Turkey</placeName><placeName type="modern" ref="http://www.geonames.org/300808">Silifke</placeName><placeName type="findspot"/><placeName type="region">Mersin</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD060030_1" sex="M"><persName><name type="praenomen">Μ.</name><name type="nomen">Αὐρήλιος*</name><name type="cognomen">Ἀντωνῖνος</name></persName></person><person xml:id="HD060030_2" sex="W"><persName><name type="nomen">Φουλουία+++</name><name type="cognomen">Πλαυτίλλα+++</name></persName></person><person xml:id="HD060030_3" sex="M"><persName><name type="nomen">Φλάουιος*</name><name type="cognomen">Οὐλπιανός</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2010-02-26" who="Cowey">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F020726" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/60e3a719-a7c3-45b8-96e6-45d431489eb1/file/id/780800/file_version/name/small"/><graphic xml:id="F020727" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/557e4b7c-eabe-4ad5-be3c-6b36affe1440/file/id/780801/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost">Αὐτοκρ</supplied>άτορα Καίσαρ(α) <lb n="2"/>Μ(ᾶρκον) Αὐρήλ(ιον) Ἀντωνῖνον <lb n="3"/>Εὐσεβῆ Σεβαστὸν <lb n="4"/>υἱὸν Σεουήρου <lb n="5"/>Αὐτοκράτορος καὶ <lb n="6"/><del rend="erasure">[Φουλουίαν Πλαυ</del>]<lb break="no" n="7"/><del rend="erasure">[τίλλαν Σεβ(αστὴν)</del>] ἡ πόλις <lb n="8"/>ἐπὶ Φλ(αουίου) Οὐλπιανοῦ <lb n="9"/>τοῦ λαμπροτάτου <lb n="10"/>ἡγεμόνος
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1978, 0813.</bibl><bibl>G. Dagron - J. Marcillet-Jaubert, Belleten 42, 1978, 412, Nr. 38. - AE 1978.</bibl><bibl>SEG 28, 1290.</bibl><bibl>PIR (2. Aufl.) F 402.</bibl><bibl>G. Dagron - D. Feissel, Inscriptions de Cilicie (Paris 1987) 19-20, Nr. 1; pl. 1, 1.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

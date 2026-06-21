@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Teurnia &amp;ndash; Lendorf (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD057648</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD057648</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Lendorf, S. Peter in Holz, Römermus. Teurnia</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(47)</height><width>(38)</width><depth>21</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.9-2.4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/187583">Teurnia</placeName></origPlace><origDate><origDate notBefore-custom="0301" notAfter-custom="0600" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">301 AD - 600 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2766434">Lendorf</placeName><placeName type="findspot">S. Peter in Holz, {Pfarrhof}, sekundär verwendet</placeName><placeName type="region">Kärnten</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD057648_1" sex="M"><persName><name type="cognomen">Mag[---]?</name></persName></person><person xml:id="HD057648_2" sex="W"><persName><name type="nomen">Terentia+</name><name type="cognomen">Nundina+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-08-12" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F022811" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/3cf8ea87-3cee-4cd3-9c3e-1f7e24c60346/file/id/782977/file_version/name/small"/><graphic xml:id="F027280" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/934ff0be-7260-47de-9507-3c5bfa71a8f2/file/id/788037/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/>Mag<gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/>laudabili v<supplied reason="lost">iro ex</supplied> <lb n="3"/>comitib<supplied reason="lost">us Teren</supplied><lb break="no" n="4"/>tia Nun<supplied reason="lost">dina coniu</supplied><lb break="no" n="5"/>gi optimo <gap reason="lost" extent="unknown" unit="character"/> <lb n="6"/>et sibi <supplied reason="lost">viva fecit</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILLPRON 0494.</bibl><bibl>CIL 03, 04742.</bibl><bibl>A. Gerstl, Supplementum epigraphicum zu CIL III für Kärnten und Osttirol 1902-1961 (Diss. Wien 1961) 117.</bibl><bibl>R. Wedenig, Epigraphische Quellen zur städtischen Administration in Noricum (Klagenfurt 1997) 237-239, Nr. T 5; Taf. 5, T 5.</bibl><bibl>F. Glaser, Teurnia: Römerstadt und Bischofssitz. Ein Führer zu den Ausgrabungen und zum Museum in St. Peter in Holz sowie zu den Fundorten im Stadtgebiet von Teurnia (Klagenfurt 1992) 50-51, Nr. 11.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

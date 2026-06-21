@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Emporiae &amp;ndash; Empúries (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD044118</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD044118</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Empúries, Mus. Arq.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">statue base</objectType><dimensions unit="cm"><height>(33)</height><width>(55)</width><depth>(45)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">2.7-3.3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Hispania citerior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/246382">Emporiae</placeName></origPlace><origDate><origDate notBefore-custom="0217" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">217 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern">Empúries</placeName><placeName type="findspot"/><placeName type="region">Cataluña</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD044118_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2012-02-02" who="Marchesini">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">corona</supplied> <lb n="2"/><supplied reason="lost">au</supplied>rea <supplied reason="lost">et</supplied> torque e<supplied reason="lost">t</supplied> <lb n="3"/>hasta argentea e<supplied reason="lost">t</supplied> <lb n="4"/>clypeo et equo ab <supplied reason="lost">di</supplied><lb break="no" n="5"/>vis Sev<supplied reason="lost">ero et An</supplied>to<lb break="no" n="6"/>nino <expan><abbr>impp</abbr><ex>eratoribus</ex></expan> p<supplied reason="lost">at</supplied>ro<lb break="no" n="7"/>no ob b<supplied reason="lost">e</supplied>nefic<supplied reason="lost">i</supplied>a eius <lb n="8"/>in s<supplied reason="lost">e c</supplied>onlata <expan><abbr>ord</abbr><ex>o</ex></expan> <lb n="9"/><supplied reason="lost"><expan><abbr>r</abbr><ex>ei</ex></expan> <expan><abbr>p</abbr><ex>ublicae</ex></expan> Em</supplied><expan><abbr>p</abbr><ex>oritanorum</ex></expan> <expan><abbr>d</abbr><ex>ecurionum</ex></expan> <supplied reason="lost"><expan><abbr>d</abbr><ex>ecreto</ex></expan></supplied>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IRC 3, 033; pl. 19, 33.</bibl><bibl>IRC 5, p. 85.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

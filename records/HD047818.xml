@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from (Civitas Tribocorum) &amp;ndash; Schweighouse-sur-Moder (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD047818</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD047818</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Haguenau, Mus. hist.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(47)</height><width>51</width><depth>17</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="#">(Civitas Tribocorum)</placeName></origPlace><origDate><origDate notBefore-custom="0031" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">31 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1899"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/3014078">Schweighouse-sur-Moder</placeName><placeName type="findspot">{protestantische Kirche}, sekundär verwendet</placeName><placeName type="region">Grand Est</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD047818_1" sex="M"><persName><name type="nomen">Secundinius</name><name type="cognomen">Attillus</name></persName></person><person xml:id="HD047818_2" sex="W"><persName><name type="cognomen">Divilla</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-12-01" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Secundinius Atti<lb break="no" n="2"/>llus et Divilla <expan><abbr>vot</abbr><ex>o</ex></expan> <lb n="3"/><expan><ex>a</ex><abbr>e</abbr></expan><lb break="no" n="4"/>d[em<certainty match="preceding-sibling::node()" locus="value"/> ------
+            </ab></div>
+            <div type="commentary">
+                <p>Bruchstück vom oberen Teil einer Stele, unterhalb der Inschrift noch Reste des Bildfeldes mit Reliefresten. Zwei Köpfe noch erkennbar. Die Inschrift wurde von Espérandieu als Grabstele aus Haguenau eingeordnet, der Fundort ist jedoch Schweighouse-sur-Moder und das Monument identisch mit CIL 13, 11678c. Vermutlich handelt es sich um ein Votivrelief mit Darstellung der Dea Candida. Z. 3/4 befinden sich auf der linken Rahmenleiste. (B): AE 2000: [---] Secundinius An[---]us [---]; Espérandieu: Secundinius / An[ail]lus.....</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2000, 1076. (B)</bibl><bibl>CIL 13, 11678c.</bibl><bibl>(o. Autor), in: P. Flotté u. a., Le Bas-Rhin, Carte archéologique de la Gaule 67, 1 (Paris 2000) 340. - AE 2000.</bibl><bibl>(o. Autor), in: P. Flotté u. a., Le Bas-Rhin, Carte archéologique de la Gaule 67, 1 (Paris 2000) 592.</bibl><bibl>É. Espérandieu, Recueil général des bas-reliefs, statues et bustes de la Gaule romaine 7 (Paris 1918) 179, Nr. 5553; Foto. (B) - AE 2000.</bibl><bibl>W. Radtke, JBerHagAV 4/5, 1912/13 (1914), 20-24, Nr. 2; Abb. 8 (Zeichnung).</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

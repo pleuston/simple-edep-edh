@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Roma &amp;ndash; Roma (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD029054</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD029054</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Roma, Mus. Naz. Rom.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/24">relief</objectType><dimensions unit="cm"><height>63</height><width>156</width><depth>40</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">2.5-4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma</placeName></origPlace><origDate><origDate notBefore-custom="-0070" notAfter-custom="-0031" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">70 BC - 31 BC</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma</placeName><placeName type="findspot">Via Prenestina</placeName><placeName type="region">Lazio</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD029054_1" sex="M"><persName><name type="praenomen">L.+</name><name type="nomen">Septumius+</name></persName></person><person xml:id="HD029054_2" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Septumius</name></persName></person><person xml:id="HD029054_3" sex="W"><persName><name type="nomen">Hirtuleia</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2010-12-07" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F007249" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/7ed8bd20-cf63-4d88-a275-b72d7a30b971/file/id/767661/file_version/name/small"/><graphic xml:id="F030559" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/29306b74-f0b8-42ad-9b73-d86cd5667eaf/file/id/791316/file_version/name/small"/><graphic xml:id="F039645" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/3ecb74d1-8dc9-4242-88a6-ba1736c63742/file/id/800524/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>L</abbr><ex>ucius</ex></expan> Septumius <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>mag</abbr><ex>ister</ex></expan> Capitolinus <expan><abbr>quinq</abbr><ex>uennalis</ex></expan> <expan><abbr>L</abbr><ex>ucius</ex></expan> Septumius <expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>Arn</abbr><ex>ensis</ex></expan> eques Hirtuleia <expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>f</abbr><ex>ilia</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Kastengrabstein.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 06, 40911; Foto.</bibl><bibl>CIL 01 (2. Aufl.) 02, 02992.</bibl><bibl>ILLRP 0697.</bibl><bibl>ILLRP, Imagines 190-191, Nr. 260; Foto.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

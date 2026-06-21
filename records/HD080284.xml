@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Eburodunum &amp;ndash; Yverdon-les-Bains (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD080284</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD080284</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Yverdon-les-Bains, Mus. d'Yverdon et région</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">statue base</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>104</height><width>78</width><depth>60</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4-5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/177514">Eburodunum</placeName></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1825"><placeName type="country" ref="https://www.geonames.org/2658434">Switzerland</placeName><placeName type="modern" ref="http://www.geonames.org/2657941">Yverdon-les-Bains</placeName><placeName type="findspot">{Friedhof}</placeName><placeName type="region">Canton de Vaud</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD080284_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Flavius</name><name type="cognomen">Camillus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-07-14" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>C</abbr><ex>aio</ex></expan> Flavio Camill<supplied reason="lost">o</supplied> <lb n="2"/><expan><abbr>IIvir</abbr><ex>o</ex></expan> <expan><abbr>col</abbr><ex>oniae</ex></expan> <expan><abbr>Hel</abbr><ex>vetiorum</ex></expan> flamini <lb n="3"/>Augusti <lb n="4"/>quem ordo patronum <lb n="5"/>civitatis cooptavit <expan><abbr>eiq</abbr><ex>ue</ex></expan> <lb n="6"/>ob merita eius erga rem <lb n="7"/>publicam scholam et <lb n="8"/>statuas decrevit <lb n="9"/>vikani <lb n="10"/>Eburodunenses <lb n="11"/>amico et patrono
+            </ab></div>
+            <div type="commentary">
+                <p>Blattförmige hedera als Worttrenner in Z. 7 u. 8. Unterhalb der Inschrift zwei Palmzweige.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 05063.</bibl><bibl>ILS 7009.</bibl><bibl>G. Walser, Römische Inschriften in der Schweiz 1 (Bern 1979) 138-139, Nr. 65; Foto.</bibl><bibl>AE 1961, 0054.</bibl><bibl>G.-T. Schwarz, Pro Aventico 17, 1957, 35-36; fig. 6.- AE 1961.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

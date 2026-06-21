@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Mogetiana, bei &amp;ndash; Kékkút (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD038846</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD038846</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Keszthely, Balatoni Múz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(94)</height><width>67</width><depth>18</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.5-6.2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/3050409">Mogetiana, bei</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3050409">Kékkút</placeName><placeName type="findspot">Kelter, sekundär verwendet</placeName><placeName type="region">Veszprém megye</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD038846_1" sex="M"><persName><name type="praenomen">P.</name><name type="nomen">Antonius</name><name type="cognomen">Ursio</name></persName></person><person xml:id="HD038846_2" sex="W"><persName><name type="nomen">Albania</name><name type="cognomen">Maxima</name></persName></person><person xml:id="HD038846_3" sex="W"><persName><name type="nomen">Antonia</name><name type="cognomen">Maximilla+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-06-24" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>V</abbr><ex>ivus</ex></expan> <expan><abbr>f</abbr><ex>ecit</ex></expan> <lb n="2"/><expan><abbr>P</abbr><ex>ublius</ex></expan> Antonius <lb n="3"/>Ursio <expan><abbr>an</abbr><ex>norum</ex></expan> <lb n="4"/>et Albaniae <lb n="5"/>Maximae <expan><abbr>co</abbr><ex>niugi</ex></expan> <lb n="6"/>et Antoniae <lb n="7"/>Ma<supplied reason="lost">x</supplied>imillae <expan><abbr>fil</abbr><ex>iae</ex></expan> <lb n="8"/><expan><abbr>def</abbr><ex>unctae</ex></expan> <expan><abbr>an</abbr><ex>norum</ex></expan> XXV <lb n="9"/><expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>ita</ex></expan> <expan><abbr>e</abbr><ex>st</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Zwei aneinanderpassende Fragmente, von denen das obere inzwischen verschollen ist; Maße beziehen sich auf das untere Fragment. Inschriftfeld von Halbsäulen eingefasst; darunter zwei Tauben. Z. 3: hinter AN ein spatium.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 04135.</bibl><bibl>CIL 03, 04135 add. p. 1750.</bibl><bibl>CIL 03, 04135 add. p. 2188.</bibl><bibl>RIU 0325; Abb. 325 (Foto u. Zeichnung).</bibl><bibl>C. Ertel - S. Palágyi - F. Redő, Die Skulpturen des Stadtgebietes von Salla und Mogetiana sowie des Balaton-(Plattensee-)Oberlandes in den Komitaten Zala und Veszprém, CSIR Ungarn 8 (Budapest 1999) 81, Nr. 105; Taf. 19, 3.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

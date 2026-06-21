@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mile-/leaguestone from Subirats (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD043868</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD043868</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Subirats, Castell</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">mile-/leaguestone</objectType><dimensions unit="cm"><height>236</height><width>61</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">9-3.4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Hispania citerior</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0250" notAfter-custom="0251" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">250 AD - 251 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1973"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern">Subirats</placeName><placeName type="findspot">Castell, Kirche</placeName><placeName type="region">Cataluña</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>mile-/leaguestone</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD043868_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD043868_2" sex="M"><persName ref="https://www.wikidata.org/wiki/Q273253"><name type="praenomen">Q.+?</name><name type="nomen">Herennius+? Messius+? Decius+?</name><name type="cognomen">Etruscus+?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-03-20" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>I<gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>I<gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost" cert="low"> tribu</supplied>ni<lb break="no" n="3"/><supplied reason="lost" cert="low">cia</supplied><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost" cert="low">Q(uinto)</supplied> He<supplied reason="lost" cert="low">rennio</supplied> <lb n="4"/><supplied reason="lost" cert="low">Etrusco? Messio? Decio? n</supplied>obi<supplied reason="lost" cert="low">lissimo? Caes(ari)</supplied> <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/>A<gap reason="lost" extent="unknown" unit="character"/> <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>B</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Mehrere aneinanderpassende Fragmente. Wiederverwendet als Sarkophag. Lesung anhand der Fotografie nur teilweise überprüfbar. Die Zuweisung des Meilensteins an Decius und Herennius Etruscus ist nicht gesichert, ebenso der Zeilenfall in den hier nach IRC ergänzten Zeilen. Z. 3-4: statt tribu?]ni/[cia? auch tribu?]ni[c(ia)?] möglich. Z. 5: statt n]obi[lissimo? auch n]obi[l(issimo)? denkbar.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IRC 1, 167; pl. 58, 167.</bibl><bibl>IRC 5, p. 27.</bibl><bibl>J. Lostal Pros, Los miliarios de la provincia tarraconense (conventos tarraconense, cesaraugustano, cluniense y cartaginense) (Zaragoza 1992) 116-117, Nr. 113; fig. 64 (Zeichnung); lám. 64.</bibl><bibl>CIL 17, 01, 00021; fig. α u. β.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Owner/artist inscription from Carnuntum &amp;ndash; Bad Deutsch-Altenburg (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD050978</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD050978</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/140">instrumentum domesticum</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/131">Ton</material><dimensions unit="cm"><height>(45)</height><width>(23)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/128376">Carnuntum</placeName></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0130" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 130 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1904"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2782068">Bad Deutsch-Altenburg</placeName><placeName type="findspot">canabae, {Flur Mühläcker}</placeName><placeName type="region">Niederösterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>owner/artist inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD050978_1" sex="M"><persName><name type="praenomen">Q.</name><name type="nomen">Aconius</name><name type="cognomen">Verus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-07-01" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <gap reason="lost" extent="unknown" unit="character"/><expan><abbr>C</abbr><ex cert="low"/>o</expan><supplied reason="lost" cert="low">r</supplied><expan><abbr>d</abbr><ex cert="low">ula</ex></expan> <lb n="2"/><expan><abbr>Q</abbr><ex>uinti</ex></expan> Aconi Veri <lb n="3"/><expan><abbr>pri</abbr><ex>ncipis</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> XV <expan><abbr>Apo</abbr><ex>llinaris</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Titulus pictus. Schreibtechnik: Dipinto. Zeile 1: links noch der untere Ansatz eines Bogens, C? Cordula/cordyla bezeichnet den jungen Thunfisch. (B): Andere Lesung (AE 1996, 1253b; Ehmig): [3 le]g(ionis) I Ad(iutricis) / Paconi Veri / [3] pr(ioris?) leg(ionis) XV Apo(llinaris).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1995, 1264.</bibl><bibl>AE 1996, 1251.</bibl><bibl>AE 1996, 1253b. (B)</bibl><bibl>T. Bezeczky, Britannia 27, 1996, 329-330, Nr. 1; pl. 12 a; fig. 1 (Zeichnung). - AE 1996, 1251.</bibl><bibl>U. Ehmig, MAZ 3, 1996, 36, Nr. 3; Abb. 7; Abb. 8 (Zeichnung). (B) - AE 1996, 1253b.</bibl><bibl>T. Bezeczky, AErt 121/122, 1994/95, 29-30, Nr. 1; 1. kép. (Foto u. Zeichnung). - AE 1995.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

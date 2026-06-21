@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mile-/leaguestone from Monthey (Alpes Poeninae)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD066507</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD066507</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Monthey, Chili, Privatbesitz</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">mile-/leaguestone</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>116</height><width>23</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3-9</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Alpes Poeninae</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0293" notAfter-custom="0305" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">293 AD - 305 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1956"><placeName type="country" ref="https://www.geonames.org/2658434">Switzerland</placeName><placeName type="modern" ref="http://www.geonames.org/2659613">Monthey</placeName><placeName type="findspot">{Chili}</placeName><placeName type="region">État du Valais</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>mile-/leaguestone</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD066507_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q43107"><name type="cognomen">Diocletianus</name></persName></person><person xml:id="HD066507_2" sex="M"><persName><name type="cognomen">Maximianus</name></persName></person><person xml:id="HD066507_3" sex="M"><persName><name type="cognomen">Constantius</name></persName></person><person xml:id="HD066507_4" sex="M"><persName><name type="cognomen">Maxsimianus* (= Maximianus*)</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-07-17" who="Masci">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>DD</abbr><ex>ominis</ex></expan> <expan><abbr>n<am>n</am></abbr><ex>ostris</ex></expan> Dioc<lb break="no" n="2"/>letiano et <lb n="3"/>Maximian<lb break="no" n="4"/>o In<expan><ex>v</ex><abbr>ict</abbr><ex>is</ex></expan> <expan><abbr>Aug<am>g</am></abbr><ex>ustis</ex></expan> et Con<lb break="no" n="5"/>stantio et M<lb break="no" n="6"/>axsimi<expan><ex>a</ex><abbr>no</abbr></expan> <note>sic</note> nob<lb break="no" n="7"/><expan><abbr>il</abbr><ex>issimis</ex></expan> <expan><abbr>Caess</abbr><ex>aribus</ex></expan> <expan><abbr>q</abbr><ex>ui</ex></expan> multa <lb n="8"/>milia et m<supplied reason="lost">u</supplied>lta <lb n="9"/>XX nalecla <note>sic</note> <lb n="10"/>XVII
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Sauter: Z. 7: milia; Z. 8: XX a Val(l)e(nsium) Cla(udii Foro).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1962, 0393.</bibl><bibl>M.-R. Sauter, Vallesia 15, 1960, 261, Nr. 6. (B) - AE 1962.</bibl><bibl>G. Walser, Die Römischen Straßen in der Schweiz. 1. Teil. Die Meilensteine (Bern 1967) 35-36, Nr. 10; Zeichnung.</bibl><bibl>F. Wiblé, Vallesia 33, 1978, 39, Nr. 70.</bibl><bibl>CIL 17, 02, 00118.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

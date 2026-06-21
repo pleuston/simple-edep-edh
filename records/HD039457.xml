@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mile-/leaguestone from Veldidena &amp;ndash; Innsbruck (Raetia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD039457</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD039457</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Hall</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">mile-/leaguestone</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/37">Gneis</material><dimensions unit="cm"><height>(193)</height><width>53</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6.5-5.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Raetia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/187608">Veldidena</placeName></origPlace><origDate><origDate notBefore-custom="0195" notAfter-custom="0215" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">195 AD - 215 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1254"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2768442">Innsbruck</placeName><placeName type="findspot">Pradl, {Wiesengasse, Stadion, bei}</placeName><placeName type="region">Tirol</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>mile-/leaguestone</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD039457_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">Severus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-12-14" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> Severus <lb n="2"/>Pius pater vias et <lb n="3"/>pontes <expan><abbr>rest</abbr><ex>ituit</ex></expan> <supplied reason="lost">a</supplied>b <expan><abbr>Aug</abbr><ex>usta</ex></expan> <lb n="4"/><expan><abbr>m</abbr><ex>ilia</ex></expan> <expan><abbr>p</abbr><ex>assuum</ex></expan> C<gap reason="lost" extent="unknown" unit="character"/>X
+            </ab></div>
+            <div type="commentary">
+                <p>Z. 2/3 evtl. nachträglich auf Rasur eingefügt. &amp;apos;[S]everus / pius pate[r]&amp;apos; ist bislang ohne Parallele. Ergänzung der ursprünglichen Inschrift nach Höck - Pöll / AE 2002: &amp;quot;&amp;quot;[Imp(erator) Caesar / L(ucius) Septimius / Severus Pius / Pertinax Aug(ustus) / Arab(icus) Adiab(enicus) Parth(icus) / max(imus) pont(ifex) max(imus) / trib(unicia) pot(estate) VIIII imp(erator) XII / co(n)s(ul) p(ater) p(atriae) proco(n)s(ul) et / Imp(erator) Caes(ar) M(arcus) Au/relius Antoninus / pius Aug(ustus) trib(unicia) pot(estate) IIII proco(n)s(ul) et [[P(ublius) Sept(imius) Geta / nob(ilissimus) Caes(ar)]] vias et / pont(es) rest(ituerung) [a]b Aug(usta Vindelicorum) / m(ilia) p(assuum) C[-]X.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 17, 04, 00017; Fig. α; Fig. β (Zeichnung).</bibl><bibl>AE 2002, 1085.</bibl><bibl>A. Höck - J. Pöll, in : L. Wamser - B. Steidl (Hrsg.), Neue Forschungen zur römischen Besiedlung zwischen Oberrhein und Enns. Kolloquium Rosenheim 14.-16.</bibl><bibl>Juni 2000 (Remshalden-Grunbach 2000) 121-124; Abb. 1; Abb. 2 u. 3 (Zeichnungen). - AE 2002.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

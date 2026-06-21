@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Scarbantia, bei &amp;ndash; Schattendorf (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD072316</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD072316</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Schattendorf, S. Michael, Pfarrkirche, Kirchhof, vermauert</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>131</height><width>72</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197501">Scarbantia, bei</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1800"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2766121">Schattendorf</placeName><placeName type="findspot">{S. Michael, Pfarrkirche}</placeName><placeName type="region">Burgenland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD072316_1"><persName><name type="cognomen">[---]</name></persName></person><person xml:id="HD072316_2" sex="M"><persName><name type="cognomen">[---]ico?</name></persName></person><person xml:id="HD072316_3"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-03-10" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <gap reason="lost" extent="unknown" unit="character"/><expan><abbr>I</abbr><ex cert="low"/>C</expan><certainty match="preceding-sibling::node()" locus="value"/>onis <expan><abbr>f</abbr><ex>ili--</ex></expan><certainty match="preceding-sibling::node()" locus="value"/> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>h</abbr><ex>ic</ex></expan><certainty match="preceding-sibling::node()" locus="value"/> <expan><abbr>s</abbr><ex>it--</ex></expan><certainty match="preceding-sibling::node()" locus="value"/> <expan><abbr>est</abbr><ex cert="low"/></expan> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>nus <expan><abbr>p</abbr><ex>osuit</ex></expan><certainty match="preceding-sibling::node()" locus="value"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Oberhalb des Inschriftfeldes eine abgearbeitete Büste. Inschriftfeld sehr stark verrieben; teilweise noch weitere, nicht mehr eindeutig identifizierbare Buchstaben erkennbar. (B): CIL 03, 04261; Krüger: Z. 1: MARCONSE; Kaus: Z. 2: [---]I[---]L[---]; Z. 3: [---]NVS[---].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 04261. (B)</bibl><bibl>M.-L. Krüger, Die Reliefs der Stadtgebiete von Scarbantia und Savaria, CSIR Österreich 1, 5 (Wien 1974) 18, Nr. 20; Taf. 10, 20. (B)</bibl><bibl>K. Kaus, Burgenland. Archäologie und Landeskunde (Eisenstadt 2006) 226-228, Nr. 2; Abb. 2. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

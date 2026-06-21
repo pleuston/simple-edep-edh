@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Salonae &amp;ndash; Solin (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD059984</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD059984</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197488">Salonae</placeName></origPlace><origDate><origDate notBefore-custom="0301" notAfter-custom="0330" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">301 AD - 330 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3190359">Solin</placeName><placeName type="findspot"/><placeName type="region">Splitsko-dalmatinska županija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD059984_1" sex="W"><persName><name type="nomen">Octavia</name><name type="cognomen">Cara</name></persName></person><person xml:id="HD059984_2" sex="M"><persName><name type="nomen">Salonius</name><name type="cognomen">Sabinianus</name><name type="supernomen">signo Scammatius</name></persName></person><person xml:id="HD059984_3" sex="M"><persName><name type="nomen">Ulpius</name><name type="cognomen">Asclepius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-09-12" who="Gräf">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Octaviae Carae <expan><abbr>domin</abbr><ex>ae</ex></expan> <lb n="2"/>et tecusae rarissimae <expan><abbr>summ</abbr><ex>ae</ex></expan> <lb n="3"/><expan><abbr>sanctim</abbr><ex>oniae</ex></expan> et benignitatis <expan><abbr>femin</abbr><ex>ae</ex></expan> <lb n="4"/>coniugi Saloni Sabiniani <expan><abbr>vet</abbr><ex>erani</ex></expan> <lb n="5"/>ex <expan><abbr>cornic</abbr><ex>ulario</ex></expan> co<expan><ex>n</ex><abbr>s</abbr><ex>ularis</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> I <expan><abbr>adi</abbr><ex>utricis</ex></expan> signo <lb n="6"/>Scammati e&amp;lt;q=O&amp;gt;(uitis) <expan><abbr>R</abbr><ex>omani</ex></expan> cum quo conco<supplied reason="lost">r</supplied><lb break="no" n="7"/>diter vixit <expan><abbr>n<am>n</am></abbr><ex>os</ex></expan> XXX ob merita <lb n="8"/>Ulpius Asclepius con<supplied reason="lost" cert="low">frater</supplied><supplied reason="lost">frater</supplied> |(Christo<certainty match="preceding-sibling::node()" locus="value"/> <expan><abbr>p</abbr><ex>osuit</ex></expan> 
+            </ab></div>
+            <div type="commentary">
+                <p>Z. 2: tecusae für τεκοὐση. Z. 8: Ergänzungsvorschlag nach ILCV; vor p(osuit) ein X mit Querhaste.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1889, 0052.</bibl><bibl>CIL 03, 08752.</bibl><bibl>CIL 03, 08752 add. p. 2261.</bibl><bibl>ILCV 0280.</bibl><bibl>K. Stauner, Das offizielle Schriftwesen des römischen Heeres von Augustus bis Gallienus (27 v. Chr. - 268 n. Chr.) (Bonn 2004) 361, Nr. 281.</bibl><bibl>E. Marin u. a., Salona 4. Inscriptions de Salone chrétienne, IVe-VIIe siècles (Rome - Split 2010) 739-742, Nr. 411.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

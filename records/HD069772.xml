@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Deva &amp;ndash; Chester (Britannia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD069772</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD069772</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Chester, Grosvenor Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material>Gesteine</material><dimensions unit="cm"><height>71</height><width>127</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Britannia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/79420">Deva</placeName></origPlace><origDate><origDate notBefore-custom="0083" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">83 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1891"><placeName type="country" ref="https://www.geonames.org/2635167">United Kingdom</placeName><placeName type="modern" ref="http://www.geonames.org/2653228">Chester</placeName><placeName type="findspot">{Nordmauer, westlicher Teil}</placeName><placeName type="region">Cheshire</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD069772_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Lovesius</name><name type="cognomen">Cadarus</name></persName></person><person xml:id="HD069772_2" sex="M"><persName><name type="nomen">Frontinius</name><name type="cognomen">Aquilo</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-05-20" who="Cowey">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F004200" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/22a11e39-3f4e-4fc1-b435-f86173d05b06/file/id/764962/file_version/name/small"/><graphic xml:id="F028741" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/a851277e-378e-4b0d-a2f0-72315417e695/file/id/789498/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>G</abbr><ex>aius</ex></expan> Lovesius <expan><abbr>Papir</abbr><ex>ia</ex></expan> <lb n="2"/>Cadarus Emerita <expan><abbr>mil</abbr><ex>es</ex></expan> <lb n="3"/><expan><abbr>leg</abbr><ex>ionis</ex></expan> XX <expan><abbr>V</abbr><ex>aleriae</ex></expan> <expan><abbr>v</abbr><ex>ictricis</ex></expan> <expan><abbr>an</abbr><ex>norum</ex></expan> XXV <expan><abbr>stip</abbr><ex>endiorum</ex></expan> IIX <lb n="4"/>Frontinius Aquilo <expan><abbr>h</abbr><ex>eres</ex></expan> <expan><abbr>f</abbr><ex>aciendum</ex></expan> <expan><abbr>c</abbr><ex>uravit</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>EphEp 9, p. 543 n. 1063.</bibl><bibl>RIB 0501; Zeichnung.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

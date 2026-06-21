@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Salonae &amp;ndash; Solin (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD034439</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD034439</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197488">Salonae</placeName></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3190359">Solin</placeName><placeName type="findspot"/><placeName type="region">Splitsko-dalmatinska županija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD034439_1" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Varius</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD034439_2" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Varius</name><name type="cognomen">Laetus</name></persName></person><person xml:id="HD034439_3" sex="W"><persName><name type="nomen">Bennia+</name><name type="cognomen">Sabina+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2012-04-02" who="Feraudi">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>L</abbr><ex>ucio</ex></expan> Vario <expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> <expan><abbr>Ser</abbr><ex>gia</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/>domo <expan><abbr>Aug</abbr><ex>usta</ex></expan> Praeto<supplied reason="lost"><expan><abbr>r</abbr><ex>ia</ex></expan></supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/><expan><abbr>leg</abbr><ex>ionis</ex></expan> XI <expan><abbr>C</abbr><ex>laudiae</ex></expan> <expan><abbr>p</abbr><ex>iae</ex></expan> <expan><abbr>f</abbr><ex>idelis</ex></expan> |(centurio) <expan><abbr>coh</abbr><ex>ortis</ex></expan> VI v<supplied reason="lost">igilum</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/><expan><abbr>L</abbr><ex>ucius</ex></expan> Varius Laetus Pu<gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/>et Benn<supplied reason="lost">i</supplied>ae Sabin<supplied reason="lost">ae</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="6"/>vivae <gap reason="lost" extent="unknown" unit="character"/> <lb n="7"/>in fronte p<supplied reason="lost">edes</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="8"/>[in agro pedes ------<certainty match="preceding-sibling::node()" locus="value"/>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILJug 2098.</bibl><bibl>CIL 03, 02062.</bibl><bibl>CIL 05, 02164.</bibl><bibl>CIL 03, 02069.</bibl><bibl>CIL 03, 08747.</bibl><bibl>A. Betz, Untersuchungen zur Militärgeschichte der römischen Provinz Dalmatien (Baden bei Wien 1938) 67, Nr. 98.</bibl><bibl>ILJug s. n. 2040A.</bibl><bibl>A. Mazzer, I recinti funerari in area altinate. Le iscrizioni con indicazione di pedatura (Portogruaro 2005) 128-129, Nr. 166.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

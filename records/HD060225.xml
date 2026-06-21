@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Castra Regina &amp;ndash; Regensburg (Raetia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD060225</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD060225</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Regensburg, Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/230">grave monument</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(83)</height><width>75</width><depth>57</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Raetia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118929">Castra Regina</placeName></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1875"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2849483">Regensburg</placeName><placeName type="findspot">{Ägidienplatz, ehemaliges Altes Gymnasium}, bei</placeName><placeName type="region">Bayern</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD060225_1" sex="M"><persName><name type="nomen">Iulius*</name><name type="cognomen">Cattanus</name></persName></person><person xml:id="HD060225_2" sex="W"><persName><name type="nomen">Claudia*</name><name type="cognomen">Paterna</name></persName></person><person xml:id="HD060225_3" sex="M"><persName><name type="nomen">Iulius*</name><name type="cognomen">Saturninus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-10-26" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F007372" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/a37980c3-9b3f-4891-aa58-03cf965fbf93/file/id/767743/file_version/name/small"/><graphic xml:id="F028370" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/f24ba33e-7437-44a7-af4d-969ae4bc51c2/file/id/789127/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><expan><abbr>Iul</abbr><ex>io</ex></expan> Cattano <lb n="2"/><expan><abbr>im</abbr><ex>muni</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> III <expan><abbr>Ital</abbr><ex>icae</ex></expan> <lb n="3"/><expan><abbr>quond</abbr><ex>am</ex></expan> marito <lb n="4"/><expan><abbr>Cl</abbr><ex>audia</ex></expan> Paterna uxor <lb n="5"/>et sibi v<supplied reason="lost">i</supplied>va fecit <lb n="6"/><expan><abbr>Iul</abbr><ex>ius</ex></expan> Saturninus <lb n="7"/><expan><abbr>opt</abbr><ex>io</ex></expan> maritus <lb n="8"/>Paternae @(obitae) per<lb break="no" n="9"/>scr<expan><ex>i</ex><abbr>bendum</abbr></expan> <lb n="10"/><expan><abbr>c</abbr><ex>uravit</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Ursprünglich zu einem Grabbau gehörig. Reste von roter Farbe in den Buchstaben. Z. 3: O klein am Zeilenende; Z. 4: O klein zwischen X und R; Z. 6: NV-Ligatur. (B): CIL 03, 11969: kleinere Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IBR 387; tab. 54, 387.</bibl><bibl>CIL 03, 11969. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

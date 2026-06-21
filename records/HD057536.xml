@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Salonae, bei &amp;ndash; Solin (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD057536</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD057536</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Split, Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(15)</height><width>(109)</width><depth>3</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197488">Salonae, bei</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1889"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3190359">Solin</placeName><placeName type="findspot">Marusinac, nördliches Heiligtum, Westportikus, {Parzelle Nr. 964 (alter Katasterplan)} Pflaster, sekundär verwendet</placeName><placeName type="region">Splitsko-dalmatinska županija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD057536_1" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Fabius</name><name type="cognomen">Firmus</name></persName></person><person xml:id="HD057536_2" sex="W"><persName><name type="nomen">Fabia</name><name type="cognomen">Marcella+?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-09-11" who="Gräf">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F025189" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/0babfa89-8b69-4f1c-9504-68811ee2683c/file/id/785940/file_version/name/small"/><graphic xml:id="F033549" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/3b087358-1dd6-4ec5-b9b2-cfb364f7e5e0/file/id/794356/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>M</abbr><ex>arco</ex></expan> Fabio Firmo <expan><abbr>an</abbr><ex>norum</ex></expan> XVIII Fabiae Marce<supplied reason="lost" cert="low">llae</supplied> <lb n="2"/>sororis <expan><abbr>f</abbr><ex>iliis</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Z. 1: statt Marce[llae] auch Marce[llinae] möglich.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 09057.</bibl><bibl>R. Egger, in: E. Dyggve - R. Egger, Der altchristliche Friedhof Marusinac, Forschungen in Salona 3 (Wien 1939) 150, Nr. 3.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Tilurium, bei &amp;ndash; Trilj (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD034294</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD034294</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Split, Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(122)</height><width>61</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197552">Tilurium, bei</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0041" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 41 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1908"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3187449">Trilj</placeName><placeName type="findspot">{Vojnić Sinjski}, "Bunar", bei</placeName><placeName type="region">Splitsko-dalmatinska županija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD034294_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Iulius</name></persName></person><person xml:id="HD034294_2" sex="M"><persName><name type="cognomen">Faustus</name></persName></person><person xml:id="HD034294_3" sex="M"><persName><name type="nomen">Opius?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2018-04-13" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>C</abbr><ex>aius</ex></expan> Iulius <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <lb n="2"/><expan><abbr>Fab</abbr><ex>ia</ex></expan> Ninica <lb n="3"/><expan><abbr>mil</abbr><ex>es</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> VII <lb n="4"/><expan><abbr>an</abbr><ex>norum</ex></expan> XXXIX <expan><abbr>stip</abbr><ex>endiorum</ex></expan> <lb n="5"/>XVII <expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>itus</ex></expan> <expan><abbr>e</abbr><ex>st</ex></expan> <lb n="6"/>hospes resis<supplied reason="lost">te et</supplied> tumulum <lb n="7"/>contempla meum lege et <lb n="8"/>moraris iam scies quae <lb n="9"/>debeas vixi qua potui ca<lb break="no" n="10"/>rus sum Opiorum hic su<lb break="no" n="11"/>m sepultus hic ossua <note>sic</note> re<lb break="no" n="12"/>quiescum <note>sic</note> mea vale et <lb n="13"/>bene facito vitae dum fa<lb break="no" n="14"/>tum venit <lb n="15"/>Faustus <expan><abbr>l</abbr><ex>ibertus</ex></expan> patrono
+            </ab></div>
+            <div type="commentary">
+                <p>(B): ILJug: Z. 8: morarus.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILJug 1950. (B)</bibl><bibl>D. Tončinić, Spomenici VII. legije na području rimske provincije Dalmacije.</bibl><bibl>Monuments of legio VII in the Roman province of Dalmatia (Split 2011) 43-45, Nr. 20; Foto.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

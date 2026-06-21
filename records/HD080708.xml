@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Epamanduodurum &amp;ndash; Mandeure (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD080708</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD080708</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Montbéliard</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(71)</height><width>(62)</width><depth>2</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">10.5-4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/177516">Epamanduodurum</placeName></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0130" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 130 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1790"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/2996251">Mandeure</placeName><placeName type="findspot">{Muraille-Bourg}, Thermen</placeName><placeName type="region">Bourgogne-Franche-Comté</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD080708_1" sex="M"><persName><name type="nomen">Flavius+</name><name type="cognomen">Catullus</name></persName></person><person xml:id="HD080708_2" sex="M"><persName><name type="praenomen">C.+</name><name type="nomen">Flavius+</name><name type="cognomen">Gallus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-10-16" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost">Flavius Ca</supplied>tullus <lb n="2"/><supplied reason="lost">ad marmorandu</supplied>m balineum <lb n="3"/><supplied reason="lost">testamento legavi</supplied>t <expan><abbr>r</abbr><ex>ei</ex></expan> <expan><abbr>p</abbr><ex>ublicae</ex></expan> |(denariorum) <expan><abbr>LXXV</abbr><ex>milia</ex></expan> <lb n="4"/><supplied reason="lost">quod <expan><abbr>C</abbr><ex>aius</ex></expan> Flavius Ga</supplied>llus <expan><abbr>her</abbr><ex>es</ex></expan> <expan><abbr>p</abbr><ex>erficiendum</ex></expan> <expan><abbr>c</abbr><ex>uravit</ex></expan> <lb n="5"/><supplied reason="lost">additis sum</supplied>mis et tributis <lb n="6"/><supplied reason="lost">legati <expan><abbr>s</abbr><ex>upra</ex></expan> <expan><abbr>s</abbr><ex>cripti</ex></expan> ad co</supplied>nsummatio<supplied reason="lost">ne</supplied>m
+            </ab></div>
+            <div type="commentary">
+                <p>Ergänzung nach CIL 13, 05416 = https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD080709. Z. 1: LL-Ligatur; Z. 2: NE-Ligatur; Z. 5: IB-, TI-Ligaturen. Laut CIL existierte in Montbéliard ein Abklatsch der mglw. einen Teil der Z. 1 (---]IVS CA[---) wiedergibt. Fundjahr nach Joan: 1590.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 05417.</bibl><bibl>M.-J. Morant - B. Sauget - E. Frézouls, in: E. Frézouls (Hrsg.), Les villes antiques de la France. Germanie Supérieure 1. Besançon - Dijon - Langres - Mandeure (Strasbourg 1988) 431.</bibl><bibl>Y. de Kisch, Ktèma 4, 1979, 279, Nr. 42.</bibl><bibl>L. Joan, Le Doubs et le territoire de Belfort, Carte archéologique de la Gaule 25 et 90 (Paris 2003) 340.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

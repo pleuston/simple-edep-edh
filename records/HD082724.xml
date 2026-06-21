@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mile-/leaguestone from Bela Palanka (Moesia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD082724</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD082724</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bela Palanka</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">mile-/leaguestone</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>240</height><width>60</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.5-5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia superior</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0229" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">229 AD - 230 AD</origDate></origDate></origin>
+                        <provenance type="found" when="2012"><placeName type="country" ref="https://www.geonames.org/6290252">Serbia</placeName><placeName type="modern" ref="http://www.geonames.org/785656">Bela Palanka</placeName><placeName type="findspot">{Špaj}, bei, Via militaris</placeName><placeName type="region">Centralna Srbija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>mile-/leaguestone</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD082724_1" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Aurelius*</name><name type="cognomen">Severus Alexander+++</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-04-01" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>eratori</ex></expan> C<expan><ex>a</ex><abbr>esari</abbr></expan> Se<supplied reason="lost"><expan><abbr>v</abbr><ex>eri</ex></expan></supplied> <lb n="2"/>nepoti Antonini <lb n="3"/>Magni Pio <note>sic</note> filio <expan><abbr>Mar</abbr><ex>co</ex></expan> <lb n="4"/><expan><abbr>Aur</abbr><ex>elio</ex></expan> Severo <del rend="erasure">[Alexan</del>]<lb break="no" n="5"/><del rend="erasure"><supplied reason="lost">dr</supplied>o</del> Pio Felici <expan><abbr>Aug</abbr><ex>usto</ex></expan> po<supplied reason="lost">n</supplied><lb break="no" n="6"/>tifici maximo tribu<lb break="no" n="7"/>nicie <note>sic</note> potestate VIIII co<expan><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> <lb n="8"/>ter pater patri<expan><ex>a</ex><abbr>e</abbr></expan> <expan><abbr>m</abbr><ex>ilia</ex></expan> <expan><abbr>p</abbr><ex>assuum</ex></expan> <lb n="9"/>XXII
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Petrović - Grbić; AE 2013: mehrere Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2013, 1323. (B)</bibl><bibl>V. Petrović - D. Grbić, RTopAnt 23, 2013, 99-106; Fotos. (B) - AE 2013.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

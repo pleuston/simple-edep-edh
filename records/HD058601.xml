@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Augusta Vindelicorum, bei &amp;ndash; Stadtbergen (Raetia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD058601</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD058601</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Augsburg, Röm. Mus.?</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(128)</height><width>69</width><depth>30</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Raetia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118580">Augusta Vindelicorum, bei</placeName></origPlace><origDate><origDate notBefore-custom="0171" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1519"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2829790">Stadtbergen</placeName><placeName type="findspot">{S. Nikolaus, Kirche}, sekundär verwendet</placeName><placeName type="region">Bayern</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD058601_1" sex="M"><persName><name type="nomen">Flabius+* (= Flavius+*) Acutianius+</name><name type="cognomen">Serenus+</name></persName></person><person xml:id="HD058601_2" sex="M"><persName><name type="nomen">Acutianius+</name><name type="cognomen">Ursacius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-01-18" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost">Memoriae et perp</supplied><lb break="no" n="2"/><supplied reason="lost">etuae securitati Fla</supplied><lb break="no" n="3"/>b<supplied reason="lost"><expan><abbr>i</abbr><ex>o</ex></expan>! Acutianio Sereno</supplied> <lb n="4"/><supplied reason="lost"><expan><abbr>negot</abbr><ex>iatori</ex></expan> qui vixsit! anni</supplied><lb break="no" n="5"/>s <supplied reason="lost">XXXV et <expan><abbr>m</abbr><ex>ensibus</ex></expan> VIII <expan><abbr>d</abbr><ex>iebus</ex></expan> VI hoc</supplied> <lb n="6"/>faciend<supplied reason="lost"><expan><abbr>u</abbr><ex>m</ex></expan></supplied> c<supplied reason="lost"><expan><abbr>ur</abbr><ex>avit</ex></expan> A</supplied>cutian<lb break="no" n="7"/>ius Ursacius <expan><abbr>pientis</abbr><ex>s</ex></expan><lb break="no" n="8"/>imo fratri et bene merenti <lb n="9"/>fecit
+            </ab></div>
+            <div type="commentary">
+                <p>Grabaltar, jedoch ohne Bekrönung. Die ergänzten Stellen waren früher noch lesbar. Aufbewahrungsort unsicher, 1973 nicht auffindbar. (B): Abweichungen in Lesung/Ergänzung.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IBR 141; tab. 21, 141. (B)</bibl><bibl>IBR 141 add. p. V.</bibl><bibl>CIL 03, 05830. (B)</bibl><bibl>G. Gamer - A. Rüsch, Raetia (Bayern südlich des Limes) und Noricum (Chiemseegebiet), CSIR Deutschland 1, 1 (Bonn 1973) 48-49, Nr. 142.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

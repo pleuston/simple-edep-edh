@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Salonae &amp;ndash; Solin (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD034542</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD034542</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Split, Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/214">sarcophagus</objectType><dimensions unit="cm"><height>68</height><width>(117)</width><depth>11</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197488">Salonae</placeName></origPlace><origDate><origDate notBefore-custom="0301" notAfter-custom="0400" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">301 AD - 400 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1912"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3190359">Solin</placeName><placeName type="findspot">Basilica urbana, westlich, {Parzelle Nr. 3833/1 (alter Katasterplan)}</placeName><placeName type="region">Splitsko-dalmatinska županija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD034542_1" sex="M"><persName><name type="cognomen">Felix</name></persName></person><person xml:id="HD034542_2" sex="W"><persName><name type="cognomen">Memmiana+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-11-03" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F033669" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/63133bc6-3836-4eaf-a88b-1c76125439d9/file/id/794476/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <gap reason="lost" extent="unknown" unit="character"/> Felix vibus <note>sic</note> <lb n="2"/><supplied reason="lost">sibi posui</supplied>t et Memmi<lb break="no" n="3"/><supplied reason="lost">an</supplied>ae conpari suae
+            </ab></div>
+            <div type="commentary">
+                <p>Fragment der Sarkophagvorderseite; Deckel nicht erhalten. Inschriftfeld in Form einer tabula ansata. (B): Z. 1: AE 2006: ------ / Felix. Z. 2/3: Auflösungen und Ergänzungen nach Marin u. a.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILJug 2249.</bibl><bibl>S. Schönauer, BAHD 93, 2000, 286-289, Nr. 22; t. 25 u. 26.</bibl><bibl>F. Bulić, BAHD 35, 1912, 6, Nr. 680B. - AE 2006.</bibl><bibl>AE 2006, 1012. (B)</bibl><bibl>F. Bulić, BAHD 35, 1912, 50-52; tav. 1. - AE 2006.</bibl><bibl>N. Cambi, Kiparstvo rimske Dalmacije (Split 2005) 208; sl. 315. - AE 2006.</bibl><bibl>S. Ivčević, Histria Antiqua 14, 2006, 145-146. Nr. 8. - AE 2006.</bibl><bibl>E. Marin u. a., Salona 4. Inscriptions de Salone chrétienne, IVe-VIIe siècles (Rome - Split 2010) 794-795, Nr. 441; Foto.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

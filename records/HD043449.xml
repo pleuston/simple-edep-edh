@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Doboj (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD043449</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD043449</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Sarajevo, Zem. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1889"><placeName type="country" ref="https://www.geonames.org/3277605">Bosnia and Herzegovina</placeName><placeName type="modern" ref="http://www.geonames.org/3195887">Doboj</placeName><placeName type="findspot">Makljenovac, {Crkvina, römische Befestigung} Ostabhang</placeName><placeName type="region">Zeničko-dobojski kanton</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD043449_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Iulius</name><name type="cognomen">Maximus</name></persName></person><person xml:id="HD043449_2" sex="W"><persName><name type="nomen">Avillia*</name><name type="cognomen">Amabilis</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-04-26" who="Gräf">checked through squeeze</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/><expan><abbr>C</abbr><ex>aius</ex></expan> Iulius Maxi<lb break="no" n="3"/>mus <expan><abbr>veter</abbr><ex>anus</ex></expan> <lb n="4"/><expan><abbr>coh</abbr><ex>ortis</ex></expan> I <expan><abbr>Belg</abbr><ex>arum</ex></expan> <lb n="5"/><expan><abbr>v</abbr><ex>ivus</ex></expan> <expan><abbr>f</abbr><ex>ecit</ex></expan> <lb n="6"/><expan><abbr>sib</abbr><ex>i</ex></expan> ed <note>sic</note> <expan><abbr>Avil</abbr><ex>liae</ex></expan> <lb n="7"/>Amabili co<lb break="no" n="8"/>niugi su<expan><ex>a</ex><abbr>e</abbr></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Hederae. (B): Radimský: Z. 2: G(aius).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1890, 0105.</bibl><bibl>O. Benndorf - E. Bormann, AEM 13, 1890, 210, Nr. 2. - AE 1890.</bibl><bibl>AE 1893, 0132.</bibl><bibl>W. Radimský, WMBH 1, 1893, 263-264; Fig. 6 (Zeichnung). (B) - AE 1893.</bibl><bibl>CIL 03, 08376b.</bibl><bibl>CIL 03, 12750.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

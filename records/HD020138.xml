@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Scarbantia, bei &amp;ndash; Mattersburg (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD020138</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD020138</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Sopron, Soproni Múz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>198</height><width>72</width><depth>22</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7-4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197501">Scarbantia, bei</placeName></origPlace><origDate><origDate notBefore-custom="0031" notAfter-custom="0070" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">31 AD - 70 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1900"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2762059">Mattersburg</placeName><placeName type="findspot">{Walbersdorf}, Ziegelei</placeName><placeName type="region">Burgenland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD020138_1" sex="W"><persName ref="http://romans1by1.com/rpeople/18454"><name type="cognomen">Daeipora</name></persName></person><person xml:id="HD020138_2" sex="M"><persName ref="http://romans1by1.com/rpeople/18455"><name type="cognomen">Calaetus</name></persName></person><person xml:id="HD020138_3" sex="W"><persName ref="http://romans1by1.com/rpeople/18456"><name type="cognomen">Hispana</name></persName></person><person xml:id="HD020138_4" sex="M"><persName ref="http://romans1by1.com/rpeople/18457"><name type="cognomen">Dexter</name></persName></person><person xml:id="HD020138_5" sex="M"><persName ref="http://romans1by1.com/rpeople/18458"><name type="praenomen">C.</name><name type="nomen">Petronius</name><name type="cognomen">Domesticus</name></persName></person><person xml:id="HD020138_6" sex="M"><persName ref="http://romans1by1.com/rpeople/18459"><name type="cognomen">Ambatus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-04-06" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F025827" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/5a68830c-1427-4048-a98a-0626c009d724/file/id/786579/file_version/name/small"/><graphic xml:id="F011772" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/9f436f0d-c429-42f3-ab55-73d9e0c817ce/file/id/771294/file_version/name/small"/><graphic xml:id="F025826" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/de7fb8d1-4141-49fd-b75d-a62c3533fb5d/file/id/786578/file_version/name/small"/><graphic xml:id="F025828" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/b086462c-9290-4edd-8ae4-2fd0af6c4438/file/id/786580/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Daeipora <lb n="2"/>Calaeti <expan><abbr>l</abbr><ex>iberta</ex></expan> <expan><abbr>an</abbr><ex>norum</ex></expan> <lb n="3"/>XXC Hispana <lb n="4"/>Dextri serva <lb n="5"/><expan><abbr>an</abbr><ex>norum</ex></expan> XXX <expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>itae</ex></expan> <expan><abbr>s</abbr><ex>unt</ex></expan> <lb n="6"/><expan><abbr>C</abbr><ex>aius</ex></expan> Petronius Dom<lb break="no" n="7"/>esticus et Ambat<lb break="no" n="8"/>us fratres matri <lb n="9"/>et Ambati coniugi <lb n="10"/>posuerunt
+            </ab></div>
+            <div type="commentary">
+                <p>Aufbewahrung nach lupa 424. Inschriftfeld von vegetabil verzierten Pilastern eingefasst; darüber eine zwei weibliche Büsten zwischen tordierten Halbsäulen. (B): Hofmann; AE 1909; Hild, Krüger: Z. 6: C(aius) nicht gelesen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1909, 0199. (B)</bibl><bibl>H. Hofmann, JŒAI 12, 1909, 237-238; Fig. 116. (B) - AE 1909.</bibl><bibl>M.-L. Krüger, Die Reliefs der Stadtgebiete von Scarbantia und Savaria, CSIR Österreich 1, 5 (Wien 1974) 14, Nr. 10; Taf. 5, 10. (B)</bibl><bibl>F. Hild, Supplementum epigraphicum zu CIL III. Das pannonische Niederösterreich, Burgenland und Wien 1902-1968 (Diss. Wien 1968) 245-246, Nr. 393. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

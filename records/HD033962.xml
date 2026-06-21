@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Narona &amp;ndash; Metković (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD033962</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD033962</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>130</height><width>56</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197400">Narona</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3187815">Metković</placeName><placeName type="findspot">{Vid}, "Vrilo"</placeName><placeName type="region">Dubrovačko-neretvanska županija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD033962_1" sex="M"><persName><name type="praenomen">P.</name><name type="nomen">Cornelius</name><name type="cognomen">Proculus+</name></persName></person><person xml:id="HD033962_2" sex="M"><persName><name type="praenomen">P.</name><name type="nomen">Cornelius</name><name type="cognomen">Valens</name></persName></person><person xml:id="HD033962_3" sex="W"><persName><name type="nomen">Papia</name><name type="cognomen">Provincia+</name></persName></person><person xml:id="HD033962_4" sex="W"><persName><name type="nomen">Lucilia*</name><name type="cognomen">Sperata</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-11-22" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>P</abbr><ex>ublio</ex></expan> Cornelio <lb n="2"/><supplied reason="lost">P</supplied>roculo <lb n="3"/>fratri <lb n="4"/><expan><abbr>P</abbr><ex>ublio</ex></expan> Cornelio <lb n="5"/>Valenti patri <lb n="6"/>Papiae Provincia<supplied reason="lost">e</supplied> <lb n="7"/><supplied reason="lost">sor</supplied>or<supplied reason="lost">i</supplied> <lb n="0"/><gap reason="lost" quantity="1" unit="line"><certainty match=".." locus="name"/></gap> <lb n="8"/><expan><abbr>Lucil</abbr><ex>ia</ex></expan> Sperata <lb n="9"/>suis <expan><abbr>p</abbr><ex>osuit</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>In drei Teile gebrochen; oberster Teil mit giebelartigem Abschluß nicht mehr auffindbar; Inschriftfeld von zwei Säulen gerahmt.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILJug 0656.</bibl><bibl>B. Gabričević, BAHD 63/64, 1961/62, 244-245, Nr. 23; Fig. 23.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

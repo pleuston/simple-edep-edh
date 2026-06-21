@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Camulodunum &amp;ndash; Colchester (Britannia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD069512</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD069512</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Colchester, Colchester Castle Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">tabula?</objectType><material>Marmor, geädert / farbig</material><dimensions unit="cm"><height>(22)</height><width>(36)</width><depth>3</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Britannia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/79393">Camulodunum</placeName></origPlace><origDate><origDate notBefore-custom="0043" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">43 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1910"><placeName type="country" ref="https://www.geonames.org/2635167">United Kingdom</placeName><placeName type="modern" ref="http://www.geonames.org/2652618">Colchester</placeName><placeName type="findspot">{Colchester Grammar School}</placeName><placeName type="region">Essex</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD069512_1" sex="M"><persName><name type="nomen">Macri[---]</name><name type="cognomen">[---]us</name></persName></person><person xml:id="HD069512_2" sex="W"><persName><name type="nomen">Valeria*</name><name type="cognomen">Frontina+</name></persName></person><person xml:id="HD069512_3" sex="M"><persName><name type="nomen">Florius*</name><name type="cognomen">Cogitatus</name></persName></person><person xml:id="HD069512_4" sex="M"><persName><name type="nomen">Florius*</name><name type="cognomen">Fidelis</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-03-02" who="Cowey">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <gap reason="lost" extent="unknown" unit="character"/>O<gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> Macri<gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>us <expan><abbr>eq</abbr><ex>ues</ex></expan> <expan><abbr>R</abbr><ex>omanus</ex></expan> <expan><abbr>vix</abbr><ex>it</ex></expan> <lb n="4"/><supplied reason="lost"><expan><abbr>an</abbr><ex>nos</ex></expan></supplied> XX <expan><abbr>Val</abbr><ex>eria</ex></expan> Fron<lb break="no" n="5"/><supplied reason="lost">t</supplied>ina coniuux <lb n="6"/>et <expan><abbr>Flor</abbr><ex>ius</ex></expan> Cogita<lb break="no" n="7"/>tus et <expan><abbr>Flor</abbr><ex>ius</ex></expan> Fide<lb break="no" n="8"/>lis fecerunt
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>EphEp 9, p. 522-523 n. 1007.</bibl><bibl>RIB 0202; Zeichnung.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

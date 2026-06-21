@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Augusta Treverorum &amp;ndash; Trier (Belgica)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD077303</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD077303</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Trier, Rhein. Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor, weiß</material><dimensions unit="cm"><height>50</height><width>70</width><depth>15</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">2.5-4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Belgica</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/108894">Augusta Treverorum</placeName></origPlace><origDate><origDate notBefore-custom="0451" notAfter-custom="0500" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">451 AD - 500 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1953"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2821164">Trier</placeName><placeName type="findspot">{S. Maximin, Kirche, bei}</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD077303_1" sex="M"><persName><name type="cognomen">Drula</name></persName></person><person xml:id="HD077303_2" sex="W"><persName><name type="cognomen">Mamertina</name></persName></person><person xml:id="HD077303_3" sex="W"><persName><name type="cognomen">Sensuta</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-06-09" who="Cowey">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F006472" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/03a33187-f835-40d9-9238-73a0def78587/file/id/767247/file_version/name/small"/><graphic xml:id="F026759" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/617529dc-f4e3-46c9-b1b6-e57cd3b16789/file/id/787512/file_version/name/small"/><graphic xml:id="F026758" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/15da2ec3-6fe5-4740-bbd3-9eee1965184f/file/id/787511/file_version/name/small"/><graphic xml:id="F031245" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/6f1a5b42-5d33-4076-8dd3-65936ebde3ea/file/id/792006/file_version/name/small"/><graphic xml:id="F031246" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/d623f17d-341d-47fe-9513-136933fbd564/file/id/792007/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Drula uxori suae ca<lb break="no" n="2"/>rissimae Mamer&amp;lt;t=I&amp;gt;inae <lb n="3"/>fecit et <surplus>f</surplus>filia eorum <lb n="4"/>Sensuta qui <expan><abbr>vix</abbr><ex>it</ex></expan> an<lb break="no" n="5"/>nos LX bene pausan<lb break="no" n="6"/>ti <lb n="7"/>fecit 
+            </ab></div>
+            <div type="commentary">
+                <p>Darstellung eines Christograms im Kreis. Links davon ein Alpha, rechts davon ein Omega.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>E. Gose, Katalog der frühchristlichen Inschriften in Trier (Berlin 1958) 63, Nr. 447; Foto.</bibl><bibl>RICG 01, 144; Foto.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

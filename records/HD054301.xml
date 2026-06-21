@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Aquincum &amp;ndash; Budapest (Pannonia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD054301</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD054301</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Budapest, Magyar Nemzeti Múz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>50</height><width>28</width><depth>10</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">1.2-3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197130">Aquincum</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1881"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/7284842">Budapest</placeName><placeName type="findspot">Óbuda, {Filatorigát}, Raktárrét, Nekropole</placeName><placeName type="region">Budapest</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD054301_1" sex="M"><persName><name type="nomen">Lucius*</name><name type="cognomen">Antius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-10-20" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>Sil</abbr><ex>vano</ex></expan> <expan><abbr>Dom</abbr><ex>estico</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <gap reason="lost" extent="unknown" unit="character"/><certainty match="preceding-sibling::node()" locus="value"/>LVI<supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied> </ab></div><div n="3" type="textpart"><ab><lb n="1"/> <expan><abbr>Luci</abbr><ex>us</ex></expan> Antius <expan><abbr>vo</abbr><ex>tum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Fundjahr: 1881-1882. Reliefstele mit Darstellung des Silvanus. Z. 1 befindet sich oberhalb, Z. 3 unterhalb des Reliefs; Z. 2 steht auf dem linken Rahmen. Teilweise Reste von roter Farbe in den Buchstaben erhalten. Textwiedergabe nach TitAq. (B): Z. 3: Nagy: Iuli(us) Antius vo(tum posuit). Fitz: abgedruckter Inschrifttext verkehrt.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2008, 1130. (B)</bibl><bibl>J. Hampel, BR 3, 1891, 68-71, Nr. m. (B) - AE 2008.</bibl><bibl>Á. Szábo, in: P. Kovács - Á. Szabó (Hrsg.), Észak-kelet Pannonia 1. Előszó, kommentárok, olvasatok a CIL III² 3 kötethez, Studia Epigraphica Pannonica (SEP) 1 (Budapest 2008) 167, Nr. 10. - AE 2008.</bibl><bibl>G. Erdélyi, A római kőfaragás és kőszobrászat Magyarországon (Budapest 1974) 205, Nr. 171; Foto.</bibl><bibl>TitAq 0320; Foto.</bibl><bibl>D. Rendić-Miočević, VjesAMuzZagreb 12/13, 1979/80, 111-113.122-123; t. 1, 1.</bibl><bibl>M. Nagy, Guide to the archaeological exhibitions in the Hungarian National Museum. Roman stones. Lapidarium (Budapest 2012) 120, Nr. 127; Foto. (B)</bibl><bibl>J. Fitz, Religions and cults in Pannonia (Székesfehérvár 1998) 81, Nr. 93.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

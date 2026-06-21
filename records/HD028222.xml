@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Carnuntum, bei &amp;ndash; Bruck/Leitha, bei (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD028222</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD028222</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mosonmagyaróvár, Hansági Múz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>227</height><width>68</width><depth>17</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/128376">Carnuntum, bei</placeName></origPlace><origDate><origDate notBefore-custom="0051" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1900"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2781373">Bruck/Leitha, bei</placeName><placeName type="findspot">{obere Heidwiesen}, spätantikes Gräberfeld, sekundär verwendet</placeName><placeName type="region">Burgenland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD028222_1" sex="W"><persName><name type="cognomen">Belatusa</name></persName></person><person xml:id="HD028222_2" sex="M"><persName><name type="cognomen">Cautus</name></persName></person><person xml:id="HD028222_3" sex="M"><persName><name type="cognomen">Boius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-07-27" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Belatusa Cau<lb break="no" n="2"/>ti <expan><abbr>l</abbr><ex>iberta</ex></expan> Boius pos<lb break="no" n="3"/>uit an<expan><ex>n</ex><abbr>oru</abbr><ex>m</ex></expan> XXX <lb n="4"/>hic sita <lb n="5"/>est
+            </ab></div>
+            <div type="commentary">
+                <p>Schriftbild und Buchstaben unregelmäßig. Horizontaler Bruch Z. 4/5. Name der Verstorbenen in Zeile 1 ist unklar. Möglich wäre auch Bilatusa, jedoch ist im Gegensatz zu diesem Namen Belatussa auch anderweitig belegt. Der zweite Buchstabe in Z. 1 weist zudem eine deutlich ausgeprägte untere Querhaste auf, da eine solche auch beim folgenden T nur sehr schwach ausgeprägt ist und diese in der Zeichnung bei Kubitschek zu erkennen sind, ist an dieser Stelle wohl eher E zu lesen. Letztes A von Belatusa in Z. 1 nachträglich eingefügt. Die Inschrift befindet sich unterhalb einer Bogennische mit dem Brustbild einer Frau in einheimischer Tracht (Pelzhut, Flügelfibeln, Armreifen). (B): CIL 03, 14359, 23: Z. 5 fehlt.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1900, 0066.</bibl><bibl>CIL 03, 14359, 23. (B)</bibl><bibl>W. Kubitschek, JŒAI (Beibl.) 3, 1900, col. 16; Zeichnung.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

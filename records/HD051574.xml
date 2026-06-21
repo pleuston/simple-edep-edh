@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Defixio from Weeting (Britannia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD051574</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD051574</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/108">Blei</material><dimensions unit="cm"><height>6</height><width>5</width><depth>0</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Britannia</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1972"><placeName type="country" ref="https://www.geonames.org/2635167">United Kingdom</placeName><placeName type="modern" ref="http://www.geonames.org/2634603">Weeting</placeName><placeName type="findspot">{Hockwold-cum-Wilton, bei}</placeName><placeName type="region">Norfolk</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/76">defixio</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-02-04" who="Cowey">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>S</abbr><ex>i</ex></expan> servus si <expan><abbr><supplied reason="lost">l</supplied>ib<supplied reason="lost">e</supplied></abbr><supplied reason="lost"><ex>r</ex></supplied></expan> <supplied reason="lost">qu</supplied><lb break="no" n="2"/>i <supplied reason="lost">f</supplied>uravit su<supplied reason="lost">st</supplied>uli<lb break="no" n="3"/>t <supplied reason="lost">ne ei</supplied> dimitte <lb n="4"/><expan><abbr><supplied reason="lost">male</supplied>fic</abbr><ex>i</ex>um</expan> d<expan><ex>u</ex><abbr>m</abbr></expan> <lb n="5"/>tu vindi<supplied reason="lost">c</supplied>a<supplied reason="lost">s</supplied> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Ante dies <note>sic</note> nov<supplied reason="lost"><expan><abbr>e</abbr><ex>m</ex></expan></supplied> si pa<lb break="no" n="2"/><supplied reason="lost">g</supplied>a<supplied reason="lost">n</supplied>us <supplied reason="lost">qui</supplied> <lb n="3"/>su<supplied reason="lost">s</supplied>tu<supplied reason="lost">l</supplied>it
+            </ab></div></div>
+            <div type="commentary">
+                <p>Bleitafel. Gebet für Gerechtigkeit.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1994, 1113.</bibl><bibl>M.W.C. Hassall - R.S.O. Tomlin, Britannia 25, 1994, 296-297, Nr. 2; fig. 2 (Zeichnung). - AE 1994.</bibl><bibl>A. Kropp, Defixiones. Ein aktuelles Corpus lateinischer Fluchtafeln (Speyer 2008) Nr. 3.5/1.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Vicus Teutonis?, bei &amp;ndash; Budaörs (Pannonia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD072444</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD072444</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Szentendre, Ferenczy Múz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>66</height><width>31</width><depth>24</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6-3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197130">Vicus Teutonis?, bei</placeName></origPlace><origDate><origDate notBefore-custom="0253" notAfter-custom="0263" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">253 AD - 263 AD</origDate></origDate></origin>
+                        <provenance type="found" when="2008"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3054646">Budaörs</placeName><placeName type="findspot">{Csiki-hegyek}, Nordseite</placeName><placeName type="region">Pest megye</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD072444_1" sex="M"><persName><name type="nomen">Aurelius*</name><name type="cognomen">Valens</name></persName></person><person xml:id="HD072444_2" sex="M"><persName ref="https://www.wikidata.org/wiki/Q202222"><name type="cognomen">Volusianus?</name></persName></person><person xml:id="HD072444_3" sex="M"><persName><name type="cognomen">Maximus*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-02-02" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Libero Pa<lb break="no" n="2"/>tri et L&amp;lt;i=L&amp;gt;b<lb break="no" n="3"/>erae pro sa<lb break="no" n="4"/>lute sua et <lb n="5"/><surplus>sua et</surplus> suo<lb break="no" n="6"/>rum <expan><abbr>Aurel</abbr><ex>ius</ex></expan> <lb n="7"/>Valens m<lb break="no" n="8"/><expan><abbr>il</abbr><ex>es</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> II <expan><abbr>adi</abbr><ex>utricis</ex></expan> &amp;lt;<expan><abbr>Imp</abbr><ex>eratore</ex></expan> Volusian&amp;gt;<certainty match="preceding-sibling::node()" locus="value"/>o <lb n="9"/>II et <expan><abbr>Maxim</abbr><ex>o</ex></expan> <lb n="10"/>co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan> 
+            </ab></div>
+            <div type="commentary">
+                <p>Z. 8: Ergänzung fraglich; laut Borhy - Bartus - Stibrányi 138: &amp;lt;Imp. Volusian&amp;gt;o (cos. 253 n. Chr.) oder &amp;lt;Nummi&amp;gt;o (cos. 263 n. Chr.) denkbar.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2010, 1348.</bibl><bibl>L. Borhy - D. Bartus - M Stibrányi, ACD 48, 2012, 135-139, Nr. 2; fig. 7 u. 8; fig. 9 (Zeichnung). - AE 2010.</bibl><bibl>M. Stibrányi, Régészeti kutatások Magyarszágon (Budapest 2010) 153, Nr. 73. - AE 2010.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

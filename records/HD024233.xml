@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Valentia &amp;ndash; Valencia (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD024233</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD024233</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">tabula?</objectType><dimensions unit="cm"><height>44</height><width>182</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Hispania citerior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/442845">Valentia</placeName></origPlace><origDate><origDate notBefore-custom="0051" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern">Valencia</placeName><placeName type="findspot">Calle de S. Thomas, Haus des Bernardo Simon, sekundär verwendet</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD024233_1"><persName><name type="praenomen">L.</name><name type="nomen">Venuleius</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD024233_2"><persName><name type="nomen">Venuleia+</name><name type="cognomen">Hoemis?</name></persName></person><person xml:id="HD024233_3"><persName><name type="nomen">Venuleius+</name><name type="cognomen">[---]sianus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2006-09-26" who="Gräf">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F007948" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/10646495-6c09-47c9-966f-b118a8d63f81/file/id/768097/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>L</abbr><ex>ucius</ex></expan> Venuleius <gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/>sibi et Venu<supplied reason="lost">leiae</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/>HOEMI uxor<supplied reason="lost">i</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/>et Venulei<supplied reason="lost">o</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/>siano fil<gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Inschriftträger: vielleicht auch Statuenbasis. Nach Ribelles Fundstelle Calle de Cabellers.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 02 (2. Aufl.) 14, 00079.</bibl><bibl>CIL 02, 03769.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

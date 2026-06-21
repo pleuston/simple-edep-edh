@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Deva &amp;ndash; Chester (Britannia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD015989</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD015989</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Chester, Grosvenor Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">block</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(43)</height><width>88</width><depth>76</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Britannia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/79420">Deva</placeName></origPlace><origDate><origDate notBefore-custom="0090" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">90 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1887"><placeName type="country" ref="https://www.geonames.org/2635167">United Kingdom</placeName><placeName type="modern" ref="http://www.geonames.org/2653228">Chester</placeName><placeName type="findspot">{Nordmauer, östlicher Teil}</placeName><placeName type="region">Cheshire</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD015989_1"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD015989_2" sex="M"><persName><name type="cognomen">Aristio</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-05-20" who="Cowey">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F009170" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/455ae47e-5606-45df-bb51-01493a2093fe/file/id/768936/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost"><expan><abbr>eq</abbr><ex>uo</ex></expan></supplied> <lb n="2"/><expan><abbr>pub</abbr><ex>lico</ex></expan> |(centurio) <expan><abbr>leg</abbr><ex>ionum</ex></expan> V Mac&amp;lt;e=I&amp;gt;<expan><abbr>d</abbr><ex>onicae</ex></expan> et <lb n="3"/>VIII <expan><abbr>Aug</abbr><ex>ustae</ex></expan> et II <expan><abbr>Aug</abbr><ex>ustae</ex></expan> et XX <expan><abbr>V</abbr><ex>aleriae</ex></expan> <expan><abbr>V</abbr><ex>ictricis</ex></expan> <lb n="4"/>vixit annis LXI Aristio <lb n="5"/><expan><abbr>lib</abbr><ex>ertus</ex></expan> <expan><abbr>h</abbr><ex>eres</ex></expan> <expan><abbr>f</abbr><ex>aciendum</ex></expan> <expan><abbr>c</abbr><ex>uravit</ex></expan> 
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Zu den leichten Leseabweichungen s. RIB 0509.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>EphEp 7, p. 294 n. 903. (B)</bibl><bibl>RIB 0509; Zeichnung.</bibl><bibl>AE 1966, 0242.</bibl><bibl>R.P. Wright, JRS 56, 1966, 225, (b). - AE 1966.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

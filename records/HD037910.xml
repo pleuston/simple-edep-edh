@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Flavia Solva, bei &amp;ndash; Seggauberg (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD037910</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD037910</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Seggauberg, Schloß Seggau, vermauert</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">altar?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(93)</height><width>(64)</width><depth>(33)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6.5-4.0</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197273">Flavia Solva, bei</placeName></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1828"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2765224">Seggauberg</placeName><placeName type="findspot">{Schloß Seggau, Alter Turm}, sekundär verwendet</placeName><placeName type="region">Steiermark</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD037910_1" sex="M"><persName><name type="praenomen">Q.</name><name type="nomen">Pompeius</name><name type="cognomen">Eugamus</name></persName></person><person xml:id="HD037910_2" sex="W"><persName><name type="nomen">Pompeia</name><name type="cognomen">Venusta</name></persName></person><person xml:id="HD037910_3" sex="W"><persName><name type="nomen">Pompeia</name><name type="cognomen">Ingenua</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-03-06" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F004335" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/27314e6d-3152-47d7-a0d0-0228b0a55b04/file/id/765097/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Q</abbr><ex>uintus</ex></expan> Pompeius <lb n="2"/>Eugamus <lb n="3"/>et Pompeia <lb n="4"/>Venusta <lb n="5"/><expan><abbr>v</abbr><ex>ivi</ex></expan> <expan><abbr>f</abbr><ex>ecerunt</ex></expan> sibi et <lb n="6"/>Pompeiae <lb n="7"/>Ingenuae <lb n="8"/>filiae <expan><abbr>def</abbr><ex>unctae</ex></expan> <expan><abbr>an</abbr><ex>norum</ex></expan> XX
+            </ab></div>
+            <div type="commentary">
+                <p>Nach Kremer wohl Schaftblock eines altar- oder pfeilerförmigen Grabbaus. Auf der linken Nebenseite Darstellung einer Dienerin mit Spiegel, auf der rechten, jetzt vermaueten Nebenseite laut CIL III ein Diener. Die Angaben zu Höhe und Breite beziehen sich auf den durch die Vermauerung heute sichtbaren Teil. Fundjahr: zwischen 1826 (Beginn der zweiten Abbruchphase des Alten Turms) und 1828 (erste Aufzeichnung durch Kaspar Harb).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1958, 0084.</bibl><bibl>CIL 03, 05376.</bibl><bibl>ILLPRON 1408.</bibl><bibl>E. Diez, JŒAI (Beibl.) 43, 1956-1958, 179-181. - AE 1958.</bibl><bibl>E. Diez, Flavia Solva. Die römischen Steindenkmäler auf Schloß Seggau bei Leibnitz (2. Aufl. Wien 1959) 35, Nr. 42.</bibl><bibl>E. Weber, Die römerzeitlichen Inschriften der Steiermark (Graz 1969) 260-261, Nr. 205; Foto.</bibl><bibl>G. Kremer, Antike Grabbauten in Noricum (Wien 2001) 259, Nr. II 321.</bibl><bibl>M. Hainzmann - E. Pochmarski, Die römerzeitlichen Inschriften und Reliefs von Schloß Seggau bei Leibnitz (Graz 1994) 122-123, Nr. 42A-B; Foto.</bibl><bibl>S. Karl - G. Wrolli, in: S. Karl - G. Wrolli, Der Alte Turm im Schloss Seggau zu Leibnitz. Historische Untersuchungen zum ältesten Bauteil der Burgenanlage Leibnitz in der Steiermark (Wien - Berlin - Münster 2011) 164-165, Nr. 13; Zeichnung; Taf. 43 (Zeichnung).</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

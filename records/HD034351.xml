@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Salonae &amp;ndash; Solin (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD034351</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD034351</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Split, Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material>Gesteine</material><dimensions unit="cm"><height>(40)</height><width>(22)</width><depth>(22)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197488">Salonae</placeName></origPlace><origDate><origDate notBefore-custom="0301" notAfter-custom="0600" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">301 AD - 600 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1908"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3190359">Solin</placeName><placeName type="findspot">{Parzelle Nr. 3805 (alter Katasterplan)}</placeName><placeName type="region">Splitsko-dalmatinska županija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD034351_1" sex="M"><persName><name type="praenomen">Q.</name><name type="nomen">Clodius+?</name><name type="cognomen">Dardanus</name></persName></person><person xml:id="HD034351_2" sex="M"><persName><name type="nomen">Veius</name><name type="cognomen">Aurelianus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-10-01" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F033871" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/ab741211-cbff-4298-b2f8-f7e52ef2843e/file/id/794680/file_version/name/small"/><graphic xml:id="F033872" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/fedce4a1-848b-4d40-90bf-850bcb6e07c6/file/id/794681/file_version/name/small"/><graphic xml:id="F033873" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/41b8e8af-9ad1-4c50-8146-ecfd1d5f0bc4/file/id/794682/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex cert="low">eo</ex></expan> <expan><abbr>O</abbr><ex cert="low">ptimo</ex></expan> <supplied reason="lost"><expan><abbr>M</abbr><ex cert="low">agno</ex></expan></supplied> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Quintus C<supplied reason="lost">lo</supplied><lb break="no" n="2"/><expan><abbr>dius</abbr><ex cert="low"/></expan> Darda<lb break="no" n="3"/>nus et Veius <lb n="4"/>Aurelianu<supplied reason="lost">s</supplied> <lb n="5"/>nepos ips<supplied reason="lost">i</supplied><lb break="no" n="6"/>us donum <lb n="7"/><expan><abbr>pos</abbr><ex>uerunt</ex></expan>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Datierung unsicher.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILJug 2041.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

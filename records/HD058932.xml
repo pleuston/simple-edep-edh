@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mile-/leaguestone from Drvar (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD058932</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD058932</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Drvar, Bastasi, bei, Unac, Flusstal</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">mile-/leaguestone</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>182</height><width>44</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate when-custom="0047" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">47 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1893"><placeName type="country" ref="https://www.geonames.org/3277605">Bosnia and Herzegovina</placeName><placeName type="modern" ref="http://www.geonames.org/3201136">Drvar</placeName><placeName type="findspot">{Han Bulat}</placeName><placeName type="region">Hercegbosanska županija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>mile-/leaguestone</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD058932_1" sex="M"><persName><name type="praenomen">Ti.</name><name type="nomen">Claudius+ Caesar+</name><name type="cognomen">Augustus+ Germanicus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-09-19" who="Gräf">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Ti</abbr><ex>berius</ex></expan> C<supplied reason="lost">laudius</supplied> <lb n="2"/><supplied reason="lost">Caesar</supplied> Aug<supplied reason="lost">ustus</supplied> <lb n="3"/><supplied reason="lost">Ge</supplied>rmanicu<supplied reason="lost">s</supplied> <lb n="4"/><supplied reason="lost"><expan><abbr>pont</abbr><ex>ifex</ex></expan> <expan><abbr>max</abbr><ex>imus</ex></expan> <expan><abbr>tr</abbr><ex>ibunicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> VI</supplied>I <lb n="5"/><supplied reason="lost"><expan><abbr>imp</abbr><ex>erator</ex></expan> XIIII <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> IIII <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan></supplied> <lb n="6"/><supplied reason="lost">censor</supplied> <lb n="7"/><supplied reason="lost">XXX</supplied>XIII
+            </ab></div>
+            <div type="commentary">
+                <p>Bei der Auffindung waren noch mehr Buchstaben erkennbar: Z. 1: C[laudi]us; Z. 2: Caesar Augus[tus]; Z. 3 u. 4: vollständig; Z. 5: i[m]p(erator) XIIII c[o(n)s(ul)] IIII; Z. 7: XXXXIII.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>K. Patsch, in: P. Ballif, Römische Straßen in Bosnien und der Hercegovina (Wien 1893) 52-53, Nr. 2.</bibl><bibl>P. Ballif, Römische Straßen in Bosnien und der Hercegovina (Wien 1893) 13. 47.</bibl><bibl>CIL 03, 13330.</bibl><bibl>CIL 17, 04, 00278; Fig. α; Fig. β (Zeichnung).</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Mogontiacum &amp;ndash; Mainz (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD082394</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD082394</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mainz, Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/214">sarcophagus</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109169">Mogontiacum</placeName></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2874225">Mainz</placeName><placeName type="findspot">{Hintere Bleiche 59}</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD082394_1" sex="W"><persName><name type="nomen">[---]</name><name type="cognomen">Apronia+</name></persName></person><person xml:id="HD082394_2" sex="M"><persName><name type="nomen">Antistius+</name><name type="cognomen">Aper</name></persName></person><person xml:id="HD082394_3" sex="W"><persName><name type="nomen">Antistia+</name><name type="cognomen">Apra+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-11-03" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F017084" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/91e0dcca-a9e9-4f74-9337-bc71e057a9e8/file/id/776690/file_version/name/small"/><graphic xml:id="F017085" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/28643b77-edd3-44ff-8e8e-ddc4e5579d4f/file/id/776691/file_version/name/small"/><graphic xml:id="F017086" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/3d47c0f3-5b75-4383-ade0-5cb3f07a15a7/file/id/776692/file_version/name/small"/><graphic xml:id="F017087" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/124b9788-b7e0-44c5-a3cd-730f079ad2c7/file/id/776693/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan></supplied> <lb n="2"/><supplied reason="lost">e</supplied>t perpetuae s<supplied reason="lost">e</supplied>curitat<supplied reason="lost">i</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/><supplied reason="lost">Ap</supplied>roniae coniu<supplied reason="lost">gi</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/><supplied reason="lost">Anti</supplied>stius Aper <expan><abbr>PI</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/><supplied reason="lost">An</supplied>tistia <supplied reason="lost">Apr</supplied>a filia <gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Mehrere aneinanderpassende Fragmente erhalten; bei der Auffindung nach der Textwiedergabe von Nesselhauf offenbar noch besser erhalten.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>H. Nesselhauf, BRGK 27, 1937, 87-88, Nr. 118.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Tolbiacum, bei &amp;ndash; Zülpich - Erftstadt, zwischen (Germania inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD067612</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD067612</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bonn, Rhein. Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/53">base</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/83">Trachyt</material><dimensions unit="cm"><height>70</height><width>25</width><depth>22</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.8-2.8</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109382">Tolbiacum, bei</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-2006"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2871684">Zülpich - Erftstadt, zwischen</placeName><placeName type="findspot">{Zülpich, Mülheim-Wichterich - Erfstadt, Niederberg, zwischen}</placeName><placeName type="region">Nordrhein-Westfalen</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD067612_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Gaspenasianius</name><name type="cognomen">Cassius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-11-12" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                EIVS<gap reason="lost" extent="unknown" unit="character"/>CVR </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>C</abbr><ex>aius</ex></expan> <expan><abbr>Gasp</abbr><ex>e</ex></expan><expan><abbr>nasian</abbr><ex cert="low">i</ex>us</expan> <lb n="2"/><supplied reason="lost">C</supplied>assius <lb n="3"/><expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan> </ab></div><div n="3" type="textpart"><ab><lb n="1"/> <expan><abbr>C</abbr><ex>aius</ex></expan> Gaspen<lb break="no" n="2"/>asianius Cassi<lb break="no" n="3"/>us <expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <lb n="4"/><expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Auf der Oberseite ein Dübelloch. Vorder- und Rückseite mit nahezu demselben Text beschriftet. (B): Bauchhenß - Tutlies, AE 2006: Gaspna Sianus bzw. Gaspena Sianius. Textwiedergabe nach Kakoschke.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2006, 0869. (B)</bibl><bibl>G. Bauchhenß - P. Tutlies, ArchRhein 2006, 134-137; Abb. 131-133. (B) - AE 2006.</bibl><bibl>A. Kakoschke, FeRA 22, 2013, 1-4. - AE 2013.</bibl><bibl>AE 2013, 1114.</bibl><bibl>A. Kakoschke, FeRA 38, 2019, 14-16, Nr. 7; Abb. 9.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

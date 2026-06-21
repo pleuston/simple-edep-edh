@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Identification inscription from (Civitas Lingonum) &amp;ndash; Mirebeau-sur-Bèze (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD050920</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD050920</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mirebeau-sur-Bèze, Depot</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/147">tile</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/131">Ton</material><dimensions unit="cm"><height>20</height><width>20</width><depth>4</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">0.4-1.2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/177581">(Civitas Lingonum)</placeName></origPlace><origDate><origDate notBefore-custom="0070" notAfter-custom="0086" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">70 AD - 86 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/2993730">Mirebeau-sur-Bèze</placeName><placeName type="findspot">{Thermen}, sekundär verwendet</placeName><placeName type="region">Bourgogne-Franche-Comté</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>identification inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD050920_1" sex="M"><persName><name type="cognomen">Secundus</name></persName></person><person xml:id="HD050920_2" sex="M"><persName><name type="nomen">Arruntius*</name></persName></person><person xml:id="HD050920_3" sex="M"><persName><name type="nomen">[---]iivius?</name><name type="cognomen">[---]iivius?</name></persName></person><person xml:id="HD050920_4" sex="M"><persName><name type="nomen">[---]sipius?</name><name type="cognomen">[---]sipius?</name></persName></person><person xml:id="HD050920_5" sex="M"><persName><name type="nomen">[---]ius?</name><name type="cognomen">[---]ius?</name></persName></person><person xml:id="HD050920_6" sex="M"><persName><name type="nomen">[---]s?</name><name type="cognomen">[---]s?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-08-24" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Secundus CCCXXVI <lb n="2"/>Ar<expan><ex>r</ex><abbr>unti</abbr></expan> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>I</abbr><ex cert="low"/>ivius</expan> <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>S</abbr><ex cert="low"/>I</expan><certainty match="preceding-sibling::node()" locus="value"/><expan><abbr>P</abbr><ex cert="low"/>I</expan><certainty match="preceding-sibling::node()" locus="value"/>us <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>I</abbr><ex cert="low"/>us</expan> <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/>s
+            </ab></div>
+            <div type="commentary">
+                <p>Schreibtechnik: geritzt / Graffito (vor dem Brand). (B): Le Bohec; AE 1995: Z. 1: Iucundus; Z. 2: MVNTI, Z. 3: IIVVI; Scholz: Z. 3: [---]elius; Z. 4: [---]inus; Le Bohec; AE 1995: Z. 4: IVYVI; Z. 5: IIVI; Z. 6: II.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1995, 1151. (B)</bibl><bibl>Y. Le Bohec, in: R. Goguey - M. Reddé (Hrsg.), Le camp légionnaire de Mirebeau (Mainz 1995) 314-315, Nr. 9; Taf. 48, 1; Taf. 48, 2 (Zeichnung). (B) - AE 1995.</bibl><bibl>M. Scholz, in: M.E. Fuchs - R. Sylvestre - C. Schmidt Heidenreich (Hrsg.), Inscriptions mineures. Nouveautés et réflexions. Actes du premier colloque Ductus, Lausanne 2008 (Berne 2012) 354, Nr. 63. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

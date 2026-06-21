@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Bonyhád (Pannonia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD037562</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD037562</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Szekszárd, Balogh Ádám Múz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">stele?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(67)</height><width>(29)</width><depth>25</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">10-5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia inferior</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1866"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3054809">Bonyhád</placeName><placeName type="findspot">Pfarrhaus</placeName><placeName type="region">Tolna megye</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD037562_1" sex="M"><persName><name type="praenomen">T.+</name><name type="nomen">Flavius+</name><name type="cognomen">Iustinus+?</name></persName></person><person xml:id="HD037562_2" sex="M"><persName><name type="praenomen">T.+</name><name type="nomen">Flavius+*</name><name type="cognomen">Iustinianus+?</name></persName></person><person xml:id="HD037562_3" sex="W"><persName><name type="nomen">Flaiva+</name><name type="cognomen">[---]mara+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-09-01" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>T</abbr><ex>itus</ex></expan> Fl</supplied>av<supplied reason="lost">ius</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><supplied reason="lost"><expan><abbr>f</abbr><ex>ilius</ex></expan></supplied> Iust<supplied reason="lost">inus<certainty locus="name" match="preceding-sibling::text()" cert="low"/> decu</supplied><lb break="no" n="3"/><supplied reason="lost">ri</supplied>o ve<supplied reason="lost"><expan><abbr>t</abbr><ex>eranus</ex></expan> <expan><abbr>a</abbr><ex>nnorum</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>T</abbr><ex>itus</ex></expan> <expan><abbr>Fl</abbr><ex>avius</ex></expan> Iust</supplied><lb break="no" n="4"/><supplied reason="lost">ini</supplied>anu<supplied reason="lost">s<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="5"/><expan><abbr><supplied reason="lost">pr</supplied>inc</abbr><ex>eps</ex></expan> Er<supplied reason="lost"><expan><abbr>aviscor</abbr><ex>um</ex></expan> <expan><abbr>ann</abbr><ex>orum</ex></expan></supplied> <lb n="6"/><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied> et Fl<supplied reason="lost">avia</supplied><gap reason="lost" extent="unknown" unit="character"/><lb break="no" n="7"/><supplied reason="lost">m</supplied>ara c<supplied reason="lost"><expan><abbr>o</abbr><ex>n</ex>iux</expan>? <expan><abbr>annor</abbr><ex>um</ex></expan></supplied> <lb n="8"/><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied>V <expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>it-</ex></expan> <supplied reason="lost"><expan><abbr>s</abbr><ex>unt</ex></expan></supplied> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Textwiedergabe/Ergänzungen nach Kovács.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>RIU 1011; Abb. 1011 (Foto u. Zeichnung).</bibl><bibl>CIL 03, 03303. (B)</bibl><bibl>AE 2011, 1015.</bibl><bibl>P. Kovács, in: P. Kovács - B. Fehér - Á. Szabó (Hrsg.), Közlemények, tanulmányok, előszók, Studia Epigraphica Pannonica (SEP) 3 (Budapest 2011) 46-51; Foto. - AE 2011.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

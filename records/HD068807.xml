@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Poetovio &amp;ndash; Hajdina (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD068807</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD068807</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Ptuj, Pokrajinski Muz. Ptuj-Ormož</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/24">relief</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor, weiß</material><dimensions unit="cm"><height>(37)</height><width>(15)</width><depth>6</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">2.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197446">Poetovio</placeName></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1901"><placeName type="country" ref="https://www.geonames.org/3190538">Slovenia</placeName><placeName type="modern" ref="http://www.geonames.org/3190249">Hajdina</placeName><placeName type="findspot">Spodnja Hajdina, Parzelle Nr. 882 (alter Katasterplan), {Mithraeum II}</placeName><placeName type="region">Podravska statistična regija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD068807_1" sex="M"><persName ref="http://romans1by1.com/rpeople/16925"><name type="nomen">Ulpius*?</name><name type="cognomen">Lupus+?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-03-03" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>eo</ex></expan> <expan><abbr>S</abbr><ex>oli</ex></expan> <expan><abbr>M</abbr><ex>ithrae</ex></expan> <expan><abbr>Ulp</abbr><ex>ius</ex></expan><certainty match="preceding-sibling::node()" locus="value"/> Lu<supplied reason="lost" cert="low">pus</supplied><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">pro</supplied> <lb n="2"/>salute s<supplied reason="lost">ua <gap reason="lost" extent="unknown" unit="character"/></supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Linker Teil eines Mithrasreliefs; erhalten ist die Darstellung des Cautopates und die Hinterläufe des Stiers; darüber Büste des Sol; die Inschrift befindet sich auf dem unteren Rahmen. Z. 1: P kleiner und nur aus einer senkrechten und einer oberen waagrechten Haste bestehend. Z. 1 (Ende): hinter V zur Zeit des CIL noch der Rest einer waagrechten Haste erhalten. Z. 2 (Ende): V hinter S zur Zeit des CIL noch erhalten. (B): Selem: Z. 1: Lup[us]; CIMRM: Z. 1/2: Ul[pius] Lup[us] / [pro] salute; Selem: Z. 2: [---] pro.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 15184, 12.</bibl><bibl>AIJ 305; Foto.</bibl><bibl>CIMRM 1540; fig. 392.</bibl><bibl>CIMRM 1541; fig. 392. (B)</bibl><bibl>P. Selem, Les religions orientales dans la Pannonie romaine. Partie en Yougoslavie (Leiden 1980) 113-114, Nr. 59. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

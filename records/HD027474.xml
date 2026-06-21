@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Mirobriga Turdulorum &amp;ndash; Capilla (Baetica)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD027474</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD027474</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">statue base</objectType><dimensions unit="cm"><height>(67)</height><width>50</width><depth>(30)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3.5-3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Baetica</placeName><placeName type="ancient" ref="#">Mirobriga Turdulorum</placeName></origPlace><origDate><origDate notBefore-custom="0138" notAfter-custom="0161" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">138 AD - 161 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern">Capilla</placeName><placeName type="findspot"/><placeName type="region">Extremadura</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD027474_1"><persName ref="https://www.wikidata.org/wiki/Q1429"><name type="praenomen">T.+</name><name type="nomen">Aelius+</name><name type="cognomen">Hadrianus Antoninus</name></persName></person><person xml:id="HD027474_2" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">Licinius</name><name type="cognomen">Licinianus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-06-14" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/>nepoti <lb n="2"/><supplied reason="lost">div</supplied>i Nervae <expan><abbr>pronep</abbr><ex>oti</ex></expan> <lb n="3"/><supplied reason="lost"><expan><abbr>T</abbr><ex>ito</ex></expan> Ae</supplied>lio Hadriano <lb n="4"/>Antonino <expan><abbr>Aug</abbr><ex>usto</ex></expan> Pio <lb n="5"/><supplied reason="lost"><expan><abbr>m</abbr><ex>unicipium</ex></expan></supplied> <expan><abbr>F</abbr><ex>lavium</ex></expan> Mirobrigensium <lb n="6"/><supplied reason="lost">I</supplied>Ivir egit <lb n="7"/><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied> Licinius Licinianus
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Fita, AE 1913: abweichende Textwiedergabe.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1913, 0009. (B)</bibl><bibl>CIL 02 (2. Aufl.) 07, 00853.</bibl><bibl>CIL 02, 02366.</bibl><bibl>F. Fita, BAHist 61, 1912, 228-230, Nr. 2; Fotos. (B) - AE 1913.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

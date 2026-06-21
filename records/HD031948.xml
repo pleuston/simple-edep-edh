@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Floriana? &amp;ndash; Csákvár (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD031948</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD031948</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Székesfehérvár, Szent István Király Múz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(179)</height><width>(67)</width><depth>21</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197275">Floriana?</placeName></origPlace><origDate><origDate notBefore-custom="0051" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3054434">Csákvár</placeName><placeName type="findspot">{Reformierte Kirche}, Pfarrei</placeName><placeName type="region">Fejér megye</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD031948_1" sex="M"><persName><name type="cognomen">Trovcetimarus+</name></persName></person><person xml:id="HD031948_2" sex="M"><persName><name type="cognomen">Angulatus+</name></persName></person><person xml:id="HD031948_3" sex="W"><persName><name type="cognomen">Ricmara+ Atali</name></persName></person><person xml:id="HD031948_4" sex="M"><persName><name type="cognomen">Atalus</name></persName></person><person xml:id="HD031948_5" sex="M"><persName><name type="cognomen">Domitius+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-03-31" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>D</abbr><ex>is</ex></expan></supplied> <expan><abbr>M</abbr><ex>anibus</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <supplied reason="lost">T</supplied>rovcetima<lb break="no" n="2"/><supplied reason="lost">r</supplied>us Angula<lb break="no" n="3"/><supplied reason="lost">t</supplied>i <expan><abbr>an</abbr><ex>norum</ex></expan> L R<supplied reason="lost">ic</supplied>mar<lb break="no" n="4"/><supplied reason="lost">a</supplied> Atali <supplied reason="lost">vi</supplied>va s<supplied reason="lost"><expan><abbr>ib</abbr><ex>i</ex></expan></supplied> <lb n="5"/><supplied reason="lost">e</supplied>t co<expan><ex>n</ex><abbr>iu</abbr></expan><supplied reason="lost">gi</supplied> Domit<lb break="no" n="6"/><supplied reason="lost">i</supplied>us filius parent<lb break="no" n="7"/><supplied reason="lost">i</supplied>bus <expan><abbr>t</abbr><ex>itulum</ex></expan> <expan><abbr>p</abbr><ex>osuerunt</ex></expan>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Textwiedergabe nach G. Alföldy. (B): RIU: Z. 3/4: Ancula[t]i; CIL 03, 03367; 03, 10351: Abweichungen in Lesung/Ergänzung.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>RIU 1397; Abb. 1397 (Foto u. Zeichnung). (B)</bibl><bibl>CIL 03, 03367. (B)</bibl><bibl>CIL 03, 10351. (B)</bibl><bibl>G. Alföldy, SpNov 18, 2004, 33.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

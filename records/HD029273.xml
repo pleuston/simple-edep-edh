@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Corduba &amp;ndash; Córdoba (Baetica)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD029273</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD029273</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>37</height><width>39</width><depth>4</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">2-3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Baetica</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/256128">Corduba</placeName></origPlace><origDate><origDate notBefore-custom="0371" notAfter-custom="0430" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">371 AD - 430 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern" ref="http://www.geonames.org/2519240">Córdoba</placeName><placeName type="findspot"/><placeName type="region">Córdoba</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD029273_1" sex="W"><persName><name type="cognomen">Victoria</name></persName></person><person xml:id="HD029273_2" sex="M"><persName><name type="nomen">Aurelius*</name><name type="cognomen">Felix+?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2010-03-10" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F020961" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/e23870cc-f901-41ff-a28c-b58aef7254a0/file/id/781035/file_version/name/small"/><graphic xml:id="F020962" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/83f88e29-eb5b-4244-b482-f0b0432f424c/file/id/781036/file_version/name/small"/><graphic xml:id="F020963" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/bdb2767e-cf60-4c35-88de-f17417cd2f2e/file/id/781037/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Bonae memoriae Victoriae <lb n="2"/>quae vixit <expan><abbr>n<am>n</am></abbr><ex>is</ex></expan> XXXVI coniugi <lb n="3"/>dulcissimae <expan><abbr>Aur</abbr><ex>elius</ex></expan> Fe<supplied reason="lost">lix<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="4"/>recepta i<supplied reason="lost" cert="low">n pace ---</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 02 (2. Aufl.) 07, 00658; tab. 19, 6.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

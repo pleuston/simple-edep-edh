@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Magnae &amp;ndash; Carvoran (Britannia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD070987</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD070987</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Newcastle upon Tyne, Great North Museum, Hancock</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>157</height><width>83</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Britannia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/89238">Magnae</placeName></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1825"><placeName type="country" ref="https://www.geonames.org/2635167">United Kingdom</placeName><placeName type="modern">Carvoran</placeName><placeName type="findspot">{Blenkinsopp Castle}</placeName><placeName type="region">Northumberland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD070987_1" sex="W"><persName><name type="nomen">Aurelia*</name><name type="cognomen">Aia</name></persName></person><person xml:id="HD070987_2" sex="M"><persName><name type="nomen">Aurelius*</name><name type="cognomen">Marcus</name></persName></person><person xml:id="HD070987_3" sex="M"><persName><name type="cognomen">Obsequens*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-11-27" who="Cowey">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F009228" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/27227ed3-923c-4738-b23c-62c38b58ea29/file/id/768994/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/><expan><abbr>Aur</abbr><ex>eliae</ex></expan> <expan><abbr>T</abbr><ex>iti</ex></expan> <expan><abbr>f</abbr><ex>iliae</ex></expan> Aiae <lb n="3"/><expan><abbr>d</abbr><ex>omo</ex></expan> Salonas <lb n="4"/><expan><abbr>Aur</abbr><ex>elius</ex></expan> Marcus <lb n="5"/><expan><abbr><am><g type="centuria"/></am></abbr><ex>centuria</ex></expan> <expan><abbr>Obseq</abbr><ex>uentis</ex></expan> con<lb break="no" n="6"/>iugi sanctis<lb break="no" n="7"/>simae quae vi<lb break="no" n="8"/>xit annis XXXIII <lb n="9"/>sine ulla macula
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Zu den leichten Leseabweichungen s. RIB 1828.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 07, 00793. (B)</bibl><bibl>RIB 1828; Zeichnungen.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

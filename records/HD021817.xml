@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Augustiana &amp;ndash; Traismauer (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD021817</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD021817</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Traismauer, Heimatmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(53)</height><width>71</width><depth>17</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6.5-6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118581">Augustiana</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1925"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2763459">Traismauer</placeName><placeName type="findspot">{Traismauer} - {Stollhofen}, zwischen</placeName><placeName type="region">Niederösterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD021817_1" sex="M"><persName><name type="cognomen">Troucleimarus</name></persName></person><person xml:id="HD021817_2" sex="M"><persName><name type="cognomen">Demarus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-02-18" who="Gräf">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F037461" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/641b405e-1ef6-4073-b896-6cfc61d616ac/file/id/798328/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Trouclei<lb break="no" n="2"/>marus De<lb break="no" n="3"/>mari <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>eq</abbr><ex>ues</ex></expan> <lb n="4"/><expan><abbr>al</abbr><ex>ae</ex></expan> <expan><abbr>T</abbr><ex>hracum</ex></expan> <expan><abbr>an</abbr><ex>norum</ex></expan> XXXXV <lb n="5"/><expan><abbr>st</abbr><ex>ipendiorum</ex></expan> XXVI <expan><abbr>c</abbr><ex>ollegae</ex></expan> <expan><abbr>p</abbr><ex>ro</ex></expan> <expan><abbr>p</abbr><ex>ietate</ex></expan> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Wahrscheinlich für ein Grab des 4. Jh. n. Chr. wiederverwendet. Reste eines Stucküberzugs auf der Oberfläche. Inschriftträger: möglicherweise auch Rest einer Stele. Z. 5: nur die oberen Buchstabenenden erhalten.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1950, 0116.</bibl><bibl>E. Weber, Supplementum epigraphicum zu CIL III für Salzburg, Steiermark, Oberösterreich und das norische Niederösterreich 1902-1964 (Diss. Wien 1964) 217-218, Nr. 196.</bibl><bibl>E. Polaschek - H. Ladenbauer-Orel, JŒAI (Beibl.) 37, 1948, 203-204; Abb. 59 (Zeichnung). - AE 1950.</bibl><bibl>ILLPRON 0896.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

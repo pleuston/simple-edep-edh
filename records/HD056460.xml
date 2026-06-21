@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Bigeste &amp;ndash; Ljubuški (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD056460</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD056460</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Sarajevo, Zem. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197167">Bigeste</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1882"><placeName type="country" ref="https://www.geonames.org/3277605">Bosnia and Herzegovina</placeName><placeName type="modern" ref="http://www.geonames.org/3288712">Ljubuški</placeName><placeName type="findspot">Humac, bei, {Trebižat, Fluss}, zweite Brücke, sekundär verwendet</placeName><placeName type="region">Zapadnohercegovački kanton</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD056460_1" sex="M"><persName><name type="cognomen">Vanaius</name></persName></person><person xml:id="HD056460_2" sex="M"><persName><name type="cognomen">Veniontus+*?</name></persName></person><person xml:id="HD056460_3" sex="W"><persName><name type="cognomen">Valeria</name></persName></person><person xml:id="HD056460_4" sex="W"><persName><name type="cognomen">Marcella</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-06-15" who="Gräf">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Vanaius Venio<supplied reason="lost" cert="low">n</supplied><expan><abbr>t</abbr><ex cert="low">i</ex></expan> <expan><abbr>fi</abbr><ex>lius</ex></expan> <lb n="2"/>domo Bodion<supplied reason="lost"><expan><abbr>t</abbr><ex>icus</ex></expan>? e</supplied><expan><abbr>q</abbr><ex>ues</ex></expan> <expan><abbr>coh</abbr><ex>ortis</ex></expan> <lb n="3"/>III <expan><abbr>Alp</abbr><ex>inorum</ex></expan> <expan><abbr>an</abbr><ex>norum</ex></expan> LIIII <expan><abbr>stip</abbr><ex>endiorum</ex></expan> XXV <lb n="4"/><expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>itus</ex></expan> <expan><abbr>e</abbr><ex>st</ex></expan> Valeria et <lb n="5"/>Marcella <expan><abbr>p</abbr><ex>osuerunt</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): CIL III. 8495: Z. 1 (Ende) TI F nicht gelesen; Patsch, WMBH 5: Z. 1: Venio[---]ti f(ilius); Patsch, WMBH 1; CIL III 8495 add. p. 2322: Z. 1 (Ende): III; Z. 2: Bodionae; CIL III 8495: Z. 3: [sti]p.; Z. 4: Valeri[an]a.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 08495. (B)</bibl><bibl>CIL 03, 08495 add. p. 2132.</bibl><bibl>CIL 03, 08495 add. p. 2322. (B)</bibl><bibl>CIL 03, 08495 add. p. 2328, 121.</bibl><bibl>C. Patsch, WMBH 1, 1893, 330-332. (B)</bibl><bibl>C. Patsch, WMBH 5, 1897, 198; Fig. 39 (Zeichnung). (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

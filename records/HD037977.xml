@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Flavia Solva, bei &amp;ndash; Seggauberg (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD037977</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD037977</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Seggauberg, Schloß Seggau, vermauert</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(90)</height><width>(60)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">8.0-7.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197273">Flavia Solva, bei</placeName></origPlace><origDate><origDate notBefore-custom="0131" notAfter-custom="0170" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">131 AD - 170 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1831"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2765224">Seggauberg</placeName><placeName type="findspot">{Schloß Seggau, Alter Turm}, sekundär verwendet</placeName><placeName type="region">Steiermark</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD037977_1"><persName><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD037977_2" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">Memmius+</name><name type="cognomen">[---]us</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-04-15" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F004323" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/46ad1911-21e1-4e9f-b7ad-9b6e0085abe7/file/id/765085/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>e <expan><abbr>coniug</abbr><ex>i</ex></expan> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">M</supplied>emmio <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>o filio <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">alae</supplied> I <expan><abbr>Aug</abbr><ex>ustae</ex></expan> <expan><abbr>Thr</abbr><ex>acum</ex></expan> <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr><supplied reason="lost">a</supplied>n</abbr><ex>norum</ex></expan> XXVI
+            </ab></div>
+            <div type="commentary">
+                <p>Oben und links gebrochen; sehr sorgfältige und gut erhaltene Buchstaben. Fundjahr: zwischen 1826 und 1831 in der zweiten Abbruchphase des Alten Turms. Der genannte Sohn dürfte in der ala I Augusta Thracum gedient haben.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 05340.</bibl><bibl>ILLPRON 1374.</bibl><bibl>E. Weber, Die römerzeitlichen Inschriften der Steiermark (Graz 1969) 243, Nr. 183.</bibl><bibl>S. Karl - G. Wrolli, in: S. Karl - G. Wrolli, Der Alte Turm im Schloss Seggau zu Leibnitz. Historische Untersuchungen zum ältesten Bauteil der Burgenanlage Leibnitz in der Steiermark (Wien - Berlin - Münster 2011) 191, Nr. 76; Zeichnung.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

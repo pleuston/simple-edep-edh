@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Vercovicium &amp;ndash; Housesteads (Britannia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD070775</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD070775</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Newcastle upon Tyne, Great North Museum, Hancock</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>109</height><width>40</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Britannia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/89311">Vercovicium</placeName></origPlace><origDate><origDate when-custom="0252" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">252 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1822"><placeName type="country" ref="https://www.geonames.org/2635167">United Kingdom</placeName><placeName type="modern" ref="http://www.geonames.org/7932545">Housesteads</placeName><placeName type="findspot">{Mithraeum}</placeName><placeName type="region">Northumberland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD070775_1" sex="M"><persName><name type="nomen">Publicius*</name><name type="cognomen">Proculinus</name></persName></person><person xml:id="HD070775_2" sex="M"><persName><name type="cognomen">Proculus</name></persName></person><person xml:id="HD070775_3" sex="M"><persName><name type="cognomen">Gallus</name></persName></person><person xml:id="HD070775_4" sex="M"><persName><name type="cognomen">Volusianus*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-10-17" who="Cowey">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                De<supplied reason="lost">o</supplied><gap reason="lost" extent="unknown" unit="character"/> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Deo Soli <lb n="2"/>Invicto Mit<lb break="no" n="3"/>rae Saeculari <lb n="4"/><expan><abbr>Publ</abbr><ex>icius</ex></expan> Proculi<lb break="no" n="5"/>nus pro se <lb n="6"/>et Proculo <expan><abbr>fil</abbr><ex>io</ex></expan> <lb n="7"/>suo <expan><abbr>v</abbr><ex>otum</ex></expan> <expan><abbr>s</abbr><ex>olvit</ex></expan> <expan><abbr>l</abbr><ex>ibens</ex></expan> <expan><abbr>m</abbr><ex>erito</ex></expan> <lb n="8"/><expan><abbr>D</abbr><ex>ominis</ex></expan> <expan><abbr>N</abbr><ex>ostris</ex></expan> Gallo et <lb n="9"/>Volusi<expan><ex>a</ex><abbr>no</abbr></expan> co<expan><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan>
+            </ab></div></div>
+            <div type="commentary">
+                <p>(B): Zu den leichten Leseabweichungen s. RIB 1600.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 07, 00646. (B)</bibl><bibl>RIB 1600; Zeichnungen.</bibl><bibl>CIMRM 0863.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

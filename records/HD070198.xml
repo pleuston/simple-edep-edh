@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Luguvalium &amp;ndash; Carlisle (Britannia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD070198</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD070198</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Carlisle, Tullie House Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">stele?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(49)</height><width>(51)</width><depth>15</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.2-3.9</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Britannia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/89234">Luguvalium</placeName></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1907"><placeName type="country" ref="https://www.geonames.org/2635167">United Kingdom</placeName><placeName type="modern" ref="http://www.geonames.org/2653775">Carlisle</placeName><placeName type="findspot">{London Road}</placeName><placeName type="region">Cumbria</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-01-23" who="Cowey">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan></supplied> <abbr>D</abbr> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>ru<supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied> <expan><abbr>mil</abbr><ex>es</ex></expan> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr><supplied reason="lost">s</supplied>tip</abbr><ex>endiorum</ex></expan> <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>i
+            </ab></div>
+            <div type="commentary">
+                <p>Der Stein besteht aus 5 Fragmenten. 3 Fragmente (c-e) passen aneinander. Die Masse von Fr. c) sind: Höhe: -41; Breite: -35; Tiefe: 14. Die Maße von Fr. d) sind: Höhe: -28; Breite: -42.7; Tiefe: 14. Die übrige 2 Fragmente (a-b) passen aneinander. Die Maße von Fr. a) sind: Höhe: -37; Breite: -26.5; Tiefe: 10. Die Masse von Fr. b) sind: Höhe: -15.5; Breite: -16.5; Tiefe: 5.3.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>EphEp 9, p. 607 n. 1221.</bibl><bibl>RIB 0962; Zeichnung.</bibl><bibl>J.C. Coulston - E.J. Phillips, Hadrian's Wall west of the North Tyne, and Carlisle, CSIR Great Britain 1, 6 (Oxford 1988) 165, Nr. 491; Pl. 110, 491.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

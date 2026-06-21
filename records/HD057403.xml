@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Fulfinum &amp;ndash; Omišalj (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD057403</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD057403</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>(37)</height><width>(56)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3-1.9</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197280">Fulfinum</placeName></origPlace><origDate><origDate notBefore-custom="0085" notAfter-custom="0096" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">85 AD - 96 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1975"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3194112">Omišalj</placeName><placeName type="findspot">Mirine, {frühchristliche Kirche}, sekundär verwendet</placeName><placeName type="region">Primorsko-goranska županija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD057403_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1423"><name type="cognomen">Domitianus+++</name></persName></person><person xml:id="HD057403_2" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Sestius</name><name type="cognomen">Dexter</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-02-18" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr><supplied reason="lost">I</supplied>mp</abbr><ex>erator</ex></expan> Caesar divi f<del rend="erasure">[<expan><abbr>il</abbr><ex>ius</ex></expan> Domitia</del>]<lb break="no" n="2"/><del rend="erasure">[nus</del>] Aug<supplied reason="lost">ustus</supplied> <expan><abbr>p</abbr><ex>ontifex</ex></expan> <expan><abbr>m</abbr><ex>aximus</ex></expan> tribuniciae <lb n="3"/><supplied reason="lost">p</supplied>otestatis <del rend="erasure">[XIIII<certainty locus="name" match="preceding-sibling::text()" cert="low"/></del>] <expan><abbr>imp</abbr><ex>erator</ex></expan> <del rend="erasure">[XXII<certainty locus="name" match="preceding-sibling::text()" cert="low"/></del>] consul <del rend="erasure">[XVI<certainty locus="name" match="preceding-sibling::text()" cert="low"/></del>] <lb n="4"/>censor <expan><abbr>perp</abbr><ex>etuus</ex></expan> <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> <lb n="5"/>aquam Flaviam Augustam novis <lb n="6"/>fontibus collectis Flavio Fulfi<lb break="no" n="7"/>no induxit <expan><abbr>L</abbr><ex>ucius</ex></expan> Sestius Dexter <lb n="8"/>veteranus <expan><abbr>coh</abbr><ex>ortis</ex></expan> III praetoriae <lb n="9"/>de sua pecunia faciundum cu<lb break="no" n="10"/>ravit
+            </ab></div>
+            <div type="commentary">
+                <p>Inschriftfeld in Form einer tabula ansata. Ergänzungen nach Rendić-Miočevič. Datierung: Zeitraum, in dem Domitian censor perpetuus war; nach dem Ergänzungsvorschlag von Rendić-Miočevič 94 n. Chr. (B): Rendić-Miočevič: Z. 1: Imp(erator); Z. 2: potestatis.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>D. Rendić-Miočevič, VjesAMuzZagreb 8, 1974, 47-55; tab. 1. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

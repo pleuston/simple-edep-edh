@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Mogontiacum &amp;ndash; Mainz (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD055276</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD055276</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mainz, Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(15)</height></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109169">Mogontiacum</placeName></origPlace><origDate><origDate when-custom="0225" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">225 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1881"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2874225">Mainz</placeName><placeName type="findspot">{römische Brücke}, Pfeiler, sekundär verwendet</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD055276_1" sex="M"><persName><name type="nomen">Optatius+</name><name type="cognomen">So[---]</name></persName></person><person xml:id="HD055276_2" sex="W"><persName><name type="nomen">Arriania</name><name type="cognomen">Paterna+?</name></persName></person><person xml:id="HD055276_3" sex="M"><persName><name type="nomen">Optatius+</name><name type="cognomen">Paternus+*</name></persName></person><person xml:id="HD055276_4" sex="M"><persName><name type="cognomen">Fuscus+</name></persName></person><person xml:id="HD055276_5" sex="M"><persName><name type="cognomen">Dexter+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2018-08-08" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F014955" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/e313f216-a715-45ae-892e-8352f01797f7/file/id/774490/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost">In <expan><abbr>h</abbr><ex>onorem</ex></expan> <expan><abbr>d</abbr><ex>omus</ex></expan> <expan><abbr>d</abbr><ex>ivinae</ex></expan> deo Mercur</supplied><lb break="no" n="2"/><supplied reason="lost">io et Genio <expan><abbr>neg</abbr><ex>otiatorum</ex></expan> pann</supplied><lb break="no" n="3"/><supplied reason="lost">ariorum</supplied><gap reason="lost" extent="unknown" unit="character"/> Optat<supplied reason="lost">ius So</supplied><lb break="no" n="4"/><gap reason="lost" extent="unknown" unit="character"/> Arriania <supplied reason="lost">Pa</supplied><lb break="no" n="5"/><supplied reason="lost">terna<certainty locus="name" match="preceding-sibling::text()" cert="low"/> Op</supplied>tatius Pa<supplied reason="lost"><expan><abbr>tern</abbr><ex>us</ex></expan></supplied> <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">Fus</supplied>co et Dex<supplied reason="lost">tro</supplied> <lb n="7"/><supplied reason="lost"><expan><abbr>co</abbr><ex>n</ex></expan></supplied><expan><abbr>s</abbr><ex>ulibus</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Bei der Auffindung waren etwa die hinteren zwei Drittel aller Zeilen noch erhalten. Lesung / Ergänzung nach EPSG 125 (http://gams.uni-graz.at/o:epsg.125).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 06744. (B)</bibl><bibl>PIR (2. Aufl.) M 137.</bibl><bibl>PIR (2. Aufl.) C 261.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Aquae Mattiacorum (Civitas Mattiacorum) &amp;ndash; Wiesbaden (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD031524</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD031524</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Wiesbaden, Mus. Wiesbaden</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>54</height><width>62</width><depth>20</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3-2.7</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/108750">Aquae Mattiacorum (Civitas Mattiacorum)</placeName></origPlace><origDate><origDate when-custom="0194" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">194 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1903"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2809346">Wiesbaden</placeName><placeName type="findspot">{Adlerterrain}</placeName><placeName type="region">Hessen</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD031524_1" sex="M"><persName><name type="nomen">Careius</name><name type="cognomen">Saturninus</name></persName></person><person xml:id="HD031524_2" sex="M"><persName><name type="nomen">Pinarius</name><name type="cognomen">Verus</name></persName></person><person xml:id="HD031524_3" sex="M"><persName><name type="cognomen">Severus+</name></persName></person><person xml:id="HD031524_4" sex="M"><persName><name type="cognomen">Albinus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-07-04" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                In <expan><abbr>h</abbr><ex>onorem</ex></expan> <expan><abbr>d</abbr><ex>omus</ex></expan> <expan><abbr>d</abbr><ex>ivinae</ex></expan> <expan><abbr>temp</abbr><ex>lum</ex></expan> Iovi <lb n="2"/>Dolic<expan><ex>h</ex><abbr>eno</abbr></expan> vicani <lb n="3"/>Aquenses vetust<supplied reason="lost"><expan><abbr>a</abbr><ex>te</ex></expan></supplied> <lb n="4"/>dilabsum <note>sic</note> de suo r<supplied reason="lost">es</supplied><lb break="no" n="5"/>tituerunt sub cu<supplied reason="lost">ra</supplied> <lb n="6"/>Carei Saturnini <supplied reason="lost">et</supplied> <lb n="7"/>Pinari Veri <expan><abbr>Imp</abbr><ex>eratore</ex></expan> Se<supplied reason="lost">ve</supplied><lb break="no" n="8"/>ro et Albino <expan><abbr>co</abbr><ex>n</ex></expan><supplied reason="lost"><expan><abbr>s</abbr><ex>ulibus</ex></expan></supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Ritterling; AE 1903: Z. 7/8: Se[ve]/ro et Albino.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1903, 0309.</bibl><bibl>E. Ritterling, KWDZ 22, 1903, 112-114. (B) - AE 1903.</bibl><bibl>CCID 526; Taf. 115, 526.</bibl><bibl>CIL 13, 07566a.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

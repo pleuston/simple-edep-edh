@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Großmehring (Raetia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD075568</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD075568</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Ingolstadt, Stadtmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(84)</height><width>71</width><depth>30</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Raetia</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1987"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2915277">Großmehring</placeName><placeName type="findspot"/><placeName type="region">Bayern</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD075568_1" sex="M"><persName><name type="cognomen">Poppalus</name></persName></person><person xml:id="HD075568_2" sex="M"><persName><name type="cognomen">Luccus</name></persName></person><person xml:id="HD075568_3" sex="W"><persName><name type="cognomen">Barbara</name></persName></person><person xml:id="HD075568_4" sex="W"><persName><name type="cognomen">Concessa</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-12-13" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/><expan><abbr>Poppali</abbr><ex cert="low"/></expan> <lb n="3"/>Lucci <expan><abbr>fil</abbr><ex>ius</ex></expan> <lb n="4"/><expan><abbr>vix</abbr><ex>it</ex></expan> <expan><abbr>n<am>n</am></abbr><ex>os</ex></expan> <lb n="5"/>LXXV Bar<lb break="no" n="6"/>bara et Con<lb break="no" n="7"/>cessa <expan><abbr>fil</abbr><ex>iae</ex></expan> <expan><abbr>fec</abbr><ex>erunt</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Oben und unten abgebrochenes Fragment einer Grabstele. In Z. 1 noch der untere Ansatz der Buchstaben sichtbar, Lesung Z. 2 unsicher. Der Name des Verstorbenen ist bislang nicht belegt, aber vgl. Poppalli(?), CIL V 8122, 5. Z. 6: ungewöhnliche ET-Ligatur mit nach oben verlängertem T; N klein in O eingeschrieben.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>Kulturreferat der Stadt Ingolstadt (Hrsg.), Die Donau zwischen Lech und Altmühl. Geschichte und Gegenwart einer Kulturlandschaft (Ingolstadt 1987) 180, Nr. 66; Abb. 66.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

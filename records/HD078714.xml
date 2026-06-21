@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Baudobriga &amp;ndash; Boppard (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD078714</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD078714</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/260">slab</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>28</height><width>18</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="#">Baudobriga</placeName></origPlace><origDate><origDate notBefore-custom="0551" notAfter-custom="0700" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">551 AD - 700 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1868"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2946366">Boppard</placeName><placeName type="findspot">{spätantikes Gräberfeld 'Im Proffen'}</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD078714_1" sex="M"><persName><name type="cognomen">Nonnus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-02-24" who="Osnabrügge">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Hic requi<lb break="no" n="2"/>iscit <note>sic</note> in <lb n="3"/>pace Non<lb break="no" n="4"/>nus pr<expan><ex>e</ex><abbr>s</abbr><ex>by</ex><abbr>t</abbr></expan><expan><ex>e</ex><abbr>r</abbr></expan> <lb n="5"/>oviit <note>sic</note> qu<lb break="no" n="6"/>into die <lb n="7"/><expan><abbr>an</abbr><ex>te</ex></expan> K<expan><ex>a</ex><abbr>l</abbr><ex>en</ex><abbr>d</abbr></expan><expan><ex>a</ex><abbr>s</abbr></expan> <lb n="8"/>Septem<lb break="no" n="9"/>bris <note>sic</note>
+            </ab></div>
+            <div type="commentary">
+                <p>Z. 7: AN-Ligatur. Fränkisch beeinflusste Schrift. (B): Nikitsch: Kleinere Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 07561.</bibl><bibl>ILCV 1171A.</bibl><bibl>W. Boppert, Die frühchristlichen Inschriften des Mittelrheingebietes (Mainz 1971) 138-139; Zeichnung.</bibl><bibl>E.J. Nikitsch, Die Inschriften des Rhein-Hunsrück-Kreises 1 (Boppard, Oberwesel, St. Goar). Die Deutschen Inschriften 60 (Wiesbaden 2004) 14-15, Nr. 11. (B)</bibl><bibl>M.-P. Terrien, La christianisation de la région rhénane du IVe au milieu du VIIIe siècle. Corpus (Besançon 2007) 61.</bibl><bibl>A. Binsfeld, in: L. Clemens - H. Merten - C. Schäfer (Hrsg.) Frühchristliche Grabinschriften im Westen des Römischen Reiches (Trier 2015) 59.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

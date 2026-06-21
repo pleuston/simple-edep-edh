@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Roma &amp;ndash; Roma (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD019652</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD019652</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/214">sarcophagus</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma</placeName></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0400" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 400 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1758"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Roma</placeName><placeName type="findspot"/><placeName type="region">Roma</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD019652_1" sex="W"><persName><name type="cognomen">Amymone</name></persName></person><person xml:id="HD019652_2" sex="M"><persName><name type="cognomen">Marcellus</name></persName></person><person xml:id="HD019652_3" sex="M"><persName><name type="cognomen">Athenodorus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-12-23" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Homo bonus infas adque <note>sic</note> amicus omnibus <lb n="2"/>hic conquiescit anima superis tradita <lb n="3"/>qui acc<supplied reason="lost">e</supplied>ptum lumen mense XI reddidit <lb n="4"/>Amymone <expan><abbr>e</abbr><ex>x</ex></expan><certainty match="preceding-sibling::node()" locus="value"/> matre e<expan><ex>x</ex><abbr>q</abbr><ex>ue</ex></expan><certainty match="preceding-sibling::node()" locus="value"/> Marcello patre <lb n="5"/>natus Quirina Athenodorus Roma domo
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Z. 4: Die Auflösungen in &amp;quot;&amp;quot;Amymone ē matre ēq. Marcello&amp;quot;&amp;quot; sind unklar: Gordon 1929-1944: Ē = est/et?, Ē(t) Q(uinto); AE 1947: Ē MATRE Ē Q MARCELLO; Gordon 1947, AE 1948: ē matre ē(que) Marcello.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1947, 0191. (B)</bibl><bibl>AE 1948, 0106. (B)</bibl><bibl>AE 2004, 0335.</bibl><bibl>G. Paci, Epigraphica 66, 2004, 249-251, Nr. 2; fig. 2; fig. 3 (Zeichnung). - AE 2004.</bibl><bibl>A.E. Gordon, CPh 42, 1947, 249-251. (B) - AE 1948.</bibl><bibl>A.E. Gordon, UCPA 1, 1929-1944, 313-355; pl. 41 u. 42. (B) - AE 1947.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

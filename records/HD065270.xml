@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Sedunum &amp;ndash; Sion (Alpes Poeninae)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD065270</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD065270</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Sion, Rathaus</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material>Gesteine</material><dimensions unit="cm"><height>117</height><width>46</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">2.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Alpes Poeninae</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/177630">Sedunum</placeName></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0400" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 400 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1700"><placeName type="country" ref="https://www.geonames.org/2658434">Switzerland</placeName><placeName type="modern" ref="http://www.geonames.org/2658576">Sion</placeName><placeName type="findspot">{S.-Theodule, Kirche}</placeName><placeName type="region">État du Valais</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD065270_1" sex="M"><persName><name type="praenomen">T.</name><name type="nomen">Campanius</name><name type="cognomen">Priscus Maximianus</name></persName></person><person xml:id="HD065270_2" sex="W"><persName><name type="nomen">Numidia+</name><name type="cognomen">Openda+ Valeriana+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-07-19" who="Masci">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Titi Campani <lb n="2"/>Prisci Maximi<lb break="no" n="3"/>ani viri <expan><abbr>cons</abbr><ex>ularis</ex></expan> <lb n="4"/>omnibus hon<lb break="no" n="5"/>oribus i<supplied reason="lost">n urbe</supplied> <lb n="6"/><supplied reason="lost">sa</supplied>cra <supplied reason="lost">funct</supplied>i q<expan><ex>u</ex><abbr>i</abbr></expan> <lb n="7"/><supplied reason="lost">vixi</supplied>t <expan><abbr>an</abbr><ex>nos</ex></expan> <supplied reason="lost">XXXXIII</supplied> <lb n="8"/><supplied reason="lost"><expan><abbr>mens</abbr><ex>e</ex>s</expan> V Numidi</supplied><lb break="no" n="9"/><supplied reason="lost">a <gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>fil</abbr><ex>ia</ex></expan> O</supplied>penda <lb n="10"/>Va<supplied reason="lost">leriana <expan><abbr>c</abbr><ex>larissima</ex></expan> <expan><abbr>f</abbr><ex>emina</ex></expan></supplied> m<lb break="no" n="11"/>ater infel<supplied reason="lost">ix</supplied> fi<supplied reason="lost">li</supplied>o <lb n="12"/>carissimo fie<supplied reason="lost">ri</supplied> <lb n="13"/><expan><abbr>curav</abbr><ex>it</ex></expan> sub asc<supplied reason="lost">i</supplied>a <lb n="14"/>d<expan><ex>e</ex><abbr>d</abbr><ex>icavit</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Dekor: Äxte. (B): Howald - Mayer: Z. 8: möglicherweise auch mense(s) unum di(es) I zu lesen, dann würde der Name der Frau erst in Z. 9 beginnen und das I nicht zu [f]i[l(ia)] zu ergänzen sein; Z. 10: c(larissima) f(emina).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 12, 00137.</bibl><bibl>G. Walser, Römische Inschriften in der Schweiz 3 (Bern 1980) 22-24, Nr. 254; Foto.</bibl><bibl>E. Howald - E. Meyer, Die römische Schweiz (Zürich 1940) 211, Nr. 65. (B)</bibl><bibl>F. Wiblé, Vallesia 33, 1978, 38, Nr. 64.</bibl><bibl>PIR (2. Aufl.) C 373.</bibl><bibl>PIR (2. Aufl.) N 205.</bibl><bibl>M.-R. Sauter, Préhistoire du Valais. Des origines aux temps mérovingiens (Sion 1950) 146, Nr. 2.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

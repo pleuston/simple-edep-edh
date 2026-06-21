@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Carnuntum, bei &amp;ndash; Ebreichsdorf (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD073501</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD073501</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Ebreichsdorf, Schloss, Kapelle</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>173</height><width>61</width><depth>26</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7.0-8.0</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/128376">Carnuntum, bei</placeName></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1882"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2780501">Ebreichsdorf</placeName><placeName type="findspot"/><placeName type="region">Niederösterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD073501_1" sex="M"><persName><name type="cognomen">Ariomanus</name></persName></person><person xml:id="HD073501_2" sex="M"><persName><name type="cognomen">Iliatus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-07-20" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Ariomanus <lb n="2"/>Iliati <expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>Boi</abbr><ex>us</ex></expan> <lb n="3"/>annorum <lb n="4"/>XV <lb n="5"/><expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>itus</ex></expan> <expan><abbr>e</abbr><ex>st</ex></expan> <lb n="6"/>pater posuit
+            </ab></div>
+            <div type="commentary">
+                <p>Unregelmäßiges Schriftbild. Zeile 1: kleines S am Zeilenende im Winkel des V; Zeile 6: V klein am Zeilenende, IT klein auf Rahmen stehend. Oberhalb des Inschriftfeldes Kopf eines Jungen in Rundmedaillon, zwischen Medaillon und Inschriftfeld Tierszene (Hund, Hase). 1882 wiederentdeckt, vorher Teil des verschollenen Lapidariums des Hieronymus Beck in Ebreichsdorf.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 04594.</bibl><bibl>CIL 03, 11311.</bibl><bibl>M.-L. Krüger, Die Reliefs des Stadtgebietes von Carnuntum 1. Die figürlichen Reliefs, CSIR Österreich 1, 3 (Wien 1970) 59, Nr. 336; Taf. 70, 336.</bibl><bibl>J. Mander, Portraits of children on Roman funerary monuments (Cambridge 2013) 292, Nr. 629.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

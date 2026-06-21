@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Mogontiacum, bei &amp;ndash; Mainz (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD056024</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD056024</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mainz, Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(93)</height><width>62</width><depth>27</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7.0-4.0</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109169">Mogontiacum, bei</placeName></origPlace><origDate><origDate notBefore-custom="-0013" notAfter-custom="0043" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">13 BC - 43 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1804"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2944180">Mainz</placeName><placeName type="findspot">Zahlbach, {Nekropole}</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD056024_1" sex="M"><persName><name type="cognomen">Priscus</name></persName></person><person xml:id="HD056024_2" sex="M"><persName><name type="praenomen">P.</name><name type="nomen">Cassius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-12-07" who="Gräf">checked through autopsy</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F015169" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/42714286-63ae-4e84-bd6c-3792d1a33e53/file/id/774746/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Priscus <lb n="2"/>servus <expan><abbr>P</abbr><ex>ubli</ex></expan> <lb n="3"/>Cassi aq<supplied reason="lost">uilif</supplied><lb break="no" n="4"/>eri <expan><abbr>leg</abbr><ex>ionis</ex></expan> <supplied reason="lost">XIIII</supplied> <lb n="5"/><expan><abbr>gem</abbr><ex>inae</ex></expan> <expan><abbr>n<am>n</am></abbr><ex>orum</ex></expan> <supplied reason="lost">XVII</supplied> <lb n="6"/>dominus <lb n="7"/>pro benef<supplied reason="lost"><expan><abbr>ic</abbr><ex>iis</ex></expan></supplied> <lb n="8"/><expan><abbr>pos</abbr><ex>uit</ex></expan> <expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>itus</ex></expan> <supplied reason="lost"><expan><abbr>e</abbr><ex>st</ex></expan></supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Autopsie R. Wiegels. Die Inschrift war bei der Auffindung noch vollständig erhalten bis auf die Enden der Z. 7 u. 8: BENEF[---]; H S [-]. (B): Boppertz: Z. 5: an(norum) [---]</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 06888.</bibl><bibl>W. Boppert, Zivile Grabsteine aus Mainz und Umgebung, CSIR Deutschland 2, 6 (Mainz 1992) 98, Nr. 53; Taf. 35. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

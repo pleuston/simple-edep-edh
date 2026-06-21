@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Carnuntum &amp;ndash; Petronell-Carnuntum (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD073928</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD073928</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">stele?</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/128376">Carnuntum</placeName></origPlace><origDate><origDate notBefore-custom="0114" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">114 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1649"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2769013">Petronell-Carnuntum</placeName><placeName type="findspot"/><placeName type="region">Niederösterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD073928_1" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Sulpicius</name><name type="cognomen">Vepitta</name></persName></person><person xml:id="HD073928_2" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Ulpius</name><name type="cognomen">Augustinus*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-05-04" who="Osnabrügge">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Marcus <lb n="2"/>Sulpicius <lb n="3"/><expan><abbr>Vepitta</abbr><ex cert="low"/></expan> mil<surplus>l</surplus>(es) <lb n="4"/><expan><abbr>leg</abbr><ex>ionis</ex></expan> XIII<supplied reason="lost">I</supplied> <expan><abbr>g</abbr><ex>eminae</ex></expan> <expan><abbr>M</abbr><ex>artiae</ex></expan> <expan><abbr>v</abbr><ex>ictricis</ex></expan> <lb n="5"/><expan><abbr>n<am>n</am></abbr><ex>orum</ex></expan> XXX <expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>itus</ex></expan> <lb n="6"/>heres <expan><abbr>Marc</abbr><ex>us</ex></expan> <lb n="7"/>Ulpius <lb n="8"/>Augustin<expan><ex>u</ex><abbr>s</abbr></expan> <lb n="9"/>fa<supplied reason="lost"><expan><abbr>c</abbr><ex>iendum</ex></expan></supplied> <expan><abbr>cur</abbr><ex>avit</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Oberhalb des Inschriftfeldes im Giebelfeld Protome, flankiert von Tauben, auf den Giebelschrägen Delfine, über dem Giebel Greif(?). Nach der Wiedergabe im CIL zwischen VEP und ITTA Worttrenner? &amp;apos;Martia victrix&amp;apos; war Beiname der legio XIIII germina.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 11234.</bibl><bibl>E. Vorbeck, Militärinschriften aus Carnuntum (2. Aufl. Wien 1980) 47, Nr. 104.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

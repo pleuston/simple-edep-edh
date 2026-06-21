@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Proložac (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD053692</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD053692</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">altar?</objectType><dimensions unit="cm"><height>(70)</height><width>59</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3201412">Proložac</placeName><placeName type="findspot">Donji Proložac, {Velika Gospa, Kirche}, bei?</placeName><placeName type="region">Splitsko-dalmatinska županija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD053692_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Appuleius</name><name type="cognomen">Etruscus</name></persName></person><person xml:id="HD053692_2" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Appuleius</name><name type="cognomen">Etruscus</name></persName></person><person xml:id="HD053692_3" sex="W"><persName><name type="nomen">Cuparia</name><name type="cognomen">Lupula+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-06-10" who="Feraudi">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>C</abbr><ex>aius</ex></expan> Appuleius Etr<supplied reason="lost">u</supplied>s<lb break="no" n="2"/>cus speculator <lb n="3"/><expan><abbr>vet</abbr><ex>eranus</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> XI decurio <lb n="4"/>allectus <expan><abbr>Salona</abbr><ex>e</ex></expan> <lb n="5"/>et <expan><abbr>G</abbr><ex>aius</ex></expan> Appuleius <lb n="6"/>Etruscus <expan><abbr>f</abbr><ex>ilius</ex></expan> anno<lb break="no" n="7"/>rum XIIII <expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>iti</ex></expan> su<supplied reason="lost">nt</supplied> <lb n="8"/>Cuparia Lupu<supplied reason="lost" cert="low">la p(osuit)</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): CIL III 1914: geringfügig abweichende Textwiedergabe. Lesung/Ergänzungen nach Patsch.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 01914. (B)</bibl><bibl>CIL 03, 08506.</bibl><bibl>CIL 03, 01914 add. p. 2328, 121.</bibl><bibl>C. Patsch, WMBH 8, 1912, 83-84, Nr. 1; Fig. 22 (Zeichnung).</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

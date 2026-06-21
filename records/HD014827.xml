@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Grude (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD014827</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD014827</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mostar, Zem. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><dimensions unit="cm"><height>142</height><width>60</width><depth>16</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0131" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">131 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1956"><placeName type="country" ref="https://www.geonames.org/3277605">Bosnia and Herzegovina</placeName><placeName type="modern" ref="http://www.geonames.org/3190303">Grude</placeName><placeName type="findspot">{Sovići}</placeName><placeName type="region">Zapadnohercegovački kanton</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD014827_1" sex="M"><persName><name type="cognomen">Maximinus</name></persName></person><person xml:id="HD014827_2" sex="M"><persName><name type="cognomen">Leo</name></persName></person><person xml:id="HD014827_3" sex="W"><persName><name type="cognomen">Quartilla+</name></persName></person><person xml:id="HD014827_4" sex="W"><persName><name type="cognomen">Lupa*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2021-02-24" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Maximinus <lb n="2"/>sculpet <note>sic</note> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> </ab></div><div n="3" type="textpart"><ab><lb n="1"/> Leo et Quartil<supplied reason="lost">la</supplied> <lb n="2"/>parentes miseri <expan><abbr>posu</abbr><ex>erunt</ex></expan> <lb n="3"/>Lup<expan><ex>a</ex><abbr>e</abbr></expan> fili<expan><ex>a</ex><abbr>e</abbr></expan> infelicis<expan><ex>s</ex><abbr>i</abbr></expan><lb break="no" n="4"/>m<expan><ex>a</ex><abbr>e</abbr></expan> annorum XXII <lb n="5"/><expan><abbr>h</abbr><ex>oc</ex></expan> <expan><abbr>m</abbr><ex>onumentum</ex></expan> <expan><abbr>h</abbr><ex>eredem</ex></expan> <expan><abbr>n</abbr><ex>on</ex></expan> <expan><abbr>s</abbr><ex>equetur</ex></expan>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Die Grabinschrift befindet sich in einem gerahmten Inschriftfeld; darüber Reliefdarstellung der Verstorbenen mit der Künstlersignatur, die sich auf dem Hintergrund rechts und links des Kopfes verteilt. Grabinschrift: Z. 1: steht auf dem Rahmen; Z. 2 (Ende): SV scheint ebenfalls auf dem Rahmen zu stehen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1967, 0356.</bibl><bibl>ILJug 0625.</bibl><bibl>R. Rendić-Miočević, ARadRaspr 4/5, 1967, 339-356; t. 2-3; sl. 2 (Zeichnung). - AE 1967.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

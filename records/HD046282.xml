@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Carnuntum, bei &amp;ndash; Leithaprodersdorf (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD046282</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD046282</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Eisenstadt, Landesmus. Burgenland</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(160)</height><width>90</width><depth>22</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">8-8.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/128376">Carnuntum, bei</placeName></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0130" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 130 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1974"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2772709">Leithaprodersdorf</placeName><placeName type="findspot">Untere Salzfleckäcker, {Parzelle Nr. 4958}</placeName><placeName type="region">Burgenland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD046282_1" sex="M"><persName><name type="cognomen">[---]cio</name></persName></person><person xml:id="HD046282_2" sex="M"><persName><name type="cognomen">Ucco</name></persName></person><person xml:id="HD046282_3" sex="M"><persName><name type="cognomen">Macrinus+?</name></persName></person><person xml:id="HD046282_4" sex="M"><persName><name type="cognomen">[-]iom[--]?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-04-19" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/><lb break="no" n="1"/><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied>cio Ucconis <expan><abbr>f</abbr><ex>ilius</ex></expan> <lb n="2"/><expan><abbr><supplied reason="lost">a</supplied>n</abbr><ex>norum</ex></expan> C <expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>s</abbr><ex>itus</ex></expan> <del rend="erasure"><expan><abbr>e</abbr><ex>st</ex></expan></del> <abbr>f</abbr> <abbr>p</abbr> <lb n="3"/>Macrin<supplied reason="lost">us<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <gap reason="lost" quantity="1" unit="character"/></supplied><expan><abbr>I</abbr><ex cert="low"/>om</expan><lb break="no" n="4"/><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied> <expan><abbr>f</abbr><ex>ilius</ex></expan><certainty match="preceding-sibling::node()" locus="value"/> a<supplied reason="lost"><expan><abbr>n</abbr><ex>norum</ex></expan>? <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Oberhalb des Inschriftfeldes Reliefbild mit zwei fast vollständig abgeschlagenen Büsten. Z. 3: von N scheint noch ein kleiner Rest der linken oberen Ecke erhalten zu sein (nach Foto bei lupa 2253). Z. 4: statt F auch E, statt A auch M möglich. (B): Diebold: Z. 1 (Ende): f(ilius) [--]; Diebold; Weber - Beutler-Kränzl - Selinger - Pesditschek; AE 2002: Z. 3: Macri[---].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2002, 1138. (B)</bibl><bibl>E. Weber - F. Beutler-Kränzl - R. Selinger - M. Pesditschek, in: H. Taeuber (Hrsg.), Akten des 7. Österreichischen Althistorikertages. Mit einem Anhang: Annona epigraphica Austriaca 1993-1998 (Wien 2001) 74, Nr. 254. (B) - AE 2002.</bibl><bibl>A. Diebold, Die römerzeitlichen Steindenkmäler des Eisenstädter Landesmuseums und ihre Bedeutung für den nordwestpannonischen Raum 1. Katalog (Diss. Wien 1993) 69-70; Taf. 29. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

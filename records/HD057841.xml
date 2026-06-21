@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Colatio, bei &amp;ndash; Slovenj Gradec (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD057841</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD057841</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Graz, Landesmus. Joanneum, Lapidarium Schloß Eggenberg</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>57</height><width>50</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">8-4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197218">Colatio, bei</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3190538">Slovenia</placeName><placeName type="modern" ref="http://www.geonames.org/3339118">Slovenj Gradec</placeName><placeName type="findspot">{Legen}, sekundär verwendet</placeName><placeName type="region">Koroška statistična regija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD057841_1" sex="M"><persName><name type="cognomen">Vibenus</name></persName></person><person xml:id="HD057841_2" sex="M"><persName><name type="cognomen">Cousonis</name></persName></person><person xml:id="HD057841_3" sex="W"><persName><name type="cognomen">Secunda</name></persName></person><person xml:id="HD057841_4" sex="M"><persName><name type="cognomen">Catullus</name></persName></person><person xml:id="HD057841_5" sex="M"><persName><name type="cognomen">Successus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-10-14" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Vibenus <lb n="2"/>Cousonis <expan><abbr>f</abbr><ex>ilius</ex></expan> <lb n="3"/><expan><abbr>v</abbr><ex>ivus</ex></expan> <expan><abbr>f</abbr><ex>ecit</ex></expan> <expan><abbr>sib</abbr><ex>i</ex></expan> et <lb n="4"/>Secundae <lb n="5"/>Catulli <expan><abbr>con</abbr><ex>iugi</ex></expan> <expan><abbr>a</abbr><ex>nnorum</ex></expan> LI <lb n="6"/>et Successo <expan><abbr>f</abbr><ex>ilio</ex></expan> <expan><abbr>a</abbr><ex>nnorum</ex></expan> XX
+            </ab></div>
+            <div type="commentary">
+                <p>Z. 2 (Ende): Buchstabe F steht auf dem Rahmen. Z. 5 (Ende): Querhaste des L steht halb auf dem Rahmen. (B): CIL III 5104: Z. 5 (Ende): L.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 05104. (B)</bibl><bibl>ILLPRON 1807.</bibl><bibl>S. Djura Jelenko - J. Visočnik, AArchSlov 57, 2006, 386-387. 414-415, Nr. 32; sl. 52.</bibl><bibl>E. Weber, Die römerzeitlichen Inschriften der Steiermark (Graz 1969) 402-403, Nr. 345.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

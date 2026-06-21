@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from (Civitas Alisinensium) &amp;ndash; Elztal (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD036556</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD036556</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Rastatt, Archäolog. Landesmus. Bad.-Württ., Zentr. Arch. Fundarchiv Karlsruhe</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(41)</height><width>(38)</width><depth>12</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">8.6-6.2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118862">(Civitas Alisinensium)</placeName></origPlace><origDate><origDate notBefore-custom="0138" notAfter-custom="0161" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">138 AD - 161 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1892"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2866777">Elztal</placeName><placeName type="findspot">Neckarburken, {Numeruslager, Principia}</placeName><placeName type="region">Baden-Württemberg</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD036556_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1429"><name type="praenomen">T.+</name><name type="nomen">Aelius+*</name><name type="cognomen">Hadrianus+* Antoninus+*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-08-24" who="Osnabrügge">checked through autopsy</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F039633" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/30b6389f-3d8c-4c7e-9592-ef462666e96b/file/id/800512/file_version/name/small"/><graphic xml:id="F039634" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/f7c8d17a-29d1-49b3-b9c8-cc6fc1441e2a/file/id/800513/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr><supplied reason="lost">I</supplied>mp</abbr><ex>eratori</ex></expan> C<supplied reason="lost"><expan><abbr>aes</abbr><ex>ari</ex></expan> <expan><abbr>Tit</abbr><ex>o</ex></expan> <expan><abbr>Ael</abbr><ex>io</ex></expan> <expan><abbr>Had</abbr><ex>riano</ex></expan></supplied> <lb n="2"/><expan><abbr><supplied reason="lost">A</supplied>nto</abbr><ex>nino</ex></expan> A<supplied reason="lost"><expan><abbr>ug</abbr><ex>usto</ex></expan> Pio <expan><abbr>pont</abbr><ex>ifici</ex></expan> <expan><abbr>max</abbr><ex>imo</ex></expan> <expan><abbr>trib</abbr><ex>unicia</ex></expan></supplied> <lb n="3"/><expan><abbr><supplied reason="lost">p</supplied>ot</abbr><ex>estate</ex></expan> co<expan><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> <gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Autopsie R. Wiegels.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 06491.</bibl><bibl>RSO 066.</bibl><bibl>K. Schumacher, in: Der obergermanisch-rätische Limes des Römerreiches B, V, 1, 53 u. 53, 1 (Lieferung 9) (Heidelberg 1914) 30, Nr. 2.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Brigetio?, aus &amp;ndash; Székesfehérvár (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD032125</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD032125</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Székesfehérvár, Szent István Király Múz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">altar?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(95)</height><width>(50)</width><depth>(26)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197180">Brigetio?, aus</placeName></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3044774">Székesfehérvár</placeName><placeName type="findspot">Haus des István Paur</placeName><placeName type="region">Fejér megye</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD032125_1" sex="M"><persName ref="http://romans1by1.com/rpeople/17888"><name type="praenomen">Ti.+</name><name type="nomen">Claudius</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD032125_2" sex="W"><persName ref="http://romans1by1.com/rpeople/17889"><name type="nomen">Aelia+?</name><name type="cognomen">Gemellina+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-03-27" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>D</abbr><ex>is</ex></expan></supplied> <expan><abbr>M</abbr><ex>anibus</ex></expan> <supplied reason="lost"><expan><abbr>s</abbr><ex>acrum</ex></expan></supplied> <lb n="2"/><supplied reason="lost"><expan><abbr>Ti</abbr><ex>berio</ex></expan></supplied> Claudio <gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/><supplied reason="lost"><expan><abbr>dec</abbr><ex>urioni</ex></expan> m</supplied><expan><abbr>un</abbr><ex>icipii</ex></expan> Brig<supplied reason="lost"><expan><abbr>et</abbr><ex>ionensium</ex></expan></supplied> <lb n="4"/><supplied reason="lost">q</supplied>ui vixit an<supplied reason="lost"><expan><abbr>n</abbr><ex>os</ex></expan></supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/><supplied reason="lost" cert="low">Ae</supplied>lia Gemel<supplied reason="lost">lina</supplied> <lb n="6"/><supplied reason="lost"><expan><abbr>co</abbr><ex>n</ex></expan></supplied>iugi pien<supplied reason="lost">tissi</supplied><lb break="no" n="7"/>mo <expan><abbr>f</abbr><ex>aciendum</ex></expan> <expan><abbr>c</abbr><ex>uravit</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Lesung nach G. Alföldy. In Z. 3 auch Brig[etion(ensium)] möglich. (B): RIU: abweichende Textwiedergabe.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>RIU 1508; Abb. 1508 (Foto u. Zeichnung). (B)</bibl><bibl>CIL 03, 10338; Zeichnung.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Arba, bei &amp;ndash; Rab (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD053928</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD053928</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197134">Arba, bei</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3198356">Rab</placeName><placeName type="findspot">Kampor, Kašteline, bei, {Miral}</placeName><placeName type="region">Primorsko-goranska županija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD053928_1" sex="M"><persName><name type="praenomen">T.</name><name type="nomen">Baebius</name><name type="cognomen">Iustus</name></persName></person><person xml:id="HD053928_2" sex="W"><persName><name type="nomen">Tettia</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD053928_3" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]nis?</name></persName></person><person xml:id="HD053928_4" sex="M"><persName><name type="praenomen">T.</name><name type="nomen">Baebius</name><name type="cognomen">Iustinus+?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-03-23" who="Feraudi">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>T</abbr><ex>itus</ex></expan> Baebius <lb n="2"/><expan><abbr>T</abbr><ex>iti</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> Iustus <lb n="3"/><expan><abbr>dec</abbr><ex cert="low">urio</ex></expan> <expan><abbr>an</abbr><ex>norum</ex></expan> XXXIX </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Tettia <gap reason="lost" extent="unknown" unit="character"/><lb break="no" n="2"/>nis <supplied reason="lost" cert="low">f(ilia)</supplied> <lb n="3"/><expan><abbr>an</abbr><ex>norum</ex></expan> XXI<gap reason="lost" extent="unknown" unit="character"><certainty match=".." locus="name"/></gap> </ab></div><div n="3" type="textpart"><ab><lb n="1"/> <expan><abbr>T</abbr><ex>itus</ex></expan> Baebius <expan><abbr>T</abbr><ex>iti</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> Iust<supplied reason="lost" cert="low">inus</supplied>
+            </ab></div></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>A. Kurilić, in: D. Davison - V. Gaffney - E. Marin (Hrsg.), Dalmatia. Research in the Roman province 1970-2001. Papers in honour of J.J. Wilkes (Oxford 2006) 137, Nr. 2.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

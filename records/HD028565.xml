@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Corduba &amp;ndash; Córdoba (Baetica)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD028565</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD028565</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/35">architectural member</objectType><dimensions unit="cm"><height>98</height><width>(125)</width><depth>46</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-2.2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Baetica</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/256128">Corduba</placeName></origPlace><origDate><origDate notBefore-custom="0031" notAfter-custom="0070" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">31 AD - 70 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern" ref="http://www.geonames.org/2519240">Córdoba</placeName><placeName type="findspot"/><placeName type="region">Córdoba</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD028565_1" sex="M"><persName><name type="praenomen">Cn.</name><name type="nomen">Cacius</name><name type="cognomen">Firmo</name></persName></person><person xml:id="HD028565_2" sex="M"><persName><name type="praenomen">Cn.</name><name type="nomen">Cacius</name><name type="cognomen">Ursus</name></persName></person><person xml:id="HD028565_3" sex="M"><persName><name type="praenomen">Cn.</name><name type="nomen">Cacius</name><name type="cognomen">Quietus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2010-03-09" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Cn</abbr><ex>aeus</ex></expan> Cacius <expan><abbr>Cn</abbr><ex>aei</ex></expan> <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>l</abbr><ex>ibertus</ex></expan> Firmo <lb n="2"/><expan><abbr>Cn</abbr><ex>aeus</ex></expan> Cacius <expan><abbr>Cn</abbr><ex>aei</ex></expan> <expan><abbr>l</abbr><ex>ibertus</ex></expan> Ursus <lb n="3"/>lubens merito bene merenti b<supplied reason="lost">e</supplied>ne referri gratiam et tibi et tuis <supplied reason="lost" cert="low">est</supplied> <lb n="4"/>sed tamen et tibi hoc veniundum <note>sic</note> est <lb n="5"/><expan><abbr>Cn</abbr><ex>aeus</ex></expan> Cacius <expan><abbr>Cn</abbr><ex>aei</ex></expan> <expan><abbr>l</abbr><ex>ibertus</ex></expan> Quietus <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Z. 4: 1. Buchstabe von veniundum steht auf einer Rasur.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 02 (2. Aufl.) 07, 00428; tab. 15, 5.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

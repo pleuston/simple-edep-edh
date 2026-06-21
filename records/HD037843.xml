@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Salla, bei &amp;ndash; Zalaszentgyörgy (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD037843</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD037843</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Zalalövő, Múzeum</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(127)</height><width>(97)</width><depth>12</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5-6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197482">Salla, bei</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3042600">Zalaszentgyörgy</placeName><placeName type="findspot">{S. György, katholische Kirche}, sekundär verwendet</placeName><placeName type="region">Zala megye</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD037843_1" sex="W"><persName><name type="nomen">[---]ia</name><name type="cognomen">[---]na*</name></persName></person><person xml:id="HD037843_2" sex="M"><persName><name type="nomen">Vibunnius+</name><name type="cognomen">Valerius+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-06-17" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <gap reason="lost" extent="unknown" unit="character"/>iae <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>n<expan><ex>a</ex><abbr>e</abbr></expan> <expan><abbr>an</abbr><ex>norum</ex></expan> XXX <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> FTPPO <lb n="4"/><supplied reason="lost">per<certainty locus="name" match="preceding-sibling::text()" cert="low"/> Vi</supplied>bunnium <lb n="5"/><supplied reason="lost">V</supplied>alerium ex <expan><abbr>t</abbr><ex>estamento</ex></expan> <expan><abbr>f</abbr><ex>ieri</ex></expan> <expan><abbr>i</abbr><ex>ussit</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Zwei aneinanderpassende Fragmente erhalten. (B): TRHR (Suppl.); Ertel - Palágyi - Redő: Z. 5: p(edum) X t(itulum) f(ieri) i(ussit).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>TRHR (Suppl.) 059; Abb. 59 (Foto u. Zeichnung). (B)</bibl><bibl>C. Ertel - S. Palágyi - F. Redő, Die Skulpturen des Stadtgebietes von Salla und Mogetiana sowie des Balaton-(Plattensee-)Oberlandes in den Komitaten Zala und Veszprém, CSIR Ungarn 8 (Budapest 1999) 43, Nr. 15; Taf. 13, 3, 1 u. 13, 3, 2. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

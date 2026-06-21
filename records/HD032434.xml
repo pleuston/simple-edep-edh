@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Veii &amp;ndash; Veio (Etruria (Regio VII))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD032434</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD032434</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Etruria (Regio VII)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423116">Veii</placeName></origPlace><origDate><origDate notBefore-custom="0027" notAfter-custom="0028" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">27 AD - 28 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Veio</placeName><placeName type="findspot"/></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD032434_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1407"><name type="praenomen">Ti.</name><name type="nomen">Caesar+</name><name type="cognomen">Augustus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-12-09" who="Gräf">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Ti</abbr><ex>berius</ex></expan> Ca<supplied reason="lost">esar divi</supplied> Aug<supplied reason="lost">usti <expan><abbr>f</abbr><ex>ilius</ex></expan></supplied> <lb n="2"/>Divi Iu<supplied reason="lost">li <expan><abbr>n</abbr><ex>epos</ex></expan> Augustus</supplied> pon<supplied reason="lost"><expan><abbr>t</abbr><ex>ifex</ex></expan> <expan><abbr>max</abbr><ex>imus</ex></expan></supplied> <lb n="3"/>co<expan><ex>n</ex><abbr>s</abbr><ex>ul</ex></expan> I<supplied reason="lost">III <expan><abbr>imp</abbr><ex>erator</ex></expan> VIII <expan><abbr>trib</abbr><ex>unicia</ex></expan> pot</supplied><expan><abbr>est</abbr><ex>ate</ex></expan> XXIX <lb n="4"/><supplied reason="lost">basilicam<certainty locus="name" match="preceding-sibling::text()" cert="low"/> Veie</supplied>ntinam <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/>um dedit
+            </ab></div>
+            <div type="commentary">
+                <p>3 Fragmente erhalten. In der Nähe der Tafel wurde eine Statue des Tiberius gefunden. Z. 4: Ergänzungsvorschlag von Alföldy. Datierung: 26.6.27-25.6.28 n. Chr. (trib. pot. XXIX des Tiberius).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>M. Horster, Bauinschriften römischer Kaiser (Stuttgart 2001) 78. 327, Nr. VII 10,1.</bibl><bibl>CIL 11, 03783.</bibl><bibl>G. Alföldy, Epigraphica 64, 2002, 136-137, Nr. 29.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

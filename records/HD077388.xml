@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Augusta Treverorum &amp;ndash; Trier (Belgica)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD077388</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD077388</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Trier, Rhein. Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor, weiß</material><dimensions unit="cm"><height>32</height><width>(29)</width><depth>3</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">3-3.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Belgica</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/108894">Augusta Treverorum</placeName></origPlace><origDate><origDate notBefore-custom="0401" notAfter-custom="0500" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">401 AD - 500 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1906"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2821164">Trier</placeName><placeName type="findspot">{S. Paulin, Kirche}</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD077388_1"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD077388_2" sex="M"><persName><name type="cognomen">Palladius+?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-05-19" who="Cowey">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F026727" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/a24486da-6062-4fe8-b5a7-c669461d7151/file/id/787480/file_version/name/small"/><graphic xml:id="F026726" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/7a5b7ec4-2ad7-48fd-9c38-3f34da8d6327/file/id/787479/file_version/name/small"/><graphic xml:id="F031259" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/11dd3c8d-da27-4b71-9df2-e426f041888d/file/id/792020/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Hic quiesc<supplied reason="lost">it</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/>qui vixit ann<supplied reason="lost">os <gap reason="lost" extent="unknown" unit="character"/> menses <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="3"/>dies XX Palladi<supplied reason="lost"><expan><abbr>us</abbr><ex cert="low"/></expan></supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/>pro caritate ti<supplied reason="lost">tulum posuerunt</supplied> <lb n="5"/>in pace
+            </ab></div>
+            <div type="commentary">
+                <p>Unterhalb der Inschrift Darstellung einer Taube, die an eine Traube pickt, die aus einer Vase ragt.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 11334.</bibl><bibl>ILCV 4161, Anm.</bibl><bibl>RICG 01, 183; Foto.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Slovenske Konjice (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD030924</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD030924</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Maribor, Pokrajinski Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/35">architectural member</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor, weiß</material><dimensions unit="cm"><height>(90)</height><width>(140)</width><depth>(66)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7-4.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0051" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1901"><placeName type="country" ref="https://www.geonames.org/3190538">Slovenia</placeName><placeName type="modern" ref="http://www.geonames.org/3190530">Slovenske Konjice</placeName><placeName type="findspot"/><placeName type="region">Savinjska statistična regija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD030924_1" sex="M"><persName><name type="praenomen">T.</name><name type="nomen">Iulius</name><name type="cognomen">Bellicus</name></persName></person><person xml:id="HD030924_2" sex="M"><persName><name type="praenomen">Ti.</name><name type="nomen">Iulius</name><name type="cognomen">Civis</name></persName></person><person xml:id="HD030924_3" sex="M"><persName><name type="cognomen">Fronto</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-06-23" who="Feraudi">checked through autopsy</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>T</abbr><ex>itus</ex></expan> Iulius Bellicus <expan><abbr>dec</abbr><ex>urio</ex></expan> <lb n="2"/>alae Asturum II <lb n="3"/><expan><abbr>dec</abbr><ex>urio</ex></expan> <expan><abbr>municipi</abbr><ex>i</ex></expan> <expan><abbr>Cla</abbr><ex>udiae</ex></expan> Celeiae <lb n="4"/><expan><abbr>t</abbr><ex>estamento</ex></expan> <expan><abbr>f</abbr><ex>ieri</ex></expan> <expan><abbr>i</abbr><ex>ussit</ex></expan> <lb n="5"/><expan><abbr>Ti</abbr><ex>berius</ex></expan> Iulius Frontonis <expan><abbr>f</abbr><ex>ilius</ex></expan> Civis <lb n="6"/>frater et heres fecit
+            </ab></div>
+            <div type="commentary">
+                <p>Sockel eines größeren Grabdenkmals (ev. Pfeilergrabmal?). Material: weißer Marmor aus Pohorje. Autopsie J. Visočnik. Metadaten ergänzt nach CIL 03-neu (in Vorbereitung; Bearbeiterin: J. Visočnik).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1903, 0071.</bibl><bibl>AE 2008, 0991.</bibl><bibl>CIL 03, 15205, 3.</bibl><bibl>AIJ 082; Fotos.</bibl><bibl>ILLPRON 1887.</bibl><bibl>E. Nowotny, JŒAI (Beibl.) 5, 1902, 179-180, Nr. 6; Zeichnung. - AE 1903.</bibl><bibl>R. Wedenig, Epigraphische Quellen zur städtischen Administration in Noricum (Klagenfurt 1997) 136, Nr. C 27.</bibl><bibl>G. Kremer, Antike Grabbauten in Noricum (Wien 2001) 272, Nr. 383; Taf. 29, II 383.</bibl><bibl>J. Visočnik, AArchSlov 59, 2008, 332. 350, Nr. 16; sl. 12. - AE 2008.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

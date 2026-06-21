@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from (Civitas Mattiacorum) &amp;ndash; Wiesbaden (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD075427</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD075427</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mainz, Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(94)</height><width>95</width><depth>36</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/108750">(Civitas Mattiacorum)</placeName></origPlace><origDate><origDate notBefore-custom="0131" notAfter-custom="0170" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">131 AD - 170 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2885273">Wiesbaden</placeName><placeName type="findspot">Mainz-Kostheim, {Fähncheskreuz}</placeName><placeName type="region">Hessen</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD075427_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Iullinius+</name><name type="cognomen">Decimus</name></persName></person><person xml:id="HD075427_2" sex="M"><persName><name type="nomen">Reginius</name><name type="cognomen">E[---]?</name></persName></person><person xml:id="HD075427_3" sex="M"><persName><name type="nomen">Ant[---]</name><name type="cognomen">[---]x</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-11-17" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F016001" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/e5534eea-f273-4597-9959-f2efc1ba96b7/file/id/775578/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <supplied reason="lost"><expan><abbr>M</abbr><ex>anibus</ex></expan></supplied> <lb n="2"/><expan><abbr>C</abbr><ex>aio</ex></expan> <supplied reason="lost">I</supplied>ullinio Decimo <lb n="3"/><expan><abbr><supplied reason="lost">te</supplied>s</abbr><ex>s</ex>erario</expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> XXII <expan><abbr>P</abbr><ex>rimigeniae</ex></expan> <expan><abbr>p</abbr><ex>iae</ex></expan> <expan><abbr>f</abbr><ex>idelis</ex></expan> <lb n="4"/>an<expan><ex>n</ex><abbr>orum</abbr></expan> XXXVII stipe<lb break="no" n="5"/>n&amp;lt;d&amp;gt;ior<supplied reason="lost">um</supplied> XVIII Regin<lb break="no" n="6"/>ius <expan><abbr>E</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/>V<gap reason="lost" extent="unknown" unit="character"/> eques <lb n="7"/>Ant<gap reason="lost" extent="unknown" unit="character"/>x <expan><abbr>c</abbr><ex>ustos</ex></expan> <expan><abbr>a</abbr><ex>rmorum</ex></expan> <lb n="8"/>X<gap reason="lost" extent="unknown" unit="character"/>I<gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Oberfläche des Inschriftfeldes teilweise stark beschädigt. (B): CIL 13, 07293; Körber; AE 1895; Boppert: Lesung abweichend / unvollständig.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1895, 0143. (B)</bibl><bibl>CIL 13, 07293. (B)</bibl><bibl>W. Boppert, Militärische Grabdenkmäler aus Mainz und Umgebung, CSIR Deutschland 2, 5 (Mainz 1992) 190-191, Nr. 75; Tafel 62, 75. (B)</bibl><bibl>K. Körber, KWDZ 14, 1895, 180-181, Nr. 1. (B) - AE 1895.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Mogontiacum &amp;ndash; Mainz (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD078083</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD078083</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mainz, Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/260">slab</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>29</height><width>53</width><depth>9</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">2-2.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109169">Mogontiacum</placeName></origPlace><origDate><origDate notBefore-custom="0301" notAfter-custom="0430" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">301 AD - 430 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1907"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2874225">Mainz</placeName><placeName type="findspot">{S. Alban, Stift, ehemalige Kirche}, sekundär verwendet</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD078083_1" sex="M"><persName><name type="cognomen">Crispinus</name></persName></person><person xml:id="HD078083_2" sex="W"><persName><name type="cognomen">Maura</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-05-02" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F015760" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/fac49d45-87f2-4306-ab71-2a4c70313929/file/id/775338/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Crispin<supplied reason="lost">us</supplied> posuit titulum <lb n="2"/>dulcissim<expan><ex>a</ex><abbr>e</abbr></expan> coniugi suae <lb n="3"/>Maur<expan><ex>a</ex><abbr>e</abbr></expan> qui <note>sic</note> d<supplied reason="lost">e</supplied>cretum ge<lb break="no" n="4"/>nesi<supplied reason="lost">s</supplied> conplevit <note>sic</note> quod fui<lb break="no" n="5"/><supplied reason="lost">m</supplied>us <note>sic</note> uno con<supplied reason="lost">i</supplied>ugio men<lb break="no" n="6"/>ses X et dies XXVII qui <note>sic</note> vix<supplied reason="lost">it a</supplied>nnis <lb n="7"/>XVII et menses VIIII et dies XX <lb n="8"/>hunc titulum posuit Cris<lb break="no" n="9"/>pinus coniugi suae Maurae <lb n="10"/>in XP<expan><ex>Christ</ex><abbr>o</abbr></expan> IH<expan><ex>s</ex><abbr>u</abbr></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Vier aneinanderpassende Fragmente erhalten. Paläographie: Vorkarolingische Kapitalis I. Z. 10 (Ende): griechische Buchstaben XPO IHV. (B): Boppert; Kessel: Z. 1: p]osuit; Kessel: Z. 1: ti[it]ulum; Z. 2: dul[c]issi[m]e; Z. 3: [de]cretum; Z. 3/4: ge/nes[is]; Z. 5: con[iu]gio; CIL 13, 11918: Z. 6: XII DIES (Majuskeltext); XII et dies (Transkription); ILCV: Z. 6: XII dies; Kessel: Z. 9: coniungi.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 11918.</bibl><bibl>ILCV 3312. (B)</bibl><bibl>W. Boppert, Die frühchristlichen Inschriften des Mittelrheingebietes (Mainz 1971) 63-67; Zeichnung. (B)</bibl><bibl>C. Kessel, MZ 113, 2018, 38-39, Nr. 15; Abb 24. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

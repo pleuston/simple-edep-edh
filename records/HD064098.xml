@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Flavia Solva, bei &amp;ndash; Starše (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD064098</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD064098</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Graz, Landesmus. Joanneum, Lapidarium Schloß Eggenberg</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/78">urn</objectType><material>Gesteine</material><dimensions unit="cm"><height>(26)</height><width>(73)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">2.2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197273">Flavia Solva, bei</placeName></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3190538">Slovenia</placeName><placeName type="modern" ref="http://www.geonames.org/3189917">Starše</placeName><placeName type="findspot"/><placeName type="region">Podravska statistična regija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD064098_1" sex="W"><persName><name type="cognomen">Surilla</name></persName></person><person xml:id="HD064098_2" sex="W"><persName><name type="cognomen">Chloe+*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-08-19" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied> iusseru<supplied reason="lost">nt</supplied> pat<supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied><expan><abbr>E</abbr><ex cert="low"/>L</expan><certainty match="preceding-sibling::node()" locus="value"/><gap reason="lost" extent="unknown" unit="character"/>V<gap reason="lost" extent="unknown" unit="character"/> non for<supplied reason="lost">e<certainty locus="name" match="preceding-sibling::text()" cert="low"/> i</supplied>ll<supplied reason="lost">i</supplied> <lb n="2"/>nunc matris pietaten <note>sic</note> <expan><ex>h</ex><abbr>abet</abbr></expan> per dom<expan><ex>i</ex><abbr>nica</abbr></expan> r<supplied reason="lost">ura</supplied> <lb n="3"/><supplied reason="lost">e</supplied>t licuit matri corpus sepe&amp;lt;li&amp;gt;re dolendu<supplied reason="lost">m</supplied> <lb n="4"/>qu<expan><ex>a</ex><abbr>e</abbr></expan> nunc <expan><ex>h</ex><abbr>abet</abbr></expan> <expan><abbr>titul</abbr><ex>um</ex></expan> non terr<expan><ex>a</ex><abbr>e</abbr></expan> inimic<expan><ex>a</ex><abbr>e</abbr></expan> ia<supplied reason="lost">centem</supplied> <lb n="5"/>set <note>sic</note> potius donis sollemnibus esse colend<supplied reason="lost">um</supplied> <lb n="6"/>Surilla ego <expan><abbr>so</abbr><ex>m</ex></expan> <note>sic</note> qu<expan><ex>a</ex><abbr>e</abbr></expan> peremor <note>sic</note> filia C<expan><ex>h</ex><abbr>loe</abbr></expan><supplied reason="lost">s</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Aschenkiste. Metrik: Hexameter. Z. 1: nur die unteren Buchstabenhälften oder -enden erhalten. Lesung weitgehend nach Cugusi - Sblendorio Cugusi. (B): CIL III 5695; CIL III 11827; Weber; Cugusi - Sblendorio Cugusi: Lesung abweichend / unvollständig.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 05695. (B)</bibl><bibl>CIL 03, 05695 add. p. 1049.</bibl><bibl>CIL 03, 11827. (B)</bibl><bibl>CLE 0568. (B)</bibl><bibl>E. Weber, Die römerzeitlichen Inschriften der Steiermark (Graz 1969) 428, Nr. 396. (B)</bibl><bibl>P. Cugusi - M.T. Sblendorio Cugusi, Studi sui carmi epigrafici. Carmina Latina Epigrafica Pannonica (CLEPann) (Bologna 2007) 62-64, Nr. 21. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

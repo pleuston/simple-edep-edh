@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Carnuntum, bei &amp;ndash; Winden/See (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD073453</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD073453</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Eisenstadt, Landesmus. Burgenland</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(106)</height><width>68</width><depth>15</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7.0</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/128376">Carnuntum, bei</placeName></origPlace><origDate><origDate notBefore-custom="0031" notAfter-custom="0070" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">31 AD - 70 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1955"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2761123">Winden/See</placeName><placeName type="findspot"/><placeName type="region">Burgenland</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD073453_1" sex="M"><persName><name type="cognomen">Tertius</name></persName></person><person xml:id="HD073453_2" sex="M"><persName><name type="cognomen">Samuel?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-04-13" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F025784" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/4f3e86c8-5825-49c4-ba9d-aa5417b60161/file/id/786536/file_version/name/small"/><graphic xml:id="F025785" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/45327323-2287-4ec2-be95-079f2da950f4/file/id/786537/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Tertius <lb n="2"/>Samue<expan><ex>li</ex><abbr>s</abbr></expan><certainty match="preceding-sibling::node()" locus="value"/> <lb n="3"/><expan><abbr>f</abbr><ex>ilius</ex></expan> <expan><abbr>an</abbr><ex>norum</ex></expan> XX <lb n="4"/><expan><abbr>h</abbr><ex>ic</ex></expan> <expan><abbr>e</abbr><ex>st</ex></expan> <expan><abbr>s</abbr><ex>itus</ex></expan> <expan><abbr>p</abbr><ex>ater</ex></expan> <expan><abbr>p</abbr><ex>osuit</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Im Hauptbild oberhalb des Inschriftfeldes Baum(?), flankiert von zwei Delfinen. Darunter Girlande zwischen zwei Rosetten, Bei Samues handelt es sich vermutlich um die Abkürzung des Genitivs von Samuel, eine Deutung als keltischer Name (Samus) ist jedoch auch möglich. Womöglich lässt sich der &amp;apos;Baum&amp;apos; im Hauptbild als stilisierte Menorah deuten. Zeile 3: XX-Ligatur, Hedera als Worttrenner.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>M.-L. Krüger, Die Reliefs des Stadtgebietes von Carnuntum 2. Die dekorativen Reliefs, CSIR Österreich 1, 4 (Wien 1972) 37, Nr. 498; Taf. 35, 498.</bibl><bibl>A. Diebold, Die römerzeitlichen Steindenkmäler des Eisenstädter Landesmuseums und ihre Bedeutung für den nordwestpannonischen Raum 1. Katalog (Diss. Wien 1993) 154-155; Taf. 70.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

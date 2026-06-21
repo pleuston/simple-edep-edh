@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Municipium Claudium Virunum, bei &amp;ndash; Wolfsberg (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD057270</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD057270</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Wolfsberg, Reisberg, S. Peter und Paul, Kirche, vermauert</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">tabula?</objectType><material>Marmor, geädert / farbig</material><dimensions unit="cm"><height>(75)</height><width>(107)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197583">Municipium Claudium Virunum, bei</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1841"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/276768">Wolfsberg</placeName><placeName type="findspot">Reisberg, {S. Peter und Paul, Kirche}, sekundär verwendet</placeName><placeName type="region">Kärnten</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD057270_1" sex="M"><persName><name type="cognomen">Tert[---]?</name></persName></person><person xml:id="HD057270_2" sex="W"><persName><name type="cognomen">Ateva</name></persName></person><person xml:id="HD057270_3"><persName><name type="cognomen">Sabin[---]?</name></persName></person><person xml:id="HD057270_4" sex="M"><persName><name type="praenomen">P.</name><name type="nomen">Aelius*</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-04-15" who="Siegl">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Tert<gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/>Ateva <gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/>Sabin<gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/>et <expan><abbr>P</abbr><ex>ublio</ex></expan> <expan><abbr>Ael</abbr><ex>io</ex></expan> <gap reason="lost" extent="unknown" unit="character"/><lb break="no" n="5"/>T<gap reason="lost" extent="unknown" unit="character"/> II Mi<gap reason="lost" extent="unknown" unit="character"/> <lb n="6"/>fratri <gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Links des Inschriftfeldes Bildfeld mit Darstellung eines Soldaten. Material: gelblich-weißer Marmor. (B): CIL 03, 05092b: Z. 4/5: EPAE I[---] / T(?) II M[---].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILLPRON 0391.</bibl><bibl>CIL 03, 05092b. (B)</bibl><bibl>CIL 03, 11655.</bibl><bibl>G. Piccottini, Grabstelen Reiter- und Soldatendarstellungen sowie dekorative Reliefs des Stadtgebietes von Virunum und Nachträge zu CSIR-Österreich II/1-4, CSIR Österreich 2, 5 (Wien 1994) 27, Nr. 437; Taf. 11, 437.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Iuenna &amp;ndash; Globasnitz (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD056570</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD056570</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Globasnitz, Hemmaberg, S. Hemma und Dorothea, Kirche</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/35">architectural member</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>43</height><width>(108)</width><depth>18</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197330">Iuenna</placeName></origPlace><origDate><origDate notBefore-custom="0051" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">51 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2778467">Globasnitz</placeName><placeName type="findspot">Hemmaberg, {S. Hemma und Dorothea, Kirche}, sekundär verwendet</placeName><placeName type="region">Kärnten</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD056570_1" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Cassius+</name><name type="cognomen">Secundus+</name></persName></person><person xml:id="HD056570_2" sex="W"><persName><name type="cognomen">Sisia</name></persName></person><person xml:id="HD056570_3" sex="M"><persName><name type="cognomen">Adiutor</name></persName></person><person xml:id="HD056570_4" sex="W"><persName><name type="nomen">Cassia</name><name type="cognomen">Crispina+</name></persName></person><person xml:id="HD056570_5" sex="W"><persName><name type="nomen">Cassia+</name><name type="cognomen">Uncistma+?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-05-21" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>L</abbr><ex>ucius</ex></expan> Cassiu<supplied reason="lost">s Se</supplied>cund<supplied reason="lost">us</supplied> <lb n="2"/>et Sisia Adiutoris <expan><abbr>f</abbr><ex>ilia</ex></expan> <supplied reason="lost"><expan><abbr>v</abbr><ex>ivi</ex></expan> <expan><abbr>f</abbr><ex>ecerunt</ex></expan></supplied> <lb n="3"/>sibi et <expan><abbr>f</abbr><ex>iliae</ex></expan> Cassiae Crispin<supplied reason="lost">ae</supplied> <lb n="4"/><supplied reason="lost">et C</supplied>as<supplied reason="lost">siae</supplied> U<supplied reason="lost" cert="low">n</supplied>cistna<supplied reason="lost">e <expan><abbr>f</abbr><ex>iliis</ex></expan></supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Teil vom Architrav eines Grabbaus; auf der Unterseite Soffitte mit Palmettenfries. Z. 4 stark verrieben; Lesung unsicher. Kremer: Inschrifttext nicht wiedergegeben. (B): CIL III;Leber; ILLPRON: Leseabweichungen.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILLPRON 0097. (B)</bibl><bibl>CIL 03, 05075. (B)</bibl><bibl>P.S. Leber, Die in Kärnten seit 1902 gefundenen römischen Steininschriften (Klagenfurt 1972) 125, Nr. 235. (B)</bibl><bibl>G. Kremer, Antike Grabbauten in Noricum (Wien 2001) 190, Nr. II 58; Taf. 21, II 58.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

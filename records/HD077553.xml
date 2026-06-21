@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Bad Münstereifel (Germania inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD077553</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD077553</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bonn, Rhein. Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(32)</height><width>(22)</width><depth>(19)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania inferior</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate when-custom="0210" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">210 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1870"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2895534">Bad Münstereifel</placeName><placeName type="findspot">{Iversheim}, nordöstlich, Kalkbrennofen</placeName><placeName type="region">Nordrhein-Westfalen</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD077553_1" sex="M"><persName><name type="praenomen">[-]?</name><name type="nomen">[---]cius</name><name type="cognomen">I[---]</name></persName></person><person xml:id="HD077553_2" sex="M"><persName><name type="cognomen">Faustinus+</name></persName></person><person xml:id="HD077553_3" sex="M"><persName><name type="cognomen">Rufinus+?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2018-10-08" who="Feraudi">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F020579" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/4dc49a3b-d143-461a-9fff-2f256ac27f04/file/id/780652/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>cius I<gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><supplied reason="lost">op</supplied>tio le<supplied reason="lost" cert="low">g(ionis) I M(inerviae)? ---</supplied> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Faust<supplied reason="lost">ino et Rufino<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan></supplied>
+            </ab></div></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 07948; Zeichnung.</bibl><bibl>H. Lehner, Die antiken Steindenkmäler des Provinzialmuseums in Bonn (Bonn 1918) 220, Nr. 588; Zeichnung.</bibl><bibl>G. Alföldy, in: EpStud 5 (Düsseldorf 1968) 20, Nr. 5.</bibl><bibl>PIR (2. Aufl.) A 57.</bibl><bibl>PIR (2. Aufl.) T 352.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

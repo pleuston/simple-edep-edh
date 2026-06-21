@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph? from Celeia, bei &amp;ndash; Vojnik (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD018309</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD018309</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Vojnik, Tomaž nad Vojnikom, S. Tomaž, Kirche, Presbyterium, vermauert</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">tabula?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(73)</height><width>(80)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6-7.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197206">Celeia, bei</placeName></origPlace><origDate><origDate notBefore-custom="0131" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">131 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1985"><placeName type="country" ref="https://www.geonames.org/3190538">Slovenia</placeName><placeName type="modern" ref="http://www.geonames.org/3187448">Vojnik</placeName><placeName type="findspot">Tomaž nad Vojnikom, {S. Tomaž, Kirche}, Presbyterium, sekundär verwendet</placeName><placeName type="region">Savinjska statistična regija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph?</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD018309_1" sex="W"><persName><name type="nomen">Iulia</name><name type="cognomen">Titi[---]</name></persName></person><person xml:id="HD018309_2" sex="W"><persName><name type="nomen">[---]</name><name type="cognomen">[---]gena</name></persName></person><person xml:id="HD018309_3" sex="W"><persName><name type="nomen">[---]</name><name type="cognomen">Avita</name></persName></person><person xml:id="HD018309_4" sex="M"><persName><name type="cognomen">Martialis</name></persName></person><person xml:id="HD018309_5" sex="W"><persName><name type="nomen">Aelia*</name><name type="cognomen">Rufilla</name></persName></person><person xml:id="HD018309_6" sex="W"><persName><name type="nomen">Rufia</name><name type="cognomen">Mart[---]</name></persName></person><person xml:id="HD018309_7"><persName><name type="nomen">Aelius/a+*</name><name type="cognomen">Mai[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-08-21" who="Gräf">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Iuliae Titi<gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>gena et <gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/>Avitae Martiali <gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/><expan><abbr>Ael</abbr><ex>iae</ex></expan> Rufillae <gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/>Rufiae Mart<gap reason="lost" extent="unknown" unit="character"/> <lb n="6"/><abbr>Ael</abbr> Mai<gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Metadaten ergänzt nach CIL 03-neu (in Vorbereitung; Bearbeiterin: J. Visočnik; Autopsie J. Visočnik (2006).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1989, 0596.</bibl><bibl>A. Pleterski - J. Šašel, VarSpom 27, 1985, 260-261. - AE 1989.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

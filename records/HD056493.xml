@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Salonae &amp;ndash; Solin (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD056493</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD056493</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Split, Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/78">urn</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197488">Salonae</placeName></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0400" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 400 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1884"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3190359">Solin</placeName><placeName type="findspot"/><placeName type="region">Splitsko-dalmatinska županija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD056493_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Clodius</name><name type="cognomen">Popilianus</name><name type="supernomen">qui Cursor+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-05-08" who="Gräf">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F033641" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/e278e485-2832-4cba-804a-1d7ea69e4bb2/file/id/794448/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>G</abbr><ex>aius</ex></expan> <expan><abbr>Clo</abbr><ex>dius</ex></expan> Popilianus qui <lb n="2"/>Cu<supplied reason="lost">r</supplied>sor coniugi dulcis<lb break="no" n="3"/>sim<expan><ex>a</ex><abbr>e</abbr></expan> qu<expan><ex>a</ex><abbr>e</abbr></expan> vixit con <note>sic</note> co<expan><ex>n</ex><abbr>iuge</abbr></expan> <lb n="4"/>suo annos XII <expan><abbr>defunct</abbr><ex>ae</ex></expan> <lb n="5"/>annorum XXII bene me<lb break="no" n="6"/><expan><abbr>rent</abbr><ex>i</ex></expan> posuit
+            </ab></div>
+            <div type="commentary">
+                <p>Z. 1: vom L nur die senkrechte Haste erhalten oder versehentlich I statt L geschrieben.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 09002.</bibl><bibl>M. Sinobad, OpuscArchZagreb 29, 2005, 177-179. 184, Nr. 1.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

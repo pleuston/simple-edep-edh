@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Identification inscription? from Rottach-Egern, bei (Raetia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD047884</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD047884</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Rottach-Egern, bei</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/210">cliff</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7-12</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Raetia</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-2000"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2843775">Rottach-Egern, bei</placeName><placeName type="findspot">Alm</placeName><placeName type="region">Bayern</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>identification inscription?</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD047884_1" sex="M"><persName><name type="cognomen">Bassus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-08-19" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>POVIISIVS<gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>V<supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>IITIV<supplied reason="lost" cert="low">S</supplied> <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>ONIS Bassus <lb n="0"/><gap reason="lost" quantity="1" unit="line"/> <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/>TANVS <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/>IS FIL<gap reason="lost" extent="unknown" unit="character"/> S <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/>CTOR IVVIINIS <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/>VS <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Inschrift auf einer Felswand. Der Text stammt von verschiedenen Schreibern, zusammen mit AE 2000, 1143b handelt es sich um die beiden wichtigsten Textgruppen. Ein Vergleich der gesamten Inschrift war anhand von Foto (Z. 5-10) und Zeichnung (Z. 7-10) nicht möglich. Schreibtechnik: geritzt. Kursive Schrift, offenbar von verschiedenen Händen. Z. 2-6 und Z. 8-10: mehrfach Reste nicht mehr identifizierbarer Buchstaben. Z. 3: mehrfach Reste nicht mehr identifizierbarer Buchstaben. Z. 8: [Vi]ctor Iuvenis mit sog. gallischem E?</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2000, 1143a.</bibl><bibl>R. Wedenig, ArchJahrBay 2000, 60-61; Abb. 54 u. 55 (Zeichnung).</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Combe Down (Britannia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD069494</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD069494</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bath, Roman Baths Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/260">slab</objectType><material>Gesteine</material><dimensions unit="cm"><height>48</height><width>81</width><depth>12</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Britannia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/544572531"/></origPlace><origDate><origDate notBefore-custom="0212" notAfter-custom="0217" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">212 AD - 217 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1854"><placeName type="country" ref="https://www.geonames.org/2635167">United Kingdom</placeName><placeName type="modern">Combe Down</placeName><placeName type="findspot">{Römische Villa}, bei</placeName><placeName type="region">Somerset</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD069494_1" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Aurelius*</name><name type="cognomen">Antoninus</name></persName></person><person xml:id="HD069494_2" sex="M"><persName><name type="nomen">Naevius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-05-20" who="Cowey">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Pro salute <expan><abbr>imp</abbr><ex>eratoris</ex></expan> C<expan><ex>a</ex><abbr>es</abbr><ex>aris</ex></expan> <expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>Aur</abbr><ex>eli</ex></expan> <lb n="2"/>Antonini Pii Felicis Invic<lb break="no" n="3"/>ti <expan><abbr>Aug</abbr><ex>usti</ex></expan> Naevius <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>lib</abbr><ex>ertus</ex></expan> <expan><abbr>adiut</abbr><ex>or</ex></expan> <expan><abbr>proc</abbr><ex>uratorum</ex></expan> princi<lb break="no" n="4"/>pia ruina op<expan><ex>p</ex><abbr>ress</abbr><ex>a</ex></expan> a solo res<lb break="no" n="5"/>tituit
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 07, 00062.</bibl><bibl>RIB 0179; Zeichnung.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Boundary inscription from Omiš (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD053585</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD053585</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Omiš, Dubrava, Friedhof</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/85">cippus</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(67)</height><width>(52)</width><depth>15</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0041" notAfter-custom="0054" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">41 AD - 54 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1890"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3279554">Omiš</placeName><placeName type="findspot">{Dubrava}, "Krč"</placeName><placeName type="region">Splitsko-dalmatinska županija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/96">boundary inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD053585_1" sex="M"><persName><name type="cognomen">Piso+</name></persName></person><person xml:id="HD053585_2" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1411"><name type="praenomen">Ti.+</name><name type="nomen">Claudius Caesar</name><name type="cognomen">Augustus+*</name></persName></person><person xml:id="HD053585_3" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Marius+</name><name type="cognomen">Maternus</name></persName></person><person xml:id="HD053585_4" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Volusius+</name><name type="cognomen">Saturninus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-11-10" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">i</supplied>nter Ner<supplied reason="lost">a</supplied><lb break="no" n="2"/><supplied reason="lost">sti</supplied>nos et Pitunti<lb break="no" n="3"/>nos termini r<supplied reason="lost">ec</supplied><lb break="no" n="4"/><supplied reason="lost">o</supplied>gniti et restitu<supplied reason="lost">ti</supplied> a <lb n="5"/><supplied reason="lost">P</supplied>isone <expan><abbr>leg</abbr><ex>ato</ex></expan> pro pr<expan><ex>a</ex><abbr>etore</abbr></expan> <lb n="6"/><supplied reason="lost"><expan><abbr>Ti</abbr><ex>beri</ex></expan></supplied> Claudi Caesaris <supplied reason="lost"><expan><abbr>Aug</abbr><ex>usti</ex></expan></supplied> <lb n="7"/>Germanici per <expan><abbr>C</abbr><ex>aium</ex></expan> Ma<supplied reason="lost">r</supplied><lb break="no" n="8"/>ium Maternum |(centurionem) <expan><abbr>leg</abbr><ex>ionis</ex></expan> <lb n="9"/>VII <expan><abbr>C</abbr><ex>laudiae</ex></expan> <expan><abbr>p</abbr><ex>iae</ex></expan> <expan><abbr>f</abbr><ex>idelis</ex></expan> quos <expan><abbr>L</abbr><ex>ucius</ex></expan> Volus<lb break="no" n="10"/><supplied reason="lost">ius Saturninus <expan><abbr>leg</abbr><ex>atus</ex></expan> pro</supplied> <lb n="11"/><supplied reason="lost"><expan><abbr>pr</abbr><ex>aetore</ex></expan> statuendos<certainty locus="name" match="preceding-sibling::text()" cert="low"/> curaverat</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Terminalcippus. Lesung/Ergänzung der beiden letzten Zeilen nach Wilkes.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1891, 0017.</bibl><bibl>CIL 03, 12794.</bibl><bibl>ILS 5952.</bibl><bibl>F. Bulić, BAHD 13, 1890, 145-150; Zeichnung. - AE 1891.</bibl><bibl>A. Jagenteufel, Die Statthalter der römischen Provinz Dalmatia von Augustus bis Diokletian (Wien 1958) 18, Nr. 4, 9.</bibl><bibl>PIR V 661.</bibl><bibl>J.J. Wilkes, AArchSlov 25, 1974, 266, Nr. 19; pl. 3, 9.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

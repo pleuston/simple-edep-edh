@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Municipium Dardanorum &amp;ndash; Leposaviq / Leposavić (Moesia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD043138</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD043138</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><dimensions unit="cm"><height>(123)</height><width>(30)</width><depth>4</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">8.5-5.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Moesia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207069">Municipium Dardanorum</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/831053">Kosovo</placeName><placeName type="modern" ref="http://www.geonames.org/785714">Leposaviq / Leposavić</placeName><placeName type="findspot">{Soçanicë / Sočanica}, Basilika, nördlich, Grab, sekundär verwendet</placeName><placeName type="region">Mitrovicë / Kosovska Mitrovica</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD043138_1" sex="M"><persName><name type="cognomen">[---]lis</name></persName></person><person xml:id="HD043138_2" sex="W"><persName><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-06-28" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>D</abbr><ex>is</ex></expan></supplied> <expan><abbr>M</abbr><ex>anibus</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <gap reason="lost" extent="unknown" unit="character"/>lis <expan><abbr>Aug<am>g</am></abbr><ex>ustorum</ex></expan> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> v&amp;lt;e=B&amp;gt;rna <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>L vixit <lb n="4"/><supplied reason="lost"><expan><abbr>ann</abbr><ex>os</ex></expan></supplied> XXXV <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/>man<lb break="no" n="6"/><gap reason="lost" extent="unknown" unit="character"/>a con<lb break="no" n="7"/><supplied reason="lost">iugi</supplied> <expan><abbr>b</abbr><ex>ene</ex></expan> <expan><abbr>m</abbr><ex>erenti</ex></expan> <expan><abbr>p</abbr><ex>osuit</ex></expan> 
+            </ab></div></div>
+            <div type="commentary">
+                <p>Gefunden in Wiederverwendung für ein Grab. Z. 1 befindet sich auf dem oberen Rahmen. (B): ILJug; Milin; AE 2002: Abweichungen in der Lesung.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2002, 1234. (B)</bibl><bibl>M. Milin, Starinar 52, 2002, 168-169, Nr. 9; t. 2, 3a u. b; Zeichnung. (B) - AE 2002.</bibl><bibl>ILJug 0515. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

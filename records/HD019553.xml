@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Building/dedicatory inscription from Jarrow (Britannia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD019553</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD019553</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Newcastle upon Tyne, Great North Museum, Hancock</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">tabula?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(55)</height><width>(55)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Britannia</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0122" notAfter-custom="0126" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">122 AD - 126 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1782"><placeName type="country" ref="https://www.geonames.org/2635167">United Kingdom</placeName><placeName type="modern" ref="http://www.geonames.org/2645972">Jarrow</placeName><placeName type="findspot">{Kirche}</placeName><placeName type="region">Tyne and Wear</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>building/dedicatory inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD019553_1" sex="M"><persName><name type="cognomen">Traianus+ Hadrianus+</name></persName></person><person xml:id="HD019553_2" sex="M"><persName><name type="praenomen">A.</name><name type="nomen">Platorius+</name><name type="cognomen">Nepos+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-10-02" who="Cowey">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <supplied reason="lost">Divorum</supplied> omnium fil<supplied reason="lost">ius</supplied> <lb n="2"/><supplied reason="lost"><expan><abbr>Imp</abbr><ex>erator</ex></expan> Caesar Traianus</supplied> Hadr<supplied reason="lost">ianus</supplied> <lb n="3"/><supplied reason="lost">Augustus impo</supplied>s<supplied reason="lost">it</supplied>a necessitat<supplied reason="lost">e imperii</supplied> <lb n="4"/><supplied reason="lost">intra fines conser</supplied>vati divino pra<supplied reason="lost">ecepto</supplied> <lb n="5"/><expan><abbr><supplied reason="lost">c</supplied>o</abbr><ex>n</ex>s</expan>(uli) II </ab></div><div n="2" type="textpart"><ab><lb n="1"/> diffusis <supplied reason="lost">barbaris et</supplied> <lb n="2"/>provinc<supplied reason="lost">ia reciperata</supplied> <lb n="3"/>Britannia ad<supplied reason="lost">didit limitem inter</supplied> <lb n="4"/>utrumque o<supplied reason="lost">ceani litus per <expan><abbr>m</abbr><ex>ilia</ex></expan> <expan><abbr>p</abbr><ex>assuum</ex></expan> LXXX</supplied> <lb n="5"/>exercitus pr<supplied reason="lost">ovinciae opus valli fecit</supplied> <lb n="6"/>sub cura <expan><abbr>A</abbr><ex>uli</ex></expan> <supplied reason="lost">Platori Nepotis <expan><abbr>leg</abbr><ex>ati</ex></expan> <expan><abbr>Aug</abbr><ex>usti</ex></expan> <expan><abbr>pr</abbr><ex>o</ex></expan> <expan><abbr>pr</abbr><ex>aetore</ex></expan></supplied>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Die Inschrift besteht aus 2 nicht aneinanderpassenden Fragmenten. Die Masse von Fr. b) sind: Höhe: -53.3; Breite: -58.4. (B): Zu den Leseabweichungen s. RIB 1051.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 07, 00498. (B)</bibl><bibl>AE 1947, 0123.</bibl><bibl>R.P. Wright, JRS 33, 1943, 78; fig. 16. - AE 1947.</bibl><bibl>RIB 1051; Zeichnungen.</bibl><bibl>PIR (2. Aufl.) P 449.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

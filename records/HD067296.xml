@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Aelium Cetium &amp;ndash; S. Pölten (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD067296</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD067296</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>S. Pölten, Stadtmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">tabula?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>50</height><width>(36)</width><depth>13</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/118629">Aelium Cetium</placeName></origPlace><origDate><origDate notBefore-custom="0131" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">131 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1927"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2766429">S. Pölten</placeName><placeName type="findspot">{Fuhrmanngasse 14}, sekundär verwendet</placeName><placeName type="region">Niederösterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD067296_1" sex="M"><persName><name type="nomen">Ulpius*</name><name type="cognomen">Tappo+?</name></persName></person><person xml:id="HD067296_2" sex="W"><persName><name type="cognomen">Statuta+</name></persName></person><person xml:id="HD067296_3" sex="W"><persName><name type="cognomen">Optata</name></persName></person><person xml:id="HD067296_4" sex="M"><persName><name type="cognomen">Secundus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-08-25" who="Cowey">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Ulp</abbr><ex>ius</ex></expan> Ta<supplied reason="lost">ppo<certainty locus="name" match="preceding-sibling::text()" cert="low"/> vi</supplied><lb break="no" n="2"/>v<expan><ex>u</ex><abbr>s</abbr></expan> <expan><abbr>fec</abbr><ex>it</ex></expan> sibi et Statut<supplied reason="lost">ae</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/><expan><abbr>f</abbr><ex>iliae</ex></expan> <expan><abbr>con</abbr><ex>iugi</ex></expan> a<supplied reason="lost"><expan><abbr>n</abbr><ex>norum</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> et</supplied> <lb n="4"/>Optatae <supplied reason="lost"><expan><abbr>f</abbr><ex>iliae</ex></expan> <expan><abbr>an</abbr><ex>norum</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> et</supplied> <lb n="5"/>Secundo [<expan><abbr>f</abbr><ex>ilio</ex></expan> <expan><abbr>an</abbr><ex>norum</ex></expan> ------
+            </ab></div>
+            <div type="commentary">
+                <p>(B): Abweichende Textwiedergabe von Z. 1-2.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>E. Weber, Supplementum epigraphicum zu CIL III für Salzburg, Steiermark, Oberösterreich und das norische Niederösterreich 1902-1964 (Diss. Wien 1964) 218, Nr. 197.</bibl><bibl>ILLPRON 0893. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

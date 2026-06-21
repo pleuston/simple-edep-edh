@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Perinthus &amp;ndash; Marmara Ereğlisi (Thracia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD012833</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD012833</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Istanbul, Ark. Müz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/24">relief</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>252</height><width>545</width><depth>82</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6-4.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Thracia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/511357">Perinthus</placeName></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1964"><placeName type="country" ref="https://www.geonames.org/298795">Turkey</placeName><placeName type="modern" ref="http://www.geonames.org/741725">Marmara Ereğlisi</placeName><placeName type="findspot">{Kamaradere}</placeName><placeName type="region">Tekirdağ</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD012833_1" sex="M"><persName><name type="praenomen">T.</name><name type="nomen">Φλάουιος</name><name type="cognomen">Μίκκαλος+</name></persName></person><person xml:id="HD012833_2" sex="M"><persName><name type="cognomen">Μίκκαλος</name></persName></person><person xml:id="HD012833_3" sex="W"><persName><name type="nomen">Κλαυδία+ / Claudia+</name><name type="cognomen">Μακ[---] / Mac[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-09-14" who="Cowey">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <supplied reason="lost">Claudia Mac<gap reason="lost" extent="unknown" unit="character"/> sumptibus s</supplied>uis peregit quaedam viva quaedam iussit per testamentum <supplied reason="lost">fieri</supplied> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Τ(ίτος) Φλάουιος Μικκάλου υ(ἱὸς) <supplied reason="lost">Κυ</supplied>ρείνα Μίκκ<supplied reason="lost">αλος χιλία</supplied>ρχος λεγιῶ<supplied reason="lost">νος ἔπαρχος εἴλης ἀρχιερεὺς</supplied> </ab></div><div n="3" type="textpart"><ab><lb n="1"/> καὶ ἀγωνοθέτης ἐκ τῶν ἰδίων υἱὸ<supplied reason="lost">ς πόλεως<certainty locus="name" match="preceding-sibling::text()" cert="low"/> καὶ <gap reason="lost" extent="unknown" unit="character"/></supplied> τὸ ὕδωρ εἰσαγείω<supplied reason="lost">χεν καὶ τοῦτο τὸ μνημεῖον</supplied> </ab></div><div n="4" type="textpart"><ab><lb n="1"/> <supplied reason="lost">σὺν <gap reason="lost" extent="unknown" unit="character"/></supplied>τῳ κατεσκε<supplied reason="lost">ύασεν ἑαυτῷ</supplied> καὶ <supplied reason="lost">Κ</supplied>λαυδία Μακ<gap reason="lost" extent="unknown" unit="character"/> ἡ γυνὴ αὐτοῦ ἀρχιέρεια <supplied reason="lost">τὸ</supplied> </ab></div><div n="5" type="textpart"><ab><lb n="1"/> <supplied reason="lost">ὕδωρ σὺν τῷ μ</supplied>νημείῳ ἐκ τ<supplied reason="lost">ῶν ἰδίων ἀ</supplied>πήρτισεν ἃ <supplied reason="lost">μ</supplied>ὲν ζῶσα ἃ δὲ καὶ διαταξαμέν<supplied reason="lost">η</supplied>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Relieffries; aus drei Teilen zusammengesetzt; seiltlich von zwei Pfeilern eingefaßt, die einen Archtitrav tragen. Darstellung des Micalus im Augenblick seiner Beförderung vom tribunus militum zum praefectus alae: als Reiter auf einem sich aufbäumenden Pferd nach rechts; links drei Zenturionen, rechts zwei Offiziere, die Micalus Helm und Lanze der Kavallerie überreichen. Die Inschrift verteilt sich auf die drei Faszien des Architravs und den oberen Rand des Bildfeldes. (B): Devijver; Merkelbach; AE 1987; Dolata; AE 1995; SEG; Sayar: Abweichungen in Lesung / Ergänzung.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1987, 0903. (B)</bibl><bibl>AE 1995, 1357.</bibl><bibl>SEG 35, 0828. (B)</bibl><bibl>M.H. Sayar, Perinthos-Herakleia (Marmara Ereğlisi) und Umgebung.</bibl><bibl>Geschichte, Testimonien, griechische und lateinische Inschriften (Wien 1998) 257-259, Nr. 72; Taf. 20, 75. (B)</bibl><bibl>H. Devijver, ZPE 64, 1986, 253-256; Taf. 14 u. 15. (B) - AE 1987.</bibl><bibl>R. Merkelbach, ZPE 59, 1985, 40; Taf. 4. (B) - AE 1987.</bibl><bibl>J. Dolata, Klio 77, 1995, 255-265, Abb. 1-4. (B) - AE 1995.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

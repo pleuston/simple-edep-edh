@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mile-/leaguestone from Aquincum, bei &amp;ndash; Budapest, bei (Pannonia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD074916</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD074916</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Budapest, Magyar Nemzeti Múz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">mile-/leaguestone</objectType><material>Gesteine</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197130">Aquincum, bei</placeName></origPlace><origDate><origDate notBefore-custom="0231" notAfter-custom="0270" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">231 AD - 270 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3054643">Budapest, bei</placeName><placeName type="findspot"/><placeName type="region">Budapest?</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>mile-/leaguestone</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD074916_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Iulius++?</name><name type="cognomen">Verus++? Maximinus++?</name></persName></person><person xml:id="HD074916_2" sex="M"><persName><name type="praenomen">[-]?</name><name type="nomen">0++?</name><name type="cognomen">0++?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-03-22" who="Feraudi">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F033403" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/b15e35a8-1967-4e7e-8998-52d5527ec823/file/id/794210/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Imp</abbr><ex>eratori</ex></expan> <expan><abbr>Caes</abbr><ex>ari</ex></expan> <lb n="2"/><expan><abbr>C</abbr><ex>aio</ex></expan> <del rend="erasure">Iulio<certainty locus="name" match="preceding-sibling::text()" cert="low"/>][Iulio</del> <lb n="3"/><del rend="erasure">Maximino<certainty locus="name" match="preceding-sibling::text()" cert="low"/></del> <lb n="4"/>Invict<supplied reason="lost">o</supplied> Pio <lb n="5"/>Felici <expan><abbr>Aug</abbr><ex>usto</ex></expan> <lb n="6"/>pontifici <lb n="7"/><expan><abbr>max</abbr><ex>imo</ex></expan> <expan><abbr>trib</abbr><ex>uniciae</ex></expan> <lb n="8"/><expan><abbr>potestati</abbr><ex>s</ex></expan> <lb n="9"/><expan><abbr>p</abbr><ex>atri</ex></expan> <expan><abbr>p</abbr><ex>atriae</ex></expan> procon<lb break="no" n="10"/>suli <expan><abbr>leg</abbr><ex>io</ex></expan> II <lb n="11"/><expan><abbr>ad</abbr><ex>iutrix</ex></expan> <expan><abbr>p</abbr><ex>ia</ex></expan> <expan><abbr>f</abbr><ex>idelis</ex></expan> &amp;lt;et<certainty match="preceding-sibling::node()" locus="value"/>=LI&amp;gt; <del rend="erasure"><gap reason="lost" extent="unknown" unit="character"/></del> <lb n="0"/>[<gap reason="lost" quantity="1" unit="line"/>] <lb n="12"/>ab <expan><ex>A</ex><abbr>q</abbr><ex>uinco</ex></expan> <lb n="13"/><expan><abbr>m</abbr><ex>ilia</ex></expan> <expan><abbr>p</abbr><ex>assuum</ex></expan> <lb n="14"/>III 
+            </ab></div>
+            <div type="commentary">
+                <p>CIL: Meilenstein mit sechs Seiten, von denen zwei beschriftet sind.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 03742; Zeichnung.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

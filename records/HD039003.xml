@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Flavia Solva, bei &amp;ndash; Gleisdorf (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD039003</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD039003</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Graz, Landesmus. Joanneum</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(50)</height><width>(86)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7.0-5.0</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197273">Flavia Solva, bei</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1928"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2778478">Gleisdorf</placeName><placeName type="findspot"/><placeName type="region">Steiermark</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD039003_1" sex="M"><persName><name type="cognomen">Cupitus</name></persName></person><person xml:id="HD039003_2" sex="M"><persName><name type="nomen">Cammius*</name><name type="cognomen">Sabinus</name></persName></person><person xml:id="HD039003_3" sex="W"><persName><name type="nomen">Pri(---)</name><name type="cognomen">Vibia</name></persName></person><person xml:id="HD039003_4" sex="W"><persName><name type="cognomen">Samuda+</name></persName></person><person xml:id="HD039003_5" sex="M"><persName><name type="cognomen">Cupitus+*</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-01-30" who="Böhm">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Cupitus <lb n="2"/><expan><abbr>Cam</abbr><ex>mi</ex></expan> Sabini <lb n="3"/><expan><abbr>serv</abbr><ex>us</ex></expan> <expan><abbr>f</abbr><ex>ecit</ex></expan> sibi et <lb n="4"/><abbr>Pri</abbr> Vibiae <expan><abbr>con</abbr><ex>iugi</ex></expan> <lb n="5"/><expan><abbr>an</abbr><ex>norum</ex></expan> XXV et Samu<lb break="no" n="6"/><supplied reason="lost">dae C</supplied>u<supplied reason="lost"><expan><abbr>p</abbr><ex>iti</ex></expan></supplied> <expan><abbr>fil</abbr><ex>iae</ex></expan> <expan><abbr><supplied reason="lost">a</supplied>n</abbr><ex>norum</ex></expan> II
+            </ab></div>
+            <div type="commentary">
+                <p>Reliefverzierter teilweise beschädigter Titulus, rechts und links vom Schriftfeld zwei Delphine mit den Köpfen nach unten. Ligaturen: Z. 5 die Zahl XX und Z. 6 AN. (B): Schmid: Z. 5/6: Samu(ni) / [---]ene / [------.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>E. Weber, Die römerzeitlichen Inschriften der Steiermark (Graz 1969) 378-377, Nr. 321; Foto.</bibl><bibl>W. Schmid, JŒAI (Beibl.) 25, 1929, 76-77; Abb. 38. (B)</bibl><bibl>ILLPRON 1202.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Colonia Claudia Augusta? Agrippinensium, Divitia &amp;ndash; Köln (Germania inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD075102</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD075102</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Köln, Röm.-Germ. Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>28</height><width>(19)</width><depth>(14)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/108863">Colonia Claudia Augusta? Agrippinensium, Divitia</placeName></origPlace><origDate><origDate notBefore-custom="0069" notAfter-custom="0083" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">69 AD - 83 AD</origDate></origDate></origin>
+                        <provenance type="found" when="2010"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2937790">Köln</placeName><placeName type="findspot">{Deutz}, Rheinufer</placeName><placeName type="region">Nordrhein-Westfalen</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD075102_1" sex="M"><persName><name type="nomen">Maeilius</name><name type="cognomen">Vegetus</name></persName></person><person xml:id="HD075102_2" sex="M"><persName><name type="cognomen">Silanus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-02-05" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Domestici<lb break="no" n="2"/>s s<supplied reason="lost">acr</supplied>um Ma<lb break="no" n="3"/>eilius Ve<lb break="no" n="4"/>getus <lb n="5"/>miles <expan><abbr>leg</abbr><ex>ionis</ex></expan> <lb n="6"/>XXI <expan><abbr>rapa</abbr><ex>cis</ex></expan> <supplied reason="lost"><expan><abbr><am><g type="centuria"/></am></abbr><ex>centuria</ex></expan></supplied> <lb n="7"/>Silani
+            </ab></div>
+            <div type="commentary">
+                <p>Lesung nach Kakoschke. (B): Z. 2/3: Galsterer - Schäfer, AE 2013: M. A/eilius.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2013, 1117.</bibl><bibl>A. Kakoschke, FeRA 26, 2015, 20-22, Nr. 6; Abb. 6. - AE 2015.</bibl><bibl>H. Galsterer - A. Schäfer, KJ 46, 2013, 83-91; Abb. 11 u. 13. - AE 2013.</bibl><bibl>AE 2015, 0947.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

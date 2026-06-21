@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Barcino &amp;ndash; Barcelona (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD056924</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD056924</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Barcelona, Mus. Arq. Barcelona</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">statue base</objectType><dimensions unit="cm"><height>89</height><width>60</width><depth>56</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6.3-4.4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Hispania citerior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/246343">Barcino</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern" ref="http://www.geonames.org/3128760">Barcelona</placeName><placeName type="findspot"/><placeName type="region">Cataluña</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD056924_1" sex="W"><persName><name type="nomen">Numisia++?</name><name type="cognomen">Pepernia</name></persName></person><person xml:id="HD056924_2" sex="M"><persName><name type="praenomen">L.++?</name><name type="nomen">Numisius++?</name><name type="cognomen">Atticus+++</name></persName></person><person xml:id="HD056924_3" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Fulvius</name><name type="cognomen">Numisianus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2011-12-01" who="Gräf">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <del rend="erasure">Numisiae<certainty locus="name" match="preceding-sibling::text()" cert="low"/></del> <lb n="2"/><del rend="erasure"><expan><abbr>L</abbr><ex>uci</ex></expan>? Numisi<certainty locus="name" match="preceding-sibling::text()" cert="low"/> [At</del>]<lb break="no" n="3"/><del rend="erasure">tici <expan><abbr>fil</abbr><ex>iae</ex></expan></del> <lb n="4"/>Perperniae <lb n="5"/><expan><abbr>L</abbr><ex>ucius</ex></expan> Fulvius <lb n="6"/><expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> Quirina <lb n="7"/>Numisianus <lb n="8"/>matri <lb n="9"/>pientissimae <lb n="10"/><expan><abbr>l</abbr><ex>ocus</ex></expan> <expan><abbr>d</abbr><ex>atus</ex></expan> <expan><abbr>d</abbr><ex>ecreto</ex></expan> <expan><abbr>d</abbr><ex>ecurionum</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Mittelteil einer Statuenbasis. Lesung der Z.1-2 anhand der Fotografie nicht überprüfbar; von Z. 3 ist jeweils die untere Hälfte der Buchstaben erkennbar.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IRC 4, 131; pl. 67, 131.</bibl><bibl>CIL 02, 04555.</bibl><bibl>CIL 02, 04555 add. p. 982.</bibl><bibl>ILER 4027.</bibl><bibl>S. Mariner Bigorra, Inscripciones romanas de Barcelona (Barcelona 1973) 115-116, Nr. 115.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

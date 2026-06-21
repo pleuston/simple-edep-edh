@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mile-/leaguestone from Scardona, bei &amp;ndash; Skradin (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD072542</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD072542</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Skradin, Grad. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/89">mile-/leaguestone</objectType><material>Gesteine</material><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197502">Scardona, bei</placeName></origPlace><origDate><origDate notBefore-custom="0293" notAfter-custom="0337" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">293 AD - 337 AD</origDate></origDate></origin>
+                        <provenance type="found" when="2005"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3190692">Skradin</placeName><placeName type="findspot">{Ulica Fra Luje Maruna}</placeName><placeName type="region">Šibensko-kninska županija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term>mile-/leaguestone</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD072542_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]l(---)</name><name type="cognomen">Constan[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-12-18" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <gap reason="lost" extent="unknown" unit="character"/><abbr>l</abbr> Constan<lb break="no" n="2"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost" cert="low"> defe</supplied><expan><abbr>N</abbr><ex cert="low"/>sor</expan><supplied reason="lost">i<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied>rio M<lb break="no" n="3"/><supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied>C piissim<lb break="no" n="4"/>o Caesari <expan><abbr>b</abbr><ex>ono</ex></expan> <expan><abbr>r</abbr><ex>ei</ex></expan> <lb n="5"/><expan><abbr>p</abbr><ex>ublicae</ex></expan> <expan><abbr>n</abbr><ex>ato</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> X
+            </ab></div></div>
+            <div type="commentary">
+                <p>Z. 6 befindet sich auf der den Z. 1-5 gegenüberliegenden Seite. Datierung: als Constantius I., II., Constantinus I., II. oder Constans Caesar war.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2011, 0937.</bibl><bibl>I. Glavaš, BAHD 104, 2011, 170-171; sl. 3. - AE 2011.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

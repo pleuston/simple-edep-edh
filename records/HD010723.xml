@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Mogontiacum &amp;ndash; Mainz (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD010723</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD010723</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mainz, Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">statue base</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(125)</height><width>(40)</width><depth>(20)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109169">Mogontiacum</placeName></origPlace><origDate><origDate when-custom="0213" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">213 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1887"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2874225">Mainz</placeName><placeName type="findspot">{Eisgrubweg}, römische Stadtmauer, sekundär verwendet</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD010723_1" sex="M"><persName ref="https://www.wikidata.org/wiki/Q1446"><name type="praenomen">M.+</name><name type="nomen">Aurelius+</name><name type="cognomen">Antoninus+</name></persName></person><person xml:id="HD010723_2" sex="M"><persName><name type="praenomen">Q.</name><name type="nomen">Iunius</name><name type="cognomen">Decimus+ Quintianus+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-08-17" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F014966" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/15b29724-44fc-4cee-9906-39474dfaa337/file/id/774501/file_version/name/small"/><graphic xml:id="F014967" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/56b9442f-bc6d-4fef-b16c-61e7896c97d3/file/id/774502/file_version/name/small"/><graphic xml:id="F014965" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/a429a01e-2e87-49e9-adf8-d4a75d032ca6/file/id/774500/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>omino</ex></expan> Invi<supplied reason="lost">ctissimo</supplied> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>Imp</abbr><ex>eratori</ex></expan> Cae<supplied reason="lost"><expan><abbr>s</abbr><ex>ari</ex></expan> <expan><abbr>M</abbr><ex>arco</ex></expan> Aure</supplied><lb break="no" n="2"/>lio Ant<supplied reason="lost">onino</supplied> <lb n="3"/>Pio Feli<supplied reason="lost">ci Augus</supplied><lb break="no" n="4"/>to Part<supplied reason="lost">hico <expan><abbr>max</abbr><ex>imo</ex></expan></supplied> <lb n="5"/>Britann<supplied reason="lost">ico ponti</supplied><lb break="no" n="6"/>fici <expan><abbr>max</abbr><ex>imo</ex></expan> <supplied reason="lost"><expan><abbr>tr</abbr><ex>ibunicia</ex></expan> <expan><abbr>pot</abbr><ex>estate</ex></expan> XVI</supplied> <lb n="7"/>co<expan><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan> IIII <expan><abbr>p</abbr><ex>atri</ex></expan> <supplied reason="lost"><expan><abbr>p</abbr><ex>atriae</ex></expan> <expan><abbr>proco</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan></supplied> <lb n="8"/><expan><abbr>Q</abbr><ex>uintus</ex></expan> Iunius <supplied reason="lost">Decimus</supplied> <lb n="9"/>Quinti<supplied reason="lost">anus <expan><abbr>leg</abbr><ex>atus</ex></expan></supplied> <lb n="10"/>eius <expan><abbr>pr</abbr><ex>o</ex></expan> <supplied reason="lost"><expan><abbr>pr</abbr><ex>aetore</ex></expan> Germa</supplied><lb break="no" n="11"/>niae su<supplied reason="lost">perioris</supplied> <lb n="12"/>devoti<supplied reason="lost">ssimus</supplied> <lb n="13"/>numin<supplied reason="lost">i eius di</supplied><lb break="no" n="14"/>catiss<supplied reason="lost">imusque</supplied>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Zwei aneinanderpassende Fragmente vom Mittelteil einer Statuenbasis. Reste von roter Farbe in den Buchstaben. Z. 1 befindet sich auf dem oberen Rahmen. Z. 9: Ergänzungsvorschlag nach Haensch - Weiß. (B): CIL 13, 06754; CIMRM 1227; Christol; AE 1975; Eck; Haensch - Weiß: kleinere Leseabweichungen; CIL 13, 06754; CIMRM 1227: Z. 1: D(eo) Invi[cto Soli].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1975, 0620.</bibl><bibl>CIL 13, 06754. (B)</bibl><bibl>CIMRM 1227. (B)</bibl><bibl>M. Christol, BJ 175, 1975, 129-139; Abb. 1 u. 2. (B) - AE 1975.</bibl><bibl>R. Haensch - P. Weiß, Chiron 44, 2014, 520-521. (B)</bibl><bibl>W. Eck, Die Statthalter der germanischen Provinzen vom 1.-3.</bibl><bibl>Jahrhundert (Köln - Bonn 1985) 86, Nr. 44. (B)</bibl><bibl>PIR (2. Aufl.) I 804.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

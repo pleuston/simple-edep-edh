@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Carnuntum &amp;ndash; Petronell-Carnuntum (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD074112</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD074112</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bad Deutsch-Altenburg, Arch. Mus. Carnuntinum</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(95)</height><width>(73)</width><depth>22</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/128376">Carnuntum</placeName></origPlace><origDate><origDate notBefore-custom="0178" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">178 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1980"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2769013">Petronell-Carnuntum</placeName><placeName type="findspot">{Zivilstadt}, Gräberfeld Süd</placeName><placeName type="region">Niederösterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD074112_1" sex="M"><persName><name type="cognomen">Hyacinthus*</name></persName></person><person xml:id="HD074112_2" sex="W"><persName><name type="cognomen">Crispina</name></persName></person><person xml:id="HD074112_3" sex="M"><persName><name type="cognomen">Commodus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-11-10" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F019471" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/d9285c60-1a06-456d-a315-370f42309426/file/id/779543/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost" cert="low">D(is)</supplied> <expan><abbr>M</abbr><ex>anibus</ex></expan><certainty match="preceding-sibling::node()" locus="value"/> <lb n="2"/>Hyacinto <lb n="3"/>cubiculari<lb break="no" n="4"/>o Crispinae <lb n="5"/><expan><abbr>Aug</abbr><ex>ustae</ex></expan> ex priv<supplied reason="lost">a</supplied><lb break="no" n="6"/>tis <expan><abbr>C<supplied reason="lost">o</supplied>mmod</abbr><ex>i</ex></expan><certainty match="preceding-sibling::node()" locus="value"/> <lb n="7"/>Au<supplied reason="lost" cert="low">g(usti)</supplied> vixit <expan><abbr>an</abbr><ex>nos</ex></expan> <lb n="8"/>XXX<gap reason="lost" extent="unknown" unit="character"/>ATI <lb n="9"/>FII<gap reason="lost" extent="unknown" unit="character"/>OL
+            </ab></div>
+            <div type="commentary">
+                <p>Die damnatio memoriae der Crispina und des Commodus kam hier nicht zur Ausführung. Z. 1 möglicherweise noch der Winkel eines M erkennbar, unsicher. Einleitendes &amp;apos;D(is) M(anibus)&amp;apos; ist jedoch bei dieser Datierung zu erwarten. Inschriftfeld von Efeuranken gerahmt. Z. 6: kleines O? DI-Ligatur? Z. 7: IT-Ligatur; Z. 8: TI-Ligatur. In der letzten Zeile einige nicht näher identifizierbare Buchstabenreste. Am Ende der Zeile scheint L, davor O oder ein umgedrehtes C für (mulieris) l(ibert-) zu stehen. Davor blattförmige Hedera? Datierung: t.p.q. Heirat der Bruttia Crispina mit Commodus August 178. (B): Humer; Vorbeck: Z. 1 fehlt. Z. 5-8: /tis [---] / vixit an(nos) XXX [---.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>E. Vorbeck, Zivilinschriften aus Carnuntum (Wien 1980) 51, Nr. 206. (B)</bibl><bibl>F. Humer (Hrsg.), Marc Aurel und Carnuntum (Horn 2004) 174, Nr. 121; Abb. 214. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

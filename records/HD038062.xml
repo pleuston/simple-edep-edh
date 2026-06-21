@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Oberaich (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD038062</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD038062</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Oberaich, Picheldorf, S. Dionysius, Pfarrkirche, vermauert</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/24">relief</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor, weiß</material><dimensions unit="cm"><height>122</height><width>156</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6.0-5.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0171" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD - 230 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2768895">Oberaich</placeName><placeName type="findspot">Picheldorf, {S. Dionysius, Pfarrhof}, sekundär verwendet</placeName><placeName type="region">Steiermark</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD038062_1" sex="M"><persName><name type="cognomen">Iunianus</name></persName></person><person xml:id="HD038062_2" sex="M"><persName><name type="cognomen">Burranus</name></persName></person><person xml:id="HD038062_3" sex="W"><persName><name type="cognomen">Sucela</name></persName></person><person xml:id="HD038062_4" sex="M"><persName><name type="cognomen">Ucco</name></persName></person><person xml:id="HD038062_5" sex="M"><persName><name type="cognomen">Terentinus</name></persName></person><person xml:id="HD038062_6" sex="W"><persName><name type="cognomen">Iuliana*</name></persName></person><person xml:id="HD038062_7" sex="M"><persName><name type="cognomen">Tertinus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-07-09" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Iuniano Burrani <expan><abbr>f</abbr><ex>ilio</ex></expan> <expan><abbr>an</abbr><ex>norum</ex></expan> L <lb n="2"/>Sucela Ucconis <expan><abbr>f</abbr><ex>ilia</ex></expan> marito et <lb n="3"/>Terentino et Iulian<expan><ex>a</ex><abbr>e</abbr></expan> Tertini <expan><abbr>f</abbr><ex>iliae</ex></expan> <expan><abbr>nep</abbr><ex>ti</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Kastengrabstein; oberhalb des Inschriftfeldes die Halbkörperbüsten einer Frau mit norischer Haube, eines Knaben, eines Mädchens und eines Mannes.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 05463.</bibl><bibl>CIL 03, 05463 add. p. 1837.</bibl><bibl>ILLPRON 1330.</bibl><bibl>E. Weber, Die römerzeitlichen Inschriften der Steiermark (Graz 1969) 68, Nr. 15.</bibl><bibl>E. Pochmarski, Die Portraitmedaillons und Portraitnischen des Stadtgebietes von Flavia Solva, CSIR Österreich 4, 2 (Wien 2011) 103-104, Nr. 76; Taf. 44, 3.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

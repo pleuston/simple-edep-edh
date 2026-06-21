@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Mogontiacum &amp;ndash; Mainz (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD056276</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD056276</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mainz, Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(149)</height><width>77</width><depth>27</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4-6.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109169">Mogontiacum</placeName></origPlace><origDate><origDate notBefore-custom="0211" notAfter-custom="0217" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">211 AD - 217 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1829"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2874225">Mainz</placeName><placeName type="findspot">{Kreuzschanze}</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD056276_1" sex="M"><persName><name type="nomen">Togius</name><name type="cognomen">Statutus</name></persName></person><person xml:id="HD056276_2" sex="W"><persName><name type="nomen">Togia</name><name type="cognomen">Faventina</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2018-04-12" who="Gräf">checked through autopsy</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F014662" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/ae9d76bd-a8d7-4d18-acc3-e04826fce78b/file/id/774196/file_version/name/small"/><graphic xml:id="F014663" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/3975d5fc-c16c-417c-99fc-4c30b13c44f5/file/id/774197/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/>Togio Stat<lb break="no" n="3"/>uto militi <lb n="4"/>numeri expl<lb break="no" n="5"/>oratorum <lb n="6"/>Divitie<expan><ex>n</ex><abbr>sium</abbr></expan> <lb n="7"/>Antoninia<lb break="no" n="8"/>norum stip<lb break="no" n="9"/>endiorum <lb n="10"/>XVIIII Togia <lb n="11"/>Faventina <lb n="12"/>soror et <lb n="13"/>heres <lb n="14"/><supplied reason="lost">f</supplied>r<supplied reason="lost">at</supplied>ri <lb n="15"/><supplied reason="lost" cert="low">caris</supplied>simo <lb n="16"/><expan><abbr>f</abbr><ex>aciendum</ex></expan> <expan><abbr>c</abbr><ex>uravit</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Zwei nicht aneinanderpassende Fragmente erhalten und modern ergänzt; Höhenangabe bezieh sich auf das obere Fragment (a); unteres Fragment (b): (113) cm; restaurierte Höhe: 200 cm. Autopsie R. Wiegels. (B): Körber; CIL 13, 07054; ILS: Selzer; Boppert; Faust: Lesung abweichend / unvollständig.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 07054. (B)</bibl><bibl>ILS 2632. (B)</bibl><bibl>K. Körber, MZ 11, 1916, 88-89, Nr. 42; Zeichnung. (B)</bibl><bibl>W. Boppert, Militärische Grabdenkmäler aus Mainz und Umgebung, CSIR Deutschland 2, 5 (Mainz 1992) 269-270, Nr. 165; Tafel 114. (B)</bibl><bibl>W. Selzer, Römische Steindenkmäler. Mainz in römischer Zeit. Katalog zur Sammlung in der Steinhalle (Mainz 1988) 154-155, Nr. 84; Foto. (B)</bibl><bibl>W. Faust, Die Grabstelen des 2. und 3. Jahrhunderts im Rheingebiet (Köln 1998) 144, Nr. 170.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

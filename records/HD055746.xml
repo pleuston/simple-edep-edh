@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Military diploma (unknown)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD055746</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD055746</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>(4)</height><width>(5)</width><depth>0</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">0.2-0.3</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">unknown</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0167" notAfter-custom="0168" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">167 AD - 168 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country">unknown</placeName><placeName type="modern"/><placeName type="findspot"/></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/91">military diploma</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2010-08-05" who="Platz">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><expan><abbr>P</abbr><ex>ublio</ex></expan> Caelio Op<supplied reason="lost">tato <gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>ulibus</ex></expan></supplied> <lb n="2"/><expan><abbr>cohort</abbr><ex>is</ex></expan> <supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> cui praeest</supplied> <lb n="3"/>Tr<supplied reason="lost">i<certainty locus="name" match="preceding-sibling::text()" cert="low"/><gap reason="lost" extent="unknown" unit="character"/> ex <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="4"/><expan><abbr>P</abbr><ex>ublio</ex></expan> Aelio <supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>f</abbr><ex>ilio</ex></expan> <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="5"/><expan><abbr>descript</abbr><ex>um</ex></expan> <supplied reason="lost">et <expan><abbr>recognit</abbr><ex>um</ex></expan> ex tabula aerea</supplied> <lb n="6"/>quae fi<supplied reason="lost">xa est Romae in muro post</supplied> <lb n="7"/><expan><abbr>templ</abbr><ex>um</ex></expan> d<supplied reason="lost">ivi <expan><abbr>Aug</abbr><ex>usti</ex></expan> ad Minervam</supplied> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>C</abbr><ex>ai</ex></expan> B<supplied reason="lost">elli Urbani</supplied> <lb n="2"/><expan><abbr>L</abbr><ex>uci</ex></expan> Pul<supplied reason="lost">li Primi</supplied> <lb n="3"/><expan><abbr>L</abbr><ex>uci</ex></expan> Se<supplied reason="lost">nti Chrysogoni</supplied> <lb n="4"/><expan><abbr>L</abbr><ex>uci</ex></expan> Pul<supplied reason="lost">li Zosimi</supplied> <lb n="5"/><expan><abbr>Ti</abbr><ex>beri</ex></expan> Iuli <supplied reason="lost">Crescentis</supplied> <lb n="6"/><expan><abbr>P</abbr><ex>ubli</ex></expan> Ocil<supplied reason="lost">i Prisci</supplied> <lb n="7"/><expan><abbr>L</abbr><ex>uci</ex></expan> Calav<supplied reason="lost">i</supplied><gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2002, 1740.</bibl><bibl>RMD 443.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

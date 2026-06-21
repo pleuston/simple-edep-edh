@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Municipium Claudium Virunum, bei &amp;ndash; Magdalensberg (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD057204</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD057204</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Maria Saal, Zollfeld, Prunnerkreuz</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">grave monument?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(112)</height><width>(65)</width><depth>(41)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197583">Municipium Claudium Virunum, bei</placeName></origPlace><origDate><origDate notBefore-custom="0131" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">131 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1689"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2772135">Magdalensberg</placeName><placeName type="findspot">{Portendorf}</placeName><placeName type="region">Kärnten</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD057204_1" sex="W"><persName><name type="nomen">Sabinia</name><name type="cognomen">Helenae (= Helene)</name></persName></person><person xml:id="HD057204_2" sex="M"><persName><name type="nomen">Aelius</name><name type="cognomen">Tertius</name></persName></person><person xml:id="HD057204_3" sex="M"><persName><name type="cognomen">Castus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2014-05-19" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F003915" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/ff1970c5-ba79-47b4-908a-29523b0e4371/file/id/764673/file_version/name/small"/><graphic xml:id="F012901" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/28612036-d4e5-400a-9715-cd5bfec0abeb/file/id/772426/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Sabinia <lb n="2"/>Helenae <note>sic</note> <lb n="3"/>viva <expan><abbr>f</abbr><ex>ecit</ex></expan> <lb n="4"/>sibi et <lb n="5"/>Ael<surplus>l</surplus>io <lb n="6"/>Tertio <lb n="7"/>b<expan><ex>ene</ex><abbr>f</abbr><ex>iciario</ex></expan> coniugi <lb n="8"/>optimo et <lb n="9"/>Casto <lb n="10"/><expan><abbr>f</abbr><ex>ilio</ex></expan> <expan><abbr>n<am>n</am></abbr><ex>orum</ex></expan> VIIII
+            </ab></div>
+            <div type="commentary">
+                <p>Maße beziehen sich nur auf den durch die Vermauerung heute noch sichtbaren Teil. Nach Kremer Schaftblock eines altar- oder pfeilerfömigen Grabbaus. Z. 4: hedera. (B): Z. 5: CIL: Aelio; Z. 9: Kremer: Z. 9: Castio; Z. 10: f(ilio) ann(orum) / VIIII.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILLPRON 0358.</bibl><bibl>CIL 03, 04852. (B)</bibl><bibl>CIL 03, 04852 add. p. 1813.</bibl><bibl>G. Kremer, Antike Grabbauten in Noricum (Wien 2001) 266, Nr. II 356. (B)</bibl><bibl>E. Schallmayer - K. Eibl - J. Ott - G. Preuß - E. Wittkopf, Der römische Weihebezirk von Osterburken 1 (Stuttgart 1990) 221-222, Nr. 258.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

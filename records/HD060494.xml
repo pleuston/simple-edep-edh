@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Colonia Laus Iulia Corinthus &amp;ndash; Kórinthos (Achaia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD060494</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD060494</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/53">base</objectType><dimensions unit="cm"><height>75</height><width>(40)</width><depth>14</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6-3.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Achaia</placeName><placeName type="ancient" ref="#">Colonia Laus Iulia Corinthus</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1936"><placeName type="country" ref="https://www.geonames.org/390903">Greece</placeName><placeName type="modern">Kórinthos</placeName><placeName type="findspot">Südstoa</placeName><placeName type="region">Pelopónissos</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD060494_1" sex="M"><persName><name type="praenomen">Cn.</name><name type="nomen">Publicius+</name><name type="cognomen">Rusticus+</name></persName></person><person xml:id="HD060494_2" sex="M"><persName><name type="praenomen">M.</name></persName></person><person xml:id="HD060494_3" sex="W"><persName><name type="nomen">Babbia</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2010-04-26" who="Cowey">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>Cn</abbr><ex>aeo</ex></expan> Public<supplied reason="lost">io</supplied> <lb n="2"/><expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> <expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>n</abbr><ex>epoti</ex></expan> <expan><abbr>M</abbr><ex>arci</ex></expan> pr<supplied reason="lost"><expan><abbr>on</abbr><ex>epoti</ex></expan></supplied> <lb n="3"/><expan><abbr>Aem</abbr><ex>lia</ex></expan> Rust<supplied reason="lost">ico</supplied> <lb n="4"/>IIviralibus <supplied reason="lost">et <expan><abbr>quinquen</abbr><ex>nalibus</ex></expan></supplied> <lb n="5"/>et agonot<supplied reason="lost"><expan><abbr>het</abbr><ex>is</ex></expan> ornamentis</supplied> <lb n="6"/>hon<supplied reason="lost">orato</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="7"/>po<supplied reason="lost">st obitum<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="8"/><expan><abbr>M</abbr><ex>arcus</ex></expan> Pu<supplied reason="lost">blicius</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="9"/>Babbia u<supplied reason="lost">xor eius</supplied> <lb n="10"/>parent<supplied reason="lost">ibus</supplied> <lb n="11"/><expan><abbr>d</abbr><ex>ecreto</ex></expan> <supplied reason="lost"><expan><abbr>d</abbr><ex>ecurionum</ex></expan></supplied>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>J.H. Kent, Corinth. Results of excavations conducted by The American School of Classical Studies at Athens 8, 3. The inscriptions 1926-1950 (Princeton 1966) 81, Nr. 176; pl. 17,176.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

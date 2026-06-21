@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Votive inscription from Mechernich (Germania inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD075207</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD075207</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bonn, Rhein. Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">stele?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(55)</height><width>(50)</width><depth>29</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania inferior</placeName><placeName type="ancient" ref="#"/></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1979"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2955867">Mechernich</placeName><placeName type="findspot">{Holzheim}, merowingerzeitliches Plattengrab, sekundär verwendet</placeName><placeName type="region">Nordrhein-Westfalen</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/372">votive inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD075207_1" sex="M"><persName><name type="nomen">Iulius+</name><name type="cognomen">[-]accus</name></persName></person><person xml:id="HD075207_2" sex="M"><persName><name type="nomen">INV[---]</name><name type="cognomen">[---]mus</name></persName></person><person xml:id="HD075207_3" sex="M"><persName><name type="nomen">Iulius+</name><name type="cognomen">Tert[-]D</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-04-11" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Deo Mercurio <supplied reason="lost">I</supplied>uli<lb break="no" n="2"/>us <supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied>accus INV<gap reason="lost" extent="unknown" unit="character"/><lb break="no" n="3"/><gap reason="lost" extent="unknown" unit="character"/>mus et Iuliu<supplied reason="lost">s</supplied> Tert<supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/></supplied>D <lb n="4"/><expan><abbr>v</abbr><ex>otum</ex></expan> <supplied reason="lost"><expan><abbr>s</abbr><ex>olverunt</ex></expan> <expan><abbr>l</abbr><ex>ibentes</ex></expan></supplied> <expan><abbr>m</abbr><ex>erito</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Noelke geht von nur zwei Dedikanten aus. Aufgrund der schlechten Erhaltung nicht mit Sicherheit zu entscheiden.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2011, 0800.</bibl><bibl>P. Noelke, JRGZ 58, 2011, 551, Nr. 1.19; Abb. 63. - AE 2011.</bibl><bibl>E. Nieveler, Die merowingerzeitliche Besiedlung des Erftkreises und des Kreises Euskirchen (Mainz 2003) 367, Nr. 72. - AE 2011.</bibl><bibl>A. Jürgens, in: Ausgrabungen im Rheinland 1979/80. Rheinisches Landesmuseum Bonn, Ausstellung 1981 (Bonn 1981) 148-150; Abb. 85. - AE 2011.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

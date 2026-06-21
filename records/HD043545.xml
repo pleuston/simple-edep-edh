@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Iluro &amp;ndash; Mataró (Hispania citerior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD043545</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD043545</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mataró, Mus. Comarcal del Maresme</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>42</height><width>(36)</width><depth>4</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.2-4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Hispania citerior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/246437">Iluro</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0100" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 100 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1949"><placeName type="country" ref="https://www.geonames.org/2510769">Spain</placeName><placeName type="modern" ref="http://www.geonames.org/3117164">Mataró</placeName><placeName type="findspot">Calle de Quintana</placeName><placeName type="region">Cataluña</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD043545_1" sex="M"><persName><name type="praenomen">P.</name><name type="nomen">Sicinius</name><name type="cognomen">Germanus+?</name></persName></person><person xml:id="HD043545_2" sex="W"><persName><name type="nomen">Caecilia</name><name type="cognomen">C[---]?</name></persName></person><person xml:id="HD043545_3" sex="W"><persName><name type="nomen">Sicinia</name><name type="cognomen">Germana+?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2009-08-31" who="Platz">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>P</abbr><ex>ublio</ex></expan> Sicinio <expan><abbr>P</abbr><ex>ubli</ex></expan> <expan><abbr>l</abbr><ex>iberto</ex></expan> Germ<supplied reason="lost" cert="low">ano</supplied> <lb n="2"/>pis<supplied reason="lost">tori</supplied> <lb n="3"/>Caeciliae <expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>l</abbr><ex>ibertae</ex></expan> <expan><abbr>C</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/>Sicinia <expan><abbr>P</abbr><ex>ubli</ex></expan> <expan><abbr>f</abbr><ex>ilia</ex></expan> Germ<supplied reason="lost" cert="low">ana</supplied> <lb n="5"/>matri et <supplied reason="lost">patri</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Elf aneinanderpassende Fragmente einer Marmortafel. Z. 1: statt Germ[ano?] auch Germ[aniano?] denkbar. Z. 3: vom C(?) ist die linke untere Ecke der Rundung erhalten. Z. 4: statt Germ[ana?] auch Germ[aniana?] denkbar.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>IRC 1, 106; pl. 38, 106.</bibl><bibl>IRC 5, p. 24.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>List from Samothracia, insula &amp;ndash; Samothráki, Insel (Thracia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD066374</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD066374</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Samothráki, Mus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(9)</height><width>(8)</width><depth>4</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">1.5-2</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Thracia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/501597">Samothracia, insula</placeName></origPlace><origDate><origDate when-custom="-008" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">8 BC</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/390903">Greece</placeName><placeName type="modern" ref="http://www.geonames.org/734358">Samothráki, Insel</placeName><placeName type="findspot"/><placeName type="region">Anatolikí Makedonía, Thráki</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/108">list</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD066374_1" sex="M"><persName/></person><person xml:id="HD066374_2" sex="M"><persName><name type="cognomen">Verus</name></persName></person><person xml:id="HD066374_3" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Axsius</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD066374_4" sex="M"><persName><name type="nomen">Pomponius+</name></persName></person><person xml:id="HD066374_5" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Fictorius</name></persName></person><person xml:id="HD066374_6" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Rustius</name></persName></person><person xml:id="HD066374_7" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Cusinius</name></persName></person><person xml:id="HD066374_8" sex="M"><persName><name type="praenomen">M.</name><name type="nomen">Licinius+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-06-22" who="Cowey">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/>V<gap reason="lost" extent="unknown" unit="character"/> <lb n="1"/>Verus <lb n="2"/><expan><abbr>C</abbr><ex>aius</ex></expan> Axsius <expan><abbr>C</abbr><ex>ai</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> Pomponi<supplied reason="lost">us</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/><expan><abbr>C</abbr><ex>aius</ex></expan> Fictorius <gap reason="lost" extent="unknown" unit="character"/> <lb n="5"/><expan><abbr>C</abbr><ex>aius</ex></expan> Rustius <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <lb n="6"/><expan><abbr>M</abbr><ex>arcus</ex></expan> Cusinius <gap reason="lost" extent="unknown" unit="character"/> <lb n="7"/><expan><abbr>M</abbr><ex>arcus</ex></expan> Licini[us ------
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2008, 1207.</bibl><bibl>N. Dimitrova, Theoroi and Initiates in Samothrace. The Epigraphical Evidence.</bibl><bibl>(Athens 2008) 171, Nr. 84; Fig. 65. - AE 2008.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

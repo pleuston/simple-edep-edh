@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph? from Roma, aus &amp;ndash; Cave (Roma)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD032558</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD032558</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">tabula?</objectType><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Roma</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/423025">Roma, aus</placeName></origPlace><origDate><origDate notBefore-custom="0222" notAfter-custom="0235" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">222 AD - 235 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Cave</placeName><placeName type="findspot">S. Carlo, Kirche, sekundär verwendet</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph?</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD032558_1" sex="M"><persName ref="http://data.snapdrgn.net/person/3251"><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">Bae[---]+?</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2010-03-26" who="Gräf">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F010979" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/3b05ce39-6525-490e-8d03-daccef363d40/file/id/770499/file_version/name/small"/><graphic xml:id="F040260" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/0b5e5729-4e83-477f-bcc9-cb89164ca975/file/id/801142/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                ------<certainty match="preceding-sibling::node()" locus="value"/>] <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <expan><abbr>BaE</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/><supplied reason="lost"><expan><abbr>proc</abbr><ex>uratori</ex></expan> <expan><abbr>prov</abbr><ex>inciae</ex></expan></supplied> Belg<supplied reason="lost"><expan><abbr>ic</abbr><ex>ae</ex></expan> et <expan><abbr>duar</abbr><ex>um</ex></expan> <expan><abbr>Germaniar</abbr><ex>um</ex></expan></supplied> <lb n="4"/><supplied reason="lost"><expan><abbr>cur</abbr><ex>atori</ex></expan> <expan><abbr>col</abbr><ex>oniae</ex></expan> <expan><abbr>Iul</abbr><ex>iae</ex></expan></supplied> <expan><abbr>Cl</abbr><ex>audiae</ex></expan> Tingi<supplied reason="lost"><expan><abbr>t</abbr><ex>anae</ex></expan> <expan><abbr>proc</abbr><ex>uratori</ex></expan> <expan><abbr>prov</abbr><ex>inciae</ex></expan> <expan><abbr>Mauret</abbr><ex>aniae</ex></expan> <expan><abbr>Tingit</abbr><ex>anae</ex></expan></supplied> <lb n="5"/><supplied reason="lost"><expan><abbr>proc</abbr><ex>uratori</ex></expan> <expan><abbr>prov</abbr><ex>inciae</ex></expan></supplied> <expan><abbr>n<am>n</am></abbr><ex>oniae</ex></expan> <supplied reason="lost"><gap reason="lost" extent="unknown" unit="character"/>(erioris) agenti per<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <expan><abbr>Apul</abbr><ex>iam</ex></expan> <expan><abbr>Calabr</abbr><ex>iam</ex></expan></supplied> <lb n="6"/><supplied reason="lost"><expan><abbr>Lucan</abbr><ex>iam</ex></expan> B</supplied>rut<supplied reason="lost"><expan><abbr>t</abbr><ex>ios</ex></expan></supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="7"/><supplied reason="lost"><expan><abbr>proc</abbr><ex>uratori</ex></expan> XXXX</supplied> <expan><abbr>Galliar</abbr><ex>um</ex></expan> <expan><abbr>praeposit</abbr><ex>o</ex></expan> v<supplied reason="lost">exillationum</supplied> <lb n="8"/><supplied reason="lost">per <expan><abbr>Germ</abbr><ex>aniam</ex></expan></supplied> et <expan><abbr>Raet</abbr><ex>iam</ex></expan> et <expan><abbr>Noric</abbr><ex>um</ex></expan> <supplied reason="lost">et <expan><abbr>Pann</abbr><ex>oniam</ex></expan> et</supplied> <lb n="9"/><supplied reason="lost"><expan><abbr>Moes</abbr><ex>iam</ex></expan> pra</supplied>&amp;lt;ef=II&amp;gt;(ecto) <expan><abbr>kastr</abbr><ex>orum</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> II <expan><abbr>Tr</abbr><ex>aianae</ex></expan> <expan><abbr>p</abbr><ex>rimo</ex></expan> <supplied reason="lost"><expan><abbr>p</abbr><ex>ilo</ex></expan> <expan><abbr>leg</abbr><ex>ionis</ex></expan> <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="10"/><supplied reason="lost">|(centurioni) <expan><abbr>coh</abbr><ex>ortis</ex></expan> <gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/> p</supplied><expan><abbr>raet</abbr><ex>oriae</ex></expan> XII <expan><abbr>urb</abbr><ex>anae</ex></expan> <supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/><expan><abbr>vig</abbr><ex>ilum</ex></expan></supplied> <lb n="11"/><supplied reason="lost">evocato Augus</supplied><expan><abbr>tor</abbr><ex>um</ex></expan> <expan><abbr>D</abbr><ex cert="low"/>D</expan><certainty match="preceding-sibling::node()" locus="value"/><expan><abbr>L</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/><certainty match="preceding-sibling::node()" locus="value"/> 
+            </ab></div>
+            <div type="commentary">
+                <p>Es waren 2 Fragmente erhalten; heute verschollen. Ergänzungsvorschlag nach G. Alföldy.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 06, 41284; Zeichnung.</bibl><bibl>CIL 06, 31870.</bibl><bibl>CIL 06, 31871.</bibl><bibl>CIL 14, 00289*c.</bibl><bibl>CIL 14, 00289*d.</bibl><bibl>PIR (2. Aufl.) B 36.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

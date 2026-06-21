@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Sirmium &amp;ndash; Sremska Mitrovica (Pannonia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD073610</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD073610</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Zagreb, Arh. Muz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(111)</height><width>(89)</width><depth>31</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/207447">Sirmium</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1866"><placeName type="country" ref="https://www.geonames.org/6290252">Serbia</placeName><placeName type="modern" ref="http://www.geonames.org/3190103">Sremska Mitrovica</placeName><placeName type="findspot"/><placeName type="region">Vojvodina</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD073610_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">Civilis</name></persName></person><person xml:id="HD073610_2" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Iulius*</name><name type="cognomen">Florus</name></persName></person><person xml:id="HD073610_3" sex="W"><persName><name type="nomen">Iulia</name><name type="cognomen">Festa</name></persName></person><person xml:id="HD073610_4" sex="W"><persName><name type="nomen">Anicia</name><name type="cognomen">Macrina+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2017-02-21" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/>Civilis <lb n="2"/><expan><abbr>dec</abbr><ex>urio</ex></expan> <expan><abbr>col</abbr><ex>oniae</ex></expan> <expan><abbr>n<am>n</am></abbr><ex>orum</ex></expan> L <lb n="3"/>et <expan><abbr>C</abbr><ex>aius</ex></expan> <expan><abbr>Iul</abbr><ex>ius</ex></expan> <expan><abbr>C</abbr><ex>ai</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> <lb n="4"/>Florus <expan><abbr>dec</abbr><ex>urio</ex></expan> <expan><abbr>col</abbr><ex>oniae</ex></expan> <lb n="5"/><expan><abbr>n<am>n</am></abbr><ex>orum</ex></expan> XX et Iuliae <lb n="6"/>Festae <expan><abbr>n<am>n</am></abbr><ex>orum</ex></expan> XII <lb n="7"/>Anicia <supplied reason="lost">M</supplied>a<supplied reason="lost">cr</supplied>ina <lb n="8"/>marito et fili<expan><ex>i</ex><abbr>s</abbr></expan>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 03242.</bibl><bibl>V. Dautova-Ruševljan, Rimska kamena plastika u jugoslovenskom delu provincije Donje Panonije (Novi Sad 1983) 15, Nr. 28.</bibl><bibl>M. Mirković, in: V. Popović (Hrsg.), Archaeological investigations in Syrmian Pannonia. To the memory of Miodrag Grbić, Sirmium (Beograd 1971) 80-81, Nr. 77; pl. 11, 3.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

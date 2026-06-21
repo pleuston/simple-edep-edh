@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Carnuntum &amp;ndash; Bad Deutsch-Altenburg (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD073348</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD073348</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Bad Deutsch-Altenburg, Arch. Mus. Carnuntinum</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>191</height><width>60</width><depth>22</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">8.0-3.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/128376">Carnuntum</placeName></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1908"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2782068">Bad Deutsch-Altenburg</placeName><placeName type="findspot">{Legionslager}, Praetentura</placeName><placeName type="region">Niederösterreich</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD073348_1" sex="W"><persName><name type="cognomen">Aurelia*</name></persName></person><person xml:id="HD073348_2" sex="M"><persName><name type="cognomen">Aurelianus</name></persName></person><person xml:id="HD073348_3" sex="M"><persName><name type="cognomen">Bonus</name></persName></person><person xml:id="HD073348_4" sex="W"><persName><name type="cognomen">Iusta</name></persName></person><person xml:id="HD073348_5" sex="M"><persName><name type="cognomen">Bonosus</name></persName></person><person xml:id="HD073348_6" sex="M"><persName><name type="cognomen">Firmanus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-11-17" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F009683" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/0a2fb513-7748-471a-a0ad-f4e8bc4b794b/file/id/769325/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>i</abbr><ex>nferis</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> </ab></div><div n="2" type="textpart"><ab><lb n="1"/> Aureli<expan><ex>a</ex><abbr>e</abbr></expan> Aureliani <lb n="2"/><expan><abbr>a</abbr><ex>nnos</ex></expan> <expan><abbr>n</abbr><ex>atae</ex></expan> XXXV et Bono <expan><abbr>fi</abbr><ex>lio</ex></expan> <lb n="3"/><expan><abbr>a</abbr><ex>nnos</ex></expan> <expan><abbr>n</abbr><ex>ato</ex></expan> X quem mihi <lb n="4"/>crudelis Genesis <lb n="5"/>abstulit de sc<expan><ex>h</ex><abbr>o</abbr><ex>l</ex><abbr>a</abbr></expan><certainty match="preceding-sibling::node()" locus="value"/> <lb n="6"/>immerentem et <lb n="7"/>Iust<expan><ex>a</ex><abbr>e</abbr></expan> fili<expan><ex>a</ex><abbr>e</abbr></expan> <expan><abbr>a</abbr><ex>nnos</ex></expan> <expan><abbr>n</abbr><ex>atae</ex></expan> V <lb n="8"/>qu<expan><ex>a</ex><abbr>e</abbr></expan> erat ingressa <lb n="9"/>atminestrare <note>sic</note> pa<lb break="no" n="10"/>rentibus dulcissim<lb break="no" n="11"/>am <expan><abbr>aetate</abbr><ex>m</ex></expan> Bonos<lb break="no" n="12"/>us Firmani imm<lb break="no" n="13"/>unis spec<expan><ex>u</ex><abbr>lariarius</abbr></expan> <lb n="14"/><expan><abbr>leg</abbr><ex>ionis</ex></expan> XIIII <expan><abbr>g</abbr><ex>eminae</ex></expan> qui ipse <lb n="15"/>coniugi et fili<expan><ex>i</ex><abbr>s</abbr></expan> suis <lb n="16"/>fecit
+            </ab></div></div>
+            <div type="commentary">
+                <p>Zeile 1 befindet sich über dem gerahmten Inschriftfeld. (B): Hild; Genser; CLEPann: kleinere Leseabweichungen. Z. 5: ILS: [fata]lis.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILS 9094. (B)</bibl><bibl>CLEPann 061. (B)</bibl><bibl>F. Hild, Supplementum epigraphicum zu CIL III. Das pannonische Niederösterreich, Burgenland und Wien 1902-1968 (Diss. Wien 1968) 86, Nr. 137. (B)</bibl><bibl>E. Vorbeck, Militärinschriften aus Carnuntum (2. Aufl. Wien 1980) 40, Nr. 84.</bibl><bibl>M.-L. Krüger, Die Reliefs des Stadtgebietes von Carnuntum 2. Die dekorativen Reliefs, CSIR Österreich 1, 4 (Wien 1972) 41, Nr. 517; Taf. 40, 517.</bibl><bibl>K. Genser, Römische Steindenkmäler aus Carnuntum I (Wien 2005) 14-15. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

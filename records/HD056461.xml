@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Mogontiacum &amp;ndash; Mainz (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD056461</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD056461</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mainz, Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/189">block</objectType><material>Gesteine</material><dimensions unit="cm"><height>(17)</height><width>(28)</width><depth>(36)</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109169">Mogontiacum</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0130" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 130 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1834"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2874225">Mainz</placeName><placeName type="findspot">{Hartenberg}</placeName><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD056461_1" sex="M"><persName><name type="cognomen">Gaius</name></persName></person><person xml:id="HD056461_2" sex="M"><persName><name type="cognomen">Athenodorus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2018-10-24" who="Esch">checked through autopsy</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F014701" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/29384747-60fe-4328-a686-85d662ac292d/file/id/774235/file_version/name/small"/><graphic xml:id="F014703" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/f87d3fdd-df2e-418f-9f50-f9f0028b2793/file/id/774237/file_version/name/small"/><graphic xml:id="F014702" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/883c2d8f-d854-4d70-b4d7-155ea203c9e2/file/id/774236/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><div n="1" type="textpart"><ab><lb n="1"/>
+                Dis Manibus <lb n="2"/>Gai <expan><abbr>nat</abbr><ex>ione</ex></expan> <expan><abbr>Rhodi</abbr><ex>i</ex></expan> <lb n="3"/>Athenodorus <lb n="4"/>pater fecit </ab></div><div n="2" type="textpart"><ab><lb n="1"/> <expan><abbr>Le</abbr><ex>gio</ex></expan> XX<gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div></div>
+            <div type="commentary">
+                <p>Zwei aneinanderpassende Fragmente erhalten. Autopsie R. Wiegels. Z. 1-4: Inschriftfeld in Form einer tabula ansata; Z. 5 u. 6 gehören zu einer weiteren Inschrift und befinden sich auf der linken Nebenseite und um 90 Grad gedreht.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 07084.</bibl><bibl>A. Kakoschke, Ortsfremde in den römischen Provinzen Germania inferior und Germania superior: Eine Untersuchung zur Mobilität in den germanischen Provinzen anhand der Inschriften des 1. bis 3. Jahrhunderts n. Chr. (Möhnesee 2002) 41, Nr. 1. 90.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

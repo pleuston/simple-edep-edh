@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honorific inscription from Tergeste &amp;ndash; Trieste (Venetia et Histria (Regio X))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD033038</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD033038</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Trieste, Civ. Mus. Stor. Arte Orto Lap.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/57">statue base</objectType><dimensions unit="cm"><height>(70)</height><width>(55)</width><depth>70</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">5.5-4</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Venetia et Histria (Regio X)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/187578">Tergeste</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Trieste</placeName><placeName type="findspot">S. Giusto, Kathedrale</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/69">honorific inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD033038_1" sex="M"><persName><name type="praenomen">L.</name><name type="nomen">Appuleius+</name><name type="cognomen">Taurinus+</name></persName></person><person xml:id="HD033038_2"><persName><name type="nomen">Valeria+</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2007-12-20" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F000737" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/5fdc0739-5cb3-458d-9720-659b3c13730d/file/id/761830/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>L</abbr><ex>ucio</ex></expan> Appule<supplied reason="lost">io</supplied> <lb n="2"/><expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>fil</abbr><ex>io</ex></expan> P<supplied reason="lost"><expan><abbr>up</abbr><ex>inia</ex></expan></supplied> <lb n="3"/>Tauri<supplied reason="lost">no</supplied> <lb n="4"/>decur<supplied reason="lost">ioni</supplied> <lb n="5"/>aed<supplied reason="lost">ili</supplied> <lb n="6"/><supplied reason="lost">Val</supplied>eria <gap reason="lost" extent="unknown" unit="character"/> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Auf der Oberseite ein Dübelloch.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>G. Alföldy, Römische Statuen in Venetia et Histria. Epigraphische Quellen (Heidelberg 1984) 86, Nr. 38.</bibl><bibl>CIL 05, 00550.</bibl><bibl>InscrIt 10, 4, 0058; Foto.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Flavia Solva, bei &amp;ndash; Stallhofen (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD053628</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD053628</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Stallhofen, S. Nikolaus, Pfarrkirche</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">grave monument?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor, weiß</material><dimensions unit="cm"><height>128</height><width>87</width><depth>57</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197273">Flavia Solva, bei</placeName></origPlace><origDate><origDate notBefore-custom="0071" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">71 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1984"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/7873554">Stallhofen</placeName><placeName type="findspot">{S. Nikolaus, Pfarrkirche}, sekundär verwendet</placeName><placeName type="region">Steiermark</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD053628_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Talamerius</name><name type="cognomen">Sabinus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-07-30" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>C</abbr><ex>aio</ex></expan> Talamerio <lb n="2"/>Sabino <lb n="3"/>A<gap reason="lost" extent="unknown" unit="character"/><expan><abbr>O</abbr><ex cert="low"/></expan> <lb n="4"/><expan><abbr>S</abbr><ex cert="low"/></expan><gap reason="lost" extent="unknown" unit="character"/>RIA <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr>NA</abbr><ex cert="low"/></expan> <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/>O
+            </ab></div>
+            <div type="commentary">
+                <p>Unterhalb des Inschriftfeldes Szene aus der Amazonomachie; auf der linken Nebenseite eine Dienerin, auf der rechten ein Diener. Nach Kremer wohl Schaftblock eines altar- oder pfeilerförmigen Grabbaus. Z. 4 (Anfang): vom S(?) nur der oberste Teil erhalten. (B): Nagele; Weber - Selinger; AE 1992; Kremer: Lesung abweichend / unvollständig.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1992, 1332. (B)</bibl><bibl>G. Kremer, Antike Grabbauten in Noricum (Wien 2001) 255, Nr. II 302; Taf. 27, II 302. (B)</bibl><bibl>E. Hudeczek, AustrRom 34, 1984, 45. - AE 1992.</bibl><bibl>M. Nagele, ZHVStmk 77, 1986, 39-43; Abb. 2 u. 3; Abb. 4 (Zeichnung). (B) - AE 1992.</bibl><bibl>E. Weber - R. Selinger, RŒ 19/20, 1991/92, 230, Nr. 326. (B) - AE 1992.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Sarsina &amp;ndash; Sarsina (Umbria (Regio VI))</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD017830</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD017830</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><dimensions unit="cm"><height>38</height><width>(59)</width><depth>14</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">4.6-2.8</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Umbria (Regio VI)</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/413306">Sarsina</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0050" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 50 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3175395">Italy</placeName><placeName type="modern">Sarsina</placeName><placeName type="findspot"/></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD017830_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">Appaeus+</name><name type="cognomen">Agricola</name></persName></person><person xml:id="HD017830_2"><persName><name type="nomen">Aufidia</name></persName></person><person xml:id="HD017830_3"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2000-04-11" who="Gräf">no image</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost">Hoc <expan><abbr>monum</abbr><ex>entum</ex></expan> <gap reason="lost" quantity="1" unit="character"/> A</supplied>ppaeus <expan><abbr>A</abbr><ex>uli</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan> Agricola <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">C</supplied>lasse sexvir <expan><abbr>Aug</abbr><ex>ustalis</ex></expan> <lb n="3"/><supplied reason="lost"><expan><abbr>viv</abbr><ex>us</ex></expan> <expan><abbr>fec</abbr><ex>it</ex></expan> sib</supplied>i et Aufidiae <expan><abbr>Q</abbr><ex>uinti</ex></expan> <expan><abbr>f</abbr><ex>iliae</ex></expan> uxori <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><expan><abbr><supplied reason="lost">v</supplied>itr</abbr><ex>ico</ex></expan> Aufidiae <expan><abbr>Q</abbr><ex>uinti</ex></expan> <expan><abbr>f</abbr><ex>iliae</ex></expan> <expan><abbr>Secund</abbr><ex>ae</ex></expan> <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/> et Suavis <expan><abbr>l</abbr><ex cert="low">ibertus</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): AE 1961: Z. 2: [--- Cl]asse; Z. 4 (Anfang): et Aufidiae.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1961, 0153. (B)</bibl><bibl>G. Susini, FR 30, 1960, 102-104. - AE 1961.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

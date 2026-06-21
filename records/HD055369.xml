@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Prayer from Aventicum (Civitas Helvetiorum) &amp;ndash; Avenches (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD055369</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD055369</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Avenches, Mus. Rom.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/109">Bronze, Silber</material><dimensions unit="cm"><height>(7)</height><width>(10)</width><depth>0</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">1.2-0.9</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/177495">Aventicum (Civitas Helvetiorum)</placeName></origPlace><origDate><origDate notBefore-custom="0171" notAfter-custom="0230" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">171 AD - 230 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1970"><placeName type="country" ref="https://www.geonames.org/2658434">Switzerland</placeName><placeName type="modern" ref="http://www.geonames.org/2661661">Avenches</placeName><placeName type="findspot">{Insula 10}</placeName><placeName type="region">Canton de Vaud</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/85">prayer</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD055369_1" sex="M"><persName><name type="praenomen">Sex.</name><name type="nomen">Tetricius</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-12-01" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F024003" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/14e4494f-67c8-4516-b1b4-09b95b769f92/file/id/784667/file_version/name/small"/><graphic xml:id="F016821" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/74afa35b-923d-4d71-abc4-fed827243bc1/file/id/776407/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Mars Gradive pate<supplied reason="lost">r</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/>hanc patriam cive<supplied reason="lost">sque</supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/>inclute bellator T<gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/>imperio monitus m<supplied reason="lost">erito<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="5"/><expan><abbr>Sex</abbr><ex>tus</ex></expan> Tetricius donum <supplied reason="lost">dedit</supplied><gap reason="lost" extent="unknown" unit="character"/>
+            </ab></div>
+            <div type="commentary">
+                <p>Das Täfelchen war nach Frei am ehesten an der Basis einer Marsstatuette angebracht. Material: versilberte Bronze. Schreibtechnik: eingraviert. Metrik: daktylisches Versmaß (Hexameter oder Distichen). (B): Bögli: Z. 2: civ[i---]; Frei-Stolba - Bielmann: Z. 2: civ[esque ---]; Bögli; Frei-Stolba - Bielmann; AE 1991: Z.3: bellator [---]; Bögli: Z. 4: monitus [---]; Bögli; AE 1991: Z. 5: donu[m ---].</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1991, 1255. (B)</bibl><bibl>H. Bögli, JSGU 57, 1972/73, 279-280; Taf. 47, 3. (B) - AE 1991.</bibl><bibl>P. Frei, Pro Aventico 24, 1976, 15-30; Taf. 7 (Foto u. Zeichnung). - AE 1991.</bibl><bibl>R. Frei-Stolba - A. Bielmann, Musée Romain d'Avenches. Les inscriptions. Textes, traduction et commentaire (Lausanne 1996) 85-86, Nr. 24. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

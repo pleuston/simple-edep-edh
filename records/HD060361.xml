@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Nida, bei (Civitas Taunensium) &amp;ndash; Kelkheim/Taunus (Germania superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD060361</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD060361</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Kelkheim/Taunus, Fischbach/Taunus, Dreifaltigkeitskirche, vermauert; Wiesbaden, Museum (Kopie)</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/260">slab</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>55</height><width>42</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">2.5-3.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109205">Nida, bei (Civitas Taunensium)</placeName></origPlace><origDate><origDate notBefore-custom="0671" notAfter-custom="0730" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">671 AD - 730 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1883"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2926626">Kelkheim/Taunus</placeName><placeName type="findspot">Fischbach/Taunus, {Hof Gimbach}, ehemalige Wallfahrtskapelle</placeName><placeName type="region">Hessen</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD060361_1" sex="W"><persName><name type="cognomen">Roteldis</name></persName></person><person xml:id="HD060361_2" sex="M"><persName><name type="cognomen">Rodobertus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2020-08-24" who="Osnabrügge">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                In hun&amp;lt;c=E&amp;gt; te<lb break="no" n="2"/>tolo <note>sic</note> requi<lb break="no" n="3"/>escit bene <note>sic</note> <lb n="4"/>memoria <note>sic</note> R<lb break="no" n="5"/>oteldis R<lb break="no" n="6"/>od<supplied reason="lost">o</supplied>ber<lb break="no" n="7"/>to <note>sic</note> qui <note>sic</note> vixi<lb break="no" n="8"/>t in pace <lb n="9"/>annus <note>sic</note> XX<lb break="no" n="10"/>XV 
+            </ab></div>
+            <div type="commentary">
+                <p>Kreuzzeichen am Anfang von Z. 1. Paläographie: Vorkarolingische Kapitalis II. (B): Boppert: Z. 7/8: q(u)i vi[xi]/t; Z. 8: [p]ace; Kessel: Z. 8/9: Zeilenfall fehlt; CIL 13, 07320, ILCV 3597; Boppert: Z. 9/10: X/XV.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 07320.</bibl><bibl>ILCV 3597.</bibl><bibl>W. Boppert, Die frühchristlichen Inschriften des Mittelrheingebietes (Mainz 1971) 80-82. (B)</bibl><bibl>C. Kessel, MZ 113, 2018, 46-48, Nr. 21; Abb. 30.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

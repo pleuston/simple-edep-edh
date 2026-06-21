@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Iuliacum &amp;ndash; Jülich (Germania inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD077775</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD077775</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Mannheim, Reiss-Engelhorn-Mus., Depot</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">stele?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>(53)</height><width>(64)</width><depth>16</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Germania inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/109068">Iuliacum</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1769"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern" ref="http://www.geonames.org/2894553">Jülich</placeName><placeName type="findspot"/><placeName type="region">Nordrhein-Westfalen</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD077775_1" sex="W"><persName><name type="nomen">Aquileia</name><name type="cognomen">Lefa</name></persName></person><person xml:id="HD077775_2" sex="M"><persName><name type="nomen">Marius+</name><name type="cognomen">Sollemnis</name></persName></person><person xml:id="HD077775_3" sex="M"><persName><name type="nomen">Marius+</name><name type="cognomen">Severus</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2019-01-10" who="Osnabrügge">checked through autopsy</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F038556" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/1e011a8e-792d-4dc0-95be-17eb90393fcf/file/id/799428/file_version/name/small"/><graphic xml:id="F038557" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/e9c6aabb-39f3-43ef-a44c-8ce0a1cafbe0/file/id/799429/file_version/name/small"/><graphic xml:id="F038558" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/42b4d164-cd15-4529-abc1-90eb20b469ca/file/id/799430/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                Aquileia<supplied reason="lost">e</supplied> <lb n="2"/>Lefae Mar<supplied reason="lost">i</supplied> <lb n="3"/>Sollemnis <lb n="4"/>et Severus <lb n="5"/><expan><abbr>fil</abbr><ex>ius</ex></expan> et <expan><abbr>h</abbr><ex>eres</ex></expan> <expan><abbr>f</abbr><ex>ecit</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Allseitig abgeabrietet und fein geglättet. Möglicherweise mittlerer Teil einer Grabstele. Durch Beschädigungen während des zweiten Weltkriegs ist noch ein Fragment vom rechten Rand des Inschriftfeldes verlorengegangen. (B): CIL 13, 07872; Brambach; Haug: Wiedergabe des Vorkriegszustandes.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 13, 07872. (B)</bibl><bibl>W. Brambach, Corpus inscriptionum Rhenanarum (Elberfeld 1867) 131-132, Nr. 597. (B)</bibl><bibl>F. Haug, Die römischen Denksteine des Grossherzoglichen Antiquariums in Mannheim (Konstanz 1877) 55-56, Nr. 81. (B)</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

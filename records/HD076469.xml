@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Augusta Treverorum &amp;ndash; Trier (Belgica)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD076469</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD076469</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Trier, Rhein. Landesmus.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material ref="http://www.eagle-network.eu/voc/material/lod/75">Sandstein</material><dimensions unit="cm"><height>95</height><width>98</width><depth>126</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Belgica</placeName><placeName type="ancient" ref="#">Augusta Treverorum</placeName></origPlace><origDate><origDate notBefore-custom="0151" notAfter-custom="0300" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">151 AD - 300 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2921044">Germany</placeName><placeName type="modern">Trier</placeName><placeName type="findspot"/><placeName type="region">Rheinland-Pfalz</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD076469_1" sex="W"><persName><name type="nomen">Servandia</name><name type="cognomen">Servanda</name></persName></person><person xml:id="HD076469_2" sex="M"><persName><name type="nomen">Iulius</name><name type="cognomen">Servandus</name></persName></person><person xml:id="HD076469_3" sex="W"><persName><name type="nomen">Victoria</name><name type="cognomen">Silvia</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2018-06-01" who="Cowey">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F026769" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/fac8e44a-c79d-4cd0-b3ec-8423d3c8705c/file/id/787522/file_version/name/small"/><graphic xml:id="F026768" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/c15505fb-deb8-420d-a3a7-99aaa1b05d17/file/id/787521/file_version/name/small"/><graphic xml:id="F006469" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/6bf1b895-40d5-4628-84ac-b413eec46167/file/id/767244/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/>Servandiae <lb n="3"/>Servandae fili<lb break="no" n="4"/>ae defunctae Iu<lb break="no" n="5"/>lius Servandus <lb n="6"/>IIIIIIvir <expan><abbr>Aug</abbr><ex>ustalis</ex></expan> et Vi<supplied reason="lost">c</supplied><lb break="no" n="7"/>toriae Silviae c<supplied reason="lost">on</supplied><lb break="no" n="8"/>iugi ei<surplus>i</surplus>us et si<supplied reason="lost">bi</supplied> <lb n="9"/>vivi fecer<supplied reason="lost">unt</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>H. Nesselhauf - H. Lieb, BRGK 40, 1959, 124, Nr. 4.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

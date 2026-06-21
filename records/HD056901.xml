@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Municipium Claudium Virunum, bei &amp;ndash; Klagenfurt/Wörthersee (Noricum)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD056901</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD056901</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Klagenfurt/Wörthersee, Großbuch, S. Lorenz, Kirche, vermauert</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#">tabula?</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/48">Marmor</material><dimensions unit="cm"><height>(79)</height><width>(135)</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Noricum</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197583">Municipium Claudium Virunum, bei</placeName></origPlace><origDate><origDate notBefore-custom="0001" notAfter-custom="0200" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">1 AD - 200 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2782113">Austria</placeName><placeName type="modern" ref="http://www.geonames.org/2777884">Klagenfurt/Wörthersee</placeName><placeName type="findspot">Großbuch, {S. Lorenz, Kirche}, sekundär verwendet</placeName><placeName type="region">Kärnten</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD056901_1" sex="M"><persName><name type="praenomen">C.</name><name type="nomen">Bottius</name><name type="cognomen">Mercator</name></persName></person><person xml:id="HD056901_2" sex="W"><persName><name type="nomen">Bottia</name><name type="cognomen">Suaducia</name></persName></person><person xml:id="HD056901_3" sex="M"><persName><name type="cognomen">Saxsamus (= Saxamus)</name></persName></person><person xml:id="HD056901_4" sex="W"><persName><name type="nomen">Bottia</name><name type="cognomen">Nemeta</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2015-12-10" who="Krenn">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F007007" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/c6c507f6-063c-4f79-9b66-8fc81acd4c3e/file/id/767419/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>C</abbr><ex>aio</ex></expan> Bottio <lb n="2"/>Mercatori <expan><ex>a</ex><abbr>edilicio</abbr></expan> <lb n="3"/>Bottia Saxsami <note>sic</note> <expan><abbr>fil</abbr><ex>ia</ex></expan> <lb n="4"/>Suaducia uxsor <note>sic</note> et <lb n="5"/>sibi <expan><abbr>v</abbr><ex>iva</ex></expan> <expan><abbr>f</abbr><ex>ecit</ex></expan> <lb n="6"/>et Bottiae Nemeta<supplied reason="lost" cert="low">e f(iliae)</supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>(B): CIL 03, 04864: Z. 6 fehlt; ILLPRON, Leber: Z. 6/7: Nemeta/e fil(iae).</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>ILLPRON 0122. (B)</bibl><bibl>CIL 03, 04864. (B)</bibl><bibl>P.S. Leber, Die in Kärnten seit 1902 gefundenen römischen Steininschriften (Klagenfurt 1972) 86, Nr. 159. (B)</bibl><bibl>R. Wedenig, Epigraphische Quellen zur städtischen Administration in Noricum (Klagenfurt 1997) 264, Nr. V 14; Taf. 6, V 14.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

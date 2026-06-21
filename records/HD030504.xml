@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Boundary inscription from Sidrona, bei &amp;ndash; Benkovac (Dalmatia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD030504</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD030504</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/257">tabula</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/74">Konglomerat</material><dimensions unit="cm"><height>190</height><width>66</width><depth>20</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Dalmatia</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197512">Sidrona, bei</placeName></origPlace><origDate><origDate notBefore-custom="0042" notAfter-custom="0069" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">42 AD - 69 AD</origDate></origDate></origin>
+                        <provenance type="found" when="1903"><placeName type="country" ref="https://www.geonames.org/3202326">Croatia</placeName><placeName type="modern" ref="http://www.geonames.org/3203195">Benkovac</placeName><placeName type="findspot">{Bruška, bei}</placeName><placeName type="region">Zadarska županija</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/96">boundary inscription</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD030504_1" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]</name><name type="cognomen">[---]</name></persName></person><person xml:id="HD030504_2" sex="M"><persName><name type="praenomen">Q.</name><name type="nomen">Aebutius</name><name type="cognomen">Liberalis</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2012-03-30" who="Gräf">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"><certainty match=".." locus="name"/></gap> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> Caesaris Au<supplied reason="lost"><expan><abbr>g</abbr><ex>usti</ex></expan></supplied><gap reason="lost" extent="unknown" unit="character"/> <lb n="2"/>inter Sidrinos et <lb n="3"/>Asseriates <expan><abbr>Q</abbr><ex>uintus</ex></expan> Aebu<lb break="no" n="4"/>tius Liberalis |(centurio) <expan><abbr>leg</abbr><ex>ionis</ex></expan> <lb n="5"/>XI definit
+            </ab></div>
+            <div type="commentary">
+                <p>In zwei Teile gebrochen. (B): Colnago - Keil, JŒAI (Beibl.); Colnago - Keil, Asseria: Z. 1: Caes[a]ris; AE 1905: Z. 1: Cae[sa]ris; Colnago - Keil, JŒAI (Beibl.); Colnago - Keil, Asseria; AE 1905; Betz, ILS: Z. 2: [i]nter; Wilkes: Z. 1/2: Zeilenfall nicht angegeben.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 1905, 0164. (B)</bibl><bibl>ILJug 2845.</bibl><bibl>ILS 9379. (B)</bibl><bibl>A. Betz, Untersuchungen zur Militärgeschichte der römischen Provinz Dalmatien (Baden bei Wien 1938) 33, Nr. T8. (B)</bibl><bibl>A. Colnago - J. Keil, JŒAI (Beibl.) 8, 1905, 52; Zeichnung. (B) - AE 1905.</bibl><bibl>A. Colnago - J. Keil, Asseria 6, 2008, 139-141; Zeichnung. (B)</bibl><bibl>J.J. Wilkes, AArchSlov 25, 1974, 262, Nr. 10; fig. 3 (Zeichnung).</bibl><bibl>S. Čače, Asseria 1, 2003, 21-22. 40, Nr. 2.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

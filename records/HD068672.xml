@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Aquincum &amp;ndash; Budapest (Pannonia inferior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD068672</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD068672</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Budapest, Magyar Nemzeti Múz.</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/250">stele</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(127)</height><width>(47)</width><depth>26</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/2000">yes</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">7.4-5.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia inferior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197130">Aquincum</placeName></origPlace><origDate><origDate notBefore-custom="0201" notAfter-custom="0250" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">201 AD - 250 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/7284842">Budapest</placeName><placeName type="findspot">{Óbuda}?</placeName><placeName type="region">Budapest</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD068672_1" sex="M"><persName><name type="praenomen">T.</name><name type="nomen">Torius+</name><name type="cognomen">Gemellianus</name></persName></person><person xml:id="HD068672_2" sex="W"><persName><name type="nomen">Toria</name><name type="cognomen">Gemina*</name></persName></person><person xml:id="HD068672_3" sex="W"><persName><name type="nomen">Aurelia*</name><name type="cognomen">Serena+</name></persName></person><person xml:id="HD068672_4" sex="W"><persName><name type="nomen">Toria</name><name type="cognomen">Gemellina+</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-03-04" who="Feraudi">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/><expan><abbr>T</abbr><ex>ito</ex></expan> Tor<supplied reason="lost">io</supplied> Gem<lb break="no" n="3"/>elliano quon<lb break="no" n="4"/>dam <supplied reason="lost"><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/></supplied><expan><abbr>OC</abbr><ex cert="low">---</ex></expan> <expan><abbr>fabr</abbr><ex>um</ex></expan> <lb n="5"/><expan><abbr>leg</abbr><ex>ionis</ex></expan> II a<supplied reason="lost"><expan><abbr>di</abbr><ex>utricis</ex></expan></supplied> et Tori<lb break="no" n="6"/>ae Gemin<expan><ex>a</ex><abbr>e</abbr></expan> ma<lb break="no" n="7"/>tri eiu<supplied reason="lost">s</supplied> <expan><abbr>Aurel</abbr><ex>ia</ex></expan> <lb n="8"/>Seren<supplied reason="lost">a c</supplied><expan><abbr>oni</abbr><ex>ux</ex></expan> et <lb n="9"/>Toria <supplied reason="lost">G</supplied>emellina <lb n="10"/><expan><abbr>fil</abbr><ex>ia</ex></expan> here<supplied reason="lost">des</supplied> vivi fec<lb break="no" n="11"/><expan><abbr>er</abbr><ex>unt</ex></expan> <expan><abbr>T</abbr><ex>it---</ex></expan> Au<gap reason="lost" extent="unknown" unit="character"/> |(milia)<certainty match="preceding-sibling::node()" locus="value"/>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 03, 03566.</bibl><bibl>CIL 03, 10516.</bibl><bibl>TitAq 0709; Foto.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

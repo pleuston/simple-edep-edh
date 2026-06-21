@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscription from Calceus Herculis &amp;ndash; El Kantara (Numidia)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD033493</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD033493</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Numidia</placeName><placeName type="ancient" ref="#">Calceus Herculis</placeName></origPlace><origDate><origDate notBefore-custom="0211" notAfter-custom="0217" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">211 AD - 217 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/2589581">Algeria</placeName><placeName type="modern">El Kantara</placeName><placeName type="findspot"/></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/143" xml:lang="en">unknown</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD033493_1"><persName><name type="praenomen">M.+</name><name type="nomen">Valerius+</name><name type="cognomen">Senecio+</name></persName></person><person xml:id="HD033493_2" sex="M"><persName><name type="praenomen">[-]</name><name type="nomen">[---]us</name><name type="cognomen">Marc[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2010-10-27" who="Platz">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="0"/>
+                <gap reason="lost" quantity="1" unit="line"/> <lb n="1"/><supplied reason="lost" cert="low">---? M(arco)? Valerio? Seneci</supplied>one <expan><abbr>leg</abbr><ex>ato</ex></expan> Au<supplied reason="lost"><expan><abbr>g</abbr><ex>usti</ex></expan> <expan><abbr>pr</abbr><ex>o</ex></expan> <expan><abbr>pr</abbr><ex>aetore</ex></expan> <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>TPROTYP<gap reason="lost" extent="unknown" unit="character"/> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>o Marc<gap reason="lost" extent="unknown" unit="character"/> <lb n="4"/><supplied reason="lost">|(centurione) <expan><abbr>leg</abbr><ex>ionis</ex></expan> III <expan><abbr>Aug</abbr><ex>ustae</ex></expan> praeposi</supplied>to nu<supplied reason="lost">meri Palmyrenorum<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <gap reason="lost" extent="unknown" unit="character"/></supplied>
+            </ab></div>
+            <div type="commentary">
+                <p>Z. 4: statt [Palmyrenorum] auch [Hemesenorum] denkbar. Datierung: vermutlich in der Regierungszeit Caracallas, als M. Valerius Senecio Statthalter in Numidien war. Möglich wäre auch die Ergänzung A(ulo) Iulio Pompilio Pis]one in Z. 1; Datierung dann: 176-177.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>B.E. Thomasson, Fasti Africani. Senatorische und ritterliche Amtsträger in den römischen Provinzen Nordafrikas von Augustus von Augustus bis Diokletian (Stockholm 1996) 180, Nr. 56c.</bibl><bibl>CIL 08, 18009.</bibl><bibl>PIR V 130.</bibl><bibl>AE 1992, 1851.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

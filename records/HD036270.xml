@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Mogetiana, bei &amp;ndash; Nemesvámos (Pannonia superior)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD036270</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD036270</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material ref="http://www.eagle-network.eu/voc/material/lod/60">Kalkstein</material><dimensions unit="cm"><height>(21)</height><width>(24)</width><depth>16</depth></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><handNote><dimensions><height unit="cm">6.5-4.5</height></dimensions></handNote></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Pannonia superior</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/197381">Mogetiana, bei</placeName></origPlace><origDate><origDate notBefore-custom="0131" notAfter-custom="0170" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">131 AD - 170 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/719819">Hungary</placeName><placeName type="modern" ref="http://www.geonames.org/3047386">Nemesvámos</placeName><placeName type="findspot">Baláca, Likas-domb, {tumulus}</placeName><placeName type="region">Veszprém megye</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD036270_1" sex="M"><persName><name type="praenomen">Ti.+</name><name type="nomen">Claudius+</name><name type="cognomen">Victorinus+?</name></persName></person><person xml:id="HD036270_2" sex="M"><persName><name type="praenomen">Ti.+</name><name type="nomen">Claudius+</name><name type="cognomen">Co[---]</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2016-02-17" who="Gräf">checked with photo</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic xml:id="F011981" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/a12972ea-3b82-4865-a41f-ce05f674bbb6/file/id/771504/file_version/name/small"/><graphic xml:id="F011982" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/88eb8322-18a7-43b1-b5a4-7ab509d124c3/file/id/771505/file_version/name/small"/><graphic xml:id="F011980" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/a2ab9ef8-cbab-4a11-b6d7-e7f12f308ee1/file/id/771503/file_version/name/small"/><graphic xml:id="F040743" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/299c06b6-3eb0-48ca-858b-2996d39476e0/file/id/801623/file_version/name/small"/><graphic xml:id="F040744" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/065595a4-3ca2-431f-be59-2c1a17b6dbce/file/id/801624/file_version/name/small"/><graphic xml:id="F040745" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/0d27e324-60e6-4c63-807a-3a7a850b525b/file/id/801625/file_version/name/small"/><graphic xml:id="F040746" url="https://heidicon.ub.uni-heidelberg.de/api/v1/objects/uuid/9f257686-69d5-4f85-bf0f-a60c6c7c8573/file/id/801626/file_version/name/small"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <supplied reason="lost"><expan><abbr>Ti</abbr><ex>berio</ex></expan> Claudio <expan><abbr>Ti</abbr><ex>beri</ex></expan> <expan><abbr>f</abbr><ex>ilio</ex></expan> V</supplied>icto<lb break="no" n="2"/><supplied reason="lost">rino<certainty locus="name" match="preceding-sibling::text()" cert="low"/> <gap reason="lost" extent="unknown" unit="character"/></supplied> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/> <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost" cert="low"> et</supplied> <lb n="4"/><supplied reason="lost"><expan><abbr>Ti</abbr><ex>berius</ex></expan> Claudiu</supplied>s <supplied reason="lost"><expan><abbr>Ti</abbr><ex>beri</ex></expan> <expan><abbr>f</abbr><ex>ilius</ex></expan></supplied> Co<lb break="no" n="5"/><gap reason="lost" extent="unknown" unit="character"/> pat<supplied reason="lost">ri</supplied> <expan><abbr>f</abbr><ex>ieri</ex></expan> <expan><abbr>i</abbr><ex cert="low">usserunt</ex></expan>
+            </ab></div>
+            <div type="commentary">
+                <p>Autopsie G. Alföldy. Zusammenstellung der Fragmente und Rekonstruktionsvorschlag nach G. Alföldy. Drei Teile, die teilweise in mehrere Fragmente zerbrochen sind; Maße beziehen sich oberen Teil (Fragment G2 bei Alföldy); G3: (31,5) x (26) x (14,5) cm; G4: (16,5) x (16,5) x (11) cm. Rekonstruierte Breite des Inschriftfeldes: circa 75 cm. (B): Fitz, BalácaiKözl; Fitz, Alba Regia; AE 1996: Abweichungen in Lesung und / oder Ergänzung.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2003, 1353.</bibl><bibl>G. Alföldy, BalácaiKözl 8, 2004, 30-32, Nr. II; Abb. 4-6; Abb. 55 (Zeichnung). - AE 2003.</bibl><bibl>AE 1996, 1228. (B)</bibl><bibl>J. Fitz, BalácaiKözl 4, 1996, 221-223, Nr. 5. (B) - AE 1996.</bibl><bibl>S. Palágyi, BalácaiKözl 5, 1997; Abb. 7, 1; 8, 5; 8, 6; 11, 3 (Zeichnungen). - AE 1996.</bibl><bibl>AE 1998, 1049.</bibl><bibl>J. Fitz, Alba Regia 27, 1998, 106-107, Nr. 5; Abb. 4, 5 (Zeichnung). (B) - AE 1998.</bibl><bibl>TRHR (Suppl.) 087a; Abb. 87a (Zeichnung).</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

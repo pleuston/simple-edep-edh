@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Salinae &amp;ndash; Castellane (Alpes Maritimae)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD065936</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD065936</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>verschollen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/29">altar</objectType><material>Gesteine unbestimmt</material><dimensions unit="cm"><height>115</height><width>50</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Alpes Maritimae</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/157920">Salinae</placeName></origPlace><origDate><origDate notBefore-custom="0101" notAfter-custom="0150" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">101 AD - 150 AD</origDate></origDate></origin>
+                        <provenance type="found"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern" ref="http://www.geonames.org/3028382">Castellane</placeName><placeName type="findspot">{Quartier du Plan}, bei</placeName><placeName type="region">Provence-Alpes-Côte d’Azur</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p><listPerson><person xml:id="HD065936_1" sex="M"><persName><name type="praenomen">T.</name><name type="nomen">Quartinius*</name><name type="cognomen">Catullinus</name></persName></person><person xml:id="HD065936_2" sex="W"><persName><name type="nomen">Lucillia*</name><name type="cognomen">Materna</name></persName></person><person xml:id="HD065936_3" sex="M"><persName><name type="praenomen">T.</name><name type="nomen">Quartinius*</name><name type="cognomen">Maternus</name></persName></person><person xml:id="HD065936_4" sex="W"><persName><name type="nomen">Quartinia*</name><name type="cognomen">Catullina</name></persName></person></listPerson></p></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2013-07-19" who="Cimarosti">checked with drawing</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                <expan><abbr>D</abbr><ex>is</ex></expan> <expan><abbr>M</abbr><ex>anibus</ex></expan> <lb n="2"/><expan><abbr>T</abbr><ex>ito</ex></expan> Quartin<expan><ex>i</ex><abbr>o</abbr></expan> <lb n="3"/>Catullino et <lb n="4"/>Lucill<expan><ex>i</ex><abbr>ae</abbr></expan> Mate<lb break="no" n="5"/>rnae parentibus <lb n="6"/><expan><abbr>e</abbr><ex>t</ex></expan> <expan><abbr>T</abbr><ex>ito</ex></expan> Quartin<expan><ex>i</ex><abbr>o</abbr></expan> Mat<lb break="no" n="7"/>erno <expan><abbr>mil</abbr><ex>iti</ex></expan> <expan><abbr>coh</abbr><ex>ortis</ex></expan> XIIII <lb n="8"/><expan><abbr>urb</abbr><ex>anae</ex></expan> fratri Quar<lb break="no" n="9"/>tin<expan><ex>i</ex><abbr>a</abbr></expan> Catullina
+            </ab></div>
+            <div type="commentary">
+                <p>(B): CIL: Leseabweichungen. Bearbeiterin: V. Pettirossi.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>CIL 12, 00065. (B)</bibl><bibl>S. Morabito, Inscriptions latines des Alpes Maritimes (Nice - Montpellier 2010) 123-124, Nr. 24; Zeichnung.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>

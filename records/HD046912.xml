@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaph from Vienna &amp;ndash; Vienne (Narbonensis)</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Epigraphische Datenbank Heidelberg</authority>
+                <availability>
+                    <p>Heidelberger Akademie der Wissenschaften</p>
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">This file is licensed under the Creative Commons Attribution-ShareAlike 4.0 license.
+                    </licence>
+                </availability>
+            <idno type="localID">HD046912</idno><idno type="URI">https://edh-www.adw.uni-heidelberg.de/test/edh/inschrift/HD046912</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository/>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="https://www.eagle-network.eu/voc/objtyp/lod/260">slab</objectType><dimensions unit="cm"><height>66</height><width>30</width></dimensions><rs type="deccoration" ref="http://www.eagle-network.eu/voc/decor/lod/1000">no</rs></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc><ab/></handDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origPlace><placeName type="province">Narbonensis</placeName><placeName type="ancient" ref="https://pleiades.stoa.org/places/167719">Vienna</placeName></origPlace><origDate><origDate notBefore-custom="0560" notAfter-custom="0571" datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">560 AD - 571 AD</origDate></origDate></origin>
+                        <provenance type="found" when="-1991"><placeName type="country" ref="https://www.geonames.org/3017382">France</placeName><placeName type="modern">Vienne</placeName><placeName type="findspot">Notre-Dame-d'outre-Gère, Basilika</placeName></provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+             <p>Encoded following EpiDoc guidelines 9.2</p>
+        </encodingDesc>             
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="de">Deutsch</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords><term ref="http://www.eagle-network.eu/voc/typeins/lod/92">epitaph</term></keywords>
+            </textClass>
+            <particDesc><p/></particDesc>
+        </profileDesc>
+        <revisionDesc><change when="2008-02-11" who="Platz">provisional</change></revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="#"/></facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve"><head>Text</head><ab><lb n="1"/>
+                In hoc tu<lb break="no" n="2"/>mulo req<expan><ex>u</ex><abbr>i</abbr></expan><lb break="no" n="3"/>escit in pace <lb n="4"/>bonae memo<lb break="no" n="5"/>riae Constan<lb break="no" n="6"/>tia quae vixit <lb n="7"/>plus menus <note>sic</note> an<lb break="no" n="8"/>nus <note>sic</note> LX obiit in <lb n="9"/>pace <gap reason="lost" extent="unknown" unit="character"/> <lb n="10"/><expan><abbr>Kal</abbr><ex>endas</ex></expan> <gap reason="lost" extent="unknown" unit="character"/> <lb n="11"/>XX <expan><abbr>p</abbr><ex>ost</ex></expan> <expan><abbr>c</abbr><ex>onsulatum</ex></expan> <lb n="12"/>Basili <expan><abbr>v</abbr><ex>iri</ex></expan> <expan><abbr>c</abbr><ex>larissimi</ex></expan> <expan><abbr>c</abbr><ex>onsulis</ex></expan> <expan><abbr>indic</abbr><ex>tione</ex></expan> <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+            </ab></div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <div type="bibliography">
+                <listBibl><bibl>AE 2001, 1335.</bibl><bibl/></listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>
